@@ -3,9 +3,13 @@
 
 @import "fonts", "reset";
 
-$almost-black: #151515;
+$black: #000000;
+$almost-black: #380022;
 $medium-gray: #696467;
 $light-gray: #a9a0a6;
+
+$yellow: #FAF54F;
+$pale-cyan: #AAB3D4;
 
 $line-height: 24px;
 $font-size: 16px;
@@ -18,8 +22,9 @@ body{
   font-family: "Libre Caslon Regular", serif;
   font-size: $font-size;
   line-height: $line-height;
-  color: #000;
+  color: $almost-black;
   height: 100%;
+  background-image: -webkit-linear-gradient(left, #fff 450px, #eaeaea 449px, #eaeaea 100%)
 }
 
 b, strong, h1, h2, h3, .bold{
@@ -36,6 +41,7 @@ i, em, .italic{
 pre{
   padding:0;
 }
+
 
 #logo{
     height: 220px;
@@ -128,12 +134,12 @@ pre{
     top: -1px;
     bottom: -1px;
     width: 1px;
-    background-color: #151515;
+    background-color: $almost-black;
     left: 25px;
     
     .point{
       position:absolute;
-      background-color: #151515;
+      background-color: $almost-black;
       border-radius: 5px;
       width: 5px;
       height: 5px;
@@ -156,8 +162,23 @@ pre{
   
   width: 100px;
   left: 70px;
-  background: #151515;
+  background: $almost-black;
 }
+
+
+
+
+#left {
+      width: 200px;
+      float: left;
+    }
+    #right {
+      margin-left: 200px;
+      /* Change this to whatever the width of your left column is*/
+    }
+    .clear {
+      clear: both;
+    }
 
 section{
   position: relative;  
@@ -171,42 +192,52 @@ section{
     left: 0px;
     width: 60px;
     // font-size: $font-size+2;
+
+    &.active > a{
+      color: $almost-black;
+      background: $yellow; 
+      border-bottom: 1px solid transparent;
+    }
   }
+
+
 
   .line{
     top: 12px;
   }
-}
 
 
-article{
+  article{
 
-  h2{
-    margin-bottom: 10px;
-  }
+    h2{
+      margin-bottom: 10px;
+    }
 
-  blockquote{
-    color:$light-gray;
-    position:relative;
-    font-size: 12px;
-    line-height: 20px;
+    blockquote{
+      color:$light-gray;
+      position:relative;
+      font-size: 12px;
+      line-height: 20px;
 
-    .date{
-      font-size:11px;
-      line-height: inherit;
-      position: absolute;
-      width: 60px;
-      left: -70px;
-      text-align: right;
-    
+      .date{
+        font-size:11px;
+        line-height: inherit;
+        
+        position: absolute;
+        width: 60px;
+        left: -70px;
+        text-align: right;
+      }
     }
   }
 }
 
 
+
+
+
 aside {
-  width: 350px;
-  margin-left: 100px;
+  
   
   
 
@@ -228,26 +259,74 @@ aside {
   a{
     color: #696467;
     text-decoration: none;
+    transition: background-color .3s ease-in-out;
+    border-bottom: 1px solid transparent;
+  }
+
+  a:hover{
+    border-bottom: 1px solid $almost-black;
+    color: $almost-black;
   }
 
   section li{
     text-transform: capitalize;
     
     &.active > a{
-      color: #000;
-      border-bottom: 1px solid;
+      background-color: $yellow;
+      color: $almost-black;
+      border-bottom: 1px solid transparent;
+      &:hover{
+        background-color: $yellow;
+        border-bottom: 1px solid transparent;
+      }
     }
   }
+
+
 }
 
-.page{
-  position: absolute;
-  top: 250px;
-  left: 500px;
-  right: 150px;
+img.cover{
+  width: 100%;
+}
 
+figure{
+  margin: 20px 0;
+}
+
+figcaption{
+   font-family: "Lato";
+    font-size: 11px;
+    line-height: 18px;
+    padding: 10px 20px;
+
+}
+
+
+.page{
+  
+  
+  padding: 30px 0px 100px;
+
+  .wrapper{
+    padding: 0 50px;
+  }
   h1{
     margin: 50px 0 100px;
   }
+}
+
+.container{
+  
+}
+
+#main{
+  width: 350px;
+  margin-left: 100px;
+  float: left;
+}
+
+#contents{
+  margin-left: 450px;
+  
 }
 

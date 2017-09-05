@@ -1,5 +1,6 @@
 theme: jekyll-theme-tactile
 
 collections:
-- agenda
-
+  agenda:
+    output: true
+    permalink: /:collection/:path/
