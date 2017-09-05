@@ -1,0 +1,253 @@
+---
+---
+
+@import "fonts", "reset";
+
+$almost-black: #151515;
+$medium-gray: #696467;
+$light-gray: #a9a0a6;
+
+$line-height: 24px;
+$font-size: 16px;
+
+html{
+  height: 100%
+}
+body{
+  background: #ffffff;
+  font-family: "Libre Caslon Regular", serif;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: #000;
+  height: 100%;
+}
+
+b, strong, h1, h2, h3, .bold{
+  font-family: "Libre Caslon Bold";
+  font-weight: normal;
+}
+
+i, em, .italic{
+  font-family: "Libre Caslon Italic";
+  font-weight: normal;
+}
+
+
+pre{
+  padding:0;
+}
+
+#logo{
+    height: 220px;
+    margin-left: 17px;
+    margin-top: 25px;
+}
+
+#timeline{
+  position: fixed;
+  top: 85px;
+  left: 0;
+  width: 100px;
+  bottom: 10%;
+  margin-left: 0px;
+
+  .top{
+    top: 0;
+  }
+  
+  .bottom{
+    bottom: 0;
+  }
+
+  .left{
+    left: 0;
+  }
+
+  .right{
+    right: 0;
+  }
+
+  .edge.date{
+    font-size: 11px;
+    line-height: 18px;
+    color: $almost-black;
+    position: absolute;
+    text-align: center;
+    width: 55px;
+
+    &.top{
+      top: -50px;
+    }
+
+    &.bottom{
+      bottom: -50px;
+    }
+  }
+
+  .lines {
+    position:absolute;
+    top:0;
+    bottom:0;
+    width: 50px;
+
+    .line{
+      width: 5px;
+      position:absolute;
+      height: 1px;
+      top: auto;
+      left: auto;
+
+      &.milestone.full.left{
+        left: 0;
+      }
+      &.milestone.full.right{
+        right: 0;
+      }
+
+      &.milestone{
+        height: 2px;
+        width: 13px;
+
+        &.left{
+          left: 5px;
+        }
+
+        &.right{
+          right: 5px;
+        }
+
+        &.full{
+          width: 15px
+        }
+      }
+    }
+  }
+
+  #v-axe{
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    width: 1px;
+    background-color: #151515;
+    left: 25px;
+    
+    .point{
+      position:absolute;
+      background-color: #151515;
+      border-radius: 5px;
+      width: 5px;
+      height: 5px;
+      left: -2px;
+    }
+    
+  }
+
+}
+
+.date{
+  font-family: "Lato";
+  text-transform: uppercase; 
+  color: $light-gray;
+}
+
+.line{
+  position: absolute;
+  height: 1px;
+  
+  width: 100px;
+  left: 70px;
+  background: #151515;
+}
+
+section{
+  position: relative;  
+  overflow: auto;
+  min-height: 100px;
+  color: $medium-gray;
+
+  label{
+    position: absolute;
+    text-align: right;
+    left: 0px;
+    width: 60px;
+    // font-size: $font-size+2;
+  }
+
+  .line{
+    top: 12px;
+  }
+}
+
+
+article{
+
+  h2{
+    margin-bottom: 10px;
+  }
+
+  blockquote{
+    color:$light-gray;
+    position:relative;
+    font-size: 12px;
+    line-height: 20px;
+
+    .date{
+      font-size:11px;
+      line-height: inherit;
+      position: absolute;
+      width: 60px;
+      left: -70px;
+      text-align: right;
+    
+    }
+  }
+}
+
+
+aside {
+  width: 350px;
+  margin-left: 100px;
+  
+  
+
+  section > ul {
+    margin: 50px 70px;
+    list-style-type: none;
+  }
+
+  section > ul li{
+    list-style-type: none;
+    margin: 10px 0;
+  }
+
+  section > ul > li > ul{
+        margin-top: 25px;
+  }
+
+
+  a{
+    color: #696467;
+    text-decoration: none;
+  }
+
+  section li{
+    text-transform: capitalize;
+    
+    &.active > a{
+      color: #000;
+      border-bottom: 1px solid;
+    }
+  }
+}
+
+.page{
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  right: 150px;
+
+  h1{
+    margin: 50px 0 100px;
+  }
+}
+

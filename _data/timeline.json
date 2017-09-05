@@ -1,0 +1,31 @@
+{
+  "start_date": "2017-06-01",
+  "start_date_day": "01 06",
+  "start_date_year": "2017",
+  "end_date": "2020-07-01",
+  "end_date_day": "01 07",
+  "end_date_year": "2020",
+  "values": [
+    {
+      "start_date": "2017-10-23",
+      "end_date": "2017-10-25",
+      "label": "First workshop",
+      "type": "milestone",
+      "content": "First workshop organized by stuff.",
+      "permalink": ""
+    },
+    {
+      "start_date": "2017-09-01",
+      "end_date": "2017-09-01",
+      "type": "container",
+      "items": [
+        {
+          "type": "twitter",
+          "author": "@danieleguido",
+          "content": "Long way to go.",
+          "permalink": ""
+        }
+      ]
+    }
+  ]
+}

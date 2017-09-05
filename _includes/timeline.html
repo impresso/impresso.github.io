@@ -1,0 +1,20 @@
+<aside id="timeline">
+  <div class="date edge top">{{site.data.timeline.start_date_day}}<br/>{{site.data.timeline.start_date_year}}</div>
+  <div class="date edge bottom">{{site.data.timeline.end_date_day}}<br/>{{site.data.timeline.end_date_year}}</div>
+  <div class="lines">
+    <div class="line left top milestone full"></div>
+    <div class="line right top milestone full"></div>
+    <div class="line left bottom milestone full"></div>
+    <div class="line right bottom milestone full"></div>
+
+    <!-- tilmeline values type:milestone -->
+    {% for value in site.data.timeline.values %}
+      <div class="line left milestone" style='top: 20%'></div>
+      <div class="line right milestone" style='top: 20%'></div>
+    {% endfor %}
+  </div>
+  <div id='v-axe'>
+    <div class="point top"></div>
+    <div class="point bottom"></div>
+  </div>
+</aside>
