@@ -5,9 +5,11 @@
 
 $black: #000000;
 $almost-black: #380022;
+$dark-grey: #51484d;
 $medium-gray: #696467;
 $light-gray: #a9a0a6;
 $almost-white: #ffebf7;
+$white: #ffffff;
 $yellow: #FAF54F;
 $pale-cyan: #AAB3D4;
 $red: #cb220d;
@@ -15,6 +17,9 @@ $red: #cb220d;
 $line-height: 24px;
 $font-size: 16px;
 
+$sidebar-width: 320px;
+
+$contents-offset-left: $sidebar-width + 100;
 
 @import "timeline";
 
@@ -28,7 +33,7 @@ body{
   line-height: $line-height;
   color: $almost-black;
   height: 100%;
-  background-image: -webkit-linear-gradient(left, #fff 450px, #eaeaea 449px, #eaeaea 100%)
+  background-image: -webkit-linear-gradient(left, #fff $contents-offset-left, #eeeced $contents-offset-left - 1, #eeeced 100%)
 }
 
 b, strong, h1, h2, h3, .bold{
@@ -147,7 +152,7 @@ aside {
 
 
   a{
-    color: #696467;
+    color: $dark-grey;
     text-decoration: none;
     transition: background-color .3s ease-in-out;
     border-bottom: 1px solid transparent;
@@ -180,7 +185,7 @@ img.cover{
 }
 
 figure{
-  margin: 20px 0;
+  margin: 20px 0 5px;
 }
 
 figcaption{
@@ -212,7 +217,54 @@ figcaption{
   }
 
   p{
-    margin-top: 10px;
+    margin-top: 15px;
+    color: $dark-grey;
+
+    a{
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      color: $almost-black;
+      // border-bottom: 1px solid $almost-black;
+      text-decoration: none;
+      background-color: $white;
+      padding: 2px 3px;
+
+      &:hover{
+        background-color: $yellow;
+        color: $almost-black;
+      }
+    }
+  }
+}
+
+.page.index{
+  h1{
+    font-size: 50px;
+    line-height: 70px;
+    margin: 18px 0 20px;
+  }
+
+  .headline{
+    font-family: "Lato", sans-serif;
+    border-top: 1px solid $almost-black;
+    border-bottom: 2px solid $almost-black;
+    padding: 15px 0;
+    
+    > span{
+      
+    }
+  }
+}
+
+.page.agenda{
+  h1{ 
+    margin-bottom: 30px;
+  }
+  .date{
+    color: $almost-black;
+    font-size: 12px;
   }
 }
 
@@ -221,13 +273,21 @@ figcaption{
 }
 
 #main{
-  width: 350px;
+  width: $sidebar-width;
   margin-left: 100px;
   float: left;
+
+  section{
+    width: $sidebar-width - 50px;
+
+    > ul{
+      margin: 50px 0px 50px 70px;
+    }
+  }
 }
 
 #contents{
-  margin-left: 450px;
+  margin-left: $sidebar-width + 100;
   
 }
 
@@ -246,18 +306,7 @@ figcaption{
     display: inline-block;
     border-radius: 3px;
   }
-
-  &.agenda{
-
-  }
 }
 
-.page.agenda{
-  h1{ 
-    margin-bottom: 30px;
-  }
-  .date{
-    color: $almost-black;
-    font-size: 12px;
-  }
-}
+
+
