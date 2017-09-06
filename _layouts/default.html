@@ -14,9 +14,9 @@
   <body>
     {% include timeline.html %}
     
-    {% assign current = page.url | downcase %}
+    {% assign current = page.url | downcase | split: '/' %}
     {% assign currentpath = page.url | downcase | split: '/' | join: '.' %}
-
+    
     <div class='container'>
 
         <aside id="main" class="col">
@@ -63,7 +63,7 @@
         </section>
         
         <section>
-          <label {% if currentpath == '.agenda' %} class="active" {% endif %}><a href="/agenda">Agenda</a></label>  
+          <label {% if currentpath == '.agenda' or current[1] == 'agenda' %} class="active" {% endif %}><a href="/agenda">Agenda</a></label>  
           <div class="line"></div>
           <ul style="margin-top: 40px">
             {% for post in site.agenda limit:1 %}

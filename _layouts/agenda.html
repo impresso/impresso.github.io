@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page agenda">
+  <div class="wrapper">
+    <h1 class="page-title">{{ page.title }}</h1>
+    <div class='category'><a href='/agenda'>Agenda</a></div>
+    <div class='date'>{{page.date | date: "%a, %d.%m %Y"}}</div>
+
+    {{page.author}}
+    {{page.content }}
+
+    {{post.title}}
+  </div>
+</div>

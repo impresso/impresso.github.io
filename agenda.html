@@ -10,8 +10,8 @@ permalink: agenda/
     <li>
     <article>
       <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-      <blockquote><div class="date">{{post.date | date: "%a, %d.%m.%Y"}}</div>
-      {{post.content}}</blockquote>
+      <blockquote><div class="date">{{post.date | date: "%a, %d.%m %Y"}}</div>
+      {{post.excerpt}}</blockquote>
     </article>
     </li>
   {% endfor %}

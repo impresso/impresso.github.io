@@ -4,3 +4,10 @@ collections:
   agenda:
     output: true
     permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "agenda"
+    values:
+      layout: "agenda"

@@ -7,12 +7,16 @@ $black: #000000;
 $almost-black: #380022;
 $medium-gray: #696467;
 $light-gray: #a9a0a6;
-
+$almost-white: #ffebf7;
 $yellow: #FAF54F;
 $pale-cyan: #AAB3D4;
+$red: #cb220d;
 
 $line-height: 24px;
 $font-size: 16px;
+
+
+@import "timeline";
 
 html{
   height: 100%
@@ -49,121 +53,7 @@ pre{
     margin-top: 25px;
 }
 
-#timeline{
-  position: fixed;
-  top: 85px;
-  left: 0;
-  width: 100px;
-  bottom: 10%;
-  margin-left: 0px;
 
-  .top{
-    top: 0;
-  }
-  
-  .bottom{
-    bottom: 0;
-  }
-
-  .left{
-    left: 0;
-  }
-
-  .right{
-    right: 0;
-  }
-
-  .edge.date{
-    font-size: 11px;
-    line-height: 18px;
-    color: $almost-black;
-    position: absolute;
-    text-align: center;
-    width: 55px;
-
-    &.top{
-      top: -50px;
-    }
-
-    &.bottom{
-      bottom: -50px;
-    }
-  }
-
-  .lines {
-    position:absolute;
-    top:0;
-    bottom:0;
-    width: 50px;
-
-    .line{
-      width: 5px;
-      position:absolute;
-      height: 1px;
-      top: auto;
-      left: auto;
-
-      &.milestone.full.left{
-        left: 0;
-      }
-      &.milestone.full.right{
-        right: 0;
-      }
-
-      &.milestone{
-        height: 2px;
-        width: 13px;
-
-        &.left{
-          left: 5px;
-        }
-
-        &.right{
-          right: 5px;
-        }
-
-        &.full{
-          width: 15px
-        }
-      }
-    }
-  }
-
-  #v-axe{
-    position: absolute;
-    top: -1px;
-    bottom: -1px;
-    width: 1px;
-    background-color: $almost-black;
-    left: 25px;
-    
-    .point{
-      position:absolute;
-      background-color: $almost-black;
-      border-radius: 5px;
-      width: 5px;
-      height: 5px;
-      left: -2px;
-    }
-    
-  }
-
-}
-
-.date{
-  font-family: "Lato";
-  text-transform: uppercase; 
-  color: $light-gray;
-}
-
-.line{
-  position: absolute;
-  height: 1px;
-  
-  width: 100px;
-  left: 70px;
-  background: $almost-black;
-}
 
 
 
@@ -311,7 +201,12 @@ figcaption{
     padding: 0 50px;
   }
   h1{
+    font-size: 28px;
     margin: 50px 0 100px;
+  }
+
+  p{
+    margin-top: 10px;
   }
 }
 
@@ -330,3 +225,33 @@ figcaption{
   
 }
 
+
+.category{
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  a{
+    background-color: #ffffff;
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    /* color: #FAF54F; */
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 3px;
+  }
+
+  &.agenda{
+
+  }
+}
+
+.page.agenda{
+  h1{ 
+    margin-bottom: 30px;
+  }
+  .date{
+    color: $almost-black;
+    font-size: 12px;
+  }
+}

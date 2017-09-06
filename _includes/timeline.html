@@ -7,14 +7,154 @@
     <div class="line left bottom milestone full"></div>
     <div class="line right bottom milestone full"></div>
 
-    <!-- tilmeline values type:milestone -->
-    {% for value in site.data.timeline.values %}
-      <div class="line left milestone" style='top: 20%'></div>
-      <div class="line right milestone" style='top: 20%'></div>
-    {% endfor %}
+    
+
+    
   </div>
   <div id='v-axe'>
     <div class="point top"></div>
     <div class="point bottom"></div>
   </div>
 </aside>
+
+
+<script type='text/javascript' src='https://d3js.org/d3.v4.min.js'></script>
+<script type='text/javascript'>
+  
+  var data = {
+    start_date: "{{site.data.timeline.start_date}}",
+    end_date: "{{site.data.timeline.end_date}}",
+    values: [
+      {% for value in site.data.timeline.values %}
+        {
+          start_date: "{{value.start_date}}",
+          end_date: "{{value.end_date}}",
+          type: "{{value.type}}"
+        },
+      {% endfor %}
+    ]
+  };
+
+  // DOM elements
+  var _timeline     = d3.select("#timeline .lines"),
+      // append pulsing now circle, see stylesheet for infinite pulsations
+      _now          = _timeline.append('div').attr('id', 'timeline-now'),
+      _now_point   = _now.append('div')
+                        .classed('point', true),
+      _now_circle   = _now.append('div')
+                        .classed('circle pulse', true)
+      // append line
+      _pointer      = _timeline.append('div').attr('id', 'timeline-pointer'),
+      _pointer_text = _pointer.append('span')
+                        .classed('date', true),
+
+      _values       = _timeline.append('div')
+                        .classed('values', true);
+
+  // d3 scale function and formatters
+  var rect          = _timeline.node().getBoundingClientRect(),
+      now           = new Date(),
+      timeScale     = d3.scaleTime()
+        .domain([d3.isoParse(data.start_date), d3.isoParse(data.end_date)])
+        .range([0, rect.height]),
+
+      timeFormatter = d3.timeFormat("%d.%m %Y"),
+
+      _is_next_index = -1;
+
+
+  // Transform data
+  data._positions = []
+  data.values = data.values.map(function(d, k) {
+    var sd = d3.isoParse(d.start_date),
+        ed = d3.isoParse(d.end_date);
+
+    d._top        = timeScale(sd);
+    d._height     = timeScale(ed) - d._top;
+    d._start_date = timeFormatter(sd);
+    d._end_date   = timeFormatter(ed);
+
+    // add to position array, so that we can quickly get the closest position to a Y coord.
+    data._positions.push({
+      _index: k,
+      _top: d._top
+    });
+
+    // check if the datum "is next"
+    if(_is_next_index < 0 && now < sd) {
+      d._is_next = true;
+      _is_next_index = k;
+    }
+
+    return d;
+  })
+
+  console.log(data)
+
+  // position now
+  _now
+    .style('transform', 'translate(0px,'+timeScale(now)+'px)');
+
+  // activate events.
+  _timeline
+    .on("mouseenter", function() {
+      _pointer_text
+        .text('');
+
+      _timeline
+        .classed("active", true)
+      _pointer
+        .classed("active", true)
+      
+    })
+    .on("mouseleave", function(){
+      _timeline
+        .classed("active", false)
+      _pointer
+        .classed("active", false)
+
+    })
+    .on("mousemove", function() {
+      var pos = d3.mouse(this),
+          text = timeScale.invert(pos[1]);
+
+      // debugger 
+      _pointer
+        .style('transform', 'translate(0px,'+pos[1]+'px)');
+
+      _pointer_text
+        .text(timeFormatter(text));
+
+      // calculate closest date
+
+    })
+
+  var _enter = _values
+                .selectAll("div.group")
+                .data(data.values)
+                .enter()
+                .append('div')
+                .classed('group', true)
+                .style('transform', function(d){
+                  return 'translateY('+ d._top +'px)'
+                })
+
+  _enter
+    .append('div')
+      .attr('class', function(d) {
+        var classes = ['line','left'];
+        if(d.type == 'milestone')
+          classes.push('milestone')
+        return classes.join(' ')
+      })
+  _enter
+    .append('div')
+      .attr('class', function(d) {
+        var classes = ['line','right'];
+        if(d.type == 'milestone')
+          classes.push('milestone')
+        return classes.join(' ')
+      })
+      
+  
+</script>
