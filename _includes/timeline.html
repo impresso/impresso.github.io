@@ -44,10 +44,20 @@
       _now_circle   = _now.append('div')
                         .classed('circle pulse', true)
       // append line
-      _pointer      = _timeline.append('div').attr('id', 'timeline-pointer'),
+      _pointer      = _timeline.append('div')
+                        .attr('id', 'timeline-pointer'),
       _pointer_text = _pointer.append('span')
                         .classed('date', true),
 
+      // append next big event
+      _next         = _timeline.append('div')
+                        .attr('id', 'timeline-next-event'),
+      _next_text    = _next.append('label')
+                        .text('coming event'),
+      _next_date    = _next.append('div')
+                        .classed('date', true),
+
+      // timeline items container
       _values       = _timeline.append('div')
                         .classed('values', true);
 
@@ -94,6 +104,15 @@
   // position now
   _now
     .style('transform', 'translate(0px,'+timeScale(now)+'px)');
+
+  // position next event
+  if(_is_next_index > -1){
+    _next
+      .classed('active', true)
+      .style('transform', 'translate(0px,'+ data.values[_is_next_index]._top +'px)' )
+
+    _next_date.text(data.values[_is_next_index]._start_date);
+  }
 
   // activate events.
   _timeline
@@ -153,6 +172,8 @@
         var classes = ['line','right'];
         if(d.type == 'milestone')
           classes.push('milestone')
+        if(d._is_next)
+          classes.push('next')
         return classes.join(' ')
       })
       

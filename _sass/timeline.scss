@@ -141,18 +141,17 @@
     
   }
 
+  .date{
+    font-size: 11px;
+    color: $almost-black;
+  }
+
 }
 
-.date{
-  font-family: "Lato";
-  text-transform: uppercase; 
-  color: $light-gray;
-}
 
 .line{
   position: absolute;
   height: 1px;
-  
   width: 100px;
   left: 70px;
   background: $almost-black;
@@ -225,6 +224,20 @@
   }
 }
 
+#timeline-next-event{
+  position: absolute;
+  top: -25px;
+  left: 35px;
+
+  label{
+    
+    font-size: 11px;
+    font-family: "Libre Caslon Italic";
+    white-space: nowrap;
+  }
+
+
+}
 
 @keyframes pulse {
   from {
