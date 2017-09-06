@@ -42,21 +42,22 @@
       _now_point   = _now.append('div')
                         .classed('point', true),
       _now_circle   = _now.append('div')
-                        .classed('circle pulse', true)
-      // append line
-      _pointer      = _timeline.append('div')
-                        .attr('id', 'timeline-pointer'),
-      _pointer_text = _pointer.append('span')
-                        .classed('date', true),
+                        .classed('circle pulse', true),
 
       // append next big event
       _next         = _timeline.append('div')
                         .attr('id', 'timeline-next-event'),
       _next_text    = _next.append('label')
-                        .text('coming event'),
+                        .text('upcoming event'),
       _next_date    = _next.append('div')
                         .classed('date', true),
 
+      // append line
+      _pointer      = _timeline.append('div')
+                        .attr('id', 'timeline-pointer'),
+      _pointer_text = _pointer.append('span')
+                        .classed('date', true),
+                        
       // timeline items container
       _values       = _timeline.append('div')
                         .classed('values', true);

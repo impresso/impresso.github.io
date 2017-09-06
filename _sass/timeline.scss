@@ -55,11 +55,19 @@
     background-color: white;
 
     .line{
-      width: 5px;
+      width: 12px;
       position:absolute;
       height: 1px;
       top: auto;
       left: auto;
+
+      &.left{
+        left: 9px;
+      }
+
+      &.right{
+        right: 9px;
+      }
 
       &.milestone.full.left{
         left: 0;
