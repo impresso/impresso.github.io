@@ -126,9 +126,29 @@
         background-color: #fff;
       }
 
+      
+
+      
+
     }
   }
 
+  &.active{
+    #timeline-next-event{
+      opacity: 0;
+    }
+    .lines .line.next{
+      width: 13px;
+      right: 5px;
+    }
+
+    #timeline-browser{
+      pointer-events: auto;
+      .inner{
+        transform: translateX(0px)
+      }
+    }
+  }
   #v-axe{
     position: absolute;
     pointer-events: none;
@@ -198,10 +218,94 @@
     
 }
 
+#timeline-browser{
+  position: absolute;
+  left: 60px;
+  width: 350px;
+  top: -85px;
+  bottom: -90px;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+
+  .inner{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+
+    transition: transform .36s ease-in-out; 
+    transform: translateX(-365px);
+    background-color: #f0f0f0;
+    
+    overflow: auto;
+  }
+
+  .info{
+    margin: 70px 20px 0;
+    border-top: 1px solid $almost-black;
+    border-bottom: 2px solid $almost-black;
+
+    
+  }
+
+  blockquote{
+    margin: 5px 0 10px;
+  }
+  .close{
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #51484d;
+    color: #51484d;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+    &:hover{
+      color: white;
+      border-color: $almost-black;
+      background-color: $almost-black; 
+    }
+  }
+
+
+
+  .slide{
+    margin: 0 20px;
+    
+    h1{
+      padding: 10px 50px 10px 80px;
+    }
+
+    a{
+      font-size: 13px;
+      line-height: 20px;
+      word-wrap: break-word;
+    }
+    blockquote{
+      margin: 10px 0 5px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+    
+  }
+}
+
 #timeline-closest{
+  transition: opacity .3s ease-in-out;
+  pointer-events: none;
+  opacity: 0;
+
   > .point{
     border: 1px solid transparent;
     background-color: $almost-black; 
+    pointer-events: auto;
+    cursor: pointer;
   }
   > .pulse {
     background-color: transparent;
@@ -210,8 +314,14 @@
     height: 15px;
     left: 17px;
     top: -7px;
+    animation-duration: 2.7s;
   }
 
+  
+
+  &.active{
+    opacity: 1;
+  }
 }
 
 #timeline-pointer{
@@ -227,6 +337,41 @@
 
   &.active{
     opacity: 1
+  }
+
+  > .item{
+    background-color: $almost-black;
+    color: $white;
+    left: 70px;
+    max-width: 300px;
+    position: absolute;
+    padding: 0px 9px;
+    line-height: 30px;
+    top: 20px;
+    border-radius: 3px;
+
+    label {
+      font-family: "Libre Caslon Bold";
+      font-size:12px;
+      line-height: 21px;
+      display: block;
+      margin: 5px 0 10px;
+    }
+    .date{
+      white-space: nowrap;
+      color: $light-grey;
+      border-bottom: 1px solid $light-grey;
+    }
+
+    .category{
+      display: inline-block;
+      background: $white;
+      color: $almost-black;
+      line-height: 18px;
+      font-size: 10px;
+      padding: 0 3px;
+      margin-top: 0;
+    }
   }
 
   > span{
@@ -253,6 +398,7 @@
   position: absolute;
   top: -25px;
   left: 35px;
+  opacity: 1;
 
   label{
     
@@ -283,4 +429,39 @@
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
+}
+
+
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
+
+.flipInX {
+  transform-origin: top left;
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }

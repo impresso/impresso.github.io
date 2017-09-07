@@ -12,7 +12,8 @@
       "label": "Official start date",
       "type": "milestone",
       "content": "Project started",
-      "permalink": ""
+      "permalink": "",
+      "items": []
     },
     {
       "start_date": "2017-10-23",
@@ -20,7 +21,8 @@
       "label": "First workshop",
       "type": "milestone",
       "content": "First workshop organized by stuff.",
-      "permalink": ""
+      "permalink": "",
+      "items": []
     },
     {
       "start_date": "2018-08-01",
@@ -29,6 +31,14 @@
       "type": "milestone",
       "content": "Second workshop organized by stuff.",
       "permalink": "",
+      "items": [
+        {
+          "type": "twitter",
+          "author": "@C2DH_LU",
+          "content": "Test …  @C2DH_LU",
+          "permalink": "https://twitter.com/C2DH_LU/status/882593636004835328"
+        }
+      ]
     },
     {
       "start_date": "2018-11-01",
@@ -37,17 +47,19 @@
       "type": "milestone",
       "content": "Third workshop organized by stuff.",
       "permalink": "",
+      "items": []
     },
     {
-      "start_date": "2017-09-01",
-      "end_date": "2017-09-01",
+      "start_date": "2017-07-05",
+      "end_date": "2017-07-05",
       "type": "container",
+      "label": "a few tweets",
       "items": [
         {
           "type": "twitter",
-          "author": "@danieleguido",
-          "content": "Long way to go.",
-          "permalink": ""
+          "author": "@C2DH_LU",
+          "content": "The @snsf_ch funded IMPRESSO project on #textmining in historical newspapers is in the news http://www.tageblatt.lu/mit-einem-klick-durch-200-jahre-zeitung/ …  @C2DH_LU @tageblatt_lu",
+          "permalink": "https://twitter.com/C2DH_LU/status/882593636004835328"
         }
       ]
     }

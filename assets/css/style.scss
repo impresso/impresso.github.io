@@ -6,8 +6,8 @@
 $black: #000000;
 $almost-black: #380022;
 $dark-grey: #51484d;
-$medium-gray: #696467;
-$light-gray: #a9a0a6;
+$medium-grey: #696467;
+$light-grey: #a9a0a6;
 $almost-white: #ffebf7;
 $white: #ffffff;
 $yellow: #FAF54F;
@@ -21,7 +21,6 @@ $sidebar-width: 320px;
 
 $contents-offset-left: $sidebar-width + 100;
 
-@import "timeline", "layouts/footer";
 
 html{
   height: 100%
@@ -52,6 +51,10 @@ pre{
 }
 
 
+@import "includes/timeline", "includes/footer", "layouts/page";
+
+
+
 #logo{
     height: 220px;
     margin-left: 17px;
@@ -79,7 +82,7 @@ section{
   position: relative;  
   overflow: auto;
   min-height: 100px;
-  color: $medium-gray;
+  color: $medium-grey;
 
   label{
     position: absolute;
@@ -109,7 +112,7 @@ section{
     }
 
     blockquote{
-      color:$light-gray;
+      color:$light-grey;
       position:relative;
       font-size: 12px;
       line-height: 20px;
@@ -199,74 +202,11 @@ figcaption{
 .date{
   font-family: "Lato";
   text-transform: uppercase; 
-  color: $light-gray;
+  color: $light-grey;
 }
 
 
-.page{
-  
-  
-  padding: 30px 0px 100px;
 
-  .wrapper{
-    padding: 0 50px;
-  }
-  h1{
-    font-size: 28px;
-    margin: 50px 0 100px;
-  }
-
-  p{
-    margin-top: 15px;
-    color: $dark-grey;
-
-    a{
-      font-family: 'Lato', sans-serif;
-      font-weight: bold;
-      font-size: 0.8em;
-      text-transform: uppercase;
-      color: $almost-black;
-      // border-bottom: 1px solid $almost-black;
-      text-decoration: none;
-      background-color: $white;
-      padding: 2px 3px;
-
-      &:hover{
-        background-color: $yellow;
-        color: $almost-black;
-      }
-    }
-  }
-}
-
-.page.index{
-  h1{
-    font-size: 50px;
-    line-height: 70px;
-    margin: 18px 0 20px;
-  }
-
-  .headline{
-    font-family: "Lato", sans-serif;
-    border-top: 1px solid $almost-black;
-    border-bottom: 2px solid $almost-black;
-    padding: 15px 0;
-    
-    > span{
-      
-    }
-  }
-}
-
-.page.agenda{
-  h1{ 
-    margin-bottom: 30px;
-  }
-  .date{
-    color: $almost-black;
-    font-size: 12px;
-  }
-}
 
 .container{
   
@@ -276,7 +216,16 @@ figcaption{
   width: $sidebar-width;
   margin-left: 100px;
   float: left;
+  overflow: hidden;
 
+  .inner{
+    transition: transform .36s ease-in-out;
+    
+  }
+
+  &.put-aside .inner{
+    transform: translateX(350px);
+  }
   section{
     width: $sidebar-width - 50px;
 
