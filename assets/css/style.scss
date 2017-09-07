@@ -21,7 +21,7 @@ $sidebar-width: 320px;
 
 $contents-offset-left: $sidebar-width + 100;
 
-@import "timeline";
+@import "timeline", "layouts/footer";
 
 html{
   height: 100%
@@ -185,7 +185,7 @@ img.cover{
 }
 
 figure{
-  margin: 20px 0 5px;
+  margin: 40px 0 5px;
 }
 
 figcaption{

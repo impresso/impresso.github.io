@@ -5,7 +5,7 @@
   width: 100px;
   bottom: 10%;
   margin-left: 0px;
-
+  z-index: 1000;
   .top{
     top: 0;
   }
@@ -165,7 +165,8 @@
   background: $almost-black;
 }
 
-#timeline-now{
+
+.attention-seeker{
   pointer-events: none;
   position: absolute;
   left: 0;
@@ -195,6 +196,22 @@
     z-index: 0;
   }
     
+}
+
+#timeline-closest{
+  > .point{
+    border: 1px solid transparent;
+    background-color: $almost-black; 
+  }
+  > .pulse {
+    background-color: transparent;
+    border: 1px solid $almost-black;
+    width: 15px;
+    height: 15px;
+    left: 17px;
+    top: -7px;
+  }
+
 }
 
 #timeline-pointer{

@@ -53,6 +53,9 @@
           </li>
         </ul>
         <ul>
+          <li {% if currentpath == '.team' %} class="active" {% endif %}>
+            <a href="/team">Team</a>
+          </li>
            <li {% if currentpath == '.consortium' %} class="active" {% endif %}>
             <a href="/consortium">Consortium</a>
           </li>
@@ -69,9 +72,11 @@
             {% for post in site.agenda limit:1 %}
               <li>
               <article>
-                <h2><a href="{{ post.permalink }}">{{post.title}}</a></h2>
-                <blockquote><div class="date">Tuesday.<br/>21.09.2017</div>
-                {{post.excerpt}}</blockquote>
+                <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
+                <blockquote>
+                  <div class="date">{{post.date | date: "%a<br/> %d.%m %Y"}}</div>
+                  {{post.excerpt}}
+                </blockquote>
               </article>
               </li>
             {% endfor %}
@@ -81,6 +86,19 @@
         <section>
           <label>Thanks</label>  
           <div class="line"></div>
+          
+        </section>
+
+        <section>
+          <div class="line"></div>
+          <ul style="margin-top: 40px">
+            <li>
+              <a href='//github.com/impresso'>github <b>/impresso</b></a>
+            </li>
+            <li>
+              <a href='//twitter.com/impresso'>twitter <b>@impresso</b></a>
+            </li>
+          </ul>
         </section>
 
         </aside>
@@ -88,6 +106,9 @@
         <div id="contents" class="col">
             {{content}}
         </div>
+
+        {% include footer.html %}
+
     </div>
 
     {% if site.google_analytics %}
