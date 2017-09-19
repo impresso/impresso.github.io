@@ -4,4 +4,4 @@ permalink: project/history
 layout: page
 ---
 
-placeholder
+placeholder. This is a text
