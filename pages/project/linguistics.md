@@ -4,4 +4,4 @@ permalink: project/linguistics
 ---
 
 Computational Linguistics,
-Blablablab
+[Blablablab](https://httpster.net/)
