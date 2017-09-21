@@ -1,6 +1,7 @@
 ---
 title: "Interface Design"
-permalink: project/design
+permalink: /project/design/
+nolang: /project/design/
 layout: page
 ---
 

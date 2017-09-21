@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang='{{ site.lang | default: "en-US" }}'>
+<html lang='{{ page.lang | default: site.lang }}'>
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
 
@@ -13,59 +14,54 @@
   </head>
   <body>
     
-    
+    {% assign lang = page.lang | default: site.lang %}
+    {% assign nav = site.data.navigation.languages[lang] | default: site.data.navigation.languages.en %}
     {% assign current = page.url | downcase | split: '/' %}
     {% assign currentpath = page.url | downcase | split: '/' | join: '.' %}
     
-    <div class='container'>
+    
+    <div>
 
-        <aside id="main" class="col">
+        <aside id="main">
         
         <div class="inner">
         <img src="{{ '/assets/images/logo.svg' | relative_url }}" id="logo">
 
         <section>
-        <ul>
-          <li {% if currentpath == '' %} class="active" {% endif %}>
-            <a href="/">index</a>
+      
+        <ul id="language-switcher">
+          {% for language in site.languages %}
+          
+          <li {% if lang==language %} class="active" {% endif %}>
+            <a {% if language==site.lang %} href='{{page.nolang}}' {% else %} href='/{{language}}{{page.nolang}}' {% endif %}>{{language}}</a>
           </li>
-          <li {% if currentpath == '.project' %} class="active" {% endif %}>
-            <a href="/project">project</a>
+          {% endfor %}
+        </ul>
+        <ul>
+          {% for item in nav.links %}
+          <li {% if page.url == item.url %} class="active" {% endif %}>
+
+            <a href="{{item.url}}">{{item.title}}</a>
+            {% if item.links %}
             <ul>
-              <li {% if currentpath == '.project.linguistics' %} class="active" {% endif %} >
-                <a href="/project/linguistics">Computational linguistics</a>
+              {% for subitem in item.links %}
+              <li {% if page.url == subitem.url %} class="active" {% endif %} >
+                
+                <a href="{{subitem.url | relative_url}}">{{subitem.title}}</a>
               </li>
-              <li {% if currentpath == '.project.design' %} class="active" {% endif %}>
-                <a href="/project/design">Interface design</a>
-              </li>
-              <li {% if currentpath == '.project.history' %} class="active" {% endif %}>
-                <a href="/project/history">Historical research</a>
-              </li>
+              {% endfor %}
             </ul>
+            {% endif %}
           </li>
+
+          {% endfor %}
+          
         </ul>
-        <ul>
-          <li {% if currentpath == '.tools' %} class="active" {% endif %}>
-            <a href="/tools">Tools</a>
-          </li>
-          <li {% if currentpath == '.publications' %} class="active" {% endif %}>
-            <a href="/publications">Scientific publications</a>
-          </li>
-        </ul>
-        <ul>
-          <li {% if currentpath == '.team' %} class="active" {% endif %}>
-            <a href="/team">Team</a>
-          </li>
-           <li {% if currentpath == '.consortium' %} class="active" {% endif %}>
-            <a href="/consortium">Consortium</a>
-          </li>
-          <li {% if currentpath == '.partners' %} class="active" {% endif %}>
-            <a href="/partners">Partners</a>
-          </li>
-        </ul>
+        
         </section>
         
-        <section>
+
+        <!-- <section>
           <label {% if currentpath == '.agenda' or current[1] == 'agenda' %} class="active" {% endif %}><a href="/agenda">Agenda</a></label>  
           <div class="line"></div>
           <ul style="margin-top: 40px">
@@ -81,29 +77,15 @@
               </li>
             {% endfor %}
           </ul>
-        </section>
+        </section> -->
 
-        <section>
-          <label>Thanks</label>  
-          <div class="line"></div>
-          
-        </section>
+        
 
-        <section>
-          <div class="line"></div>
-          <ul style="margin-top: 40px">
-            <li>
-              <a href='//github.com/impresso'>github <b>/impresso</b></a>
-            </li>
-            <li>
-              <a href='//twitter.com/impresso'>twitter <b>@impresso</b></a>
-            </li>
-          </ul>
-        </section>
+        
         </div>
         </aside>
         
-        <div id="contents" class="col">
+        <div id="contents">
             {{content}}
         </div>
 

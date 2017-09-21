@@ -1,7 +1,13 @@
 theme: jekyll-theme-tactile
+base: https://impresso.github.io
+lang: en
+languages: ["en", "fr"]
 
 collections:
   agenda:
+    output: true
+    permalink: /:collection/:path/
+  glossary:
     output: true
     permalink: /:collection/:path/
 
@@ -11,3 +17,8 @@ defaults:
       type: "agenda"
     values:
       layout: "agenda"
+  - scope:
+      path: ""
+      type: "glossary"
+    values:
+      layout: "glossary"

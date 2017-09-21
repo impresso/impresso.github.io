@@ -1,6 +1,7 @@
 ---
 title: "Historical research"
-permalink: project/history
+permalink: /project/history/
+nolang: /project/history/
 layout: page
 ---
 

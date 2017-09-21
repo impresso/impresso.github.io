@@ -1,0 +1,29 @@
+---
+layout:
+permalink: /sitemaps.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtm1-strict.xsd">
+  {% for link in site.data.navigation.languages.en.links %}
+    <url>
+      <loc>{{site.base}}{{link.url}}</loc>
+      {% for language in site.languages %}
+      {% if language != 'en' %}
+      <xhtml:link rel="alternate" hreflang="{{ language }}" href="{{site.base}}/{{ language }}{{ link.url }}" />
+      {% endif %}
+      {% endfor %}
+    </url>
+    {% if link.links %}
+      {% for sublink in link.links %}
+        <url>
+        <loc>{{site.base}}{{sublink.url}}</loc>
+        {% for language in site.languages %}
+          {% if language != 'en' %}
+          <xhtml:link  rel="alternate" hreflang="{{ language }}" href="{{site.base}}/{{ language }}{{ sublink.url }}" />
+          {% endif %}
+        {% endfor %}
+        </url>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</urlset>

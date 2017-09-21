@@ -1,6 +1,8 @@
 ---
 title: "Computational Linguistics"
-permalink: project/linguistics
+permalink: /fr/project/linguistics/
+nolang: /project/linguistics/
+lang: fr
 ---
 
 Computational Linguistics,

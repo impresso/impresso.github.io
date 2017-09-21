@@ -1,13 +1,17 @@
 .footer{
   clear:both;
-  margin-left: 100px;
+  
   background-color: $white;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 50px;
 
   .inner{
-    border-top: 1px solid $almost-black;
-    margin-left: 70px;
+    margin-left: 100px;
+  margin-right: 100px;
+
+    .row{
+      margin-top: 50px;
+    }
   }
 
   ul{

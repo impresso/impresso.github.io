@@ -1,0 +1,46 @@
+languages:
+  en:
+    links:
+    - title: "Index"
+      url: /
+    - title: "Project"
+      url: /project/
+      links:
+        - title: "Computational Linguistics"
+          url: /project/linguistics/
+        - title: "Design"
+          url: /project/design/
+        - title: "Historical Research"
+          url: /project/history/
+    - title: "People"
+      url: /people/
+      links:
+        - title: "Partners"
+          url: /partners/
+        - title: "Consortium"
+          url: /consortium/
+        # - title: "Friends"
+        #   url: /friends/
+
+  fr:
+    links:
+    - title: "Accueil"
+      url: /fr/
+    - title: "Projet"
+      url: /fr/project/
+      links:
+        - title: "Linguistique Computationelle"
+          url: /fr/project/linguistics/
+        - title: "Design"
+          url: /fr/project/design/
+        - title: "Historical Research"
+          url: /fr/project/history/
+    - title: "Équipe"
+      url: /fr/people/
+      links:
+        - title: "Partenaires"
+          url: /fr/partners/
+        - title: "Consortium"
+          url: /fr/consortium/
+        # - title: "Associés"
+        #   url: /fr/friends/

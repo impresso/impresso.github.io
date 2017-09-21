@@ -13,11 +13,18 @@ $page-margin-right: 50px;
     margin: 50px 0 100px;
   }
 
+  h2{
+    font-size: 20px;
+    margin: 50px 0 20px;
+  }
+
   p{
     margin-top: 15px;
     color: $dark-grey;
     text-align: justify;
-    a{
+    
+  }
+  a{
       font-family: 'Lato', sans-serif;
       font-weight: bold;
       font-size: 0.8em;
@@ -33,7 +40,6 @@ $page-margin-right: 50px;
         color: $almost-black;
       }
     }
-  }
 }
 
 .page.index{

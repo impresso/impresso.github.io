@@ -130,13 +130,16 @@ section{
   }
 }
 
-
+.card{
+  background-color: transparent;
+  border-color: transparent;
+}
 
 
 
 aside {
-  
-  
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  // font-size: 13px;
   
 
   section > ul {
@@ -150,7 +153,7 @@ aside {
   }
 
   section > ul > li > ul{
-        margin-top: 25px;
+        margin: 25px 0px 25px 15px;
   }
 
 
@@ -162,6 +165,7 @@ aside {
   }
 
   a:hover{
+    text-decoration: none;
     border-bottom: 1px solid $almost-black;
     color: $almost-black;
   }
@@ -181,6 +185,14 @@ aside {
   }
 
 
+  section .inner{
+    margin-top: 40px;
+
+    img{
+      width: 100%
+    }
+  }
+
 }
 
 img.cover{
@@ -188,7 +200,7 @@ img.cover{
 }
 
 figure{
-  margin: 40px 0 5px;
+  margin: 40px 15px 5px 0;
 }
 
 figcaption{
@@ -208,9 +220,7 @@ figcaption{
 
 
 
-.container{
-  
-}
+
 
 #main{
   width: $sidebar-width;
@@ -220,7 +230,6 @@ figcaption{
 
   .inner{
     transition: transform .36s ease-in-out;
-    
   }
 
   &.put-aside .inner{
@@ -233,6 +242,15 @@ figcaption{
       margin: 50px 0px 50px 70px;
     }
   }
+
+  #language-switcher{
+    margin-top: 0;
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      text-transform: none;
+    }
+  } 
 }
 
 #contents{
@@ -256,6 +274,9 @@ figcaption{
     border-radius: 3px;
   }
 }
+
+
+
 
 
 

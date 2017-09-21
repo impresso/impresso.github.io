@@ -1,6 +1,7 @@
 ---
 title: "Consortium"
-permalink: consortium
+permalink: /consortium/
+nolang: /consortium/
 layout: page
 ---
 
