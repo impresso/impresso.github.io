@@ -25,8 +25,9 @@
         <aside id="main">
         
         <div class="inner">
-        <img src="{{ '/assets/images/logo.svg' | relative_url }}" id="logo">
-
+          <a id="logo" {% if page.lang != "en" %} href="/{{page.lang}}" {% else %} href="/"{% endif %}>
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" >
+          </a>
         <section>
       
         <ul id="language-switcher">

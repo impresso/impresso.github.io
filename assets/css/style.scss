@@ -55,10 +55,17 @@ pre{
 
 
 
-#logo{
-    height: 220px;
-    margin-left: 17px;
-    margin-top: 25px;
+a#logo {
+  &:hover{
+    text-decoration: none;
+    border-bottom-width: 0;
+  }
+
+  img{
+    height: 180px;
+    margin-left: 43px;
+    margin-top: 40px;
+  }
 }
 
 
