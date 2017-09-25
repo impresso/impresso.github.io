@@ -2,13 +2,13 @@
   "start_date": "2017-06-01",
   "start_date_day": "01 06",
   "start_date_year": "2017",
-  "end_date": "2020-07-01",
-  "end_date_day": "01 07",
+  "end_date": "2020-08-30",
+  "end_date_day": "30 08",
   "end_date_year": "2020",
   "values": [
     {
-      "start_date": "2017-09-04",
-      "end_date": "2017-09-04",
+      "start_date": "2017-09-01",
+      "end_date": "2017-09-01",
       "label": "Official start date",
       "type": "milestone",
       "content": "Project started",
@@ -18,18 +18,18 @@
     {
       "start_date": "2017-10-23",
       "end_date": "2017-10-25",
-      "label": "First workshop",
+      "label": "Kick-off Meeting and First Workshop",
       "type": "milestone",
-      "content": "First workshop organized by stuff.",
+      "content": "We will hold our first consortium meeting and have our first workshop, dedicated to the identification of suitable newspapers and of feasible requirements with regard to Natural Language Processing (NLP) and interface design. Duration: 1 day, Place: Lausanne, Organisation: DHLAB, UZH, C2DH.",
       "permalink": "",
       "items": []
     },
     {
-      "start_date": "2018-08-01",
-      "end_date": "2018-12-01",
-      "label": "First workshop",
+      "start_date": "2018-07-05",
+      "end_date": "2018-07-06",
+      "label": "Second Workshop: Epistemology and Early Prototypes 1",
       "type": "milestone",
-      "content": "Second workshop organized by stuff.",
+      "content": "During this second workshop we will gather feedback on early prototypes and raise epistemological concerns related to the use of digital tools in history. Duration: 1.5 day, Place: TBD, Organisation: infoclio, UNIL.",
       "permalink": "",
       "items": [
         {
@@ -41,11 +41,48 @@
       ]
     },
     {
-      "start_date": "2018-11-01",
-      "end_date": "2018-12-01",
-      "label": "Third workshop",
+      "start_date": "2018-12-13",
+      "end_date": "2018-12-13",
+      "label": "Third Workshop: Second consortium meeting",
       "type": "milestone",
-      "content": "Third workshop organized by stuff.",
+      "content": "This will be our second consortium meeting. Duration: 1 day, Place: TBD, Organisation: DHLAB.",
+      "permalink": "",
+      "items": []
+    },
+     {
+      "start_date": "2019-07-01",
+      "end_date": "2019-07-01",
+      "label": "Fourth Workshop: NLP Shared Task",
+      "type": "milestone",
+      "content": "This third workshop will be co-located with NLP-DH conference and report about a shared task on NE processing on digitized cultural heritage text material. Duration: 1 day, Place: conference place, Organisation: DHLAB, UZH.",
+      "permalink": "",
+      "items": []
+    },
+     {
+      "start_date": "2019-10-15",
+      "end_date": "2019-10-17",
+      "label": "Fifth Workshop: Epitemology and Prototypes 2",
+      "type": "milestone",
+      "content": "We will have our third consortium meeting and organize an open workshop about the evaluation of NLP tools and interface prototypes, and about epistemological and methodological aspects. Duration: 2 days, Place: Zurich or TBD, Organisation: UNIL, infoclio.",
+      "permalink": "",
+      "items": []
+    },
+     {
+      "start_date": "2020-03-15",
+      "end_date": "2020-03-16",
+      "label": "Sixth Workshop: Final Evaluation of NLP systems and Interface",
+      "type": "milestone",
+      "content": "During this sixth workshop project partners will do the final evaluation of tools and interface, to ensure implementation of historical requirements. Duration: 1 day, Place: TBD, Organisation: infoclio, UNIL.",
+      "permalink": "",
+      "items": []
+    },
+
+    {
+      "start_date": "2020-06-15",
+      "end_date": "2020-06-16",
+      "label": "Seventh Workshop: Open Event on Enrichment and Exploration of Digital Historical Newspapers",
+      "type": "milestone",
+      "content": "This last workshop will be held at a DH conference and includes an open call to the community about the enrichment and exploration of digital historical newspapers. Duration: 1 day, Place: TBD, Organisation: C2DH.",
       "permalink": "",
       "items": []
     },
