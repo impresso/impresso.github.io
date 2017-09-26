@@ -1,0 +1,91 @@
+// .collapsible-toggler{
+//   .circle-plus {
+//     .vertical {
+//       transform: rotate(-90deg);
+//     }
+//       .horizontal {
+//         transition: all 0.5s ease-in-out;
+//         transform: rotate(-90deg);
+//         opacity: 1;
+//       }
+//     }
+
+//     .opened {
+//       opacity: 1;
+//       .vertical {
+//         transition: all 0.5s ease-in-out;
+//         transform: rotate(90deg);
+//       }
+//       .horizontal {
+//         transition: all 0.5s ease-in-out;
+//         transform: rotate(90deg);
+//         opacity: 0;
+//       }
+//     }
+//     height: 4em;
+//     width: 4em;
+//     font-size: 1em;
+//     opacity: .7;
+//   }
+// }
+
+.collapsible-toggler{
+  position:relative;
+
+  .circle-plus {
+    position: absolute;
+    left: -25px;
+    top: 0;
+
+    .vertical, .horizontal{
+      @include transition(transform .27s ease-in-out, opacity .27s ease-in-out);
+    }
+  }
+
+  &.active {
+    .circle-plus .vertical{
+      transform: rotate(90deg);
+    }
+    .circle-plus .horizontal{
+      transform: rotate(90deg);
+      opacity: 0;
+    }
+  }
+
+  &.force-active .circle-plus{
+    .vertical, .horizontal{
+      background-color: $light-grey;
+    }
+  }
+}
+.circle-plus .circle {
+
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+    // border-radius: 100%;
+    // border: 2px solid $light-grey;
+}
+.circle-plus .circle .horizontal {
+  position: absolute;
+  background-color: $dark-grey;
+  width: 9px;
+  height: 1px;
+  left: 50%;
+  margin-left: -4px;
+  top: 50%;
+  margin-top: 0;
+}
+.circle-plus .circle .vertical {
+  position: absolute;
+  background-color: $dark-grey;
+   
+    width: 1px;
+    height: 9px;
+    left: 50%;
+    margin-left: 0px;
+    top: 50%;
+    margin-top: -4px;
+}
+

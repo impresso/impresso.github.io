@@ -4,7 +4,8 @@
 @import "fonts", "reset";
 
 $black: #000000;
-$almost-black: #380022;
+// $almost-black: #380022;
+$almost-black: #151515;
 $dark-grey: #51484d;
 $medium-grey: #696467;
 $light-grey: #a9a0a6;
@@ -21,6 +22,12 @@ $sidebar-width: 320px;
 
 $contents-offset-left: $sidebar-width + 100;
 
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
 
 html{
   height: 100%
@@ -51,7 +58,7 @@ pre{
 }
 
 
-@import "includes/timeline", "includes/footer", "layouts/page";
+@import "includes/timeline", "includes/footer", "includes/plus", "layouts/page";
 
 
 
@@ -98,11 +105,7 @@ section{
     width: 60px;
     // font-size: $font-size+2;
 
-    &.active > a{
-      color: $almost-black;
-      background: $yellow; 
-      border-bottom: 1px solid transparent;
-    }
+    
   }
 
 
@@ -145,7 +148,7 @@ section{
 
 
 aside {
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  // font-family: "Helvetica Neue", "Helvetica", sans-serif;
   // font-size: 13px;
   
 
@@ -159,9 +162,12 @@ aside {
     margin: 10px 0;
   }
 
-  section > ul > li > ul{
-        margin: 25px 0px 25px 15px;
+  section > ul > li ul{
+    padding: 0;
+
   }
+
+
 
 
   a{
@@ -180,15 +186,15 @@ aside {
   section li{
     text-transform: capitalize;
     
-    &.active > a{
-      background-color: $yellow;
-      color: $almost-black;
-      border-bottom: 1px solid transparent;
-      &:hover{
-        background-color: $yellow;
-        border-bottom: 1px solid transparent;
-      }
-    }
+    // &.active > a{
+    //   background-color: $yellow;
+    //   color: $almost-black;
+    //   border-bottom: 1px solid transparent;
+    //   &:hover{
+    //     background-color: $yellow;
+    //     border-bottom: 1px solid transparent;
+    //   }
+    // }
   }
 
 
@@ -202,6 +208,13 @@ aside {
 
 }
 
+
+li.active > a{
+  color: $almost-black;
+  background: $yellow;
+  border-bottom: 1px solid transparent;
+}
+
 img.cover{
   width: 100%;
 }
@@ -211,11 +224,11 @@ figure{
 }
 
 figcaption{
-   font-family: "Lato";
-    font-size: 11px;
-    line-height: 18px;
-    padding: 10px 20px;
-
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
 }
 
 .date{
@@ -285,5 +298,36 @@ figcaption{
 
 
 
+.collapsible{
+  position: relative;
+  height: 0;
+  overflow: hidden;
+
+  @include transition(height .27s ease-in-out);
+
+  ul{
+    position: absolute;
+    bottom: 0;
+    
+  }
+
+  &.active{
+    // border-bottom: 1px solid;
+  }
+  &.force-active{
+    height: auto;
+
+    ul{
+      position: relative;
+    }
+  }
+}
+
+.collapsible-toggler{
+  color: $dark-grey;
+  &.force-active{
+    color: $light-grey;
+  }
+}
 
 

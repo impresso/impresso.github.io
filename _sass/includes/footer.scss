@@ -1,6 +1,7 @@
 .footer{
   clear:both;
   
+
   background-color: $white;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -19,5 +20,9 @@
     li{
       padding: 10px 0;
     }
+  }
+
+  .logo{
+    margin-bottom: 10px;
   }
 }

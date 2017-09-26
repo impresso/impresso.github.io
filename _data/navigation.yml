@@ -13,14 +13,15 @@ languages:
         - title: "Historical Research"
           url: /project/history/
     - title: "Who are we?"
+      url: "/people/"
       links:
         - title: "People"
           url: /people/
         - title: "Partners"
           url: /partners/
         - title: "Associated partners"
-          url: /associatedpartners/
-        - title: "Friends"
+          url: /associated-partners/
+        # - title: "Friends"
         #   url: /friends/
 
   fr:

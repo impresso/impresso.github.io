@@ -3,6 +3,7 @@ title: "Partners"
 permalink: /partners/
 nolang: /partners/
 layout: page
+parenturl: /people/
 ---
 
 

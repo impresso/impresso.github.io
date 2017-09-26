@@ -1,7 +1,8 @@
 ---
 title: "Associated partners"
-permalink: /associatedpartners/
-nolang: /associatedpartners/
+permalink: /associated-partners/
+nolang: /associated-partners/
+parenturl: /people/
 layout: page
 ---
 

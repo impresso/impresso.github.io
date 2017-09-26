@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="page index">
+  <div class="wrapper">
+    <h1 class="page-title">{{page.title}}</h1>
+
+    <div class="headline">
+      <h2>{{page.subheading}}</h2>
+
+      <div class='container-fluid pl-0 pr-0'>
+        <div class='row no-gutters' >
+          <div class='col sm-6 align-self-center'>
+            <div class="card card-block text-center">
+              <a style='background: transparent' href='#' data-time-point='@next'>
+                <img src="{{ '/assets/images/timeline.gif' | relative_url }}">
+                <br/>Explore Project Timeline
+              </a>
+            </div>
+          </div>
+
+          <div class='col sm-6 align-self-center'>
+            <div class="card card-block text-justify">
+              {{page.paragraphs.headline}}
+
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+    </div>
+    <!--  How can newspapers help understanding the past?<br/> How to explore them? -->
+     <!--<div class="headline"><span>Mining 200 years of historical newspapers</span></div>-->
+
+
+    {{page.content}}
+  </div>
+
+  <figure>
+      <img class='cover' src='{{ site.url }}/assets/images/project-schema.jpg'>
+      <figcaption class="wrapper">
+          <p>Patrons reading newspapers in the State Library of Queensland, 1934 (<a href='https://flic.kr/p/bhGDea'>source</a>)</p>
+      </figcaption>
+  </figure>
+
+  <div class="wrapper">
+    
+
+    <p> In this context, the interdisciplinary project <em>Media Monitoring of the Past</em> aims at the development of a methodologically reflected technological framework to enable new ways of engaging with multilingual digital content of historical newspapers and new approaches to address historical questions. </p>
+  </div>
+</div>

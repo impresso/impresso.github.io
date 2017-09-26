@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="page">
+  <div class="wrapper">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% assign sortedpeople = site.people | sort: 'ordering' %}
+{% for person in sortedpeople %}
+<h2> {{person.title}}</h2>
+
+{{person.content}}
+
+{% endfor %}
+  </div>
+</div>
+

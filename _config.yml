@@ -7,6 +7,9 @@ collections:
   agenda:
     output: true
     permalink: /:collection/:path/
+  people:
+    output: true
+    permalink: /:collection/:path/
   glossary:
     output: true
     permalink: /:collection/:path/
