@@ -6,4 +6,3 @@ nolang: /people/
 lang: en
 parenturl: /people/
 ---
-
