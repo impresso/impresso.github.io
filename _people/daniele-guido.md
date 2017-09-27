@@ -1,6 +1,8 @@
 ---
 title: Daniele Guido, M.Sc.
-ordering: 02-guido
+ordering: 03-guido
+subheading: Lead designer at the C2DH
+picture: /assets/images/daniele-guido.jpg
 ---
 
 Daniele is a designer and full-stack developer specialising in data visualisation, network visualisation and digital methods. He designs and develops experimental web applications and tools for better information retrieval in the digital humanities.

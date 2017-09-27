@@ -1,5 +1,6 @@
 ---
 title: Maud Ehrmann, PhD
+subheading: research scientist at the Digital Humanities Laboratory of EPFL in Lausanne
 ordering: 01-ehrmann
 ---
 
@@ -8,4 +9,4 @@ Maud is a research scientist at the Digital Humanities Laboratory of EPFL in Lau
 
 Within impresso, Maud is responsible of WP1 (Project Management), WP2 (System design and data management), WP4 (Annotation and benchmarking) and WP3.4 (Named Entity recognition and disambiguation).
 
-[EPFL web page](https://people.epfl.ch/maud.ehrmann?lang=en) [LinkedIn](https://www.linkedin.com/in/maudehrmann)
+[// EPFL web page](https://people.epfl.ch/maud.ehrmann?lang=en) [LinkedIn](https://www.linkedin.com/in/maudehrmann)

@@ -2,16 +2,33 @@
 layout: default
 ---
 
+{% assign sortedpeople = site.people | sort: 'ordering' %}
+
 <div class="page">
   <div class="wrapper">
     <h1 class="page-title">{{ page.title }}</h1>
-    {% assign sortedpeople = site.people | sort: 'ordering' %}
-{% for person in sortedpeople %}
-<h2> {{person.title}}</h2>
-
-{{person.content}}
-
-{% endfor %}
+    {% for person in sortedpeople %}
+      <div class='item'>
+        <table class='table'>
+          <tr>
+            <th style="width: 150px; vertical-align: middle">
+              <div class='cover' style='background-image:url({% if person.picture %}{{person.picture | relative_url }}{%else %}http://www.vintageavatars.com/images/Abstract%20Art/100x100/abstractart{{forloop.index}}.jpg{% endif %})'></div>
+            </th>
+            <th>
+              <h2 class='respect-margin'>
+                <span>{{person.title}}</span>
+              </h2>
+              <h3 class='respect-margin'>
+                {{person.subheading}}</h3>
+            </th>
+          </tr>
+        </table>
+        
+        {{person.content}}
+      </div>
+      
+      
+    {% endfor %}
   </div>
 </div>
 
