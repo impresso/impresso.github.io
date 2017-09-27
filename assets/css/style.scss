@@ -150,7 +150,8 @@ section{
 aside {
   // font-family: "Helvetica Neue", "Helvetica", sans-serif;
   // font-size: 13px;
-  
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
 
   section > ul {
     margin: 50px 70px;
@@ -170,11 +171,12 @@ aside {
 
 
 
-  a{
+  a, .collapsible-toggler{
     color: $dark-grey;
     text-decoration: none;
     transition: background-color .3s ease-in-out;
     border-bottom: 1px solid transparent;
+    text-transform: uppercase;
   }
 
   a:hover{
@@ -183,19 +185,19 @@ aside {
     color: $almost-black;
   }
 
-  section li{
-    text-transform: capitalize;
+  // section li{
+  //   text-transform: capitalize;
     
-    // &.active > a{
-    //   background-color: $yellow;
-    //   color: $almost-black;
-    //   border-bottom: 1px solid transparent;
-    //   &:hover{
-    //     background-color: $yellow;
-    //     border-bottom: 1px solid transparent;
-    //   }
-    // }
-  }
+  //   // &.active > a{
+  //   //   background-color: $yellow;
+  //   //   color: $almost-black;
+  //   //   border-bottom: 1px solid transparent;
+  //   //   &:hover{
+  //   //     background-color: $yellow;
+  //   //     border-bottom: 1px solid transparent;
+  //   //   }
+  //   // }
+  // }
 
 
   section .inner{
@@ -264,7 +266,7 @@ figcaption{
   }
 
   #language-switcher{
-    margin-top: 0;
+    margin-top: 30px;
     li {
       display: inline-block;
       margin-right: 10px;
@@ -298,36 +300,6 @@ figcaption{
 
 
 
-.collapsible{
-  position: relative;
-  height: 0;
-  overflow: hidden;
 
-  @include transition(height .27s ease-in-out);
-
-  ul{
-    position: absolute;
-    bottom: 0;
-    
-  }
-
-  &.active{
-    // border-bottom: 1px solid;
-  }
-  &.force-active{
-    height: auto;
-
-    ul{
-      position: relative;
-    }
-  }
-}
-
-.collapsible-toggler{
-  color: $dark-grey;
-  &.force-active{
-    color: $light-grey;
-  }
-}
 
 

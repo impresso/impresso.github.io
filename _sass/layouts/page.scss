@@ -52,8 +52,9 @@ $page-margin-right: 50px;
 
   h2{
     font-size: 30px;
-    margin: 15px 0 25px;
+    margin: 5px 0 5px;
     line-height: 50px;
+    background-color: $white;
   }
   .headline{
     font-family: "Lato", sans-serif;
@@ -63,6 +64,7 @@ $page-margin-right: 50px;
     
     img{
       width: 100%;
+      max-width: 300px;
       margin-bottom: 10px;
       box-shadow: 0px 2px 8px fade-out($light-grey, .6);
     }
