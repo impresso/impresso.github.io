@@ -27,7 +27,7 @@ Consortium's project.
 
 ## State Archives of Valais, AEV.
 
-[// www.vs.ch/web/culture/aev](https://www.vs.ch/web/culture/aev) &mdash; The state archives of Valais have an administrative, historical and cultural mission. AEV is responsible for collecting, classifying, inventorying, preserving and valorising the archival documents belonging to the State, produced by the Cantonal Administration, as well as any document concerning the history of Valais and Valais society. ACV expressed its strong interest in supporting the project with digitized historical newspapers (in French and German) and in collaborating for their enrichment.
+[// www.vs.ch/web/culture/aev](https://www.vs.ch/web/culture/aev) &mdash; The state archives of Valais have an administrative, historical and cultural mission. AEV is responsible for collecting, classifying, inventorying, preserving and valorising the archival documents belonging to the State, produced by the Cantonal Administration, as well as any document concerning the history of Valais and Valais society.
 
 **Role**: AEV will provide the consortium with access to digitized newspapers and periodicals from Valais, express desiderata regarding historical newspaper interfaces and give feedback on prototypes newly developed by the consortium. AEV will participate in project's workshops and benefit from enriched newspaper content, as well as from the availability of open source prototypes.
 
@@ -38,17 +38,16 @@ Consortium's project.
 
 [// www.ub.unibas.ch](http://www.ub.unibas.ch/en/ub-wirtschaft-swa/schweiz-wirtschaftsarchiv/allgemeines/) &mdash;  The SWA (Schweizerisches Wirtschaftsarchiv), founded in 1910, maintains business archives and document collections on specific topics, companies, associations and individuals. The focus of the SWA collections includes economic policy and economic development of Switzerland and the history of Swiss economics and companies. In addition to newspaper clippings, collections include studies, reports, PR materials and other publica-tions of companies, associations, official materials offices and research institutes. An important project currently being undertaken by the SWA revolves around the digitization of newspaper clippings and certain archival documents.
 
-**Role**: SWA will provide Provide optimal access to digitized cultural heritage, newspapers and periodicals in particular. SWA will help to identify opportunities for the improvement of existing portals and to identify and serve user needs, and give feedback on prototypes developed by the consortium. SWA will participate in project's workshops and benefit from enriched newspaper content, as well as from the availability of open source prototypes.
+**Role**: SWA will provide provide optimal access to digitized cultural heritage, newspapers and periodicals in particular. SWA will help to identify opportunities for the improvement of existing portals and to identify and serve user needs, and give feedback on prototypes developed by the consortium. SWA will participate in project's workshops and benefit from enriched newspaper content, as well as from the availability of open source prototypes.
 
 **Participants**: Irene Amstutz (Head of the University of Economics, Swiss Economic Archives)
 
 ## Le Temps
 
-[// www.letemps.ch](https://www.letemps.ch/) &mdash;  *Le Temps*, the leading newspaper in French speaking Switzerland, was launched in march 1998. Its ancestors, the *Journal de Genève* and *La Gazette de Lausanne*, played an important role in the history of the region. Therefore, ten years ago, the direction of Le Temps has decided to digitize and make accessible its complete historical archive. The process involved the Swiss National Library,
-several sponsors, and years of work. In 2016, the [www.letempsarchives.ch](www.letempsarchives.ch) website has been totally redesigned with one objective in mind: making this archive as accessible as possible to the general
-audience.
+[// www.letemps.ch](https://www.letemps.ch/) &mdash;  *Le Temps*, the leading newspaper in French speaking Switzerland, was launched in march 1998. Its ancestors, the *Journal de Genève* and *La Gazette de Lausanne*, played an important role in the history of the region. Therefore, ten years ago, the direction of Le Temps has decided to digitize and make accessible its full historical archives. The process involved the Swiss National Library,
+several sponsors, and years of work. In 2016, the [www.letempsarchives.ch](www.letempsarchives.ch) website has been totally redesigned with one objective in mind: making archives as accessible as possible to the general audience.
 
-**Role**: Le Temps will provide access to its digitized archives, and actively support the design of historical newspaper exploration interface by giving suggestions and feedback about functionalities. Le Temps will have the opportunity to enrich its newspaper archives's content with the output of text mining tools (e.g. named entities, document topics and more), and to create a match between innovative content access technology and user needs.
+**Role**: Le Temps will provide access to its digitized archives, and actively support the design of historical newspaper exploration interface by giving suggestions and feedback on prototypes developed by the consortium.
 
 **Participants**: Gaël Hurlimann (Editor in Chief fo Digital)
 
@@ -63,18 +62,17 @@ audience.
 
 ## History department, University of Lausanne, UNIL.
 
-[// www.unil.ch/hist](http://www.unil.ch/hist/home.html) &mdash; Since more than a decade, the History Department has a strong expertise in media history and is actively engaged in research and teaching activities in DH in the frame of the development of a Competence Centre in Digital Humanities in partnership with the EPFL. Beyond history of the media themselves, our approach aims at an ever more systematic and methodologically rigorous integration of digital audiovisual and media sources into contemporary Swiss history.
+[// www.unil.ch/hist](http://www.unil.ch/hist/home.html) &mdash; Since more than a decade, the History Department has a strong expertise in media history and is actively engaged in research and teaching activities in digital humanities. Beyond history of the media themselves, the department aims at an ever more systematic and methodologically rigorous integration of digital audiovisual and media sources into contemporary Swiss history.
 
-**Role**: Historians from UNIL will use the tools and interfaces developed in the course of the project for teaching activities in the field of Media history, History of Swiss foreign policy and of International cultural relations, as well as political and cultural History of European integration (WP6.5). They will also study the epistemological and methodological implications inherent in the generation, analysis, and interpretation of text analysis tools,
-interfaces, and visualizations, and will organize and contribute to workshops on these topics (WP6.4).
+**Role**: Historians from UNIL will use the tools and interfaces developed in the course of the project for teaching activities in the field of media history, history of swiss foreign policy and of international cultural relations, as well as political and cultural history of european integration (WP6.5). They will also contribute to the reflection on the epistemological and methodological implications of the usage of text analysis tools, interfaces, and visualizations, and will organize and contribute to workshops on these topics (WP6.4).
 
 **Participants**: François Vallotton (Full professor and vice-dean of the Faculty of Arts), Raphaëlle Ruppen-Coutaz (Lecturer).
 
 ## infoclio
 
-[// www.infoclio.ch](https://www.infoclio.ch/) &mdash; Infoclio.ch was created on the initiative of the Swiss History Society (SSH) and of the Swiss Academy of Humanities and Social Sciences (SSHU). Its objectives are to develop a digital infrastructure for the historical sciences in Switzerland, to coordinate its main actors and institutions, to increase the visibility of Swiss historical research in the digital context, and to facilitate access to digital and international programs for researchers.
+[// www.infoclio.ch](https://www.infoclio.ch/) &mdash; infoclio.ch is the professional portal for the historical sciences in Switzerland. It was created on the initiative of the Swiss History Society (SSH) and of the Swiss Academy of Humanities and Social Sciences (SAHS). Its objectives are to develop a digital infrastructure for the historical sciences in Switzerland, to increase the visibility of Swiss historical research on the Web, and to facilitate access to digital tools and methods for researchers in the humanities.
 
-**Role**: infoclio will work in close collaboration with the consortium for the achievement of tasks related to the interplay between computer scientists and historians, and related to the design and reception of digital interfaces for the exploration of historical data. More precisely, infoclio will participate to workshops where infrastructure providers (libraries, archives), digital scholars (historians), and text miners exchange. In this regard, the association will be responsible for the organisation and realisation of the second and fifth workshops on prototypes and epistemological issues, and of the sixth one on the final evaluation of the developed systems (see project timeline).
+**Role**: infoclio will work in close collaboration with the consortium for the achievement of tasks related to the interplay between computer scientists and historians, and related to the design and reception of digital interfaces for the exploration of historical data. More precisely, infoclio will participate to workshops where infrastructure providers (libraries, archives), digital scholars (historians), and text miners exchange. In this regard, the organization will be responsible for the organisation and realisation of the second and fifth workshops on prototypes and epistemological issues, and of the sixth one on the final evaluation of the developed systems (see project timeline).
 <!---Besides, inflocio will help to identify opportunities for the improvement of existing portals in order to promote innovative digital scholarship practices; support the investigation of the potentials of digital approaches; encourage the improvement of digital literacy; co-design computational tools for the exploration of historical sources, and identify and serve user needs.--->
 
 **Participants**: Enrico Natale (Managing Director)
