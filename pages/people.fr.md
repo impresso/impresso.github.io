@@ -1,9 +1,9 @@
 ---
 title: "Équipe"
 permalink: /fr/people/
-layout: page
+layout: people
 nolang: /people/
 lang: fr
+parenturl: /fr/people/
 ---
 
-placeholder FR

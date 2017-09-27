@@ -16,8 +16,6 @@
     
     {% assign lang = page.lang | default: site.lang %}
     {% assign nav = site.data.navigation.languages[lang] | default: site.data.navigation.languages.en %}
-    {% assign current = page.url | downcase | split: '/' %}
-    {% assign currentpath = page.url | downcase | split: '/' | join: '.' %}
     
     
     <div>
@@ -25,11 +23,13 @@
         <aside id="main">
         
         <div class="inner">
-        <img src="{{ '/assets/images/logo.svg' | relative_url }}" id="logo">
-
+          <a id="logo" {% if page.lang != "en" %} href="/{{page.lang}}" {% else %} href="/"{% endif %}>
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" >
+          </a>
         <section>
-      
+        
         <ul id="language-switcher">
+          
           {% for language in site.languages %}
           
           <li {% if lang==language %} class="active" {% endif %}>
@@ -39,18 +39,23 @@
         </ul>
         <ul>
           {% for item in nav.links %}
-          <li {% if page.url == item.url %} class="active" {% endif %}>
-
-            <a href="{{item.url}}">{{item.title}}</a>
+          <li {% if page.url == item.url %} class="active" {% else %} {% if item.url == page.parenturl %} class="active" {% endif %} {% endif %}>
+            
             {% if item.links %}
-            <ul>
-              {% for subitem in item.links %}
-              <li {% if page.url == subitem.url %} class="active" {% endif %} >
-                
-                <a href="{{subitem.url | relative_url}}">{{subitem.title}}</a>
-              </li>
-              {% endfor %}
-            </ul>
+            <span class='collapsible-toggler {% if item.url == page.parenturl %} force-active active {% endif %}'>{{item.title}} {% include plus.html %}</span>
+            <div class='collapsible {% if item.url == page.parenturl %} force-active active {% endif %}'>
+              <ul>
+                {% for subitem in item.links %}
+                <li {% if page.url == subitem.url %} class="active" {% endif %} >
+                  
+                  <a href="{{subitem.url | relative_url}}">{{subitem.title}}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% else %}
+            <a href="{{item.url}}">{{item.title}}</a>  
+            
             {% endif %}
           </li>
 
@@ -93,8 +98,41 @@
 
     </div>
 
+
+    <script type='text/javascript' src='https://d3js.org/d3.v4.min.js'></script>
+
     {% include timeline.html %}
     
+    <script>
+      d3.selectAll('.collapsible-toggler').on('click', function(){ 
+        var s  = this.nextElementSibling,
+            c  = s.firstElementChild,
+            h  = c.scrollHeight,
+            _s = d3.select(s),
+            
+            is_active  = _s.classed('active'),
+            is_locked = _s.classed('force-active');
+
+        if(is_locked){
+          // do nothing...
+          return;
+          // recalculate height
+          _s.style('height', h + 'px');
+          
+        }
+        // debugger
+        console.log('.collapsible-toggler@click height:', h, is_active)
+        
+        d3.select(this).classed('active', !is_active);
+
+        _s
+          .classed('active', !is_active)
+          .style('height', (is_active? 0:h)+'px');
+        // this.classname
+        // this.nextElementSibling.style.height = h + "px"
+      })
+    </script>
+
     {% if site.google_analytics %}
       <script type="text/javascript">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

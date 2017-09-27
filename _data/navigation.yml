@@ -13,14 +13,15 @@ languages:
         - title: "Historical Research"
           url: /project/history/
     - title: "Who are we?"
+      url: "/people/"
       links:
         - title: "People"
           url: /people/
         - title: "Partners"
           url: /partners/
         - title: "Associated partners"
-          url: /associatedpartners/
-        - title: "Friends"
+          url: /associated-partners/
+        # - title: "Friends"
         #   url: /friends/
 
   fr:
@@ -39,9 +40,32 @@ languages:
     - title: "Équipe"
       url: /fr/people/
       links:
-        - title: "Partenaires"
+        - title: "People"
+          url: /fr/people/
+        - title: "Partners"
           url: /fr/partners/
-        - title: "Consortium"
-          url: /fr/consortium/
-        # - title: "Associés"
-        #   url: /fr/friends/
+        - title: "Associated partners"
+          url: /fr/associated-partners/
+
+  de:
+    links:
+    - title: "Index"
+      url: /de/
+    - title: "Project"
+      url: /de/project/
+      links:
+        - title: "Computational Linguistics"
+          url: /de/project/linguistics/
+        - title: "Design"
+          url: /de/project/design/
+        - title: "Historical Research"
+          url: /de/project/history/
+    - title: "Who are we?"
+      url: /de"/people/"
+      links:
+        - title: "People"
+          url: /de/people/
+        - title: "Partners"
+          url: /de/partners/
+        - title: "Associated partners"
+          url: /de/associated-partners/

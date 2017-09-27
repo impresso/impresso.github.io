@@ -50,16 +50,27 @@ $page-margin-right: 50px;
     margin-bottom: 20px;
   }
 
+  h2{
+    font-size: 30px;
+    margin: 5px 0 5px;
+    line-height: 50px;
+    background-color: $white;
+  }
   .headline{
     font-family: "Lato", sans-serif;
     border-top: 1px solid $almost-black;
     border-bottom: 2px solid $almost-black;
     padding: 15px 0;
     
-    > span{
-      
+    img{
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 10px;
+      box-shadow: 0px 2px 8px fade-out($light-grey, .6);
     }
   }
+
+
 }
 
 .page.agenda{

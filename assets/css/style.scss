@@ -4,7 +4,8 @@
 @import "fonts", "reset";
 
 $black: #000000;
-$almost-black: #380022;
+// $almost-black: #380022;
+$almost-black: #151515;
 $dark-grey: #51484d;
 $medium-grey: #696467;
 $light-grey: #a9a0a6;
@@ -21,6 +22,12 @@ $sidebar-width: 320px;
 
 $contents-offset-left: $sidebar-width + 100;
 
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
 
 html{
   height: 100%
@@ -51,14 +58,21 @@ pre{
 }
 
 
-@import "includes/timeline", "includes/footer", "layouts/page";
+@import "includes/timeline", "includes/footer", "includes/plus", "layouts/page";
 
 
 
-#logo{
-    height: 220px;
-    margin-left: 17px;
-    margin-top: 25px;
+a#logo {
+  &:hover{
+    text-decoration: none;
+    border-bottom-width: 0;
+  }
+
+  img{
+    height: 180px;
+    margin-left: 43px;
+    margin-top: 40px;
+  }
 }
 
 
@@ -91,11 +105,7 @@ section{
     width: 60px;
     // font-size: $font-size+2;
 
-    &.active > a{
-      color: $almost-black;
-      background: $yellow; 
-      border-bottom: 1px solid transparent;
-    }
+    
   }
 
 
@@ -138,9 +148,10 @@ section{
 
 
 aside {
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  // font-family: "Helvetica Neue", "Helvetica", sans-serif;
   // font-size: 13px;
-  
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
 
   section > ul {
     margin: 50px 70px;
@@ -152,16 +163,20 @@ aside {
     margin: 10px 0;
   }
 
-  section > ul > li > ul{
-        margin: 25px 0px 25px 15px;
+  section > ul > li ul{
+    padding: 0;
+
   }
 
 
-  a{
+
+
+  a, .collapsible-toggler{
     color: $dark-grey;
     text-decoration: none;
     transition: background-color .3s ease-in-out;
     border-bottom: 1px solid transparent;
+    text-transform: uppercase;
   }
 
   a:hover{
@@ -170,19 +185,19 @@ aside {
     color: $almost-black;
   }
 
-  section li{
-    text-transform: capitalize;
+  // section li{
+  //   text-transform: capitalize;
     
-    &.active > a{
-      background-color: $yellow;
-      color: $almost-black;
-      border-bottom: 1px solid transparent;
-      &:hover{
-        background-color: $yellow;
-        border-bottom: 1px solid transparent;
-      }
-    }
-  }
+  //   // &.active > a{
+  //   //   background-color: $yellow;
+  //   //   color: $almost-black;
+  //   //   border-bottom: 1px solid transparent;
+  //   //   &:hover{
+  //   //     background-color: $yellow;
+  //   //     border-bottom: 1px solid transparent;
+  //   //   }
+  //   // }
+  // }
 
 
   section .inner{
@@ -195,6 +210,13 @@ aside {
 
 }
 
+
+li.active > a{
+  color: $almost-black;
+  background: $yellow;
+  border-bottom: 1px solid transparent;
+}
+
 img.cover{
   width: 100%;
 }
@@ -204,11 +226,11 @@ figure{
 }
 
 figcaption{
-   font-family: "Lato";
-    font-size: 11px;
-    line-height: 18px;
-    padding: 10px 20px;
-
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
 }
 
 .date{
@@ -244,7 +266,7 @@ figcaption{
   }
 
   #language-switcher{
-    margin-top: 0;
+    margin-top: 30px;
     li {
       display: inline-block;
       margin-right: 10px;
@@ -274,6 +296,7 @@ figcaption{
     border-radius: 3px;
   }
 }
+
 
 
 

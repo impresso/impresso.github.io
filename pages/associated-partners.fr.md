@@ -1,9 +1,10 @@
 ---
 title: "Partenaires associés"
-permalink: /fr/partenairesassocies/
+permalink: /fr/associated-partners/
 layout: page
-nolang: /associatedpartners/
+nolang: /associated-partners/
 lang: fr
+parenturl: /people/
 ---
 
 placeholder FR
