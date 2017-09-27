@@ -40,7 +40,6 @@ languages:
     - title: "Équipe"
       url: /fr/people/
       links:
-        links:
         - title: "People"
           url: /fr/people/
         - title: "Partners"
