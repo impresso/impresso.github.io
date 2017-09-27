@@ -1,7 +1,7 @@
 theme: jekyll-theme-tactile
 base: https://impresso.github.io
 lang: en
-languages: ["en", "fr"]
+languages: ["en", "fr", "de"]
 
 collections:
   agenda:
