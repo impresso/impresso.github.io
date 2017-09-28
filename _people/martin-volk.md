@@ -1,7 +1,7 @@
 ---
 title: Martin Volk, Prof.
 picture: /assets/images/martin-volk.jpg
-ordering: 07-stroebel
+ordering: 07-volk
 subheading: Professor at UZH-CL
 ---
 
