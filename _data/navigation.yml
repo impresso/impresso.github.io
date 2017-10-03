@@ -6,13 +6,15 @@ languages:
     - title: "Project"
       url: /project/
       links:
+        - title: "Overview"
+          url: /project/overview/
         - title: "Computational Linguistics"
           url: /project/linguistics/
         - title: "Design"
           url: /project/design/
         - title: "Historical Research"
           url: /project/history/
-    - title: "Who are we?"
+    - title: "Consortium"
       url: "/people/"
       links:
         - title: "People"
@@ -23,7 +25,16 @@ languages:
           url: /associated-partners/
         # - title: "Friends"
         #   url: /friends/
-
+    - title: "Documentation"
+      url: "/documentation/"
+      links:
+        - title: "Glossary"
+          url: /documentation/glossary/
+        - title: "Publications"
+          url: /documentation/publications/
+    #- title: "Press"
+    #    url: "/press/"
+    #    links:
   fr:
     links:
     - title: "Accueil"
