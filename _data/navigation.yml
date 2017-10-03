@@ -23,8 +23,8 @@ languages:
           url: /partners/
         - title: "Associated partners"
           url: /associated-partners/
-        # - title: "Friends"
-        #   url: /friends/
+        - title: "Friends"
+          url: /friends/
     - title: "Documentation"
       url: "/documentation/"
       links:
@@ -32,9 +32,9 @@ languages:
           url: /documentation/glossary/
         - title: "Publications"
           url: /documentation/publications/
-    #- title: "Press"
-    #    url: "/press/"
-    #    links:
+    - title: "Media Coverage"
+      url: "/media-coverage/"
+
   fr:
     links:
     - title: "Accueil"
