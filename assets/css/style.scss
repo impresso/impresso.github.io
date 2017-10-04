@@ -246,9 +246,13 @@ figcaption{
 
 #main{
   width: $sidebar-width;
-  margin-left: 100px;
-  float: left;
-  overflow: hidden;
+  // margin-left: 100px;
+  // float: left;
+  // overflow: hidden;
+  position: fixed;
+  bottom: 100px;
+  height: 500px;
+  left: 100px;
 
   .inner{
     transition: transform .36s ease-in-out;
@@ -297,9 +301,18 @@ figcaption{
   }
 }
 
+body.below-floating {
+  
+  #timeline, #main {
+    position: absolute;
+    top: auto;
+    bottom: 100px;
+  }
+}
 
 
 
-
-
+#wrapper{
+  position:relative;
+}
 

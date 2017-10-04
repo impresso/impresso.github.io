@@ -11,6 +11,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
   </head>
   <body>
     
@@ -18,7 +19,7 @@
     {% assign nav = site.data.navigation.languages[lang] | default: site.data.navigation.languages.en %}
     
     
-    <div>
+    <div id='wrapper'>
 
         <aside id="main">
         
@@ -91,17 +92,20 @@
         </aside>
         
         <div id="contents">
-            {{content}}
+          {{content}}
         </div>
 
-        {% include footer.html %}
-
+        {% include timeline.html %}
     </div>
 
 
+    <div id='floating-line'></div>
+    {% include footer.html %}
+
+    <!-- scripts -->
     <script type='text/javascript' src='https://d3js.org/d3.v4.min.js'></script>
 
-    {% include timeline.html %}
+    {% include timeline.runtime.html %}
     
     <script>
       d3.selectAll('.collapsible-toggler').on('click', function(){ 
@@ -130,7 +134,47 @@
           .style('height', (is_active? 0:h)+'px');
         // this.classname
         // this.nextElementSibling.style.height = h + "px"
-      })
+      });
+    </script>
+
+    <script>
+      // on window scroll, mimic the sticky position
+      // When floating-line is visible, the `position` css value of sidebar (timeline and menu)
+      // change from fixed to absolute, bottom aligned.
+      // same thing should happen when the window is resized.
+      var _floating_line = document.getElementById('floating-line'),
+          _body          = d3.select('body'),
+          w_height       = window.innerHeight,
+
+          _menu          = d3.select('#main').style('height', (window.innerHeight - 100)+'px'),
+          
+          is_below_floating_line = false;
+      
+      function evaluateFloatingLine() {
+        var bottom = window.scrollY + w_height;
+        
+        if(is_below_floating_line && _floating_line.offsetTop > bottom) {
+          // deactivate, put back sidebar on fixed;
+          is_below_floating_line = false;
+          _body.classed('below-floating', false);
+        } else if(!is_below_floating_line && _floating_line.offsetTop <= bottom){
+          // activate
+          is_below_floating_line = true;
+          _body.classed('below-floating', true);
+        }
+        console.log('is_below_floating_line:', is_below_floating_line, _floating_line.offsetTop, bottom);
+      }
+
+      function onResize() {
+        w_height = window.innerHeight;
+        evaluateFloatingLine();
+      }
+
+      d3.select(window)
+        .on("scroll.scroller", evaluateFloatingLine)
+        .on("resize", onResize);
+
+      evaluateFloatingLine();
     </script>
 
     {% if site.google_analytics %}
