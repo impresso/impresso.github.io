@@ -25,7 +25,7 @@ In addition to engineering-oriented research in machine translation, biomedical/
 
 **Role**: ICL is responsible of natural language processing and text mining (WP3), and will contribute to other workpackages.
 
-**Participants**: Martin Volk (co-PI), Simon Clematide, Phillip Stroëbel.
+**Participants**: Martin Volk (co-PI), Simon Clematide, Phillip Ströbel.
 
 ## Luxembourg Center for Contemporary and Digital History, Luxembourg University.
 [// c2dh.uni.lu](https://www.c2dh.uni.lu/) &mdash; Founded in 2016, the Luxembourg Centre for Contemporary and Digital History is dedicated to the study of digital history, contemporary Luxembourgish history, and Modern European history.
