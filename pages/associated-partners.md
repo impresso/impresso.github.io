@@ -23,7 +23,7 @@ layout: page
 **Role**: The BnL will support the project by providing the enriched full text data of its digitized newspapers and periodicals collection, which spans the mid-19th to the 20th century. The BnL will share information on the development of its current portal,  its data enrichments aims and plans, as well as give feedback on the prototypes newly developed by the project. It hopes to identify opportunities for the improvement of its  existing portal, which is scheduled to undergo a technological and functional refresh. The BnL will additionally provide input about the process of re-integration of useful enrichments created by the project to its digital collections. The isntitution is ready to participate in workshops and conferences dealing with questions raised by the
 Consortium's project.
 
-**Participants**: Monique Kieffer (Director), Carlo Blum (?)
+**Participants**: Monique Kieffer (Director), Carlo Blum (Head of IT at the BnL)
 
 ## State Archives of Valais, AEV.
 
