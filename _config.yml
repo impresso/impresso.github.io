@@ -3,6 +3,12 @@ base: https://impresso.github.io
 lang: en
 languages: ["en", "fr", "de"]
 
+contacts:
+  email: info @ impresso-project [dot] ch
+  twitter: https://twitter.com/impressoproject
+  github: https://github.com/impresso
+
+
 collections:
   agenda:
     output: true
