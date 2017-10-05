@@ -8,4 +8,4 @@ ordering: 01
 parenturl: /consortium/
 ---
 <!-- This page will contain _people of category:team. Please see _layouts/consortium.html -->
-très bien
+An interdisciplinary team of designers, digital humanists, computational linguists and historians, join forces for a co-designed tool to monitor the media of the past.
