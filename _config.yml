@@ -1,5 +1,6 @@
 theme: jekyll-theme-tactile
 base: https://impresso.github.io
+title: impresso
 lang: en
 languages: ["en", "fr", "de"]
 
