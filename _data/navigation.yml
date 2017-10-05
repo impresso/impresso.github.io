@@ -1,7 +1,7 @@
 languages:
   en:
     links:
-    - title: "Index"
+    - title: "Home"
       url: /
     - title: "Project"
       url: /project/
@@ -15,25 +15,25 @@ languages:
         - title: "Historical Research"
           url: /project/history/
     - title: "Consortium"
-      url: "/people/"
+      url: "/consortium/"
       links:
         - title: "People"
-          url: /people/
+          url: /consortium/#people
         - title: "Partners"
-          url: /partners/
+          url: /consortium/#partners
         - title: "Associated partners"
-          url: /associated-partners/
+          url: /consortium/#associated-partners
         - title: "Friends"
-          url: /friends/
-    - title: "Documentation"
-      url: "/documentation/"
-      links:
-        - title: "Glossary"
-          url: /documentation/glossary/
-        - title: "Publications"
-          url: /documentation/publications/
-    - title: "Media Coverage"
-      url: "/media-coverage/"
+          url: /consortium/#friends
+    # - title: "Publications"
+      # url: "/publications/"
+      # links:
+      #   - title: "Glossary"
+      #     url: /documentation/glossary/
+      #   - title: "Publications"
+      #     url: /documentation/publications/
+    # - title: "Media Coverage"
+      # url: "/media-coverage/"
 
   fr:
     links:

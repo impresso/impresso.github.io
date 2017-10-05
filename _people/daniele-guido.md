@@ -1,6 +1,7 @@
 ---
+category: team
 title: Daniele Guido, M.Sc.
-ordering: 03-guido
+ordering: 01-guido
 subheading: Lead designer at the C2DH
 picture: /assets/images/daniele-guido.jpg
 ---

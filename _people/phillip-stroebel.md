@@ -1,7 +1,8 @@
 ---
+category: team
 title: Phillip Ströbel, M.A.
 picture: /assets/images/phillip-stroebel.jpg
-ordering: 03-stroebel
+ordering: 01-stroebel
 subheading: PhD student at UZH-CL
 ---
 

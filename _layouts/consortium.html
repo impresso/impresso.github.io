@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+{% assign sections = site.pages | where: 'parenturl','/consortium/' | where: 'lang', page.lang | sort: 'ordering' %}
+
+
+<div class="page">
+  <div class="wrapper">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
+
+
+  {% for section in sections %}
+  {% if section.permalink != section.parenturl %}
+  {% assign sectionid = section.permalink | split: '/' %}
+    
+  <div id='{{sectionid[2]}}'></div>
+        
+  <section {% if forloop.last %} class='last' {%endif%}>
+    <div class="wrapper">
+      <div class="headline">
+        <h2>{{ section.title }}</h2>
+      </div>
+      
+
+      {% if section.permalink == '/consortium/people/' %}
+        {% assign team = site.people | where: 'category','team' | sort: 'ordering' %}
+        {% for person in team %}
+          {% include person.html %}
+        {% endfor %}
+      {% endif %}
+      
+      
+
+      {% if section.permalink == '/consortium/partners/' %}
+
+        {% assign partners = site.partners | where: 'category','core-partner' | sort: 'ordering' %}
+        {% for partner in partners %}
+          {% include partner.html %}
+        {% endfor %}
+      {% endif %}
+
+      {% if section.permalink == '/consortium/associated-partners/' %}
+
+        {% assign partners = site.partners | where: 'category','associated-partner' | sort: 'ordering' %}
+        {% for partner in partners %}
+          {% include partner.html %}
+        {% endfor %}
+      {% endif %}
+
+
+
+      {% if section.permalink == '/consortium/friends/' %}
+        {% assign friends = site.people | where: 'category','friend' | sort: 'ordering' %}
+        {% for person in friends %}
+          {% include person.html %}
+        {% endfor %}
+      {%endif%}
+    </div>
+  </section>
+  {%endif%}
+  {% endfor %}
+  
+</div>
+

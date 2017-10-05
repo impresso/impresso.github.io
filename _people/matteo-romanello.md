@@ -1,7 +1,8 @@
 ---
+category: team
 title: Matteo Romanello, PhD
 subheading: research scientist at the Digital Humanities Laboratory of EPFL in Lausanne
-ordering: 03-romanello
+ordering: 01-romanello
 ---
 
 Matteo holds a Ph.D. in Digital Humanities from King's College London and is a research scientist at the Digital Humanities Laboratory of EPFL in Lausanne. His main research interests include: interoperability, domain-specific information extraction and retrieval, applications of ontological modelling to the specific domains of knowledge, especially Classics, and citation network analysis.

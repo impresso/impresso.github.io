@@ -68,7 +68,7 @@ $page-margin-right: 50px;
   .item{
     margin-bottom: 25px;
     padding-bottom: 25px;
-    border-bottom: 2px solid $almost-black;
+    border-bottom: 1px solid $light-grey;
   }
 }
 
@@ -79,7 +79,7 @@ div.cover{
 
 }
 
-.page.index{
+.page{
   h1{
     font-size: 50px;
     line-height: 70px;
@@ -87,11 +87,13 @@ div.cover{
     margin-bottom: 20px;
   }
 
-  h2{
-    font-size: 30px;
-    margin: 5px 0 5px;
-    line-height: 50px;
-    background-color: $white;
+  section{
+    margin-bottom: 50px;
+    border-bottom: 50px solid $white;
+    &.last{
+      border-bottom-width: 0;
+      margin-bottom: 0;
+    }
   }
   .headline{
     font-family: "Lato", sans-serif;
@@ -99,6 +101,13 @@ div.cover{
     border-bottom: 2px solid $almost-black;
     padding: 15px 0;
     
+    h2{
+      font-size: 30px;
+      margin: 5px 0 5px;
+      line-height: 50px;
+      background-color: $white;
+    }
+
     img{
       width: 100%;
       max-width: 300px;

@@ -1,6 +1,7 @@
 ---
+category: team
 title: Lars Wieneke, PhD
-ordering: 02-wieneke
+ordering: 01-wieneke
 subheading: Head of digital research infrastructure at the C2DH
 picture: /assets/images/lars-wieneke.jpg
 ---

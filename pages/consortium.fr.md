@@ -1,9 +1,9 @@
 ---
 title: "Consortium"
 permalink: /fr/consortium/
-layout: page
+layout: consortium
 nolang: /consortium/
 lang: fr
+parenturl: /fr/consortium/
 ---
 
-placeholder FR

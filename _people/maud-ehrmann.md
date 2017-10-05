@@ -1,4 +1,5 @@
 ---
+category: team
 title: Maud Ehrmann, PhD
 subheading: research scientist at the Digital Humanities Laboratory of EPFL in Lausanne
 ordering: 01-ehrmann
