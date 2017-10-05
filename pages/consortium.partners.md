@@ -10,3 +10,4 @@ title: "Partners"
 
 <!-- content here will serve as an intro. Cfr. _layouts/consortium.html -->
 The *impresso* project harvests the expertise and talents of three leading institutions in digital humanities from Luxembourg and Switzerland.
+
