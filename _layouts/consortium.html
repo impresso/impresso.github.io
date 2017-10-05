@@ -22,9 +22,9 @@ layout: default
       <div class="headline">
         <h2>{{ section.title }}</h2>
       </div>
-      
+      <blockquote>{{section.content}}</blockquote>
 
-      {% if section.permalink == '/consortium/people/' %}
+      {% if section.nolang == '/consortium/people/' %}
         {% assign team = site.people | where: 'category','team' | sort: 'ordering' %}
         {% for person in team %}
           {% include person.html %}
@@ -33,7 +33,7 @@ layout: default
       
       
 
-      {% if section.permalink == '/consortium/partners/' %}
+      {% if section.nolang == '/consortium/partners/' %}
 
         {% assign partners = site.partners | where: 'category','core-partner' | sort: 'ordering' %}
         {% for partner in partners %}
@@ -41,7 +41,7 @@ layout: default
         {% endfor %}
       {% endif %}
 
-      {% if section.permalink == '/consortium/associated-partners/' %}
+      {% if section.nolang == '/consortium/associated-partners/' %}
 
         {% assign partners = site.partners | where: 'category','associated-partner' | sort: 'ordering' %}
         {% for partner in partners %}
@@ -51,7 +51,7 @@ layout: default
 
 
 
-      {% if section.permalink == '/consortium/friends/' %}
+      {% if section.nolang == '/consortium/friends/' %}
         {% assign friends = site.people | where: 'category','friend' | sort: 'ordering' %}
         {% for person in friends %}
           {% include person.html %}
