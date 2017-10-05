@@ -15,14 +15,14 @@ layout: default
   {% if section.permalink != section.parenturl %}
   {% assign sectionid = section.permalink | split: '/' %}
     
-  <div id='{{sectionid[2]}}'></div>
+  <div {% if page.lang == site.lang %} id='{{sectionid[2]}}' {% else %} id='{{sectionid[3]}}' {% endif %}></div>
         
   <section {% if forloop.last %} class='last' {%endif%}>
     <div class="wrapper">
       <div class="headline">
         <h2>{{ section.title }}</h2>
       </div>
-      <blockquote>{{section.content}}</blockquote>
+      <blockquote class='summary respect-margin'>{{section.content | markdownify}}</blockquote>
 
       {% if section.nolang == '/consortium/people/' %}
         {% assign team = site.people | where: 'category','team' | sort: 'ordering' %}
