@@ -48,15 +48,17 @@ languages:
           url: /fr/project/design/
         - title: "Historical Research"
           url: /fr/project/history/
-    - title: "Équipe"
-      url: /fr/people/
+    - title: "Consortium"
+      url: "/fr/consortium/"
       links:
-        - title: "People"
-          url: /fr/people/
-        - title: "Partners"
-          url: /fr/partners/
-        - title: "Associated partners"
-          url: /fr/associated-partners/
+        - title: "Équipe"
+          url: /fr/consortium/#people
+        - title: "Partenaires"
+          url: /fr/consortium/#partners
+        - title: "Partenaires associés"
+          url: /fr/consortium/#associated-partners
+        - title: "Amis du projet"
+          url: /fr/consortium/#friends
 
   de:
     links:

@@ -1,7 +1,9 @@
 .footer{
   clear:both;
-  
-
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: $medium-grey;
   background-color: $white;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -9,11 +11,12 @@
   .inner{
     margin-left: 100px;
   margin-right: 100px;
-
+    border-top: 1px solid $light-grey;
     .row{
       margin-top: 50px;
     }
   }
+
 
   ul{
     margin-top: 20px;
@@ -24,5 +27,31 @@
 
   .logo{
     margin-bottom: 10px;
+
+    a, a:hover{
+      background: transparent;
+
+    }
+  }
+
+  a{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: $almost-black;
+    // border-bottom: 1px solid $almost-black;
+    text-decoration: none;
+    background-color: $white;
+    padding: 2px 3px;
+
+    b{
+      font-family:inherit;
+      font-weight: bold;
+    }
+    &:hover{
+      background-color: $yellow;
+      color: $almost-black;
+    }
   }
 }

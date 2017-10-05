@@ -1,6 +1,7 @@
 ---
 category: team
 title: Frédéric Kaplan, Prof.
+picture: /assets/images/frederic-kaplan.jpg
 subheading: Head of the Digital Humanities Laboratory of EPFL in Lausanne
 ordering: 01-kaplan
 ---

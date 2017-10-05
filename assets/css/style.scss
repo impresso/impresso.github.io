@@ -5,10 +5,12 @@
 
 $black: #000000;
 // $almost-black: #380022;
+$body-background: #eeeced;
 $almost-black: #151515;
 $dark-grey: #51484d;
 $medium-grey: #696467;
 $light-grey: #a9a0a6;
+
 $almost-white: #ffebf7;
 $white: #ffffff;
 $yellow: #FAF54F;
@@ -145,7 +147,9 @@ section{
   border-color: transparent;
 }
 
-
+.icon{
+  font-size: 1.4em;
+}
 
 aside {
   // font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -169,7 +173,14 @@ aside {
   }
 
 
-
+  table{
+    width: 130px;
+    margin-top: 30px;
+    th{
+      text-align: left;
+      vertical-align: middle;
+    }
+  }
 
   a, .collapsible-toggler{
     color: $dark-grey;
@@ -228,7 +239,7 @@ figure{
 figcaption{
   font-family: "Lato";
   font-size: 15px;
-  line-height: 18px;
+  line-height: 24px;
   padding: 10px 20px;
   margin-bottom: 30px;
 }
@@ -248,9 +259,10 @@ figcaption{
   width: $sidebar-width;
   // margin-left: 100px;
   // float: left;
-  // overflow: hidden;
+  overflow: hidden;
   position: fixed;
-  bottom: 100px;
+
+  // bottom: 100px;
   height: 500px;
   left: 100px;
 

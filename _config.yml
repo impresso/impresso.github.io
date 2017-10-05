@@ -1,7 +1,14 @@
 theme: jekyll-theme-tactile
 base: https://impresso.github.io
+title: impresso
 lang: en
 languages: ["en", "fr", "de"]
+
+contacts:
+  email: info @ impresso-project [dot] ch
+  twitter: https://twitter.com/impressoproject
+  github: https://github.com/impresso
+
 
 collections:
   agenda:
