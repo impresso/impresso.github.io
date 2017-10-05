@@ -17,7 +17,7 @@ At the lexico-semantic level, we will offer the possibility to, beyond the class
 
 ## Synopsis
 
-Work on **natural language processing for historical newspapers** will include the following (list with bullets, to be updated):
+Work on **natural language processing for historical newspapers** will include the following (LIST WITH BULLETS, TO BE UPDATED):
 
 **automatic OCR and OLR improvement and text corpus creation** -- Beyond the establishement of a structured representation of the corpus material (OCR content, article segmenation), we will develop and apply OCR post-correction techniques based on character-based machine translation approaches. Complementary to these technical solutions, we will pursue a citizen science crowd correction campaign to produce the domain-specific training material needed for the supervised machine learning methods.
 
