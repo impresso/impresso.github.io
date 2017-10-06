@@ -20,7 +20,7 @@ layout: default
   <section {% if forloop.last %} class='last' {%endif%}>
     <div class="wrapper">
       <div class="headline">
-        <h2>{{ section.title }}</h2>
+        <h2><span>{{ section.title }}</span></h2>
       </div>
       <blockquote class='summary respect-margin'>{{section.content | markdownify}}</blockquote>
 
@@ -62,5 +62,6 @@ layout: default
   {%endif%}
   {% endfor %}
   
+  <div class='text-center'> - fin - </div>
 </div>
 

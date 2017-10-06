@@ -1,15 +1,15 @@
 <!-- special layout for single item in a people collection. Use assign to define people group.-->  
-<div class='item'>
+<div class='item respect-margin'>
   <table class='table'>
     <tr>
       <th style="width: 150px; vertical-align: middle">
         <div class='cover' style='background-image:url({% if person.picture %}{{person.picture | relative_url }}{%else %}http://www.vintageavatars.com/images/Abstract%20Art/100x100/abstractart{{forloop.index}}.jpg{% endif %})'></div>
       </th>
       <th>
-        <h2 class='respect-margin'>
+        <h2>
           <span>{{person.title}}</span>
         </h2>
-        <h3 class='respect-margin'>
+        <h3 >
           {{person.subheading}}</h3>
       </th>
     </tr>

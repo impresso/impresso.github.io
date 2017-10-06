@@ -3,7 +3,7 @@ $page-margin-right: 50px;
 .page{
   
   
-  padding: 30px 0px 100px;
+  padding: 30px 0px 30px;
 
   .wrapper{
     padding: 0 50px;
@@ -66,8 +66,9 @@ $page-margin-right: 50px;
   }
 
   .item{
-    margin-bottom: 25px;
-    padding-bottom: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
     border-bottom: 1px solid $light-grey;
   }
 }
@@ -86,6 +87,8 @@ div.cover{
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 35px;
+    border-bottom: 2px solid $almost-black;
+    padding-bottom: 25px;
   }
 
   h1{
@@ -105,15 +108,17 @@ div.cover{
   }
   .headline{
     font-family: "Lato", sans-serif;
-    border-top: 1px solid $almost-black;
-    border-bottom: 2px solid $almost-black;
+    // border-top: 1px solid $almost-black;
+    border-bottom: 1px solid $almost-black;
     padding: 15px 0;
     
     h2{
       font-size: 30px;
       margin: 5px 0 5px;
       line-height: 50px;
-      background-color: $white;
+      > span {
+        background-color: $white;
+      }
     }
 
     img{
