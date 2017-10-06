@@ -9,8 +9,8 @@
   padding-bottom: 50px;
 
   .inner{
-    margin-left: 100px;
-  margin-right: 100px;
+    margin-left: 20px;
+  margin-right: 20px;
     border-top: 1px solid $light-grey;
     
     .row{
@@ -84,5 +84,13 @@
       background-color: $yellow;
       color: $almost-black;
     }
+  }
+}
+
+
+@media(min-width:768px){
+  .footer .inner{
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }

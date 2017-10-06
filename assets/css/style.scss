@@ -41,7 +41,7 @@ body{
   line-height: $line-height;
   color: $almost-black;
   height: 100%;
-  background-image: -webkit-linear-gradient(left, #fff $contents-offset-left, #eeeced $contents-offset-left - 1, #eeeced 100%)
+  background-image: -webkit-linear-gradient(left, #fff 50px, #eeeced 50px - 1, #eeeced 100%)
 }
 
 b, strong, h1, h2, h3, .bold{
@@ -261,6 +261,7 @@ figcaption{
   // float: left;
   overflow: hidden;
   position: fixed;
+  display: none;
 
   // bottom: 100px;
   height: 500px;
@@ -292,9 +293,12 @@ figcaption{
 }
 
 #contents{
-  margin-left: $sidebar-width + 100;
+margin-left: 30px;
+
+  
   
 }
+
 
 
 .category{
@@ -328,3 +332,14 @@ body.below-floating {
   position:relative;
 }
 
+@media(min-width:768px){
+  body{
+    background-image: -webkit-linear-gradient(left, #fff $contents-offset-left, #eeeced $contents-offset-left - 1, #eeeced 100%)
+  }
+  #main{
+    display:block
+  }
+  #contents{
+    margin-left: $sidebar-width + 100;
+  }
+}
