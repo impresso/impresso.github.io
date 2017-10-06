@@ -1,8 +1,8 @@
 .footer{
   clear:both;
   font-family: "Lato", sans-serif;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 13px;
+  line-height: 18px;
   color: $medium-grey;
   background-color: $white;
   padding-top: 50px;
@@ -12,12 +12,36 @@
     margin-left: 100px;
   margin-right: 100px;
     border-top: 1px solid $light-grey;
+    
     .row{
-      margin-top: 50px;
+      margin-top: 30px;
+
+      
+    }
+
+
+  }
+
+  .line{
+    height: 1px;
+    border-top: 1px solid $dark-grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: static;
+    width: 100%;
+
+    &.double{
+      border-top: 2px solid $dark-grey;
     }
   }
 
+  h3{
+    font-family: inherit;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: $dark-grey;
 
+  }
   ul{
     margin-top: 20px;
     li{
@@ -31,6 +55,13 @@
     a, a:hover{
       background: transparent;
 
+    }
+
+    p{
+      margin-top: 10px;
+    }
+    img{
+      height: 70px
     }
   }
 

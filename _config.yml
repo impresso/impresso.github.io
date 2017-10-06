@@ -6,8 +6,12 @@ languages: ["en", "fr", "de"]
 
 contacts:
   email: info @ impresso-project [dot] ch
-  twitter: https://twitter.com/impressoproject
-  github: https://github.com/impresso
+  twitter: 
+    url: https://twitter.com/impressoproject
+    name: "@impressoproject"
+  github: 
+    url: https://github.com/impresso
+    name: impresso
 
 
 collections:

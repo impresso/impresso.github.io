@@ -1,34 +1,50 @@
 <div class='footer'>
   <div class="inner">
     
-    <div class="fluid-container text-center">
+    <div class="fluid-container">
       
       <div class="row">
         <div class="col-sm-4">
           <div class="logo">
-            <a href='https://dhlab.epfl.ch/' target='_blank' title='Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland'><img src="{{ '/assets/images/EPFL-logo-GREY.png' | relative_url }}"></a></div>
+            <a href='https://dhlab.epfl.ch/' target='_blank' title='Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland'><img src="{{ '/assets/images/EPFL-Logo-GREY.png' | relative_url }}"></a>
+            <p>Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland</p>
+          </div>
           
         </div>
         <div class="col-sm-4">
+          <div class="logo">
           <a href='http://www.cl.uzh.ch/en.html' target='_blank' title='Institute for Computational Linguistics Zurich University, Switzerland'>
-            <img src="{{ '/assets/images/UZH-logo.png' | relative_url }}"></a>
+            <img src="{{ '/assets/images/uzh-logo.jpg' | relative_url }}"></a>
           </a>
+          <p>Institute for Computational Linguistics Zurich University, Switzerland</p>
+          </div>
+          
         </div>
         <div class="col-sm-4">
-          <a href='https://www.c2dh.uni.lu' target='_blank' title='Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.'>
-            <img src="{{ '/assets/images/C2DH-logo.png' | relative_url }}"></a>
-          </a>
+          <div class="logo">
+            <a href='https://www.c2dh.uni.lu' target='_blank' title='Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.'>
+              <img src="{{ '/assets/images/c2dh-logo.svg' | relative_url }}"></a>
+            </a>
+            <p>Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.</p>
+          </div>
         </div>
       </div>
 
-      <div class="row ">
-        <div class="col-sm-6 text-right">
-          <a href='//github.com/impresso'>github <b>/impresso</b></a>
+      <div class='line double'></div>
+      <div class="row" >
+        <div class="col-sm-4">
+          <h3>connect with us</h3>
+          {{site.contacts.email}}<br/>
+          github: <a href='{{site.contacts.github.url}}'> <b>{{site.contacts.github.name}}</b></a><br/>
+          twitter: <a href='{{site.contacts.twitter.url}}'> <b>{{site.contacts.twitter.name}}</b></a>
         </div>
-        <div class="col-sm-6 text-left">
-          <a href='//twitter.com/impressoproject'>twitter <b>@impressoproject</b></a>
+        <div class="col-sm-4">
+          <h3>other relevant links</h3>
+          project <a href='/project/overview/'> overview</a><br/>
+          project <a href='/consortium#people'> team</a>
         </div>
       </div>
+      <div class='line '></div>
 
       <div class="row text-center">
         <div class="col-sm-12">
