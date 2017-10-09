@@ -6,7 +6,7 @@ $page-margin-right: 50px;
   padding: 30px 0px 30px;
 
   .wrapper{
-    padding: 0 50px;
+    padding: 0 20px 0 50px
   }
 
   h1{
@@ -46,6 +46,7 @@ $page-margin-right: 50px;
   .table{
     h2{
       margin-top: 0;
+      margin-bottom: 0;
       span{
         background-color: $white;
       }
@@ -54,23 +55,33 @@ $page-margin-right: 50px;
       // font-family: "Lato", sans-serif;
       font-weight: normal;
     }
+
+    
     th{
       min-height: 120px;
       vertical-align: middle;
+    
+      &.picture{
+        width: 80px;
+      }
     }
 
     div.cover{
       border-radius: 50%;
-      height: 120px;
-      width: 120px;
+      height: 80px;
+      width: 80px;
       box-shadow: 0px 0px 0px 2px $white;
+    }
+
+    h3.subheading{
+      display: none;
     }
   }
 
   .item{
     margin-bottom: 30px;
     padding-bottom: 40px;
-    padding-left: 30px;
+    padding-left: 0px;
     border-bottom: 1px solid $light-grey;
   }
 
@@ -147,15 +158,46 @@ div.cover{
       margin-bottom: 20px;
     }
 
+    .wrapper{
+      padding: 0 50px;
+    
+    }
     .headline h2{
       font-size: 30px;
       margin: 5px 0 5px;
       line-height: 50px;
     }
 
+    
+
     p, .headline, .page-title, .respect-margin{
       margin-right: $page-margin-right/5;
     }
+
+    .item{
+      padding-left: 30px;
+
+      > h3{
+        display: none;
+      }
+    }
+
+    .table {
+      th.picture{
+        width: 150px;
+
+        .cover{
+          width: 120px;
+          height: 120px;
+        }
+      }
+      
+      h3.subheading{
+        display: block;
+      }
+    }
+
+
   }
 }
 @media(min-width:992px){
