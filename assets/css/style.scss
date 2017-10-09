@@ -79,7 +79,16 @@ a#logo {
 
 
 
-
+#mobile-header{
+  h1{
+    background-color: #FAF54F;
+    line-height: 45px;
+    padding-left: 30px;
+  }
+  height: 45px;
+  padding-left: 50px;
+  position: relative;
+}
 
 
 #left {
@@ -335,6 +344,9 @@ body.below-floating {
 @media(min-width:768px){
   body{
     background-image: -webkit-linear-gradient(left, #fff $contents-offset-left, #eeeced $contents-offset-left - 1, #eeeced 100%)
+  }
+  #mobile-header{
+    display: none;
   }
   #main{
     display:block

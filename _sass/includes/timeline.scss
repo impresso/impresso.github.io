@@ -28,7 +28,7 @@
     color: $almost-black;
     position: absolute;
     text-align: center;
-    width: 55px;
+    width: 50px;
 
     &.top{
       top: -50px;
@@ -222,7 +222,7 @@
   position: absolute;
   left: 60px;
   width: 350px;
-  top: -85px;
+  top: -90px;
   bottom: -90px;
   z-index: 0;
   pointer-events: none;
@@ -237,7 +237,7 @@
 
     transition: transform .36s ease-in-out; 
     transform: translateX(-365px);
-    background-color: #eeeced;
+    background-color: $white;
     
     overflow: auto;
   }
@@ -350,7 +350,7 @@
     line-height: 30px;
     top: 20px;
     border-radius: 3px;
-
+    pointer-events: none;
     label {
       font-family: "Libre Caslon Bold";
       font-size:12px;
@@ -372,6 +372,15 @@
       font-size: 10px;
       padding: 0 3px;
       margin-top: 0;
+    }
+
+    &.below-the-fold{
+      top: auto;
+      bottom: 20px;
+
+      &.flipInX {
+        transform-origin: bottom left;
+      }
     }
   }
 
@@ -465,4 +474,10 @@
   animation-name: flipInX;
   animation-duration: 1s;
   animation-iteration-count: 1;
+}
+
+@media(min-width:768px){
+  #timeline-browser .inner{
+    background: #eeeced;
+  }
 }
