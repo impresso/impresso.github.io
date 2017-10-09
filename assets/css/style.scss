@@ -80,12 +80,66 @@ a#logo {
 
 
 #mobile-header{
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
   height: 50px;
-  margin-left: 50px;
-  position: relative;
+  overflow: visible;
   background-color: #000;
   padding-left: 20px;
+  z-index: 1001;
+  font-family: 'Lato', sans-serif;
+  
 
+  @include transition(transform .36s ease-in-out);
+  
+  &.active{
+    transform: translateY(400px);
+  }
+
+  > .inner{
+    position: absolute;
+    bottom: 50px;
+    left:0px;
+    right: 0px;
+    color: $white;
+    background-color: $almost-black;
+    padding: 100px 50px 20px;
+  }
+
+  .collapsible-toggler {
+    span{
+      color: $light-grey;
+    }
+    .circle-plus{
+      display: none;
+    }
+  }
+
+  .collapsible{
+    overflow: visible;
+    height: auto;
+
+    ul{
+      position: static;
+    }
+  }
+
+  ul li{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    a{
+      color: $almost-white;
+    }
+    &.active a{
+      color: $black;
+    }
+    table{
+      width: 150px;
+      margin-top: 25px;
+    }
+  }
   h1{
     background-color: #FAF54F;
     line-height: 45px;
@@ -95,6 +149,17 @@ a#logo {
   img{
     height: 50px;
   }
+}
+
+#mobile-header-toggler{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: white;
+  line-height: 30px;
+  border: 1px solid;
+  padding: 0 10px;
+  border-radius: 30px;
 }
 
 

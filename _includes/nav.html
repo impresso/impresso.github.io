@@ -1,0 +1,41 @@
+<ul>
+          {% for item in nav.links %}
+          <li {% if page.url == item.url %} class="active" {% else %} {% if item.url == page.parenturl %} class="active" {% endif %} {% endif %}>
+            
+            {% if item.links %}
+            <span class='collapsible-toggler {% if item.url == page.parenturl %} force-active active {% endif %}'>{{item.title}} {% include plus.html %}</span>
+            <div class='collapsible {% if item.url == page.parenturl %} force-active active {% endif %}'>
+              <ul>
+                {% for subitem in item.links %}
+                <li {% if page.url == subitem.url %} class="active" {% endif %} >
+                  
+                  <a href="{{subitem.url | relative_url}}">{{subitem.title}}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% else %}
+            <a href="{{item.url}}">{{item.title}}</a>  
+            
+            {% endif %}
+          </li>
+
+          {% endfor %}
+          
+          <li>
+            <table>
+              <tr>
+                <th>
+                  <a href='#' title='email' target='_blank'><span class='icon icon-envelope-letter'></span></a>
+                </th>
+                <th>
+                  <a href='{{site.contacts.twitter.url}}' title='our twitter account' target='_blank'><span class='icon icon-social-twitter'></span></a>
+                </th>
+                <th>
+                  <a href='{{site.contacts.github.url}}' title='our github account' target='_blank'><span class='icon icon-social-github'></span></a>
+                </th>
+              </tr>
+            </table>
+
+          </li>  
+        </ul>

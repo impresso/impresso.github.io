@@ -33,8 +33,11 @@
     <div id='wrapper'>
 
       <div id='mobile-header'>
-        <img class='brand' src="{{ '/assets/images/logo-mobile.png' | relative_url }}">
+        <div class='inner'>{% include nav.html %}</div>
+        <a  {% if page.lang != "en" %} href="/{{page.lang}}" {% else %} href="/"{% endif %}><img class='brand' src="{{ '/assets/images/logo-mobile.png' | relative_url }}"></a>
+        <div id='mobile-header-toggler'>table of contents</div>
       </div>
+
 
         <aside id="main">
         
@@ -53,48 +56,8 @@
           </li>
           {% endfor %}
         </ul>
-        <ul>
-          {% for item in nav.links %}
-          <li {% if page.url == item.url %} class="active" {% else %} {% if item.url == page.parenturl %} class="active" {% endif %} {% endif %}>
-            
-            {% if item.links %}
-            <span class='collapsible-toggler {% if item.url == page.parenturl %} force-active active {% endif %}'>{{item.title}} {% include plus.html %}</span>
-            <div class='collapsible {% if item.url == page.parenturl %} force-active active {% endif %}'>
-              <ul>
-                {% for subitem in item.links %}
-                <li {% if page.url == subitem.url %} class="active" {% endif %} >
-                  
-                  <a href="{{subitem.url | relative_url}}">{{subitem.title}}</a>
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% else %}
-            <a href="{{item.url}}">{{item.title}}</a>  
-            
-            {% endif %}
-          </li>
-
-          {% endfor %}
-          
-          <li>
-            <table>
-              <tr>
-                <th>
-                  <a href='#' title='email' target='_blank'><span class='icon icon-envelope-letter'></span></a>
-                </th>
-                <th>
-                  <a href='{{site.contacts.twitter.url}}' title='our twitter account' target='_blank'><span class='icon icon-social-twitter'></span></a>
-                </th>
-                <th>
-                  <a href='{{site.contacts.github.url}}' title='our github account' target='_blank'><span class='icon icon-social-github'></span></a>
-                </th>
-              </tr>
-            </table>
-
-          </li>  
-        </ul>
         
+        {% include nav.html %}
 
         </section>
         
@@ -180,28 +143,36 @@
           w_height       = window.innerHeight,
 
           _menu          = d3.select('#main').style('height', (window.innerHeight - 100)+'px'),
-          
-          is_below_floating_line = false;
+          _mobileHeader  = d3.select('#mobile-header'),
+          isMobileHeaderActive = false,
+          isBelowFloatingLine = false;
       
       function evaluateFloatingLine() {
         var bottom = window.scrollY + w_height;
         
-        if(is_below_floating_line && _floating_line.offsetTop > bottom) {
+        if(isBelowFloatingLine && _floating_line.offsetTop > bottom) {
           // deactivate, put back sidebar on fixed;
-          is_below_floating_line = false;
+          isBelowFloatingLine = false;
           _body.classed('below-floating', false);
-        } else if(!is_below_floating_line && _floating_line.offsetTop <= bottom){
+        } else if(!isBelowFloatingLine && _floating_line.offsetTop <= bottom){
           // activate
-          is_below_floating_line = true;
+          isBelowFloatingLine = true;
           _body.classed('below-floating', true);
         }
-        // console.log('is_below_floating_line:', is_below_floating_line, _floating_line.offsetTop, bottom);
+        // console.log('isBelowFloatingLine:', isBelowFloatingLine, _floating_line.offsetTop, bottom);
       }
 
       function onResize() {
         w_height = window.innerHeight;
         evaluateFloatingLine();
       }
+
+      d3.select('#mobile-header-toggler')
+        .on("click", function(){
+          isMobileHeaderActive = !isMobileHeaderActive;
+          _mobileHeader.classed('active', isMobileHeaderActive)
+
+        })
 
       d3.select(window)
         .on("scroll.scroller", evaluateFloatingLine)

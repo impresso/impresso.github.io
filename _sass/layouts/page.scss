@@ -3,10 +3,10 @@ $page-margin-right: 50px;
 .page{
   
   
-  padding: 30px 0px 30px;
+  padding: 70px 0px 30px;
 
   .wrapper{
-    padding: 0 20px 0 50px
+    padding: 0 20px 0 40px;
   }
 
   h1{
@@ -151,6 +151,7 @@ div.cover{
 @media(min-width:768px){
   .page {
 
+    padding-top: 30px;
     h1{
       font-size: 50px;
       line-height: 70px;
