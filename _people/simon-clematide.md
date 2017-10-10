@@ -1,7 +1,7 @@
 ---
 category: team
 title: Simon Clematide, Dr.
-picture: /assets/images/simon-klein.jpg
+picture: /assets/images/simon-clematide.jpg
 ordering: 01-clematide
 subheading: Post-doctoral researcher at UZH-CL
 ---
