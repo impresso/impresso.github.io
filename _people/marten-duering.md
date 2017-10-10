@@ -1,15 +1,13 @@
 ---
 category: team
-title: Marten Düring, Researcher
+title: Marten Düring, PhD
 ordering: 01-duering
-subheading: Head of digital research infrastructure at the C2DH
+subheading: researcher at the C2DH
 picture: /assets/images/marten-duering.jpg
 ---
 
-Marten Düring holds a PhD in Engineering from the Bauhaus-University Weimar, Germany and he is head of the digital research infrastructure of C2DH in Luxembourg.
+Marten Düring holds a PhD in contemporary history from the University of Mainz and is part of C2DH's Digital History unit. Marten's research focuses on contemporary history, digital history and more specifically network analysis in the historical disciplines. Alongside Impresso, Marten is part of the ANR/FNR-funded project BLIZAAR (Hybrid Visualization of Dynamic Multilayer Graphs).
 
-Amongst other things he leads a work package in the ANR/FNR-funded project BLIZAAR (Hybrid Visualization of Dynamic Multilayer Graphs) together with partners from LIST Luxembourg, LaBRI (Bordeaux) and EISTI (Pau/Paris).
-
-Within Impresso, Marten is responsible of WP5
+Within Impresso, Marten is responsible for the coordination of the interface development, Digital History methodology and investigations as well as project dissemination.
 
 [// C2DH](https://www.c2dh.uni.lu/people/marten-during)
