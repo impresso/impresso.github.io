@@ -10,4 +10,4 @@ Simon holds a PhD in Computational Linguistics from the University of Zurich. Hi
 
 Within *impresso*, Simon will be mainly responsible for NLP and text mining, as well as system design and data management.
 
-[UCL-CL profile](http://www.cl.uzh.ch/de/people/team/compling/siclemat.html) [Twitter](https://twitter.com/search?q=Simon%20Clematide&src=typd&lang=en)
+[UZH-CL profile](http://www.cl.uzh.ch/de/people/team/compling/siclemat.html) [Twitter](https://twitter.com/search?q=Simon%20Clematide&src=typd&lang=en)
