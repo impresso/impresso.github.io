@@ -8,11 +8,7 @@ ordering: 02-bnl
  and methods to the changing user requirements and available technologies.  Due to conservation issues and growing demand from researchers and the general public, the  digitization of the Luxembourg press had been prioritized. To date, 473.330 pages with text  recognition, with 3.200.000 articles, and 188.140 pages in image mode are available on BnL's website [www.eluxemburgensia.lu](www.eluxemburgensia.lu).
 
 
-### Role
-
- The BnL will support the project by providing the enriched full text data of its digitized newspapers and periodicals collection, which spans the mid-19th to the 20th century. The BnL will share information on the development of its current portal,  its data enrichments aims and plans, as well as give feedback on the prototypes newly developed by the project. It hopes to identify opportunities for the improvement of its  existing portal, which is scheduled to undergo a technological and functional refresh. The BnL will additionally provide input about the process of re-integration of useful enrichments created by the project to its digital collections. The isntitution is ready to participate in workshops and conferences dealing with questions raised by the
+**Role:** The BnL will support the project by providing the enriched full text data of its digitized newspapers and periodicals collection, which spans the mid-19th to the 20th century. The BnL will share information on the development of its current portal,  its data enrichments aims and plans, as well as give feedback on the prototypes newly developed by the project. It hopes to identify opportunities for the improvement of its  existing portal, which is scheduled to undergo a technological and functional refresh. The BnL will additionally provide input about the process of re-integration of useful enrichments created by the project to its digital collections. The isntitution is ready to participate in workshops and conferences dealing with questions raised by the
 Consortium's project.
 
-### Participants
-
-Monique Kieffer (Director), Carlo Blum (Head of IT at the BnL)
+**Participants:** Monique Kieffer (Director), Carlo Blum (Head of IT)
