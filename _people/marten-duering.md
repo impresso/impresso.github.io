@@ -10,4 +10,4 @@ Marten Düring holds a PhD in contemporary history from the University of Mainz 
 
 Within Impresso, Marten is responsible for the coordination of the interface development, Digital History methodology and investigations as well as project dissemination.
 
-[// C2DH](https://www.c2dh.uni.lu/people/marten-during)
+[C2DH profile](https://www.c2dh.uni.lu/people/marten-during)
