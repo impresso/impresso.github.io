@@ -10,4 +10,4 @@ Phillip is a PhD student at the Institute of Computational Linguistics at the Un
 
 Within *impresso*, Phillip contributes to the development and implementation of text mining techniques. More precisely, his research work will focus on modelling cross-lingual topic relations across time.
 
-[UZH-CL profile](http://www.cl.uzh.ch/de/people/team/compling/pstroebel.html)
+[UZH-CL profile](http://www.cl.uzh.ch/de/people/team/compling/pstroebel.html) [Twitter](https://twitter.com/CLingophil)
