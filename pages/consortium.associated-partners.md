@@ -9,5 +9,5 @@ ordering: 03
 ---
 
 <!-- content here will serve as an intro. Cfr. _layouts/consortium.html -->
-To ensure a richer corpora and a lasting outcome of the project, *impresso* leans on valuable cultural institutions and researcher groups. 
+*impresso* receives high-quality content from national libraries, archives and newspapers across Europe. A team of associated historians ensures that *impresso* meets the needs and quality standards of its target audience. 
 
