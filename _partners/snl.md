@@ -4,7 +4,7 @@ title: Swiss National Library, SNL
 ordering: 01-snl
 ---
 
-[// www.nb.admin.ch](https://www.nb.admin.ch/?lang=en) &mdash; As a memory institution of the Swiss Confederation, the Swiss National Library (SNL) stands ready to address the digital reality and is willing to promote innovative digital scholarship practices. Since 2006, the SNL has been digitizing its collections and making them available online, with a strong emphasis on serials and the press, in great demand among users. In collaboration with cantonal libraries and publishers, the Swiss National Library has set up a platform for online newspapers in 2011: [Swiss press online, SPOL](www.swisspressar-chives.ch). She also actively supported the DHLAB's project around *Le Temps* digital archives which, among others, led to the new interface of the journal's historical archives, [www.letempsarchives.ch](www.letempsarchives.ch).
+[www.nb.admin.ch](https://www.nb.admin.ch/?lang=en) &mdash; As a memory institution of the Swiss Confederation, the Swiss National Library (SNL) stands ready to address the digital reality and is willing to promote innovative digital scholarship practices. Since 2006, the SNL has been digitizing its collections and making them available online, with a strong emphasis on serials and the press, in great demand among users. In collaboration with cantonal libraries and publishers, the Swiss National Library has set up a platform for online newspapers in 2011: [Swiss press online, SPOL](www.swisspressar-chives.ch). She also actively supported the DHLAB's project around *Le Temps* digital archives which, among others, led to the new interface of the journal's historical archives, [www.letempsarchives.ch](www.letempsarchives.ch).
 
 ### Role
 
