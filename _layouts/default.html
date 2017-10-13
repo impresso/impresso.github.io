@@ -39,7 +39,7 @@
       </div>
 
 
-        <aside id="main">
+        <aside id="main" class='fixed'>
         
         <div class="inner">
           <a id="logo" {% if page.lang != "en" %} href="/{{page.lang}}" {% else %} href="/"{% endif %}>
@@ -104,7 +104,30 @@
     {% include timeline.runtime.html %}
     
     <script>
-      d3.selectAll('.collapsible-toggler').on('click', function(){ 
+      // on window scroll, mimic the sticky position
+      // When floating-line is visible, the `position` css value of sidebar (timeline and menu)
+      // change from fixed to absolute, bottom aligned.
+      // same thing should happen when the window is resized.
+      var _floating_line = document.getElementById('floating-line'),
+          _body          = d3.select('body'),
+          // collapsible menu maximum height
+          
+          _menu             = d3.select('#main'), // .style('height', (window.innerHeight - 100)+'px'),
+
+          menuHeight        = _menu.node().getBoundingClientRect().height,
+
+          _mobileHeader     = d3.select('#mobile-header'),
+
+          isMobileHeaderActive = false,
+          isBelowFloatingLine = false;
+
+      console.log('[menu] height before hiddden:', menuHeight)
+      // define behaviour for collapsible menu, then calculate the menu desired height based on inner menus.
+      d3.selectAll('.collapsible-toggler').each(function(){
+        console.log('collapsible-toggler', this.className)
+        menuHeight = menuHeight 
+          + this.nextElementSibling.firstElementChild.scrollHeight;
+      }).on('click', function(){ 
         var s  = this.nextElementSibling,
             c  = s.firstElementChild,
             h  = c.scrollHeight,
@@ -116,9 +139,6 @@
         if(is_locked){
           // do nothing...
           return;
-          // recalculate height
-          _s.style('height', h + 'px');
-          
         }
         // debugger
         console.log('.collapsible-toggler@click height:', h, is_active)
@@ -131,24 +151,15 @@
         // this.classname
         // this.nextElementSibling.style.height = h + "px"
       });
-    </script>
+      
+      console.log('[menu] height:', menuHeight)
+      
+      // resize the height so that it works
+      
 
-    <script>
-      // on window scroll, mimic the sticky position
-      // When floating-line is visible, the `position` css value of sidebar (timeline and menu)
-      // change from fixed to absolute, bottom aligned.
-      // same thing should happen when the window is resized.
-      var _floating_line = document.getElementById('floating-line'),
-          _body          = d3.select('body'),
-          w_height       = window.innerHeight,
-
-          _menu          = d3.select('#main').style('height', (window.innerHeight - 100)+'px'),
-          _mobileHeader  = d3.select('#mobile-header'),
-          isMobileHeaderActive = false,
-          isBelowFloatingLine = false;
       
       function evaluateFloatingLine() {
-        var bottom = window.scrollY + w_height;
+        var bottom = window.scrollY + window.innerHeight;
         
         if(isBelowFloatingLine && _floating_line.offsetTop > bottom) {
           // deactivate, put back sidebar on fixed;
@@ -158,14 +169,12 @@
           // activate
           isBelowFloatingLine = true;
           _body.classed('below-floating', true);
+          // set correctly  
         }
         // console.log('isBelowFloatingLine:', isBelowFloatingLine, _floating_line.offsetTop, bottom);
       }
 
-      function onResize() {
-        w_height = window.innerHeight;
-        evaluateFloatingLine();
-      }
+      
 
       d3.select('#mobile-header-toggler')
         .on("click", function(){
@@ -176,7 +185,7 @@
 
       d3.select(window)
         .on("scroll.scroller", evaluateFloatingLine)
-        .on("resize", onResize);
+        .on("resize", evaluateFloatingLine);
 
       evaluateFloatingLine();
     </script>

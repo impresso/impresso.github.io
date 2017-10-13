@@ -39,7 +39,7 @@
   .circle-plus {
     position: absolute;
     left: -25px;
-    top: -3px;
+    top: 0px;
 
     .vertical, .horizontal{
       @include transition(transform .27s ease-in-out, opacity .27s ease-in-out);

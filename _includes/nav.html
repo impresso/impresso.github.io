@@ -3,7 +3,7 @@
           <li {% if page.url == item.url %} class="active" {% else %} {% if item.url == page.parenturl %} class="active" {% endif %} {% endif %}>
             
             {% if item.links %}
-            <span class='collapsible-toggler {% if item.url == page.parenturl %} force-active active {% endif %}'>{{item.title}} {% include plus.html %}</span>
+            <div class='collapsible-toggler {% if item.url == page.parenturl %} force-active active {% endif %}'>{{item.title}} {% include plus.html %}</div>
             <div class='collapsible {% if item.url == page.parenturl %} force-active active {% endif %}'>
               <ul>
                 {% for subitem in item.links %}

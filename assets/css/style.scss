@@ -109,7 +109,7 @@ a#logo {
   }
 
   .collapsible-toggler {
-    span{
+    div{
       color: $light-grey;
     }
     .circle-plus{
@@ -338,15 +338,22 @@ figcaption{
 
 #main{
   width: $sidebar-width;
-  // margin-left: 100px;
-  // float: left;
-  overflow: hidden;
-  position: fixed;
+  position: static;
+  margin-left: 100px;
+  float: left;
   display: none;
+  overflow: hidden;
+    
 
-  // bottom: 100px;
-  height: 500px;
-  left: 100px;
+  &.fixed{
+    overflow: hidden;
+    position: fixed;
+    margin-left: 0;
+    // bottom: 100px;
+    // height: 500px;
+    left: 100px;
+    float: none;
+  }
 
   .inner{
     transition: transform .36s ease-in-out;
@@ -400,7 +407,7 @@ margin-left: 30px;
 
 body.below-floating {
   
-  #timeline, #main {
+  #timeline, #main.fixed {
     position: absolute;
     top: auto;
     bottom: 100px;

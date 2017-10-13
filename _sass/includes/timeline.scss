@@ -409,6 +409,7 @@
   top: -25px;
   left: 35px;
   opacity: 1;
+  display: none;
 
   label{
     
@@ -477,6 +478,9 @@
 }
 
 @media(min-width:768px){
+  #timeline-next-event{
+    display: block;
+  }
   #timeline-browser .inner{
     background: #eeeced;
   }

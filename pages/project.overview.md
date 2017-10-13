@@ -6,20 +6,27 @@ lang: en
 parenturl: /project/
 ---
 
+<div class="headline">
+  <h2><span>Context</span></h2>
+</div>
 
-## Context
-
-
+<blockquote class='summary respect-margin'>
 Historical newspapers are mirrors of past societies. Published over centuries on a regular basis, they record wars and minor events, report on international, national and local matters, and document the day-to-day life. In a word, they keep track of the great and small history, and the wealth of information they offer as well as their inherent contextualization makes them invaluable primary sources for historians.
+</blockquote>
 
 For long held on library and archive shelving, newspapers are currently undergoing mass digitization, and millions of facsimiles, along with their machine-readable content acquired via Optical Character Recognition, are becoming accessible via a variety of online portals. If this represents a major step forward in terms of preservation of and access to documents, conducting research using these sources raises a number of problems, including a lack of text searchability as a result of poor text recognition and missing metadata, the relative isolation of digitised newspapers within their respective archives, search functions that are difficult to use, and poorly designed user interfaces.
 
 However, recent progress in text analysis has also opened up new possibilities for conducting research on historical text collections. Opportunities include
 enhanced analysis capacities, with the possibility to automatically explore the content of newspapers with an unprecedented speed-depth-volume combination, a greater scope, with the possibility to conduct global studies by comparing and contrasting viewpoints, and a larger continuity, with the possibility to consider the entire lifespan of newspapers or collections thereof in single studies. This is the route explored by the present project.
 
-## Objectives
+<div class="headline">
+  <h2><span>Objectives</span></h2>
+</div>
 
-*Impresso* aims at enabling **new ways of engaging with digital historical newspaper content and new approaches to address historical questions**. To this end, the project will address the following main objectives:
+<blockquote class='summary respect-margin'>
+<em>Impresso</em> aims at enabling <strong>new ways of engaging with digital historical newspaper content and new approaches to address historical questions</strong>. 
+</blockquote>
+To this end, the project will address the following main objectives:
 <br><br>
 
 ### 1) Historical media monitoring tool suite
