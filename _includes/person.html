@@ -1,11 +1,14 @@
 <!-- special layout for single item in a people collection. Use assign to define people group.-->  
-<div class='item respect-margin'>
+<div class='item' id='{{person.slug}}'>
   <table class='table'>
     <tr>
       <th class='picture' >
         <div class='cover' style='background-image:url({% if person.picture %}{{person.picture | relative_url }}{%else %}http://www.vintageavatars.com/images/Abstract%20Art/100x100/abstractart{{forloop.index}}.jpg{% endif %})'></div>
       </th>
       <th>
+        {% if person.group %}
+        <div class='tag'>{{person.group}}</div>
+        {% endif %}
         <h2>
           <span>{{person.title}}</span>
         </h2>

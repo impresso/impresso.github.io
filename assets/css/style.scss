@@ -88,12 +88,14 @@ a#logo {
   height: 50px;
   overflow: visible;
   background-color: #000;
-  padding-left: 12px;
+  width: 100%;
   z-index: 1001;
   font-family: 'Lato', sans-serif;
   box-shadow: 1px 1px $yellow;
   
-
+  a {
+    padding-left: 12px
+  }
   @include transition(transform .36s ease-in-out);
   
   &.active{

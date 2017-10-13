@@ -1,8 +1,9 @@
 ---
 category: team
-title: Martin Volk, Prof.
+group: supervisor
+ordering: 03-volk
 picture: /assets/images/martin-volk.jpg
-ordering: 01-volk
+title: Martin Volk, Prof.
 subheading: Professor at UZH-CL
 ---
 

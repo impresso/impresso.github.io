@@ -1,9 +1,10 @@
 ---
 category: team
-title: Lars Wieneke, PhD
-ordering: 01-wieneke
-subheading: Head of digital research infrastructure at the C2DH
+group: supervisor
+ordering: 03-wieneke
 picture: /assets/images/lars-wieneke.jpg
+subheading: Head of digital research infrastructure at the C2DH
+title: Lars Wieneke, PhD
 ---
 
 Lars Wieneke holds a PhD in Engineering from the Bauhaus-University Weimar, Germany and he is head of the digital research infrastructure of C2DH in Luxembourg.

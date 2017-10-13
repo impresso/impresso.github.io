@@ -146,6 +146,69 @@ div.cover{
   }
 }
 
+.tag{
+  display: inline-block;
+  line-height: 17px;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $dark-grey;
+    padding: 0 6px;
+}
+
+.thumbnails{
+  border-bottom: 1px solid $light-grey;
+  margin-bottom: 20px;
+
+  > h3{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    
+  }
+
+  > a.thumbnail{
+    margin-right: 10px;
+    width: 90px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-transform: initial;
+    background: transparent;
+    color: $dark-grey;
+    &:hover{
+      background: transparent;
+      h4{
+        text-decoration: underline;
+      }
+      > .picture > .cover{
+        box-shadow: 0px 0px 0px 2px $almost-black;
+      }
+    }
+    > .picture{
+      width: 60px;
+      margin: 0px auto;
+      > .cover{
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 2px $white;
+        width: 60px;
+        height: 60px;
+        transition: box-shadow .3s ease-in-out;
+      }
+    }
+
+    > h4 {
+      font-size: 11px;
+      line-height: 14px;
+      margin: 10px 0;
+      font-family: 'Libre Caslon Bold', serif;
+      > span{
+      background-color: $white;
+      
+      }
+    }
+  }
+}
 
 
 @media(min-width:768px){
@@ -176,8 +239,11 @@ div.cover{
     }
 
     .item{
-      padding-left: 30px;
+      padding-left: 0px;
 
+      p{
+        margin-right: 0;
+      }
       > h3{
         display: none;
       }

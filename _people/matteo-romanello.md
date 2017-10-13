@@ -1,9 +1,10 @@
 ---
 category: team
-title: Matteo Romanello, PhD
-subheading: Research scientist at EPFL-DHLAB
-ordering: 01-romanello
+group: collaborator
+ordering: 02-romanello
 picture: /assets/images/matteo-romanello.jpg
+subheading: Research scientist at EPFL-DHLAB
+title: Matteo Romanello, PhD
 ---
 
 Matteo holds a Ph.D. in Digital Humanities from King's College London and is a research scientist at the Digital Humanities Laboratory of EPFL in Lausanne.

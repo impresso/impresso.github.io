@@ -25,10 +25,43 @@ layout: default
       <blockquote class='summary respect-margin'>{{section.content | markdownify}}</blockquote>
 
       {% if section.nolang == '/consortium/people/' %}
+        {% assign group = site.people | where: 'group','contact-point' | sort: 'ordering' %}
+        <div class='thumbnails respect-margin'>
+          <h3 ><span class='tag'>contact points</span></h3>
+          {% for person in group %}
+           {% include person.thumbnail.html %}
+          {% endfor %}
+        </div>
+
+        {% assign group = site.people | where: 'group','collaborator' | sort: 'ordering' %}
+        <div class='thumbnails respect-margin'>
+          <h3><span class='tag'>collaborators</span></h3>
+          {% for person in group %}
+          {% include person.thumbnail.html %}
+          {% endfor %}
+        </div>
+
+        
+
+        {% assign group = site.people | where: 'group','supervisor' | sort: 'ordering' %}
+        <div class='thumbnails respect-margin'>
+          <h3><span class='tag'>supervisors</span></h3>
+          {% for person in group %}
+          {% include person.thumbnail.html %}
+          {% endfor %}
+        </div>
+        
+
         {% assign team = site.people | where: 'category','team' | sort: 'ordering' %}
-        {% for person in team %}
-          {% include person.html %}
-        {% endfor %}
+        <div class="container-fluid ">
+          <div class='row'>
+            {% for person in team %}
+            <div class='col-lg-6'>
+              {% include person.html %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
       {% endif %}
       
       

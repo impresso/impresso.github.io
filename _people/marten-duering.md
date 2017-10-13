@@ -1,9 +1,10 @@
 ---
 category: team
-title: Marten Düring, PhD
+group: contact-point
 ordering: 01-duering
-subheading: researcher at the C2DH
 picture: /assets/images/marten-duering.jpg
+subheading: researcher at the C2DH
+title: Marten Düring, PhD
 ---
 
 Marten Düring holds a PhD in contemporary history from the University of Mainz and is part of C2DH's Digital History unit. Marten's research focuses on contemporary history, digital history and more specifically network analysis in the historical disciplines. Alongside Impresso, Marten is part of the ANR/FNR-funded project BLIZAAR (Hybrid Visualization of Dynamic Multilayer Graphs).

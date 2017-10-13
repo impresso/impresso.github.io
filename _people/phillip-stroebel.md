@@ -1,9 +1,10 @@
 ---
 category: team
-title: Phillip Ströbel, M.A.
+group: collaborator
+ordering: 02-stroebel
 picture: /assets/images/phillip-stroebel.jpg
-ordering: 01-stroebel
 subheading: PhD student at UZH-CL
+title: Phillip Ströbel, M.A.
 ---
 
 Phillip is a PhD student at the Institute of Computational Linguistics at the University of Zurich.

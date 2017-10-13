@@ -218,12 +218,14 @@
     
 }
 
+
 #timeline-browser{
   position: absolute;
   left: 60px;
-  width: 350px;
-  top: -90px;
-  bottom: -90px;
+  width: 250px;
+  top: -40px;
+  bottom: auto;
+  height:100%;
   z-index: 0;
   pointer-events: none;
   overflow: hidden;
@@ -481,7 +483,13 @@
   #timeline-next-event{
     display: block;
   }
-  #timeline-browser .inner{
-    background: #eeeced;
+  #timeline-browser {
+    top: -90px;
+    width: 350px;
+    bottom: -90px;
+    height:auto;
+    .inner{
+     background: #eeeced;
+    }
   }
 }

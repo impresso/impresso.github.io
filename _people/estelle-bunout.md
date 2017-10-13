@@ -1,9 +1,10 @@
 ---
 category: team
-title: Estelle Bunout, M.A.
-subheading: Associate Researcher at the C2DH
+group: collaborator
+ordering: 02-bunout
 picture: /assets/images/estelle-bunout.jpg
-ordering: 01-bunout
+subheading: Associate Researcher at the C2DH
+title: Estelle Bunout, M.A.
 ---
 
 Estelle Bunout holds a M.A. in History of European Integration and submitted a PhD on the history of the expertise of Eastern Europe in Germany and Poland as a science of the enemy (1918-1972) for which she developed dedicated visualisation tools.
