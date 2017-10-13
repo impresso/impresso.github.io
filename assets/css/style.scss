@@ -10,6 +10,7 @@ $almost-black: #151515;
 $dark-grey: #51484d;
 $medium-grey: #696467;
 $light-grey: #a9a0a6;
+$very-light-grey: #cfc9cd;
 
 $almost-white: #ffebf7;
 $white: #ffffff;
@@ -87,9 +88,10 @@ a#logo {
   height: 50px;
   overflow: visible;
   background-color: #000;
-  padding-left: 20px;
+  padding-left: 12px;
   z-index: 1001;
   font-family: 'Lato', sans-serif;
+  box-shadow: 1px 1px $yellow;
   
 
   @include transition(transform .36s ease-in-out);
@@ -105,7 +107,8 @@ a#logo {
     right: 0px;
     color: $white;
     background-color: $almost-black;
-    padding: 100px 50px 20px;
+    padding: 100px 20px 20px 26px;
+    border-bottom: 1px solid $light-grey;
   }
 
   .collapsible-toggler {
@@ -115,6 +118,9 @@ a#logo {
     .circle-plus{
       display: none;
     }
+    &.force-active{
+      color: $dark-grey;
+    }
   }
 
   .collapsible{
@@ -123,6 +129,8 @@ a#logo {
 
     ul{
       position: static;
+      
+      
     }
   }
 
@@ -130,9 +138,19 @@ a#logo {
     text-transform: uppercase;
     margin-bottom: 5px;
     a{
-      color: $almost-white;
+      color: $very-light-grey;
+      text-decoration: none;
     }
-    &.active a{
+    a:active{
+      color: $white;
+    }
+    &.active > a{
+      color: $black;
+    }
+    &.active .collapsible li > a{
+      color: $very-light-grey;
+    }
+    &.active .collapsible li.active > a{
       color: $black;
     }
     table{
@@ -149,18 +167,102 @@ a#logo {
   img{
     height: 50px;
   }
+
+  &.active > #mobile-header-toggler > div > span{
+    &.a, &.d{
+      top: 15px;
+      width: 0%;
+      left: 50%;
+    }
+    &.b{
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &.c{
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
 }
 
 #mobile-header-toggler{
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 8px;
   color: white;
   line-height: 30px;
   border: 1px solid;
   padding: 0 10px;
   border-radius: 30px;
+  padding-right: 38px;
+  // animated burger menu
+  > div{
+    position: absolute;
+    right:8px;
+    top:0;
+    width: 20px;
+    height: 45px;
+    cursor: pointer;
+
+    > span{
+      display: block;
+      position: absolute;
+      height: 1px;
+      width: 17px;
+      background: $white;
+      opacity: 1;
+      left: 0;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .25s ease-in-out;
+      -moz-transition: .25s ease-in-out;
+      -o-transition: .25s ease-in-out;
+      transition: .25s ease-in-out;
+    
+
+      &.a {
+        top: 9px;
+      }
+
+      &.b,&.c {
+        top: 15px;
+      }
+
+      &.d {
+        top: 21px;
+      }
+    }
+  }
+
+// #nav-icon3.open span.b {
+//   -webkit-transform: rotate(45deg);
+//   -moz-transform: rotate(45deg);
+//   -o-transform: rotate(45deg);
+//   transform: rotate(45deg);
+// }
+
+// #nav-icon3.open span.c {
+//   -webkit-transform: rotate(-45deg);
+//   -moz-transform: rotate(-45deg);
+//   -o-transform: rotate(-45deg);
+//   transform: rotate(-45deg);
+// }
+
+// #nav-icon3.open span.d {
+//   top: 18px;
+//   width: 0%;
+//   left: 50%;
+// }
+//   }
 }
+
+
 
 
 #left {

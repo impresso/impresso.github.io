@@ -32,10 +32,20 @@
     
     <div id='wrapper'>
 
-      <div id='mobile-header'>
+      <div id='mobile-header' >
         <div class='inner'>{% include nav.html %}</div>
         <a  {% if page.lang != "en" %} href="/{{page.lang}}" {% else %} href="/"{% endif %}><img class='brand' src="{{ '/assets/images/logo-mobile.png' | relative_url }}"></a>
-        <div id='mobile-header-toggler'>table of contents</div>
+        <div id='mobile-header-toggler' >
+          menu
+          <div>
+            <span class='a'></span>
+            <span class='b'></span>
+            <span class='c'></span>
+            <span class='d'></span>
+
+          </div>
+        </div>
+
       </div>
 
 
