@@ -86,12 +86,12 @@ $page-margin-right: 50px;
   }
 
   blockquote.summary{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    line-height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 30px;
     border-bottom: 2px solid $almost-black;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
   }
 
   section{
@@ -107,7 +107,7 @@ $page-margin-right: 50px;
     font-family: "Lato", sans-serif;
     // border-top: 1px solid $almost-black;
     border-bottom: 1px solid $almost-black;
-    padding: 15px 0;
+    padding: 0px 0 15px;
     
     h2{
       font-size: 25px;
@@ -216,10 +216,14 @@ div.cover{
 
     padding-top: 30px;
     h1{
-      font-size: 50px;
-      line-height: 70px;
-      margin-top: 18px;
-      margin-bottom: 20px;
+      // font-size: 50px;
+      font-size: 30px;
+      // line-height: 70px;
+      line-height: 50px;
+      // margin-top: 18px;
+      // margin-bottom: 20px;
+      margin-top: 50px;
+      margin-bottom: 0px;
     }
 
     .wrapper{
@@ -227,9 +231,11 @@ div.cover{
     
     }
     .headline h2{
-      font-size: 30px;
+      font-size: 20px;
+      line-height: 35px;
+      // font-size: 30px;
       margin: 5px 0 5px;
-      line-height: 50px;
+      // line-height: 50px;
     }
 
     

@@ -3,7 +3,8 @@ title: "Historical research"
 permalink: /project/history/
 nolang: /project/history/
 layout: page
-parenturl: /fr/project/
+parent: project
+parenturl: /project/
 ---
 
 placeholder. This is a text
