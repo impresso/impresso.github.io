@@ -142,6 +142,10 @@
       right: 5px;
     }
 
+    .lines.active{
+      background: #eeeced;
+    }
+
     #timeline-browser{
       pointer-events: auto;
       .inner{
@@ -345,14 +349,15 @@
   > .item{
     background-color: $almost-black;
     color: $white;
-    left: 70px;
-    max-width: 300px;
+    left: 55px;
+    min-width: 95px;
+    max-width: 200px;
     position: absolute;
     padding: 0px 9px;
     line-height: 30px;
     top: 20px;
     border-radius: 3px;
-    pointer-events: none;
+    pointer-events: auto;
     label {
       font-family: "Libre Caslon Bold";
       font-size:12px;
@@ -412,6 +417,7 @@
   left: 35px;
   opacity: 1;
   display: none;
+  pointer-events:none;
 
   label{
     

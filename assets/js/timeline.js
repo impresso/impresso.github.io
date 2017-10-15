@@ -1,7 +1,7 @@
 /*
   Draw and manage a timeline for impresso website, mobile ready.
 
-  _main is required.
+  _menu d3 is required, and declared in default.html
 */
 window.ImpressoTimeline = function(options) {
   var data = options.data;
@@ -10,6 +10,7 @@ window.ImpressoTimeline = function(options) {
   // DOM elements
   var _timeline      = d3.select("#timeline"),
       _browser       = d3.select("#timeline-browser .info"),
+      _browser_close = d3.select("#timeline-browser .close"),
       _slides        = d3.select("#timeline .slides"),
       _lines         = d3.select("#timeline .lines"),
       
@@ -18,7 +19,7 @@ window.ImpressoTimeline = function(options) {
 
 
       // append next big event
-      _next          = _lines.select('#timeline-next-event'),
+      _next          = _timeline.select('#timeline-next-event'),
       _next_text     = _next.append('label')
                           .text('upcoming event'),
       _next_date     = _next.append('div')
@@ -48,8 +49,8 @@ window.ImpressoTimeline = function(options) {
 
 
   // timers
-  var timerCloseTimelineBrowser,
-      timerCloseTimelineLines,
+  var timerHideTimelineBrowser,
+      timerHidePointer,
 
       previousClosestIndex = -1,
       
@@ -57,7 +58,9 @@ window.ImpressoTimeline = function(options) {
       _is_next_index = -1;
 
   var _self = this;
-      
+  
+
+  this.isBrowsing = false;
 
   this.init = function() {
     log('init', [d3.isoParse(data.start_date), d3.isoParse(data.end_date)]);
@@ -65,10 +68,229 @@ window.ImpressoTimeline = function(options) {
     // set timescale domain 
     timeScale = timeScale.domain([d3.isoParse(data.start_date), d3.isoParse(data.end_date)]);
 
-    
+    // enable listeners
+    _timeline
+      .on("mouseleave", this.delayHidePointer)
+      
+
+    _lines
+      .on("click", this.showTimelineBrowser)
+      .on("mouseenter", this.showPointer)
+      .on("mousemove", this.movePointer)
+      .on("mouseleave", this.delayHidePointer)
+
+    _pointer_item
+      .on("click", this.showTimelineBrowser)
+      .on("mouseenter", function(){
+        // clean timers!!
+        console.log('it enters!!!!')
+        if(timerHidePointer)
+          clearTimeout(timerHidePointer)
+      })
+//       clearTimeout(timerHidePointer)
+
+//       
+//     })
+
+    // close browser when needed
+    _browser_close
+      .on("click", this.hideTimelineBrowser);
+
     // call render
     this.render();
+  };
+
+  //
+  this.hideTimelineBrowser = function() {
+    _menu
+      .classed('put-aside', false);
+    _timeline
+      .classed('active', false)    
+    _self.isBrowsing = false;
+    _self.hidePointer();
   }
+
+  // Activate the event browser
+  this.showTimelineBrowser = function(idx) {
+    _menu
+      .classed('put-aside', true);
+    _timeline
+      .classed('active', true);
+    
+    _self.isBrowsing = true;
+    _self.viewItem(typeof idx == 'number'? idx: previousClosestIndex);
+    
+    _pointer
+      .classed("active", false)
+
+  };
+
+  this.delayHidePointer = function() {
+    if(timerHidePointer)
+      clearTimeout(timerHidePointer)
+    timerHidePointer = setTimeout(_self.hidePointer, 1000);
+    log('delayCloseTimelineLines')
+  }
+
+  this.hidePointer = function() {
+    _pointer
+      .classed("active", false)
+      
+    _closest
+      .classed("active", true)
+      
+    _lines
+      .classed("active", false)
+
+    
+  };
+
+  this.showPointer = function(idx) {
+    if(_self.isBrowsing){
+      _self.hideTimelineBrowser();
+    }
+    if(timerHidePointer)
+      clearTimeout(timerHidePointer)
+
+    _pointer
+      .classed("active", true)
+      
+    _closest
+      .classed("active", false)
+      
+    _lines
+      .classed("active", true)
+
+    
+
+    _self.movePointer(0);
+  };
+
+
+  this.movePointer = function(idx) {
+    if(_self.isBrowsing){
+      return;
+    }
+    // d3.mouse is normally bound to the event handler.
+    var pos = typeof idx == 'number'? [0, 0]: d3.mouse(this),
+        // get text from y
+        date = timeScale.invert(pos[1]);
+    
+    // move pointer towards mouse Y on _lines
+    _pointer
+      .style('transform', 'translate(0px,'+pos[1]+'px)');
+
+    // check if mouse y it is after the half of the timeline height.
+    if(isPointerItemAboveTheFold && pos[1]/timelineHeight >= 0.55) {
+      _pointer_item.classed('below-the-fold', true)
+    } else if(!isPointerItemAboveTheFold && pos[1]/timelineHeight < 0.55){
+      _pointer_item.classed('below-the-fold', false)
+    }
+    isPointerItemAboveTheFold = pos[1]/timelineHeight < 0.55;
+
+    // add date to DOM element
+    _pointer_text
+      .text(timeFormatter(date));
+
+    // calculate closest date to pointer position
+    closestIndex = _self.closestDateToPosition(pos[1]);
+    if(previousClosestIndex != closestIndex._index) {
+      _self.changePreview(data.values[closestIndex._index]);
+    }
+    previousClosestIndex = closestIndex._index;
+  };
+
+
+
+  this.viewItem = function(idx) {
+    var item = data.values[idx < 0? 0:idx];
+    log('viewItem', idx)
+    _browser
+      .select('h1')
+        .text(item.label);
+
+
+    _browser
+      .select('.date')
+        .text(item._start_date != item._end_date? item._start_date + ' → ' + item._end_date: item._start_date);
+
+    _browser
+      .select('blockquote')
+        .text(item.content);
+
+    var slidedata = _slides
+                      .selectAll('div.slide')
+                        .data(item.items, function(d) { return d._id; });
+
+        
+    
+
+    var _slideset = slidedata
+                      .enter()
+                        .append('div')
+                          .classed('slide', true)
+
+
+
+    _slideset
+      .append('blockquote')
+        .html(function(d){
+          return (d.author.length? '<b>' + d.author + "</b> - ":'') + d.content
+        })
+    _slideset
+      .append('a')
+        .classed("permalink", true)
+        .attr('href', function(d){
+          return d.permalink
+        })
+        .attr('target', '_blank')
+        .text(function(d){
+          return d.permalink
+        })
+
+    slidedata.exit().remove();
+  };
+
+  this.changePreview = function(item) {
+    log('changePreview', item.start_date, item.type);
+    _closest
+      .classed('active', true)
+      .style('transform', 'translate(0px,'+ item._top +'px)' )
+
+    _pointer_item
+      .select('label')
+        .text(item.label);
+
+    _pointer_item.classed('flipInX', true)
+
+    if(item.type == 'milestone'){
+      _pointer_item
+        .select('.category')
+          .text(item.type);
+    } else {
+      _pointer_item
+        .select('.category')
+          .text('')
+    }
+
+    _pointer_item
+      .select('.date')
+        .text(item._start_date != item._end_date? item._start_date + ' → ' + item._end_date: item._start_date);
+  };
+
+  this.closestDateToPosition = function(pos) {
+    var d = Infinity,
+        closest=[]; 
+    for(var i =0,l=data._positions.length;i<l;i++) {
+      var d1 = Math.abs(data._positions[i]._top - pos)
+      if(d1 < d){
+        d = d1;
+        closest = i;
+      }
+    }
+    return data._positions[closest];
+  };
+
 
   // call this function whenever data need to be updated
   this.updateData = function() {
@@ -208,7 +430,7 @@ window.ImpressoTimeline = function(options) {
     };
   }
 
-  this.init()
+  this.init();
 }
 
 
@@ -219,121 +441,22 @@ window.ImpressoTimeline = function(options) {
 
 
 
-//   d3.select("#timeline-browser .close").on('click', closeTimelineBrowser)
-
-
-//   function closestDateToPosition(pos) {
-//     var d = Infinity,
-//         closest=[]; 
-//     for(var i =0,l=data._positions.length;i<l;i++) {
-//       var d1 = Math.abs(data._positions[i]._top - pos)
-//       if(d1 < d){
-//         d = d1;
-//         closest = i;
-//       }
-//     }
-//     return data._positions[closest];
-//   }
-
-//   function changeLog(item) {
-//     console.log('changeLog', item, item.items);
-//     _closest
-//       .classed('active', true)
-//       .style('transform', 'translate(0px,'+ item._top +'px)' )
-
-//     _pointer_item
-//       .select('label')
-//         .text(item.label);
-
-//     _pointer_item.classed('flipInX', true)
-
-//     if(item.type == 'milestone'){
-//       _pointer_item
-//         .select('.category')
-//           .text(item.type);
-//     } else {
-//       _pointer_item
-//         .select('.category')
-//           .text('')
-//     }
-
-//     _pointer_item
-//       .select('.date')
-//         .text(item._start_date != item._end_date? item._start_date + ' → ' + item._end_date: item._start_date);
-//   }
-
-//   function changeItem() {
-//     var item = data.values[previousClosestIndex];
-//     _browser
-//       .select('h1')
-//         .text(item.label);
-
-
-//     _browser
-//       .select('.date')
-//         .text(item._start_date != item._end_date? item._start_date + ' → ' + item._end_date: item._start_date);
-
-//     _browser
-//       .select('blockquote')
-//         .text(item.content);
-
-//     var slidedata = _slides
-//                       .selectAll('div.slide')
-//                         .data(item.items, function(d) { return d._id; });
-
-        
-    
-
-//     var _slideset = slidedata
-//                       .enter()
-//                         .append('div')
-//                           .classed('slide', true)
+//   d3.select("#timeline-browser .close").on('click', hideTimelineBrowser)
 
 
 
-//     _slideset
-//       .append('blockquote')
-//         .html(function(d){
-//           return (d.author.length? '<b>' + d.author + "</b> - ":'') + d.content
-//         })
-//     _slideset
-//       .append('a')
-//         .classed("permalink", true)
-//         .attr('href', function(d){
-//           return d.permalink
-//         })
-//         .attr('target', '_blank')
-//         .text(function(d){
-//           return d.permalink
-//         })
 
-//     slidedata.exit().remove();
 
-    
-//   }
 
-//   // Deactivate the event browser
-//   function closeTimelineBrowser() {
-//     _main
-//       .classed('put-aside', false);
-//     _timeline
-//       .classed('active', false)    
-//   }
+//   
 
-//   // Activate the event browser
-//   function openTimelineBrowser() {
-//     _main
-//       .classed('put-aside', true);
-//     _timeline
-//       .classed('active', true)
-//     changeItem();
-//   };
+
 
 //   // Delay deactivate the event browser
-//   function delayCloseTimelineBrowser() {
-//     if(timerCloseTimelineBrowser)
-//       clearTimeout(timerCloseTimelineBrowser)
-//     timerCloseTimelineBrowser = setTimeout(closeTimelineBrowser, 1500);
+//   function delayhideTimelineBrowser() {
+//     if(timerHideTimelineBrowser)
+//       clearTimeout(timerHideTimelineBrowser)
+//     timerHideTimelineBrowser = setTimeout(hideTimelineBrowser, 1500);
 //   }
 
 
@@ -350,9 +473,9 @@ window.ImpressoTimeline = function(options) {
 
 //   // Delay dactivate the event browser
 //   function delayCloseTimelineLines() {
-//     if(timerCloseTimelineLines)
-//       clearTimeout(timerCloseTimelineLines)
-//     timerCloseTimelineLines = setTimeout(closeTimelineLines, 500);
+//     if(timerHidePointer)
+//       clearTimeout(timerHidePointer)
+//     timerHidePointer = setTimeout(closeTimelineLines, 500);
 //     console.log('delaying closeTimelineLines')
 //   }
 
@@ -364,63 +487,26 @@ window.ImpressoTimeline = function(options) {
 //     .on("mouseenter", function() {
 //       _pointer_text
 //         .text('');
-//       clearTimeout(timerCloseTimelineBrowser);
+//       clearTimeout(timerHideTimelineBrowser);
 //     })
 //     .on("mouseleave", function(){
 //       _lines
 //         .classed("active", false);
 
-//       delayCloseTimelineBrowser();
+//       delayhideTimelineBrowser();
 //     });
 
   
 
 //   _lines
-//     .on("click", openTimelineBrowser)
-//     .on("mouseenter", function() {
-//       clearTimeout(timerCloseTimelineLines)
-
-//       _pointer
-//         .classed("active", true)
-      
-//       _closest
-//         .classed("active", false)
-      
-//       _lines
-//         .classed("active", true)
-//     })
+//     
 //     .on("mouseleave", delayCloseTimelineLines)
-//     .on("mousemove", function() {
-//       var pos = d3.mouse(this),
-//           text = timeScale.invert(pos[1]);
-
-//       // debugger 
-//       _pointer
-//         .style('transform', 'translate(0px,'+pos[1]+'px)');
-
-//       // check if it is after the half of the timeline.
-//       if(isPointerItemAboveTheFold && pos[1]/rect.height > 0.55) {
-//         _pointer_item.classed('below-the-fold', true)
-//       } else if(!isPointerItemAboveTheFold && pos[1]/rect.height < 0.55){
-//         _pointer_item.classed('below-the-fold', false)
-//       }
-//       isPointerItemAboveTheFold = pos[1]/rect.height < 0.55;
-
-//       _pointer_text
-//         .text(timeFormatter(text));
-
-//       // calculate closest date to pointer position
-//       closestIndex = closestDateToPosition(pos[1]);
-//       if(previousClosestIndex != closestIndex._index) {
-//         changeLog(data.values[closestIndex._index]);
-//       }
-//       previousClosestIndex = closestIndex._index;
-//     })
+//     
 
 //   _pointer
-//     .on("click", openTimelineBrowser)
+//     .on("click", showTimelineBrowser)
 //     .on("mouseenter", function() {
-//       clearTimeout(timerCloseTimelineLines)
+//       clearTimeout(timerHidePointer)
 //     })
 //     .on("mouseleave", delayCloseTimelineLines)
 
