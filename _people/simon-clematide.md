@@ -4,7 +4,7 @@ group: contact-point
 ordering: 01-clematide
 picture: /assets/images/simon-clematide.jpg
 subheading: Post-doctoral researcher at UZH-CL
-title: Simon Clematide, Dr.
+title: Simon Clematide, PhD
 ---
 
 Simon holds a PhD in Computational Linguistics from the University of Zurich. His main interests are in the realm of crowdsourcing for linguistic data, text mining, machine learning, and finite-state methods.
