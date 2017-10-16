@@ -2,7 +2,7 @@
 category: friend
 title: Frédéric Clavert
 ordering: 01-clavert
-subheading: Senior Research Scientist at the C2DH
+subheading: Senior Research Scientist, C2DH
 ---
 
 Frédéric Clavert, holder of a PhD in Contemporary History, completed studies in political science and contemporary history in Strasbourg and Leeds.

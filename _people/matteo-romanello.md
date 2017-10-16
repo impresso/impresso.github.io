@@ -3,7 +3,7 @@ category: team
 group: collaborator
 ordering: 02-romanello
 picture: /assets/images/matteo-romanello.jpg
-subheading: Research scientist at EPFL-DHLAB
+subheading: Research scientist, EPFL-DHLAB
 title: Matteo Romanello, PhD
 ---
 

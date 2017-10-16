@@ -3,7 +3,7 @@ category: team
 group: contact-point
 ordering: 01-clematide
 picture: /assets/images/simon-clematide.jpg
-subheading: Post-doctoral researcher at UZH-CL
+subheading: Post-doctoral researcher, UZH-CL
 title: Simon Clematide, PhD
 ---
 

@@ -3,7 +3,7 @@ category: team
 group: contact-point
 ordering: 01-duering
 picture: /assets/images/marten-duering.jpg
-subheading: researcher at the C2DH
+subheading: Researcher, C2DH
 title: Marten Düring, PhD
 ---
 
