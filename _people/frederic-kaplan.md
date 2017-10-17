@@ -11,6 +11,6 @@ Prof. Frederic Kaplan holds the Digital Humanities Chair at Ecole Polytechnique 
 
 Within *impresso*, Frédéric steers overall project activities and supervises the contributions of DHLAB.
 
-[EPFL profile](https://people.epfl.ch/frederic.kaplan?lang=en) [Twitter](https://twitter.com/frederickaplan?lang=en)
+[EPFL profile](https://people.epfl.ch/frederic.kaplan/bio?lang=en&cvlang=en) [Twitter](https://twitter.com/frederickaplan?lang=en)
 
 <!-- He is currently working on the « Venice Time Machine », an international project in collaboration with the Ca’Foscari University in Venice, aiming to model the evolution and history of Venice over a 1000 year period. -->
