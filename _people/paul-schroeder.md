@@ -10,4 +10,4 @@ Paul is a graphic designer and web developer with experience in both print and s
 
 Within <i>impresso</i>, Paul is working together with Daniele and Thijs on the search interface and front end design.
 
-[C2DH profile](https://www.c2dh.uni.lu/people/paul-schroeder) [LinkedIn](http://linkedin.com/in/paul-schroeder-a4478951/
+[C2DH profile](https://www.c2dh.uni.lu/people/paul-schroeder) [LinkedIn](http://linkedin.com/in/paul-schroeder-a4478951/)
