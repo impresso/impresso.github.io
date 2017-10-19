@@ -8,4 +8,4 @@ parenturl: /consortium/
 ordering: 04
 ---
 
-A network of accomplished of digital humanities specialists and digitization experts advises and supports the *impresso project*.
+A network of accomplished of digital humanities specialists and digitisation experts advises and supports the *impresso* project.
