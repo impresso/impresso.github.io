@@ -1,6 +1,7 @@
 ---
 category: associated-partner
 ordering: 06-nzz
+picture: /assets/images/nzz-logo.png
 title: Neue Zürcher Zeitung, NZZ.
 ---
 

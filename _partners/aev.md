@@ -2,6 +2,7 @@
 category: associated-partner
 ordering: 03-aev
 title: State Archives of Valais, AEV.
+picture: /assets/images/aev-logo.png
 ---
 
 [www.vs.ch/web/culture/aev](https://www.vs.ch/web/culture/aev) &mdash; The State Archives of Valais have an administrative, historical and cultural mission. AEV is responsible for collecting, classifying, inventorying, preserving and valorising the archival documents belonging to the state and produced by the cantonal administration, as well as other documents concerning the history of Valais and Valais society.

@@ -1,6 +1,7 @@
 ---
 category: associated-partner
 ordering: 04-temps
+picture: /assets/images/letemps-logo.svg
 title: Le Temps
 ---
 

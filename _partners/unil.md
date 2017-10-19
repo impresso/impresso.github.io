@@ -1,6 +1,7 @@
 ---
 category: associated-partner
 ordering: 07-unil
+picture: /assets/images/unil-logo.png
 title: History department, University of Lausanne, UNIL.
 ---
 

@@ -1,6 +1,7 @@
 ---
 category: associated-partner
 title: Swiss National Library, SNL
+picture: /assets/images/snl-logo.png
 ordering: 01-snl
 ---
 

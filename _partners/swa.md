@@ -1,6 +1,7 @@
 ---
 category: associated-partner
 ordering: 04-swa
+picture: /assets/images/unibasel-logo.jpg
 title: Swiss Economic Archives, SWA.
 ---
 

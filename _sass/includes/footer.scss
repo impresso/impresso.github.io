@@ -52,6 +52,16 @@
   .logo{
     margin-bottom: 10px;
 
+    &.smaller{
+      margin-bottom: 25px;
+
+      img {
+        max-height: 50px;
+      }
+      p{
+        color: $light-grey;
+      }
+    }
     a, a:hover{
       background: transparent;
 

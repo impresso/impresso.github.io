@@ -51,6 +51,23 @@
           <a href='http://www.snf.ch/en/Pages/default.aspx' target='_blank'><img src="{{ '/assets/images/snf-rgb-e-logo.png' | relative_url }}"></a>
         </div>
       </div>
+
+      <div class='line'></div>
+
+      <div class="row text-center">
+        {% assign partners = site.partners | where: 'category','associated-partner' | sort: 'ordering' %}
+        {% for partner in partners %}
+        <div class="col-sm-3">
+        <div class="logo smaller">
+          <a href='https://www.c2dh.uni.lu' target='_blank' title='Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.'>
+              <img src="{{ partner.picture | relative_url }}"></a>
+            </a>
+          <p>{{partner.title}}</p>
+        </div>
+      </div>
+        {% endfor %}
+      </div>
+
     </div>
 
     

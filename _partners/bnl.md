@@ -2,6 +2,7 @@
 category: associated-partner
 title: National Library of Luxembourg, BnL.
 ordering: 02-bnl
+picture: /assets/images/bnl-logo.png
 ---
 
 [www.bnl.public.lu](http://www.bnl.public.lu/fr/index.html) &mdash;  The National Library of Luxembourg has been addressing the digital challenge for more than a decade, both as a heritage library and as the coordinator and service provider of the bibnet.lu network of Luxembourg libraries, including the library of the University of Luxembourg. The BnL started digitising its heritage collections in 2002 and since then has been continuously adapting its specifications and methods to reflect changing user requirements and available technologies. Conservation issues and growing demand from researchers and the general public meant that priority was given to the digitisation of the Luxembourg press. To date, 510,000 pages with text recognition and 200,000 pages in image mode are available on the BnL’s website  [www.eluxemburgensia.lu](www.eluxemburgensia.lu).
