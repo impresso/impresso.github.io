@@ -8,4 +8,4 @@ title: Swiss Economic Archives, SWA.
 
 **Role**: SWA will provide optimised access to digitised cultural heritage, newspapers and periodicals in particular. SWA will help to identify opportunities for the improvement of existing portals and to identify and serve user needs, and give feedback on prototypes developed by the consortium. SWA will participate in project workshops and benefit from enriched newspaper content as well as the availability of open-source prototypes.
 
-**Participants**: Irene Amstutz (Head of the University of Economics at the Swiss Economic Archives)
+**Participants**: Irene Amstutz (Head of the University of Economics at the Swiss Economic Archives).
