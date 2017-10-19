@@ -8,5 +8,6 @@ title: Institute of Computational Linguistics, UZH.
 In addition to engineering-oriented research in machine translation, biomedical/political text mining and sentiment analysis, the institute has extensive expertise in language technology for building, annotating and exploiting heritage corpora.
 
 **Role**: ICL is responsible for natural language processing and text mining (WP3) and will also contribute to other work packages.
+
 **Participants**: Martin Volk (co-PI), Simon Clematide, Phillip Ströbel.
 
