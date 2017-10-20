@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% assign sections = site.pages | where: 'group', page.group | where: 'lang', page.lang | where: 'type', 'section' %}
+
+<div class="page collage">
+  <div class="wrapper">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
+
+  {% for section in sections %}
+  <div {% if page.lang == site.lang %} id='{{sectionid[2]}}' {% else %} id='{{sectionid[3]}}' {% endif %}></div>
+        
+  <section {% if forloop.last %} class='last' {%endif%}>
+      <div class="wrapper">
+        <div class="headline">
+          <h2><span> {{ section.title }}</span></h2>
+        </div>
+        {% assign paragraphs = section.content | split: site.excerpt_separator %}
+        <blockquote class='summary respect-margin'>{{paragraphs[0]}}</blockquote>
+        {% assign remaining_paragraphs = paragraphs | shift %}
+        
+        <div class='contents'>
+          {% for paragraph in remaining_paragraphs %}{{paragraph}}  {% endfor %}
+
+        </div>
+    </div>
+  </section>
+
+  {% endfor %}
+  
+  <div class='text-center'> - </div>
+</div>

@@ -125,6 +125,17 @@ $page-margin-right: 50px;
       box-shadow: 0px 2px 8px fade-out($light-grey, .6);
     }
   }
+
+  &.collage{
+    section{
+      border-bottom-width: 2px;
+      padding-bottom: 50px;
+
+      &.last{
+        border-bottom-width: 0;
+      }
+    }
+  }
 }
 
 div.cover{
