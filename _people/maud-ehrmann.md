@@ -11,4 +11,4 @@ Maud holds a PhD in Computational Linguistics from the University of Paris 7 Den
 
 Within *impresso* , Maud is responsible for project management, system design and data management, annotation and benchmarking and named entity processing.
 
-[EPFL profile](https://people.epfl.ch/maud.ehrmann?lang=en) [LinkedIn](https://www.linkedin.com/in/maudehrmann)
+[EPFL profile](https://people.epfl.ch/cgi-bin/people?id=256249&op=bio&lang=en&cvlang=en) [LinkedIn](https://www.linkedin.com/in/maudehrmann)
