@@ -1,4 +1,5 @@
 theme: jekyll-theme-tactile
+excerpt_separator: '<!-- more -->'
 base: https://impresso.github.io
 title: impresso
 lang: en

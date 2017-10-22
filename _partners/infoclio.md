@@ -1,6 +1,7 @@
 ---
 category: associated-partner
 ordering: 08-infoclio
+picture: /assets/images/infoclio-ch-logo.jpeg
 title: infoclio
 ---
 
