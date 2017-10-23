@@ -15,9 +15,10 @@ layout: default
   {% if section.permalink != section.parenturl %}
   {% assign sectionid = section.permalink | split: '/' %}
     
-  <div {% if page.lang == site.lang %} id='{{sectionid[2]}}' {% else %} id='{{sectionid[3]}}' {% endif %}></div>
         
   <section {% if forloop.last %} class='last' {%endif%}>
+    <div class='anchor' {% if page.lang == site.lang %} id='{{sectionid[2]}}' {% else %} id='{{sectionid[3]}}' {% endif %}></div>
+  
     <div class="wrapper">
       <div class="headline">
         <h2><span>{{ section.title }}</span></h2>
