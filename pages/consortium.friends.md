@@ -1,7 +1,7 @@
 ---
 title: "Friends"
 permalink: /consortium/friends/
-layout: page
+layout: consortium_single
 nolang: /consortium/friends/
 lang: en
 parenturl: /consortium/
