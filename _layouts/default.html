@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{% if page.title %}{{page.title}} · {% endif %}{{site.title}}</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -168,7 +168,7 @@
       
       function evaluateFloatingLine() {
         var bottom = window.scrollY + window.innerHeight;
-        
+        console.log('evaluateFloatingLine', window.scrollY, _floating_line.offsetTop)
         if(isBelowFloatingLine && _floating_line.offsetTop > bottom) {
           // deactivate, put back sidebar on fixed;
           isBelowFloatingLine = false;
@@ -212,5 +212,7 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+
   </body>
 </html>

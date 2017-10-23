@@ -20,6 +20,11 @@ $page-margin-right: 50px;
     margin: 50px 0 20px;
   }
 
+  h3{
+    margin-top: 30px;
+    color: $dark-grey;
+  }
+
   p{
     margin-top: 15px;
     color: $dark-grey;
@@ -278,6 +283,9 @@ div.cover{
       
       h3.subheading{
         display: block;
+        margin-top: 0px;
+        color: $medium-grey;
+        font-weight: bold;
       }
     }
 

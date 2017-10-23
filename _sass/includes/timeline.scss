@@ -1,9 +1,10 @@
 #timeline{
   position: fixed;
+  top: 100px;
   bottom: 100px;
   left: 0;
   width: 100px;
-  height: 500px;
+  // height: 500px;
   margin-left: 0px;
   z-index: 1000;
   .top{
