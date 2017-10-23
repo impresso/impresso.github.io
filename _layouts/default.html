@@ -168,7 +168,7 @@
       
       function evaluateFloatingLine() {
         var bottom = window.scrollY + window.innerHeight;
-        
+        console.log('evaluateFloatingLine', window.scrollY, _floating_line.offsetTop)
         if(isBelowFloatingLine && _floating_line.offsetTop > bottom) {
           // deactivate, put back sidebar on fixed;
           isBelowFloatingLine = false;
@@ -213,6 +213,6 @@
       </script>
     {% endif %}
 
-    
+
   </body>
 </html>
