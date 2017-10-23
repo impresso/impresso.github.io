@@ -10,6 +10,7 @@ window.ImpressoTimeline = function(options) {
   // DOM elements
   var _timeline      = d3.select("#timeline"),
       _browser       = d3.select("#timeline-browser .info"),
+      _browser_date  = d3.select("#timeline-browser .date"),
       _browser_close = d3.select("#timeline-browser .close"),
       _slides        = d3.select("#timeline .slides"),
       _lines         = d3.select("#timeline .lines"),
@@ -224,8 +225,7 @@ window.ImpressoTimeline = function(options) {
         .text(item.label);
 
 
-    _browser
-      .select('.date')
+    _browser_date
         .text(item._start_date != item._end_date? item._start_date + ' → ' + item._end_date: item._start_date);
 
     _browser

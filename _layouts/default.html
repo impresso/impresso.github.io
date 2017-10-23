@@ -168,12 +168,12 @@
       
       function evaluateFloatingLine() {
         var bottom = window.scrollY + window.innerHeight;
-        console.log('evaluateFloatingLine', window.scrollY, _floating_line.offsetTop)
+        // console.log('evaluateFloatingLine', window.scrollY, _floating_line.offsetTop)
         if(isBelowFloatingLine && _floating_line.offsetTop > bottom) {
           // deactivate, put back sidebar on fixed;
           isBelowFloatingLine = false;
           _body.classed('below-floating', false);
-        } else if(!isBelowFloatingLine && _floating_line.offsetTop <= bottom){
+        } else if(!isBelowFloatingLine && window.scrollY > 0 && _floating_line.offsetTop <= bottom){
           // activate
           isBelowFloatingLine = true;
           _body.classed('below-floating', true);
