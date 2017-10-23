@@ -4,7 +4,7 @@ permalink: /consortium/associated-partners/
 nolang: /consortium/associated-partners/
 parenturl: /consortium/
 lang: en
-layout: page
+layout: consortium_single
 ordering: 03
 ---
 

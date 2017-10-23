@@ -5,20 +5,15 @@ layout: default
 <div class="page">
   <div class="wrapper">
     <h1 class="page-title">{{ page.title }}</h1>
-    {{ content }}
-
-
-
   </div>
 
-  {% if page.nolang == '/consortium/people/' %}
-  <section>
+  <section class="last">
     <div class="wrapper">
       <div class="headline">
-        <h2><span>{{ page.title }}</span></h2>
+        <!-- <h2><span>{{ page.title }}</span></h2> -->
       </div>
       <blockquote class='summary respect-margin'>{{page.content | markdownify}}</blockquote>
-
+      {% if page.nolang == '/consortium/people/' %}
         {% assign group = site.people | where: 'group','contact-point' | sort: 'ordering' %}
         <div class='thumbnails respect-margin'>
           <h3 ><span class='tag'>contact points</span></h3>
@@ -57,7 +52,34 @@ layout: default
             {% endfor %}
           <!-- </div> -->
         </div>
+      {% endif %} 
+
+      {% if page.nolang == '/consortium/partners/' %}
+      
+        {% assign partners = site.partners | where: 'category','core-partner' | sort: 'ordering' %}
+        {% for partner in partners %}
+          {% include partner.html %}
+        {% endfor %}
+      {% endif %}
+
+      {% if page.nolang == '/consortium/associated-partners/' %}
+
+        {% assign partners = site.partners | where: 'category','associated-partner' | sort: 'ordering' %}
+        {% for partner in partners %}
+          {% include partner.html %}
+        {% endfor %}
+      {% endif %}
+
+
+
+      {% if page.nolang == '/consortium/friends/' %}
+        {% assign friends = site.people | where: 'category','friend' | sort: 'ordering' %}
+        {% for person in friends %}
+          {% include person.html %}
+        {% endfor %}
+      {%endif%}
       </div>
     </section>
-  {% endif %}
+
+
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: consortium_single
 lang: en
 nolang: /consortium/partners/
 ordering: 02

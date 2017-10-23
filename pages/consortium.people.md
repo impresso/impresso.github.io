@@ -2,7 +2,7 @@
 title: "People"
 permalink: /consortium/people/
 nolang: /consortium/people/
-layout: page
+layout: consortium_single
 lang: en
 ordering: 01
 parenturl: /consortium/

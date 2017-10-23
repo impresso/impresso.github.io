@@ -18,11 +18,18 @@ languages:
       url: "/consortium/"
       links:
         - title: "People"
-          url: /consortium/
+          url: /consortium/people/
         - title: "Partners"
-          url: /consortium/#partners
+          url: /consortium/partners/
         - title: "Associated partners"
-          url: /consortium/#associated-partners
+          url: /consortium/associated-partners/
+      # links:
+      #   - title: "People"
+      #     url: /consortium/
+      #   - title: "Partners"
+      #     url: /consortium/#partners
+      #   - title: "Associated partners"
+      #     url: /consortium/#associated-partners
         # - title: "Friends"
         #   url: /consortium/#friends
     # - title: "Publications"
@@ -49,14 +56,23 @@ languages:
         - title: "Historical Research"
           url: /fr/project/history/
     - title: "Consortium"
-      url: "/fr/consortium/"
+      url: /fr/consortium/
       links:
         - title: "Équipe"
-          url: /fr/consortium
+          url: /fr/consortium/people/
         - title: "Partenaires"
-          url: /fr/consortium/#partners
+          url: /fr/consortium/partners/
         - title: "Partenaires associés"
-          url: /fr/consortium/#associated-partners
+          url: /fr/consortium/associated-partners/
+    # - title: "Consortium"
+    #   url: "/fr/consortium/"
+    #   links:
+    #     - title: "Équipe"
+    #       url: /fr/consortium
+    #     - title: "Partenaires"
+    #       url: /fr/consortium/#partners
+    #     - title: "Partenaires associés"
+    #       url: /fr/consortium/#associated-partners
         # - title: "Amis du projet"
         #   url: /fr/consortium/#friends
 
