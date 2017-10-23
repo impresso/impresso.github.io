@@ -122,10 +122,16 @@ window.ImpressoTimeline = function(options) {
     // showTimelineBrowser can receive an Event isntead of a NUmber.
     log('showTimelineBrowser at index!!!', idx, typeof idx)
     
-    if(typeof idx == 'number' || typeof idx == 'undefined'){
-      _self.viewItem(idx? idx: previousClosestIndex);
-    } else {
 
+    if(typeof idx == 'number'){
+      _self.viewItem(idx);
+    } else {
+      var pos = d3.mouse(this),
+          closest = _self.closestDateToPosition(pos[1]);
+
+      _closest
+      .style('transform', 'translate(0px,'+closest._top+'px)');
+      _self.viewItem(closest._index);
     }
     
     _pointer
