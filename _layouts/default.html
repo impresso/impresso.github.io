@@ -183,6 +183,11 @@
       }
 
       
+      // onclick
+      function almostObfuscatedEmail(el){
+        el.href = 'mailto:' + '{{site.contacts.email}}'.replace(/\s+@\s+/, '@').replace(/\s+\[dot\]\s+/,'.');
+        
+      }
 
       d3.select('#mobile-header-toggler')
         .on("click", function(){
@@ -197,11 +202,7 @@
 
       evaluateFloatingLine();
 
-      // onclick
-      // d3.select('#almost-obfuscated-email')
-      //   .on("click", function(){
-      //     alert('oh my')
-      //   })
+
     </script>
     
     {% include timeline.runtime.html %}
