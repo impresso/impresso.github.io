@@ -97,7 +97,7 @@ window.ImpressoTimeline = function(options) {
       .on("click", this.hideTimelineBrowser);
 
     // call render
-    this.render();
+    this._render();
   };
 
   //
@@ -118,7 +118,15 @@ window.ImpressoTimeline = function(options) {
       .classed('active', true);
     
     _self.isBrowsing = true;
-    _self.viewItem(typeof idx == 'number'? idx: previousClosestIndex);
+
+    // showTimelineBrowser can receive an Event isntead of a NUmber.
+    log('showTimelineBrowser at index!!!', idx, typeof idx)
+    
+    if(typeof idx == 'number' || typeof idx == 'undefined'){
+      _self.viewItem(idx? idx: previousClosestIndex);
+    } else {
+
+    }
     
     _pointer
       .classed("active", false)
@@ -385,8 +393,7 @@ window.ImpressoTimeline = function(options) {
     }
   }
 
-
-  this.render = debounce(function() {
+  this._render = function() {
     // if render is really necessary
     if(timelineHeight == window.innerHeight - TIMELINE_VERTICAL_PADDING) {
       return;
@@ -408,7 +415,9 @@ window.ImpressoTimeline = function(options) {
     _timeline.style('height', timelineHeight + 'px')
 
     log('render', '- height:', timelineHeight);
-  }, 500);
+  }
+
+  this.render = debounce(this._render, 500);
 
 
   function log() {

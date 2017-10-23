@@ -37,7 +37,7 @@ html{
 }
 body{
   background: #ffffff;
-  font-family: "Libre Caslon Regular", serif;
+  font-family: "Georgia", "Libre Caslon Regular", serif;
   font-size: $font-size;
   line-height: $line-height;
   color: $almost-black;
@@ -46,13 +46,15 @@ body{
 }
 
 b, strong, h1, h2, h3, .bold{
-  font-family: "Libre Caslon Bold";
+  font-family: "Georgia", "Libre Caslon Bold";
   font-weight: normal;
+  font-weight: bold;
 }
 
 i, em, .italic{
-  font-family: "Libre Caslon Italic";
+  font-family: "Georgia", "Libre Caslon Italic";
   font-weight: normal;
+  font-style: italic;
 }
 
 
