@@ -59,7 +59,7 @@
         {% for partner in partners %}
         <div class="col-sm-3">
         <div class="logo smaller">
-          <a href='https://www.c2dh.uni.lu' target='_blank' title='Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.'>
+          <a href='/consortium/#{{partner.slug}}' title='Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.'>
               <img src="{{ partner.picture | relative_url }}"></a>
             </a>
           <p>{{partner.title}}</p>
