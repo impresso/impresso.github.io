@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% assign nav = site.data.navigation.languages[lang] | default: site.data.navigation.languages.en %}
+    
+      {% assign parent = nav.links | where: 'url', page.parenturl %}
+      
+      {% assign siblings = parent[0].links | where_exp:"link", "link.url != page.permalink" %}
+
 <div class="page">
   <div class="wrapper">
     <h1 class="page-title">{{ page.title }}</h1>
@@ -10,7 +16,11 @@ layout: default
   <section>
     <div class="wrapper">
       <div class="headline">
-        <!-- <h2><span>{{ page.title }}</span></h2> -->
+        <!-- <h2>See also:
+        {% for sibling in siblings %}
+        <a href='{{sibling.url  | relative_url }}'>{{sibling.title}}</a> 
+          {% unless forloop.last %} &mdash; {% endunless %}
+      {% endfor %}</h2> -->
       </div>
       <blockquote class='summary respect-margin'>{{page.content | markdownify}}</blockquote>
       {% if page.nolang == '/consortium/people/' %}
@@ -85,10 +95,6 @@ layout: default
     </section>
 
     <section class='last'>
-      {% assign nav = site.data.navigation.languages[lang] | default: site.data.navigation.languages.en %}
-    
-      {% assign parent = nav.links | where: 'url', page.parenturl %}
-      
       <div class="wrapper">
         <div class="headline">
         <h2><span>see also</span></h2>

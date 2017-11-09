@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="page blog">
+  <div class="wrapper">
+    <h1 class="page-title">{{page.title}}</a></h1>
+    
+  </div>
+  <section class='last'>
+  <div class="wrapper">
+    <div class="headline"></div>
+    <blockquote class='summary respect-margin'>{{page.content}}</blockquote>
+  {% for post in site.posts %}
+  {% include post.html %}
+  <!-- <section class='last'>
+    <div class="wrapper">
+      <div class='headline'>
+      <h1 class="page-title"><a href="{{post.url}}"> {{ post.title }}</a></h1>
+      </div>
+      <blockquote class='summary respect-margin'>
+
+        <div class='incipit'>{{post.date | date: "%a, %d.%m %Y"}}&nbsp;&mdash;&nbsp;</div>
+       {{post.excerpt}}
+       <a href="{{post.url}}">read more</a>
+      </blockquote>
+    </div>
+  </section> -->
+  {% endfor %}
+</div>
+</section>
+
+</div>

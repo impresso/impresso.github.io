@@ -48,6 +48,7 @@ $page-margin-right: 50px;
     }
   }
 
+
   .anchor{
     position:absolute;
     top: -100px;
@@ -155,7 +156,16 @@ div.cover{
 
 }
 
-
+.page.blog{
+  .incipit{
+    float: left;
+  }
+  .item h2 a{
+    text-transform: none;
+    font-family: "Georgia", serif;
+        font-size: 100%;
+  }
+}
 
 .page.agenda{
   h1{ 
