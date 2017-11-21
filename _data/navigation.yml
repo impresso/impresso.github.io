@@ -3,10 +3,10 @@ languages:
     links:
     - title: "Home"
       url: /
-    - title: "Project"
-      url: /project/
     - title: "Blog"
       url: /blog/
+    - title: "Project"
+      url: /project/
       links:
         - title: "Overview"
           url: /project/overview/
@@ -48,10 +48,10 @@ languages:
     links:
     - title: "Accueil"
       url: /fr/
-    - title: "Projet"
-      url: /fr/project/
     - title: "Blog"
       url: /fr/blog/      
+    - title: "Projet"
+      url: /fr/project/
       links:
         - title: "Linguistique Computationelle"
           url: /fr/project/linguistics/
@@ -84,10 +84,10 @@ languages:
     links:
     - title: "Index"
       url: /de/
-    - title: "Projekt"
-      url: /de/project/
     - title: "Blog"
       url: /de/blog/
+    - title: "Projekt"
+      url: /de/project/
       links:
         - title: "Computational Linguistics"
           url: /de/project/linguistics/
