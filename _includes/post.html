@@ -7,7 +7,7 @@
     <a href="{{post.url}}">read more</a>
   </div>
   
-  {% if post.thumbnail assign thumbnail=post.thumbnail else assign thumbnail=post.figure[0] %}{% endif %}
+  {% if post.thumbnail %}{% assign thumbnail=post.thumbnail %}{% else %}{% assign thumbnail=post.figure[0] %}{% endif %}
   
   {% if thumbnail != nil %}
   <img class='blogThumb' src='{{ '/assets/images/' | relative_url }}{{thumbnail.src}}' alt='{{ thumbnail.caption }}' />
