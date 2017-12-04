@@ -28,6 +28,7 @@
   color: $dark-grey;
 
   &.force-active{
+    text-transform: inherit;
     color: $light-grey;
   }
 }

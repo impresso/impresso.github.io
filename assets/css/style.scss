@@ -512,11 +512,15 @@ margin-left: 30px;
 }
 
 body.below-floating {
-  
-  #timeline, #main.fixed {
+  #timeline{
     position: absolute;
     top: auto;
     bottom: 100px;
+  }
+  #main.fixed {
+    position: absolute;
+    top: auto;
+    bottom: 110px;
   }
 }
 

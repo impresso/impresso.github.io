@@ -57,7 +57,8 @@
           </a>
         <section>
         
-        <ul id="language-switcher">
+        <!-- @todo: relate to the page siblings (available languages page based) -->
+        <!-- <ul id="language-switcher">
           
           {% for language in site.languages %}
           
@@ -65,7 +66,7 @@
             <a {% if language==site.lang %} href='{{page.nolang}}' {% else %} href='/{{language}}{{page.nolang}}' {% endif %}>{{language}}</a>
           </li>
           {% endfor %}
-        </ul>
+        </ul> -->
         
         {% include nav.html %}
 
@@ -111,66 +112,31 @@
     <!-- scripts -->
     <script type='text/javascript' src='https://d3js.org/d3.v4.min.js'></script>
     <script>
-      // on window scroll, mimic the sticky position
-      // When floating-line is visible, the `position` css value of sidebar (timeline and menu)
-      // change from fixed to absolute, bottom aligned.
-      // same thing should happen when the window is resized.
-      var _floating_line = document.getElementById('floating-line'),
-          _body          = d3.select('body'),
-          _window        = d3.select(window),
-          // collapsible menu maximum height
+      var _floating_line, 
+          isBelowFloatingLine = false,
+          _body,
+          _window = d3.select(window),
+          _contents,
+          _menu,
           
-          _menu             = d3.select('#main'), // .style('height', (window.innerHeight - 100)+'px'),
-
-          menuHeight        = _menu.node().getBoundingClientRect().height,
-
-          _mobileHeader     = d3.select('#mobile-header'),
-
+          _mobileHeader,
           isMobileHeaderActive = false,
-          isBelowFloatingLine = false;
 
-      console.log('[menu] height before hiddden:', menuHeight)
-      // define behaviour for collapsible menu, then calculate the menu desired height based on inner menus.
-      d3.selectAll('.collapsible-toggler').each(function(){
-        console.log('collapsible-toggler', this.className)
-        menuHeight = menuHeight 
-          + this.nextElementSibling.firstElementChild.scrollHeight;
-      }).on('click', function(){ 
-        var s  = this.nextElementSibling,
-            c  = s.firstElementChild,
-            h  = c.scrollHeight,
-            _s = d3.select(s),
-            
-            is_active  = _s.classed('active'),
-            is_locked = _s.classed('force-active');
-
-        if(is_locked){
-          // do nothing...
-          return;
-        }
-        // debugger
-        console.log('.collapsible-toggler@click height:', h, is_active)
-        
-        d3.select(this).classed('active', !is_active);
-
-        _s
-          .classed('active', !is_active)
-          .style('height', (is_active? 0:h)+'px');
-        // this.classname
-        // this.nextElementSibling.style.height = h + "px"
-      });
-      
-      console.log('[menu] height:', menuHeight)
-      
-      // resize the height so that it works
-      
-
+          menuHeight,
+          contentsHeight;
       
       function evaluateFloatingLine() {
         var bottom = window.scrollY + window.innerHeight;
-        // console.log('evaluateFloatingLine', window.scrollY, _floating_line.offsetTop)
-        if(isBelowFloatingLine && _floating_line.offsetTop > bottom) {
-          // deactivate, put back sidebar on fixed;
+        console.log('evaluateFloatingLine\n scrolly:', window.scrollY, '\n floating:', _floating_line.offsetTop, '\n contentsheight:', contentsHeight, '\n bottom:', bottom, isBelowFloatingLine)
+
+        if(window.scrollY == 0){
+          if(isBelowFloatingLine) {
+            isBelowFloatingLine = false;
+            _body.classed('below-floating', false);
+          }
+        } else if(isBelowFloatingLine && _floating_line.offsetTop > bottom) {
+          // floating line is not visible yet
+          // we put sidebar on fixed;
           isBelowFloatingLine = false;
           _body.classed('below-floating', false);
         } else if(!isBelowFloatingLine && window.scrollY > 0 && _floating_line.offsetTop <= bottom){
@@ -189,20 +155,80 @@
         
       }
 
-      d3.select('#mobile-header-toggler')
-        .on("click", function(){
-          isMobileHeaderActive = !isMobileHeaderActive;
-          _mobileHeader.classed('active', isMobileHeaderActive)
+      
 
-        })
+      // get all the a on document loadedd.
+      document.addEventListener("DOMContentLoaded", function(e) {
+        console.log('@DOMContentLoaded');
+        // on window scroll, mimic the sticky position
+        // When floating-line is visible, the `position` css value of sidebar (timeline and menu)
+        // change from fixed to absolute, bottom aligned.
+        // same thing should happen when the window is resized.
+        _floating_line = document.getElementById('floating-line');
+        _body          = d3.select('body');
+        
 
-      _window
-        .on("scroll.scroller", evaluateFloatingLine)
-        .on("resize", evaluateFloatingLine);
+        // collapsible menu maximum height    
+        _menu             = d3.select('#main'), // .style('height', (window.innerHeight - 100)+'px'),
+        _contents         = d3.select('#contents'),
 
-      evaluateFloatingLine();
+        menuHeight        = _menu.node().getBoundingClientRect().height;
+        contentsHeight    = _contents.node().getBoundingClientRect().height;
+
+        _mobileHeader     = d3.select('#mobile-header');
+
+        console.log('[menu] height before being hiddden:', menuHeight, contentsHeight)
+
+        // define behaviour for collapsible menu, then calculate the menu desired height based on inner menus.
+        d3.selectAll('.collapsible-toggler').each(function(){
+          console.log('collapsible-toggler', this.className)
+          menuHeight = menuHeight 
+            + this.nextElementSibling.firstElementChild.scrollHeight;
+        }).on('click', function(){ 
+          var s  = this.nextElementSibling,
+              c  = s.firstElementChild,
+              h  = c.scrollHeight,
+              _s = d3.select(s),
+              
+              is_active  = _s.classed('active'),
+              is_locked = _s.classed('force-active');
+
+          if(is_locked){
+            // do nothing...
+            return;
+          }
+          // debugger
+          console.log('.collapsible-toggler@click height:', h, is_active)
+          
+          d3.select(this).classed('active', !is_active);
+
+          _s
+            .classed('active', !is_active)
+            .style('height', (is_active? 0:h)+'px');
+          // this.classname
+          // this.nextElementSibling.style.height = h + "px"
+        });
+      
+        console.log('[menu] height:', menuHeight)
+      
+        // resize the height so that it works
+      
 
 
+        d3.select('#mobile-header-toggler')
+          .on("click", function(){
+            isMobileHeaderActive = !isMobileHeaderActive;
+            _mobileHeader.classed('active', isMobileHeaderActive)
+          })
+
+        // add window listeners.
+        _window
+          .on("scroll.scroller", evaluateFloatingLine)
+          .on("resize", evaluateFloatingLine);
+
+        // do first evaluation.
+        evaluateFloatingLine();
+      });
     </script>
     
     {% include timeline.runtime.html %}
