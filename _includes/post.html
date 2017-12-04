@@ -2,7 +2,7 @@
   <div class='anchor' id='{{post.slug}}'></div>
   <h2><a href='{{post.url}}'>{{post.title}}</a></h2>
   
-  {% assign thumbnail=page.figure[0] %}
+  {% assign thumbnail=post.figure[0] %}
   <img class='blogThumb' src='{{ '/assets/images/' | relative_url }}{{thumbnail.src}}' alt='{{ thumbnail.caption }}' />
   
   <div class='incipit'>{{post.date | date: "%a, %d.%m %Y"}}&nbsp;&mdash;&nbsp;</div>
