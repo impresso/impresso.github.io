@@ -440,12 +440,13 @@ figcaption{
 
 .blog .item .blogExcerpt {
 	float: left;
+	width: 40%;
 }
 
 .blog .item .blogThumb {
 	float: right;
 	max-height: 20em;
-	max-width: 80%;
+	max-width: 60%;
 	margin-left: 30px;
 }
 
