@@ -25,9 +25,27 @@
       "items": []
     },
     {
+      "start_date": "2018-02-08",
+      "end_date": "2018-02-08",
+      "label": "Additional Workshop ('Buttercup'): Historical scenarios and user requirements",
+      "type": "milestone",
+      "content": "During this extra workshop, C2DH team will invite historians colleagues from Luxembourg University and collaboratively work on historical research scenarios, in the same spirit as the first workshop. Duration: 1 day, Place: Campus Belval (Luxemboury), Organisation: C2DH",
+      "permalink": "",
+      "items": []
+    },
+    {
+      "start_date": "2018-02-23",
+      "end_date": "2018-02-23",
+      "label": "Additional Workshop ('Edelweiss'): Historical scenarios and user requirements",
+      "type": "milestone",
+      "content": "During this extra workshop we will present the first syntheses (white and green papers) of requirements gathered during the previous workshop, and collaboratively work on historical research scenarios to further understand the needs and inform our developements. Duration: 1 day, Place: Basel (CH), Organisation: C2DH, DHLAB, UZH.",
+      "permalink": "",
+      "items": []
+    },
+    {
       "start_date": "2018-07-05",
       "end_date": "2018-07-06",
-      "label": "Second Workshop: Epistemology and Early Prototypes 1",
+      "label": "Second Workshop (Laurel): Epistemology and Early Prototypes 1",
       "type": "milestone",
       "content": "During this second workshop we will gather feedback on early prototypes and raise epistemological concerns related to the use of digital tools in history. Duration: 1.5 day, Place: TBD, Organisation: infoclio, UNIL.",
       "permalink": "",
