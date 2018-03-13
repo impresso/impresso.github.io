@@ -1,7 +1,10 @@
 ---
-title: "Media coverage"
+layout: glossary
+title: Media coverage
+lang: en
 ---
+This is an excerpt, quick definition..
 
-THis is an excerpt, quick definition..
-
-THis is the full text
+<!-- more -->
+ 
+This is the full text definition.
