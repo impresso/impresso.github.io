@@ -1,9 +1,9 @@
 <div class='item respect-margin' >
   <div class='anchor' id='{{post.slug}}'></div>
   <div class="blogExcerpt">
-    <h2><a href='{{post.url}}'>{{post.title}}</a></h2>  
-    {{post.excerpt}}
-    <a href="{{glossary.url}}">read more</a>
+    <h2><a href='{{glossaryItem.url}}'>{{glossaryItem.title}}</a></h2>  
+    {{glossaryItem.excerpt}}
+    <a href="{{glossaryItem.url}}">read more</a>
   </div>
   
   {% if glossary.thumbnail %}{% assign thumbnail=glossary.thumbnail %}{% else %}{% assign thumbnail=glossary.figure[0] %}{% endif %} 
