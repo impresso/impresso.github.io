@@ -8,9 +8,15 @@ layout: default
     <div class='category'><a href='/glossary'>Glossary</a></div>
     <div class='date'>{{page.date | date: "%a, %d.%m %Y"}}</div>
 
-    {{page.author}}
-    {{page.content }}
-
-    {{post.title}}
   </div>
+  <section class='last'>
+  <div class="wrapper">
+    <div class="headline"></div>
+    <blockquote class='summary respect-margin'>{{page.content}}</blockquote>
+    {% for glossaryItem in site.glossary %}
+    {% include glossary.html %}
+    {% endfor %}
+  </div>
+  </section>
+
 </div>
