@@ -1,4 +1,12 @@
-https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+## Setting up localhost
+
+In terminal browse to local site directory, then use the following command:
+
+`bundle exec jekyll serve`
+
+Your local site resides here now: [localhost:4000](http://localhost:4000/)
+
+Details on [setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
 
 ## Welcome to GitHub Pages
