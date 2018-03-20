@@ -1,5 +1,5 @@
 ---
-layout: glossary
+layout: glossaryItem
 title: OCR
 lang: en
 ---

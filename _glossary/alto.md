@@ -1,5 +1,5 @@
 ---
-layout: glossary
+layout: glossaryItem
 title: ALTO
 lang: en
 ---

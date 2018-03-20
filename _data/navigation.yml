@@ -5,6 +5,8 @@ languages:
       url: /
     - title: "Blog"
       url: /blog/
+    - title: "Glossary"
+      url: /glossary/
     - title: "Project"
       url: /project/
       links:
@@ -49,7 +51,7 @@ languages:
     - title: "Accueil"
       url: /fr/
     - title: "Blog"
-      url: /fr/blog/      
+      url: /fr/blog/
     - title: "Projet"
       url: /fr/project/
       links:

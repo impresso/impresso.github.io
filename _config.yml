@@ -7,10 +7,10 @@ languages: ["en", "fr", "de"]
 
 contacts:
   email: info @ impresso-project [dot] ch
-  twitter: 
+  twitter:
     url: https://twitter.com/impressoproject
     name: "@impressoproject"
-  github: 
+  github:
     url: https://github.com/impresso
     name: impresso
 
@@ -39,4 +39,4 @@ defaults:
       path: ""
       type: "glossary"
     values:
-      layout: "glossary"
+      layout: "glossaryItem"
