@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding the historians' needs of digitised newspapers 
+title: Understanding the historians' needs of digitised newspapers
 lang: en
 date:   2018-02-10
 categories: news
@@ -9,9 +9,9 @@ thumbnail:
 figure:
   - src: posts/tangible.png
     caption: Example of a look into the future: tangible interfaces
-  - src: posts/searchbar.png
+  - src: posts/Searchbar.png
     caption:  Current entry in the digitised newspaper collections
-  - src: posts/generosity.png
+  - src: posts/Generosity.png
     caption:  Towards a diversification of search options
  
 ---
@@ -27,27 +27,27 @@ This second *impresso* workshop aimed at discussing the ongoing research of the 
 
 The participants had previously received five scenarios devised with the aim of structuring the discussions around key epistemological issues:
 
-Scenario 1: diachronic search: How to follow a topic over time (and space)
+**Scenario 1 diachronic search**: How to follow a topic over time (and space)
 Examples:
 - The changing treatment of domestic violence in court reports in Switzerland (1900-1945)
 - Public discussion on terrorism in Europe (1870-1918)
 
-Scenario 2: ripple effects (text re-use): How to follow a particular text (idea) through various titles and issues, using plagiarism detection tools
+**Scenario 2 ripple effects (text re-use)**: How to follow a particular text (idea) through various titles and issues, using plagiarism detection tools
 Examples:
 - Public communication (press release) on mergers and acquisitions in the steel industry in Luxembourg (1900-1918)
 - The League of Nations’ position on cross-border gun trafficking before 1939 
  
-Scenario 3: creation of a digital corpus: How to gather a series of issues/segments or issues/titles according to a specific question/topic
+**Scenario 3 creation of a digital corpus**: How to gather a series of issues/segments or issues/titles according to a specific question/topic
 Examples:
 - Readers’ letters complaining about pollution in cities (1918-1939)
 - The emergence of the sports (or culture) section in the press in Luxembourg
  
-Scenario 4: dissemination of an event: How to follow an event over time (and in several languages)
+**Scenario 4 dissemination of an event**: How to follow an event over time (and in several languages)
  Examples:
 - A comparison of how the February and October revolutions in 1917 were received in Europe
 - Study of a “lieu de mémoire”: the commemoration of the 1813 Battle of Leipzig in Europe (1813-1939)
  
-Scenario 5: digital micro-history: How to collect specific information on a person, place or organisation
+**Scenario 5 digital micro-history**: How to collect specific information on a person, place or organisation
 Examples:
 - The history of the Esch brass band between 1918 and 1939
 - The biography of Emilie Gourd (1879-1946)
