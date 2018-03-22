@@ -10,9 +10,9 @@ figure:
   - src: posts/tangible.png
     caption: Example of a look into the future: tangible interfaces
   - src: posts/Searchbar.png
-    caption:  Current entry in the digitised newspaper collections
+    caption: Current entry in the digitised newspaper collections
   - src: posts/Generosity.png
-    caption:  Towards a diversification of search options
+    caption: Towards a diversification of search options
  
 ---
 On the morning of 8 February, a group of historians using newspapers for their research at the C2DH were invited to attend a second *impresso* user workshop.  
