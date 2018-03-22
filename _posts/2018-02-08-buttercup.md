@@ -2,7 +2,7 @@
 layout: post
 title: Understanding the historians needs of digitised newspapers
 lang: en
-date:   2018-02-10
+date:   2018-02-08
 categories: news
 author: 
 thumbnail:
