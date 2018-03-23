@@ -1,0 +1,10 @@
+<div class="reference">
+  <label>citation</label>
+  <p>
+{% for authorid in page.authors %}
+  {% assign author= site.people | where: "slug", authorid | first %}
+  {{author.lastname}}, {{author.firstname}}{% if forloop.last %}.{% else %} and {% endif %}
+{% endfor %} <em>{{page.title}}</em>, {% if page.layout == "post"%}Blog post,{% endif %}
+{{ site.publisher.name }}, {{page.date | date: "%Y"}} <a href='{{site.base}}{{page.url}}'>&lt;{{site.base}}{{page.url}}&gt;</a>.
+  </p>
+</div>
