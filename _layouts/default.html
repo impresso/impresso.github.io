@@ -33,7 +33,7 @@
     <meta name="DC.creator" content="{{author.lastname}}, {{author.firstname}}">
       {% endfor %}
     {% else %}
-    <meta name="DC.creator" content="Impresso team">
+    <meta name="DC.creator" content="{{ site.publisher.name }}">
     {% endif %}
     <meta name="DCTERMS.issued" content="{{page.date | date: '%Y-%m-%d'}}">
 
