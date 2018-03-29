@@ -1,32 +1,32 @@
 <ul>
           {% for item in nav.links %}
           <li {% if page.url == item.url %} class="active" {% else %} {% if item.url == page.parenturl %} class="active" {% endif %} {% endif %}>
-            
+
             {% if item.links %}
             <div class='collapsible-toggler force-active active {% if item.url == page.parenturl %} force-active active {% endif %}'>{{item.title}} {% include plus.html %}</div>
             <div class='collapsible force-active active {% if item.url == page.parenturl %} force-active active {% endif %}'>
               <ul>
                 {% for subitem in item.links %}
                 <li {% if page.url == subitem.url %} class="active" {% endif %} >
-                  
+
                   <a href="{{subitem.url | relative_url}}">{{subitem.title}}</a>
                 </li>
                 {% endfor %}
               </ul>
             </div>
             {% else %}
-            <a href="{{item.url}}">{{item.title}}</a>  
-            
+            <a href="{{item.url}}">{{item.title}}</a>
+
             {% endif %}
           </li>
 
           {% endfor %}
-          
+
           <li>
             <table style='height: 40px;'>
               <tr>
                 <th>
-                  <a href='#' title='email' target='_blank' onclick="almostObfuscatedEmail(this)"><span class='icon icon-envelope-letter'></span></a>
+                  <a href='#' title='email' onclick="almostObfuscatedEmail(this)"><span class='icon icon-envelope-letter'></span></a>
                 </th>
                 <th>
                   <a href='{{site.contacts.twitter.url}}' title='our twitter account' target='_blank'><span class='icon icon-social-twitter'></span></a>
@@ -37,5 +37,5 @@
               </tr>
             </table>
 
-          </li>  
+          </li>
         </ul>
