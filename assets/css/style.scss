@@ -62,6 +62,10 @@ pre{
   padding:0;
 }
 
+img {
+  max-width: 100%;
+}
+
 
 @import "includes/timeline", "includes/footer", "includes/plus", "includes/reference", "includes/copyright";
 @import "layouts/page";
