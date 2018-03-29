@@ -531,6 +531,9 @@ margin-left: 30px;
   }
 }
 
+#timeline .lines{
+  cursor: zoom-in;
+}
 body.below-floating {
   #timeline{
     position: absolute;
@@ -543,7 +546,6 @@ body.below-floating {
     bottom: 110px;
   }
 }
-
 
 
 #wrapper{

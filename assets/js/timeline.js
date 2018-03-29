@@ -14,7 +14,7 @@ window.ImpressoTimeline = function(options) {
       _browser_close = d3.select("#timeline-browser .close"),
       _slides        = d3.select("#timeline .slides"),
       _lines         = d3.select("#timeline .lines"),
-      
+
       // append pulsing now circle, see stylesheet for infinite pulsations
       _now           = _lines.select('#timeline-now'),
 
@@ -35,7 +35,7 @@ window.ImpressoTimeline = function(options) {
                         }),
       // closest item pointer
       _closest       = _lines.select('#timeline-closest'),
-                                                   
+
       // timeline items container
       _values        = _lines.select('div.values');
 
@@ -54,25 +54,25 @@ window.ImpressoTimeline = function(options) {
       timerHidePointer,
 
       previousClosestIndex = -1,
-      
+
       isPointerItemAboveTheFold   = true,
       _is_next_index = -1;
 
   var _self = this;
-  
+
 
   this.isBrowsing = false;
 
   this.init = function() {
     log('init', [d3.isoParse(data.start_date), d3.isoParse(data.end_date)]);
 
-    // set timescale domain 
+    // set timescale domain
     timeScale = timeScale.domain([d3.isoParse(data.start_date), d3.isoParse(data.end_date)]);
 
     // enable listeners
     _timeline
       .on("mouseleave", this.delayHidePointer)
-      
+
 
     _lines
       .on("click", this.showTimelineBrowser)
@@ -80,17 +80,22 @@ window.ImpressoTimeline = function(options) {
       .on("mousemove", this.movePointer)
       .on("mouseleave", this.delayHidePointer)
 
-    _pointer_item
-      .on("click", this.showTimelineBrowser)
-      .on("mouseenter", function(){
-        // clean timers!!
-        console.log('it enters!!!!')
-        if(timerHidePointer)
-          clearTimeout(timerHidePointer)
-      })
+    // _pointer_item
+    // // .on("click", this.showTimelineBrowser)
+    // // paul: removed click event to disable click on Milestone Box
+    //   .on("mouseenter", function(){
+    //     // clean timers!!
+    //     console.log('it enters!!!!')
+    //     if(timerHidePointer)
+    //       clearTimeout(timerHidePointer)
+    //     })
+    //   .on("mouseleave", function(){
+    //     console.log('it leaves!!!!')
+    //   })
+
 //       clearTimeout(timerHidePointer)
 
-//       
+//
 //     })
 
     // close browser when needed
@@ -106,7 +111,7 @@ window.ImpressoTimeline = function(options) {
     _menu
       .classed('put-aside', false);
     _timeline
-      .classed('active', false)    
+      .classed('active', false)
     _self.isBrowsing = false;
     _self.hidePointer();
   }
@@ -117,12 +122,12 @@ window.ImpressoTimeline = function(options) {
       .classed('put-aside', true);
     _timeline
       .classed('active', true);
-    
+
     _self.isBrowsing = true;
 
     // showTimelineBrowser can receive an Event isntead of a NUmber.
     log('showTimelineBrowser at index!!!', idx, typeof idx)
-    
+
 
     if(typeof idx == 'number'){
       _self.viewItem(idx);
@@ -134,7 +139,7 @@ window.ImpressoTimeline = function(options) {
       .style('transform', 'translate(0px,'+closest._top+'px)');
       _self.viewItem(closest._index);
     }
-    
+
     _pointer
       .classed("active", false)
 
@@ -150,14 +155,14 @@ window.ImpressoTimeline = function(options) {
   this.hidePointer = function() {
     _pointer
       .classed("active", false)
-      
+
     _closest
       .classed("active", true)
-      
+
     _lines
       .classed("active", false)
 
-    
+
   };
 
   this.showPointer = function(idx) {
@@ -169,14 +174,14 @@ window.ImpressoTimeline = function(options) {
 
     _pointer
       .classed("active", true)
-      
+
     _closest
       .classed("active", false)
-      
+
     _lines
       .classed("active", true)
 
-    
+
 
     _self.movePointer(0);
   };
@@ -190,7 +195,7 @@ window.ImpressoTimeline = function(options) {
     var pos = typeof idx == 'number'? [0, 0]: d3.mouse(this),
         // get text from y
         date = timeScale.invert(pos[1]);
-    
+
     // move pointer towards mouse Y on _lines
     _pointer
       .style('transform', 'translate(0px,'+pos[1]+'px)');
@@ -236,8 +241,8 @@ window.ImpressoTimeline = function(options) {
                       .selectAll('div.slide')
                         .data(item.items, function(d) { return d._id; });
 
-        
-    
+
+
 
     var _slideset = slidedata
                       .enter()
@@ -294,7 +299,7 @@ window.ImpressoTimeline = function(options) {
 
   this.closestDateToPosition = function(pos) {
     var d = Infinity,
-        closest=[]; 
+        closest=[];
     for(var i =0,l=data._positions.length;i<l;i++) {
       var d1 = Math.abs(data._positions[i]._top - pos)
       if(d1 < d){
@@ -340,12 +345,12 @@ window.ImpressoTimeline = function(options) {
       return (a._top > b._top) - (a._top < b._top)
     })
 
-    log('updateData', '- n. positions:',data._positions.length); 
+    log('updateData', '- n. positions:',data._positions.length);
 
     var group = _values
                   .selectAll("div.group")
                     .data(data.values);
-                
+
     // EXIT old elements not present in new data.
     group.exit().remove()
 
@@ -359,7 +364,7 @@ window.ImpressoTimeline = function(options) {
     var newgroup = group.enter()
                   .append('div')
                     .classed('group', true)
-                
+
     newgroup
       .append('div')
         .attr('class', function(d) {
@@ -410,10 +415,10 @@ window.ImpressoTimeline = function(options) {
     // recalculate rectangle
     timelineRect = _lines.node().getBoundingClientRect();
 
-    // set/reset timescale range 
+    // set/reset timescale range
     timeScale = timeScale.range([0, timelineHeight])
 
-    
+
     // transform options.data (after timeScale!!!)
     _self.updateData();
 
@@ -486,7 +491,7 @@ window.ImpressoTimeline = function(options) {
 
 
 
-//   
+//
 
 
 
@@ -505,7 +510,7 @@ window.ImpressoTimeline = function(options) {
 
 //     _closest
 //       .classed("active", false)
-    
+
 //     previousClosestIndex = -1
 //   }
 
@@ -534,12 +539,12 @@ window.ImpressoTimeline = function(options) {
 //       delayhideTimelineBrowser();
 //     });
 
-  
+
 
 //   _lines
-//     
+//
 //     .on("mouseleave", delayCloseTimelineLines)
-//     
+//
 
 //   _pointer
 //     .on("click", showTimelineBrowser)
@@ -549,14 +554,14 @@ window.ImpressoTimeline = function(options) {
 //     .on("mouseleave", delayCloseTimelineLines)
 
 //   // resize
-//   
+//
 
 //   delayRenderTimeline();
 //   // d3.select(window)
 //   //   .on("resize", function(){ console.log('resized')
 //   //     // height has changed?
 //   //     // console.log('@resize, render timeline')
-        
+
 //   //     // if(timeline_height != window.innerHeight - 200) {
 //   //     //   // timer, then render
 
@@ -564,9 +569,9 @@ window.ImpressoTimeline = function(options) {
 //   //     //   renderTimeline();
 //   //     // }
 //   //     // timeline_height = window.innerHeight - 200;
-     
-      
+
+
 //   //   });
 
 
-//   
+//
