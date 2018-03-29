@@ -94,24 +94,26 @@ a#logo {
   z-index: 1001;
   font-family: 'Lato', sans-serif;
   box-shadow: 1px 1px $yellow;
-  
+
   a {
     padding-left: 12px
   }
   @include transition(transform .36s ease-in-out);
-  
+
   &.active{
     transform: translateY(400px);
   }
 
   > .inner{
     position: absolute;
+    max-height:400px;
+    overflow-y:auto;
     bottom: 50px;
     left:0px;
     right: 0px;
     color: $white;
     background-color: $almost-black;
-    padding: 100px 20px 20px 26px;
+    padding: 10px 20px 20px 26px;
     border-bottom: 1px solid $light-grey;
   }
 
@@ -133,8 +135,8 @@ a#logo {
 
     ul{
       position: static;
-      
-      
+
+
     }
   }
 
@@ -228,7 +230,7 @@ a#logo {
       -moz-transition: .25s ease-in-out;
       -o-transition: .25s ease-in-out;
       transition: .25s ease-in-out;
-    
+
 
       &.a {
         top: 9px;
@@ -282,7 +284,7 @@ a#logo {
     }
 
 section{
-  position: relative;  
+  position: relative;
   overflow: auto;
   min-height: 100px;
   color: $medium-grey;
@@ -294,7 +296,7 @@ section{
     width: 60px;
     // font-size: $font-size+2;
 
-    
+
   }
 
 
@@ -319,7 +321,7 @@ section{
       .date{
         font-size:11px;
         line-height: inherit;
-        
+
         position: absolute;
         width: 60px;
         left: -70px;
@@ -385,7 +387,7 @@ aside {
 
   // section li{
   //   text-transform: capitalize;
-    
+
   //   // &.active > a{
   //   //   background-color: $yellow;
   //   //   color: $almost-black;
@@ -433,7 +435,7 @@ figcaption{
 
 .date{
   font-family: "Lato";
-  text-transform: uppercase; 
+  text-transform: uppercase;
   color: $light-grey;
 }
 
@@ -462,7 +464,7 @@ figcaption{
   float: left;
   display: none;
   overflow: hidden;
-    
+
 
   &.fixed{
     overflow: hidden;
@@ -496,14 +498,14 @@ figcaption{
       margin-right: 10px;
       text-transform: none;
     }
-  } 
+  }
 }
 
 #contents{
 margin-left: 30px;
 
-  
-  
+
+
 }
 
 
