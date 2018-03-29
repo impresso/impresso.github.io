@@ -1,14 +1,16 @@
-<!-- special layout for single item in partners collection. Use assign to define people group.-->  
+<!-- special layout for single item in partners collection. Use assign to define people group.-->
 <div class='item respect-margin'>
   <div class='anchor' id='{{partner.slug}}'></div>
   <table class='table'>
     <tr>
-      <th style='padding-top: 50px'>
+      <th>
         <h2>
           <span>{{partner.title}}</span>
-      </h2>
-    </th>
+        </h2>
+      </th>
+      <th><img style="float:right; max-width:200px; max-height:120px;" src="{{ partner.picture | relative_url }}"></th>
+    </tr>
   </table>
-  
+
   {{partner.content}}
-</div>
+  </div>

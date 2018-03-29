@@ -2,6 +2,7 @@
 category: core-partner
 ordering: 03-c2dh
 title: Luxembourg Center for Contemporary and Digital History, Luxembourg University.
+picture: /assets/images/c2dh-logo.png
 ---
 
 
@@ -11,4 +12,3 @@ It promotes an interdisciplinary approach to the field of contemporary history w
 **Role**: The C2DH is responsible for visualisation (WP5), digital history methodology and investigations (WP6) and dissemination and exploitation (WP7).
 
 **Participants**: Andreas Fickers (co-PI), Marten Düring, Estelle Bunout, Daniele Guido, Lars Wieneke.
-

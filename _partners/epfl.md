@@ -2,6 +2,7 @@
 category: core-partner
 ordering: 01-epfl
 title: Digital Humanities Laboratory, EPFL.
+picture: /assets/images/EPFL-Logo-GREY.png
 ---
 
 [dhlab.epfl.ch](https://dhlab.epfl.ch/) &mdash; Founded in 2012, the Digital Humanities Laboratory (DHLAB) at the Swiss Federal Institute of Technology in Lausanne develops computational approaches applied to humanities.

@@ -2,6 +2,7 @@
 category: core-partner
 ordering: 02-uzh
 title: Institute of Computational Linguistics, UZH.
+picture: /assets/images/uzh-logo.jpg
 ---
 
 [www.cl.uzh.ch](http://www.cl.uzh.ch/en.html) &mdash; For the last 20 years, the Institute of Computational Linguistics has been the leading language technology department in the German-speaking part of Switzerland.
@@ -10,4 +11,3 @@ In addition to engineering-oriented research in machine translation, biomedical/
 **Role**: ICL is responsible for natural language processing and text mining (WP3) and will also contribute to other work packages.
 
 **Participants**: Martin Volk (co-PI), Simon Clematide, Phillip Ströbel.
-

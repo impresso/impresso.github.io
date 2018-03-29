@@ -1,15 +1,15 @@
 <div class='footer'>
   <div class="inner">
-    
+
     <div class="fluid-container">
-      
+
       <div class="row">
         <div class="col-sm-4">
           <div class="logo">
             <a href='https://dhlab.epfl.ch/' target='_blank' title='Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland'><img src="{{ '/assets/images/EPFL-Logo-GREY.png' | relative_url }}"></a>
             <p>Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland</p>
           </div>
-          
+
         </div>
         <div class="col-sm-4">
           <div class="logo">
@@ -18,7 +18,7 @@
           </a>
           <p>Institute of Computational Linguistics Zurich University, Switzerland</p>
           </div>
-          
+
         </div>
         <div class="col-sm-4">
           <div class="logo">
@@ -48,7 +48,7 @@
 
       <div class="row text-center">
         <div class="col-sm-12">
-          <a href='http://www.snf.ch/en/Pages/default.aspx' target='_blank'><img src="{{ '/assets/images/snf-rgb-e-logo.png' | relative_url }}"></a>
+          <a href='http://www.snf.ch/en/Pages/default.aspx' target='_blank' title="Swiss National Science Foundation"><img src="{{ '/assets/images/snf-rgb-e-logo.png' | relative_url }}"></a>
         </div>
       </div>
 
@@ -59,7 +59,7 @@
         {% for partner in partners %}
         <div class="col-sm-3">
         <div class="logo smaller">
-          <a href='/consortium/#{{partner.slug}}' title='Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.'>
+          <a href='/consortium/#{{partner.slug}}' title='{{ partner.title }}'>
               <img src="{{ partner.picture | relative_url }}"></a>
             </a>
           <p>{{partner.title}}</p>
@@ -70,7 +70,7 @@
 
     </div>
 
-    
-    
+
+
   </div>
 </div>
