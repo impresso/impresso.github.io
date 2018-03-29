@@ -5,6 +5,9 @@ title: impresso
 lang: en
 languages: ["en", "fr", "de"]
 
+publisher:
+  name: impresso
+
 contacts:
   email: info @ impresso-project [dot] ch
   twitter:

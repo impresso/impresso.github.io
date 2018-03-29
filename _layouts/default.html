@@ -18,7 +18,27 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
+    <!-- dublin core zotero metadata -->
+    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    {% if page.title %}
+    <meta name="DC.title" content="{{page.title}}">
+    {% endif %}
+    {% if page.layout == "post" %}
+    <meta name="DC.type" content="Blogpost">
+    {% endif %}
+    {% if page.authors %}
+      {% for authorid in page.authors %}
+      {% assign author= site.people | where: "slug", authorid | first %}
+    <meta name="DC.creator" content="{{author.lastname}}, {{author.firstname}}">
+      {% endfor %}
+    {% else %}
+    <meta name="DC.creator" content="{{ site.publisher.name }}">
+    {% endif %}
+    <meta name="DCTERMS.issued" content="{{page.date | date: '%Y-%m-%d'}}">
 
+    <meta name="DCTERMS.publisher" content="{{ site.publisher.name }}">
+    <!-- eof dublin core zotero metadata -->
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->

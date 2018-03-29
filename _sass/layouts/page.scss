@@ -1,7 +1,7 @@
 $page-margin-right: 50px;
 
 .page{
-  
+
   min-height: 800px;
   padding: 70px 0px 30px;
 
@@ -29,7 +29,7 @@ $page-margin-right: 50px;
     margin-top: 15px;
     color: $dark-grey;
     text-align: left;
-    
+
   }
   a{
     font-family: 'Lato', sans-serif;
@@ -66,11 +66,11 @@ $page-margin-right: 50px;
       font-weight: normal;
     }
 
-    
+
     th{
       min-height: 120px;
       vertical-align: middle;
-    
+
       &.picture{
         width: 80px;
       }
@@ -119,7 +119,7 @@ $page-margin-right: 50px;
     // border-top: 1px solid $almost-black;
     border-bottom: 1px solid $almost-black;
     padding: 0px 0 15px;
-    
+
     h2{
       font-size: 25px;
       margin: 0;
@@ -152,7 +152,7 @@ $page-margin-right: 50px;
 div.cover{
   width: 100%;
   height: 100%;
-  background-size: cover; 
+  background-size: cover;
 
 }
 
@@ -168,7 +168,7 @@ div.cover{
 }
 
 .page.agenda{
-  h1{ 
+  h1{
     margin-bottom: 30px;
   }
   .date{
@@ -195,7 +195,7 @@ div.cover{
   > h3{
     margin-top: 0px;
     margin-bottom: 15px;
-    
+
   }
 
   > a.thumbnail{
@@ -235,7 +235,7 @@ div.cover{
       font-family: 'Libre Caslon Bold', serif;
       > span{
       background-color: $white;
-      
+
       }
     }
   }
@@ -259,7 +259,7 @@ div.cover{
 
     .wrapper{
       padding: 0 50px;
-    
+
     }
     .headline h2{
       font-size: 20px;
@@ -269,7 +269,7 @@ div.cover{
       // line-height: 50px;
     }
 
-    
+
 
     p, .headline, .page-title, .respect-margin{
       margin-right: $page-margin-right/5;
@@ -295,7 +295,7 @@ div.cover{
           height: 120px;
         }
       }
-      
+
       h3.subheading{
         display: block;
         margin-top: 0px;
@@ -309,7 +309,7 @@ div.cover{
 }
 @media(min-width:992px){
   .page {
-    p, .headline, .page-title, .respect-margin{
+    p, .headline, .page-title, .respect-margin, .reference label, .copyright label{
       margin-right: $page-margin-right;
     }
     .anchor{
@@ -319,7 +319,7 @@ div.cover{
 }
 @media(min-width:1200px){
   .page{
-    p, .headline, .page-title, .respect-margin{
+    p, .headline, .page-title, .respect-margin, .reference label, .copyright label{
       margin-right: $page-margin-right*2;
     }
   }
