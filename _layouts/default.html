@@ -44,14 +44,13 @@
     <meta property="og:site_name" content="{{site.title}}" />
     <meta property="og:url" content="{{page.permalink}}" />
 
-    {% if page.layout in ["post"] }
+    {% if page.layout == "post" %}
     <meta property="og:type" content="article" />
     <meta property="og:article:published_time" content="{{page.date}}" />
     {% endif %}
 
-    {% if thumbnail %}           assign thumb = thumbnail.src
-    {% elseif page.figure[0] %}  assign thumb = page.figure[0].src
-    {% endif %}
+    {% if thumbnail %}        assign thumb = thumbnail.src      {% endif %}
+    {% if page.figure[0] %}   assign thumb = page.figure[0].src {% endif %}
     {% if thumb %}<meta property="og:image" content="{{ thumb }}" />{% endif %}
 
     <!-- eof dublin core zotero metadata -->
