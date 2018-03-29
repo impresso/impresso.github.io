@@ -46,14 +46,12 @@
 
     {% if page.layout == "post" %}
     <meta property="og:type" content="article" />
-    <meta property="og:article:published_time" content="{{page.date}}" />
     {% endif %}
-
-    {% if thumbnail %}        assign thumb = thumbnail.src      {% endif %}
-    {% if page.figure[0] %}   assign thumb = page.figure[0].src {% endif %}
-    {% if thumb %}<meta property="og:image" content="{{ thumb }}" />{% endif %}
-
-    <!-- eof dublin core zotero metadata -->
+    <meta property="og:article:published_time" content="{{page.date | date: '%Y-%m-%d'}}" />
+    {% if thumbnail %}       {% assign thumb = thumbnail.src %}     {% endif %}
+    {% if page.figure[0] %}  {% assign thumb = page.figure[0].src %}{% endif %}
+    {% if thumb %}<meta property="og:image" content="/assets/images/{{ thumb }}" />{% endif %}
+    <!-- eof Open Graph -->
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
