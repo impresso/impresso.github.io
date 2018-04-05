@@ -14,11 +14,11 @@ layout: default
   {% for section in sections %}
   {% if section.permalink != section.parenturl %}
   {% assign sectionid = section.permalink | split: '/' %}
-    
-        
+
+
   <section {% if forloop.last %} class='last' {%endif%}>
     <div class='anchor' {% if page.lang == site.lang %} id='{{sectionid[2]}}' {% else %} id='{{sectionid[3]}}' {% endif %}></div>
-  
+
     <div class="wrapper">
       <div class="headline">
         <h2><span>{{ section.title }}</span></h2>
@@ -42,11 +42,20 @@ layout: default
           {% endfor %}
         </div>
 
-        
+
 
         {% assign group = site.people | where: 'group','supervisor' | sort: 'ordering' %}
         <div class='thumbnails respect-margin'>
           <h3><span class='tag'>supervisors</span></h3>
+          {% for person in group %}
+          {% include person.thumbnail.html %}
+          {% endfor %}
+        </div>
+
+
+        {% assign group = site.people | where: 'group','friend' | sort: 'ordering' %}
+        <div class='thumbnails respect-margin'>
+          <h3><span class='tag'>friends</span></h3>
           {% for person in group %}
           {% include person.thumbnail.html %}
           {% endfor %}
@@ -65,8 +74,8 @@ layout: default
           <!-- </div> -->
         </div>
       {% endif %}
-      
-      
+
+
 
       {% if section.nolang == '/consortium/partners/' %}
 
@@ -96,7 +105,6 @@ layout: default
   </section>
   {%endif%}
   {% endfor %}
-  
+
   <div class='text-center'> - </div>
 </div>
-

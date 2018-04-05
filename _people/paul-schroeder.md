@@ -2,6 +2,7 @@
 category: team
 group: collaborator
 ordering: 02-schroeder
+picture: /assets/images/paul-schroeder.jpg
 subheading: Front-end designer, C2DH
 title: Paul Schroeder
 ---

@@ -5,8 +5,8 @@ languages:
       url: /
     - title: "Blog"
       url: /blog/
-    - title: "Glossary"
-      url: /glossary/
+#    - title: "Glossary"
+#      url: /glossary/
     - title: "Project"
       url: /project/
       links:

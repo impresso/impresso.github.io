@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% assign nav = site.data.navigation.languages[lang] | default: site.data.navigation.languages.en %}
-    
+
       {% assign parent = nav.links | where: 'url', page.parenturl %}
-      
+
       {% assign siblings = parent[0].links | where_exp:"link", "link.url != page.permalink" %}
 
 <div class="page">
@@ -18,7 +18,7 @@ layout: default
       <div class="headline">
         <!-- <h2>See also:
         {% for sibling in siblings %}
-        <a href='{{sibling.url  | relative_url }}'>{{sibling.title}}</a> 
+        <a href='{{sibling.url  | relative_url }}'>{{sibling.title}}</a>
           {% unless forloop.last %} &mdash; {% endunless %}
       {% endfor %}</h2> -->
       </div>
@@ -40,7 +40,7 @@ layout: default
           {% endfor %}
         </div>
 
-        
+
 
         {% assign group = site.people | where: 'group','supervisor' | sort: 'ordering' %}
         <div class='thumbnails respect-margin'>
@@ -49,6 +49,16 @@ layout: default
           {% include person.thumbnail.html %}
           {% endfor %}
         </div>
+
+        {% assign group = site.people | where: 'group','friend' | sort: 'ordering' %}
+        <div class='thumbnails respect-margin'>
+          <h3><span class='tag'>friends</span></h3>
+          {% for person in group %}
+          {% include person.thumbnail.html %}
+          {% endfor %}
+        </div>
+
+
 
 
         {% assign team = site.people | where: 'category','team' | sort: 'ordering' %}
@@ -62,10 +72,10 @@ layout: default
             {% endfor %}
           <!-- </div> -->
         </div>
-      {% endif %} 
+      {% endif %}
 
       {% if page.nolang == '/consortium/partners/' %}
-      
+
         {% assign partners = site.partners | where: 'category','core-partner' | sort: 'ordering' %}
         {% for partner in partners %}
           {% include partner.html %}
@@ -90,7 +100,7 @@ layout: default
       {%endif%}
       </div>
 
-      
+
 
     </section>
 
@@ -102,12 +112,12 @@ layout: default
       <blockquote class='summary respect-margin'>
         {% assign siblings = parent[0].links | where_exp:"link", "link.url != page.permalink" %}
         {% for sibling in siblings %}
-        <a href='{{sibling.url  | relative_url }}'>{{sibling.title}}</a> 
+        <a href='{{sibling.url  | relative_url }}'>{{sibling.title}}</a>
           {% unless forloop.last %} &mdash; {% endunless %}
       {% endfor %}
 
       </blockquote>
-      
+
       </div>
     </section>
 
