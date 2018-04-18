@@ -1,7 +1,7 @@
 ---
 category: team
 group: friend
-ordering: 04-friends
+ordering: 04-morse
 picture: /assets/images/clemens-neudecker.png
 subheading: Research Advisor SBB-PK
 title: Clemens Neudecker, M.A.

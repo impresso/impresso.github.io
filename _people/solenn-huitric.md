@@ -1,7 +1,7 @@
 ---
 category: team
 group: friend
-ordering: 04-friends
+ordering: 04-huitric
 picture: /assets/images/solenn-huitric.png
 title: Solenn Huitric
 subheading: Lecturer, EPFL

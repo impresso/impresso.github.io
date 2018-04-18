@@ -447,17 +447,29 @@ figcaption{
 
 .item .blogExcerpt {
 	float: left;
-	width: 35%;
+	width: 100%;
 }
 .item .blogExcerpt h2 {
 	margin-top:0;
 }
 .item .blogThumb {
 	float: right;
-	max-height: 20em;
-	max-width: 60%;
-	margin-left: 5%;
+	height: 10em;
+	width: 100%;
+  margin-top: 1em;
+  object-fit: cover;
 }
+@media(min-width:992px){
+  .item .blogThumb {
+  	height: 18em;
+  	width: 55%;
+    margin-top: 0;
+  }
+  .item .blogExcerpt {
+  	width: 35%;
+  }
+}
+
 
 
 

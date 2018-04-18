@@ -1,0 +1,1 @@
+use this folder to drop docs, pdfs etc.
