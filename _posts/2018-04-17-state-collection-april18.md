@@ -10,9 +10,10 @@ author: maud-ehrmann
 
 State of *impresso* newspaper collection - April 2018
 
+<!-- more -->
+
 We provide an overview of the current collection. More details about technical aspects will follow in two upcoming blog posts on image format evaluation and data pre-processing.
 
-<!-- more -->
 
 **Where are we ?**
 
