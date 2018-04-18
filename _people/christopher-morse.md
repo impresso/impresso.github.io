@@ -1,7 +1,7 @@
 ---
 category: team
 group: friend
-ordering: 04-friends
+ordering: 04-morse
 picture: /assets/images/christopher-morse.jpg
 subheading: PhD student, C2DH
 title: Christopher Morse, PhD
