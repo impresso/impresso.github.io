@@ -4,7 +4,8 @@ title: State of impresso newspaper collection - April 2018
 lang: en
 date:   2018-04-17
 categories: news
-author: maud-ehrmann
+authors:
+  - maud-ehrmann
 figure:
   - src: posts/collection_copy.png
     caption: State of impresso newspaper collection - April 2018
