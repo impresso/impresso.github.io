@@ -4,10 +4,10 @@ title: State of impresso newspaper collection - April 2018
 lang: en
 date:   2018-04-17
 categories: news
-authors:
+authors§:
   - maud-ehrmann
 figure:
-  - src: posts/collection_copy.png
+  - src: posts/collection_copy2.png
     caption: State of impresso newspaper collection - April 2018
 ---
 
@@ -23,8 +23,6 @@ We provide an overview of the current collection. More details about technical a
 
 As of April 20218, our digitized newspaper collection is mainly composed of Swiss and Luxembourgish newspapers in French and German. If the [national libraries of Switzerland](https://www.nb.admin.ch/snl/en/home.html) and [Luxembourg](http://www.bnl.public.lu/fr.html) as well as several other [institutions](https://impresso-project.ch/consortium/associated-partners/) agreed right from the project proposal to provide *impresso* with their newspaper archives, we were confronted in the last months with the need to approach Swiss cantonal libraries as well as private copyrights holders individually. Although not a straightforward process, we all in all succeeded in getting about 20 Swiss and 28 Luxembourgish newspapers so far, most of which are on our servers and being processed. During this phase we benefited from the institutional support of Liliane Regamey from the Swiss national library and from the technical assistance of [RERO](https://www.rero.ch/page.php?section=infos&pageid=plansite) team, and we would like to address our warmest thanks to both of them.
 
-{% assign figure=page.figure[0] %}
-{% include figure.html %}
 
 **Swiss newspapers**
 
@@ -144,4 +142,8 @@ We keep getting into contact with institutions at Swiss and European level and o
 
 **Thanks**
 
-We are grateful to all institutions who accepted to share their collections.
+We are very grateful to all institutions who accepted to share their collections.
+
+
+{% assign figure=page.figure[0] %}
+
