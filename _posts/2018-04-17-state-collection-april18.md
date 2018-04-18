@@ -5,13 +5,18 @@ lang: en
 date:   2018-04-17
 categories: news
 author: maud-ehrmann
-	
+figure:
+  - src: posts/collection_copy.png
+    caption: State of impresso newspaper collection - April 2018
 ---
 
+<<<<<<< HEAD
 State of *impresso* newspaper collection - April 2018
 
 <!-- more -->
 
+=======
+>>>>>>> ddd2e7b5208b81140bcce17626284b4c906ee73d
 We provide an overview of the current collection. More details about technical aspects will follow in two upcoming blog posts on image format evaluation and data pre-processing.
 
 
@@ -19,35 +24,38 @@ We provide an overview of the current collection. More details about technical a
 
 As of April 20218, our digitized newspaper collection is mainly composed of Swiss and Luxembourgish newspapers in French and German. If the [national libraries of Switzerland](https://www.nb.admin.ch/snl/en/home.html) and [Luxembourg](http://www.bnl.public.lu/fr.html) as well as several other [institutions](https://impresso-project.ch/consortium/associated-partners/) agreed right from the project proposal to provide *impresso* with their newspaper archives, we were confronted in the last months with the need to approach Swiss cantonal libraries as well as private copyrights holders individually. Although not a straightforward process, we all in all succeeded in getting about 20 Swiss and 28 Luxembourgish newspapers so far, most of which are on our servers and being processed. During this phase we benefited from the institutional support of Liliane Regamey from the Swiss national library and from the technical assistance of [RERO](https://www.rero.ch/page.php?section=infos&pageid=plansite) team, and we would like to address our warmest thanks to both of them.
 
+{% assign figure=page.figure[0] %}
+{% include figure.html %}
+
 **Swiss newspapers**
 
 Our acquisition of swiss newspapers focused so far on the French speaking part of the Confederation (“Romandie”). In general newspaper digitization campaigns started during the second half of the 2000s and are still ongoing or planed. Such activities were coordinated by the national library, in collaboration with cantonal institutions and/or private publishers (La Liberté, Le Nouvelliste, la Société Neuchâteloise de Presse, Le Temps, etc.), often with the support of an association bringing together the main actors. The material to which we have access corresponds to image scans and OCR output, all produced by a private company. Here is the current list of *impresso* Swiss newspapers:
 
-| Title  |  Resource holder  |  Lg  |  From  |  To| 
-| :----- | :--- | :---- | :------: | :----------------: | 
-| *Der Landbote des freiburgischen Seebezirks*|  Cantonal library of Fribourg  |  de  |  1909  |  1914| 
-| *Journal du canton de Fribourg*|  Cantonal library of Fribourg  |  fr  |  1830  |  1833| 
-| *Le Bien public*|  Cantonal library of Fribourg  |  fr  |  1879  |  1888| 
-| *Le Confédéré de Fribourg*|  Cantonal library of Fribourg  |  fr  |  1848  |  1907| 
-| *Le Chroniqueur*|  Cantonal library of Fribourg  |  fr  |  1854  |  1881| 
-| *Le Courrier fribourgeois*|  Cantonal library of Fribourg  |  fr  |  1830  |  1830| 
-| *Le Narrateur fribourgeois*|  Cantonal library of Fribourg  |  fr  |  1840  |  1855| 
-| *La Tribune de Fribourg*|  Cantonal library of Fribourg  |  fr  |  1905  |  2018| 
-| *Le Véridique*|  Cantonal library of Fribourg  |  fr  |  1831  |  1833| 
-| *L'Express*|  Public and university library of Neuchâtel (BPUN) / ArcInfo  |  fr  |  1738  |  2018| 
-| *L'Impartial*|  Public and university library of Neuchâtel (BPUN)  / ArcInfo  |  fr  |  1881  |  2018| 
-| *L'Essor*|  Library of La Chaux-de-Fonds / L'Essor newspaper  |  fr  |  1906  |  2018| 
-| *La Sentinelle - Le Peuple La Sentinelle*|  Library of La Chaux-de-Fonds / Socialist party of Neuchâtel  |  fr  |  1890  |  1971| 
-| *Bulletin des séances de la Constituante*|  Valais media library  |  fr  |  1839  |  1839| 
-| *Courrier du Valais*|  Valais media library  |  fr  |  1935  |  1938| 
-| *L’Écho des Alpes*|  Valais media library  |  fr  |  1839  |  1844| 
-| *Le Journal du Valais*|  Valais media library  |  fr  |  1848  |  1848| 
-| *Confédéré*|  Valais media library  |  fr  |  1861  |  2018| 
-| *L’Observateur*|  Valais media library  |  fr  |  1846  |  1848| 
-| *Gazette de Lausanne*|  Le Temps newspaper  |  fr  |  1804  |  1991| 
-| *Journal de Genève*|  Le Temps newspaper  |  fr  |  1826  |  1998| 
-| *Le nouveau quotidien*|  Le Temps newspaper  |  fr  |  1991  |  1998| 
-| *Neue Zürcher Zeitung*|  Neue Zürcher Zeitung newspaper  |  de  |  1780  |  2017| 
+| Title  |  Resource holder  |  Lg  |  From  |  To|
+| :----- | :--- | :---- | :------: | :----------------: |
+| *Der Landbote des freiburgischen Seebezirks*|  Cantonal library of Fribourg  |  de  |  1909  |  1914|
+| *Journal du canton de Fribourg*|  Cantonal library of Fribourg  |  fr  |  1830  |  1833|
+| *Le Bien public*|  Cantonal library of Fribourg  |  fr  |  1879  |  1888|
+| *Le Confédéré de Fribourg*|  Cantonal library of Fribourg  |  fr  |  1848  |  1907|
+| *Le Chroniqueur*|  Cantonal library of Fribourg  |  fr  |  1854  |  1881|
+| *Le Courrier fribourgeois*|  Cantonal library of Fribourg  |  fr  |  1830  |  1830|
+| *Le Narrateur fribourgeois*|  Cantonal library of Fribourg  |  fr  |  1840  |  1855|
+| *La Tribune de Fribourg*|  Cantonal library of Fribourg  |  fr  |  1905  |  2018|
+| *Le Véridique*|  Cantonal library of Fribourg  |  fr  |  1831  |  1833|
+| *L'Express*|  Public and university library of Neuchâtel (BPUN) / ArcInfo  |  fr  |  1738  |  2018|
+| *L'Impartial*|  Public and university library of Neuchâtel (BPUN)  / ArcInfo  |  fr  |  1881  |  2018|
+| *L'Essor*|  Library of La Chaux-de-Fonds / L'Essor newspaper  |  fr  |  1906  |  2018|
+| *La Sentinelle - Le Peuple La Sentinelle*|  Library of La Chaux-de-Fonds / Socialist party of Neuchâtel  |  fr  |  1890  |  1971|
+| *Bulletin des séances de la Constituante*|  Valais media library  |  fr  |  1839  |  1839|
+| *Courrier du Valais*|  Valais media library  |  fr  |  1935  |  1938|
+| *L’Écho des Alpes*|  Valais media library  |  fr  |  1839  |  1844|
+| *Le Journal du Valais*|  Valais media library  |  fr  |  1848  |  1848|
+| *Confédéré*|  Valais media library  |  fr  |  1861  |  2018|
+| *L’Observateur*|  Valais media library  |  fr  |  1846  |  1848|
+| *Gazette de Lausanne*|  Le Temps newspaper  |  fr  |  1804  |  1991|
+| *Journal de Genève*|  Le Temps newspaper  |  fr  |  1826  |  1998|
+| *Le nouveau quotidien*|  Le Temps newspaper  |  fr  |  1991  |  1998|
+| *Neue Zürcher Zeitung*|  Neue Zürcher Zeitung newspaper  |  de  |  1780  |  2017|
 
 
 **Le Temps and NZZ**
@@ -58,7 +66,7 @@ Our acquisition of swiss newspapers focused so far on the French speaking part o
 **Luxembourgish newspapers**
 
 Title|   Lg  |  From  |  To
-:----- |:---- | :------: | :----------------: | 
+:----- |:---- | :------: | :----------------: |
 *L'Action féminine*|  de  |  1927  |  1940  |  
 *Der Arme Teufel*|  fr de  |  1903  |  1929  |  
 *L'avenir*|  fr de  |  1868  |  1871  |  
@@ -95,7 +103,7 @@ Title|   Lg  |  From  |  To
 *Impresso* also received the support from the National [Library of the Netherlands](https://www.kb.nl/en), who accepted to share with us their newspaper archive in French language. Those newspapers will be processed from July 2018 on.
 
 Title  |   Lg  |  From  |  To
-:----- |:---- | :------: | :----------------: | 
+:----- |:---- | :------: | :----------------: |
 *Traduction libre des gazettes flamandes et autres*|  fr  |  1677  |  1677  |  
 *Nouvelles extraordinaires de divers endroits*|  fr  |  1696  |  1798  |  
 *Gazette de Rotterdam*|  fr  |  1690  |  1714  |  
