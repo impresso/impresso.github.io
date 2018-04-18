@@ -1,6 +1,6 @@
 ---
 layout: post
-title: State of *impresso* newspaper collection - April 2018
+title: State of impresso newspaper collection - April 2018
 lang: en
 date:   2018-04-17
 categories: news
@@ -10,13 +10,11 @@ figure:
     caption: State of impresso newspaper collection - April 2018
 ---
 
-<<<<<<< HEAD
+
 State of *impresso* newspaper collection - April 2018
 
 <!-- more -->
 
-=======
->>>>>>> ddd2e7b5208b81140bcce17626284b4c906ee73d
 We provide an overview of the current collection. More details about technical aspects will follow in two upcoming blog posts on image format evaluation and data pre-processing.
 
 
