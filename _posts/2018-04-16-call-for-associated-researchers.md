@@ -25,22 +25,21 @@ In addition, associated researchers will have the opportunity to work together c
 Associated researchers are invited to submit a short description of concrete ideas and research questions which can be addressed with the help of historical newspapers within the _impresso_ corpus. These projects can also complement ongoing research or take the form of graduate theses. An interest in (Swiss) economic history, gender, and media history as well as quantitative methods will be considered as an advantage but is not required.Limited funding is available for the participation in user workshops; salary costs can however not be covered. 
 
 Associated researchers will have access to:
-* the _impresso_ newspaper corpus until the end of the project in August 2020
-* beta versions of the exploration interface
-* regular user workshops organised in conjunction with the above-mentioned associated partners in history
+ - the _impresso_ newspaper corpus until the end of the project in August 2020
+ - beta versions of the exploration interface
+ - regular user workshops organised in conjunction with the above-mentioned associated partners in history
 
 Associated researchers will have the opportunity to work closely with:
-* a team of researchers in Computational Linguistics to support their research
-* a team of designers and developers for work on custom data visualisations
+ - a team of researchers in Computational Linguistics to support their research
+ - a team of designers and developers for work on custom data visualisations
 
 Associated researchers are expected to:
-* develop and pursue a historical research project based on the _impresso_ corpus, including complementary research to ongoing
- projects as well as MA and Phd theses
-* provide feedback on tools and interfaces in development by the _impresso_ project
+ - develop and pursue a historical research project based on the _impresso_ corpus, including complementary research to ongoing projects as well as MA and Phd theses
+ - provide feedback on tools and interfaces in development by the _impresso_ project
 
 General frame of participation: 
-* the time frame for associated research projects is from June 2018 to March 2020 depending on copyright restrictions, Associated Researchers may be requested to sign Non-Disclosure Agreements prior to gaining access to the corpus and other legal documents subject to the concrete nature of their research projects
-* salary costs can not be covered
+ - the time frame for associated research projects is from June 2018 to March 2020 depending on copyright restrictions, Associated Researchers may be requested to sign Non-Disclosure Agreements prior to gaining access to the corpus and other legal documents subject to the concrete nature of their research projects
+ - salary costs can not be covered
 
 If you are interested, please send a short abstract with your ideas together with a short bio to info@impresso-project.ch.
 
