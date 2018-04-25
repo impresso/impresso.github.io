@@ -4,7 +4,7 @@ group: collaborator
 ordering: 02-bunout
 picture: /assets/images/estelle-bunout.jpg
 subheading: Associate Researcher, C2DH
-title: Estelle Bunout, M.A.
+title: Estelle Bunout, PhD
 lastname: Bunout
 firstname: Estelle
 ---
