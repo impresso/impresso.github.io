@@ -11,4 +11,4 @@ Clemens holds a MA in Philosophy, Computer Science and Political Science from LM
 
 Within *impresso*, Clemens will contribute [Europeana Newspapers](http://www.europeana-newspapers.eu/) data and knowledge exchange on OCR & NER for historical newspapers.
 
-[C2DH profile](https://www.c2dh.uni.lu/people/christopher-morse)
+[Blog SBB](http://blog.sbb.berlin/author/cn/)
