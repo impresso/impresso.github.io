@@ -12,7 +12,7 @@ figure:
   - src: posts/tr-ex3.png
   - src: posts/tr-ex4.png
 ---
-Trading zone part 3: Text Re-use Detection. This blog post is the last part of [Stepping in the NLP / History trading zone: a series of posts](/news/2018/06/11/tradingzone-umbrella).
+Trading zone part 3: Text Re-use Detection. This blog post is the last part of [Stepping in the NLP / History trading zone: a series of posts](/news/2018/06/11/tradingzone-umbrella.html).
 
 <!-- more -->
 
