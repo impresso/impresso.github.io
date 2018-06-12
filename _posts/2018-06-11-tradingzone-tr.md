@@ -2,7 +2,7 @@
 layout: post
 title: Text re-use detection in a nutshell
 lang: en
-date:   2018-06-11
+date:   2018-06-12
 categories: news
 authors:
   - matteo-romanello
@@ -12,7 +12,7 @@ figure:
   - src: posts/tr-ex3.png
   - src: posts/tr-ex4.png
 ---
-Trading zone part 3: Text Re-use Detection. This blog post is the last part of the series…. [link to umbrella]
+Trading zone part 3: Text Re-use Detection. This blog post is the last part of [Stepping in the NLP / History trading zone: a series of posts](/news/2018/06/11/tradingzone-umbrella).
 
 <!-- more -->
 
@@ -53,7 +53,8 @@ To conclude, let us consider briefly the technical challenges raised by the auto
 
 1. **scale**: finding similar passages between millions of pages or articles requires adequate computational resources as well as smart algorithms, capable of reducing the number of total comparisons performed without loosing in accuracy of the results;  
 2. **noise**: text re-use tools like passim need to be resilient (to some extent) to noise noisy data (caused e.g. by bad OCR) as we've seen in some of the examples above;  
-3. **cross-lingual text re-use**: the ability of detecting text re-use between texts written in different languages is perhaps *the* biggest still unsolved challenge related to text re-use. In some cases we are explicitly told about the existence of cross-lingual text re-use in our corpus, like in the example below where the reader of the *Neue Zürcher Zeitung* is informed that the translation of a given article appeared in the JDG.
+3. **cross-lingual text re-use**: the ability of detecting text re-use between texts written in different languages is perhaps *the* biggest still unsolved challenge related to text re-use. In some cases we are explicitly told about the existence of cross-lingual text re-use in our corpus, like in the example below where the reader of the *Neue Zürcher Zeitung* is informed that the translation of a given article appeared in the JDG. The small addendum also says, that the original has been written in French and that the author was asked by the JDG to write this report.
+
 
 {% assign figure=page.figure[3] %}
 {% include figure.html %}

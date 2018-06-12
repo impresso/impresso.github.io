@@ -24,7 +24,7 @@ figure:
     caption: False positive for the query ‘Montgomery’, intended for the Marechal [JDG-1969-06-11](http://www.letempsarchives.ch/page/JDG_1969_06_11/6/article/8181579/Montgomery)
 ---
 
-Trading zone part 1: Named Entity Processing. This blog post is part of the series [Stepping in the NLP / History trading zone: a series of posts](/blog/2018-06-11-tradingzone-umbrella/)'Stepping in the NLP / History trading zone: a series of posts'.
+Trading zone part 1: Named Entity Processing. This blog post is part of [Stepping in the NLP / History trading zone: a series of posts](/news/2018/06/11/tradingzone-umbrella).
 
 <!-- more -->
 
