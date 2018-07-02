@@ -2,11 +2,11 @@
 layout: post
 title: Named entity processing in a nutshell
 lang: en
-date:   2018-06-11
+date:   2018-06-12
 categories: news
-authors: 
+authors:
   - maud-ehrmann
-thumbnail: 
+thumbnail:
 figure:
   - src: posts/ne-jdg-1969-08-28.png
     caption: False positive for the query ‘Montgomery’, intended for the Marechal [JDG-1969-08-28](http://www.letempsarchives.ch/page/JDG_1969_08_28/13/article/8199721/Montgomery)
@@ -24,7 +24,7 @@ figure:
     caption: False positive for the query ‘Montgomery’, intended for the Marechal [JDG-1969-06-11](http://www.letempsarchives.ch/page/JDG_1969_06_11/6/article/8181579/Montgomery)
 ---
 
-Trading zone part 1: Named Entity Processing. This blog post is part of the series [Stepping in the NLP / History trading zone: a series of posts](/blog/2018-06-11-tradingzone-umbrella/)'Stepping in the NLP / History trading zone: a series of posts'.
+Trading zone part 1: Named Entity Processing. This blog post is part of [Stepping in the NLP / History trading zone: a series of posts](/news/2018/06/11/tradingzone-umbrella.html).
 
 <!-- more -->
 
@@ -70,6 +70,4 @@ With the recognition, classification and linking (or disambiguation) of entities
 
 Concretely speaking, the impresso interface will allow search on entities (i.e. by referent) and on mentions (i.e. words which we know are names of entities), will offer entity network visualization and exploration capacities (e.g. to allow the selection of articles where Montgomery - referring to the marechal - and Arnhem - referring to the battle - are co-mentioned), and provide newspaper collection statistical profiles.
 
-The technologies to perform such entity-related tasks perform well for general domain, contemporary English text, with ca. 90/95 entities out of 100  being correctly recognized, and 80/85 correctly disambiguated. The whole challenge here is to reach acceptable performance (meaning useful for historical research) on noisy historical text and to devise workflows which make the most of them. 
-
-
+The technologies to perform such entity-related tasks perform well for general domain, contemporary English text, with ca. 90/95 entities out of 100  being correctly recognized, and 80/85 correctly disambiguated. The whole challenge here is to reach acceptable performance (meaning useful for historical research) on noisy historical text and to devise workflows which make the most of them.
