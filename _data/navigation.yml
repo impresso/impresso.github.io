@@ -23,12 +23,12 @@ languages:
       links:
         - title: "People"
           url: /consortium/people/
-        - title: "Contributors"
-          url: /consortium/contributors/
         - title: "Partners"
           url: /consortium/partners/
         - title: "Associated partners"
           url: /consortium/associated-partners/
+        - title: "Contributors"
+          url: /consortium/contributors/
       # links:
       #   - title: "People"
       #     url: /consortium/
