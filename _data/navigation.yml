@@ -27,6 +27,8 @@ languages:
           url: /consortium/partners/
         - title: "Associated partners"
           url: /consortium/associated-partners/
+        - title: "Contributors"
+          url: /consortium/contributors/
       # links:
       #   - title: "People"
       #     url: /consortium/
