@@ -50,9 +50,17 @@ layout: default
           {% endfor %}
         </div>
 
-        {% assign group = site.people | where: 'group','friend' | sort: 'ordering' %}
+        {% assign group = site.people | where: 'group','historian' | where: 'status', 'publish' | sort: 'ordering' %}
         <div class='thumbnails respect-margin'>
-          <h3><span class='tag'>friends</span></h3>
+          <h3><span class='tag'>{% assign key="historian" %}{% include t.html %}</span></h3>
+          {% for person in group %}
+          {% include person.thumbnail.html %}
+          {% endfor %}
+        </div>
+
+        {% assign group = site.people | where: 'group','contributor' | where: 'status', 'publish' | sort: 'ordering' %}
+        <div class='thumbnails respect-margin'>
+          <h3><span class='tag'>{% assign key="contributors" %}{% include t.html %}</span></h3>
           {% for person in group %}
           {% include person.thumbnail.html %}
           {% endfor %}
