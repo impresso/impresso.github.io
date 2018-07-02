@@ -8,7 +8,6 @@ layout: consortium_single
 ordering: 04
 category: contributor
 groups:
-  - historian
   - contributor
 ---
 
