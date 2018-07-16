@@ -12,7 +12,7 @@ The *impresso* project seeks to put the natural language processing (NLP) tools 
 
 **A generous interface**
 
-The aim of the *impresso* interface is to overcome some of the limitations of other contemporary interfaces. One such example is the restrictions of basic keyword search, which Mitchell Whitehall called the “small corridor” situation (DHQ, 2015, 9.1). Whitelaw used this term to describe an interface that responds to the results of the query formulated by the user very narrowly, thereby hiding relevant related information. The opposite scenario is “generous” interfaces, which go beyond known-item searches. They offer a high-level view of content and give users suggestions to broaden their search experience.
+The aim of the *impresso* interface is to overcome some of the limitations of other contemporary interfaces. One such example is the restrictions of basic keyword search, which Mitchell Whitelaw called the “small corridor” situation (DHQ, 2015, 9.1). Whitelaw used this term to describe an interface that responds to the results of the query formulated by the user very narrowly, thereby hiding relevant related information. The opposite scenario is “generous” interfaces, which go beyond known-item searches. They offer a high-level view of content and give users suggestions to broaden their search experience.
  
 **Data visualisation**
 
