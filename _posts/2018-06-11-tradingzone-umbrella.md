@@ -1,5 +1,6 @@
 ---
 layout: post
+status: published
 title: Trading zone between NLP and History - a post series
 lang: en
 date:   2018-06-11

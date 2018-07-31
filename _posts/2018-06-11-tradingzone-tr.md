@@ -1,5 +1,6 @@
 ---
 layout: post
+status: published
 title: Text re-use detection in a nutshell
 lang: en
 date:   2018-06-12

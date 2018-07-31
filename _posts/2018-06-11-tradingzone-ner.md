@@ -1,5 +1,6 @@
 ---
 layout: post
+status: published
 title: Named entity processing in a nutshell
 lang: en
 date:   2018-06-12

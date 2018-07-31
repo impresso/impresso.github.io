@@ -12,7 +12,8 @@ layout: default
   <div class="wrapper">
     <div class="headline"></div>
     <blockquote class='summary respect-margin'>{{page.content}}</blockquote>
-    {% for post in site.posts %}
+    {% assign published = site.posts | where: "status", "published" %}
+    {% for post in published %}
     {% include post.html %}
     {% endfor %}
   </div>
