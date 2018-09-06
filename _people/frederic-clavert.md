@@ -1,5 +1,5 @@
 ---
-category: team
+category: contributor
 group: contributor
 ordering: 04-clavert
 title: Frédéric Clavert, PhD
