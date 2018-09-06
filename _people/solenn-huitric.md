@@ -1,5 +1,5 @@
 ---
-category: team
+category: contributor
 group: contributor
 ordering: 04-huitric
 picture: /assets/images/solenn-huitric.png
