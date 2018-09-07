@@ -11,7 +11,6 @@ figure:
 ---
 Trading zone part 4: Topic modeling. This blog post is the last part of [Stepping in the NLP / History trading zone: a series of posts](/news/2018/06/11/tradingzone-umbrella.html).
 
-<h1>About Topic Modeling on historical newspapers</h1>
 <h2>
 ... and where it fails</h2>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
