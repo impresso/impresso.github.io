@@ -8,7 +8,7 @@ categories: news
 authors:
   - phillip-stroebel
 figure:
-  - posts/lda-geometric-interpretation.png
+  - src: posts/lda-geometric-interpretation.png
 ---
 Trading zone part 4: Topic modeling. This blog post is the last part of [Stepping in the NLP / History trading zone: a series of posts](/news/2018/06/11/tradingzone-umbrella.html).
 
