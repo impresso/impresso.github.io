@@ -99,7 +99,8 @@ Trading zone part 4: Topic modeling. This blog post is the last part of [Steppin
 <br /><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;">
 <span style="font-family: &quot;arial&quot;; font-size: 11pt; vertical-align: baseline; white-space: pre-wrap;">The first one refers to the arts, while the second one can be associated with WWII. In the third topic we find words which are most often used in the context on flat advertisement. However, there are also topics which suffer from the poor OCR quality of the NZZ, as we show in the next table:</span></div>
 <br /><div dir="ltr" style="margin-left: 0pt;">
-<table style="border-collapse: collapse; border: none;"><colgroup><col width="48"></col><col width="552"></col></colgroup><tbody>
+<table style="border-collapse: collapse; border: none;">
+<tbody>
 <tr style="height: 0pt;"><td style="border-bottom: solid #000000 1pt; border-left: solid #000000 1pt; border-right: solid #000000 1pt; border-top: solid #000000 1pt; padding: 5pt 5pt 5pt 5pt; vertical-align: top;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
 <span style="font-family: &quot;arial&quot;; font-size: 11pt; vertical-align: baseline; white-space: pre-wrap;">4</span></div>
 </td><td style="border-bottom: solid #000000 1pt; border-left: solid #000000 1pt; border-right: solid #000000 1pt; border-top: solid #000000 1pt; padding: 5pt 5pt 5pt 5pt; vertical-align: top;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
