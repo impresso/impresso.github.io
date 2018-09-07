@@ -26,7 +26,7 @@ With this blog post series, computational linguists would like to step in the tr
 This series is divided into three parts:
 
 1. [Named Entity Processing](/news/2018/06/12/tradingzone-ner.html)
-2. [Topic Modeling]()
+2. [Topic Modeling](/news/2018/06/12/tradingzone-tm.html)
 3. [Text re-use](/news/2018/06/12/tradingzone-tr.html)
 
 {% assign figure=page.figure[0] %}
