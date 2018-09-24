@@ -8,7 +8,9 @@ layout: consortium_single
 ordering: 04
 category: contributor
 groups:
+  - historian
   - contributor
+  
 ---
 
 A network of accomplished of digital humanities specialists and digitisation experts advises and supports the *impresso* project.
