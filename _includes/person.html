@@ -1,6 +1,6 @@
-<!-- special layout for single item in a people collection. Use assign to define people group.-->  
+<!-- special layout for single item in a people collection. Use assign to define people group.-->
 
-  
+
 <div class='item' >
   <div class='anchor' id='{{person.slug}}'></div>
   <table class='table'>
@@ -10,7 +10,7 @@
       </th>
       <th>
         {% if person.group %}
-        <div class='tag'>{{person.group}}</div>
+        <div class='tag'>{% assign key=person.group %}{% include t.html%}</div>
         {% endif %}
         <h2>
           <span>{{person.title}}</span>
