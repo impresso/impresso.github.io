@@ -1,6 +1,6 @@
 ---
 category: contributor
-group: contributor
+group: associated-researcher
 ordering: 04-huitric
 picture: /assets/images/solenn-huitric.png
 title: Solenn Huitric
@@ -12,4 +12,4 @@ Solenn holds a PhD in Contemporary History, on educational policy during the 19t
 
 Within *impresso* and as a historian, Solenn will participate in the discussion on how historians use newspapers in their research and which tools might be helpful.
 
-[//LARHRA](http://larhra.ish-lyon.cnrs.fr/membre/219)
+[LARHRA](http://larhra.ish-lyon.cnrs.fr/membre/219)
