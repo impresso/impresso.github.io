@@ -11,7 +11,6 @@ groups:
   - contact-point
   - collaborator
   - supervisor
-  - historian
 
 
 ---
