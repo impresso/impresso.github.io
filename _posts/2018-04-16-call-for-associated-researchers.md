@@ -1,5 +1,6 @@
 ---
 layout: post
+status: published
 title: Call for Associated Researchers
 lang: en
 date:   2018-04-16
@@ -22,7 +23,7 @@ The project is currently building up a corpus of Swiss, German, Luxembourgish, F
 
 In addition, associated researchers will have the opportunity to work together closely with our team of computational linguists based at the University of Zürich’s [Institute for Computational Linguistics](http://www.cl.uzh.ch/de.html) and the [DHLAB at the École polytechnique fédérale de Lausanne (EPFL)](https://dhlab.epfl.ch/) as well as a team of designers and developers based at the [Luxembourg Centre for Contemporary and Digital history (C2DH)](https://www.c2dh.uni.lu/).
 
-Associated researchers are invited to submit a short description of concrete ideas and research questions which can be addressed with the help of historical newspapers within the _impresso_ corpus. These projects can also complement ongoing research or take the form of graduate theses. An interest in (Swiss) economic history, gender, and media history as well as quantitative methods will be considered as an advantage but is not required.Limited funding is available for the participation in user workshops; salary costs can however not be covered. 
+Associated researchers are invited to submit a short description of concrete ideas and research questions which can be addressed with the help of historical newspapers within the _impresso_ corpus. These projects can also complement ongoing research or take the form of graduate theses. An interest in (Swiss) economic history, gender, and media history as well as quantitative methods will be considered as an advantage but is not required.Limited funding is available for the participation in user workshops; salary costs can however not be covered.
 
 Associated researchers will have access to
 
@@ -40,7 +41,7 @@ Associated researchers are expected to
 *  develop and pursue a historical research project based on the _impresso_ corpus, including complementary research to ongoing projects as well as MA and Phd theses
 *  provide feedback on tools and interfaces in development by the _impresso_ project
 
-General frame of participation 
+General frame of participation
 
 *  the time frame for associated research projects is from June 2018 to March 2020 depending on copyright restrictions, Associated Researchers may be requested to sign Non-Disclosure Agreements prior to gaining access to the corpus and other legal documents subject to the concrete nature of their research projects
 *  salary costs can not be covered

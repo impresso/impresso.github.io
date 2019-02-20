@@ -1,5 +1,6 @@
 ---
 layout: post
+status: published
 title: State of impresso newspaper collection - April 2018
 lang: en
 date:   2018-04-17
@@ -146,4 +147,3 @@ We are very grateful to all institutions who accepted to share their collections
 
 
 {% assign figure=page.figure[0] %}
-

@@ -1,0 +1,9 @@
+{% if site.data.i18n[key] %}
+  {% if site.data.i18n[key][page.lang] %}
+    <span>{{site.data.i18n[key][page.lang]}}</span>
+  {% else %}
+    <span>{{key}}</span>
+  {% endif %}
+{% else %}
+  <span>{{key}}</span>
+{% endif %}

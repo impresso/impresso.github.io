@@ -7,6 +7,7 @@ subheading: Research scientist, EPFL-DHLAB
 title: Maud Ehrmann, PhD
 lastname: Ehrmann
 firstname: Maud
+status: publish
 ---
 
 Maud holds a PhD in Computational Linguistics from the University of Paris 7 Denis Diderot and is a research scientist at the EPFL Digital Humanities Laboratory in Lausanne. Her research interests span natural language processing and digital humanities and include historical text annotation, historical data processing and representation, named entity recognition and multilingual linguistic resource creation.

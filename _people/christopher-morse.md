@@ -1,10 +1,11 @@
 ---
-category: team
-group: friend
+category: contributor
+group: contributor
 ordering: 04-morse
 picture: /assets/images/christopher-morse.jpg
 subheading: PhD student, C2DH
 title: Christopher Morse, PhD
+status: publish
 ---
 
 Christopher is a doctoral researcher in human-computer interaction at the University of Luxembourg C2DH. His work focuses on interaction design and user experience for institutions of cultural heritage with particular focus on virtual and augmented reality.
