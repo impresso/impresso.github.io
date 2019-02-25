@@ -4,6 +4,8 @@ base: http://impresso-project.ch
 title: impresso
 lang: en
 languages: ["en", "fr", "de"]
+timezone: Europe/Zurich
+
 
 publisher:
   name: impresso
