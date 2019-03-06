@@ -21,7 +21,7 @@ figure:
 
 
 ---
-Along the release of the first version of the impresso interface, we propose hereunder some context of a special feature: the topic modelling exploration page. In the topics segment of the interface, you will find a visualisation of the topics, separated according to the language on which they were computed as well as the list of topics and the articles that are most prominently connected to them. Here, we explain briefly how we prepared the topics and how the articles were indexed with these topics.
+Along the release of the first version of the impresso interface, we present a special feature: the topic modelling exploration page, with a visualisation of the topics. Here, we explain briefly how we prepared the topics and how the articles were indexed with these topics.
 
 <!-- more -->
 
