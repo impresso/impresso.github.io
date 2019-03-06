@@ -8,8 +8,10 @@ categories: news
 author: Julien Nguyễn Đăng
 thumbnail:
 ---
+
 Julien Nguyễn Đăng, intern to the _impresso_ project in the summer 2018, prepared a feedback on his experience, reflecting on the challenges it poses for research and teaching. 
-<!-- more —>
+
+<!-- more —> 
 
 This is particularly true when we look at how sociological perspectives can benefit history through the window opened by sociohistorical studies (1) or when we consider the effective use of quantitative approaches. 
 To a certain extent, this reflection on the alliance of disciplines possesses deep historiographical roots: as Marc Bloch pointed out in his Apologie pour l’histoire, “auxiliary sciences” such as archaeology and palaeography may be seen as a necessary part of the analytical and investigative process of historians (2). From this perspective, historians have a duty not only to collaborate with specialists in other fields and to set out their needs clearly, but also to learn how to use, interpret and explain the sometimes “magical” and “generous” tools and data that they receive.
