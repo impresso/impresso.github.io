@@ -148,27 +148,6 @@
     {% include footer.html %}
 
     <!-- scripts -->
-
-    <!-- mailchimp start -->
-    <script
-      type="text/javascript"
-      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
-      data-dojo-config="usePlainJson: true, isDebug: false">
-    </script>
-    <script>
-    function showChimpSignup() {
-       window.dojoRequire(
-         ["mojo/signup-forms/Loader"],
-         function(L) {
-           L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"8a51f0fb15d487266d8538fb5","lid":"cef2d41e90","uniqueMethods":true})
-         })
-
-        document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-        document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-    }
-    </script>
-    <!-- mailchimp end -->
-
     <script type='text/javascript' src='https://d3js.org/d3.v4.min.js'></script>
     <script>
       var _floating_line,
