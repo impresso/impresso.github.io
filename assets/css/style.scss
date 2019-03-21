@@ -578,3 +578,10 @@ body.below-floating {
     margin-left: $sidebar-width + 100;
   }
 }
+
+.button {
+  border:1px solid #444; padding: 0.4em 0.6em; background:#eee;
+}
+.button:hover {
+    background:#fe1;
+}
