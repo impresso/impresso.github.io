@@ -1,3 +1,9 @@
+@media(max-width:768px){
+  .ribbon-parent {
+    display: none;
+  }
+}
+
 .ribbon-parent {
   overflow: hidden;
   height: 1px;
