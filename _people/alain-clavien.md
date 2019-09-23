@@ -3,7 +3,7 @@ category: contributor
 group: contributor
 ordering: 04-clavien
 picture: /assets/images/alain-clavien.jpeg
-title: Alain CLavien
+title: Alain Clavien
 subheading: Professor of Contemporary History, Fribourg university
 status: publish
 ---
