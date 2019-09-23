@@ -105,6 +105,33 @@
       "items": []
     },
     {
+      "start_date": "2020-04-23",
+      "end_date": "2020-04-24",
+      "label": "Workshop: Digitised newspapers - a new Eldorado for historians ?",
+      "type": "milestone",
+      "content": "Duration: 2 days, Place: Lausanne.",
+      "permalink": "",
+      "items": []
+    },
+    {
+      "start_date": "2020-09-22",
+      "end_date": "2020-09-25",
+      "label": "CLEF 2020 Conference",
+      "type": "milestone",
+      "content": "Duration: 4 days, Place: Thessaloniki, Greece.",
+      "permalink": "",
+      "items": []
+    },
+    {
+      "start_date": "2020-09-07",
+      "end_date": "2020-10-02",
+      "label": "Dagstuhl-Seminar 20401",
+      "type": "milestone",
+      "content": "Computational Approaches for Digitized Historical Newspapers",
+      "permalink": "",
+      "items": []
+    },
+    {
       "start_date": "2017-07-05",
       "end_date": "2017-07-05",
       "type": "container",
