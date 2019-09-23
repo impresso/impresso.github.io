@@ -1,7 +1,7 @@
 ---
 category: contributor
 group: contributor
-ordering: 02-Mondoux
+ordering: 04-mondoux
 picture: /assets/images/oleksandra.jpg
 title: Oleksandra Kunovska Mondoux, PhD
 subheading: Main Representative at the UN Geneva

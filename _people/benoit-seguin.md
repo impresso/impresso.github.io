@@ -1,7 +1,7 @@
 ---
 category: contributor
-group: contributor
-ordering: 02-seguin
+group: associated-researcher
+ordering: 04-seguin
 picture: /assets/images/benoit-seguin.jpg
 title: Benoît Seguin
 subheading: Independent Engineer
