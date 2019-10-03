@@ -1,10 +1,10 @@
 ---
 category: contributor
-group: contributor
+group: associated-researcher
 ordering: 04-mondoux
 picture: /assets/images/oleksandra.jpg
 title: Oleksandra Kunovska Mondoux, PhD
-subheading: Main Representative at the UN Geneva
+subheading: World Federation of Ukrainian Women’s
 status: publish
 ---
 

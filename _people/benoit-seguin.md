@@ -1,6 +1,6 @@
 ---
 category: contributor
-group: associated-researcher
+group: contributor
 ordering: 04-seguin
 picture: /assets/images/benoit-seguin.jpg
 title: Benoît Seguin
