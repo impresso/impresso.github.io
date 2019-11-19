@@ -10,4 +10,4 @@ status: publish
 
 Thijs is a web designer and developer, specialising in user centered design, iterative prototyping, user interface and interaction. He has experience in and outside academia, working for a broad range of clients, from e-commerce, to enterprise and historical institutions.
 
-Within <i>impresso</i>, Thijs will work together with the other members across the board to develop and integrate different aspects of the interface and implement interactive visualisations of the historical material.
+Within <i>impresso</i>, Thijs was working together with the other members across the board to develop and integrate different aspects of the interface and implement interactive visualisations of the historical material.

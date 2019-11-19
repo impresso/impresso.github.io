@@ -12,6 +12,6 @@ Lars Wieneke holds a PhD in Engineering from the Bauhaus-Universität Weimar, Ge
 
 He is also co-head of the Europeana User-Generated Content Thematic Task Force and co-head of the Working Group on Visualisation and Interactivity in DARIAH.
 
-Within *impresso* , Lars is supervising interface design and development as well as visualisation.
+Within *impresso*, Lars is supervising interface design and development as well as visualisation.
 
 [C2DH profile](https://www.c2dh.uni.lu/people/lars-wieneke)
