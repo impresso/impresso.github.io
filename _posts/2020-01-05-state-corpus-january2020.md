@@ -12,6 +12,14 @@ figure:
 
 ---
 
+On the occasion of the first public release of the *impresso* interface, we wish to take stock of our newspaper corpus. More than a year has passed since the last corpus update...
+
+<!-- more -->
+
+{% assign figure=page.figure[0] %}
+{% include figure.html %}
+
+
 On the occasion of the first public release of the *impresso* interface, we wish to take stock of our newspaper corpus. More than a year has passed since the [last corpus update](https://impresso-project.ch/news/2018/04/17/state-collection-april18.html) and a lot has happened in *impresso* ever since!
 
 
