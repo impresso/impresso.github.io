@@ -16,7 +16,7 @@ We use the following tools for all the preprocessing steps and the computation o
  - [MALLET](http://mallet.cs.umass.edu/) for topic modeling
 
 ## Resources used:
-  - [Morphalu](http://www.cnrtl.fr/lexiques/morphalou/) for additional lemma information for fr
+  - [Morphalou](http://www.cnrtl.fr/lexiques/morphalou/) for additional lemma information for fr
  
 ## Data preprocessing
 Before applying topic modeling to our data, we carry out some preprocessing steps. The include linguistic preprocessing and further measures in order to reduce the text input size. This guarantees that we do not run into memory issues.
