@@ -15,7 +15,7 @@ figure:
 On the occasion of the first public release of the *impresso* interface, we wish to take stock of our newspaper corpus. More than a year has passed since the [last corpus update](https://impresso-project.ch/news/2018/04/17/state-collection-april18.html) and a lot has happened in *impresso* ever since!
 
 
-**Impresso in numbers**
+## *Impresso* in numbers
 
 So far our data acquisition strategy has been focussing on Swiss and Luxembourgish newspapers and, as of January 2020, the *impresso* corpus consists of **76 newspapers** (50 Swiss and 26 Luxembourgish), whose material breaks down as follow:
 - number of newspaper issues: 604,769
@@ -26,12 +26,9 @@ So far our data acquisition strategy has been focussing on Swiss and Luxembourgi
 
 A word about terminology: *content item* is the term we use to refer to newspaper contents *below* the page level. Typically, pages image are segmented and classified into finer-grained content units such as articles, advertisements, images, tables, weather forecasts, obituaries, etc. -- this is precisely what is referred to by *content items*. This segmentation process is also known as [document layout analysis](https://impresso-project.ch/glossary/olr/).
 
-
-[At the end of this post](#Corpus-statistics) you can find a table with the same details but at the level of individual newspapers.
-
 *Impresso* newspaper digitized materials were provided by our associated partners, namely: the Bibliothèque nationale de Luxembourg, the Swiss National Library, the Valais Media Library and State Archives, and the newspapers *Neue Zürcher Zeitung* and *Le Temps* (Ringier group). Further Swiss institutions also participates to imprsso endeavour with their sources, that is to say: the newspapers *La Liberté*, *Freiburger Nachrichten*, *L'Essor*, *Le Confédéré*, *Bote vom Untersee*, the group *ArcInfo* in collaboration of the Bibliothèque de la Chaux-de-Fonds, the Bibliothèque cantonale et universitaire de Fribourg, and the Swiss Social Archives in collaboration with UNIA. Physical acquisition of the material would not have been possible without the contribution of RERO, the Library Network of Western Switzerland. We take the opportunity here to thank all these partners for their support and contributions.
 
-**Open data in impresso**
+## Open data in *impresso*
 
 While in *impresso* we strive for open data, impresso titles are subject to **different right statement regimens** depending on their copyright situations.
 
@@ -48,7 +45,7 @@ The two plots below show the distribution of newspaper issues over time (plot 1:
 
 ![](https://i.imgur.com/gcdUmv2.png)
 
-**What's coming next?**
+## What's coming next?
 
 Our corpus is continously evolving and growing, and here come the main perspectives.
 
@@ -56,7 +53,7 @@ Our corpus is continously evolving and growing, and here come the main perspecti
 
 *On the long term*, we aim at expanding the *impresso* corpus beyond the Swiss and Luxembourgish borders. To this end, we are actively collaborating with further national libraries and partners and, depending on time resources, more material in English and French will join the *impresso* corpus.
 
-**Corpus statistics**
+## Corpus statistics
 
 The table below lists aggregate statistics about the corpus at the level of newspaper title. If you want to further explore these contents, simply head to the [*Newspapers* section](https://impresso-project.ch/app/newspapers/) of the *impresso* interface and start browsing.
 
@@ -139,4 +136,4 @@ The table below lists aggregate statistics about the corpus at the level of news
 | waechtersauer  | Der Wächter an der Sauer                                                     |       37123 |       8796 |    14624140 |           8 |
 | waeschfra      | D'Wäschfra                                                                   |       19953 |       2658 |     2189278 |        5366 |
 
-(add here the link to the CSV file)
+[Here](/assets/documents/newspaper_stats_publ-release.csv) you can download the CSV data that were used to produce the table above.
