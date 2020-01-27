@@ -45,7 +45,7 @@
     {
       "start_date": "2018-07-05",
       "end_date": "2018-07-06",
-      "label": "Second Workshop (Laurel): Epistemology and Early Prototypes 1",
+      "label": "Second Workshop (Laurel): Epistemology and Early Prototypes",
       "type": "milestone",
       "content": "During this second workshop we will gather feedback on early prototypes and raise epistemological concerns related to the use of digital tools in history. Duration: 1.5 day, Place: TBD, Organisation: infoclio, UNIL.",
       "permalink": "",
@@ -58,6 +58,17 @@
         }
       ]
     },
+    
+        {
+      "start_date": "2018-07-11",
+      "end_date": "2018-07-11",
+      "label": "Additional Workshop ('Lavender'): Co-Design, Integrating Digitized Press in Historians’ Workflow",
+      "type": "milestone",
+      "content": "During this extra workshop we will present the first syntheses (white and green papers) of requirements gathered during the previous workshop, and collaboratively work on historical research scenarios to further understand the needs and inform our developements. Duration: 1 day, Place: Basel (CH), Organisation: C2DH, DHLAB, UZH.",
+      "permalink": "",
+      "items": []
+    },
+    
     {
       "start_date": "2018-12-13",
       "end_date": "2018-12-13",
@@ -79,7 +90,7 @@
      {
       "start_date": "2020-03-15",
       "end_date": "2020-03-16",
-      "label": "Sixth Workshop: Final Evaluation of NLP systems and Interface",
+      "label": "Final Evaluation of NLP systems and Interface",
       "type": "milestone",
       "content": "During this sixth workshop project partners will do the final evaluation of tools and interface, to ensure implementation of historical requirements. Duration: 1 day, Place: TBD, Organisation: infoclio, UNIL.",
       "permalink": "",
@@ -89,7 +100,7 @@
     {
       "start_date": "2020-04-23",
       "end_date": "2020-04-24",
-      "label": "Workshop: Digitised newspapers - a new Eldorado for historians?",
+      "label": "Fifth Workshop: Digitised newspapers - a new Eldorado for historians?",
       "type": "milestone",
       "content": "Duration: 2 days, Place: Lausanne.",
       "permalink": "",
