@@ -77,15 +77,6 @@
       "items": []
     },
      {
-      "start_date": "2019-10-15",
-      "end_date": "2019-10-17",
-      "label": "Fifth Workshop: Epitemology and Prototypes 2",
-      "type": "milestone",
-      "content": "We will have our third consortium meeting and organize an open workshop about the evaluation of NLP tools and interface prototypes, and about epistemological and methodological aspects. Duration: 2 days, Place: Zurich or TBD, Organisation: UNIL, infoclio.",
-      "permalink": "",
-      "items": []
-    },
-     {
       "start_date": "2020-03-15",
       "end_date": "2020-03-16",
       "label": "Sixth Workshop: Final Evaluation of NLP systems and Interface",
@@ -96,18 +87,9 @@
     },
 
     {
-      "start_date": "2020-06-15",
-      "end_date": "2020-06-16",
-      "label": "Seventh Workshop: Open Event on Enrichment and Exploration of Digital Historical Newspapers",
-      "type": "milestone",
-      "content": "This last workshop will be held at a DH conference and includes an open call to the community about the enrichment and exploration of digital historical newspapers. Duration: 1 day, Place: TBD, Organisation: C2DH.",
-      "permalink": "",
-      "items": []
-    },
-    {
       "start_date": "2020-04-23",
       "end_date": "2020-04-24",
-      "label": "Workshop: Digitised newspapers - a new Eldorado for historians ?",
+      "label": "Workshop: Digitised newspapers - a new Eldorado for historians?",
       "type": "milestone",
       "content": "Duration: 2 days, Place: Lausanne.",
       "permalink": "",
