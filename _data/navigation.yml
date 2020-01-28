@@ -18,6 +18,8 @@ languages:
           url: /project/design/
         - title: "Historical Research"
           url: /project/history/
+        - title: "Publications"
+          url: /project/publications/
     - title: "Consortium"
       url: "/consortium/"
       links:
@@ -38,13 +40,10 @@ languages:
       #     url: /consortium/#associated-partners
         # - title: "Friends"
         #   url: /consortium/#friends
-    - title: "Publications"
-      url: "/publications/"
-      links:
+
         # - title: "Glossary"
         #   url: /documentation/glossary/
-        - title: "Publications"
-          url: /publications/
+
     # - title: "Media Coverage"
       # url: "/media-coverage/"
 

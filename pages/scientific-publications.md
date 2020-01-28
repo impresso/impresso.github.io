@@ -1,6 +1,6 @@
 ---
 title: "Scientific Publications"
-permalink: publications
+permalink: /project/publications/
 nolang: /project/publications/
 lang: en
 parenturl: /project/
