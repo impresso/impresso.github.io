@@ -58,7 +58,7 @@
         }
       ]
     },
-    
+
         {
       "start_date": "2018-07-11",
       "end_date": "2018-07-11",
@@ -68,7 +68,7 @@
       "permalink": "",
       "items": []
     },
-    
+
     {
       "start_date": "2018-12-13",
       "end_date": "2018-12-13",
@@ -104,6 +104,15 @@
       "type": "milestone",
       "content": "Duration: 2 days, Place: Lausanne.",
       "permalink": "",
+      "items": []
+    },
+    {
+      "start_date": "2020-05-19",
+      "end_date": "2020-05-19",
+      "label": "Forum Z",
+      "type": "milestone",
+      "content": "Duration: 1 day, Place: Luxembourg.",
+      "permalink": "https://www.c2dh.uni.lu/forum-z",
       "items": []
     },
     {
