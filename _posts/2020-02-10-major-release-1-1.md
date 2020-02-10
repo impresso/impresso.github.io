@@ -6,12 +6,12 @@ lang: en
 authors:
   - marten-during
 date:   2020-02-10
-categories: news
+categories: draft
 author:
 thumbnail:
 ---
 
-We are thrilled to announce a major release of the impresso interface for the exploration of historical newspapers.
+We are thrilled to announce a major release of the _impresso_ interface for the exploration of historical newspapers.
 
 <!-- more -->
 
