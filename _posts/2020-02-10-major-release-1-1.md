@@ -1,6 +1,6 @@
 ---
 layout: post
-status: published
+status: private
 title: Public Release 1.1
 lang: en
 authors:
