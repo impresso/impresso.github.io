@@ -5,7 +5,7 @@ ordering: 02-beek
 picture: /assets/images/thijs-van-beek.jpg
 subheading: Developer, C2DH
 title: Thijs van Beek
-status: publish
+status: draft
 ---
 
 Thijs is a web designer and developer, specialising in user centered design, iterative prototyping, user interface and interaction. He has experience in and outside academia, working for a broad range of clients, from e-commerce, to enterprise and historical institutions.
