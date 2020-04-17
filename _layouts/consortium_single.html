@@ -34,11 +34,15 @@ layout: default
       </div>
       {% endfor %}
 
+      {% if page.nolang == '/consortium/people/' %}
+
       <div class="respect-margin">
         {% for person in people_in_category %}
           {% include person.html %}
         {% endfor %}
       </div>
+
+      {% endif %}
 
 
 
