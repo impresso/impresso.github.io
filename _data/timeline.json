@@ -103,7 +103,7 @@
       "label": "Fifth Workshop: Digitised newspapers - a new Eldorado for historians?",
       "type": "milestone",
       "content": "Duration: 2 days, Place: Lausanne.",
-      "permalink": "",
+      "permalink": "https://impresso.github.io/eldorado/",
       "items": []
     },
     {
@@ -118,19 +118,19 @@
     {
       "start_date": "2020-09-22",
       "end_date": "2020-09-25",
-      "label": "CLEF 2020 Conference",
+      "label": "HIPE Shared Task @ CLEF 2020",
       "type": "milestone",
       "content": "Duration: 4 days, Place: Thessaloniki, Greece.",
-      "permalink": "",
+      "permalink": "https://impresso.github.io/CLEF-HIPE-2020/",
       "items": []
     },
     {
-      "start_date": "2020-09-07",
+      "start_date": "2020-09-27",
       "end_date": "2020-10-02",
       "label": "Dagstuhl-Seminar 20401",
       "type": "milestone",
       "content": "Computational Approaches for Digitized Historical Newspapers",
-      "permalink": "",
+      "permalink": "https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=20401",
       "items": []
     },
     {
