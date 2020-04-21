@@ -13,8 +13,10 @@ Here you will find the main scientific output of the project so far. These inclu
 ### Publications
 
 **2020**
-Ehrmann, Maud,  Matteo Romanello, Stefan Bircher and Simon Clematide. 2019.‘Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’. In *Proceedings of 42nd European Conference on IR Research*, ECIR 2020 [[publisher version](http://dx.doi.org/10.1007/978-3-030-45442-5_68)], [[postprint](https://infoscience.epfl.ch/record/277015?ln=en)], [[zenodo record](https://zenodo.org/record/3752679)], [[slides](https://zenodo.org/record/3754236)].
 
+Maud Ehrmann, Matteo Romanello, Simon Clematide, Phillip Benjamin Ströbel, Raphaël Barman. 2020. Language Resources for Historical Newspapers: the Impresso Collection. In Proceedings of the 12th International Conference on Language Resources and Evaluation ([LREC 2020](https://lrec2020.lrec-conf.org/en/)) (to appear).
+
+Ehrmann, Maud,  Matteo Romanello, Stefan Bircher and Simon Clematide. 2019.‘Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’. In *Proceedings of 42nd European Conference on IR Research*, ECIR 2020, [publisher version](http://dx.doi.org/10.1007/978-3-030-45442-5_68), [postprint](https://infoscience.epfl.ch/record/277015?ln=en), [zenodo record](https://zenodo.org/record/3752679), [slides](https://zenodo.org/record/3754236).
 
 
 **2019**
