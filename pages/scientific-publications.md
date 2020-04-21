@@ -12,9 +12,12 @@ Here you will find the main scientific output of the project so far. These inclu
 
 ### Publications
 
-**2019**
+**2020**
+Ehrmann, Maud,  Matteo Romanello, Stefan Bircher and Simon Clematide. 2019.‘Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’. In *Proceedings of 42nd European Conference on IR Research*, ECIR 2020 [[publisher version](http://dx.doi.org/10.1007/978-3-030-45442-5_68)], [[postprint](https://infoscience.epfl.ch/record/277015?ln=en)], [[zenodo record](https://zenodo.org/record/3752679)], [[slides](https://zenodo.org/record/3754236)].
 
-Ehrmann, Maud,  Matteo Romanello, Stefan Bircher and Simon Clematide. 2019.‘Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’. In *Proceedings of 42nd European Conference on IR Research*, ECIR 2020 *(to appear)*.
+
+
+**2019**
 
 Ehrmann, Maud, Estelle Bunout and Marten Düring. 2019. ‘Historical Newspaper User Interfaces: A Review’. In *[WLIC proceedings](http://library.ifla.org/2578/)*. Athens, Greece: IFLA.
 *Related dataset*: ‘Survey of Digitized Newspaper Interfaces’, available on [Zenodo](https://doi.org/10.5281/zenodo.3369875).
