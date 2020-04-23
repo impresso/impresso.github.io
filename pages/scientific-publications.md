@@ -48,8 +48,11 @@ Ehrmann, Maud, Estelle Bunout and Marten Düring. 2019. ‘Survey of Digitized N
 
 Ehrmann, Maud, Matteo Romanello and Simon Clematide. 2020. [‘CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’](https://impresso.github.io/CLEF-HIPE-2020/), Evaluation Lab of CLEF 2020.
 
-
 ### Presentations
+
+**2020**
+
+Ehrmann, Maud,  Matteo Romanello, Stefan Bircher and Simon Clematide. 2019. [‘Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’](http://dx.doi.org/10.1007/978-3-030-45442-5_68). In Jose J. et al. (eds) *Advances in Information Retrieval*. ECIR 2020. Lecture Notes in Computer Science, vol 12036, pp. 524–532. Springer.
 
 **2019**
 
