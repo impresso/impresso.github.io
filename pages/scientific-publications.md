@@ -52,7 +52,7 @@ Ehrmann, Maud, Matteo Romanello and Simon Clematide. 2020. [‘CLEF 2020 HIPE Sh
 
 **2020**
 
-Ehrmann, Maud,  Matteo Romanello, Stefan Bircher and Simon Clematide. 2019. [‘Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’](http://dx.doi.org/10.1007/978-3-030-45442-5_68). In Jose J. et al. (eds) *Advances in Information Retrieval*. ECIR 2020. Lecture Notes in Computer Science, vol 12036, pp. 524–532. Springer.
+Ehrmann, Maud,  Matteo Romanello, Stefan Bircher and Simon Clematide. 2019. [‘Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’](https://doi.org/10.5281/zenodo.3754235). Presented at European Conference for Information Retrieval (ECIR2020), Lisbon, April 16.
 
 **2019**
 
