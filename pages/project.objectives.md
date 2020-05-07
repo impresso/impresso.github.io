@@ -1,11 +1,11 @@
 ---
-title: "Reading yesterday's news in the digital age"
-permalink: /project/overview/
-nolang: /project/overview/
+title: "Project objectives"
+permalink: /project/objectives/
+nolang: /project/objectives/
 lang: en
 parenturl: /project/
 layout: collage
-group: project.overview
+group: project.objectives
 ---
 <!--
   This page intentionally left blank.

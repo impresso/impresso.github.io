@@ -2,7 +2,7 @@
 title: "Primary sources"
 type: section
 lang: en
-group: project.overview
+group: project.objectives
 ---
 
 Our efforts will primarily focus on the digital archives of French and German newspapers in the 19th and (early) 20th centuries provided by our associated partners.

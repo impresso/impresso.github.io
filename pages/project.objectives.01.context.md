@@ -2,7 +2,7 @@
 title: "Context"
 type: section
 lang: en
-group: project.overview
+group: project.objectives
 ---
 
 Historical newspapers are mirrors of past societies. Published over centuries on a regular basis, they record wars and minor events, report on international, national and local matters, and document day-to-day life. In a nutshell, they keep track of history at every level, and the wealth of information they offer as well as their inherent contextualisation makes them invaluable primary sources for historians.

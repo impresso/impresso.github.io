@@ -2,10 +2,10 @@
 title: "Objectives"
 type: section
 lang: en
-group: project.overview
+group: project.objectives
 ---
 
-*impresso* aims to <strong>open up new ways of engaging with digital historical newspaper content and pave the way for new approaches to historical questions</strong>. 
+*impresso* aims to <strong>open up new ways of engaging with digital historical newspaper content and pave the way for new approaches to historical questions</strong>.
 
 <!-- more -->
 
