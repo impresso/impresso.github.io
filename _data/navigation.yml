@@ -10,8 +10,10 @@ languages:
     - title: "Project"
       url: /project/
       links:
-        - title: "Overview"
-          url: /project/overview/
+        # - title: "Overview"
+        #   url: /project/overview/
+        - title: "Objectives"
+          url: /project/objectives/
         - title: "Computational Linguistics"
           url: /project/linguistics/
         - title: "Design"
