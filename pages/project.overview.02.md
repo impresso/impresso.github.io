@@ -1,17 +1,17 @@
 ---
-title: "Impresso Clip Title"
+title: "RESOURCES
 type: section
 lang: en
 group: project.overview
 ---
 
-RESOURCES
+To help you make the most of the available collections of digitised newspapers, you are invited to check out some pedagogical material the impresso project has produced.
 
 <!-- more -->
 
 
 
-To help you make the most of the available collections of digitised newspapers, you are invited to check out some pedagogical material the impresso project has produced:
+
 
 ### RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age.
 
