@@ -25,8 +25,8 @@ The Swiss-Luxembourgish project impresso. Media Monitoring of the Past thinks th
 
 
 
-<div class="video-container respect-margin">
-  <iframe src="https://www.youtube.com/embed/2njluhEd3pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class=‘video-container respect-margin’>
+  <iframe src="https://www.youtube-nocookie.com/embed/2njluhEd3pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
