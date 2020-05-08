@@ -22,9 +22,9 @@ What can we do with yesterday’s news? Historical newspapers are mirrors of pas
 In recent years, newspapers were mass-digitised and are now readily available for consultation online. Keyword search remains the most popular way to find interesting articles - but is there a better way?
 
 The Swiss-Luxembourgish project impresso. Media Monitoring of the Past thinks there is and uses text mining tools to extract, process, link and visualise information from Luxembourgish and Swiss newspapers. This allows us for example to track the mentions of specific persons and places over time, to explore thematics such as sports or culture and to detect reused text passages across newspapers. To access and explore all this newly generated data we developed a new user interface and a range of didactic materials which help to foster a better understanding of the advantages and challenges of digitisation.
-
-
-
+ 
+ 
+ 
 <div class=‘video-container respect-margin’>
   <iframe src="https://www.youtube-nocookie.com/embed/2njluhEd3pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
