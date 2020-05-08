@@ -1,5 +1,5 @@
 ---
-title: "RESOURCES
+title: "RESOURCES"
 type: section
 lang: en
 group: project.overview
