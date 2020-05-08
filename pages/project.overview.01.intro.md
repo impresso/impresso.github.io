@@ -11,7 +11,7 @@ Welcome to the first online edition of the Forum Z, dedicated to text mining of 
 <!-- more -->
 
 <figure class='respect-margin'>
-      <img class='cover' src='{{ site.url }}/assets/images/dauville_baigneuses.jpg'>
+      <img class='cover' src='{{ site.url }}/assets/images/forum_z_impresso_web_online_smaller.png'>
       <figcaption class="wrapper">
           <p></p>
       </figcaption>
@@ -22,6 +22,11 @@ What can we do with yesterday’s news? Historical newspapers are mirrors of pas
 In recent years, newspapers were mass-digitised and are now readily available for consultation online. Keyword search remains the most popular way to find interesting articles - but is there a better way?
 
 The Swiss-Luxembourgish project impresso. Media Monitoring of the Past thinks there is and uses text mining tools to extract, process, link and visualise information from Luxembourgish and Swiss newspapers. This allows us for example to track the mentions of specific persons and places over time, to explore thematics such as sports or culture and to detect reused text passages across newspapers. To access and explore all this newly generated data we developed a new user interface and a range of didactic materials which help to foster a better understanding of the advantages and challenges of digitisation.
+
+<div class="video-container respect-margin">
+  <iframe src="https://www.youtube.com/embed/2njluhEd3pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 ## PROGRAM
 
@@ -45,29 +50,4 @@ Interactive workshop with step-by-step instructions on how to become an impresso
 
 **17:00 - 17.30 Introduction to the Ranke2 learning platform**
 Interactive workshop which introduces researchers and teachers to the digital learning platform Ranke2 and it’s lesson on historical newspapers.
-
-## RESOURCES
-
-To help you make the most of the available collections of digitised newspapers, you are invited to check out some pedagogical material the impresso project has produced:
-
-### RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age.
-
-<figure class='respect-margin'>
-      <img class='cover' src='{{ site.url }}/assets/images/FZ_ranke2.png'>
-      <figcaption class="wrapper">
-          <p></p>
-      </figcaption>
-    </figure>
-
-A lesson about how digitised newspapers that are available online are changing the way historians use newspapers as historical sources, and ask new skills for applying source criticism. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
-
-### PARTHENOS MODULE - Collections of digitised newspapers as historical sources
-<figure class='respect-margin'>
-      <img class='cover' src='{{ site.url }}/assets/images/FZ_parthenos.png'>
-      <figcaption class="wrapper">
-          <p></p>
-      </figcaption>
-    </figure>
-
-A training module destined to offer an academic perspective on digitised newspapers: what changes have been brought about by digitisation, how do they affect the practice of research, and what are the potentialities and current practices when it comes to using historical newspapers for research? More [here](https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/)
 
