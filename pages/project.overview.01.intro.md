@@ -30,6 +30,26 @@ Learn more about the project with this clip:
 <iframe src="https://www.youtube-nocookie.com/embed/2njluhEd3pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+## Registration
+
+Registrer via [eventbrite](https://www.eventbrite.fr/e/forum-z-online-reading-yesterdays-news-in-the-digital-age-registration-104615467680?aff=)
+
+<div id="eventbrite-widget-container-104615467680"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '104615467680',
+        iframeContainerId: 'eventbrite-widget-container-104615467680',
+        iframeContainerHeight: 525,
+    });
+</script>
+
 ## PROGRAM
 
 To better explain how all this works, this Forum Z combines presentations with hands-on testing of the interface and accompanying didactic materials.
