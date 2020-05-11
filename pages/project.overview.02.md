@@ -13,7 +13,7 @@ To help you make the most of the available collections of digitised newspapers, 
 ### IMPRESSO Challenges
 
 <figure class='respect-margin'>
-      <img class='cover' src='{{ site.url }}/assets/documents/_impresso-challenges-1.3.pdf'>
+      <img class='cover' src='{{ site.url }}/assets/images/challenges-screenshot.defe3ef0.png'>
       <figcaption class="wrapper">
           <p></p>
       </figcaption>
@@ -21,7 +21,7 @@ To help you make the most of the available collections of digitised newspapers, 
 
 How to explore the newspapers with persons or locations? What are topics good for? What elements can be compared?
 
-Get a better understanding of this interfaces’ features and how they can interact with 3 challenges, starting with an initiation and leading to an expert level use of the interface.
+Get a better understanding of this interfaces’ features and how they can interact with [3 challenges](src='{{ site.url }}//assets/impresso-challenges-1.2.3.pdf), starting with an initiation and leading to an expert level use of the interface.
 
 ### RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age.
 
