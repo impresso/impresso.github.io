@@ -57,7 +57,7 @@ To better explain how all this works, this Forum Z combines presentations with h
 Here is what to expect:
 
 + An overview of the impresso user [interface](https://impresso-project.ch/app/)
-+ Advanced user workshops based on [impresso challenges](assets/documents/_impresso-challenges-1.3.pdf)
++ Advanced user workshops based on [impresso challenges](https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf)
 + An introduction to the [Ranke.2](https://ranke2.uni.lu/u/exploring-historical-newspapers/) project
 
 **14.00 - 15.00 Introducing the impresso interface for the exploration of historical newspapers**
