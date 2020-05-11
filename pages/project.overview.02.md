@@ -1,46 +1,28 @@
 ---
-title: "RESOURCES"
+title: "Text mining 200 years of historical newspapers - online event."
 type: section
 lang: en
 group: project.overview
+layout: page
+permalink: /project/overview/registration
 ---
 
-To help you make the most of the available collections of digitised newspapers, you are invited to check out some pedagogical material the impresso project has produced.
+## Registration
 
-<!-- more -->
+Registrer via [eventbrite](https://www.eventbrite.fr/e/forum-z-online-reading-yesterdays-news-in-the-digital-age-registration-104615467680?aff=)
 
+<div id="eventbrite-widget-container-104615467680"></div>
 
-### IMPRESSO Challenges
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-<figure class='respect-margin'>
-      <img class='cover' src='{{ site.url }}/assets/images/challenges-screenshot.defe3ef0.png'>
-      <figcaption class="wrapper">
-          <p></p>
-      </figcaption>
-    </figure>
-
-How to explore the newspapers with persons or locations? What are topics good for? What elements can be compared?
-
-Get a better understanding of this interfaces’ features and how they can interact with [3 challenges](https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf), starting with an initiation and leading to an expert level use of the interface.
-
-### RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age.
-
-<figure class='respect-margin'>
-      <img class='cover' src='{{ site.url }}/assets/images/FZ_ranke2.png'>
-      <figcaption class="wrapper">
-          <p></p>
-      </figcaption>
-    </figure>
-
-A lesson about how digitised newspapers that are available online are changing the way historians use newspapers as historical sources, and ask new skills for applying source criticism. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
-
-### PARTHENOS MODULE - Collections of digitised newspapers as historical sources
-<figure class='respect-margin'>
-      <img class='cover' src='{{ site.url }}/assets/images/FZ_parthenos.png'>
-      <figcaption class="wrapper">
-          <p></p>
-      </figcaption>
-    </figure>
-
-A training module destined to offer an academic perspective on digitised newspapers: what changes have been brought about by digitisation, how do they affect the practice of research, and what are the potentialities and current practices when it comes to using historical newspapers for research? More [here](https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/)
-
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '104615467680',
+        iframeContainerId: 'eventbrite-widget-container-104615467680',
+        iframeContainerHeight: 525,
+    });
+</script>

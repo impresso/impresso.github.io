@@ -10,8 +10,6 @@ languages:
     - title: "Project"
       url: /project/
       links:
-        # - title: "Overview"
-        #   url: /project/overview/
         - title: "Objectives"
           url: /project/objectives/
         - title: "Computational Linguistics"
@@ -22,6 +20,17 @@ languages:
           url: /project/history/
         - title: "Publications"
           url: /project/publications/
+    - title: "Forum Z"
+      url: /overview/
+      links:
+        - title: "Intro"
+          url: /project/overview/intro
+        - title: "Registration"
+          url: /project/overview/registration
+        - title: "Program"
+          url: /project/overview/program
+        - title: "Ressources"
+          url: /project/overview/ressources
     - title: "Consortium"
       url: "/consortium/"
       links:
