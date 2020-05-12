@@ -5,19 +5,17 @@ lang: en
 group: project.overview
 layout: page
 permalink: /project/overview/intro
+figure:
+  - src: forum_z_impresso_web_online_smaller.png
+    caption:
 ---
 
 Welcome to the first online edition of the Forum Z, dedicated to text mining of historical newspapers, in Luxembourg and Switzerland. Below, you will find a short introduction to the event as well as some resources to help you register to that event.  
 
-
 <!-- more -->
 
-<figure class='respect-margin'>
-      <img class='cover' src='{{ site.url }}/assets/images/forum_z_impresso_web_online_smaller.png'>
-      <figcaption class="wrapper">
-          <p></p>
-      </figcaption>
-    </figure>
+{% assign figure=page.figure[0] %}
+{% include figure.html %}
 
 What can we do with yesterday’s news? Historical newspapers are mirrors of past societies. Published over centuries on a regular basis, they record wars and minor events, report on international, national and local matters, and document day-to-day life. They reflect the political, social and economic contexts in which they were produced and help us understand how people in the past experienced their time.
 

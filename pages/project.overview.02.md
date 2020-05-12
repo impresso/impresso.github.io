@@ -5,6 +5,9 @@ lang: en
 group: project.overview
 layout: page
 permalink: /project/overview/registration
+figure:
+  - src: forum_z_impresso_web_online_smaller.png
+    caption:
 ---
 
 ## Registration
