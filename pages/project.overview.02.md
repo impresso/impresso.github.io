@@ -1,5 +1,5 @@
 ---
-title: "Text mining 200 years of historical newspapers - online event."
+title: "Registration"
 type: section
 lang: en
 group: project.overview
@@ -10,7 +10,6 @@ figure:
     caption:
 ---
 
-## Registration
 
 Registrer via [eventbrite](https://www.eventbrite.fr/e/forum-z-online-reading-yesterdays-news-in-the-digital-age-registration-104615467680?aff=)
 
