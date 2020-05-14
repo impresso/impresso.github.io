@@ -1,5 +1,5 @@
 ---
-title: "Text mining 200 years of historical newspapers - online event."
+title: "PROGRAM"
 type: section
 lang: en
 group: project.overview
@@ -9,10 +9,6 @@ figure:
   - src: forum_z_impresso_web_online_smaller.png
     caption:
 ---
-
-## PROGRAM
-
-To better explain how all this works, this Forum Z combines presentations with hands-on testing of the interface and accompanying didactic materials.
 
 Here is what to expect:
 
