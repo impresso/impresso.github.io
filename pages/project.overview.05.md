@@ -1,6 +1,6 @@
 ---
 title: "Events"
-type: section
+type: draft
 lang: en
 group: project.overview
 layout: page
@@ -10,7 +10,6 @@ figure:
     caption:
 ---
 
-To help you make the most of the available collections of digitised newspapers, you are invited to check out some pedagogical material the impresso project has produced.
 
 <!-- more -->
 
