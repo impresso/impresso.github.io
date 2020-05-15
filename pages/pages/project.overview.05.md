@@ -26,7 +26,7 @@ In the final year of the project, the impresso team has planned out several even
 
 From manual, on-site exploration of microfilm or paper collections to online keyword search over millions of OCRized page, access to digitized newspapers has changed significantly. Coupled with automatic enrichement of sources via text and image processing, this represents a whole world of new possibilities. An Eldorado? Despite undeniable merits, the digital transformation and the new affordance of historical newspapers also brings some drawbacks and possible pitfalls which need to be carefully assessed. The Eldorado workshop, supported by the impresso project, will bring together a group of historians, librarians, computer scientists and designers to discuss how digitisation is changing historical research practices.
 
-More information[here](https://impresso.github.io/eldorado/)
+More information [here](https://impresso.github.io/eldorado/)
 
 ### HIPE (Identifying Historical People, Places and other Entities)
 
