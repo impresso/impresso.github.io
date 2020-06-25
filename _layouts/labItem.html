@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+
+<div class="page labs">
+
+  <div class="wrapper">
+    <h2 class="page-title"><a href='/labs'>Labs</a></h2>
+
+
+    {% assign paragraphs = page.content | split: site.excerpt_separator %}
+
+    <div class="headline">
+      <h1><span>{{page.title}}</span></h1>
+    </div>
+
+    <blockquote class='summary respect-margin'>{{paragraphs[0]}}</blockquote>
+
+    {% assign remaining_paragraphs = paragraphs | shift %}
+
+    <div class='contents'>
+      {% for paragraph in remaining_paragraphs %}{{paragraph}}  {% endfor %}
+    </div>
+
+    <br/>
+    <br/>
+    <h3><span>You may also be interested in the following terms :</span></h3>
+    <blockquote class='summary respect-margin'></blockquote>
+    {% for labItem in site.labs %}
+    {% include labItem.html %}
+    {% endfor %}
+
+  </div>
+</div>
