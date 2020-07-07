@@ -8,7 +8,6 @@ layout: default
   <div class="wrapper">
     <h2 class="page-title"><a href='/labs'>Labs</a></h2>
 
-
     {% assign paragraphs = page.content | split: site.excerpt_separator %}
 
     <div class="headline">
@@ -25,9 +24,10 @@ layout: default
 
     <br/>
     <br/>
-    <h3><span>You may also be interested in the following terms :</span></h3>
+    <h3 class="pt-4 respect-margin" style="border-top: 1px solid #51484d;"><span>You may also be interested in the following projects :</span></h3>
     <blockquote class='summary respect-margin'></blockquote>
-    {% for labItem in site.labs %}
+    {% assign labs = site.labs | where_exp:"labItem","labItem.url != page.url" %}
+    {% for labItem in labs limit:6 %}
     {% include labItem.html %}
     {% endfor %}
 
