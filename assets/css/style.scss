@@ -460,6 +460,32 @@ figcaption{
   margin-top: 1em;
   object-fit: cover;
 }
+
+.item .labItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  > div {
+    width: 100%;
+  }
+
+  a.labThumb {
+    background-color: transparent;
+    padding: 0;
+    display: block;
+    img {
+      object-fit: contain;
+    }
+  }
+
+  h2 {
+    margin: auto;
+  }
+
+}
+
+
 @media(min-width:992px){
   .item .blogThumb {
   	height: 18em;
@@ -468,6 +494,19 @@ figcaption{
   }
   .item .blogExcerpt {
   	width: 35%;
+  }
+
+  .item .labItem {
+    > div.left {
+      width: 60%;
+    }
+    > div.right {
+      width: 40%;
+      background: #eeeced;
+      transform: translate(-40px, 60px);
+      padding: 10px;
+      box-shadow: -0.5em 0 0.5em rgba(0,0,0,0.2);
+    }
   }
 }
 

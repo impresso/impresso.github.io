@@ -6,4 +6,6 @@ nolang: /labs/
 lang: en
 ---
 
-Impresso side projects and fun stuff
+Impresso experiments, side projects and any related fun stuff.
+
+<br>Welcome to the geek side !
