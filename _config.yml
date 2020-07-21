@@ -33,6 +33,9 @@ collections:
   glossary:
     output: true
     permalink: /:collection/:path/
+  labs:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -45,3 +48,8 @@ defaults:
       type: "glossary"
     values:
       layout: "glossaryItem"
+  - scope:
+      path: ""
+      type: "labs"
+    values:
+      layout: "labItem"
