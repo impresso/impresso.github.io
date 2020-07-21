@@ -8,7 +8,7 @@
   ul{
     position: absolute;
     bottom: 0;
-    
+
   }
 
   &.active{
@@ -26,10 +26,16 @@
 
 .collapsible-toggler{
   color: $dark-grey;
+  cursor: pointer;
+  text-transform: inherit !important;
 
-  &.force-active{
-    text-transform: inherit;
+  &:hover {
     color: $light-grey;
+  }
+
+  &.active{
+    color: $light-grey;
+    // cursor: n-resize;
   }
 }
 
@@ -86,7 +92,7 @@
 .circle-plus .circle .vertical {
   position: absolute;
   background-color: $dark-grey;
-   
+
     width: 1px;
     height: 9px;
     left: 50%;
@@ -94,4 +100,3 @@
     top: 50%;
     margin-top: -4px;
 }
-

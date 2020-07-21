@@ -6,7 +6,7 @@ group: project.overview
 layout: page
 permalink: /project/overview/intro
 figure:
-  - src: assets/images/Deauville.png
+  - src: Deauville.png
 ---
 
 What can we do with yesterday’s news? Historical newspapers are mirrors of past societies. Published over centuries on a regular basis, they record wars and minor events, report on international, national and local matters, and document day-to-day life. They reflect the political, social and economic contexts in which they were produced and help us understand how people in the past experienced their time. In recent years, newspapers were mass-digitised and are now readily available for consultation online. Keyword search remains the most popular way to find interesting articles - but is there a better way?
