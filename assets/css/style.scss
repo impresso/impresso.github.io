@@ -12,7 +12,7 @@ $medium-grey: #696467;
 $light-grey: #a9a0a6;
 $very-light-grey: #cfc9cd;
 
-$almost-white: #ffebf7;
+$almost-white: #eeeced;
 $white: #ffffff;
 $yellow: #FAF54F;
 $pale-cyan: #AAB3D4;
@@ -460,6 +460,32 @@ figcaption{
   margin-top: 1em;
   object-fit: cover;
 }
+
+.item .labItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  > div {
+    width: 100%;
+  }
+
+  a.labThumb {
+    background-color: transparent;
+    padding: 0;
+    display: block;
+    img {
+      object-fit: contain;
+    }
+  }
+
+  h2 {
+    margin: auto;
+  }
+
+}
+
+
 @media(min-width:992px){
   .item .blogThumb {
   	height: 18em;
@@ -468,6 +494,19 @@ figcaption{
   }
   .item .blogExcerpt {
   	width: 35%;
+  }
+
+  .item .labItem {
+    > div.left {
+      width: 60%;
+    }
+    > div.right {
+      width: 40%;
+      background: #eeeced;
+      transform: translate(-40px, 60px);
+      padding: 10px;
+      box-shadow: -0.5em 0 0.5em rgba(0,0,0,0.2);
+    }
   }
 }
 
@@ -581,10 +620,15 @@ body.below-floating {
 }
 
 .button {
-  border:1px solid #444; padding: 0.4em 0.6em; background:#eee;
+  border:1px solid $light-grey !important;
+  padding: 0.2em 0.5em 0.12em 0.5em;
+  background: $almost-white;
+  display: inline-block;
+  transition: transform 0.4s;
 }
 .button:hover {
-    background:#fe1;
+    background: $yellow;
+    transform: scale(1.05);
 }
 
 

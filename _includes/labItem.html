@@ -1,0 +1,19 @@
+<div class='item respect-margin'>
+  <div class='anchor' id='{{labItem.slug}}'></div>
+  <div class="labItem">
+    <div class="left">
+      {% if post.thumbnail %}{% assign thumbnail=post.thumbnail %}{% else %}{% assign thumbnail=labItem.figure[0] %}{% endif %}
+      {% if thumbnail != nil %}
+      <a href='{{labItem.url}}' title="{{labItem.title}}" class="labThumb">
+        <img src='{{ '/assets/images/' | relative_url }}{{thumbnail.src}}' alt='{{ thumbnail.caption }}' />
+      </a>
+      {% endif %}
+    </div>
+    <div class="right">
+      <h2><a href='{{labItem.url}}'>{{labItem.title}}</a></h2>
+      {{labItem.excerpt}}
+      <p><a href="{{labItem.url}}">read more</a></p>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
