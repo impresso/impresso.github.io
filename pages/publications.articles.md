@@ -1,10 +1,11 @@
 ---
 title: "Scientific Publications"
-permalink: /project/publications/
-nolang: /project/publications/
+permalink: /publications/articles
+nolang: /publications/articles
 lang: en
-parenturl: /project/
+parenturl: /publications/
 layout: page
+group: publications.articles
 ---
 
 Here you will find the main scientific output of the project so far. These include data, papers and presentations in the fields of digitial humanities, computational linguistics and history. Below them, we also list the events hosted by the project aiming at fostering the interdisciplinary discussion on digitised newspapers.
