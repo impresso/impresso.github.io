@@ -1,5 +1,5 @@
 ---
-title: "People"
+title: "Team"
 permalink: /consortium/people/
 nolang: /consortium/people/
 layout: consortium_single
