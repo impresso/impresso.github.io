@@ -31,8 +31,8 @@ languages:
         #   url: /project/overview/registration
         # - title: "Program"
         #   url: /project/overview/program
-        - title: "Ressources"
-          url: /project/overview/ressources
+        - title: "Resources"
+          url: /project/overview/resources
         - title: "Events"
           url: /project/overview/events
     - title: "Consortium"
