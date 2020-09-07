@@ -34,7 +34,11 @@ layout: default
       </div>
       {% endfor %}
 
-      {% if page.nolang == '/consortium/people/' %}
+
+
+
+
+      {% if page.category == 'team' or page.category == 'contributor' %}
 
       <div class="respect-margin">
         {% for person in people_in_category %}
