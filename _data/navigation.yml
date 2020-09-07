@@ -3,16 +3,12 @@ languages:
     links:
     - title: "Home"
       url: /
-    - title: "Blog"
-      url: /blog/
-    - title: "Labs"
-      url: /labs/
 #    - title: "Glossary"
 #      url: /glossary/
     - title: "Project"
       url: /project/
       links:
-        - title: "Objectives"
+        - title: "Overall Objectives"
           url: /project/objectives/
         - title: "Computational Linguistics"
           url: /project/linguistics/
@@ -20,25 +16,49 @@ languages:
           url: /project/design/
         - title: "Historical Research"
           url: /project/history/
-        - title: "Publications"
-          url: /project/publications/
+    #     - title: "Publications"
+    #       url: /project/publications/
+    - title: "App"
+      url: /app/
+      links:
+         # - title: "About the App"
+         #   url: /app/about/
+         # - title: "How to use it"
+         #   url: /app/usage/
+         # - title: "Newspaper corpus"
+         #   url: /app/corpus/
+         - title: "Labs"
+           url: /labs/
+    - title: "Blog"
+      url: /blog/
+    - title: "Publications"
+      url: /publications/
+      links:
+        - title: "Articles"
+          url: /publications/articles
+        # - title: "Data"
+        #   url: /publications/data
+        # - title: "Presentations"
+        #   url: /publications/presentations
+        # - title: "Code"
+        #   url: /publications/code
     - title: "Overview"
       url: /overview/
       links:
         - title: "Intro"
-          url: /project/overview/intro
+          url: /overview/intro
         # - title: "Registration"
         #   url: /project/overview/registration
         # - title: "Program"
         #   url: /project/overview/program
-        - title: "Resources"
-          url: /project/overview/resources
-        - title: "Events"
-          url: /project/overview/events
+        # - title: "Resources"
+        #   url: /overview/resources
+        # - title: "Events"
+        #   url: /overview/events
     - title: "Consortium"
       url: "/consortium/"
       links:
-        - title: "People"
+        - title: "Team"
           url: /consortium/people/
         - title: "Partners"
           url: /consortium/partners/

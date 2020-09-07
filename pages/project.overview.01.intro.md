@@ -4,7 +4,8 @@ type: section
 lang: en
 group: project.overview
 layout: page
-permalink: /project/overview/intro
+permalink: /overview/intro
+parenturl: /overview/
 figure:
   - src: Deauville.png
 ---
