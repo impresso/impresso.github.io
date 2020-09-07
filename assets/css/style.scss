@@ -382,7 +382,12 @@ aside {
     text-decoration: none;
     transition: background-color .3s ease-in-out;
     border-bottom: 1px solid transparent;
-    text-transform: uppercase;
+  }
+
+  section > ul > li > a,
+  section > ul > li > div.collapsible-toggler
+   {
+    text-transform: uppercase !important;
   }
 
   a:hover{
