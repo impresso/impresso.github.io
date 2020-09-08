@@ -21,10 +21,10 @@ languages:
     - title: "App"
       url: /app/
       links:
-         # - title: "About the App"
-         #   url: /app/about/
-         # - title: "How to use it"
-         #   url: /app/usage/
+         - title: "About"
+           url: /app/about/
+         - title: "How to use it"
+           url: /app/usage/
          # - title: "Newspaper corpus"
          #   url: /app/corpus/
          - title: "Labs"
