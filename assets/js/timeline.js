@@ -390,18 +390,29 @@ window.ImpressoTimeline = function(options) {
         return 'translateY('+ d._top +'px)'
       })
 
-    // move now indicator
-    _now
-      .style('transform', 'translate(0px,'+timeScale(now)+'px)');
 
-    // move next event indicator
-    if(data._is_next_index > -1){
-      _next
-        .classed('active', true)
-        .style('transform', 'translate(0px,'+ data.values[data._is_next_index]._top +'px)' )
+    if (now < d3.isoParse(data.end_date)) {
 
-      _next_date.text(data.values[data._is_next_index]._start_date);
+      // move now indicator
+      _now
+        .style('transform', 'translate(0px,'+timeScale(now)+'px)')
+
+      // move next event indicator
+      if(data._is_next_index > -1){
+        _next
+          .classed('active', true)
+          .style('transform', 'translate(0px,'+ data.values[data._is_next_index]._top +'px)' )
+
+        _next_date.text(data.values[data._is_next_index]._start_date);
+      }
+
+    } else { // now > end_date
+
+      _now.style('display', 'none');
+      _next.style('display', 'none');
+
     }
+
   }
 
   this._render = function() {
