@@ -39,10 +39,10 @@ layout: default
      <!--<div class="headline"><span>Mining 200 years of historical newspapers</span></div>-->
     <div class='contents'>{{page.content}}</div>
 
-    <figure>
-      <img class='cover' src='{{ site.url }}{{page.figure.link}}'>
+    <figure class='respect-margin'>
+      <img class='cover' src='{{page.figure.link}}'>
       <figcaption class="wrapper">
-          <p>{{page.figure.caption}}</p>
+          <p>{{page.figure.caption}} (<a href='{{page.figure.link}}' target='_blank'>source</a>)</p>
       </figcaption>
     </figure>
 
