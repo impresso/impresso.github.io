@@ -18,17 +18,17 @@ languages:
           url: /project/history/
     #     - title: "Publications"
     #       url: /project/publications/
-    - title: "App"
-      url: /application/
-      links:
-         - title: "About"
-           url: /application/about/
-         - title: "How to use it"
-           url: /application/usage/
-         # - title: "Newspaper corpus"
-         #   url: /application/corpus/
-         - title: "Labs"
-           url: /labs/
+    # - title: "App"
+    #   url: /application/
+    #   links:
+    #      - title: "About"
+    #        url: /application/about/
+    #      - title: "How to use it"
+    #        url: /application/usage/
+    #      # - title: "Newspaper corpus"
+    #      #   url: /application/corpus/
+    #      - title: "Labs"
+    #        url: /labs/
     - title: "Blog"
       url: /blog/
     - title: "Publications"
