@@ -23,6 +23,6 @@ ___
 
 ## PARTHENOS MODULE - Collections of digitised newspapers as historical sources
 
-A training module for scholars which equips them with crucial background knowledge of the technologies behind newspaper digitisation and how they change and affect historical newspapers as well as the practice of historical research.More here
+A training module for scholars which equips them with crucial background knowledge of the technologies behind newspaper digitisation and how they change and affect historical newspapers as well as the practice of historical research. More [here](https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/)
 
 ![parthenos](/assets/images/FZ_parthenos.png)
