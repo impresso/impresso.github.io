@@ -1,9 +1,9 @@
 ---
 title: "Impresso App"
-permalink: /theapp/about/
-nolang: /theapp/about/
+permalink: /application/about/
+nolang: /application/about/
 lang: en
-parenturl: /theapp/
+parenturl: /application/
 layout: collage
 group: app.about
 ---

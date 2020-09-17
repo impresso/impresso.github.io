@@ -3,7 +3,7 @@ title: "Labs"
 layout: labs
 permalink: /labs/
 nolang: /labs/
-parenturl: /theapp/
+parenturl: /application/
 lang: en
 ---
 
