@@ -1,5 +1,6 @@
 <ul>
           {% for item in nav.links %}
+          {% if item.url != '/application/' %}
           <li {% if page.url == item.url %} class="active" {% else %} {% if item.url == page.parenturl %} class="active" {% endif %} {% endif %}>
 
             {% if item.links %}
@@ -19,7 +20,7 @@
 
             {% endif %}
           </li>
-
+          {% endif %}
           {% endfor %}
 
           <li>
