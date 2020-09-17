@@ -3,8 +3,6 @@ title: "How to use it"
 type: section
 lang: en
 group: app.usage
-parent: app
-parenturl: /application/
 ---
 
 The app was designed especially keeping in mind the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions.

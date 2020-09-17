@@ -3,8 +3,6 @@ title: "About the App"
 type: section
 lang: en
 group: app.about
-parent: app
-parenturl: /application/
 ---
 
 The impresso project's main [objective](https://impresso-project.ch/project/objectives/) is to develop a Media Monitoring Suite for historical newspapers driven by research objectives in Computational Linguistics, History and Design.

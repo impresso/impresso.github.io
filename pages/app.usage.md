@@ -1,9 +1,9 @@
 ---
 title: "How to use it"
-permalink: /application/usage/
-nolang: /application/usage/
+permalink: /appl/usage/
+nolang: /appl/usage/
 lang: en
-parenturl: /application/
+parenturl: /appl/
 layout: collage
 group: app.usage
 ---

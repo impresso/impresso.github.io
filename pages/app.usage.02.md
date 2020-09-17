@@ -3,8 +3,6 @@ title: ""
 type: section
 lang: en
 group: app.usage
-parent: app
-parenturl: /application/
 ---
 
 About digitised newspapers in general

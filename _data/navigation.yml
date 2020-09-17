@@ -19,14 +19,14 @@ languages:
     #     - title: "Publications"
     #       url: /project/publications/
     - title: "App"
-      url: /application/
+      url: /appl/
       links:
          - title: "About"
-           url: /application/about/
+           url: /appl/about/
          - title: "How to use it"
-           url: /application/usage/
+           url: /appl/usage/
          # - title: "Newspaper corpus"
-         #   url: /application/corpus/
+         #   url: /appl/corpus/
          - title: "Labs"
            url: /labs/
     - title: "Blog"
