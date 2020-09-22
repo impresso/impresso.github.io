@@ -10,9 +10,8 @@ layout: default
   </div>
 
   {% for section in sections %}
-  <div {% if page.lang == site.lang %} id='{{sectionid[2]}}' {% else %} id='{{sectionid[3]}}' {% endif %}></div>
 
-  <section >
+  <section {% if section.id %} id='{{section.id}}' {% endif %}>
       <div class="wrapper">
 
         {% unless section.title == '' %}
