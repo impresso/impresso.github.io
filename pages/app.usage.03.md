@@ -1,8 +1,12 @@
 ---
 title: ""
+id: app-usage
 type: section
 lang: en
 group: app.usage
+figure:
+  - src: application/impresso-app-faq.png
+    caption: Impresso App FAQ Page
 ---
 
 About the impresso app
@@ -29,27 +33,7 @@ Impresso app presentation made at the 2020 ForumZ event “[Reading yesterday's 
 
 ## FAQs about Natural Language Processing and impresso application components
 
-FAQs offers a wealth of documentation on each feature and is accessible via the info buttons distributed across the interface, and on the FAQ page. They provide short explanations of the interface features and the underlying processes, as well as explanations on the copyright status of the impresso materials (images, OCR text, semantic annotations).
+FAQs offers a wealth of documentation on each feature and is accessible via the info buttons distributed across the interface, and on the FAQ page. They provide short explanations of the interface features and the underlying processes, as well as explanations on the copyright status of the _impresso_ materials (images, OCR text, semantic annotations).
 
-
-
-## A few examples to get you started!
-
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/347022479?color=fe5&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
----
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/347022433?color=fe5&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
----
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/347022422?color=fe5&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
----
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/347022471?color=fe5&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
----
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/364796757?color=fe5&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
----
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/364801944?color=fe5&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
----
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/364796778?color=fe5&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
----
-<div style="padding:54.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/364796883?color=fe5&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
----
-
-<script src="https://player.vimeo.com/api/player.js"></script>
+{% assign figure=page.figure[0] %}
+{% include figure.html %}
