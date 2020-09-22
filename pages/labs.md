@@ -7,6 +7,4 @@ parenturl: /theapp/
 lang: en
 ---
 
-Impresso experiments, side projects and any related fun stuff.
-
-<br>Welcome to the geek side !
+In the impresso labs we give access to our more experimental components. We consider them to be valuable contributions in their own right, albeit they did make sense to be included in the main app. Welcome to the geek side!
