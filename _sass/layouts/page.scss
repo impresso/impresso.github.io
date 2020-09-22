@@ -186,6 +186,10 @@ $page-margin-right: 50px;
     }
   }
 
+  .image-link {
+    box-shadow: 0 0 12px #0002;
+  }
+
   &.collage{
     section{
       border-bottom-width: 2px;
