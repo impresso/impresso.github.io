@@ -1,5 +1,5 @@
 ---
-title: "About the App"
+title: ""
 type: section
 lang: en
 group: app.about

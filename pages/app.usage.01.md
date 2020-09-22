@@ -1,5 +1,5 @@
 ---
-title: "How to use it"
+title: ""
 type: section
 lang: en
 group: app.usage
