@@ -11,16 +11,22 @@ layout: default
 
   {% for section in sections %}
   <div {% if page.lang == site.lang %} id='{{sectionid[2]}}' {% else %} id='{{sectionid[3]}}' {% endif %}></div>
-        
+
   <section >
       <div class="wrapper">
+
+        {% unless section.title == '' %}
         <div class="headline">
           <h2><span> {{ section.title }}</span></h2>
         </div>
+        {% endunless %}
+
         {% assign paragraphs = section.content | split: site.excerpt_separator %}
+        {% unless paragraphs[0] == '' %}
         <blockquote class='summary respect-margin'>{{paragraphs[0]}}</blockquote>
+        {% endunless %}
         {% assign remaining_paragraphs = paragraphs | shift %}
-        
+
         <div class='contents'>
           {% for paragraph in remaining_paragraphs %}{{paragraph}}  {% endfor %}
 
@@ -32,9 +38,9 @@ layout: default
 
   <section class='last'>
       {% assign nav = site.data.navigation.languages[lang] | default: site.data.navigation.languages.en %}
-    
+
       {% assign parent = nav.links | where: 'url', page.parenturl %}
-      
+
       <div class="wrapper">
         <div class="headline">
         <h2><span>see also</span></h2>
@@ -42,14 +48,14 @@ layout: default
       <blockquote class='summary respect-margin'>
         {% assign siblings = parent[0].links | where_exp:"link", "link.url != page.permalink" %}
         {% for sibling in siblings %}
-        <a href='{{sibling.url  | relative_url }}'>{{sibling.title}}</a> 
+        <a href='{{sibling.url  | relative_url }}'>{{sibling.title}}</a>
           {% unless forloop.last %} &mdash; {% endunless %}
       {% endfor %}
 
       </blockquote>
-      
+
       </div>
     </section>
-  
+
   <div class='text-center'> - </div>
 </div>

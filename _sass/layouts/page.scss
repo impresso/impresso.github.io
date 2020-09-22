@@ -141,12 +141,18 @@ $page-margin-right: 50px;
   }
 
   blockquote.summary{
-    margin-top: 15px;
+    margin-top: 0;
     margin-bottom: 15px;
     font-size: 18px;
     line-height: 30px;
+    border-top: 1px solid $almost-black;
+    padding-top: 15px;
     border-bottom: 2px solid $almost-black;
     padding-bottom: 15px;
+
+    p:first-child {
+      margin-top:0;
+    }
   }
 
   section{
@@ -161,7 +167,6 @@ $page-margin-right: 50px;
   .headline {
     font-family: "Lato", sans-serif;
     // border-top: 1px solid $almost-black;
-    border-bottom: 1px solid $almost-black;
     padding: 0px 0 15px;
 
     h2{
