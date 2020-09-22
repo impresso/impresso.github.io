@@ -29,4 +29,4 @@ The impresso project had very limited capacities to conduct OCR and article layo
 
 We therefore chose to carefully normalise and complement existing metadata across all institutions and to automatically add information e.g. on language use or OCR quality.
 
-The creation of such a corpus bears its own challenges and has its trade-offs. It is all the more important for historians to develop awareness of these often processes and was our effort to shed more light on them. We therefore recommend that you familiarise yourself first of all with the Newspaper page in the impresso app but also the materials we have prepared in the How to use it segment.
+The creation of such a corpus bears its own challenges and has its trade-offs. It is all the more important for historians to develop awareness of these often processes and was our effort to shed more light on them. We therefore recommend that you familiarise yourself first of all with the [Newspaper page](https://impresso-project.ch/app/newspapers/) in the impresso app but also the materials we have prepared in the [How to use it](https://impresso-project.ch/theapp/usage/) segment.
