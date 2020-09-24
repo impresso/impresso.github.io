@@ -13,22 +13,22 @@ Details on [setting up your GitHub Pages site locally with Jekyll](https://help.
 
 Page | Github Path
 ---- | -----------
-current home | https://github.com/impresso/impresso.github.io/blob/master/index.html
-new home | https://github.com/impresso/impresso.github.io/blob/master/index_.html
+current home | [index](https://github.com/impresso/impresso.github.io/blob/master/index.html)
+new home | [index_](https://github.com/impresso/impresso.github.io/blob/master/index_.html)
 pages | [/pages/](https://github.com/impresso/impresso.github.io/tree/master/pages)
 labs | [/_labs/](https://github.com/impresso/impresso.github.io/tree/master/_labs)
 blog | [/_posts/](https://github.com/impresso/impresso.github.io/tree/master/_posts)
 
-project > objectives | https://github.com/impresso/impresso.github.io/blob/master/pages/project.objectives.md
-app > about | https://github.com/impresso/impresso.github.io/blob/master/pages/app.about.md
- | https://github.com/impresso/impresso.github.io/blob/master/pages/app.about.01.md
-https://github.com/impresso/impresso.github.io/blob/master/pages/app.about.02.md
- | app > corpus | https://github.com/impresso/impresso.github.io/blob/master/pages/app.corpus.md
-app > usage | https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.md
- | https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.01.md
- | https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.02.md
- | https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.03.md
- | https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.04.md
+Page files are prefixed by their parent category.
+
+Some pages are split into multiple files, e.g.
+
+app > usage
+- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.md
+- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.01.md
+- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.02.md
+- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.03.md
+- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.04.md
 
 
 ## Welcome to GitHub Pages
