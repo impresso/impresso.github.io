@@ -9,6 +9,19 @@ Your local site resides here now: [localhost:4000](http://localhost:4000/)
 Details on [setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
 
+## Sitemap
+
+Page location | Github Folder
+------------- | -------------
+new home | https://github.com/impresso/impresso.github.io/blob/master/index_.html
+app > about | https://github.com/impresso/impresso.github.io/blob/master/pages/app.about.md
+https://github.com/impresso/impresso.github.io/blob/master/pages/app.about.01.md
+https://github.com/impresso/impresso.github.io/blob/master/pages/app.about.02.md
+app > corpus | https://github.com/impresso/impresso.github.io/blob/master/pages/app.corpus.md
+app > usage | https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.md
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/impresso/impresso/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
