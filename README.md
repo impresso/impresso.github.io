@@ -9,7 +9,7 @@ Your local site resides here now: [localhost:4000](http://localhost:4000/)
 Details on [setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
 
-## Sitemap
+## Where are pages stored on Github?
 
 Page type | Github Path
 ---- | -----------
@@ -20,7 +20,7 @@ lab post | [/_labs](https://github.com/impresso/impresso.github.io/tree/master/_
 blog posts | [/_posts](https://github.com/impresso/impresso.github.io/tree/master/_posts)
 
 Page files are prefixed by their parent category. e.g.
-- `**project**.design.md`
+- `project.design.md`
 
 Pages can be split into multiple _sections_, e.g.
 
@@ -28,8 +28,7 @@ app > usage
 - `app.usage.md`
 - `app.usage.01.md`
 - `app.usage.02.md`
-- `app.usage.03.md`
-- `app.usage.04.md`
+- ...
 
 
 ## Welcome to GitHub Pages
