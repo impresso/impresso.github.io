@@ -18,6 +18,9 @@ new home | [index_](https://github.com/impresso/impresso.github.io/blob/master/i
 pages | [/pages](https://github.com/impresso/impresso.github.io/tree/master/pages)
 lab post | [/_labs](https://github.com/impresso/impresso.github.io/tree/master/_labs)
 blog posts | [/_posts](https://github.com/impresso/impresso.github.io/tree/master/_posts)
+people | [/_posts](https://github.com/impresso/impresso.github.io/tree/master/_people)
+partners | [/_posts](https://github.com/impresso/impresso.github.io/tree/master/_partners)
+
 
 Page files are prefixed by their parent category. e.g.
 - `project.design.md`
