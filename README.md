@@ -11,24 +11,25 @@ Details on [setting up your GitHub Pages site locally with Jekyll](https://help.
 
 ## Sitemap
 
-Page | Github Path
+Page type | Github Path
 ---- | -----------
 current home | [index](https://github.com/impresso/impresso.github.io/blob/master/index.html)
 new home | [index_](https://github.com/impresso/impresso.github.io/blob/master/index_.html)
-pages | [/pages/](https://github.com/impresso/impresso.github.io/tree/master/pages)
-labs | [/_labs/](https://github.com/impresso/impresso.github.io/tree/master/_labs)
-blog | [/_posts/](https://github.com/impresso/impresso.github.io/tree/master/_posts)
+pages | [/pages](https://github.com/impresso/impresso.github.io/tree/master/pages)
+lab post | [/_labs](https://github.com/impresso/impresso.github.io/tree/master/_labs)
+blog posts | [/_posts](https://github.com/impresso/impresso.github.io/tree/master/_posts)
 
-Page files are prefixed by their parent category.
+Page files are prefixed by their parent category. e.g.
+- `**project**.design.md`
 
-Some pages are split into multiple files, e.g.
+Pages can be split into multiple _sections_, e.g.
 
 app > usage
-- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.md
-- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.01.md
-- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.02.md
-- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.03.md
-- https://github.com/impresso/impresso.github.io/blob/master/pages/app.usage.04.md
+- `app.usage.md`
+- `app.usage.01.md`
+- `app.usage.02.md`
+- `app.usage.03.md`
+- `app.usage.04.md`
 
 
 ## Welcome to GitHub Pages
