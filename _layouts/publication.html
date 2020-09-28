@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="page blog">
+
+  <div class="wrapper">
+    <h1 class="page-title">{{page.title}}</a></h1>
+  </div>
+
+  <section class='last'>
+  <div class="wrapper">
+    <div class="headline"></div>
+    <blockquote class='summary respect-margin'>{{page.content}}</blockquote>
+    {% assign published = site.posts | where: "categories", "publications" %}
+    {% for post in published %}
+    {% include post.html %}
+    {% endfor %}
+  </div>
+</section>
+
+</div>
