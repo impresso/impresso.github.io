@@ -37,7 +37,7 @@ $page-margin-right: 50px;
     font-size: 0.8em;
     text-transform: uppercase;
     color: $almost-black;
-    // border-bottom: 1px solid $almost-black;
+    // border-bottom: 1px solid $alpmost-black;
     text-decoration: none;
     background-color: $white;
     padding: 2px 3px;
@@ -150,6 +150,7 @@ $page-margin-right: 50px;
     border-bottom: 2px solid $almost-black;
     padding-bottom: 15px;
 
+    div + p,
     p:first-child {
       margin-top:0;
     }
@@ -188,6 +189,12 @@ $page-margin-right: 50px;
 
   .image-link {
     box-shadow: 0 0 12px #0002;
+  }
+  .app-button {
+    border: 1px solid black; background:white;
+    &:hover {
+      background: black; color:white;
+    }
   }
 
   &.collage{
