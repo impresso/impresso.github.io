@@ -13,14 +13,17 @@ Diving deeper into Natural Language Processing
 
 <!-- more -->
 
-The title of this post paraphrases our colleague [Max Kemman](http://www.maxkemman.nl/2015/06/digital-history-as-trading-zone/) and relates to the ‘negotiation of practices’ that (should) inevitably happen within interdisciplinary frameworks. Within _impresso_, we tackle this challenge by, among others, placing [co-design](https://impresso-project.ch/project/design/) at the heart of our work organisation. Besides the realisation of an exploration interface which answers the needs of its users, with co-design we intend to foster the dialogue between our academic fields (computational linguistics and history), as well as to reflect on the general change of research environment for the humanities (more on co-design in a soon-to-come glossary entry).
+The title of this post paraphrases our colleague [Max Kemman](http://www.maxkemman.nl/2015/06/digital-history-as-trading-zone/) and relates to the ‘negotiation of practices’ that (should) inevitably happen within interdisciplinary frameworks. Within _impresso_, we tackle this challenge by, among others, by adopting [co-design](https://impresso-project.ch/project/design/) as one of our core working principles.
 
-{% assign figure=page.figure[0] %}
-{% include figure.html %}
+Beyond the realisation of an exploration interface capable of answering the needs of its users, our intention is to foster the dialogue between our academic fields (computational linguistics and history), as well as to reflect on changes affecting research environment in the humanities (more on co-design in a soon-to-come glossary entry).
 
-Concretely speaking, impresso co-design is put into practice with an early-stage and continuous participation of historians. This cooperation is materialized via, on the one hand, the definition of research scenarios by historians and, on the other, the explanation and implementation of NLP processes by computational linguists, all these being discussed during workshops.
+<img src="/assets/images/application/nlp.png"
+  style="max-width:400px; float:left; margin-right:2.5em"
+  title="Illustration: SUGARDRAGON" />
 
-With this blog post series and tutorials, computational linguists would like to step in the trading zone, and to translate what ‘named entity processing’, ‘topic modeling’, ‘text reuse’ and more means in practical terms when it comes to searching and exploring a historical newspaper collection. The intention is to sketch possibilities so as to help historians potentially interested in our future interface to plan their research and start operationalizing their questions. We would like to emphasize that the following descriptions are rather concise and will be further explained and illustrated as our work proceeds.
+Concretely speaking, _impresso_ co-design is put into practice with an early-stage and continuous participation of historians. This cooperation is materialized via, on the one hand, the definition of research scenarios by historians and, on the other, the explanation and implementation of NLP processes by computational linguists, all these being discussed during workshops.
+
+With this blog post series and tutorials, computational linguists would like to step in the trading zone, and to translate what ‘named entity processing’, ‘topic modeling’, ‘text reuse’ and more mean in practical terms when it comes to searching and exploring a historical newspaper collection. The intention is to sketch possibilities so as to help historians potentially interested in our future interface to plan their research and start operationalizing their questions. We would like to emphasize that the following descriptions are rather concise and will be further explained and illustrated as our work proceeds.
 
 ## Named entity processing
 
