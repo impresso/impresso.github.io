@@ -7,6 +7,7 @@ parenturl: /theapp/
 figure:
   - src: posts/pr-corpus-stats-plot1.png
   - src: posts/pr-corpus-stats-plot2.png
+    caption: To know more about impresso corpus details, read our blog posts on corpus releases
 ---
 
 *Impresso* newspaper digitized materials were provided by our associated partners, namely: the Bibliothèque nationale de Luxembourg, the Swiss National Library, the Valais Media Library and State Archives, and the newspapers *Neue Zürcher Zeitung* and *Le Temps* (Ringier group). Further Swiss institutions also participates to impresso endeavour with their sources, that is to say: the newspapers *La Liberté*, *Freiburger Nachrichten*, *L'Essor*, *Le Confédéré*, *Bote vom Untersee*, the group *ArcInfo* in collaboration of the Bibliothèque de la Chaux-de-Fonds, the Bibliothèque cantonale et universitaire de Fribourg, and the Swiss Social Archives in collaboration with UNIA. Physical acquisition of the material would not have been possible without the contribution of RERO, the Library Network of Western Switzerland. In the final stages of the project we have added smaller subsets of collections of new partners: BNF, the British Library and the collections BE. We take the opportunity here to thank all these partners for their support and contributions.
@@ -17,7 +18,9 @@ figure:
 This raises the question of the representativity of our corpus. The short answer is, that it is not. Within impresso, we have incorporated the digitised newspapers the Luxembourg National Library had available in 2017. With regard to Swiss archives, our selection was based on the following considerations:
 
 - Legal: Can the material be republished by us and made accessible to researchers? Does it match our preference for public domain licensing?
+
 - Pragmatic: Since the inclusion of all digitised newspaper titles in Switzerland would have been impossible to handle by our small team, we were forced to select from the existing catalogues. We preferred titles with better scan and OCR quality. Finally, existing contacts to the newspapers Le Temps and NZZ opened the door for bilateral negotiations.
+
 - Scholarly: We strived for a balanced representation of different types of titles over time (e.g. political orientation, regional vs. national publication)
 
 All these considerations moved us further away from the ideal of a representative corpus and made it clear that instead of building the perfect corpus we had to be transparent about the composition of the one we created.
