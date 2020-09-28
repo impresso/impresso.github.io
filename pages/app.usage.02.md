@@ -13,7 +13,7 @@ About digitised newspapers in general
 ## RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age
 
 
-A lesson prepared for academic teachers (and those willing to self-teach) on how digitised newspapers are changing the ways in which historians use newspapers as historical sources and the new skills they require to apply source criticism in the digital age. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
+A lesson prepared for academic teachers (and those willing to self-teach) on on how digitised newspapers change the way historians use newspapers as historical sources, and on how to perform source criticism in the digital age. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
 
 <a class="d-block image-link"
   style="max-width:400px;"
@@ -26,7 +26,7 @@ A lesson prepared for academic teachers (and those willing to self-teach) on how
 
 ## PARTHENOS MODULE - Collections of digitised newspapers as historical sources
 
-A training module for scholars which equips them with crucial background knowledge of the technologies behind newspaper digitisation and how they change and affect historical newspapers as well as the practice of historical research.
+A training module for scholars which provides background knowledge on newspaper digitisation technologies, with a special focus on their impact on both digital sources and the practice of historical research.
 
 <a class="d-block image-link"
   style="max-width:400px;"
