@@ -23,20 +23,26 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
 ## Impresso interface walkthroughs
 
 
-<iframe src="https://www.youtube-nocookie.com/embed/mfiSBcl2EA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/mfiSBcl2EA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Impresso app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
 
-[Impresso project overview and app presentation made at the Digital Humanities 2020 conference](https://www.youtube.com/watch?v=mfiSBcl2EA8&list=PLB45F159nVx-lEm_U8zTeqq95Q92oj08r)
+Watch the [DH2020-impresso-presentation](https://www.youtube.com/watch?v=mfiSBcl2EA8&list=PLB45F159nVx-lEm_U8zTeqq95Q92oj08r)
+Impresso project overview and app presentation made at the Digital Humanities 2020 conference.
 
 [ForumZ-impresso Playlist](https://www.youtube.com/playlist?list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn)
 
 
 
 
-## FAQs about Natural Language Processing and impresso application components
+## Frequently Asked Questions
 
-FAQs offers a wealth of documentation on each feature and is accessible via the info buttons distributed across the interface, and on the FAQ page. They provide short explanations of the interface features and the underlying processes, as well as explanations on the copyright status of the _impresso_ materials (images, OCR text, semantic annotations).
+FAQs are accessible via the info buttons distributed across the interface, and on the [FAQ page](https://impresso-project.ch/app/faq). They provide short explanations about text processing, of the interface features and the underlying processes, as well as the terms of use explanations on the copyright status of the _impresso_ materials (images, OCR text, semantic annotations).
 
-{% assign figure=page.figure[0] %}
-{% include figure.html %}
+<a class="d-block image-link"
+  style="max-width:400px;"
+  href='https://impresso-project.ch/app/faq'
+  title='Impresso App FAQ Page'>
+  <img src="/assets/images/application/impresso-app-faq.png" class="d-block mb-1" />
+  &rarr; Impresso App FAQ Page
+</a>
