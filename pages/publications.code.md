@@ -8,4 +8,4 @@ layout: page
 group: publications.code
 ---
 
-We encourage the reuse of our code which is publicly available in our [Github repositories](https://github.com/impresso) our technical documentation can be found here (cookbook link).
+We encourage the reuse of our code which is publicly available in our [Github repositories](https://github.com/impresso).
