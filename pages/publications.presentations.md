@@ -8,6 +8,8 @@ layout: page
 group: publications.presentations
 ---
 
+### Presentations
+
 **2020**
 
 Ehrmann, Maud,  Matteo Romanello, Stefan Bircher and Simon Clematide. 2019. [‘Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers’](https://doi.org/10.5281/zenodo.3754235). Presented at European Conference for Information Retrieval (ECIR2020), Lisbon, April 16.
@@ -58,3 +60,63 @@ Maud Ehrmann. 2018b. ‘Detecting Text Reuse in Newspapers Data with Passim’. 
 Ströbel, Phillip. 2018a. [‘Computerlinguistische Methoden Für Bessere Zugänglichkeit von Historischen Zeitungsberichten. Die NZZ Im Wandel Der Zeit’](https://www.oeaw.ac.at/de/acdh/events/event-series/event-detail/article/vom-diarium-zum-digitarium/). Presented at the Vom DIARIUM zum DIGITARIUM, Vienna, April 25.
 
 Ströbel, Phillip. 2018b. ‘Bridging Literature and Information Science’. Presented at the [Digital Humanities Austria](https://www.uibk.ac.at/congress/dha2017/programme/index.html.en), Innsbruck, December 6.
+
+
+### Community building
+
+#### Impresso talks
+
+**2019**
+
+Bergamini, Enrico, and Emmanuel Mourlon-Druol. 2019. [‘Impresso Talk #9: Talking about Europe: In La Stampa, Le Monde, Die Zeit and Der Spiegel, 1940s - 2010s’](https://www.c2dh.uni.lu/events/talking-about-europe-la-stampa-le-monde-die-zeit-and-der-spiegel-1940s-2010s). Presented at the impresso Talks Series, Belval, October 12.
+
+Keck, Jana, and Moritz Knabben. 2019. [‘Impresso Talk #8: Visualization for Newspapers Corpus Exploration across Time and Space’](https://www.c2dh.uni.lu/events/visualization-newspapers-corpus-exploration-across-time-and-space). Presented at the impresso Talks Series, Belval, October 29.
+
+Marschall, Ralph. 2019. [‘Impresso Talk #7: Development of a New Digital Document Viewer at the Luxembourg National Library’](https://www.c2dh.uni.lu/events/development-new-digital-document-viewer-luxembourg-national-library). Presented at the impresso Talks Series, Belval, June 18.
+
+Glaurdić, Josip, and Michal Mochtak. 2019. [‘Impresso Talk #6: Thus Spoke the People: Public Discourse in Belgrade’s Politika on the Eve of Yugoslav Wars’](https://www.c2dh.uni.lu/events/thus-spoke-people-public-discourse-belgrades-politika-eve-yugoslav-wars). Presented at the impresso Talks Series, Belval, May 6.
+
+Lange, Milan van. 2019. [‘Impresso Talk #5: Beyond the Tantrum: Questioning Shared Intuitions in Historiography with Emotion Mining’](https://www.c2dh.uni.lu/events/beyond-tantrum-questioning-shared-intuitions-historiography-emotion-mining). Presented at the impresso Talks Series, Belval, April 17.
+
+Seul, Stephanie. 2019. [‘Impresso Talk #4: German Antisemitism and the Press during the Weimar Republic (1918-1933)’](https://www.c2dh.uni.lu/events/german-antisemitism-and-press-during-weimar-republic-1918-1933). Presented at the impresso Talks Series, Belval, March 19.
+
+Wevers, Melvin. 2019. [‘Impresso Talk #3: A Data-Driven Approach to Exploring and Analyzing Digitized Newspapers’](https://www.c2dh.uni.lu/events/data-driven-approach-exploring-and-analyzing-digitized-newspapers). Presented at the impresso Talks Series, Belval, February 27.
+
+
+**2018**
+
+Doucet, Antoine. 2018. [‘Impresso Talk #1: Sequential Pattern Mining for Robust Event Detection, Switzerland, Lausanne’](https://actu.epfl.ch/news/talk-sequential-pattern-mining-for-robust-event-de/). Presented at the impresso Talks Series, Lausanne, November 10.
+
+Marjanen, Jani, and Simon Hengchen. 2018. ‘[Impresso Talk #2: The Omnipresence of the Nation: Preliminary Remarks in Studying Nationhood through Digitized Newspapers’](https://www.c2dh.uni.lu/projects/impresso-media-monitoring-past). Presented at the impresso Talks Series, Belval, October 30.
+
+
+#### Impresso Community Calls
+
+Ströbel, Phillip, and Simon Clematide. 2019. ‘Community Call #2: Topic Modeling in the Impresso Web Application’. Presented at the impresso Community Call, Zurich, May 17.
+
+Guido, Daniele, and Estelle Bunout. 2018. ‘Community Call #1: Introducing the Impresso Interface’. Presented at the impresso Community Call, Belval, September 11 2018.
+
+#### Workshops
+
+**2019**
+
+Ehrmann, Maud. 2019. [‘Digillu-Workshop: Zusammenstellung und Erschließung von Korpusdaten’](https://sprache.hypotheses.org/digillu-workshop). Workshop, November 25.
+
+
+**2018**
+
+impresso team. 2017. [‘Impresso Workshop #1 - Kick-off Workshop and 1st Consortium Meeting’](https://impresso-project.ch/news/2017/10/28/kick-off.html). Workshop, Lausanne, October 24 2017.
+
+impresso team. 2018. [‘Impresso Workshop #2 “Buttercup” Interface Co-Design’](https://impresso-project.ch/news/2018/02/08/buttercup.html). Workshop, Belval, February 8 2018.
+
+impresso team. 2018. [‘Impresso Workshop #3 “Edelweiss”: Interface Co-Design’](https://impresso-project.ch/news/2018/02/24/edelweis.html). Workshop presented at the Edelweiss, Basel, February 23 2018.
+
+impresso team. 2018. [‘Impresso Workshop #4 “Laurel” - Co-Design, Integrating Digitized Press in Historians’ Workflow’](https://impresso-project.ch/news/2018/07/06/laurel.html). Workshop, Lausanne, July 5-7 2018.
+
+impresso team. 2018. [‘Impresso Workshop #5 “Lavender” - Co-Design, Integrating Digitized Press in Historians’ Workflow’](https://impresso-project.ch/news/2018/07/11/lavender.html). Workshop, Beval, July 11 2018.
+
+Ehrmann, Maud. 2018. ‘Les magazines illustrés de la première moitié du 20e siècle à l’ère des humanités numériques – Allemagne / France en regard et acteurs en dialogue’. Paris, November 29. https://digillu.hypotheses.org/.
+
+**2017**
+
+impresso team. 2017. [‘Impresso Workshop #1 - Kick-off Workshop and 1st Consortium Meeting’](https://impresso-project.ch/news/2017/10/28/kick-off.html). Workshop, Lausanne, October 24 2017.
