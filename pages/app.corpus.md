@@ -7,7 +7,7 @@ parenturl: /theapp/
 figure:
   - src: posts/pr-corpus-stats-plot1.png
   - src: posts/pr-corpus-stats-plot2.png
-    caption: To know more about impresso corpus details, read our blog posts on corpus releases
+    caption: To know more about impresso corpus details, read our [ blog post on the latest corpus release](https://impresso-project.ch/news/2020/01/23/state-corpus-january2020.html)
 ---
 
 *Impresso* newspaper digitized materials were provided by our associated partners, namely: the Bibliothèque nationale de Luxembourg, the Swiss National Library, the Valais Media Library and State Archives, and the newspapers *Neue Zürcher Zeitung* and *Le Temps* (Ringier group). Further Swiss institutions also participates to impresso endeavour with their sources, that is to say: the newspapers *La Liberté*, *Freiburger Nachrichten*, *L'Essor*, *Le Confédéré*, *Bote vom Untersee*, the group *ArcInfo* in collaboration of the Bibliothèque de la Chaux-de-Fonds, the Bibliothèque cantonale et universitaire de Fribourg, and the Swiss Social Archives in collaboration with UNIA. Physical acquisition of the material would not have been possible without the contribution of RERO, the Library Network of Western Switzerland. In the final stages of the project we have added smaller subsets of collections of new partners: BNF, the British Library and the collections BE. We take the opportunity here to thank all these partners for their support and contributions.
