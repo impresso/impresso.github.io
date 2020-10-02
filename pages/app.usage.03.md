@@ -23,15 +23,16 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
 ## Impresso interface walkthroughs
 
 
+Impresso project overview and app presentation made at the Digital Humanities 2020 conference.
+
 <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/mfiSBcl2EA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 Impresso app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
 
-Watch the [DH2020-impresso-presentation](https://www.youtube.com/watch?v=mfiSBcl2EA8&list=PLB45F159nVx-lEm_U8zTeqq95Q92oj08r)
-Impresso project overview and app presentation made at the Digital Humanities 2020 conference.
-
-[ForumZ-impresso Playlist](https://www.youtube.com/playlist?list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn)
-
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/videoseries?list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
