@@ -1,7 +1,7 @@
 ---
 title: ""
 id: nlp
-type: section
+type: section 
 lang: en
 group: app.usage
 figure:
@@ -72,7 +72,7 @@ To document how we have integrated topic modeling within the impresso project an
   <img src="/assets/images/posts/Topic_exploration_home_Screenshot 2019-03-05 16.24.04.png" class="d-block mb-1" />
   &rarr; Explore the list of topics on the impresso interface
 </a>
-
+ 
 ---
 
 <a class="d-block image-link"
