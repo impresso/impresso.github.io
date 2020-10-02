@@ -36,10 +36,16 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
 
 _impresso_ project overview and app presentation made at the Digital Humanities 2020 conference.
 
+
+
 <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/mfiSBcl2EA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+
+
 _impresso_ app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
+
+
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/videoseries?list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
