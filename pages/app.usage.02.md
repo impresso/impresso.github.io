@@ -18,9 +18,9 @@ A lesson prepared for academic teachers (and those willing to self-teach) on on 
 <a class="d-block image-link"
   style="max-width:400px;"
   href='https://ranke2.uni.lu/u/exploring-historical-newspapers/'
-  title='PARTHENOS MODULE'>
+  title='RANKE2 - From the shelf to the web'>
   <img src="/assets/images/FZ_ranke2.png" class="d-block mb-1" />
-  &rarr; PARTHENOS MODULE
+  &rarr; RANKE2 - From the shelf to the web
 </a>
 
 
