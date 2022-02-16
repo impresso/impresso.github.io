@@ -39,11 +39,13 @@ _impresso_ project overview and app presentation made at the Digital Humanities 
 <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/mfiSBcl2EA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Impresso app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
+_impresso_ app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
+
 
 <div style="position:relative;padding-bottom:56.25%;">
-<iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y6Dfj49XWu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
  
 
 ## Frequently Asked Questions
