@@ -5,7 +5,7 @@ lang: en
 group: project.linguistics
 ---
 
-The project produced a **historical media monitoring tool suite that bridged the semantic gap** between huge volumes of scanned text and humanities scholars willing to understand and interpret its content.
+The project produced a **historical media monitoring tool suite that bridged the semantic gap** between huge volumes of scanned text and humanities scholars willing to understand and interpret its content. 
 
 <!-- more -->
 
