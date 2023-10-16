@@ -9,7 +9,7 @@ group: project.objectives
 
 <!-- more -->
 
-To this end, the project addressed the following main objectives: 
+To this end, the project addressed the following main objectives:  
 
 
 
