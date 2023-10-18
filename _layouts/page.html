@@ -2,62 +2,12 @@
 layout: default
 ---
 
-<div class="page">
-  <div class="wrapper">
-    <h1 class="page-title">{{ page.title }}</h1>
-    {{ content }}
-
-
-
+<div class="container">
+  <div class="row">
+    <h1>{{ page.title }}</h1>
+    {% if page.subheading %}
+    <h1 class="text-muted">{{ page.subheading }}</h1>
+    {% endif %}
   </div>
-
-  {% if page.nolang == '/consortium/people/' %}
-  <section>
-    <div class="wrapper">
-      <div class="headline">
-        <h2><span>{{ page.title }}</span></h2>
-      </div>
-      <blockquote class='summary respect-margin'>{{page.content | markdownify}}</blockquote>
-
-        {% assign group = site.people | where: 'group','contact-point' | sort: 'ordering' %}
-        <div class='thumbnails respect-margin'>
-          <h3 ><span class='tag'>contact points</span></h3>
-          {% for person in group %}
-           {% include person.thumbnail.html %}
-          {% endfor %}
-        </div>
-
-        {% assign group = site.people | where: 'group','collaborator' | sort: 'ordering' %}
-        <div class='thumbnails respect-margin'>
-          <h3><span class='tag'>collaborators</span></h3>
-          {% for person in group %}
-          {% include person.thumbnail.html %}
-          {% endfor %}
-        </div>
-
-        
-
-        {% assign group = site.people | where: 'group','supervisor' | sort: 'ordering' %}
-        <div class='thumbnails respect-margin'>
-          <h3><span class='tag'>supervisors</span></h3>
-          {% for person in group %}
-          {% include person.thumbnail.html %}
-          {% endfor %}
-        </div>
-
-
-        {% assign team = site.people | where: 'category','team' | sort: 'ordering' %}
-        <div class="respect-margin">
-        <!-- <div class="container-fluid "> -->
-          <!-- <div class='row'> -->
-            {% for person in team %}
-            <!-- <div class='col-lg-6'> -->
-              {% include person.html %}
-            <!-- </div> -->
-            {% endfor %}
-          <!-- </div> -->
-        </div>
-      </div>
-    </section>
-  {% endif %}
+  <div class="row">{{ content }}</div>
 </div>

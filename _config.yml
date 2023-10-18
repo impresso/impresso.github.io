@@ -3,9 +3,8 @@ excerpt_separator: '<!-- more -->'
 base: http://impresso-project.ch
 title: impresso
 lang: en
-languages: ["en", "fr", "de"]
+languages: ['en', 'fr', 'de']
 timezone: Europe/Zurich
-
 
 publisher:
   name: impresso
@@ -14,11 +13,13 @@ contacts:
   email: info @ impresso-project [dot] ch
   twitter:
     url: https://twitter.com/impressoproject
-    name: "@impressoproject"
+    name: '@impressoproject'
   github:
     url: https://github.com/impresso
     name: impresso
-
+  mailinglist:
+    url: https://mailchi.mp/1059270fc024/impresso-project
+    name: impresso-project
 
 collections:
   agenda:
@@ -36,20 +37,23 @@ collections:
   labs:
     output: true
     permalink: /:collection/:path/
+  events:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
-      path: ""
-      type: "agenda"
+      path: ''
+      type: 'agenda'
     values:
-      layout: "agenda"
+      layout: 'agenda'
   - scope:
-      path: ""
-      type: "glossary"
+      path: ''
+      type: 'glossary'
     values:
-      layout: "glossaryItem"
+      layout: 'glossaryItem'
   - scope:
-      path: ""
-      type: "labs"
+      path: ''
+      type: 'labs'
     values:
-      layout: "labItem"
+      layout: 'labItem'
