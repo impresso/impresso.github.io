@@ -8,16 +8,39 @@ site.data.navigation.languages.en %}
           class="nav-item squared position-relative"
           style="padding-top: 100%"
         >
+          <div class="position-absolute end-0 top-0 p-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24px"
+              height="24px"
+              fill="none"
+              stroke-width="2.4"
+              viewBox="0 0 24 24"
+              color="#000000"
+            >
+              <path
+                stroke="#000000"
+                stroke-width="2.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
+              ></path>
+              <path
+                stroke="#000000"
+                stroke-width="2.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 22c-3.314 0-6-4.477-6-10S8.686 2 12 2"
+              ></path>
+            </svg>
+          </div>
           <div
             class="position-absolute top-0 start-0 end-0 bottom-0 d-flex align-items-center justify-content-center"
           >
             {% comment %} logo {% endcomment %}
             <a class="nav-link" href="{{site.baseurl}}/">
-              <img
-                src="{{site.baseurl}}/assets/images/logo.svg"
-                alt="LOGO"
-                class="img-fluid"
-              />
+              <b class="serif">{% include logo.html %}</b>
+              <div>media<br />monitoring<br />of the Past</div>
             </a>
           </div>
         </li>

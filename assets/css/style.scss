@@ -2,26 +2,6 @@
 title: scss
 ---
 
-@font-face {
-  font-family: 'Satoshi-Variable';
-  src: url('/assets/fonts/Satoshi-Variable.woff2') format('woff2'),
-    url('/assets/fonts/Satoshi-Variable.woff') format('woff'),
-    url('/assets/fonts/Satoshi-Variable.ttf') format('truetype');
-  font-weight: 300 900;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Satoshi-VariableItalic';
-  src: url('/assets/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
-    url('/assets/fonts/Satoshi-VariableItalic.woff') format('woff'),
-    url('/assets/fonts/Satoshi-VariableItalic.ttf') format('truetype');
-  font-weight: 300 900;
-  font-display: swap;
-  font-style: italic;
-}
-
 @media (min-width: 1200px) {
   .h1,
   h1 {

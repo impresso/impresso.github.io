@@ -109,6 +109,36 @@ site.data.navigation.languages.en %}
     <![endif]-->
 
     <style>
+      @font-face {
+        font-family: 'Satoshi-Variable';
+        src: url('/assets/fonts/Satoshi-Variable.woff2') format('woff2'),
+          url('/assets/fonts/Satoshi-Variable.woff') format('woff'),
+          url('/assets/fonts/Satoshi-Variable.ttf') format('truetype');
+        font-weight: 300 900;
+        font-display: swap;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Sentient-Variable';
+        src: url('/assets/fonts/Sentient-Variable.woff2') format('woff2'),
+          url('/assets/fonts/Sentient-Variable.woff') format('woff'),
+          url('/assets/fonts/Sentient-Variable.ttf') format('truetype');
+        font-weight: 200 700;
+        font-display: swap;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Satoshi-VariableItalic';
+        src: url('/assets/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+          url('/assets/fonts/Satoshi-VariableItalic.woff') format('woff'),
+          url('/assets/fonts/Satoshi-VariableItalic.ttf') format('truetype');
+        font-weight: 300 900;
+        font-display: swap;
+        font-style: italic;
+      }
+
       html {
         height: 100%;
       }
@@ -117,24 +147,32 @@ site.data.navigation.languages.en %}
         --bs-font-sans-serif: 'Satoshi-Variable', -apple-system,
           BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
           'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-        --bs-font-serif: 'Georgia', 'Times New Roman', serif;
+        --bs-font-serif: 'Sentient-Variable', 'Georgia', 'Times New Roman',
+          serif;
         --bs-body-color-transparent: #21252999;
         --bs-font-sans-serif-italic: 'Satoshi-VariableItalic', -apple-system,
           BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
           'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
         --bs-gutter-x: 0;
-        --bs-border-width: 2px;
+        --bs-border-width: 1px;
         --bs-link-color: #212529ff;
-        --bs-light: #f9f9f9;
+        --bs-light: #ffffe3;
       }
 
       body {
         min-height: 100%;
         height: 100%;
         /* border: var(--bs-border-width) solid var(--bs-dark); */
-        background-color: #f9f9f9;
+        background-color: var(--bs-light);
       }
+      .serif {
+        font-family: var(--bs-font-serif);
+      }
+      b {
+        font-weight: 700;
 
+        font-variation-settings: 'wght' 700;
+      }
       i,
       em {
         font-style: normal;
