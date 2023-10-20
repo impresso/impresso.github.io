@@ -40,6 +40,9 @@ collections:
   events:
     output: true
     permalink: /:collection/:path/
+  announcements:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:

@@ -2,28 +2,50 @@
 layout: default
 ---
 
-<main class="container-fluid g-0 d-flex flex-column h-100">
+<main class="container-fluid g-0 d-flex flex-column min-vh-100">
   <div class="row g-0">
     <div class="col-7 offset-2 g-0">
       <h1 class="m-5">{{page.title}}</h1>
       <h2 class="m-5">{{page.subheading}}</h2>
     </div>
-    <div class="col-3 g-0 border-start border-dark">right</div>
+    <div class="col-3 g-0 border-start border-dark">
+      <section class="p-3 border-bottom border-dark">
+        <h3>Last updates</h3>
+        <div class="border border-dark shadow-sm bg-white">
+          <h4 class="m-2 pb-2 border-bottom border-dark">
+            impresso-frontend
+            <span class="badge bg-secondary">v4.5.2</span>
+          </h4>
+
+          <div class="px-2">
+            <p>
+              A brand new release that put together a great number of fantastic
+              features. Check it out on github!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="p-3">
+        <h3>Announcements</h3>
+        {% assign announcement = site.announcements | first %} {% include
+        announcement.html %}
+      </section>
+    </div>
   </div>
   <div class="row g-0">
     <div class="col-10 offset-2 g-0 border-bottom border-top border-dark">
       <ul class="nav mx-4 px-3">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Releases</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Newsletter</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Blog</a>
         </li>
       </ul>
     </div>
