@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<main class="container-fluid g-0 d-flex flex-column min-vh-100">
+  <div class="row g-0">
+    <div class="col-7 offset-2 g-0">
+      <h1 class="m-5">{{page.title}}</h1>
+      <h2 class="m-5 text-italic">{{page.subheading}}</h2>
+      {{content}}
+    </div>
+    <div class="col-3 g-0 border-start border-dark">
+      <section class="p-3 border-bottom border-dark">
+        <h3>Releases</h3>
+        {% assign release = site.releases | first %} {% include release.html %}
+      </section>
+      <section class="p-3">
+        <h3>Announcements</h3>
+        {% assign announcement = site.announcements | first %} {% include
+        announcement.html %}
+      </section>
+    </div>
+  </div>
+  <div class="row g-0">
+    <div class="col-10 offset-2 g-0 border-bottom border-top border-dark">
+      <ul class="nav mx-4 px-3 justify-content-between">
+        <li class="nav-item w-50 py-3">
+          <a class="nav-link" href="#">Events, Releases etc..</a>
+        </li>
+        <li class="nav-item w-50 py-3 border-dark border-start">
+          <a class="nav-link ms-3" href="#">Blog, conferences etc ...</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row g-0 flex-grow-1">
+    <div class="col-10 offset-2">
+      <section class="d-flex">
+        <div class="w-50 py-3">
+          <div class="ps-5 pe-3">
+            {% assign post=site.agenda | first %} {% include post.html %}
+          </div>
+        </div>
+        <div class="w-50 py-3 border-dark border-start">
+          <div class="ps-3 pe-5">
+            {% assign post=site.posts | first %} {% include post.html %}
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="row g-0">
+    <div class="col-10 offset-2 g-0 border-top border-dark">
+      <section class="p-5">{% include footer.html %}</section>
+    </div>
+  </div>
+</main>
