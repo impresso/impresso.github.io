@@ -5,18 +5,17 @@ layout: default
 <main class="container-fluid g-0 d-flex flex-column min-vh-100">
   <div class="row g-0">
     <div class="col-7 offset-2 g-0">
-      <h1 class="m-5">{{page.title}}</h1>
-      <h2 class="m-5 text-italic">{{page.subheading}}</h2>
-      {{content}}
+      <h1 class="m-5">{{page.title}} &mdash; <em>{{page.subheading}}</em></h1>
+      <section class="display-6 m-5 text-italic">{{content}}</section>
     </div>
     <div class="col-3 g-0 border-start border-dark">
-      <section class="p-3 border-bottom border-dark">
-        <h3>Releases</h3>
-        {% assign release = site.releases | first %} {% include release.html %}
+      <section class="p-3 border-bottom border-dark" style="min-height: 50%">
+        <h3 class="small-caps mb-3">Releases</h3>
+        {% assign release = site.releases | last %} {% include release.html %}
       </section>
       <section class="p-3">
-        <h3>Announcements</h3>
-        {% assign announcement = site.announcements | first %} {% include
+        <h3 class="small-caps mb-3">Announcements</h3>
+        {% assign announcement = site.announcements | last %} {% include
         announcement.html %}
       </section>
     </div>
@@ -41,12 +40,12 @@ layout: default
       <section class="d-flex">
         <div class="w-50 py-3">
           <div class="ps-5 pe-3">
-            {% assign post=site.agenda | first %} {% include post.html %}
+            {% assign post=site.agenda | last %} {% include post.html %}
           </div>
         </div>
         <div class="w-50 py-3 border-dark border-start">
           <div class="ps-3 pe-5">
-            {% assign post=site.posts | first %} {% include post.html %}
+            {% assign post=site.posts | last %} {% include post.html %}
           </div>
         </div>
       </section>
