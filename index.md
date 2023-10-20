@@ -1,5 +1,6 @@
 ---
-layout: index
+layout: page
+slug: index
 title: 'Media Monitoring of the Past'
 subheading: 'Beyond Borders'
 lang: en

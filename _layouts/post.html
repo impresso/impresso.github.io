@@ -1,31 +1,20 @@
 ---
-layout: default
+layout: page
 ---
 
+<!-- <div class='categories'>{{page.categories}}</div> -->
 
-<div class="page blog">
+{% assign paragraphs = page.content | split: site.excerpt_separator %}
 
-  <div class="wrapper">
-    <h2 class="page-title"><a href='/blog'>Blog</a></h2>
-    <!-- <div class='categories'>{{page.categories}}</div> -->
-
-    {% assign paragraphs = page.content | split: site.excerpt_separator %}
-
-    <div class="headline">
-      <h1><span> {{page.title}} </span></h1>
-    </div>
-
-    <blockquote class='summary respect-margin'><div class='incipit'>{{page.author}} {{page.date | date: "%a, %d.%m %Y"}} &mdash;&nbsp;</div> {{paragraphs[0]}}</blockquote>
-    {% assign remaining_paragraphs = paragraphs | shift %}
-
-    <div class='contents'>
-      {% for paragraph in remaining_paragraphs %}{{paragraph}}  {% endfor %}
-
-      {% include reference.html %}
-
-      {% include copyright.html %}
-    </div>
-
-
+<blockquote class="summary respect-margin">
+  <div class="incipit">
+    {{page.author}} {{page.date | date: "%a, %d.%m %Y"}} &mdash;&nbsp;
   </div>
+  {{paragraphs[0]}}
+</blockquote>
+{% assign remaining_paragraphs = paragraphs | shift %}
+
+<div class="contents">
+  {% for paragraph in remaining_paragraphs %}{{paragraph}} {% endfor %} {%
+  include reference.html %} {% include copyright.html %}
 </div>

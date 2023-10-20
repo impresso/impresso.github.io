@@ -1,87 +1,80 @@
-<div class='footer'>
-  <div class="inner">
-
-    <div class="fluid-container">
-
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="logo">
-            <a href='https://dhlab.epfl.ch/' target='_blank' title='Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland'><img src="{{ '/assets/images/EPFL-Logo-BLACK.png' | relative_url }}"></a>
-            <p>Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland</p>
-          </div>
-
-        </div>
-        <div class="col-sm-4">
-          <div class="logo">
-          <a href='http://www.cl.uzh.ch/en.html' target='_blank' title='Institute for Computational Linguistics Zurich University, Switzerland'>
-            <img src="{{ '/assets/images/uzh-logo.jpg' | relative_url }}"></a>
-          </a>
-          <p>Institute of Computational Linguistics Zurich University, Switzerland</p>
-          </div>
-
-        </div>
-        <div class="col-sm-4">
-          <div class="logo">
-            <a href='https://www.c2dh.uni.lu' target='_blank' title='Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.'>
-              <img src="{{ '/assets/images/c2dh-logo.png' | relative_url }}"></a>
-            </a>
-            <p>Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class='line double'></div>
-      <div class="row" >
-        <div class="col-sm-4">
-          <h3>connect with us</h3>
-          {{site.contacts.email}}<br/>
-          github: <a href='{{site.contacts.github.url}}'> <b>{{site.contacts.github.name}}</b></a><br/>
-          twitter: <a href='{{site.contacts.twitter.url}}'> <b>{{site.contacts.twitter.name}}</b></a>
-        </div>
-        <div class="col-sm-4">
-          <h3>other relevant links</h3>
-          project <a href='/project/overview/'> overview</a><br/>
-          project <a href='/consortium#people'> team</a>
-        </div>
-        <div class="col-sm-4">
-          <h3>stay in the loop</h3>
+<div class="footer">
+  <div class="fluid-container">
+    <div class="row">
+      <div class="col">
+        <div class="logo">
+          <a
+            href="https://dhlab.epfl.ch/"
+            target="_blank"
+            title="Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland"
+            ><img
+              alt=""
+              style="max-width: 200px; height: 100px"
+              src="{{ '/assets/images/EPFL-Logo-BLACK.png' | relative_url }}"
+          /></a>
           <p>
-            <a
-              class="button" id="chimpSignup"
-              style="padding: 6px 10px; font-size:90%; letter-spacing:1px"
-              href="https://mailchi.mp/1059270fc024/impresso-project"
-              target="_blank">Join our mailing list
-            </a>
+            Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale
+            de Lausanne, Switzerland
           </p>
         </div>
       </div>
-      <div class='line '></div>
-
-      <div class="row text-center">
-        <div class="col-sm-12">
-          <a href='http://www.snf.ch/en/Pages/default.aspx' target='_blank' title="Swiss National Science Foundation"><img src="{{ '/assets/images/snf-rgb-e-logo.png' | relative_url }}"></a>
+      <div class="col">
+        <div class="logo">
+          <a
+            href="http://www.cl.uzh.ch/en.html"
+            target="_blank"
+            title="Institute for Computational Linguistics Zurich University, Switzerland"
+          >
+            <img
+              style="height: 100px"
+              alt=""
+              src="{{ '/assets/images/uzh-logo.jpg' | relative_url }}"
+            />
+          </a>
+          <p>
+            Institute of Computational Linguistics Zurich University,
+            Switzerland
+          </p>
         </div>
       </div>
-
-      <div class='line'></div>
-
-      <div class="row text-center">
-        {% assign partners = site.partners | where: 'category','associated-partner' | sort: 'ordering' %}
-        {% for partner in partners %}
-        <div class="col-sm-3">
-        <div class="logo smaller">
-          <a href='/consortium/#{{partner.slug}}' title='{{ partner.title }}'>
-              <img src="{{ partner.picture | relative_url }}"></a>
-            </a>
-          <p>{{partner.title}}</p>
+      <div class="col">
+        <div class="logo">
+          <a
+            href="https://www.c2dh.uni.lu"
+            target="_blank"
+            title="Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg."
+          >
+            <img
+              style="height: 100px"
+              alt=""
+              src="{{ '/assets/images/c2dh-logo.png' | relative_url }}"
+            />
+          </a>
+          <p>
+            Centre for Contemporary and Digital History (C2DH) Luxembourg
+            University, Luxembourg.
+          </p>
         </div>
       </div>
-        {% endfor %}
+      <div class="col">
+        <div class="logo">
+          <a
+            href="https://www.unil.ch"
+            target="_blank"
+            title="University of Lausanne, Switzerland"
+          >
+            <img
+              style="height: 100px"
+              alt=""
+              src="{{ '/assets/images/unil-logo.png' | relative_url }}"
+            />
+          </a>
+          <p>
+            Centre for Contemporary and Digital History (C2DH) Luxembourg
+            University, Luxembourg.
+          </p>
+        </div>
       </div>
-
     </div>
-
-
-
   </div>
 </div>
