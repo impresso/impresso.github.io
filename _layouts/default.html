@@ -109,13 +109,47 @@ site.data.navigation.languages.en %}
     <![endif]-->
 
     <style>
+      html {
+        height: 100%;
+      }
+
+      :root {
+        --bs-font-sans-serif: 'Satoshi-Variable', -apple-system,
+          BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+          'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        --bs-font-serif: 'Georgia', 'Times New Roman', serif;
+        --bs-body-color-transparent: #21252999;
+        --bs-font-sans-serif-italic: 'Satoshi-VariableItalic', -apple-system,
+          BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+          'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        --bs-gutter-x: 0;
+        --bs-border-width: 2px;
+        --bs-link-color: #212529ff;
+      }
+
       body {
-        background-color: #eeeced;
+        min-height: 100%;
+        height: 100%;
+        border: var(--bs-border-width) solid var(--bs-dark);
+        background-color: #f9f9f9;
+      }
+
+      aside.Nav {
+        height: 100%;
+        pointer-events: none;
+      }
+
+      aside.Nav .nav {
+        pointer-events: auto;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
       }
     </style>
   </head>
   <body>
-    {% include nav.html %}
-    <main>{{ content }}</main>
+    {% include nav.html %} {{ content }}
   </body>
 </html>

@@ -1,9 +1,28 @@
-<nav class="navbar navbar-expand">
-  <div class="container">
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav w-100 justify-content-between align-items-center">
+{% assign nav = site.data.navigation.languages[lang] | default:
+site.data.navigation.languages.en %}
+<aside class="Nav container-fluid g-0 h-100 position-fixed">
+  <div class="row g-0 h-100">
+    <div class="col-2 d-flex flex-column h-100 border-end border-dark">
+      <ul class="nav flex-column flex-grow-1">
+        <li
+          class="nav-item squared position-relative"
+          style="padding-top: 100%"
+        >
+          <div
+            class="position-absolute top-0 start-0 end-0 bottom-0 d-flex align-items-center justify-content-center"
+          >
+            {% comment %} logo {% endcomment %}
+            <a class="nav-link" href="{{site.baseurl}}/">
+              <img
+                src="{{site.baseurl}}/assets/images/logo.svg"
+                alt="LOGO"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+        </li>
         {% for item in nav.links %} {% if item.url %}
-        <li class="nav-item">
+        <li class="nav-item border-top border-dark">
           <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% else %}
@@ -13,36 +32,34 @@
         {% endif %} {% endfor %}
 
         <li class="nav-item">
-          <ul>
-            <li>
-              <a
-                href="{{site.contacts.twitter.url}}"
-                title="our twitter account"
-                target="_blank"
-                >social media</span
-              ></a>
-            </li>
-            <li>
-              <a
-                href="{{site.contacts.github.url}}"
-                title="our github account"
-                target="_blank"
-                >github</span
-              ></a>
-            </li>
-            
-          </ul>
-        </li>
-        <li>
           <a
-            class="button"
-            id="chimpSignup"
-            href="{{site.contacts.mailinglist.url}}"
+            class="nav-link"
+            href="{{site.contacts.twitter.url}}"
+            title="our twitter account"
             target="_blank"
-            >Join our mailing list
+            >social media
           </a>
         </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="{{site.contacts.github.url}}"
+            title="our github account"
+            target="_blank"
+            >github</a
+          >
+        </li>
       </ul>
+
+      <div class="d-grid gap-2 p-2 border-top border-dark">
+        <a
+          class="btn btn-lg btn-transparent"
+          id="chimpSignup"
+          href="{{site.contacts.mailinglist.url}}"
+          target="_blank"
+          >Join our mailing list
+        </a>
+      </div>
     </div>
   </div>
-</nav>
+</aside>
