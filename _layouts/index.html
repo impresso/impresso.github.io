@@ -7,6 +7,15 @@ layout: default
     <div class="col-7 offset-2 g-0">
       <h1 class="m-5">{{page.title}} &mdash; <em>{{page.subheading}}</em></h1>
       <section class="m-5 text-italic serif">{{content}}</section>
+
+      <section class="m-5 d-flex justify-content-between">
+        <button type="button" class="btn btn-outline-primary btn-lg">
+          go to <em>impresso</em> <b>app</b>
+        </button>
+        <button type="button" class="btn btn-outline-primary btn-lg">
+          go to <em>impresso</em> <b>data lab</b>
+        </button>
+      </section>
     </div>
     <div class="col-3 g-0 border-start border-dark">
       <section class="p-3" style="min-height: 50%">
@@ -20,16 +29,26 @@ layout: default
       </section>
     </div>
   </div>
+  <div class="row g-0">
+    <div class="col-5 offset-7 g-0 border-bottom border-dark"></div>
+  </div>
   <div class="row g-0 position-sticky top-0">
     <div
-      class="col-10 offset-2 g-0 border-bottom border-dark"
+      class="col-5 offset-2 g-0 border-bottom border-dark"
       style="background: var(--bs-light)"
     >
       <ul class="nav mx-4 px-3 justify-content-between">
         <li class="nav-item w-50 py-3">
           <a class="nav-link small-caps" href="#">Events, Releases etc..</a>
         </li>
-        <li class="nav-item w-50 py-3 border-dark border-start">
+      </ul>
+    </div>
+    <div
+      class="col-5 g-0 border-dark border-start"
+      style="background: var(--bs-light)"
+    >
+      <ul class="nav mx-4 px-3 justify-content-between">
+        <li class="nav-item w-50 py-3">
           <a class="nav-link small-caps ms-3" href="#"
             >Blog, conferences etc ...</a
           >
@@ -40,12 +59,12 @@ layout: default
   <div class="row g-0 flex-grow-1">
     <div class="col-10 offset-2">
       <section class="d-flex">
-        <div class="w-50 py-3">
+        <div class="w-50 py-3 border-dark border-start">
           <div class="ps-5 pe-3">
             {% assign post=site.agenda | last %} {% include post.html %}
           </div>
         </div>
-        <div class="w-50 py-3">
+        <div class="w-50 py-3 border-start border-dark">
           <div class="ps-3 pe-5">
             {% assign post=site.posts | last %} {% include post.html %}
           </div>
