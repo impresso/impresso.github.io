@@ -10,6 +10,7 @@ status: publish
 
 Gerold Schneider is a computational linguist, corpus linguist and English linguist.
 
+Within the first *impresso* project, Gerold supported digital history research with an emphasis on word embeddings and visualisation.
+
 [UZH-CL profile](https://www.cl.uzh.ch/de/people/team/compling/gschneid.html)
 
-Within *impresso*, Gerold is invaluable in his role as computing specialist, supporting in Digital Humanities and a precious advisor for case studies.

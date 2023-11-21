@@ -8,6 +8,8 @@ subheading: Professor, UZH-CL
 status: publish
 ---
 
-Prof. Martin Volk is the Director of the University of Zurich’s Institute of Computational Linguistics. He supervises the contributions made by the research group at the Institute of Computational Linguistics.
+Martin Volk is the Director of the University of Zurich’s Department of Computational Linguistics. He advises on the multilingual text mining contributions conducted by the impresso research group at the Department of Computational Linguistics.
 
-[UZH-CL profile](http://www.cl.uzh.ch/de/people/team/compling/volk.html)
+Martin was one of the principal investigators of the first impresso project and serves as an advisor to the second project. 
+
+[UZH-CL profile](https://www.cl.uzh.ch/de/about-us/people/team/compling/volk.html)
