@@ -1,13 +1,12 @@
 ---
-category: associated-partner
-ordering: 07-unil
+category: core-partner
+ordering: 03-unil
 picture: /assets/images/unil-logo.png
 title: History department, University of Lausanne, UNIL.
 ---
 
-[// www.unil.ch/hist](http://www.unil.ch/hist/home.html) &mdash;  For more than a decade, the University of Lausanne’s History Department has developed extensive expertise in media history and has been actively engaged in research and teaching activities in digital humanities. As well as exploring the history of the media, the department encourages the increasingly systematic and methodologically rigorous integration of digital audiovisual and media sources into contemporary Swiss history.
+The History Department has extensive expertise in media history and is actively engaged in research and teaching activities in digital history. In 2006, a [research and teaching centre for the integration of audiovisual sources in contemporary history](https://www.unil.ch/hist/hac) was set up, and collaborations with RTS, SRG SSR and Memoriav were also developed. Since 2011, the Department has been examining the contribution of digital technology to historical research (cf. [transperiod research hub on digital history](https://www.unil.ch/hist/hn)). 
 
-**Role**: Historians from UNIL will use the tools and interfaces developed in the course of the project for teaching activities in the field of media history, the history of Swiss foreign policy and international cultural relations, as well as the political and cultural history of European integration (WP6.5). They will also contribute to discussions on the epistemological and methodological implications of the use of text analysis tools, interfaces and visualisations, and will organise and contribute to workshops on these topics (WP6.4).
+UNIL contributes its considerable expertise and networks in media – especially radio – and digital history, carries out several historical case studies, organises international conferences and helps strengthen the links with partner institutions, especially RTS and Memoriav.
 
-**Participants**: François Vallotton (Full Professor and Vice-Dean of the Faculty of Arts), Raphaëlle Ruppen Coutaz (Lecturer).
 

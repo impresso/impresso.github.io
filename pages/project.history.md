@@ -1,5 +1,5 @@
 ---
-title: "Historical research"
+title: "History"
 permalink: /project/history/
 nolang: /project/history/
 lang: en

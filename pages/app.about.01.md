@@ -5,30 +5,32 @@ lang: en
 group: app.about
 ---
 
-The _impresso_ project's main [objective](https://impresso-project.ch/project/objectives/) is to develop a media monitoring suite for historical newspapers driven by research objectives in computational linguistics, history and design.
+### *impresso* Interfaces
 
-<!-- more -->
+*impresso* develops two types of interfaces to access our data.
 
-<div class="row">
+#### 1. *impresso* Web App
 
-  <div class="col-lg-8 mt-2">
-    <a class="d-block image-link" href='/app/' target='_blank' title='Launch app in new tab'>
-      <div style="position: relative; height:260px; width: 100%; background: #ccc url(/assets/images/application/impresso-app-interface.png) top left; background-size:cover">
-        <div style="background:rgba(250,250,250,0.1); position:absolute; width:100%; height:100%; text-align:center; padding-top:120px;">
-          <div href="/app/" target="_blank" class="px-4 py-3 d-inline app-button">
-          Try the app
-          </div>
-        </div>
-      </div>
-      <div class="pt-2 mb-2">
-        &rarr; Try the
-        app</div>
-    </a>
-  </div>
+The [*impresso* Web App](https://impresso-project.ch/app/) offers a graphical user interface for exploration and the compilation of research datasets. It builds on the application developed during the first *impresso* project. As part of the second project, the web app is revised to facilitate access to different types of historical media, such as audio recordings, and various types of text, e.g., typescripts, transcribed speech, or radio programming schedules.
 
-  <div class="col-lg-12 mt-2">
-    <p>From a <a href="https://impresso-project.ch/project/linguistics/">computational linguistics perspective</a>, we carried out the semantic indexation of huge volumes of scanned texts via the adaption and application of a variety of natural language processing techniques, allowing humanities scholars to understand and interpret their contents. From a <a href="https://impresso-project.ch/project/history/">historical perspective</a>, the driving question was how such semantic enrichments could support search and discovery of sources and their critical analysis. For the <a href="https://impresso-project.ch/project/design/">design team</a> finally, this created the challenge to develop a public-facing interface which integrates the semantic enrichments in novel search and discovery workflows.</p>
-  </div>
+<figure class='respect-margin'>
+      <img class='cover' src=''>
+      <figcaption class="wrapper">
+          <p>[Add image web app linked to /app]</p>
+      </figcaption>
+    </figure>
+
+#### 2. *impresso* Data Lab
+
+The forthcoming ***impresso* Data Lab** is an infrastructure for data access and annotation services via APIs, along with their integration in executable Jupyter notebooks. The data lab will provide researchers with examples based on experiments with data-driven analyses of the *impresso* corpus. Annotation services offer access to semantic indexing models and the ability to relate external data to the corpus.
+
+<figure class='respect-margin'>
+      <img class='cover' src=''>
+      <figcaption class="wrapper">
+          <p>[Image of the data lab is "forthcoming" and to be replaced]</p>
+      </figcaption>
+    </figure>
 
 
-</div>
+See also: [Overall Objectives](/project/objectives/) and [Objectives Design](/project/design/)
+

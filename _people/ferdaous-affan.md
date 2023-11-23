@@ -4,7 +4,7 @@ group: collaborator
 ordering: 02-affan
 picture: /assets/images/ferdaous-affan.jpg
 subheading: Affiliated PhD Student, C2DH
-title: Ferdaous Affan
+title: Ferdaous Affan, Dipl.-Ing
 status: publish
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Impresso App"
+title: "Web App & Data Lab"
 permalink: /theapp/about/
 nolang: /theapp/about/
 lang: en

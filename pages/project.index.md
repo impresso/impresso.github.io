@@ -5,5 +5,3 @@ nolang: /project/
 lang: en
 parenturl: /fr/project/
 ---
-
-The project. bliblibli

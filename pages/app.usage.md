@@ -1,5 +1,5 @@
 ---
-title: "How to use it"
+title: "Tutorials"
 permalink: /theapp/usage/
 nolang: /theapp/usage/
 lang: en

@@ -5,11 +5,11 @@ lang: en
 group: design
 ---
 
-**Interfaces for the exploration and analysis of enriched and integrated historical media**
+### Interfaces for the exploration and analysis of enriched and integrated historical media
 
 To facilitate research on our data, we develop two research-oriented user interfaces: the *impresso* web app, a powerful graphical user interface, and the *impresso* data lab, developed around a user-oriented API. The design of both interfaces is informed by case studies and associated user needs, including transparency requirements. This to ensure a robust foundation for infrastructure and data sustainability and to establish a central hub for the creation of a research community around our corpus and interfaces.
 
-**The *impresso* Web App for source exploration**
+### The *impresso* Web App for source exploration
 
 The web app builds on the application developed during the first *impresso* project and merges traditional functionalities like keyword and faceted search with innovative features for exploring the enriched corpus. Its key functionalities are:
 
@@ -30,7 +30,7 @@ The web app builds on the application developed during the first *impresso* proj
       </figcaption>
     </figure>
 
-**The *impresso* Data Lab for computational analysis**
+### The *impresso* Data Lab for computational analysis
 
 The *impresso* data lab offers access to our corpus, enrichments, and tools by providing a dedicated API that also offers document annotation services. This will constitute a transparent and versatile framework for data-driven comparative analysis of internal and research-specific external documents. Overall, the data lab will offer the following services:
 

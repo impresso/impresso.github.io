@@ -8,5 +8,5 @@ permalink: /consortium/partners/
 title: "Partners"
 ---
 
-<!-- content here will serve as an intro. Cfr. _layouts/consortium.html -->
-The *impresso* project draws on the expertise and talent of three leading institutions in digital humanities, computational linguistics and digital history from Luxembourg and Switzerland.
+<!-- content here will serve as an intro. Cfr. _layouts/consortium.html 
+The *impresso* project draws on the expertise and talent of four leading institutions in digital humanities, computational linguistics and digital history from Luxembourg and Switzerland.-->

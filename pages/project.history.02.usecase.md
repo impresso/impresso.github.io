@@ -2,7 +2,7 @@
 title: "Historical use case: anti-European movements"
 type: section
 lang: en
-group: project.history
+group: 
 ---
 
 This case study involved an analysis of debates on the European idea in digitised newspapers from Luxembourg, Switzerland and beyond, with the aim of identifying tensions around the European idea from the late 19th century to the 1950s. It used the *impresso* tools to research an aspect of those debates that has received little attention: resistance to Europe. The lack of previous research on this question is undoubtedly related to the complex sources required.
