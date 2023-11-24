@@ -4,7 +4,7 @@ group: collaborator
 ordering: 02-michelet
 picture: /assets/images/arthur-michelet.jpg
 subheading: PhD Student, UNIL History Department
-title: Arthur Michelet
+title: Arthur Michelet, M.A.
 status: publish
 ---
 

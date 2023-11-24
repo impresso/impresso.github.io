@@ -1,4 +1,4 @@
----
+<!---
 category: contributor
 ordering: 
 picture: /assets/images/arcinfo-logo.png

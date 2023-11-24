@@ -4,7 +4,7 @@ group: collaborator
 ordering: 02-michail
 picture: /assets/images/andrianos-michail.jpg
 subheading: PhD Student, UZH-CL
-title: Andrianos Michail
+title: Andrianos Michail, M.Sc.
 status: publish
 ---
 

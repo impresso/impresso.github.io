@@ -6,6 +6,7 @@ lang: en
 languages: ['en', 'fr', 'de']
 timezone: Europe/Zurich
 
+
 publisher:
   name: impresso
 
