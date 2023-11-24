@@ -2,7 +2,7 @@
 category: team
 group: collaborator
 ordering: 02-beelen
-picture: /assets/images/kaspar-beelen.jpg
+picture: /assets/images/kaspar-beelen.png
 subheading: Visiting Researcher, C2DH
 title: Kaspar Beelen, PhD
 status: publish
