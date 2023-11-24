@@ -1,0 +1,28 @@
+name: Fetch Zotero Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: ./scripts/nodejs
+        run: yarn install
+
+      - name: Download Zotero BIBJSON for a specific group id
+        working-directory: ./scripts/nodejs
+        run: node zotero.js download-collection --token=ovZDI61sT8gkP9pwP1OZp2Kh 1486708 8PHTET8E _data/bib.json
+
+      - name: Commit and push if it changed
+        uses: stefanzweifel/git-auto-commit-action@v5
