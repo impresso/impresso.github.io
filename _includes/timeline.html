@@ -1,7 +1,127 @@
-<section id="Timeline" class="position-relative mx-5 my-2">
+<section
+  id="Timeline"
+  class="position-relative mx-5 my-2 border-dark border-start border-end"
+>
+  <div id="Timeline__startDate"></div>
+  <div id="Timeline__endDate"></div>
+  <div id="Timeline__pointer">
+    <div id="Timeline__pointerDate"></div>
+  </div>
+</section>
+<noscript>
   <ul>
     {% for item in site.agenda %}
     <li>{{ item.title }} - {{ item.human_date }}</li>
     {% endfor %}
   </ul>
-</section>
+</noscript>
+<script>
+  const timelineElement = document.querySelector('#Timeline')
+  const timelineStartDateEl = document.querySelector('#Timeline__startDate')
+  const timelineEndDateEl = document.querySelector('#Timeline__endDate')
+  const timelinePointer = document.querySelector('#Timeline__pointer')
+  const timelinePointerDate = document.querySelector('#Timeline__pointerDate')
+  let timelineBoundingClientRect = timelineElement.getBoundingClientRect()
+
+  // TODO: get these constants from config
+  const timelineStartDate = new Date('2023-09-01')
+  const timelineEndDate = new Date('2027-09-01')
+  timelineStartDateEl.innerHTML = timelineStartDate.getFullYear()
+  timelineEndDateEl.innerHTML = timelineEndDate.getFullYear()
+
+  const items = JSON.parse(
+    '[{% for item in site.agenda %}{ "title":"{{item.title}}",  "humanDate": "{{item.human_date}}", "startDate": "{{item.start_date}}", "endDate": "{{item.end_date}}"}{% unless forloop.last %},{% endunless %}{% endfor %}]'
+  ).map((item) => {
+    item.startDate = new Date(item.startDate)
+    item.endDate = new Date(item.endDate)
+    return item
+  })
+
+  const pxToMs = (px) => {
+    const timelineWidth = timelineBoundingClientRect.width
+    const timelineDuration = timelineEndDate - timelineStartDate
+    const msPerPx = timelineDuration / timelineWidth
+    return px * msPerPx
+  }
+
+  const pxToDate = (px) => {
+    const ms = pxToMs(px)
+    const date = new Date(timelineStartDate.getTime() + ms)
+    return date
+  }
+
+  console.log(items, timelineStartDate)
+
+  timelineElement.addEventListener('mousemove', (event) => {
+    const mouseX = event.clientX - timelineBoundingClientRect.left
+    const mouseY = event.clientY - timelineBoundingClientRect.top
+    // console.log('Mouse coordinates:', mouseX, mouseY)
+    const date = pxToDate(mouseX)
+    if (mouseX > 0 && mouseX < timelineBoundingClientRect.width) {
+      timelinePointer.style.opacity = 1
+      timelinePointer.style.transform = `translate(${mouseX}px, 0)`
+
+      timelinePointerDate.innerHTML = date.toLocaleString()
+    } else {
+      timelinePointer.style.opacity = 0
+    }
+  })
+
+  window.addEventListener('resize', () => {
+    timelineBoundingClientRect = timelineElement.getBoundingClientRect()
+  })
+</script>
+<style>
+  #Timeline {
+    height: 100px;
+    background: var(--bs-light);
+  }
+  #Timeline__startDate,
+  #Timeline__endDate {
+    position: absolute;
+    top: 50%;
+    line-height: 20px;
+    margin-top: -10px;
+    background: red;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--bs-dark);
+    width: 3rem;
+  }
+  #Timeline__startDate {
+    left: -3rem; /* 3rem is mx-5 of the TImeline element */
+    padding-right: 0.5rem;
+    text-align: right;
+  }
+  #Timeline__endDate {
+    right: -3rem; /* 3rem is mx-5 of the TImeline element */
+    padding-left: 0.5rem;
+    text-align: left;
+  }
+  #Timeline__pointer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    will-change: transform, opacity;
+    transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+    transform: translate(0, 0);
+    width: 1.5px;
+    background: var(--bs-dark);
+    pointer-events: none;
+  }
+  #Timeline__pointerDate {
+    position: absolute;
+    top: -3rem;
+    text-align: center;
+    margin-left: -50px;
+    height: 20px;
+    line-height: 20px;
+    width: 6rem;
+    color: var(--bs-dark);
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    pointer-events: none;
+  }
+</style>
