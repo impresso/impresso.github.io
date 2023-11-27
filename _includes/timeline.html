@@ -1,59 +1,7 @@
-<aside id="timeline">
-  <div id="timeline-browser">
-    <div class="inner">
-      <div class='date'></div>
-    <div class='close'>✕</div>
-    <div class='info'>
-      
-      <h1></h1>
-      <blockquote></blockquote>
-    </div>
-    <!-- <div class="navigator">
-      <div class='prev'>⇠ previous</div><div class='next'>next ⇢</div>
-    </div> -->
-    <div class='slides'>
-
-    </div>
-    </div>
-  </div>
-  <div class="date edge top">{{site.data.timeline.start_date_day}}<br/>{{site.data.timeline.start_date_year}}</div>
-  <div class="date edge bottom">{{site.data.timeline.end_date_day}}<br/>{{site.data.timeline.end_date_year}}</div>
-  <div class="lines">
-    <div class="line left top milestone full"></div>
-    <div class="line right top milestone full"></div>
-    <div class="line left bottom milestone full"></div>
-    <div class="line right bottom milestone full"></div>
-
-    <div id="timeline-now" class="attention-seeker">
-      <div class="point"></div><div class="circle pulse"></div>
-      
-    </div>
-    <div id="timeline-closest" class="attention-seeker">
-      <div class="point"></div>
-      <div class="circle pulse"></div>
-    </div>
-
-    
-    
-
-    <div class="values"></div>
-    
-  </div>
-  <div id="timeline-next-event"></div>
-
-  <!-- pointer: current date + closest item text -->
-  <div id="timeline-pointer">
-    <span class="date"></span>
-    <div class="item">
-      <div class='date'></div>
-      <div class='category'></div>
-      <label></label>
-    </div>
-  </div>
-    
-  <div id='v-axe'>
-    <div class="point top"></div>
-    <div class="point bottom"></div>
-  </div>
-
-</aside>
+<section id="Timeline" class="position-relative mx-5 my-2">
+  <ul>
+    {% for item in site.agenda %}
+    <li>{{ item.title }} - {{ item.human_date }}</li>
+    {% endfor %}
+  </ul>
+</section>
