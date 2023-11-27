@@ -67,6 +67,9 @@
     }
   })
 
+  timelineElement.addEventListener('mouseleave', (event) => {
+    timelinePointer.style.opacity = 0
+  })
   window.addEventListener('resize', () => {
     timelineBoundingClientRect = timelineElement.getBoundingClientRect()
   })
@@ -82,7 +85,6 @@
     top: 50%;
     line-height: 20px;
     margin-top: -10px;
-    background: red;
     font-size: 0.8rem;
     font-weight: bold;
     color: var(--bs-dark);
