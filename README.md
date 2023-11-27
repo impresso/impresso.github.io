@@ -8,66 +8,59 @@ Your local site resides here now: [localhost:4000](http://localhost:4000/)
 
 Details on [setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
-
 ## Where are pages stored on Github?
 
-Page type | Github Path
----- | -----------
-current home | [index](https://github.com/impresso/impresso.github.io/blob/master/index.html)
-new home | [index_](https://github.com/impresso/impresso.github.io/blob/master/index_.html)
-pages | [/pages](https://github.com/impresso/impresso.github.io/tree/master/pages)
-lab post | [/_labs](https://github.com/impresso/impresso.github.io/tree/master/_labs)
-blog posts | [/_posts](https://github.com/impresso/impresso.github.io/tree/master/_posts)
-people | [/_posts](https://github.com/impresso/impresso.github.io/tree/master/_people)
-partners | [/_posts](https://github.com/impresso/impresso.github.io/tree/master/_partners)
-
+| Page type    | Github Path                                                                       |
+| ------------ | --------------------------------------------------------------------------------- |
+| current home | [index](https://github.com/impresso/impresso.github.io/blob/master/index.html)    |
+| new home     | [index\_](https://github.com/impresso/impresso.github.io/blob/master/index_.html) |
+| pages        | [/pages](https://github.com/impresso/impresso.github.io/tree/master/pages)        |
+| lab post     | [/\_labs](https://github.com/impresso/impresso.github.io/tree/master/_labs)       |
+| blog posts   | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_posts)     |
+| people       | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_people)    |
+| partners     | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_partners)  |
 
 Page files are prefixed by their parent category. e.g.
+
 - `project.design.md`
 
 Pages can be split into multiple _sections_, e.g.
 
 app > usage
+
 - `app.usage.md`
 - `app.usage.01.md`
 - `app.usage.02.md`
 - ...
 
+## How to add an item to the Agenda
 
-## Welcome to GitHub Pages
+To add a new event to the agenda, that is the project timeline, follow these steps:
 
-You can use the [editor on GitHub](https://github.com/impresso/impresso/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+1. Create a new Markdown file in the `_agenda` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-event.md`. Use the earliest date of the event in the filename, as it is just being used to sort filenames in the directory.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2. In the newly created Markdown file, add the following front matter at the beginning of the file:
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```yaml
+---
+title: 'Event Title'
+layout: agenda
+start_date: YYYY-MM-DD # Start date of the event
+end_date: YYYY-MM-DD # End date of the event
+human_date: Month Year # Human-readable date, e.g., January 2027
+---
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Replace 'Event Title' with the actual title of the event, set the `start_date` and `end_date` to the appropriate dates in the format `YYYY-MM-DD`. The `human_date` is a human-readable date, e.g., January 2027 and it will be the only label displayed in the timeline.
+Adjust the human_date to reflect the month and year of the event.
+For example, for an event titled "New Event" scheduled for one unspecified day in January 2027, the front matter would look like:
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/impresso/impresso/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```yaml
+---
+title: 'New Event'
+layout: agenda
+start_date: 2027-01-01
+end_date: 2027-30-01
+human_date: Second or third week of January 2027
+---
+```

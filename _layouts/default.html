@@ -161,6 +161,10 @@ site.data.navigation.languages.en %}
         --bs-primary: black;
       }
 
+      .btn{
+        --bs-btn-border-width: 1.5px;
+      }
+
       .btn-outline-primary {
         --bs-btn-color: var(--bs-primary);
         --bs-btn-border-color: var(--bs-primary);
@@ -229,10 +233,21 @@ site.data.navigation.languages.en %}
       }
 
       .small-caps {
-        font-size: 0.85em;
+        font-size: 0.75em;
         text-transform: uppercase;
         font-weight: 550;
         font-variation-settings: 'wght' 550;
+        letter-spacing: .75px;
+      }
+
+      .small-caps b, b.small-caps, .small-caps.fw-bold{
+        font-weight: 700;
+        font-variation-settings: 'wght' 700;
+      }
+
+      .Release h4, .Announcement h4 {
+        font-weight: 350;
+        font-variation-settings: 'wght' 350;
       }
     </style>
   </head>

@@ -8,4 +8,4 @@ figure:
   caption: Patrons reading newspapers in the State Library of Queensland, 1934
 ---
 
-impresso - Media Monitoring of the Past is an interdisciplinary research project which aims to pioneer new approaches to the joint exploration of historical media content across time, languages, and national borders.
+Leveraging an unprecedented corpus of newspaper and radio archives, _impresso_ - Media Monitoring of the Past is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.

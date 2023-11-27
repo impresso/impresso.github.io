@@ -6,7 +6,6 @@ lang: en
 languages: ['en', 'fr', 'de']
 timezone: Europe/Zurich
 
-
 publisher:
   name: impresso
 
@@ -64,3 +63,8 @@ defaults:
       type: 'labs'
     values:
       layout: 'labItem'
+  - scope:
+      path: ''
+      type: 'announcements'
+    values:
+      layout: 'announcement'
