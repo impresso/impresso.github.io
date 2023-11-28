@@ -72,6 +72,7 @@ site.data.navigation.languages.en %}
     <meta name="DC.title" content="{{page.title}}" />
     {% endif %} {% if page.layout == "post" %}
     <meta name="DC.type" content="Blogpost" />
+
     {% endif %} {% if page.authors %} {% for authorid in page.authors %} {%
     assign author= site.people | where: "slug", authorid | first %}
     <meta

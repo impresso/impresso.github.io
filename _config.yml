@@ -7,7 +7,8 @@ languages: ['en', 'fr', 'de']
 timezone: Europe/Zurich
 exclude:
   - scripts
-  - pages
+  - dep_pages
+  - node_modules
 publisher:
   name: impresso
 

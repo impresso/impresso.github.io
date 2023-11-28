@@ -19,15 +19,16 @@
   </div>
   <div id="Timeline__tooltip"></div>
 </section>
-
-<ul>
-  {% for item in site.agenda %}
-  <li>
-    {{ item.title }} - {{ item.human_date }}
-    <a href="{{ item.url }}">link</a>
-  </li>
-  {% endfor %}
-</ul>
+<noscript>
+  <ul>
+    {% for item in site.agenda %}
+    <li>
+      {{ item.title }} - {{ item.human_date }}
+      <a href="{{ item.url }}">link</a>
+    </li>
+    {% endfor %}
+  </ul>
+</noscript>
 
 <script>
   const timelineElement = document.querySelector('#Timeline')
@@ -99,7 +100,7 @@
       })
     } else {
       timelinePointer.style.opacity = 0
-    // }
+    }
     // // get closest item
     // const closestItem = items.reduce((prev, curr) => {
     //   const prevDiff = Math.abs(prev.startDate - date)

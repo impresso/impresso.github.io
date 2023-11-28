@@ -1,9 +1,5 @@
 ---
-title: "Blog"
-layout: blog
-permalink: /blog/
-nolang: /blog/
-lang: en
+layout: page
 ---
 
-News and more
+CICCIO
