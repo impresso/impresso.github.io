@@ -1,12 +1,23 @@
 <section
   id="Timeline"
-  class="position-relative mx-5 my-2 border-dark border-start border-end"
+  class="position-relative mx-5 border-dark border-start border-end"
 >
+  <div id="Timeline__activeArea"></div>
+  <div id="Timeline__past"></div>
+  <div id="Timeline__xAxis"></div>
+
   <div id="Timeline__startDate"></div>
   <div id="Timeline__endDate"></div>
+
   <div id="Timeline__pointer">
     <div id="Timeline__pointerDate"></div>
   </div>
+
+  <div id="Timeline__rail"></div>
+  <div id="Timeline__now">
+    <div id="Timeline__nowDate"></div>
+  </div>
+  <div id="Timeline__tooltip"></div>
 </section>
 <noscript>
   <ul>
@@ -17,20 +28,28 @@
 </noscript>
 <script>
   const timelineElement = document.querySelector('#Timeline')
+  const timelineActiveArea = document.querySelector('#Timeline__activeArea')
+  const timelineXAxis = document.querySelector('#Timeline__xAxis')
   const timelineStartDateEl = document.querySelector('#Timeline__startDate')
   const timelineEndDateEl = document.querySelector('#Timeline__endDate')
   const timelinePointer = document.querySelector('#Timeline__pointer')
   const timelinePointerDate = document.querySelector('#Timeline__pointerDate')
+  const timelineRail = document.querySelector('#Timeline__rail')
+  const timelineNow = document.querySelector('#Timeline__now')
+  const timelineNowDate = document.querySelector('#Timeline__nowDate')
+  const timelinePast = document.querySelector('#Timeline__past')
+  const timelineTooltip = document.querySelector('#Timeline__tooltip')
+
   let timelineBoundingClientRect = timelineElement.getBoundingClientRect()
 
   // TODO: get these constants from config
-  const timelineStartDate = new Date('2023-09-01')
+  const timelineStartDate = new Date('2023-08-01')
   const timelineEndDate = new Date('2027-09-01')
   timelineStartDateEl.innerHTML = timelineStartDate.getFullYear()
   timelineEndDateEl.innerHTML = timelineEndDate.getFullYear()
 
   const items = JSON.parse(
-    '[{% for item in site.agenda %}{ "title":"{{item.title}}",  "humanDate": "{{item.human_date}}", "startDate": "{{item.start_date}}", "endDate": "{{item.end_date}}"}{% unless forloop.last %},{% endunless %}{% endfor %}]'
+    '[{% for item in site.agenda %}{ "title":"{{item.title}}", "url": "{{item.url}}", "humanDate": "{{item.human_date}}", "startDate": "{{item.start_date}}", "endDate": "{{item.end_date}}"}{% unless forloop.last %},{% endunless %}{% endfor %}]'
   ).map((item) => {
     item.startDate = new Date(item.startDate)
     item.endDate = new Date(item.endDate)
@@ -44,6 +63,13 @@
     return px * msPerPx
   }
 
+  const MsToPx = (ms) => {
+    const timelineWidth = timelineBoundingClientRect.width
+    const timelineDuration = timelineEndDate - timelineStartDate
+    const pxPerMs = timelineWidth / timelineDuration
+    return ms * pxPerMs
+  }
+
   const pxToDate = (px) => {
     const ms = pxToMs(px)
     const date = new Date(timelineStartDate.getTime() + ms)
@@ -52,7 +78,7 @@
 
   console.log(items, timelineStartDate)
 
-  timelineElement.addEventListener('mousemove', (event) => {
+  function handleMouseMove(event) {
     const mouseX = event.clientX - timelineBoundingClientRect.left
     const mouseY = event.clientY - timelineBoundingClientRect.top
     // console.log('Mouse coordinates:', mouseX, mouseY)
@@ -60,24 +86,111 @@
     if (mouseX > 0 && mouseX < timelineBoundingClientRect.width) {
       timelinePointer.style.opacity = 1
       timelinePointer.style.transform = `translate(${mouseX}px, 0)`
+      // use en GB locale for dates in the format "Fri, 1 Jan 2021"
 
-      timelinePointerDate.innerHTML = date.toLocaleString()
+      timelinePointerDate.innerHTML = date.toLocaleDateString('en-GB', {
+        weekday: 'short',
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric',
+      })
     } else {
       timelinePointer.style.opacity = 0
     }
-  })
+
+    // get closest item
+    const closestItem = items.reduce((prev, curr) => {
+      const prevDiff = Math.abs(prev.startDate - pxToDate(mouseX))
+      const currDiff = Math.abs(curr.startDate - pxToDate(mouseX))
+      return prevDiff < currDiff ? prev : curr
+    })
+    console.log(closestItem)
+  }
+
+  timelineActiveArea.addEventListener('mousemove', handleMouseMove)
+  timelineRail.addEventListener('mousemove', handleMouseMove)
 
   timelineElement.addEventListener('mouseleave', (event) => {
     timelinePointer.style.opacity = 0
   })
   window.addEventListener('resize', () => {
     timelineBoundingClientRect = timelineElement.getBoundingClientRect()
+    drawTimeline()
+    drawAxis()
   })
+
+  function drawAxis() {
+    // get years between start and end
+    const years = []
+    let year = timelineStartDate.getFullYear() + 1
+    while (year <= timelineEndDate.getFullYear()) {
+      years.push(year)
+      year++
+    }
+    // remove all children
+    while (timelineXAxis.firstChild) {
+      timelineXAxis.removeChild(timelineXAxis.firstChild)
+    }
+    // draw years as divs
+    years.forEach((year) => {
+      const yearEl = document.createElement('div')
+      yearEl.classList.add('Timeline__year')
+      yearEl.innerHTML = '<span>' + year + '</span>'
+      yearEl.style.left =
+        MsToPx(new Date(year, 0, 1) - timelineStartDate) + 'px'
+      timelineXAxis.appendChild(yearEl)
+    })
+  }
+
+  function drawTimeline() {
+    // draw now line
+    const now = new Date()
+    const nowPx = MsToPx(now - timelineStartDate)
+    timelineNow.style.left = nowPx + 'px'
+    timelineNowDate.innerHTML = now.toLocaleDateString('en-GB', {
+      weekday: 'short',
+      day: 'numeric',
+      month: 'short',
+      year: 'numeric',
+    })
+
+    // draw past rectangle
+    timelinePast.style.left = 0
+    timelinePast.style.right = MsToPx(timelineEndDate - now) + 'px'
+    // draw items
+    // remove all children
+    while (timelineRail.firstChild) {
+      timelineRail.removeChild(timelineRail.firstChild)
+    }
+    // draw rectangles as divs
+    items.forEach((item) => {
+      const itemEl = document.createElement('div')
+      itemEl.classList.add('Timeline__item')
+      itemEl.style.left = MsToPx(item.startDate - timelineStartDate) + 'px'
+      itemEl.style.right = MsToPx(timelineEndDate - item.endDate) + 'px'
+      timelineRail.appendChild(itemEl)
+    })
+  }
+  drawTimeline()
+  drawAxis()
 </script>
 <style>
   #Timeline {
-    height: 100px;
+    --timeline-height-50: 20px;
+    --timeline-height: 40px;
+    height: var(--timeline-height);
+    margin-top: 70px;
+    margin-bottom: var(--timeline-height);
     background: var(--bs-light);
+    font-size: 0.8rem;
+  }
+  #Timeline__activeArea {
+    position: absolute;
+    top: -80px;
+    bottom: -80px;
+    left: 0;
+    right: 0;
+    pointer-events: auto;
   }
   #Timeline__startDate,
   #Timeline__endDate {
@@ -85,7 +198,7 @@
     top: 50%;
     line-height: 20px;
     margin-top: -10px;
-    font-size: 0.8rem;
+    font-size: inherit;
     font-weight: bold;
     color: var(--bs-dark);
     width: 3rem;
@@ -102,8 +215,8 @@
   }
   #Timeline__pointer {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: -50px;
+    bottom: -10px;
     left: 0;
     will-change: transform, opacity;
     transition: transform 0.2s ease-out, opacity 0.2s ease-out;
@@ -115,15 +228,87 @@
   #Timeline__pointerDate {
     position: absolute;
     top: -3rem;
+    left: 0;
+    text-align: center;
+    margin-left: -3rem;
+    height: 20px;
+    line-height: 20px;
+    width: 6rem;
+    color: var(--bs-dark);
+    font-size: inherit;
+    font-weight: bold;
+    padding: 0.5rem;
+    pointer-events: none;
+  }
+  #Timeline__now {
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: 0;
+    width: 1.5px;
+
+    background: var(--bs-dark);
+    /* blink */
+    animation: blinker 1s linear infinite;
+    pointer-events: none;
+  }
+  #Timeline__nowDate {
+    position: absolute;
+    top: -3rem;
     text-align: center;
     margin-left: -50px;
     height: 20px;
     line-height: 20px;
     width: 6rem;
     color: var(--bs-dark);
-    font-size: 0.8rem;
+    font-size: inherit;
     font-weight: bold;
     padding: 0.5rem;
+  }
+  @keyframes blinker {
+    50% {
+      background-color: transparent;
+    }
+  }
+  #Timeline__past {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+    z-index: 0;
     pointer-events: none;
+  }
+  .Timeline__item {
+    height: var(--timeline-height);
+    border: 1px solid var(--bs-accent);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: var(--bs-accent-transparent);
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  .Timeline__item:hover {
+    background-color: var(--bs-accent);
+    border-color: var(--bs-dark);
+  }
+  .Timeline__year {
+    position: absolute;
+    top: 0;
+    bottom: -10px;
+
+    line-height: var(--timeline-height-50);
+    text-align: center;
+    color: var(--bs-dark);
+    font-size: inherit;
+    border-left: 1px dotted var(--bs-dark);
+  }
+
+  .Timeline__year span {
+    position: absolute;
+    font-size: 0.8rem;
+    bottom: -20px;
   }
 </style>

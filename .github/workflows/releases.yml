@@ -1,10 +1,10 @@
-name: Fetch Zotero Data
+name: Fetch and update Releases Data
 
 on:
   workflow_dispatch:
 
 jobs:
-  fetch_data:
+  update_releases:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,11 +20,11 @@ jobs:
         working-directory: ./scripts/nodejs
         run: yarn install
 
-      - name: Download Zotero BIBJSON for a specific group id
-        working-directory: ./scripts/nodejs
-        run: node zotero.js download-collection 1486708 8PHTET8E _data/bib.json
+      - name: Update Releases JSON
+        run: |
+          node github-releases.js
         env:
-          ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push if it changed
         uses: stefanzweifel/git-auto-commit-action@v5
