@@ -5,7 +5,9 @@ title: impresso
 lang: en
 languages: ['en', 'fr', 'de']
 timezone: Europe/Zurich
-
+exclude:
+  - scripts
+  - pages
 publisher:
   name: impresso
 
@@ -50,9 +52,9 @@ collections:
 defaults:
   - scope:
       path: ''
-      type: 'agenda'
+      type: agenda
     values:
-      layout: 'agenda'
+      layout: agendaItem
   - scope:
       path: ''
       type: 'glossary'
@@ -65,6 +67,6 @@ defaults:
       layout: 'labItem'
   - scope:
       path: ''
-      type: 'announcements'
+      type: announcements
     values:
-      layout: 'announcement'
+      layout: announcement

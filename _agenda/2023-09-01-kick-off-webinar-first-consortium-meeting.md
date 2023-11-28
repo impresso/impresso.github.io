@@ -1,6 +1,5 @@
 ---
 title: 'Kick-off Webinar & First Consortium Meeting'
-layout: agenda
 start_date: 2023-09-28
 end_date: 2023-09-28
 human_date: September 2024

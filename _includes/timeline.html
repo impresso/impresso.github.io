@@ -19,13 +19,16 @@
   </div>
   <div id="Timeline__tooltip"></div>
 </section>
-<noscript>
-  <ul>
-    {% for item in site.agenda %}
-    <li>{{ item.title }} - {{ item.human_date }}</li>
-    {% endfor %}
-  </ul>
-</noscript>
+
+<ul>
+  {% for item in site.agenda %}
+  <li>
+    {{ item.title }} - {{ item.human_date }}
+    <a href="{{ item.url }}">link</a>
+  </li>
+  {% endfor %}
+</ul>
+
 <script>
   const timelineElement = document.querySelector('#Timeline')
   const timelineActiveArea = document.querySelector('#Timeline__activeArea')
@@ -96,20 +99,25 @@
       })
     } else {
       timelinePointer.style.opacity = 0
-    }
-
-    // get closest item
-    const closestItem = items.reduce((prev, curr) => {
-      const prevDiff = Math.abs(prev.startDate - pxToDate(mouseX))
-      const currDiff = Math.abs(curr.startDate - pxToDate(mouseX))
-      return prevDiff < currDiff ? prev : curr
-    })
-    console.log(closestItem)
+    // }
+    // // get closest item
+    // const closestItem = items.reduce((prev, curr) => {
+    //   const prevDiff = Math.abs(prev.startDate - date)
+    //   const currDiff = Math.abs(curr.startDate - date)
+    //   return prevDiff < currDiff ? prev : curr
+    // })
+    // console.log(closestItem)
   }
 
   timelineActiveArea.addEventListener('mousemove', handleMouseMove)
   timelineRail.addEventListener('mousemove', handleMouseMove)
-
+  timelineRail.addEventListener('click', (event) => {
+    const idx = event.target.getAttribute('data-idx')
+    if (!isNaN(idx)) {
+      const item = items[idx]
+      window.location.href = item.url
+    }
+  })
   timelineElement.addEventListener('mouseleave', (event) => {
     timelinePointer.style.opacity = 0
   })
@@ -163,9 +171,10 @@
       timelineRail.removeChild(timelineRail.firstChild)
     }
     // draw rectangles as divs
-    items.forEach((item) => {
+    items.forEach((item, i) => {
       const itemEl = document.createElement('div')
       itemEl.classList.add('Timeline__item')
+      itemEl.setAttribute('data-idx', i)
       itemEl.style.left = MsToPx(item.startDate - timelineStartDate) + 'px'
       itemEl.style.right = MsToPx(timelineEndDate - item.endDate) + 'px'
       timelineRail.appendChild(itemEl)
