@@ -1,4 +1,4 @@
-theme: jekyll-theme-tactile
+theme: empty-jekyll-theme
 excerpt_separator: '<!-- more -->'
 base: http://impresso-project.ch
 title: impresso

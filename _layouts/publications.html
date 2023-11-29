@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+{% assign bib_json_items = site.data[page.bib_json_name] %}
+
+<div class="page Publications">
+  {{ content }}
+  <div id="bibliography"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
+<script></script>
+<script>
+  const items = {{ bib_json_items| jsonify }};
+  const Cite = require('citation-js')
+  const data = new Cite('Q30000000')
+
+
+  document.getElementById('bibliography').innerHTML = items.map(d => (new Cite(d.csljson)).format(
+    'bibliography',
+    {
+      format: 'html',
+      template: 'apa',
+      lang: 'en-US',
+    }
+  ))
+</script>

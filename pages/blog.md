@@ -1,5 +1,6 @@
 ---
-layout: page
+title: 'Blog'
+layout: blog
+permalink: /blog/
+lang: en
 ---
-
-CICCIO

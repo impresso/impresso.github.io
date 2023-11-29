@@ -1,8 +1,7 @@
 ---
-title: "Publications"
-layout: publication
+title: 'Publications'
+layout: page
 permalink: /publications/
-nolang: /publications/
 lang: en
 ---
 
