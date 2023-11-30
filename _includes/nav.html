@@ -33,10 +33,24 @@ site.data.navigation.languages.en %}
           </div>
         </li>
         {% for item in nav.links %} {% if item.url %}
-        <li class="nav-item">
+        <li class="nav-item ms-5 position-relative">
           <a class="nav-link small-caps" href="{{ item.url }}"
             >{{ item.title }}</a
           >
+          {% if item.links %}
+          <button
+            class="btn btn-transparent Nav__dropdownToggler position-absolute"
+          >
+            {% include icons/plus.html %}
+          </button>
+          <ul class="ps-3">
+            {% for subitem in item.links %}
+            <a class="nav-link small-caps" href="{{ subitem.url }}"
+              >{{ subitem.title }}</a
+            >
+            {% endfor %}
+          </ul>
+          {% endif %}
         </li>
         {% else %}
         <li class="nav-item">
@@ -85,4 +99,36 @@ site.data.navigation.languages.en %}
     const isDark = html.classList.contains('dark')
     localStorage.setItem('darkMode', isDark)
   })
+
+  // on click on the nav, open the <ul>
+  const navDropdownTogglers = document.querySelectorAll('.Nav__dropdownToggler')
+  navDropdownTogglers.forEach((toggler) => {
+    toggler.addEventListener('click', (e) => {
+      const ul = e.currentTarget.nextElementSibling
+      // if it has no open class, calculate the hidden height.
+      if (!ul.classList.contains('open')) {
+        const hiddenHeight = ul.scrollHeight
+        ul.style.height = hiddenHeight + 'px'
+      } else {
+        ul.style.height = 0
+      }
+      ul.classList.toggle('open')
+    })
+  })
 </script>
+<style>
+  .Nav__dropdownToggler {
+    border: none;
+    background: transparent;
+    color: var(--bs-primary);
+    font-size: 1.5rem;
+    left: -35px;
+    top: -10px;
+  }
+  .Nav li ul {
+    will-change: height;
+    transition: height 0.2s ease-out;
+    overflow: hidden;
+    height: 0;
+  }
+</style>
