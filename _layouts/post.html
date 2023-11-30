@@ -15,6 +15,9 @@ layout: page
 {% assign remaining_paragraphs = paragraphs | shift %}
 
 <div class="contents">
-  {% for paragraph in remaining_paragraphs %}{{paragraph}} {% endfor %} {%
-  include reference.html %} {% include copyright.html %}
+  {% for paragraph in remaining_paragraphs %}
+    {{paragraph}} 
+  {% endfor %}
+  {% include reference.html %}
+  {% include copyright.html %}
 </div>

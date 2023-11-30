@@ -35,16 +35,16 @@ app > usage
 
 ## How to add an item to the Agenda
 
-To add a new event to the agenda, that is the project timeline, follow these steps:
+To add a new event to the **events**, that is the project timeline, follow these steps:
 
-1. Create a new Markdown file in the `_agenda` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-event.md`. Use the earliest date of the event in the filename, as it is just being used to sort filenames in the directory.
+1. Create a new Markdown file in the `_events` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-event.md`. Use the earliest date of the event in the filename, as it is just being used to sort filenames in the directory. *Note: Jekyll would not render the file if the date in the filename is in the future, so you can safely create the file even if the event is not scheduled yet*. If you want the event to be displayed as a separate page, don't forget to add the `date` field to the front matter!
 
 2. In the newly created Markdown file, add the following front matter at the beginning of the file:
 
 ```yaml
 ---
 title: 'Event Title'
-layout: agenda
+date: YYYY-MM-DD # Publication date of the event, optional if date in the filename refers to past date
 start_date: YYYY-MM-DD # Start date of the event
 end_date: YYYY-MM-DD # End date of the event
 human_date: Month Year # Human-readable date, e.g., January 2027
@@ -58,7 +58,7 @@ For example, for an event titled "New Event" scheduled for one unspecified day i
 ```yaml
 ---
 title: 'New Event'
-layout: agenda
+date: 2023-11-29
 start_date: 2027-01-01
 end_date: 2027-30-01
 human_date: Second or third week of January 2027

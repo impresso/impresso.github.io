@@ -22,12 +22,12 @@ layout: default
         </button>
       </section>
     </div>
-    <div class="col-3 g-0">
-      <section class="p-3" style="min-height: 50%">
+    <div class="col-3 g-0 pt-5">
+      <section class="pb-3 ps-3 pe-5" style="min-height: 50%">
         <h3 class="small-caps fw-bold mb-3">Releases</h3>
         {% assign release = site.releases | last %} {% include release.html %}
       </section>
-      <section class="p-3">
+      <section class="py-3 ps-3 pe-5">
         <h3 class="small-caps fw-bold mb-3">Announcements</h3>
         {% assign announcement = site.announcements | last %} {% include
         announcement.html %}
@@ -35,45 +35,33 @@ layout: default
     </div>
   </div>
   <div class="row g-0">
-    <div class="col-10 offset-2 g-0">{% include timeline.html %}</div>
+    <div class="col-10 offset-2 g-0">
+      <div class="mx-5">
+        {% include timeline.html %}
+      </div>
+    </div>
   </div>
   <div class="row g-0 position-sticky top-0">
     <div
-      class="col-5 offset-2 g-0 border-bottom border-dark"
-      style="background: var(--bs-light)"
+      class="col-10 offset-2 g-0 "
     >
-      <ul class="nav mx-4 px-3 justify-content-between">
-        <li class="nav-item w-50 py-3">
-          <a class="nav-link small-caps" href="#">Events, Releases etc..</a>
-        </li>
-      </ul>
-    </div>
-    <div
-      class="col-5 g-0 border-dark border-start"
-      style="background: var(--bs-light)"
-    >
-      <ul class="nav mx-4 px-3 justify-content-between">
-        <li class="nav-item w-50 py-3">
-          <a class="nav-link small-caps ms-3" href="#"
-            >Blog, conferences etc ...</a
-          >
-        </li>
-      </ul>
+      <div class="d-flex align-items-center mx-5 ">
+        <h3 class="flex-shrink-1 small-caps fw-bold mb-0 me-2">Blog posts</h3>
+        <hr class="flex-grow-1"/>
+      </div>
     </div>
   </div>
   <div class="row g-0 flex-grow-1">
     <div class="col-10 offset-2">
-      <section class="d-flex">
+      <section class="d-flex me-5">
+        {% assign posts=site.posts | slice: 1, 2 %} 
+        {% for post in posts %}
         <div class="w-50 py-3">
           <div class="ps-5 pe-3">
-            {% assign post=site.agenda | last %} {% include post.html %}
+            {% include post.html %}
           </div>
         </div>
-        <div class="w-50 py-3">
-          <div class="ps-3 pe-5">
-            {% assign post=site.posts | last %} {% include post.html %}
-          </div>
-        </div>
+        {% endfor %}
       </section>
     </div>
   </div>

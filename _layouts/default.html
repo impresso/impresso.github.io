@@ -143,7 +143,7 @@ site.data.navigation.languages.en %}
       html {
         height: 100%;
       }
-
+      /* color palette: https://coolors.co/212529-fafbf2-fe938c-ad91a3-ffe587 */
       :root {
         --bs-font-sans-serif: 'Satoshi-Variable', -apple-system,
           BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
@@ -162,8 +162,13 @@ site.data.navigation.languages.en %}
         --bs-primary: #FFE587;
         --bs-accent: #FE938C;
         --bs-accent-transparent: #FE938C77;
+        --bs-dark: #212529ff;
+        --bs-dark-transparent: #21252999;
       }
-
+      .icon path{
+        will-change: color;
+        transition: color 0.2s ease-out;
+      }
       .btn{
         --bs-btn-border-width: 1.5px;
       }
@@ -177,38 +182,42 @@ site.data.navigation.languages.en %}
         --bs-btn-color: var(--bs-dark);
         --bs-btn-bg: var(--bs-primary);
         --bs-btn-border-color: var(--bs-primary);
-        --bs-btn-hover-color: #fff;
-        --bs-btn-hover-bg: #0b5ed7;
-        --bs-btn-hover-border-color: #0a58ca;
+        --bs-btn-hover-color:  var(--bs-primary);
+        --bs-btn-hover-bg: var(--bs-dark);
+        --bs-btn-hover-border-color: var(--bs-dark);
         --bs-btn-focus-shadow-rgb: 49,132,253;
         --bs-btn-active-color: #fff;
-        --bs-btn-active-bg: #0a58ca;
-        --bs-btn-active-border-color: #0a53be;
+        --bs-btn-active-bg: var(--bs-dark);
+        --bs-btn-active-border-color: var(--bs-dark-transparent);
         --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
         --bs-btn-disabled-color: #fff;
         --bs-btn-disabled-bg: var(--bs-primary);
         --bs-btn-disabled-border-color: var(--bs-primary);
       }
 
+      .btn-primary:hover .icon path{
+        stroke: var(--bs-primary);
+      }
+
       @media (prefers-color-scheme: dark) {
         :root {
           --bs-light: #212529ff;
-          --bs-dark: FAFBF2;
-          --bs-text-color: FAFBF2;
-          --bs-body-color: FAFBF2;
+          --bs-dark: #FAFBF2;
+          --bs-text-color: #FAFBF2;
+          --bs-body-color: #FAFBF2;
           --bs-dark-rgb: 250, 250, 250;
           --bs-primary: white;
           --bs-link-color:  white;
-          --bs-link-hover-color white;
+          --bs-link-hover-color: white;
         }
 
         .nav {
-          --bs-nav-link-color: FAFBF2;
+          --bs-nav-link-color: #FAFBF2;
           --bs-nav-link-hover-color: gold;
         }
-        /* .border-dark {
+        .border-dark {
           --bs-border-opacity: 0.5;
-        } */
+        }
         .badge {
           --bs-badge-color: #212529ff;
         }
@@ -216,9 +225,12 @@ site.data.navigation.languages.en %}
       body {
         min-height: 100%;
         height: 100%;
-
-        /* border: var(--bs-border-width) solid var(--bs-dark); */
         background-color: var(--bs-light);
+      }
+      hr {
+        color: var(--bs-dark);
+        opacity: 1;
+        border-width: 2px;
       }
       .serif {
         font-family: var(--bs-font-serif);

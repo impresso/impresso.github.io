@@ -25,9 +25,6 @@ contacts:
     name: impresso-project
 
 collections:
-  agenda:
-    output: true
-    permalink: /:collection/:path/
   people:
     output: true
     permalink: /:collection/:path/
@@ -42,6 +39,7 @@ collections:
     permalink: /:collection/:path/
   events:
     output: true
+    future: true
     permalink: /:collection/:path/
   releases:
     output: true
@@ -53,9 +51,9 @@ collections:
 defaults:
   - scope:
       path: ''
-      type: agenda
+      type: events
     values:
-      layout: agendaItem
+      layout: event
   - scope:
       path: ''
       type: 'glossary'

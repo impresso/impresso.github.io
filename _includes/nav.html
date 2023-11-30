@@ -71,8 +71,8 @@ site.data.navigation.languages.en %}
           </div>
         </li>
         {% for item in nav.links %} {% if item.url %}
-        <li class="nav-item border-top border-dark">
-          <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+        <li class="nav-item">
+          <a class="nav-link small-caps" href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% else %}
         <li class="nav-item">
