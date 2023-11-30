@@ -8,58 +8,20 @@ site.data.navigation.languages.en %}
           class="nav-item squared position-relative"
           style="padding-top: 100%"
         >
-          <div class="position-absolute start-0 top-0 p-2">
-            <?xml version="1.0" encoding="UTF-8"?><svg
-              width="24px"
-              height="24px"
-              viewBox="0 0 24 24"
-              stroke-width="2.4"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              color="#000000"
-            >
-              <path
-                d="M2 8L11.7317 3.13416C11.9006 3.04971 12.0994 3.0497 12.2683 3.13416L22 8"
-                stroke="#000000"
-                stroke-width="2.4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M20 11V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V11"
-                stroke="#000000"
-                stroke-width="2.4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
-          </div>
-          <div class="position-absolute end-0 top-0 p-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24px"
-              height="24px"
-              fill="none"
-              stroke-width="2.4"
-              viewBox="0 0 24 24"
-              color="#000000"
-            >
-              <path
-                stroke="#000000"
-                stroke-width="2.4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
-              ></path>
-              <path
-                stroke="#000000"
-                stroke-width="2.4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 22c-3.314 0-6-4.477-6-10S8.686 2 12 2"
-              ></path>
-            </svg>
-          </div>
+          <a
+            href="/"
+            class="btn btn-transparent position-absolute start-0 top-0 p-2"
+            style="z-index: 1"
+          >
+            {% include icons/home-simple-door.html %}
+          </a>
+          <button
+            class="position-absolute end-0 top-0 p-2 btn btn-transparent"
+            id="Nav__darkModeToggler"
+            style="z-index: 1"
+          >
+            {% include icons/dark-mode.html %}
+          </button>
           <div
             class="position-absolute top-0 start-0 end-0 bottom-0 d-flex align-items-center justify-content-center"
           >
@@ -72,7 +34,9 @@ site.data.navigation.languages.en %}
         </li>
         {% for item in nav.links %} {% if item.url %}
         <li class="nav-item">
-          <a class="nav-link small-caps" href="{{ item.url }}">{{ item.title }}</a>
+          <a class="nav-link small-caps" href="{{ item.url }}"
+            >{{ item.title }}</a
+          >
         </li>
         {% else %}
         <li class="nav-item">
@@ -112,3 +76,13 @@ site.data.navigation.languages.en %}
     </div>
   </div>
 </aside>
+<script>
+  const navDarkModeToggler = document.querySelector('#Nav__darkModeToggler')
+  // onclick, toggle dark mode
+  navDarkModeToggler.addEventListener('click', () => {
+    const html = document.querySelector('body')
+    html.classList.toggle('dark')
+    const isDark = html.classList.contains('dark')
+    localStorage.setItem('darkMode', isDark)
+  })
+</script>
