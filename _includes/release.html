@@ -7,8 +7,8 @@
     {{release.content}}
     <p>{{release.date | date: "%B %d, %Y"}}</p>
   </div>
-  <div class="text-end border-bottom border-dark">
-    <a href="{{ release.url }}" class="btn btn-transparent"
+  <div class="position-relative border-bottom border-dark">
+    <a href="{{ release.url }}" style="right: -12px" class="btn btn-transparent position-absolute bottom-0"
       >{% include icons/arrow-right-circle.html %}</a
     >
   </div>
