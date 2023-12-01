@@ -32,10 +32,12 @@ site.data.navigation.languages.en %}
             </a>
           </div>
         </li>
-        {% for item in nav.links %} {% if item.url %}
-        <li class="nav-item ms-5 position-relative">
+        {% for item in nav.links %}
+        <li
+          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == page.url %} active {% endif %}"
+        >
           <a class="nav-link small-caps" href="{{ item.url }}"
-            >{{ item.title }}</a
+            ><span>{{ item.title }}</span></a
           >
           {% if item.links %}
           <button
@@ -43,20 +45,16 @@ site.data.navigation.languages.en %}
           >
             {% include icons/plus.html %}
           </button>
-          <ul class="ps-3">
+          <ul>
             {% for subitem in item.links %}
-            <a class="nav-link small-caps" href="{{ subitem.url }}"
-              >{{ subitem.title }}</a
+            <a class="nav-link" href="{{ subitem.url }}"
+              ><span>{{ subitem.title }}</span></a
             >
             {% endfor %}
           </ul>
           {% endif %}
         </li>
-        {% else %}
-        <li class="nav-item">
-          <span class="nav-link">{{ item.title }}</span>
-        </li>
-        {% endif %} {% endfor %}
+        {% endfor %}
 
         <li class="nav-item">
           <a
@@ -117,18 +115,67 @@ site.data.navigation.languages.en %}
   })
 </script>
 <style>
-  .Nav__dropdownToggler {
+  aside.Nav {
+    z-index: 1;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  aside.Nav .nav,
+  aside.Nav button,
+  aside.Nav a {
+    pointer-events: auto;
+  }
+  aside.Nav .nav-item {
+    position: relative;
+  }
+  aside.Nav .nav-item.active > .nav-link > span {
+    /* background-color: var(--bs-primary); */
+    position: relative;
+    color: black;
+  }
+  aside.Nav .nav-item.active::after {
+    background-color: var(--bs-dark);
+    content: '';
+    position: absolute;
+    top: 24px;
+    bottom: 8px;
+    left: -12px;
+    width: 2px;
+    opacity: 0.3;
+  }
+  aside.Nav .nav-item.active > .nav-link > span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -4px;
+    right: -4px;
+    background-color: var(--bs-primary);
+    z-index: -1;
+  }
+
+  aside.Nav .Nav__dropdownToggler {
     border: none;
+    opacity: 0.5;
+    will-change: opacity;
     background: transparent;
     color: var(--bs-primary);
     font-size: 1.5rem;
     left: -35px;
     top: -10px;
   }
-  .Nav li ul {
+  aside.Nav .Nav__dropdownToggler:hover {
+    opacity: 1;
+  }
+
+  aside.Nav li ul {
     will-change: height;
     transition: height 0.2s ease-out;
     overflow: hidden;
     height: 0;
+  }
+  aside.Nav li.active ul {
+    height: auto;
   }
 </style>
