@@ -1,7 +1,8 @@
 <div class="footer">
-  <div class="fluid-container">
-    <div class="row">
-      <div class="col">
+  <div class="footer-wrapper">
+    <div class="partners">
+      <h3 class="w-100 mb-0">Partners</h3>
+      <div class="footer-section">
         <div class="logo">
           <a
             href="https://dhlab.epfl.ch/"
@@ -10,12 +11,10 @@
             >{% include logos/EPFL.svg %}
           </a>
           <p>
-            Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale
-            de Lausanne, Switzerland
+            Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de
+            Lausanne, Switzerland
           </p>
-        </div>
-      </div>
-      <div class="col">
+        </div>  
         <div class="logo">
           <a
             href="http://www.cl.uzh.ch/en.html"
@@ -25,17 +24,16 @@
             {% include logos/UZH.svg %}
           </a>
           <p>
-            Institute of Computational Linguistics Zurich University,
-            Switzerland
+            Institute of Computational Linguistics Zurich University, Switzerland
           </p>
         </div>
       </div>
-      <div class="col">
+      <div class="footer-section">
         <div class="logo">
           <a
             href="https://www.c2dh.uni.lu"
             target="_blank"
-            title="Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg."
+            title="Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg"
           >
             {% include logos/Uni_C2DH.svg %}
           </a>
@@ -44,8 +42,6 @@
             University, Luxembourg.
           </p>
         </div>
-      </div>
-      <div class="col">
         <div class="logo">
           <a
             href="https://www.unil.ch"
@@ -60,6 +56,190 @@
           </p>
         </div>
       </div>
+      <hr/>
     </div>
+    <div class="associated-partners">
+      <h3 class="w-100 mb-0 mt-4">Associated Partners</h3>
+      <div class="footer-section">
+        <div class="logo">
+          <a
+            href="https://www.fnr.lu/"
+            target="_blank"
+            title="The Luxembourg National Research Fund (FNR) is the main funder of research activities in Luxembourg"
+          >
+            {% include logos/FNR.svg %}
+          </a>
+          <p>
+            The Luxembourg National Research Fund (FNR) is the main funder of research activities in Luxembourg
+          </p>
+        </div>
+        <div class="logo">
+          <a
+            href="https://www.nb.admin.ch/snl/de/home.html"
+            target="_blank"
+            title="The Swiss National Sound Archives preserve the country’s audio heritage"
+          >
+            {% include logos/Schweizerische.svg %}
+          </a>
+          <p>
+            The Swiss National Sound Archives preserve the country’s audio heritage
+          </p>
+        </div>
+        <div class="logo">
+          <a
+            href="https://www.vs.ch/web/culture/aev"
+            target="_blank"
+            title="The State Archives of Valais have an administrative, historical and cultural mission"
+          >
+            {% include logos/Archives_de_l_etat.svg %}
+          </a>
+          <p>
+            The State Archives of Valais have an administrative, historical and cultural mission
+          </p>
+        </div>
+        <div class="logo">
+          <a
+            href="https://www.nzz.ch/"
+            target="_blank"
+            title="Since 1780 the NZZ has provided its readers with mainly political and economic information"
+          >
+            {% include logos/NZZ.svg %}
+          </a>
+          <p>
+            Since 1780 the NZZ has provided its readers with mainly political and economic information
+          </p>
+        </div>
+      </div>
+      <div class="footer-section">
+        <div class="logo">
+          <a
+            href="https://ub.unibas.ch/en/"
+            target="_blank"
+            title="The University Library Basel with its five locations is one of the most important public information centres in the region"
+          >
+            {% include logos/University_of_Basel.svg %}
+          </a>
+          <p>
+            The University Library Basel with its five locations is one of the most important public information centres in the region 
+          </p>
+        </div>
+        <div class="logo">
+          <a
+            href="https://bnl.public.lu/en.html"
+            target="_blank"
+            title="The BnL on the path of transformation is a project that encompasses our services, our resources and our collections"
+          >
+            {% include logos/Bibliotheque_nationale_du_Luxembourg.svg %}
+          </a>
+          <p>
+            The BnL on the path of transformation is a project that encompasses our services, our resources and our collections 
+          </p>
+        </div>
+        <div class="logo">
+          <a
+            href="https://www.letemps.ch/"
+            target="_blank"
+            title="Le Temps, the leading newspaper in French-speaking Switzerland, was launched in March 1998"
+          >
+            {% include logos/Le_temp.svg %}
+          </a>
+          <p>
+            Le Temps, the leading newspaper in French-speaking Switzerland, was launched in March 1998 
+          </p>
+        </div>
+        <div class="logo">
+          <a
+            href="https://www.letemps.ch/"
+            target="_blank"
+            title="Le Temps, the leading newspaper in French-speaking Switzerland, was launched in March 1998"
+          >
+            {% include logos/Le_temp.svg %}
+          </a>
+          <p>
+            Le Temps, the leading newspaper in French-speaking Switzerland, was launched in March 1998 
+          </p>
+        </div>
+      </div> 
+      <hr/>
+    </div>  
   </div>
+  <div class="copyright">Copyright © Université du Luxembourg 2023. All rights reserved</div>
+</div>
+
+  <style>
+    .footer .logo {
+      display: flex;
+      align-items: center;
+      max-width: 600px;
+      margin: 1rem 1.5rem 1rem 0rem;
+      flex-wrap: wrap;
+      flex-grow: 1;
+    }
+    .footer .logo > p {
+      margin: 0rem 0rem 1rem 0rem;
+      max-width: 360px;
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+    .footer .logo > a {
+      margin: 0rem 1.5rem 1rem 0rem ;
+    }
+    .footer .footer-section {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      width: 50%;
+    }
+    .footer .footer-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .partners, .associated-partners {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .copyright {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      font-size: 0.7rem;
+      margin-top: 2rem;
+    }
+
+    .footer hr {
+      display:block;
+      width: 100%;
+      height: 2px;
+      background-color: var(--bs-dark);
+    }
+
+    .footer svg {
+      max-height: 50px;
+    }
+
+  
+    @media (max-width: 800px) {
+      :root {
+        --footer-logo-size: 60%
+      }
+      .footer .footer-wrapper {
+        flex-direction: column;
+      }
+      .footer .footer-section {
+        width: 100%;
+      }
+      .footer .logo > a {
+        margin: 0rem 1rem 0rem 0rem ;
+        max-width: 120px;
+      }
+      .footer .logo {
+        margin: 0.5rem 1rem 0.5rem 0rem;
+      }
+        .footer .logo > p {
+        max-width: 300px;
+        font-size: 0.7rem;
+      }
+    }
+  </style>
 </div>

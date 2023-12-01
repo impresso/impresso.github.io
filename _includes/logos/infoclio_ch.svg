@@ -1,4 +1,4 @@
-<svg width="200" height="31" viewBox="0 0 200 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="var(--footer-logo-size)" height="31" viewBox="0 0 200 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_36_1000)">
 <path d="M6.25525 8.00543H0.0753174V29.5033H6.25525V8.00543Z" fill="var(--bs-dark)"/>
 <path d="M6.33066 0.563171H0V5.49958H6.33066V0.563171Z" fill="var(--bs-dark)"/>
