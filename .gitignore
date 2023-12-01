@@ -4,3 +4,4 @@ _site/
 assets/images/.DS_Store
 node_modules/
 *.log
+vendor
