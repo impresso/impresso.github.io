@@ -35,8 +35,10 @@ languages:
       - title: 'Publications'
         url: /publications/
         links:
-          - title: 'Articles'
-            url: /publications/articles
+          - title: 'Presentations'
+            url: /publications/presentations
+          - title: 'datasets'
+            url: /publications/datasets
           # - title: "Data"
           #   url: /publications/data
           # - title: "Presentations"

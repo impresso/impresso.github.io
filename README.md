@@ -1,43 +1,39 @@
-## Setting up localhost
+# Impresso website
 
-In terminal browse to local site directory, then use the following command:
+## Where are pages stored on Github?
 
-`bundle exec jekyll serve`
+| Jekyll collection | folder in this Github repo                                                        |
+| ----------------- | --------------------------------------------------------------------------------- |
+| current home      | [index](https://github.com/impresso/impresso.github.io/blob/master/index.html)    |
+| new home          | [index\_](https://github.com/impresso/impresso.github.io/blob/master/index_.html) |
+| pages             | [/pages](https://github.com/impresso/impresso.github.io/tree/master/pages)        |
+| lab post          | [/\_labs](https://github.com/impresso/impresso.github.io/tree/master/_labs)       |
+| blog posts        | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_posts)     |
+| people            | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_people)    |
+| partners          | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_partners)  |
+| events            | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_events)    |
+
+## Setting up development environment with Jekyll
+
+This website uses Jekyll 3.9.3.
+In terminal, browse to local site directory, then use the following commands:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
 Your local site resides here now: [localhost:4000](http://localhost:4000/)
 
 Details on [setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
-## Where are pages stored on Github?
-
-| Page type    | Github Path                                                                       |
-| ------------ | --------------------------------------------------------------------------------- |
-| current home | [index](https://github.com/impresso/impresso.github.io/blob/master/index.html)    |
-| new home     | [index\_](https://github.com/impresso/impresso.github.io/blob/master/index_.html) |
-| pages        | [/pages](https://github.com/impresso/impresso.github.io/tree/master/pages)        |
-| lab post     | [/\_labs](https://github.com/impresso/impresso.github.io/tree/master/_labs)       |
-| blog posts   | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_posts)     |
-| people       | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_people)    |
-| partners     | [/\_posts](https://github.com/impresso/impresso.github.io/tree/master/_partners)  |
-
-Page files are prefixed by their parent category. e.g.
-
-- `project.design.md`
-
-Pages can be split into multiple _sections_, e.g.
-
-app > usage
-
-- `app.usage.md`
-- `app.usage.01.md`
-- `app.usage.02.md`
-- ...
+## Setting up development environment with Docker
 
 ## How to add an item to the Agenda
 
 To add a new event to the **events**, that is the project timeline, follow these steps:
 
-1. Create a new Markdown file in the `_events` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-event.md`. Use the earliest date of the event in the filename, as it is just being used to sort filenames in the directory. *Note: Jekyll would not render the file if the date in the filename is in the future, so you can safely create the file even if the event is not scheduled yet*. If you want the event to be displayed as a separate page, don't forget to add the `date` field to the front matter!
+1. Create a new Markdown file in the `_events` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-event.md`. Use the earliest date of the event in the filename, as it is just being used to sort filenames in the directory. _Note: Jekyll would not render the file if the date in the filename is in the future, so you can safely create the file even if the event is not scheduled yet_. If you want the event to be displayed as a separate page, don't forget to add the `date` field to the front matter!
 
 2. In the newly created Markdown file, add the following front matter at the beginning of the file:
 

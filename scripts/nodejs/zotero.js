@@ -85,7 +85,8 @@ const get_zotero_collection_items = async (
   }
 }
 
-async function downloadCollection(gid, cid, output, { token, limit = 25 }) {
+async function downloadCollection(gid, cid, output, { limit = 25 }) {
+  const token = process.env.ZOTERO_TOKEN || null
   console.log('\n downloadCollection')
   console.log(` gid:${gid}, cid: ${cid}`)
   console.log(` output: ${output}`)
@@ -188,14 +189,12 @@ program
   .argument('<gid>', 'zotero group id')
   .argument('<cid>', 'zotero collection id')
   .argument('<output>', 'output file path')
-  .option('-t, --token <token>', 'for private collections')
   .action(downloadCollection)
 
 program
   .command('download-group')
   .argument('<gid>', 'zotero group id')
   .argument('<output>', 'output file path')
-  .option('-t, --token <token>', 'for private groups')
   .action(downloadGroup)
 
 program.parse()

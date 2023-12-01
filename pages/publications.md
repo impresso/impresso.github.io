@@ -1,7 +1,8 @@
 ---
 title: 'Publications'
-layout: page
+layout: publications
 permalink: /publications/
+bib_json_name: publications
 lang: en
 ---
 
