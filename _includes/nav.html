@@ -1,5 +1,7 @@
 {% assign nav = site.data.navigation.languages[lang] | default:
-site.data.navigation.languages.en %}
+site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
+%} {% assign parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %}
+
 <aside class="Nav container-fluid g-0 h-100 position-fixed">
   <div class="row g-0 h-100">
     <div class="col-2 d-flex flex-column h-100">
@@ -34,7 +36,7 @@ site.data.navigation.languages.en %}
         </li>
         {% for item in nav.links %}
         <li
-          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == page.url %} active {% endif %}"
+          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open {% endif %}{% if item.url == page.url %} active {% endif %}"
         >
           <a class="nav-link small-caps" href="{{ item.url }}"
             ><span>{{ item.title }}</span></a
@@ -102,6 +104,8 @@ site.data.navigation.languages.en %}
   const navDropdownTogglers = document.querySelectorAll('.Nav__dropdownToggler')
   navDropdownTogglers.forEach((toggler) => {
     toggler.addEventListener('click', (e) => {
+      const navItem = e.currentTarget.parentElement
+      navItem.classList.toggle('open')
       const ul = e.currentTarget.nextElementSibling
       // if it has no open class, calculate the hidden height.
       if (!ul.classList.contains('open')) {
@@ -134,16 +138,23 @@ site.data.navigation.languages.en %}
     position: relative;
     color: black;
   }
-  aside.Nav .nav-item.active::after {
+  aside.Nav .nav-item::after {
     background-color: var(--bs-dark);
     content: '';
     position: absolute;
-    top: 24px;
-    bottom: 8px;
+    top: 50px;
+    bottom: 10px;
     left: -12px;
     width: 2px;
-    opacity: 0.3;
+    opacity: 0;
   }
+
+  aside.Nav .nav-item:hover::after,
+  aside.Nav .nav-item.open::after,
+  aside.Nav .nav-item.force-open::after {
+    opacity: 1;
+  }
+
   aside.Nav .nav-item.active > .nav-link > span::after {
     content: '';
     position: absolute;
@@ -165,7 +176,8 @@ site.data.navigation.languages.en %}
     left: -35px;
     top: -10px;
   }
-  aside.Nav .Nav__dropdownToggler:hover {
+  aside.Nav .Nav__dropdownToggler:hover,
+  aside.Nav .nav-item.open .Nav__dropdownToggler {
     opacity: 1;
   }
 
