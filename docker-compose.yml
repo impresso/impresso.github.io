@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  jekyll:
+    image: jekyll/jekyll:4.2.0
+    volumes:
+      - ./:/srv/jekyll
+      - ./vendor/bundle:/usr/local/bundle:Z
+    ports:
+      - "${PORT:-4000}:4000"
+      - "${POLLING_PORT:-35729}:35729"
+    entrypoint: jekyll serve --livereload --force_polling --incremental
+    environment:
+      FORCE_POLLING: "true"
+  bundle-install:
+    image: jekyll/jekyll:4.2.0
+    volumes:
+      - ./:/srv/jekyll
+      - ./vendor/bundle:/usr/local/bundle:Z
+    entrypoint: bundle install
+    profiles:
+      - cli
