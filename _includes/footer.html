@@ -109,6 +109,18 @@
             Since 1780 the NZZ has provided its readers with mainly political and economic information
           </p>
         </div>
+        <div class="logo">
+          <a
+            href="https://www.snf.ch/en/FKhU9kAtfXx7w9AI/page/home"
+            target="_blank"
+            title="The Swiss National Science Foundation (SNSF) funds excellent research at universities and other institutions – from chemistry to medicine to sociology"
+          >
+            {% include logos/Swiss_National_Science_Foundation_SNSF.svg %}
+          </a>
+          <p>
+            The Swiss National Science Foundation (SNSF) funds excellent research at universities and other institutions – from chemistry to medicine to sociology
+          </p>
+        </div>
       </div>
       <div class="footer-section">
         <div class="logo">
@@ -149,15 +161,27 @@
         </div>
         <div class="logo">
           <a
-            href="https://www.letemps.ch/"
+            href="https://www.infoclio.ch/"
             target="_blank"
-            title="Le Temps, the leading newspaper in French-speaking Switzerland, was launched in March 1998"
+            title="infoclio.ch is a national research infrastructure for the historical sciences in Switzerland"
           >
-            {% include logos/Le_temp.svg %}
+            {% include logos/infoclio_ch.svg %}
           </a>
           <p>
-            Le Temps, the leading newspaper in French-speaking Switzerland, was launched in March 1998 
+            infoclio.ch is a national research infrastructure for the historical sciences in Switzerland 
           </p>
+        </div>
+        <div class="logo">
+          <!-- <a
+            href="https://www.infoclio.ch/"
+            target="_blank"
+            title="infoclio.ch is a national research infrastructure for the historical sciences in Switzerland"
+          >
+            {% include logos/infoclio_ch.svg %}
+          </a>
+          <p>
+            infoclio.ch is a national research infrastructure for the historical sciences in Switzerland 
+          </p> -->
         </div>
       </div> 
       <hr/>
@@ -174,6 +198,7 @@
       margin: 1rem 1.5rem 1rem 0rem;
       flex-wrap: wrap;
       flex-grow: 1;
+      min-height: 4rem;
     }
     .footer .logo > p {
       margin: 0rem 0rem 1rem 0rem;
@@ -236,9 +261,12 @@
       .footer .logo {
         margin: 0.5rem 1rem 0.5rem 0rem;
       }
-        .footer .logo > p {
+      .footer .logo > p {
         max-width: 300px;
         font-size: 0.7rem;
+        padding: 0.5rem 0;
+        margin: 0rem;
+        line-height: 0.8rem;
       }
     }
   </style>
