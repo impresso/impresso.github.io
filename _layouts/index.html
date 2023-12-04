@@ -14,7 +14,7 @@ layout: default
           class="btn btn-primary btn-lg small-caps d-flex align-items-center"
         >
           <span>go to <em>impresso</em> <b>app</b></span>
-          <span class="ms-2"> {% include icons/arrow-right-circle.html %}</span>
+          <span class="ms-2"> {% include icons/arrow-right.svg %}</span>
         </button>
         &nbsp;
         <button type="button" class="btn btn-primary btn-lg small-caps">
@@ -36,31 +36,22 @@ layout: default
   </div>
   <div class="row g-0">
     <div class="col-10 offset-2 g-0">
-      <div class="mx-5">
-        {% include timeline.html %}
-      </div>
+      <div class="mx-5">{% include timeline.html %}</div>
     </div>
   </div>
   <div class="row g-0 position-sticky top-0">
-    <div
-      class="col-10 offset-2 g-0 "
-    >
-      <div class="d-flex align-items-center mx-5 ">
+    <div class="col-10 offset-2 g-0">
+      <div class="d-flex align-items-center mx-5">
         <h3 class="flex-shrink-1 small-caps fw-bold mb-0 me-2">Blog posts</h3>
-        <hr class="flex-grow-1"/>
+        <hr class="flex-grow-1" />
       </div>
     </div>
   </div>
   <div class="row g-0 flex-grow-1">
     <div class="col-10 offset-2">
-      <section class="d-flex me-5">
-        {% assign posts=site.posts | slice: 1, 2 %} 
-        {% for post in posts %}
-        <div class="w-50 py-3">
-          <div class="ps-5 pe-3">
-            {% include post.html %}
-          </div>
-        </div>
+      <section class="d-flex flex-wrap me-5">
+        {% assign posts=site.posts | slice: 1, 2 %} {% for post in posts %}
+        <div class="w-50 w-md-100 py-3">{% include post.html %}</div>
         {% endfor %}
       </section>
     </div>

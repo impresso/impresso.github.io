@@ -169,6 +169,11 @@ site.data.navigation.languages.en %}
         --bs-light-transparent: #fafbf2bb;
 
         --footer-logo-size: 100%;
+
+        --image-border-radius: 0.5rem;
+        --image-border: 2px solid var(--bs-dark);
+
+        --icon-size: 24px !important;
       }
       .icon path {
         will-change: color;
@@ -202,6 +207,14 @@ site.data.navigation.languages.en %}
 
       .btn-primary:hover .icon path {
         stroke: var(--bs-primary);
+      }
+
+      /* MD breakpoint*/
+      @media (max-width: 768px) {
+        /* CUSTOM WIDTHS */
+        .w-md-100 {
+          width: 100% !important;
+        }
       }
 
       @media (prefers-color-scheme: dark) {
