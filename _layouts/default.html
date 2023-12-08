@@ -169,7 +169,7 @@ site.data.navigation.languages.en %}
         --bs-light-rgb: 250, 251, 242;
         --bs-light-transparent: #fafbf2bb;
 
-        --footer-logo-size: 100%;
+        --footer-logo-size: 200;
 
         --image-border-radius: 0.5rem;
         --image-border: 2px solid var(--bs-dark);
@@ -210,11 +210,24 @@ site.data.navigation.languages.en %}
         stroke: var(--bs-primary);
       }
 
+      hr {
+        display:block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--bs-dark);
+      }
       /* MD breakpoint*/
       @media (max-width: 768px) {
         /* CUSTOM WIDTHS */
         .w-md-100 {
           width: 100% !important;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .display-6 {
+          font-size: 1.5rem;
+          line-height:1.25em;
         }
       }
 

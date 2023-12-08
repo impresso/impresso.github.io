@@ -1,6 +1,6 @@
 ---
 category: team
-group: supervisor
+group: advisor
 ordering: 03-fickers
 picture: /assets/images/andreas-fickers.jpg
 subheading: Director of the C2DH

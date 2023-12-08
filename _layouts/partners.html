@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+<div class="container-fluid g-0">
+  <div class="row g-0">
+    <div class="col-8 display-6 mb-5">
+      {{ content }} 
+    </div>
+    <hr/>
+  </div>
+        
+  <div class="row g-0">
+  {% assign partners = site.partners | where: "category", page.category %}
+ 
+  {% for partner in partners %}
+    <div class="col-6 my-5">
+    {% include partner.html %} 
+    </div>
+  {% endfor %}
+  </div>
+</div>
+
+<style>
+  .Partners .Partner {
+    --footer-logo-size: 150;
+  }
+</style>

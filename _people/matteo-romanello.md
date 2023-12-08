@@ -1,6 +1,6 @@
 ---
 category: team
-group: collaborator
+group: former-collaborator
 ordering: 02-romanello
 picture: /assets/images/matteo-romanello.jpg
 subheading: Research scientist, EPFL-DHLAB

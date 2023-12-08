@@ -1,16 +1,18 @@
 <!-- special layout for single item in partners collection. Use assign to define people group.-->
-<div class='item respect-margin'>
+<div class='Partner me-5'>
   <div class='anchor' id='{{partner.slug}}'></div>
-  <table class='table'>
-    <tr>
-      <th>
-        <h2>
-          <span>{{partner.title}}</span>
-        </h2>
-      </th>
-      <th><img style="float:right; max-width:200px; max-height:120px;" src="{{ partner.picture | relative_url }}"></th>
-    </tr>
-  </table>
+  <div class="d-flex">
+    <h3 class="flex-shrink-1 mb-4">
+      <span>{{partner.title}}</span>
+    </h3>
+    {% if partner.logo %}
+    <div class="flex-grow-1">
+      {% include {{ partner.logo }} %}
+    </div>
+    {% else %}
+    <img class="flex-shrink-1" alt="{{partner.description}}" style="max-width:200px; max-height:120px;" src="{{ partner.picture | relative_url }}"></th>
+    {% endif %}
+  </div>
 
   {{partner.content}}
-  </div>
+</div>

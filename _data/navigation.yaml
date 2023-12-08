@@ -44,7 +44,7 @@ languages:
           # - title: "Presentations"
           #   url: /publications/presentations
           # - title: "Code"
-          #   url: /publications/code
+          #   url: /publications/codex
       - title: 'Overview'
         url: /overview/
         links:
@@ -67,24 +67,9 @@ languages:
             url: /consortium/partners/
           - title: 'Associated partners'
             url: /consortium/associated-partners/
-          - title: 'Contributors'
-            url: /consortium/contributors/
-        # links:
-        #   - title: "People"
-        #     url: /consortium/
-        #   - title: "Partners"
-        #     url: /consortium/#partners
-        #   - title: "Associated partners"
-        #     url: /consortium/#associated-partners
-        # - title: "Friends"
-        #   url: /consortium/#friends
-
-        # - title: "Glossary"
-        #   url: /documentation/glossary/
-
-    # - title: "Media Coverage"
-    # url: "/media-coverage/"
-
+          # - title: 'Contributors'
+          #   url: /consortium/contributors/
+       
   fr:
     links:
       - title: 'Accueil'

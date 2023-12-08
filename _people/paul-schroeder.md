@@ -1,6 +1,6 @@
 ---
 category: team
-group: collaborator
+group: former-collaborator
 ordering: 02-schroeder
 picture: /assets/images/paul-schroeder.jpg
 subheading: Designer & developer, C2DH

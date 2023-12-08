@@ -1,6 +1,6 @@
 ---
 category: team
-group: supervisor
+group: advisor
 ordering: 03-kaplan
 picture: /assets/images/frederic-kaplan.jpg
 subheading: Head of EPFL-DHLAB
