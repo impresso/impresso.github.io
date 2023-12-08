@@ -1,7 +1,9 @@
-<div class="icon">
+{% assign size = {include.size | default: '18' %}
+<div class="icon position-relative" style="height:{{size}}px;width:{{size}}px;">
   <svg
-    width="var(--icon-size)"
-    height="var(--icon-size)"
+    class="position-absolute top-0 start-0"
+    width="{{size}}px"
+    height="{{size}}px"
     viewBox="0 0 24 24"
     stroke-width="2"
     fill="none"

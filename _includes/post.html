@@ -18,9 +18,16 @@
         <div class="anchor" id="{{post.slug}}"></div>
       </div>
     </div>
-    <div class="blogExcerpt ps-5 mt-4">{{post.excerpt}}</div>
+    <div class="ps-5 mt-4">{{post.excerpt}}</div>
   </div>
-  <div class="blogExcerpt ps-5">{% include button.html text="READ MORE" %}</div>
+  <div class="ps-5">
+    <a href="{{post.url}}" class="btn post__more">
+      <span class="small-caps fw-bold">read more</span>
+      <span class="ms-2 post__moreIcon">
+        {% include icons/arrow-right.svg %}</span
+      >
+    </a>
+  </div>
 </div>
 
 <style>
@@ -30,6 +37,21 @@
     height: 100%;
     flex-grow: 1;
     justify-content: space-between;
+  }
+  .post__more {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--bs-light);
+    border: 2px solid var(--bs-dark);
+
+    padding: 2px 2px 2px 16px;
+    border-radius: 25px;
+  }
+  .post__moreIcon {
+    border: 2px solid var(--bs-dark);
+    border-radius: 100%;
+    padding: 6px;
   }
   .post .image-date-title {
     display: flex;
@@ -79,7 +101,7 @@
   .post hr::after {
     position: absolute;
     display: block;
-    content: "";
+    content: '';
     height: 2px;
     width: 100%;
     left: 0;

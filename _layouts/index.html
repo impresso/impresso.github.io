@@ -39,9 +39,9 @@ layout: default
       <div class="mx-5">{% include timeline.html %}</div>
     </div>
   </div>
-  <div class="row g-0 position-sticky top-0">
+  <div class="row g-0 position-sticky top-0" style="z-index: 1">
     <div class="col-10 offset-2 g-0">
-      <div class="d-flex align-items-center mx-5">
+      <div class="d-flex align-items-center mx-5 bg-light">
         <h3 class="flex-shrink-1 small-caps fw-bold mb-0 me-2">Blog posts</h3>
         <hr class="flex-grow-1" />
       </div>
@@ -56,9 +56,12 @@ layout: default
       </section>
     </div>
   </div>
+</main>
+
+<footer class="container-fluid g-0 d-flex flex-column">
   <div class="row g-0">
     <div class="col-10 offset-2 g-0 border-top border-dark">
       <section class="p-5">{% include footer.html %}</section>
     </div>
   </div>
-</main>
+</footer>
