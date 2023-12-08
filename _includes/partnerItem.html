@@ -1,0 +1,14 @@
+<!-- item in a list of Partners -->
+
+<div class="Partner my-3">
+  <a
+    class="mb-3 d-block"
+    style="height: 50px"
+    href="{{ partner.url }}"
+    target="_blank"
+    title="{{ partner.name }}"
+  >
+    {% include {{ partner.logo }} %}
+  </a>
+  <small class="text-muted"> {{ partner.description }} </small>
+</div>
