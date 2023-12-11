@@ -1,8 +1,10 @@
 ---
-title: "Objectives"
-type: section
+layout: page
 lang: en
-group: project.history
+permalink: /project/history/
+parentUrl: /project/
+title: 'Historical Research'
+excerpt: 'Unlocking Historical Media Dynamics'
 ---
 
 ### Unlocking Historical Media Dynamics

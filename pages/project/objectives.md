@@ -1,9 +1,17 @@
 ---
-title: "Overall Objectives"
-type: section
+title: "Objectives"
+permalink: /project/objectives/
+nolang: /project/objectives/
 lang: en
+parentUrl: /project/
+layout: page
 group: project.objectives
+excerpt: "The *impresso* project aims to overcome language and media barriers and to enable, for the first time, the joint exploration of an unprecedented corpus of newspaper and radio archive contents across modalities, time, languages, and national borders."
 ---
+
+
+Leveraging  an unprecedented corpus of newspaper and radio archives, ***impresso* - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.
+
 
 ## Media Monitoring of the Past across Modalities, Time, Languages, and National Borders
 
@@ -94,6 +102,18 @@ We develop *impresso*’s corpus and interfaces with the historical research com
 
 Overall, historical research explores the opportunities offered by enriched sources using case studies, determines how best to interact with the data, assesses their value for research based on comparative analysis, and fosters a collaborative research community for data-driven and collaborative historical research.
 
-**See also:** [History Research Objectives](/project/history)
 
 
+To achieve our goals, we are guided by five key concepts:
+
+1. **Vectorization:** Creating numeric embeddings for linguistic and visual content to facilitate semantic representations.
+
+2. **Cross-lingual Alignment:** Ensuring comparable semantic representations for different languages and media types.
+
+3. **Contextualization:** Enhancing linguistic content with contextualized embeddings and linking out to external resources for richer context.
+
+4. **Aggregation and Abstraction:** Applying hierarchical clustering to provide meaningful grouping for exploration and visualization.
+
+5. **Relevance Assessment:** Computing scores for the centrality of entities and concepts to determine their importance in historical documents.
+
+Through these concepts, we aim to provide accessible and powerful tools for historians and researchers, enriching the exploration of historical data and fostering new insights.

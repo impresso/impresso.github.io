@@ -1,8 +1,11 @@
 ---
-title: ""
-type: section
+title: "Web App and Data Lab"
+layout: page
+permalink: /app/
 lang: en
-group: app.about
+seealso: 
+    - /project/objectives/
+    - /project/design/
 ---
 
 ### *impresso* Interfaces

@@ -1,0 +1,54 @@
+
+
+{% if page.parentUrl %}
+
+  {% assign seealso = site.pages | where: "parentUrl", page.parentUrl | where_exp: "item", "item.url != page.url" %}
+  {% if seealso.size > 0 %}
+  <div class="Seealso row g-0 mt-5 ">
+    <div class="col-lg-10 offset-lg-2 col-md-9 offset-md-3">
+      <section class="p-5  bg-dark">
+      <h3 class="text-light">See also</h3>
+      <ul>
+        {% for item in seealso %}
+        <li class="nav-item">
+          <a class="nav-link " href="{{item.url}}">
+            <span class="small-caps fw-bold">{{item.title}}</span>
+            <br />
+            <blockquote>
+            {{ item.excerpt | markdownify }}
+            <blockquote>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    </div>
+  </div>
+  {% endif %}
+{% else %}
+  {% if page.seealso %}
+    {% if page.seealso.size > 0 %}
+    <div class="Seealso row g-0 mt-5 ">
+      <div class="col-lg-10 offset-lg-2 col-md-9 offset-md-3">
+        <section class="p-5  bg-dark">
+        <h3 class="text-light">See also</h3>
+        <ul>
+          {% for itemUrl in page.seealso %}
+          {% assign item = site.pages | where: "url", itemUrl | first %}
+          <li class="nav-item">
+            <a class="nav-link " href="{{item.url}}">
+              <span class="small-caps fw-bold">{{item.title}}</span>
+              <br />
+              <blockquote>
+              {{ item.excerpt | markdownify }}
+              <blockquote>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      </div>
+    </div>
+    {% endif %}
+  {% endif %}
+{% endif %}

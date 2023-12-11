@@ -4,18 +4,19 @@ layout: default
 
 <main class="container-fluid g-0 d-flex flex-column min-vh-100">
   <div class="row g-0">
-    <div class="col-10 offset-2 g-0">
+    <div class="col-lg-10 offset-lg-2 col-md-9 offset-md-3 g-0">
       <h1 class="m-5">{{page.title}}</h1>
       <h2 class="m-5">{{page.subheading}}</h2>
     </div>
   </div>
 
   <div class="row g-0 flex-grow-1">
-    <div class="col-10 offset-2">
+    <div class="col-lg-10 offset-lg-2 col-md-9 offset-md-3">
       
       <section class="px-5 pt-5">
         {{content}}
       </section>
     </div>
   </div>
+  {% include seealso.html %}
 </main>

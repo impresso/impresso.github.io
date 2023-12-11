@@ -1,8 +1,10 @@
 ---
-title: "Objectives"
-type: section
+layout: page
 lang: en
-group: project.linguistics
+permalink: /project/linguistics/
+parentUrl: /project/
+title: 'Computational linguistics'
+excerpt: 'Text mining techniques are of critical importance to realise impresso’s overall mission to enrich and integrate historical media collections.'
 ---
 
 Text mining techniques are of critical importance to realise *impresso*’s overall mission to enrich and integrate historical media collections. Below we outline the main steps required to achieve this:

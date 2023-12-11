@@ -1,8 +1,12 @@
 {% assign nav = site.data.navigation.languages[lang] | default:
 site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
-%} {% assign parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %}
+%}
+{% assign parentUrl = page.parentUrl %}
+{% unless parentUrl %} 
+{% assign parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %}
+{% endunless %}
 
-<aside class="Nav container-fluid g-0 h-100 position-fixed">
+<aside class="Nav container-fluid h-100 position-fixed">
   <div class="row g-0 h-100">
     <div class="col-2 d-flex flex-column h-100">
       <ul class="nav flex-column flex-grow-1">
@@ -34,9 +38,10 @@ site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
             </a>
           </div>
         </li>
+        <!-- <li>{{ parentUrl }}</li> -->
         {% for item in nav.links %}
         <li
-          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open {% endif %}{% if item.url == page.url %} active {% endif %}"
+          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open active {% endif %}{% if item.url == page.url %} active {% endif %}"
         >
           <a class="nav-link small-caps" href="{{ item.url }}"
             ><span>{{ item.title }}</span></a
@@ -49,9 +54,10 @@ site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
           </button>
           <ul>
             {% for subitem in item.links %}
+            <li class="nav-item {% if subitem.url == page.url %} active {% endif %}">
             <a class="nav-link" href="{{ subitem.url }}"
               ><span>{{ subitem.title }}</span></a
-            >
+            ></li>
             {% endfor %}
           </ul>
           {% endif %}
@@ -119,75 +125,5 @@ site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
   })
 </script>
 <style>
-  aside.Nav {
-    z-index: 1;
-    height: 100%;
-    pointer-events: none;
-  }
-
-  aside.Nav .nav,
-  aside.Nav button,
-  aside.Nav a {
-    pointer-events: auto;
-  }
-  aside.Nav .nav-item {
-    position: relative;
-  }
-  aside.Nav .nav-item.active > .nav-link > span {
-    /* background-color: var(--bs-primary); */
-    position: relative;
-    color: black;
-  }
-  aside.Nav .nav-item::after {
-    background-color: var(--bs-dark);
-    content: '';
-    position: absolute;
-    top: 50px;
-    bottom: 10px;
-    left: -12px;
-    width: 2px;
-    opacity: 0;
-  }
-
-  aside.Nav .nav-item:hover::after,
-  aside.Nav .nav-item.open::after,
-  aside.Nav .nav-item.force-open::after {
-    opacity: 1;
-  }
-
-  aside.Nav .nav-item.active > .nav-link > span::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -4px;
-    right: -4px;
-    background-color: var(--bs-primary);
-    z-index: -1;
-  }
-
-  aside.Nav .Nav__dropdownToggler {
-    border: none;
-    opacity: 0.5;
-    will-change: opacity;
-    background: transparent;
-    color: var(--bs-primary);
-    font-size: 1.5rem;
-    left: -35px;
-    top: -10px;
-  }
-  aside.Nav .Nav__dropdownToggler:hover,
-  aside.Nav .nav-item.open .Nav__dropdownToggler {
-    opacity: 1;
-  }
-
-  aside.Nav li ul {
-    will-change: height;
-    transition: height 0.2s ease-out;
-    overflow: hidden;
-    height: 0;
-  }
-  aside.Nav li.active ul {
-    height: auto;
-  }
+ 
 </style>

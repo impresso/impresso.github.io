@@ -24,6 +24,28 @@ title: scss
   }
 }
 
+figure.respect-margin img{
+  max-width: 100%;
+}
+
+@media (min-width: 2400px) {
+  .container-fluid{
+    width: 2400px;
+    margin: 0 auto;
+  }
+  .container-fluid.position-fixed{
+    width: 2400px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+// _includes/seealso.html
+.Seealso a.nav-link{
+  color: var(--bs-light)
+}
+
+// _includes/PersonThumbnail.html
 .PersonThumbnail .picture {
   position: relative;
   display: inline-block;
@@ -145,7 +167,6 @@ box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
   }
 }
 
-
 @mixin dark-mode-style {
   :root {
     --bs-light: #212529ff;
@@ -200,11 +221,6 @@ box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
     --bs-btn-hover-color: var(--bs-primary);
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  @include dark-mode-style;
-}
-
 body.dark {
   @include dark-mode-style;
 }
