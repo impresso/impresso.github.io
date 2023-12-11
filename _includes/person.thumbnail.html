@@ -1,6 +1,6 @@
-<a href='#{{person.slug}}' class='thumbnail'>
-  <div class='picture' >
-    <div class='cover' style='background-image:url({% if person.picture %}{{person.picture | relative_url }}{%else %}http://www.vintageavatars.com/images/Abstract%20Art/100x100/abstractart{{forloop.index}}.jpg{% endif %})'></div>
+<a href="#{{person.slug}}" class="PersonThumbnail">
+  <div class="picture" >
+    <div class="cover" style="background-image:url({% if person.picture %}{{person.picture | relative_url }}{%else %}http://www.vintageavatars.com/images/Abstract%20Art/100x100/abstractart{{forloop.index}}.jpg{% endif %})"></div>
   </div>
   <h4>
     <span>{{person.title}}</span>
