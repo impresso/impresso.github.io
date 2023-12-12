@@ -1,8 +1,10 @@
 ---
-title: ""
-type: section
+title: 'Guiding Principles'
+permalink: /project/guiding-principles/
+parentUrl: /project/
 lang: en
-group: project.principles
+excerpt: >-
+  The *impresso* project adheres to a set of guiding principles to help foster the productive collaboration across academic disciplines and to strive for relevance of its outputs within and beyond them.
 ---
 
 The *impresso* project adheres to a set of guiding principles to help foster the productive collaboration across academic disciplines and to strive for relevance of its outputs within and beyond them.

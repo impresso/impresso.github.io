@@ -10,6 +10,8 @@ languages:
         links:
           - title: 'Overall Objectives'
             url: /project/objectives/
+          - title: 'Guiding Principles'
+            url: /project/guiding-principles/
           - title: 'Computational Linguistics'
             url: /project/linguistics/
           - title: 'Design'
@@ -60,7 +62,7 @@ languages:
         url: '/consortium/'
         links:
           - title: 'Team'
-            url: /consortium/people/
+            url: /consortium/team/
           - title: 'Partners'
             url: /consortium/partners/
           - title: 'Associated partners'

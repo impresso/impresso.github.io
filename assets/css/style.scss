@@ -22,19 +22,26 @@ title: scss
     font-weight: 300;
     font-variation-settings: 'wght' 300;
   }
+  h3 {
+    font-weight: 650;
+    font-variation-settings: 'wght' 650;
+  }
 }
 
 figure.respect-margin img{
   max-width: 100%;
 }
 
-@media (min-width: 2400px) {
+@media (min-width: 2000px) {
+  :root{
+    --bs-body-font-size: 1.125rem !important;
+  }
   .container-fluid{
-    width: 2400px;
+    width: 2000px;
     margin: 0 auto;
   }
   .container-fluid.position-fixed{
-    width: 2400px;
+    width: 2000px;
     left: 50%;
     transform: translateX(-50%);
   }

@@ -10,10 +10,8 @@ excerpt: "The *impresso* project aims to overcome language and media barriers an
 ---
 
 
-Leveraging  an unprecedented corpus of newspaper and radio archives, ***impresso* - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.
+*Media Monitoring of the Past across Modalities, Time, Languages, and National Borders* &mdash; Leveraging  an unprecedented corpus of newspaper and radio archives, ***impresso* - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.
 
-
-## Media Monitoring of the Past across Modalities, Time, Languages, and National Borders
 
 *impresso* proposes to overcome language and media barriers and to enable, for the first time, the joint exploration of an unprecedented corpus of newspaper and radio archive contents across modalities, time, languages, and national borders. Our aim is not merely to juxtapose collections and deploy full-text search across them, but to enrich and connect these sources through multiple layers of cutting-edge semantic enrichments represented in a shared multilingual vector space, and to design adequate, meaningful, and transparent exploration capabilities for historical research.
 

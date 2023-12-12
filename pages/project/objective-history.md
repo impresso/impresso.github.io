@@ -7,9 +7,8 @@ title: 'Historical Research'
 excerpt: 'Unlocking Historical Media Dynamics'
 ---
 
-### Unlocking Historical Media Dynamics
 
-*impresso*'s groundbreaking corpus offers unprecedented opportunities for advancing data-driven historical research. By providing an unparalleled view of content, formats, and ideas across media in a transnational context, scholars can now reconstruct historical media ecosystems across modalities, time, languages, and national borders, relying on data derived from published content.
+*Unlocking Historical Media Dynamics* &mdash; *impresso*'s groundbreaking corpus offers unprecedented opportunities for advancing data-driven historical research. By providing an unparalleled view of content, formats, and ideas across media in a transnational context, scholars can now reconstruct historical media ecosystems across modalities, time, languages, and national borders, relying on data derived from published content.
 
 ### Tracing Influences in Transnational Media:
 

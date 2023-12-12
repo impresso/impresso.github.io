@@ -7,10 +7,7 @@ title: 'Design'
 excerpt: 'Interface Design, information retrieval and data visualisation.'
 ---
 
-
-## Interfaces for the exploration and analysis of enriched and integrated historical media
-
-To facilitate research on our data, we develop two research-oriented user interfaces: the *impresso* web app, a powerful graphical user interface, and the *impresso* data lab, developed around a user-oriented API. The design of both interfaces is informed by case studies and associated user needs, including transparency requirements. This to ensure a robust foundation for infrastructure and data sustainability and to establish a central hub for the creation of a research community around our corpus and interfaces.
+*Interfaces for the exploration and analysis of enriched and integrated historical media* &mdash; To facilitate research on our data, we develop two research-oriented user interfaces: the *impresso* web app, a powerful graphical user interface, and the *impresso* data lab, developed around a user-oriented API. The design of both interfaces is informed by case studies and associated user needs, including transparency requirements. This to ensure a robust foundation for infrastructure and data sustainability and to establish a central hub for the creation of a research community around our corpus and interfaces.
 
 ### The *impresso* Web App for source exploration
 
