@@ -42,8 +42,29 @@ figure.respect-margin img{
 
 // _includes/seealso.html
 .Seealso a.nav-link{
-  color: var(--bs-light)
+  color: var(--bs-light);
+  
 }
+.Seealso a.nav-link label{
+  position: relative;
+}
+.Seealso a.nav-link label::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--bs-light);
+  transform: scaleX(0.1);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Seealso a.nav-link:hover label::after {
+  transform: scaleX(1);
+}
+
 
 // _includes/PersonThumbnail.html
 .PersonThumbnail .picture {

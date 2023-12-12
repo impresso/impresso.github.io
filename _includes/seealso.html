@@ -10,13 +10,13 @@
       <h3 class="text-light">See also</h3>
       <ul>
         {% for item in seealso %}
-        <li class="nav-item">
+        <li class="nav-item mt-3">
           <a class="nav-link " href="{{item.url}}">
-            <span class="small-caps fw-bold">{{item.title}}</span>
+            <label class="small-caps fw-bold">{{item.title}}</label>
             <br />
-            <blockquote>
-            {{ item.excerpt | markdownify }}
-            <blockquote>
+            <span>
+            {{ item.excerpt | markdownify | strip_html | truncatewords: 20}}
+            <span>
           </a>
         </li>
         {% endfor %}
@@ -35,13 +35,13 @@
         <ul>
           {% for itemUrl in page.seealso %}
           {% assign item = site.pages | where: "url", itemUrl | first %}
-          <li class="nav-item">
+          <li class="nav-item mt-3">
             <a class="nav-link " href="{{item.url}}">
-              <span class="small-caps fw-bold">{{item.title}}</span>
+              <label class="small-caps fw-bold">{{item.title}}</label>
               <br />
-              <blockquote>
-              {{ item.excerpt | markdownify }}
-              <blockquote>
+              <span>
+              {{ item.excerpt | markdownify | strip_html | truncatewords: 20}}
+              <span>
             </a>
           </li>
           {% endfor %}

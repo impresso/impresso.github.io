@@ -7,7 +7,7 @@
       </div>
       {% assign core_partners = site.partners | where: "category","core-partner" | sort: "ordering" %}
       {% for partner in core_partners %}
-      <div class="col-6">
+      <div class="col-6-md">
         {% include partnerItem.html %}
       </div>
       {% endfor %}
@@ -23,7 +23,7 @@
       {% assign associated_partners = site.partners | where: "category","associated-partner"| sort: "ordering"  %}
       {% for partner in associated_partners %}
       <!-- {{partner.title}} -->
-      <div class="col-6">
+      <div class="col-6-md">
         <div class="my-3">
           {{ partner.title}}
         </div>
@@ -41,7 +41,7 @@
       </div>
       {% assign funding = site.partners | where: "category","funding"  %}
       {% for partner in funding %}
-      <div class="col-6">
+      <div class="col-6-md">
         {% include partnerItem.html %}
       </div>
       {% endfor %}

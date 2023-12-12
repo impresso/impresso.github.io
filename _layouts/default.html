@@ -440,11 +440,12 @@ site.data.navigation.languages.en %}
     </style>
   </head>
   <body>
+    {% assign default_bootstrap_main_column_layout = "col-lg-10 offset-lg-2 col-md-9 offset-md-3"%}
     {% include nav.html %} {{ content }}
 
     <footer class="container-fluid g-0 d-flex flex-column">
       <div class="row g-0">
-        <div class="col-10 offset-2 g-0">{% include footer.html %}</div>
+        <div class="{{default_bootstrap_main_column_layout}} g-0">{% include footer.html %}</div>
       </div>
     </footer>
   </body>
