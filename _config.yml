@@ -1,5 +1,8 @@
 theme: empty-jekyll-theme
 excerpt_separator: '<!-- more -->'
+theme_bootstrap_layout: 
+  main: col-lg-10 offset-lg-2 col-md-9 offset-md-3 g-0
+  aside: col-lg-2 col-md-3 g-0
 base: http://impresso-project.ch
 title: impresso
 lang: en
