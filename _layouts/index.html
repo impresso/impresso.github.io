@@ -41,7 +41,7 @@ layout: default
   </div>
   <div class="row g-0 position-sticky top-0 " style="z-index: 1">
     <div class="{{site.theme_bootstrap_layout.main}}">
-      <div class="d-flex align-items-center mx-3 mx-lg-5 bg-light border-bottom border-accent">
+      <div class="d-flex align-items-center mx-3 mx-lg-5 bg-light">
         <h3 class="flex-shrink-1 small-caps fw-bold mb-0 me-2" style="white-space: nowrap;">Blog posts</h3>
         <hr class="flex-grow-1" />
       </div>
@@ -49,7 +49,7 @@ layout: default
   </div>
   <div class="row g-0 flex-grow-1">
     <div class="{{site.theme_bootstrap_layout.main}}">
-      <div class="row g-0 me-3 me-lg-5">
+      <div class="row g-0 mx-3 mx-lg-5">
         {% assign posts=site.posts | slice: 1, 2 %} {% for post in posts %}
         <div class="col-lg-6 py-3">{% include post.html %}</div>
         {% endfor %}
