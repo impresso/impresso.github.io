@@ -4,7 +4,7 @@ layout: default
 
 <main class="container-fluid g-0 d-flex flex-column min-vh-100">
   <div class="row g-0">
-    <div class="col-lg-7 offset-lg-2 g-0">
+    <div class="col-lg-7 offset-lg-2 col-md-5 offset-md-3  g-0">
       <h1 class="m-3 m-lg-5">{{page.title}} &mdash; <em>{{page.subheading}}</em></h1>
       <section class="m-3 m-lg-5 text-italic serif">{{content}}</section>
 
@@ -22,7 +22,7 @@ layout: default
         </button>
       </section>
     </div>
-    <div class="col-lg-3 g-0 pt-5">
+    <div class="col-md-4 col-lg-3 g-0 pt-3 pt-lg-5">
       <section class="pb-3 ps-3 pe-3 pe-lg-5" style="min-height: 50%">
         <h3 class="small-caps fw-bold mb-3">Releases</h3>
         {% assign release = site.releases | last %} {% include release.html %}

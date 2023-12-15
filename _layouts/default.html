@@ -292,10 +292,12 @@ site.data.navigation.languages.en %}
       aside.Nav .nav-item {
         position: relative;
       }
+      
       aside.Nav .nav-item.active > .nav-link > span {
         /* background-color: var(--bs-primary); */
         position: relative;
         color: black;
+        display: inline-block;
       }
       aside.Nav .nav-item::after {
         background-color: var(--bs-dark);
@@ -323,6 +325,8 @@ site.data.navigation.languages.en %}
         right: -4px;
         background-color: var(--bs-primary);
         z-index: -1;
+
+        height: 100%;
       }
 
       aside.Nav .Nav__dropdownToggler {

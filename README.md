@@ -29,9 +29,8 @@ Details on [setting up your GitHub Pages site locally with Jekyll](https://help.
 
 ## Setting up development environment with Docker
 
-## How to add an item to the Agenda
-
-To add a new event to the **events**, that is the project timeline, follow these steps:
+## How to add an item to the Timeline
+To add a new event to the **timeline** on the homepage, follow these steps:
 
 1. Create a new Markdown file in the `_events` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-event.md`. Use the earliest date of the event in the filename, as it is just being used to sort filenames in the directory. _Note: Jekyll would not render the file if the date in the filename is in the future, so you can safely create the file even if the event is not scheduled yet_. If you want the event to be displayed as a separate page, don't forget to add the `date` field to the front matter!
 
@@ -60,3 +59,55 @@ end_date: 2027-30-01
 human_date: Second or third week of January 2027
 ---
 ```
+
+If there is a blogpost associated with the event, add the link to the `blogpost` field in the front matter using the relative path to the blogpost. For example, if the blogpost is located at `/blog/2027-01-01-new-event/`, add the following line to the front matter:
+
+```diff
+---
+title: 'New Event'
+date: 2023-11-29
+start_date: 2027-01-01
+end_date: 2027-30-01
+human_date: Second or third week of January 2027
++blogpost: /blog/2027-01-01-new-event/
+---
+```
+
+## How to add a page, its list of seealso pages, and link to it from the menu
+Create the page in the `pages` directory. The filename should be the same as the title of the page, with dashes instead of spaces. For example, if the page title is "About the Project", the filename should be `about-the-project.md`. Add the **permalink** to the front matter to the page:
+
+```yaml
+---
+title: 'About the Project'
+permalink: /about-the-project/
+---
+```
+Then add an entry to the menu in the `_data/navigation.yml` file:
+
+```yaml
+- title: About the Project
+  url: /about-the-project/
+```
+
+The page frontmatter can contain the `seealso` table of links - the links being the exact permalink of the page to link to:
+
+```diff
+---
+title: 'About the Project'
+permalink: /about-the-project/
++ seealso:
++   - /project/objectives/
++   - /project/design/
+---
+
+If you need to add a page inside a subdirectory, for example, `/project/objectives/`, you need to add the `parentUrl` to the front matter of the page:
+
+```diff
+---
+title: 'Objectives'
+permalink: /project/objectives/
++ parentUrl: /project/
+---
+```
+The folder structure of the pages directory should in principle reflect the menu structure. For example, the page `/project/objectives/` should be located in the `pages/project/objectives.md` file.
+Note: the **permalink** will tell eventually Jekyll to generate the page at the specified URL, even if the page is located in a subdirectory.
