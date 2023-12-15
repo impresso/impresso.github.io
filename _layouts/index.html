@@ -41,7 +41,7 @@ layout: default
       <div class="mx-5">{% include timeline.html %}</div>
     </div>
   </div>
-  <div class="row g-0 position-sticky top-0" style="z-index: 1">
+  <div class="row g-0 position-sticky top-0" style="z-index: var(--z-index-blogpost-sticky)">
     <div class="{{site.theme_bootstrap_layout.main}}">
       <div class="d-flex align-items-center mx-3 mx-lg-5 bg-light">
         <h3
@@ -57,8 +57,8 @@ layout: default
   <div class="row g-0 flex-grow-1">
     <div class="{{site.theme_bootstrap_layout.main}}">
       <div class="row g-0 mx-3 mx-lg-5">
-        {% assign posts=site.posts | sort: "date" | reverse | limit: 4 %} {% for
-        post in posts %}
+        {% assign posts=site.posts | sort: "date" | reverse | slice: 0, 2 %} {%
+        for post in posts %}
         <div class="col-lg-6 py-3">{% include post.html %}</div>
         {% endfor %}
       </div>

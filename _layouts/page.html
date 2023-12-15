@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<style>
+  .Page__contents h2,
+  .Page__contents h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .Page__contents section > p:first-of-type {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .Page__contents section > p:last-of-type {
+    margin-bottom: 0;
+  }
+</style>
 <main class="Page container-fluid g-0 d-flex flex-column">
   <div class="row g-0">
     <div class="{{ site.theme_bootstrap_layout.main }}">
@@ -12,26 +26,8 @@ layout: default
 
   <div class="Page__contents row g-0 flex-grow-1">
     <div class="{{ site.theme_bootstrap_layout.main }}">
-      
-      <section class="px-5 pt-5">
-        {{content}}
-      </section>
+      <section class="px-5 pt-5">{{content}}</section>
     </div>
   </div>
   {% include seealso.html %}
 </main>
-
-<style>
-  .Page__contents h2, .Page__contents h3 {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-  
-  }
-  .Page__contents section > p:first-of-type {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .Page__contents section > p:last-of-type {
-    margin-bottom: 0;
-  }
-</style>

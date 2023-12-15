@@ -175,6 +175,9 @@ site.data.navigation.languages.en %}
         --image-border: 2px solid var(--bs-dark);
 
         --icon-size: 18px !important;
+
+        --z-index-blogpost-sticky: 1;
+        --z-index-aside: 2;
       }
       .icon path {
         will-change: color;
@@ -211,7 +214,7 @@ site.data.navigation.languages.en %}
       }
 
       hr {
-        display:block;
+        display: block;
         width: 100%;
         height: 2px;
         background-color: var(--bs-dark);
@@ -227,7 +230,7 @@ site.data.navigation.languages.en %}
       @media (min-width: 1200px) {
         .display-6 {
           font-size: 1.5rem;
-          line-height:1.25em;
+          line-height: 1.25em;
         }
       }
 
@@ -292,7 +295,7 @@ site.data.navigation.languages.en %}
       aside.Nav .nav-item {
         position: relative;
       }
-      
+
       aside.Nav .nav-item.active > .nav-link > span {
         /* background-color: var(--bs-primary); */
         position: relative;
@@ -383,9 +386,6 @@ site.data.navigation.languages.en %}
         font-variation-settings: 'wght' 350;
       }
 
-
-
-
       @media (prefers-color-scheme: dark) {
         :root {
           --bs-light: #212529ff;
@@ -435,12 +435,11 @@ site.data.navigation.languages.en %}
           stroke: var(--bs-primary);
         }
 
-        .btn{
+        .btn {
           --bs-btn-color: var(--bs-dark);
           --bs-btn-hover-color: var(--bs-primary);
         }
       }
-
     </style>
   </head>
   <body>
@@ -448,7 +447,9 @@ site.data.navigation.languages.en %}
 
     <footer class="container-fluid g-0 d-flex flex-column">
       <div class="row g-0">
-        <div class="{{ site.theme_bootstrap_layout.main }}">{% include footer.html %}</div>
+        <div class="{{ site.theme_bootstrap_layout.main }}">
+          {% include footer.html %}
+        </div>
       </div>
     </footer>
   </body>
