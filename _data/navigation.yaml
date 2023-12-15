@@ -27,8 +27,6 @@ languages:
             url: /app/
           - title: 'How to use it'
             url: /app/usage/
-          - title: 'Labs'
-            url: /app/labs/
       - title: 'Blog'
         url: /blog/
       - title: 'Outputs'
@@ -51,4 +49,3 @@ languages:
             url: /consortium/associated-partners/
           # - title: 'Contributors'
           #   url: /consortium/contributors/
-       

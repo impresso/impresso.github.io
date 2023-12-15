@@ -2,26 +2,48 @@
 layout: page
 ---
 
-{% assign bib_json_items = site.data[page.bib_json_name] %}
-
-{{ content }}
+{% assign bib_json_items = site.data[page.bib_json_name] %} {{ content }}
+<div id="loading" class="mt-5">Loading...</div>
 <div id="bibliography" class="mt-5"></div>
 
-
-<script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
 <script></script>
-<script>
-  const items = {{ bib_json_items| jsonify }};
+<script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
+
+<script async>
+  function log (msg) {
+    document.getElementById('loading').innerHTML = msg
+  }
+  const templateName = 'chicago-fullnote-bibliography'
+  const cls_style_url =  '{{ '/assets/cls/styles/' | relative_url }}/chicago-fullnote-bibliography.csl'
+  const items = {{ bib_json_items | jsonify }};
+
   const Cite = require('citation-js')
   const data = new Cite('Q30000000')
+  const config = Cite.plugins.config.get('@csl')
 
-
-  document.getElementById('bibliography').innerHTML = items.map(d => (new Cite(d.csljson)).format(
-    'bibliography',
-    {
-      format: 'html',
-      template: 'apa',
-      lang: 'en-US',
-    }
-  ))
+  log('cls_style to load' + cls_style_url)
+  // load XML cls style from assets xml
+  fetch(cls_style_url)
+    .then(response => response.text())
+    .then(template => {
+      log('loaaded' + templateName)
+      config.templates.add(templateName, template)
+      log('')
+      document.getElementById('bibliography').innerHTML = '<p>' + items.map(d => {
+        const bib = new Cite(d.csljson).format('bibliography', {
+          format: 'html',
+          template: templateName,
+          lang: 'en-US',
+        })
+        if(d.csljson.DOI) {
+          const doi = `<a href="https://doi.org/${d.csljson.DOI}" target="_blank">&rarr; DOI: ${d.csljson.DOI}</a>`
+          return [bib, doi].join('')
+        } else if(d.csljson.URL) {
+          const url = `<a href="${d.csljson.URL}" target="_blank">&rarr; link</a>`
+          return [bib, url].join('')
+        }
+        // return bib
+        return bib
+      }).join('</p><p>') + '</p>'
+    })
 </script>
