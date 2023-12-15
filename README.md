@@ -30,6 +30,7 @@ Details on [setting up your GitHub Pages site locally with Jekyll](https://help.
 ## Setting up development environment with Docker
 
 ## How to add an item to the Timeline
+
 To add a new event to the **timeline** on the homepage, follow these steps:
 
 1. Create a new Markdown file in the `_events` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-event.md`. Use the earliest date of the event in the filename, as it is just being used to sort filenames in the directory. _Note: Jekyll would not render the file if the date in the filename is in the future, so you can safely create the file even if the event is not scheduled yet_. If you want the event to be displayed as a separate page, don't forget to add the `date` field to the front matter!
@@ -74,6 +75,7 @@ human_date: Second or third week of January 2027
 ```
 
 ## How to add a page, its list of seealso pages, and link to it from the menu
+
 Create the page in the `pages` directory. The filename should be the same as the title of the page, with dashes instead of spaces. For example, if the page title is "About the Project", the filename should be `about-the-project.md`. Add the **permalink** to the front matter to the page:
 
 ```yaml
@@ -82,6 +84,7 @@ title: 'About the Project'
 permalink: /about-the-project/
 ---
 ```
+
 Then add an entry to the menu in the `_data/navigation.yml` file:
 
 ```yaml
@@ -91,7 +94,7 @@ Then add an entry to the menu in the `_data/navigation.yml` file:
 
 The page frontmatter can contain the `seealso` table of links - the links being the exact permalink of the page to link to:
 
-```diff
+````diff
 ---
 title: 'About the Project'
 permalink: /about-the-project/
@@ -108,6 +111,33 @@ title: 'Objectives'
 permalink: /project/objectives/
 + parentUrl: /project/
 ---
-```
+````
+
 The folder structure of the pages directory should in principle reflect the menu structure. For example, the page `/project/objectives/` should be located in the `pages/project/objectives.md` file.
 Note: the **permalink** will tell eventually Jekyll to generate the page at the specified URL, even if the page is located in a subdirectory.
+
+## How to add a blogpost
+
+Create a new Markdown file in the `_posts` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-event.md`. Use the date of the event in the filename, as it is just being used to sort filenames in the directory. _Note: Jekyll would not render the file if the date in the filename is in the future, so you can safely create the file even if the event is not scheduled yet_. If you want the event to be displayed as a separate page, don't forget to add the `date` field to the front matter!
+
+In the newly created Markdown file, add the following front matter at the beginning of the file:
+
+```yaml
+---
+title: 'Blogpost Title'
+date: YYYY-MM-DD # Publication date of the blogpost, optional if date in the filename refers to past date
+---
+```
+
+To add a cover figure, add the images to the `/assets/images` directory and add the `figure` field to the front matter:
+
+```diff
+---
+title: 'Blogpost Title'
+date: YYYY-MM-DD # Publication date of the blogpost, optional if date in the filename refers to past date
++ figure:
++   - src: figure1.png
++     alt: 'Figure 1'
++     caption: 'Figure 1: Caption of the figure'
+---
+```

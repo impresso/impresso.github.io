@@ -5,6 +5,9 @@ category: news
 seealso:
   - /project/objectives/
   - /consortium/partners/
+figure:
+  - src: posts/Paris_12_6_27_radio_rallye_radio_Agence_Rol_btv1b53181880n_1.jpeg
+    caption: 'Source: [Bibliothèque nationale de France](https://gallica.bnf.fr/ark:/12148/btv1b53181880n/f1.item)'
 ---
 
 We are thrilled to announce that our proposal "_impresso_ - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio" will be funded.
