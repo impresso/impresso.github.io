@@ -1,21 +1,24 @@
 ---
 title: 'impresso 2 proposal funded'
+status: published
 category: news
 seealso:
   - /project/objectives/
   - /consortium/partners/
 ---
 
-We are thrilled to announce that our proposal "*impresso* - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio" will be funded.
+We are thrilled to announce that our proposal "_impresso_ - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio" will be funded.
 [site under re-construction]
+
+<!-- more -->
 
 impresso - Media Monitoring of the Past is an interdisciplinary research project which aims to pioneer new approaches to the joint exploration of historical media content across time, languages, and national borders.
 
-The **first *impresso* project** (2017-2020) developed a scalable architecture for the processing of Swiss and Luxembourgish newspaper collections and created an interface with powerful search, filter and discovery functionalities based on semantic enrichments.
+The **first _impresso_ project** (2017-2020) developed a scalable architecture for the processing of Swiss and Luxembourgish newspaper collections and created an interface with powerful search, filter and discovery functionalities based on semantic enrichments.
 
 The **second project** (2023-2027) project puts forward the vision of a comprehensive connection between media archives across languages and media types. Starting in 2023, we will build a Western European corpus, integrate newspaper and radio sources, and enable data-driven transnational historical research (see scientific abstract below).
 
-We thank the Swiss National Science Foundation (SNSF) and Luxembourgish Fond National de la Recherche (FNR) for their trust. We are excited and honoured to collaborate with a range of old and new partners. 
+We thank the Swiss National Science Foundation (SNSF) and Luxembourgish Fond National de la Recherche (FNR) for their trust. We are excited and honoured to collaborate with a range of old and new partners.
 
 ## Scientific abstract of the second impresso project:
 
