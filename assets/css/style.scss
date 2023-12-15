@@ -32,16 +32,16 @@ figure.respect-margin img{
   max-width: 100%;
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1600px) {
   :root{
     --bs-body-font-size: 1.125rem !important;
   }
   .container-fluid{
-    width: 2000px;
+    width: 1600px;
     margin: 0 auto;
   }
   .container-fluid.position-fixed{
-    width: 2000px;
+    width: 1600px;
     left: 50%;
     transform: translateX(-50%);
   }

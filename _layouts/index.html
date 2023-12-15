@@ -4,11 +4,11 @@ layout: default
 
 <main class="container-fluid g-0 d-flex flex-column min-vh-100">
   <div class="row g-0">
-    <div class="col-7 offset-2 g-0">
-      <h1 class="m-5">{{page.title}} &mdash; <em>{{page.subheading}}</em></h1>
-      <section class="m-5 text-italic serif">{{content}}</section>
+    <div class="col-lg-7 offset-lg-2 g-0">
+      <h1 class="m-3 m-lg-5">{{page.title}} &mdash; <em>{{page.subheading}}</em></h1>
+      <section class="m-3 m-lg-5 text-italic serif">{{content}}</section>
 
-      <section class="m-5 d-flex">
+      <section class="m-3 m-lg-5 d-flex">
         <button
           type="button"
           class="btn btn-primary btn-lg small-caps d-flex align-items-center"
@@ -22,38 +22,38 @@ layout: default
         </button>
       </section>
     </div>
-    <div class="col-3 g-0 pt-5">
-      <section class="pb-3 ps-3 pe-5" style="min-height: 50%">
+    <div class="col-lg-3 g-0 pt-5">
+      <section class="pb-3 ps-3 pe-3 pe-lg-5" style="min-height: 50%">
         <h3 class="small-caps fw-bold mb-3">Releases</h3>
         {% assign release = site.releases | last %} {% include release.html %}
       </section>
-      <section class="py-3 ps-3 pe-5">
+      <section class="py-3 ps-3 pe-3 pe-lg-5">
         <h3 class="small-caps fw-bold mb-3">Announcements</h3>
         {% assign announcement = site.announcements | last %} {% include
         announcement.html %}
       </section>
     </div>
   </div>
-  <div class="row g-0">
-    <div class="col-10 offset-2 g-0">
-      <div class="mx-5">{% include timeline.html %}</div>
+  <div class="row g-0 d-none d-md-flex">
+    <div class="col-10 offset-2 g-0 ">
+      <div class="mx-5 ">{% include timeline.html %}</div>
     </div>
   </div>
-  <div class="row g-0 position-sticky top-0" style="z-index: 1">
-    <div class="col-10 offset-2 g-0">
-      <div class="d-flex align-items-center mx-5 bg-light">
+  <div class="row g-0 position-sticky top-0 " style="z-index: 1">
+    <div class="{{site.theme_bootstrap_layout.main}}">
+      <div class="d-flex align-items-center mx-3 mx-lg-5 bg-light border-bottom border-accent">
         <h3 class="flex-shrink-1 small-caps fw-bold mb-0 me-2" style="white-space: nowrap;">Blog posts</h3>
         <hr class="flex-grow-1" />
       </div>
     </div>
   </div>
   <div class="row g-0 flex-grow-1">
-    <div class="col-10 offset-2">
-      <section class="d-flex flex-wrap me-5">
+    <div class="{{site.theme_bootstrap_layout.main}}">
+      <div class="row g-0 me-3 me-lg-5">
         {% assign posts=site.posts | slice: 1, 2 %} {% for post in posts %}
-        <div class="w-50 w-md-100 py-3">{% include post.html %}</div>
+        <div class="col-lg-6 py-3">{% include post.html %}</div>
         {% endfor %}
-      </section>
+      </div>
     </div>
   </div>
 </main>
