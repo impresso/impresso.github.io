@@ -177,11 +177,14 @@ site.data.navigation.languages.en %}
         --stroke-width: 2px;
 
         --icon-size: 18px !important;
+
         /* Button variables */
         --lg-size: 48px;
         --lg-cr: calc(var(--lg-size) / 2);
         --md-size: 38px;
         --md-cr: calc(var(--lg-size) / 2);
+        --z-index-blogpost-sticky: 1;
+        --z-index-aside: 2;
       }
       .icon path {
         will-change: color;
@@ -299,10 +302,12 @@ site.data.navigation.languages.en %}
       aside.Nav .nav-item {
         position: relative;
       }
+
       aside.Nav .nav-item.active > .nav-link > span {
         /* background-color: var(--bs-primary); */
         position: relative;
         color: black;
+        display: inline-block;
       }
       aside.Nav .nav-item::after {
         background-color: var(--bs-dark);
@@ -330,6 +335,8 @@ site.data.navigation.languages.en %}
         right: -4px;
         background-color: var(--bs-primary);
         z-index: -1;
+
+        height: 100%;
       }
 
       aside.Nav .Nav__dropdownToggler {

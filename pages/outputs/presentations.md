@@ -1,6 +1,7 @@
 ---
 title: 'Presentations'
 layout: publications
-permalink: /publications/presentations/
+permalink: /outputs/presentations/
+parentUrl: /outputs/
 bib_json_name: presentations
 ---

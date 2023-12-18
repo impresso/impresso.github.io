@@ -3,61 +3,41 @@ languages:
     links:
       - title: 'Home'
         url: /
-      #    - title: "Glossary"
-      #      url: /glossary/
       - title: 'Project'
         url: /project/
         links:
+          - title: 'About'
+            url: /project/
           - title: 'Overall Objectives'
             url: /project/objectives/
           - title: 'Guiding Principles'
             url: /project/guiding-principles/
-          - title: 'Computational Linguistics'
+          - title: 'Natural Language Processing'
             url: /project/linguistics/
           - title: 'Design'
             url: /project/design/
           - title: 'Historical Research'
             url: /project/history/
-
-      #     - title: "Publications"
-      #       url: /project/publications/
+      - title: 'Labs'
+        url: /labs/
       - title: 'App'
         url: /app/
         links:
+          - title: 'About'
+            url: /app/
           - title: 'How to use it'
             url: /app/usage/
-          # - title: "Newspaper corpus"
-          #   url: /theapp/corpus/
-          - title: 'Labs'
-            url: /app/labs/
       - title: 'Blog'
         url: /blog/
-      - title: 'Publications'
-        url: /publications/
+      - title: 'Outputs'
+        url: /outputs/
         links:
+          - title: 'Publications'
+            url: /outputs/
           - title: 'Presentations'
-            url: /publications/presentations
+            url: /outputs/presentations/
           - title: 'datasets'
-            url: /publications/datasets
-          # - title: "Data"
-          #   url: /publications/data
-          # - title: "Presentations"
-          #   url: /publications/presentations
-          # - title: "Code"
-          #   url: /publications/codex
-      - title: 'Overview'
-        url: /overview/
-        links:
-          - title: 'Intro'
-            url: /overview/intro
-          # - title: "Registration"
-          #   url: /project/overview/registration
-          # - title: "Program"
-          #   url: /project/overview/program
-          # - title: "Resources"
-          #   url: /overview/resources
-          # - title: "Events"
-          #   url: /overview/events
+            url: /outputs/datasets/
       - title: 'Consortium'
         url: '/consortium/'
         links:
@@ -69,64 +49,3 @@ languages:
             url: /consortium/associated-partners/
           # - title: 'Contributors'
           #   url: /consortium/contributors/
-       
-  fr:
-    links:
-      - title: 'Accueil'
-        url: /fr/
-      - title: 'Blog'
-        url: /fr/blog/
-      - title: 'Projet'
-        url: /fr/project/
-        links:
-          - title: 'Linguistique Computationelle'
-            url: /fr/project/linguistics/
-          - title: 'Design'
-            url: /fr/project/design/
-          - title: 'Historical Research'
-            url: /fr/project/history/
-      - title: 'Consortium'
-        url: /fr/consortium/
-        links:
-          - title: 'Équipe'
-            url: /fr/consortium/people/
-          - title: 'Partenaires'
-            url: /fr/consortium/partners/
-          - title: 'Partenaires associés'
-            url: /fr/consortium/associated-partners/
-    # - title: "Consortium"
-    #   url: "/fr/consortium/"
-    #   links:
-    #     - title: "Équipe"
-    #       url: /fr/consortium
-    #     - title: "Partenaires"
-    #       url: /fr/consortium/#partners
-    #     - title: "Partenaires associés"
-    #       url: /fr/consortium/#associated-partners
-    # - title: "Amis du projet"
-    #   url: /fr/consortium/#friends
-
-  de:
-    links:
-      - title: 'Index'
-        url: /de/
-      - title: 'Blog'
-        url: /de/blog/
-      - title: 'Projekt'
-        url: /de/project/
-        links:
-          - title: 'Computational Linguistics'
-            url: /de/project/linguistics/
-          - title: 'Design'
-            url: /de/project/design/
-          - title: 'Historical Research'
-            url: /de/project/history/
-      - title: 'Who are we?'
-        url: /de"/people/"
-        links:
-          - title: 'People'
-            url: /de/people/
-          - title: 'Partners'
-            url: /de/partners/
-          - title: 'Associated partners'
-            url: /de/associated-partners/
