@@ -1,10 +1,7 @@
 {% assign nav = site.data.navigation.languages[lang] | default:
 site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
-%}
-{% assign parentUrl = page.parentUrl %}
-{% unless parentUrl %} 
-{% assign parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %}
-{% endunless %}
+%} {% assign parentUrl = page.parentUrl %} {% unless parentUrl %} {% assign
+parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
 
 <aside class="Nav container-fluid h-100 position-fixed d-none d-md-block g-0">
   <div class="row g-0 h-100">
@@ -14,20 +11,23 @@ site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
           class="nav-item squared position-relative"
           style="padding-top: 100%"
         >
-          <a
-            href="/"
-            class="btn btn-transparent position-absolute start-0 top-0 p-2"
-            style="z-index: 1"
-          >
-            {% include icons/home-simple-door.html %}
+          <a href="/" class="position-absolute start-0 mt-2 ms-2 top-0">
+            <button type="button" class="btn btn-simple">
+              <span class="icon-container">
+                {% include icons/home-simple-door.html %}</span
+              >
+            </button>
           </a>
           <button
-            class="position-absolute end-0 top-0 p-2 btn btn-transparent"
+            type="button"
+            class="position-absolute end-0 top-0 mt-2 me-2 btn btn-simple"
             id="Nav__darkModeToggler"
-            style="z-index: 1"
           >
-            {% include icons/dark-mode.html %}
+            <span class="icon-container">
+              {% include icons/dark-mode.html %}</span
+            >
           </button>
+
           <div
             class="position-absolute top-0 start-0 end-0 bottom-0 d-flex align-items-center justify-content-center"
           >
@@ -41,7 +41,7 @@ site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
         <!-- <li>{{ parentUrl }}</li> -->
         {% for item in nav.links %}
         <li
-          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open active {% endif %}{% if item.url == page.url %} active {% endif %}"
+          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open active {% endif %}{% if item.url == page.url %} activeTwo {% endif %}"
         >
           <a class="nav-link small-caps" href="{{ item.url }}"
             ><span>{{ item.title }}</span></a
@@ -54,10 +54,13 @@ site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
           </button>
           <ul>
             {% for subitem in item.links %}
-            <li class="nav-item {% if subitem.url == page.url %} active {% endif %}">
-            <a class="nav-link" href="{{ subitem.url }}"
-              ><span>{{ subitem.title }}</span></a
-            ></li>
+            <li
+              class="nav-item {% if subitem.url == page.url %} active {% endif %}"
+            >
+              <a class="nav-link" href="{{ subitem.url }}"
+                ><span>{{ subitem.title }}</span></a
+              >
+            </li>
             {% endfor %}
           </ul>
           {% endif %}
@@ -97,33 +100,33 @@ site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
   </div>
 </aside>
 <script>
-  const navDarkModeToggler = document.querySelector('#Nav__darkModeToggler')
+  const navDarkModeToggler = document.querySelector("#Nav__darkModeToggler");
   // onclick, toggle dark mode
-  navDarkModeToggler.addEventListener('click', () => {
-    const html = document.querySelector('body')
-    html.classList.toggle('dark')
-    const isDark = html.classList.contains('dark')
-    localStorage.setItem('darkMode', isDark)
-  })
+  navDarkModeToggler.addEventListener("click", () => {
+    const html = document.querySelector("body");
+    html.classList.toggle("dark");
+    const isDark = html.classList.contains("dark");
+    localStorage.setItem("darkMode", isDark);
+  });
 
   // on click on the nav, open the <ul>
-  const navDropdownTogglers = document.querySelectorAll('.Nav__dropdownToggler')
+  const navDropdownTogglers = document.querySelectorAll(
+    ".Nav__dropdownToggler"
+  );
   navDropdownTogglers.forEach((toggler) => {
-    toggler.addEventListener('click', (e) => {
-      const navItem = e.currentTarget.parentElement
-      navItem.classList.toggle('open')
-      const ul = e.currentTarget.nextElementSibling
+    toggler.addEventListener("click", (e) => {
+      const navItem = e.currentTarget.parentElement;
+      navItem.classList.toggle("open");
+      const ul = e.currentTarget.nextElementSibling;
       // if it has no open class, calculate the hidden height.
-      if (!ul.classList.contains('open')) {
-        const hiddenHeight = ul.scrollHeight
-        ul.style.height = hiddenHeight + 'px'
+      if (!ul.classList.contains("open")) {
+        const hiddenHeight = ul.scrollHeight;
+        ul.style.height = hiddenHeight + "px";
       } else {
-        ul.style.height = 0
+        ul.style.height = 0;
       }
-      ul.classList.toggle('open')
-    })
-  })
+      ul.classList.toggle("open");
+    });
+  });
 </script>
-<style>
- 
-</style>
+<style></style>

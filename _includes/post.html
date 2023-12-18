@@ -1,4 +1,4 @@
-<div class="post mb-4">
+<div class="post int-btn mb-4">
   <div>
     <div class="image-date-title">
       {% if post.thumbnail %}{% assign thumbnail=post.thumbnail %}{% else %}{%
@@ -12,7 +12,7 @@
       <div class="date-title ms-5 mt-3">
         <div class="incipit">
           <span>{{post.date | date: "%a, %d.%m %Y"}}</span>
-          <hr />
+          <div class="hr"></div>
         </div>
         <h3 class="mt-2"><a href="{{post.url}}">{{post.title}}</a></h3>
         <div class="anchor" id="{{post.slug}}"></div>
@@ -20,16 +20,17 @@
     </div>
     <div class="ps-5 mt-4">{{post.excerpt}}</div>
   </div>
-  <div class="ps-5">
-    <a href="{{post.url}}" class="btn post__more">
+  <div>
+    <button
+      type="button"
+      class="btn btn-secondary btn-md small-caps d-flex align-items-center ms-5"
+    >
       <span class="small-caps fw-bold">read more</span>
-      <span class="ms-2 post__moreIcon">
+      <span class="ms-2 icon-container">
         {% include icons/arrow-right.svg %}</span
       >
-    </a>
+    </button>
   </div>
 </div>
 
-<style>
-  
-</style>
+<style></style>

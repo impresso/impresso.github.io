@@ -14,11 +14,16 @@ layout: default
           class="btn btn-primary btn-lg small-caps d-flex align-items-center"
         >
           <span>go to <em>impresso</em> <b>app</b></span>
-          <span class="ms-2"> {% include icons/arrow-right.svg %}</span>
+          <span class="ms-2 icon-container">
+            {% include icons/arrow-right.svg %}</span
+          >
         </button>
         &nbsp;
         <button type="button" class="btn btn-primary btn-lg small-caps">
-          go to <em>impresso</em> <b>data lab</b>
+          <span>go to <em>impresso</em> <b>data lab</b></span>
+          <span class="ms-2 icon-container">
+            {% include icons/arrow-right.svg %}</span
+          >
         </button>
       </section>
     </div>
@@ -42,7 +47,12 @@ layout: default
   <div class="row g-0 position-sticky top-0" style="z-index: 1">
     <div class="col-10 offset-2 g-0">
       <div class="d-flex align-items-center mx-5 bg-light">
-        <h3 class="flex-shrink-1 small-caps fw-bold mb-0 me-2" style="white-space: nowrap;">Blog posts</h3>
+        <h3
+          class="flex-shrink-1 small-caps fw-bold mb-0 me-2"
+          style="white-space: nowrap"
+        >
+          Blog posts
+        </h3>
         <hr class="flex-grow-1" />
       </div>
     </div>
