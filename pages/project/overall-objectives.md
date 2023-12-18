@@ -10,16 +10,16 @@ excerpt: "The *impresso* project aims to overcome language and media barriers an
 ---
 
 
-*Media Monitoring of the Past across Modalities, Time, Languages, and National Borders* &mdash; Leveraging  an unprecedented corpus of newspaper and radio archives, ***impresso* - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.
+Leveraging  an unprecedented corpus of newspaper and radio archives, ***impresso* - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.
 
+### Media Monitoring of the Past across Modalities, Time, Languages, and National Borders
 
-*impresso* proposes to overcome language and media barriers and to enable, for the first time, the joint exploration of an unprecedented corpus of newspaper and radio archive contents across modalities, time, languages, and national borders. Our aim is not merely to juxtapose collections and deploy full-text search across them, but to enrich and connect these sources through multiple layers of cutting-edge semantic enrichments represented in a shared multilingual vector space, and to design adequate, meaningful, and transparent exploration capabilities for historical research.
+*impresso* seeks to transcend language and media barriers to enable, for the first time, the joint exploration of a vast corpus comprising both newspaper and radio archives. This initiative spans different modalities, time periods, languages, and national boundaries. Our objective extends beyond simply aggregating collections and enabling full-text search capabilities. We aim to enhance and interconnect these sources by implementing multiple layers of advanced semantic enrichments, all represented within a unified, multilingual vector space. Additionally, our goal is to develop robust, meaningful, and transparent exploration tools specifically tailored for historical research.
+Our work represents not merely an expansion in volume, but a fundamental shift in the approach to processing, representing, and studying sources from a transmedia and transnational perspective. This project is collaboratively designing and developing an open, versatile technological framework to enable seamless exploration of semantically interconnected media archives. Our focus areas include:
 
-Rather than a change of scale in terms of volume, we propose a paradigm shift in the processing, the representation, and the study of sources in transmedia and transnational perspectives. The project co-designs and develops an open and generic technological framework for the seamless exploration of semantically connected media archives and focuses on:
-
-- The development of advanced multilingual natural language processing techniques to transform heterogeneous, unstructured, and noisy historical media sources into semantically enriched data ultimately connected in a shared vector space.
-- The advancement of digital (media) history research and methods.
-- The design and implementation of innovative interfaces to explore, visualize, and compare vast amounts of enriched historical print and audio collections.
+   1. Advancing multilingual natural language processing techniques to convert diverse, unstructured, and noisy historical media sources into semantically enriched data, ultimately interconnected within a shared vector space.
+   2. Progressing the field of digital (media) history, both in terms of research and methodologies.
+   3. Creating and implementing innovative interfaces for exploring, visualizing, and comparing extensive amounts of enriched historical print and audio collections.
 
 <!-- more -->
 
@@ -72,9 +72,9 @@ The *impresso* web app we developed during the first *impresso* project will be 
 
 #### *The impresso Data Lab*
 
-The new *impresso* data lab will provide the research community with access to an API for direct access to the data to support computational analyses beyond the capabilities of the interface. Interactive notebooks make such work more transparent and reusable for research and teaching purposes. Finally, we foresee the ability to link external documents on the grounds of semantic enrichments such as named entities. This is with the ambition to allow users to link relevant data to the *impresso* corpus while also avoiding potential copyright infringement.
+The newly developed *impresso* data lab will offer researchers an API for direct data access, enabling computational analyses beyond the interface's capabilities. Interactive notebooks make such work more transparent and reusable for research and teaching purposes. Finally, we foresee the ability to link external documents on the grounds of semantic enrichments such as named entities. This with the ambition to allow users to link relevant data to the *impresso* corpus whilst also avoiding potential copyright infringement.
 
-In addition to offering a unique gateway to media sources and enrichments, both interfaces will support versatile, transparent, and data-driven research workflows that enable methodological reflexivity in the critical analysis of sources, tools, and data.
+In addition to offering a unique gateway to media sources and enrichments, both interfaces will support versatile, transparent and data-driven research workflows that enable methodological reflexivity in the critical analysis of sources, tools and data.  
 
 **See also:** [Design Research Objectives](/project/design)
 
@@ -99,19 +99,3 @@ We conduct original research on historical media ecosystems under the umbrella t
 We develop *impresso*’s corpus and interfaces with the historical research community at-large in mind. To foster usage of our resources, we are building a community of researchers around our tools and methodological framework. We cooperate with existing research groups in media history and computational humanities and provide opportunities for scholarly exchange and constant feedback.
 
 Overall, historical research explores the opportunities offered by enriched sources using case studies, determines how best to interact with the data, assesses their value for research based on comparative analysis, and fosters a collaborative research community for data-driven and collaborative historical research.
-
-
-
-To achieve our goals, we are guided by five key concepts:
-
-1. **Vectorization:** Creating numeric embeddings for linguistic and visual content to facilitate semantic representations.
-
-2. **Cross-lingual Alignment:** Ensuring comparable semantic representations for different languages and media types.
-
-3. **Contextualization:** Enhancing linguistic content with contextualized embeddings and linking out to external resources for richer context.
-
-4. **Aggregation and Abstraction:** Applying hierarchical clustering to provide meaningful grouping for exploration and visualization.
-
-5. **Relevance Assessment:** Computing scores for the centrality of entities and concepts to determine their importance in historical documents.
-
-Through these concepts, we aim to provide accessible and powerful tools for historians and researchers, enriching the exploration of historical data and fostering new insights.

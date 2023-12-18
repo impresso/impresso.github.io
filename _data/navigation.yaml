@@ -27,6 +27,8 @@ languages:
             url: /app/
           - title: 'How to use it'
             url: /app/usage/
+      - title: 'HIPE'
+        url: /hipe/
       - title: 'Blog'
         url: /blog/
       - title: 'Outputs'
@@ -36,10 +38,10 @@ languages:
             url: /outputs/
           - title: 'Presentations'
             url: /outputs/presentations/
-          - title: 'datasets'
+          - title: 'Datasets'
             url: /outputs/datasets/
       - title: 'Consortium'
-        url: '/consortium/'
+        url: '/consortium/team/'
         links:
           - title: 'Team'
             url: /consortium/team/

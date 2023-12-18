@@ -4,7 +4,7 @@ permalink: /project/
 lang: en
 ---
 
-Leveraging  an unprecedented corpus of newspaper and radio archives, *impresso* - Media Monitoring of the Past* is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.
+Leveraging  an unprecedented corpus of newspaper and radio archives, ***impresso* - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.
 
 <!-- more -->
 
@@ -33,10 +33,10 @@ We thank the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en) a
 
 ### Principal Investigators of the Second *impresso* Project
 
-- [Maud Ehrmann](/consortium), Digital Humanities Laboratory, EPFL
-- [Simon Clematide](/consortium), Department of Computational Linguistics, Zurich University
-- [Raphaëlle Ruppen Coutaz](/consortium), History Department, Lausanne University
-- [Marten Düring](/consortium), Centre for Contemporary and Digital History, Luxembourg University
+- [Maud Ehrmann](/consortium/team/), Digital Humanities Laboratory, EPFL
+- [Simon Clematide](/consortium/team/), Department of Computational Linguistics, Zurich University
+- [Raphaëlle Ruppen Coutaz](/consortium/team/), History Department, Lausanne University
+- [Marten Düring](/consortium/team/), Centre for Contemporary and Digital History, Luxembourg University
 
 ### How to Cite the Second *impresso* Project:
 
