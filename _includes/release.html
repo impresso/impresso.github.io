@@ -1,5 +1,5 @@
-<div class="Release">
-  <h4 class=pb-2">
+<div class="Release int-btn">
+  <h4 class="pb-2">
     {{release.title}}
     <span class="badge bg-dark">{{ release.version}}</span>
   </h4>
@@ -7,9 +7,17 @@
     {{release.content}}
     <p>{{release.date | date: "%B %d, %Y"}}</p>
   </div>
-  <div class="position-relative border-bottom border-dark">
-    <a href="{{ release.url }}" style="right: -12px" class="btn btn-transparent position-absolute bottom-0"
-      >{% include icons/arrow-right.svg %}</a
-    >
+  <div>
+    <a href="{{ release.url }}">
+      <button
+        type="button"
+        class="btn btn-secondary btn-md small-caps d-flex align-items-center"
+      >
+        <span class="small-caps fw-bold">read more</span>
+        <span class="ms-2 icon-container">
+          {% include icons/arrow-right.svg %}</span
+        >
+      </button>
+    </a>
   </div>
 </div>
