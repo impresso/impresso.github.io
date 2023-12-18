@@ -1,6 +1,6 @@
 ---
 title: 'Datasets'
 layout: publications
-permalink: /publications/datasets/
+permalink: /outputs/datasets/
 bib_json_name: datasets
 ---
