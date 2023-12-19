@@ -1,7 +1,7 @@
 ---
 category: team
 group: collaborator
-ordering: 02-boros
+ordering: 03-boros
 picture: /assets/images/emanuela-boros.jpg
 subheading: Research Scientist, EPFL-DHLAB
 title: Emanuela Boros, PhD

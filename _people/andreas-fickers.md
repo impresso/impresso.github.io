@@ -1,7 +1,7 @@
 ---
 category: team
 group: advisor
-ordering: 03-fickers
+ordering: 01-fickers
 picture: /assets/images/andreas-fickers.jpg
 subheading: Director of the C2DH
 title: Andreas Fickers, Prof.

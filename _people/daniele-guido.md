@@ -1,7 +1,7 @@
 ---
 category: team
 group: collaborator
-ordering: 02-guido
+ordering: 06-guido
 picture: /assets/images/daniele-guido.jpg
 subheading: Lead designer, C2DH
 title: Daniele Guido, M.Sc.

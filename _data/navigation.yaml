@@ -18,14 +18,14 @@ languages:
             url: /project/design/
           - title: 'Historical Research'
             url: /project/history/
-      - title: 'Labs'
-        url: /labs/
-      - title: 'App'
+      # - title: 'Labs'
+      #   url: /labs/
+      - title: 'Applications'
         url: /app/
         links:
-          - title: 'About'
+          - title: 'Web App & Data Lab'
             url: /app/
-          - title: 'How to use it'
+          - title: 'Tutorials'
             url: /app/usage/
       - title: 'HIPE'
         url: /hipe/

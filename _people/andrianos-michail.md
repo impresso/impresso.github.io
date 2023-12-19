@@ -1,7 +1,7 @@
 ---
 category: team
 group: collaborator
-ordering: 02-michail
+ordering: 08-michail
 picture: /assets/images/andrianos-michail.jpg
 subheading: PhD Student, UZH-CL
 title: Andrianos Michail, M.Sc.

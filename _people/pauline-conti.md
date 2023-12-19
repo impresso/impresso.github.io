@@ -1,7 +1,7 @@
 ---
 category: team
 group: collaborator
-ordering: 02-conti
+ordering: 05-conti
 picture: /assets/images/pauline-conti.jpeg
 subheading: Data and Software Engineer, EPFL-DHLAB
 title: Pauline Conti, M.Sc

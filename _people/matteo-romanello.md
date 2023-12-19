@@ -5,8 +5,6 @@ ordering: 02-romanello
 picture: /assets/images/matteo-romanello.jpg
 subheading: Research scientist, EPFL-DHLAB
 title: Matteo Romanello, PhD
-lastname: Romanello
-firstname: Matteo
 status: publish
 ---
 
