@@ -91,10 +91,10 @@ layout: default
     </div>
   </div>
   <!--  events -->
-  <div class="row g-0 flex-grow-1">
+  <div class="row g-0 mt-4 flex-grow-1">
     <div class="{{site.theme_bootstrap_layout.main}}">
       <div class="row g-0 mx-3 mx-lg-5">
-        {% assign events=site.events | sort: "date" | reverse %}
+        {% assign events=site.events | sort: "start_date"  %}
         {% for event in events %}
         <div class="col-lg-4 py-3">
           <div class="me-4 mb-4">
