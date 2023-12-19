@@ -101,13 +101,21 @@
     } else {
       timelinePointer.style.opacity = 0
     }
-    // // get closest item
-    // const closestItem = items.reduce((prev, curr) => {
-    //   const prevDiff = Math.abs(prev.startDate - date)
-    //   const currDiff = Math.abs(curr.startDate - date)
-    //   return prevDiff < currDiff ? prev : curr
-    // })
-    // console.log(closestItem)
+    // get closest item
+    const closestItem = items.reduce((prev, curr) => {
+      const prevDiff = Math.abs(prev.startDate - date)
+      const currDiff = Math.abs(curr.startDate - date)
+      return prevDiff < currDiff ? prev : curr
+    })
+    console.log(closestItem)
+    // show tooltip
+    timelineTooltip.innerHTML = `
+      <div class="Timeline__tooltip__title">${closestItem.title}</div>
+      <div class="Timeline__tooltip__date">${closestItem.humanDate}</div>
+    `
+    const closestItemPx = MsToPx(closestItem.startDate - timelineStartDate)
+    timelineTooltip.style.opacity = 1
+    timelineTooltip.style.transform = `translate(${closestItemPx}px, 0)`
   }
 
   timelineActiveArea.addEventListener('mousemove', handleMouseMove)
@@ -288,6 +296,16 @@
     background-color: var(--bs-primary-transparent);
     border: 1px solid var(--bs-primary-transparent);
     z-index: 0;
+    pointer-events: none;
+  }
+  #Timeline__tooltip {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    will-change: transform, opacity;
+    transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+    transform: translate(0, 0);
+    width: 400px;
     pointer-events: none;
   }
   .Timeline__item {
