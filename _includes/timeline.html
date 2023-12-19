@@ -17,6 +17,7 @@
   <div id="Timeline__now">
     <div id="Timeline__nowDate"></div>
   </div>
+  <div id="Timeline__tooltipMarker"></div>
   <div id="Timeline__tooltip"></div>
 </section>
 <noscript>
@@ -43,6 +44,9 @@
   const timelineNowDate = document.querySelector('#Timeline__nowDate')
   const timelinePast = document.querySelector('#Timeline__past')
   const timelineTooltip = document.querySelector('#Timeline__tooltip')
+  const timelineTooltipMarker = document.querySelector(
+    '#Timeline__tooltipMarker'
+  )
 
   let timelineBoundingClientRect = timelineElement.getBoundingClientRect()
 
@@ -92,12 +96,12 @@
       timelinePointer.style.transform = `translate(${mouseX}px, 0)`
       // use en GB locale for dates in the format "Fri, 1 Jan 2021"
 
-      timelinePointerDate.innerHTML = date.toLocaleDateString('en-GB', {
+      timelinePointerDate.innerHTML = '<span>' + date.toLocaleDateString('en-GB', {
         weekday: 'short',
         day: 'numeric',
         month: 'short',
         year: 'numeric',
-      })
+      }) + '</span>'
     } else {
       timelinePointer.style.opacity = 0
     }
@@ -107,15 +111,7 @@
       const currDiff = Math.abs(curr.startDate - date)
       return prevDiff < currDiff ? prev : curr
     })
-    console.log(closestItem)
-    // show tooltip
-    timelineTooltip.innerHTML = `
-      <div class="Timeline__tooltip__title">${closestItem.title}</div>
-      <div class="Timeline__tooltip__date">${closestItem.humanDate}</div>
-    `
-    const closestItemPx = MsToPx(closestItem.startDate - timelineStartDate)
-    timelineTooltip.style.opacity = 1
-    timelineTooltip.style.transform = `translate(${closestItemPx}px, 0)`
+    drawTooltipAtItem(closestItem)
   }
 
   timelineActiveArea.addEventListener('mousemove', handleMouseMove)
@@ -135,6 +131,24 @@
     drawTimeline()
     drawAxis()
   })
+
+  function drawTooltipAtItem(item) {
+    // show tooltip
+    timelineTooltip.innerHTML = `
+      <div class="Timeline__tooltip__title">${item.title}</div>
+      <div class="Timeline__tooltip__date">${item.humanDate}</div>
+    `
+    const itemStartPx = MsToPx(item.startDate - timelineStartDate)
+    const itemEndPx = MsToPx(timelineEndDate - item.endDate)
+    const xTooltip = Math.min(timelineBoundingClientRect.width - 200, itemStartPx - 3)
+
+    timelineTooltip.style.opacity = 1
+    timelineTooltip.style.transform = `translate(${xTooltip}px, 0)`
+
+    timelineTooltipMarker.style.opacity = 1
+    timelineTooltipMarker.style.transform = `translate(${itemStartPx - 3}px, 0)`
+    timelineTooltipMarker.style.width = `${timelineBoundingClientRect.width - itemStartPx - itemEndPx + 3}px`
+  }
 
   function drawAxis() {
     // get years between start and end
@@ -164,12 +178,12 @@
     const now = new Date()
     const nowPx = MsToPx(now - timelineStartDate)
     timelineNow.style.left = nowPx + 'px'
-    timelineNowDate.innerHTML = now.toLocaleDateString('en-GB', {
+    timelineNowDate.innerHTML = '<span>' + now.toLocaleDateString('en-GB', {
       weekday: 'short',
       day: 'numeric',
       month: 'short',
       year: 'numeric',
-    })
+    }) + '</span>'
 
     // draw past rectangle
     timelinePast.style.left = 0
@@ -191,6 +205,13 @@
   }
   drawTimeline()
   drawAxis()
+  // # get closet item at today's date
+  const todayClosestItem = items.reduce((prev, curr) => {
+    const prevDiff = Math.abs(prev.startDate - new Date())
+    const currDiff = Math.abs(curr.startDate - new Date())
+    return prevDiff < currDiff ? prev : curr
+  })
+  drawTooltipAtItem(todayClosestItem)
 </script>
 <style>
   #Timeline {
@@ -198,7 +219,7 @@
     --timeline-height: 40px;
     height: var(--timeline-height);
     margin-top: 70px;
-    margin-bottom: var(--timeline-height);
+    margin-bottom: 60px;
     background: var(--bs-light);
     font-size: 0.8rem;
   }
@@ -233,9 +254,10 @@
   }
   #Timeline__pointer {
     position: absolute;
-    top: -50px;
+    top: -90px;
     bottom: -10px;
     left: 0;
+    opacity: 0;
     will-change: transform, opacity;
     transition: transform 0.2s ease-out, opacity 0.2s ease-out;
     transform: translate(0, 0);
@@ -245,18 +267,21 @@
   }
   #Timeline__pointerDate {
     position: absolute;
-    top: -3rem;
+    
     left: 0;
     text-align: center;
-    margin-left: -3rem;
+
     height: 20px;
     line-height: 20px;
-    width: 6rem;
+
     color: var(--bs-dark);
     font-size: inherit;
     font-weight: bold;
     padding: 0.5rem;
     pointer-events: none;
+    top: -25px;
+    margin-left: -75px;
+    width: 150px;
   }
   #Timeline__now {
     position: absolute;
@@ -272,16 +297,20 @@
   }
   #Timeline__nowDate {
     position: absolute;
-    top: -3rem;
+    bottom: -40px;
     text-align: center;
-    margin-left: -50px;
-    height: 20px;
-    line-height: 20px;
-    width: 6rem;
+    margin-left: -75px;
+    height: 25px;
+    line-height: 25px;
+    width: 150px;
     color: var(--bs-dark);
     font-size: inherit;
     font-weight: bold;
-    padding: 0.5rem;
+    padding:0;
+  }
+  #Timeline__nowDate  > span{
+
+    border-bottom: 2px solid var(--bs-dark);
   }
   @keyframes blinker {
     50% {
@@ -300,26 +329,48 @@
   }
   #Timeline__tooltip {
     position: absolute;
-    top: -80px;
+    top: -87px;
     left: 0;
     will-change: transform, opacity;
-    transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+    transition: transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955), opacity 0.2s ease-out;
     transform: translate(0, 0);
-    width: 400px;
+    max-width: 250px;
+    background: var(--bs-light);
+    padding: 0.5rem;
+    border-radius: 4px;
     pointer-events: none;
+    border: 2px solid var(--bs-dark);
+  }
+  #Timeline__tooltipMarker {
+    position: absolute;
+    top: -3px;
+    bottom: -3px;
+    left: 0;
+    background: var(--bs-primary);
+    border: 2px solid var(--bs-dark);
+    opacity: 1;
+    will-change: transform, opacity;
+    transition: opacity 0.2s ease-out;
+    transform: translate(0, 0);
+    padding: 0 1px 0 3px;
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  .Timeline__tooltip__title{
+    font-weight: bold;
   }
   .Timeline__item {
     height: var(--timeline-height);
-    border: 1px solid var(--bs-accent);
     position: absolute;
     top: 0;
     bottom: 0;
-    background-color: var(--bs-accent);
-    border-radius: 0px;
+    background-color: var(--bs-dark-transparent);
+    border-radius: 2px;
+    border: 1px solid var(--bs-dark-transparent);
     cursor: pointer;
   }
   .Timeline__item:hover {
-    background-color: var(--bs-accent);
+    background-color: var(--bs-dark);
     border-color: var(--bs-dark);
   }
   .Timeline__year {
