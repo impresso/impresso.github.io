@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% assign h2_level = "<h2" %}
+{% assign sections = page.content | markdownify | split: h2_level %}
+
 
 <style>
   .Page__contents h2,
@@ -8,7 +11,7 @@ layout: default
     margin-top: 3rem;
     margin-bottom: 1rem;
   }
-  .Page__contents section > p:first-of-type {
+  .Page__contents section.Page__subheading > p:first-of-type {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
@@ -26,7 +29,24 @@ layout: default
 
   <div class="Page__contents row g-0 flex-grow-1">
     <div class="{{ site.theme_bootstrap_layout.main }}">
-      <section class="px-5 pt-5">{{content}}</section>
+      {% if page.layout == 'page' %}
+        {% for section in sections %}
+          {% if forloop.first == true %}
+            <section class="px-5 pt-5 Page__subheading">
+              {{ section }}
+            </section>
+          {% else %}
+            <section class="px-5 pt-5">
+            {% assign section_heading =  section | markdownify | split: "/h2&gt;" |  first %}
+            {% assign section_content = section | remove_first: section_heading %}
+            
+            <pre>{{section_heading | inspect}}</pre>
+            </section>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {{ content }}
+      {% endif %}
     </div>
   </div>
   {% include seealso.html %}
