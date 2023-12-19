@@ -1,15 +1,15 @@
-<div class="post int-btn mb-4">
+<div class="post int-btn pb-4">
   <div>
     <div class="image-date-title">
       {% if post.thumbnail %}{% assign thumbnail=post.thumbnail %}{% else %}{%
       assign thumbnail=post.figure[0] %}{% endif %} {% if thumbnail != nil %}
-      <div class="image-mask mt-3 me-3">
+      <div class="image-mask mt-3 me-4">
         <img class='blogThumb border-top border-dark' src='{{ '/assets/images/'
         | relative_url }}{{thumbnail.src}}' alt='{{ thumbnail.caption }}' />
       </div>
       {% endif %}
 
-      <div class="date-title mt-3">
+      <div class="date-title mt-3 me-4">
         <div class="incipit">
           <span>{{post.date | date: "%a, %d.%m %Y"}}</span>
           <div class="hr"></div>
@@ -23,7 +23,7 @@
   <div>
     <button
       type="button"
-      class="btn btn-secondary btn-md small-caps d-flex align-items-center ms-5"
+      class="btn btn-secondary btn-md small-caps d-flex align-items-center"
     >
       <span class="small-caps fw-bold">read more</span>
       <span class="ms-2 icon-container">
