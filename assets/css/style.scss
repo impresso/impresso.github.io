@@ -167,6 +167,11 @@ figure.respect-margin img {
   border-radius: var(--image-border-radius);
   border: var(--image-border);
 }
+.image-mask img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 .post h3 a {
   text-decoration: none;
 }
