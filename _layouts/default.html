@@ -169,6 +169,7 @@ site.data.navigation.languages.en %}
         --bs-light: #fafbf2;
         --bs-light-rgb: 250, 251, 242;
         --bs-light-transparent: #fafbf2bb;
+        --bs-logo-gray: #696467;
 
         --footer-logo-size: 200;
 
@@ -309,7 +310,7 @@ site.data.navigation.languages.en %}
         color: black;
         display: inline-block;
       }
-      aside.Nav .nav-item::after {
+      aside.Nav .nav-item:not(.squared)::after {
         background-color: var(--bs-dark);
         content: "";
         position: absolute;
@@ -347,7 +348,7 @@ site.data.navigation.languages.en %}
         color: var(--bs-primary);
         font-size: 1.5rem;
         left: -30px;
-        top: 9px;
+        top: 12px;
       }
       aside.Nav .Nav__dropdownToggler:hover,
       aside.Nav .nav-item.open .Nav__dropdownToggler {
@@ -404,6 +405,7 @@ site.data.navigation.languages.en %}
           --bs-primary: #ffe587;
           --bs-link-color: #fafbf2;
           --bs-link-hover-color: #fafbf2;
+          --bs-logo-gray: #fafbf2cc;
         }
 
         .nav {

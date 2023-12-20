@@ -298,6 +298,23 @@ figure.respect-margin img {
   right: 0;
 }
 
+#chimpSignup .btn-simple {
+  height: 36px;
+  width: 100%;
+  border: 2px solid var(--bs-dark);
+  border-radius: 18px;
+}
+
+a#chimpSignup {
+  text-decoration: none;
+  color: var(--bs-dark-fixed);
+  .btn-simple:hover {
+    color: var(--bs-dark-fixed);
+    border-color: var(--bs-dark-fixed);
+    background-color: var(--bs-primary);
+  }
+}
+
 .btn-simple:hover .icon-container {
   cursor: pointer;
   background-color: var(--bs-primary);
@@ -428,4 +445,9 @@ figure.respect-margin img {
 }
 body.dark {
   @include dark-mode-style;
+}
+
+#Impresso_logo {
+  width: 111.71px;
+  height: 123.92px;
 }
