@@ -1,10 +1,15 @@
 theme: empty-jekyll-theme
 excerpt_separator: '<!-- more -->'
+section_separator: '<!-- section -->'
 theme_bootstrap_layout: 
   main: col-lg-10 offset-lg-2 col-md-9 offset-md-3 g-0
   aside: col-lg-2 col-md-3 g-0
 keep_files: [pagefind]
-base: http://impresso-project.ch
+base: https://impresso-project.ch
+default_author: 
+  title: impresso team
+  slug: impresso-team
+  url: /author/impresso-team
 title: impresso
 lang: en
 languages: ['en', 'fr', 'de']
@@ -63,6 +68,11 @@ defaults:
       type: 'glossary'
     values:
       layout: 'glossaryItem'
+  - scope:
+      path: ''
+      type: 'people'
+    values:
+      layout: 'person'
   - scope:
       path: ''
       type: 'labs'
