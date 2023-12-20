@@ -1,6 +1,6 @@
 ---
 category: team
-group: collaborator
+group: former-collaborator
 ordering: 02-stroebel
 picture: /assets/images/phillip-stroebel.jpg
 subheading: PhD student, UZH-CL

@@ -1,6 +1,6 @@
 ---
-category: contributor
-group: contributor
+category: team
+group: former-collaborator
 ordering: 04-seguin
 picture: /assets/images/benoit-seguin.jpg
 title: Benoît Seguin

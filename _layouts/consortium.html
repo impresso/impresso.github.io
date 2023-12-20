@@ -41,9 +41,9 @@ layout: page
 
 
 
-        {% assign group = site.people | where: 'group','supervisor' | sort: 'ordering' %}
+        {% assign group = site.people | where: 'group','advisor' | sort: 'ordering' %}
         <div class='thumbnails respect-margin'>
-          <h3><span class='tag'>supervisors</span></h3>
+          <h3><span class='tag'>advisors</span></h3>
           {% for person in group %}
           {% include person.thumbnail.html %}
           {% endfor %}

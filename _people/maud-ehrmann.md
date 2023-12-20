@@ -1,12 +1,10 @@
 ---
 category: team
 group: contact-point
-ordering: 01-ehrmann
+ordering: 1-ehrmann
 picture: /assets/images/maud-ehrmann.jpg
 subheading: Research scientist, EPFL-DHLAB
 title: Maud Ehrmann, PhD
-lastname: Ehrmann
-firstname: Maud
 status: publish
 ---
 

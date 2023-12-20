@@ -1,7 +1,7 @@
 ---
 category: team
 group: collaborator
-ordering: 02-affan
+ordering: 01-affan
 picture: /assets/images/ferdaous-affan.jpg
 subheading: Affiliated PhD Student, C2DH
 title: Ferdaous Affan, Dipl.-Ing

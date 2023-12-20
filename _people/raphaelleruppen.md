@@ -1,7 +1,7 @@
 ---
 category: team
 group: contact-point
-ordering: 01-ruppen
+ordering: 3-ruppen
 picture: /assets/images/raphaelle-ruppen-coutaz.jpg
 subheading: Senior Researcher, UNIL History Department
 title: Raphaëlle Ruppen Coutaz, PhD
