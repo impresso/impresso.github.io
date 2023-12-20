@@ -1,0 +1,9 @@
+<div class="Event {{include.classname }}">
+  <h4>{{event.title}}</h4>
+  {{event.human_date}}
+  <blockquote>
+  {% if event.ics %}
+  {% include addtocalendar.html %}
+  {% endif %}
+  </blockquote>
+</div>

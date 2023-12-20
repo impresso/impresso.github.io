@@ -31,6 +31,8 @@ languages:
         url: /hipe/
       - title: 'Blog'
         url: /blog/
+      - title: 'Events'
+        url: /events/
       - title: 'Outputs'
         url: /outputs/
         links:

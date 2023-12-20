@@ -8,7 +8,7 @@ layout: default
       <h1 class="m-3 m-lg-5">
         {{page.title}} &mdash; <em>{{page.subheading}}</em>
       </h1>
-      <section class="m-3 m-lg-5 text-italic serif">{{content}}</section>
+      <section class="m-3 m-lg-5 display-6">{{content}}</section>
 
       <section class="m-3 m-lg-5 d-flex">
         <button
@@ -65,7 +65,7 @@ layout: default
   <div class="row g-0 flex-grow-1">
     <div class="{{site.theme_bootstrap_layout.main}}">
       <div class="row g-0 mx-3 mx-lg-5">
-        {% assign posts=site.posts | sort: "date" | reverse | slice: 0, 2 %} {%
+        {% assign posts=site.posts | where: "status", "published" | sort: "date" | reverse | slice: 0, 2 %} {%
         for post in posts %}
         <div class="col-lg-6 py-3">{% include post.html %}</div>
         {% endfor %}
@@ -73,43 +73,4 @@ layout: default
     </div>
   </div>
 </main>
-<div class="container-fluid g-0 d-flex flex-column ">
-  <div
-    class="row g-0 position-sticky top-0"
-    style="z-index: var(--z-index-blogpost-sticky)"
-  >
-    <div class="{{site.theme_bootstrap_layout.main}}">
-      <div class="d-flex align-items-center mx-3 mx-lg-5 bg-light">
-        <h3
-          class="flex-shrink-1 small-caps fw-bold mb-0 me-2"
-          style="white-space: nowrap"
-        >
-          Events
-        </h3>
-        <hr class="flex-grow-1" />
-      </div>
-    </div>
-  </div>
-  <!--  events -->
-  <div class="row g-0 mt-4 flex-grow-1">
-    <div class="{{site.theme_bootstrap_layout.main}}">
-      <div class="row g-0 mx-3 mx-lg-5">
-        {% assign events=site.events | sort: "start_date"  %}
-        {% for event in events %}
-        <div class="col-lg-4 py-3">
-          <div class="me-4 mb-4">
-            <h4>{{event.title}}</h4>
-            {{event.human_date}}
-            <blockquote/>
-            {{event.content}}
-            {% if event.ics %}
-            {% include addtocalendar.html %}
-            {% endif %}
-            <blockquote/>
-          </div>
-        </div>  
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
+

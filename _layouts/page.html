@@ -1,42 +1,49 @@
 ---
 layout: default
 ---
-{% assign h2_level = "<h2" %}
-{% assign sections = page.content | markdownify | split: h2_level %}
+{% assign sections = page.content | split: site.section_separator %}
 
 
 <style>
   .Page__contents h2,
   .Page__contents h3 {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
   }
-  .Page__contents section.Page__subheading > p:first-of-type {
-    font-size: 2rem;
+  .Page__contents section:first-of-type > p:first-of-type {
+    font-size: 1.5rem;
     margin-bottom: 2rem;
   }
   .Page__contents section > p:last-of-type {
     margin-bottom: 0;
   }
+  @media (min-width: 992px) {
+    .Page__contents section:first-of-type > p:first-of-type {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  }
 </style>
 <main class="Page container-fluid g-0 d-flex flex-column">
   <div class="row g-0">
     <div class="{{ site.theme_bootstrap_layout.main }}">
-      <h1 class="m-5">{{page.title}}</h1>
-      <h2 class="m-5">{{page.subheading}}</h2>
+      <h1 class="mt-4 m-3 mt-lg-5 m-lg-5">{{page.title}}</h1>
+      {% if page.subheading %}
+      <h2 class="mt-3 mt-lg-5 mx-3 mx-lg-5 display-6">{{page.subheading}}</h2>
+      {% endif %}
     </div>
   </div>
 
   <div class="Page__contents row g-0 flex-grow-1">
     <div class="{{ site.theme_bootstrap_layout.main }}">
-      {% if page.layout == 'page' %}
+      {% if sections.size > 1 %}
         {% for section in sections %}
           {% if forloop.first == true %}
-            <section class="px-5 pt-5 Page__subheading">
+            <section class="px-3 px-lg-5 pt-3 pt-lg-5 Page__subheading">
               {{ section }}
             </section>
           {% else %}
-            <section class="px-5 pt-5">
+            <section class="px-3 px-lg-5 pt-3 pt-lg-5">
             {% assign section_heading =  section | markdownify | split: "/h2&gt;" |  first %}
             {% assign section_content = section | remove_first: section_heading %}
             
@@ -45,7 +52,9 @@ layout: default
           {% endif %}
         {% endfor %}
       {% else %}
+        <section class="px-3 px-lg-5 pt-3 pt-lg-5">
         {{ content }}
+        </section>
       {% endif %}
     </div>
   </div>

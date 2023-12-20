@@ -5,11 +5,25 @@ layout: page
 <!-- <div class='categories'>{{page.categories}}</div> -->
 
 {% assign paragraphs = page.content | split: site.excerpt_separator %}
-
-<blockquote class="summary respect-margin">
-  <div class="incipit">
-    {{page.author}} {{page.date | date: "%a, %d.%m %Y"}} &mdash;&nbsp;
+{% assign authors = page.authors %}
+{% unless authors.size %}
+  {% assign authors = site.default_author.slug | split : "," %}
+{% endunless %}
+{% if page.layout == "event" %}
+    <p>Scheduled: {{page.human_date}}</p>
+{% endif %}
+<blockquote class="summary display-6 mb-lg-5 mb-3">
+  {% unless page.layout == "event" %}
+  <div class="incipit mb-lg-3">
+   {% for author in authors %}{% include author.html %}{% if authors.size > 1 %}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+   &mdash;&nbsp;
+   {{page.date | date: "%a, %d.%m %Y"}} 
   </div>
+  {% endunless %} 
+  {% if page.ics %}
+    {% include addtocalendar.html %}
+  {% endif %}
+  
   {{paragraphs[0]}}
 </blockquote>
 {% assign remaining_paragraphs = paragraphs | shift %}
@@ -20,4 +34,5 @@ layout: page
   {% endfor %}
   {% include reference.html %}
   {% include copyright.html %}
+
 </div>
