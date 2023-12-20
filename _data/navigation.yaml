@@ -20,7 +20,7 @@ languages:
             url: /project/history/
       # - title: 'Labs'
       #   url: /labs/
-      - title: 'Applications'
+      - title: 'Application'
         url: /app/
         links:
           - title: 'Web App & Data Lab'
