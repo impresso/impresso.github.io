@@ -3,7 +3,7 @@ layout: partners
 lang: en
 nolang: /consortium/partners/
 ordering: 02
-parenturl: /consortium/
+parentUrl: /consortium/team/
 permalink: /consortium/partners/
 title: 'Partners'
 category: core-partner

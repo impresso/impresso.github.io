@@ -99,21 +99,17 @@ svg:not(:root) {
   }
 }
 
-.nav-item.open,
-.nav-item.active {
-  .v-bar {
-    top: 2px !important;
-    height: 33px !important;
-  }
+.nav-item.open .v-bar {
+  top: 2px !important;
+  height: 33px !important;
 }
 
-.nav-item.force-open,
-.nav-item.force-open.active {
-  .v-bar {
-    top: -6px;
-    height: 14px;
-  }
-}
+// .nav-item.force-open{
+//   .v-bar {
+//     top: -6px;
+//     height: 14px;
+//   }
+// }
 
 .nav-item.open,
 .nav-item.active {

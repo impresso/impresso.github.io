@@ -43,7 +43,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
         <!-- <li>{{ parentUrl }}</li> -->
         {% for item in nav.links %}
         <li
-          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open active {% endif %}{% if item.url == page.url %} activeTwo {% endif %}"
+          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open open active {% endif %}{% if item.url == page.url %} active {% endif %}"
         >
           <a class="nav-link small-caps" href="{{ item.url }}"
             ><span>{{ item.title }}</span></a
@@ -57,7 +57,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
           <ul>
             {% for subitem in item.links %}
             <li
-              class="nav-item {% if subitem.url == page.url %} active {% endif %}"
+              class="nav-item {% if subitem.url == page.url %} active {% endif %} {% if item.url == parentUrl %} open {% endif %}"
             >
               <a class="nav-link" href="{{ subitem.url }}"
                 ><span>{{ subitem.title }}</span></a
@@ -142,19 +142,38 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
   const navDropdownTogglers = document.querySelectorAll(
     ".Nav__dropdownToggler"
   );
+  
+  let openedNavItem = null;
+
+  function closeNavItem(item, ul) {
+    item.classList.remove("open");
+    ul.style.height = 0;
+  }
+
+  function openNavItem(item, ul) {
+    item.classList.add("open");
+    const hiddenHeight = ul.scrollHeight;
+    ul.style.height = hiddenHeight + "px";
+  }
+
   navDropdownTogglers.forEach((toggler) => {
+    if(toggler.parentElement.classList.contains("open")) {
+      openedNavItem = toggler.parentElement;
+    }
     toggler.addEventListener("click", (e) => {
-      const navItem = e.currentTarget.parentElement;
-      navItem.classList.toggle("open");
+      const navItem = e.currentTarget.parentElement;      
       const ul = e.currentTarget.nextElementSibling;
-      // if it has no open class, calculate the hidden height.
-      if (!ul.classList.contains("open")) {
-        const hiddenHeight = ul.scrollHeight;
-        ul.style.height = hiddenHeight + "px";
+      const isOpen = navItem.classList.contains("open");
+      console.debug("[navDropdownTogglers] isOpen:", isOpen);
+      if (isOpen) {
+        closeNavItem(navItem, ul);
       } else {
-        ul.style.height = 0;
+        if(openedNavItem && openedNavItem != navItem) {
+          closeNavItem(openedNavItem, openedNavItem.querySelector("ul"));
+        }
+        openedNavItem = navItem;
+        openNavItem(navItem, ul);
       }
-      ul.classList.toggle("open");
     });
   });
 </script>
