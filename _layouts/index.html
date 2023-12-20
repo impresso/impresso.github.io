@@ -65,7 +65,7 @@ layout: default
   <div class="row g-0 flex-grow-1">
     <div class="{{site.theme_bootstrap_layout.main}}">
       <div class="row g-0 mx-3 mx-lg-5">
-        {% assign posts=site.posts | sort: "date" | reverse | slice: 0, 2 %} {%
+        {% assign posts=site.posts | where: "status", "published" | sort: "date" | reverse | slice: 0, 2 %} {%
         for post in posts %}
         <div class="col-lg-6 py-3">{% include post.html %}</div>
         {% endfor %}

@@ -18,8 +18,8 @@ languages:
             url: /project/design/
           - title: 'Historical Research'
             url: /project/history/
-      - title: 'Labs'
-        url: /labs/
+      # - title: 'Labs'
+      #   url: /labs/
       - title: 'App'
         url: /app/
         links:
@@ -31,6 +31,8 @@ languages:
         url: /hipe/
       - title: 'Blog'
         url: /blog/
+      - title: 'Events'
+        url: /events/
       - title: 'Outputs'
         url: /outputs/
         links:
