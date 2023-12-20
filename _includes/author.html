@@ -1,0 +1,8 @@
+{% if author == site.default_author.slug %}
+{% assign item = site.default_author %}
+{% else %}
+{% assign item = site.people | where: "slug", author | first %}
+{% endif %}
+<a href="{{ item.url | absolute_url }}" class="Author d-inline-block">
+  <span class="Author__title">{{ item.title }}</span>
+</a>
