@@ -3,7 +3,7 @@ layout: team
 lang: en
 nolang: /consortium/team/
 ordering: 01
-parenturl: /consortium/
+parentUrl: /consortium/team/
 permalink: /consortium/team/
 title: 'Team'
 ---

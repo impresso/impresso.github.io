@@ -2,7 +2,7 @@
 title: "Associated partners"
 permalink: /consortium/associated-partners/
 nolang: /consortium/associated-partners/
-parenturl: /consortium/
+parentUrl: /consortium/team/
 lang: en
 layout: partners
 category: associated-partner
