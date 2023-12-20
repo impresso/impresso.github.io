@@ -36,7 +36,7 @@ figure.respect-margin img {
   :root {
     --bs-body-font-size: 1.125rem !important;
   }
-  .container-fluid {
+  .Page.container-fluid {
     width: 1600px;
     margin: 0 auto;
   }
@@ -45,6 +45,11 @@ figure.respect-margin img {
     left: 50%;
     transform: translateX(-50%);
   }
+}
+
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
 }
 
 // _includes/seealso.html
@@ -171,7 +176,7 @@ figure.respect-margin img {
 .post h3 a {
   text-decoration: none;
 }
-.post  a.Author {
+.post a.Author {
   text-decoration: underline;
 }
 .post .incipit {
@@ -262,6 +267,10 @@ figure.respect-margin img {
 }
 .btn-primary:hover .icon path {
   stroke: var(--bs-primary);
+}
+
+.btn.btn-secondary.btn-md {
+  border-radius: var(--md-cr) 25px 25px var(--md-cr);
 }
 
 .int-btn:hover button {

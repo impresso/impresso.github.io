@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<main class="container-fluid g-0 d-flex flex-column ">
+<main class="Page container-fluid g-0 d-flex flex-column">
   <div class="row g-0">
     <div class="col-lg-7 offset-lg-2 col-md-9 offset-md-3 g-0">
       <h1 class="m-3 m-lg-5">
@@ -66,12 +66,11 @@ layout: default
   <div class="row g-0 flex-grow-1">
     <div class="{{site.theme_bootstrap_layout.main}}">
       <div class="row g-0 mx-3 mx-lg-5">
-        {% assign posts=site.posts | where: "status", "published" | sort: "date" | reverse | slice: 0, 2 %} {%
-        for post in posts %}
+        {% assign posts=site.posts | where: "status", "published" | sort: "date"
+        | reverse | slice: 0, 2 %} {% for post in posts %}
         <div class="col-lg-6 py-3">{% include post.html %}</div>
         {% endfor %}
       </div>
     </div>
   </div>
 </main>
-
