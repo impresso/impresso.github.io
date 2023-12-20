@@ -1,0 +1,14 @@
+{% assign size = include.size | default: '18' %}
+<div class="icon position-relative" style="height:{{size}}px;width:{{size}}px;">
+  <svg 
+    width="{{size}}px" 
+    height="{{size}}px" 
+    viewBox="-1 -1.5 {{size}} {{size}}"     
+    fill="var(--bs-dark)"
+    color="var(--bs-dark)"
+    xmlns="http://www.w3.org/2000/svg">
+   <path 
+      d="M12.6576 0H15.1013L9.76245 6.10203L16.0432 14.4055H11.1254L7.27362 9.36949L2.86627 14.4055H0.421028L6.13152 7.87871L0.106323 0H5.14899L8.63069 4.60311L12.6576 0ZM11.7999 12.9428H13.154L4.4132 1.38588H2.96009L11.7999 12.9428Z" 
+      fill="var(--bs-dark)"></path>
+  </svg>
+</div>

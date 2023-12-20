@@ -1,4 +1,4 @@
-{% assign size = {include.size | default: '18' %}
+{% assign size = include.size | default: '18' %}
 <div class="icon position-relative" style="height:{{size}}px;width:{{size}}px;">
   <svg
     class="position-absolute top-0 start-0"

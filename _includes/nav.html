@@ -36,8 +36,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
           >
             {% comment %} logo {% endcomment %}
             <a class="nav-link" href="{{site.baseurl}}/">
-              <b class="serif">{% include logo.html %}</b>
-              <div>media<br />monitoring<br />of the Past</div>
+              <div>{% include logos/Impresso_logo.svg %}</div>
             </a>
           </div>
         </li>
@@ -69,6 +68,18 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
           {% endif %}
         </li>
         {% endfor %}
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="{{site.contacts.github.url}}"
+            title="email"
+            target="_blank"
+          >
+            <button type="button" class="btn btn-simple" id="github">
+              <span class="icon-container"> {% include icons/email.svg %}</span>
+            </button>
+          </a>
+        </li>
 
         <li class="nav-item">
           <a
@@ -76,7 +87,10 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
             href="{{site.contacts.twitter.url}}"
             title="our twitter account"
             target="_blank"
-            >social media
+          >
+            <button type="button" class="btn btn-simple" id="github">
+              <span class="icon-container"> {% include icons/x.svg %}</span>
+            </button>
           </a>
         </li>
         <li class="nav-item">
@@ -85,18 +99,24 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
             href="{{site.contacts.github.url}}"
             title="our github account"
             target="_blank"
-            >github</a
           >
+            <button type="button" class="btn btn-simple" id="github">
+              <span class="icon-container">
+                {% include icons/github.svg %}</span
+              >
+            </button>
+          </a>
         </li>
       </ul>
 
       <div class="d-grid gap-2 p-2 border-top border-dark">
         <a
-          class="btn btn-lg btn-transparent"
           id="chimpSignup"
           href="{{site.contacts.mailinglist.url}}"
           target="_blank"
-          >Join our mailing list
+          ><button type="button" class="btn btn-simple small-caps">
+            Join our mailing list
+          </button>
         </a>
       </div>
     </div>
