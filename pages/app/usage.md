@@ -15,13 +15,22 @@ _We therefore compiled a range of didactic materials which seek to clarify the i
 
 A lesson prepared for academic teachers (and those willing to self-teach) on on how digitised newspapers change the way historians use newspapers as historical sources, and on how to perform source criticism in the digital age. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
 
+
+<figure class='respect-margin'>
+      <img class='cover' src='/assets/images/FZ_ranke2.png'>
+      <figcaption class="wrapper">
+          <p><a href='https://ranke2.uni.lu/u/exploring-historical-newspapers/' title='RANKE2 - From the shelf to the web'> RANKE2 - From the shelf to the web</a></p>
+      </figcaption>
+    </figure>
+
+<!-- 
 <a class="d-block image-link"
   style="max-width:400px;"
   href='https://ranke2.uni.lu/u/exploring-historical-newspapers/'
   title='RANKE2 - From the shelf to the web'>
   <img src="/assets/images/FZ_ranke2.png" class="d-block mb-1" />
   &rarr; RANKE2 - From the shelf to the web
-</a>
+</a> -->
 
 
 ### PARTHENOS MODULE - Collections of digitised newspapers as historical sources
