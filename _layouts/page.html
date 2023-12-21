@@ -10,6 +10,9 @@ layout: default
     margin-top: 1rem;
     margin-bottom: .5rem;
   }
+  .Page__contents li {
+    margin-bottom: 1rem;
+  }
   .Page__contents section:first-of-type > p:first-of-type {
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -22,6 +25,44 @@ layout: default
       margin-top: 3rem;
       margin-bottom: 3rem;
     }
+    figure {
+      background: var(--bs-dark);
+      padding: 1px;
+    border-radius: 5px;
+      overflow: hidden;
+      margin: 0 -0.5rem !important;
+      color: var(--bs-light);
+    }
+
+    figcaption {
+      font-size: 0.8em;
+      color: var(--bs-light);
+    }
+    figcaption p {
+      margin: 0.5rem;
+    }
+  }
+  /* xl bootstrap */
+  @media (min-width: 1200px ) {
+    .Page__contents h2 {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    figure{
+      margin: 0 -1rem !important;
+    }
+    figcaption p {
+      margin: 1rem;
+    }
+  }
+
+  figure {
+    margin: 0 0;
+  }
+  figure img {
+    border-top-right-radius: 4.5px;
+    border-top-left-radius: 4.5px;
+    border: 1px solid var(--bs-dark);
   }
 </style>
 <main class="Page container-fluid g-0 d-flex flex-column">
