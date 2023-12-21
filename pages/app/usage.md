@@ -8,7 +8,7 @@ _The app was designed taking special account of the needs of historians but - li
 
 _We therefore compiled a range of didactic materials which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface._
 
-## About digitised newspapers in general
+## About Digitised Newspapers in General
 
 ### RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age
 
@@ -33,7 +33,7 @@ A lesson prepared for academic teachers (and those willing to self-teach) on on 
 </a> -->
 
 
-### PARTHENOS MODULE - Collections of digitised newspapers as historical sources
+### PARTHENOS MODULE - Collections of Digitised Newspapers as Historical Sources
 
 A training module for scholars which provides background knowledge on newspaper digitisation technologies, with a special focus on their impact on both digital sources and the practice of historical research.
 
@@ -53,10 +53,10 @@ A training module for scholars which provides background knowledge on newspaper 
     </figure>
 
 
-## About the impresso app
+## About the _impresso_ App
 
 
-### _impresso_ challenges - how to become an _impresso_ power user
+### _impresso_ challenges - How to Become an _impresso_ Power User
 
 Based on concrete examples, the _impresso_ challenges offer a step-by-step and hands-on guidance through the application. The first challenge introduces the interface features, to make the most of the search tools offered by the application: how to read the frequency lines, how to use topics and named entities as filters, and how to explore the _impresso_ corpus. The second challenge introduces some digital source criticism elements to help you understand the limits inherent to such a digital corpus and its automatically extracted information. Finally, the third challenge proposes to explore the _impresso_ corpus with a more abstract perspective, to illustrate the operationalisation of research questions via the interface features.
 
@@ -79,7 +79,7 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
 [Download PDF](https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf)
 
 
-### _impresso_ interface walkthroughs
+### _impresso_ Interface Walkthroughs
 
 _impresso_ project overview and app presentation made at the Digital Humanities 2020 conference.
 
@@ -113,7 +113,7 @@ FAQs are accessible via the info buttons distributed across the interface, and o
     </figure>
 
 
-## Diving deeper into Natural Language Processing
+## Diving Deeper into Natural Language Processing
 
 <!-- more -->
 
@@ -129,7 +129,7 @@ Concretely speaking, _impresso_ co-design is put into practice with an early-sta
 
 With this blog post series and tutorials, computational linguists would like to step in the trading zone, and to translate what ‘named entity processing’, ‘topic modeling’, ‘text reuse’ and more mean in practical terms when it comes to searching and exploring a historical newspaper collection. The intention is to sketch possibilities so as to help historians potentially interested in our future interface to plan their research and start operationalizing their questions. We would like to emphasize that the following descriptions are rather concise and will be further explained and illustrated as our work proceeds.
 
-## Named entity processing
+## Named Entity Processing
 
 To put it very briefly, named entity processing corresponds to the tasks of:
 
@@ -176,7 +176,7 @@ Members of the impresso team organised a workshop at the DH2020 conference on th
 
 ---
 
-## Topic modeling
+## Topic Modeling
 
 To document how we have integrated topic modeling within the impresso project and how they can become part of an explorative workflow we have prepared the following blog posts:
 

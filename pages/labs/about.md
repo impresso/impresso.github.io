@@ -1,5 +1,5 @@
 ---
-title: "Experimental interfaces"
+title: "Experimental Interfaces"
 permalink: /labs/
 ---
 

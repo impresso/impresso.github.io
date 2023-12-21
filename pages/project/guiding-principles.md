@@ -25,7 +25,7 @@ The complexity of datafication processes and the wealth of theoretically relevan
 Within DH, adequate critique of data, software, interfaces, methods and outputs from the standpoint of established insights and best practices remains an unresolved problem. We subsume these requirements - regarded as essential skills for historians in the digital age - under the term “transparency”.
 
 
-### Interoperability, scalability and sustainability 
+### Interoperability, Scalability and Sustainability 
 
 Starting from digitised sources originating from diverse cultural institutions, the production of semantic enrichments integrated into a shared historical information and vector space with which users can interact requires the development and deployment of various interdependent components. To this end, we consider which information needs to flow where and how, and how best to encode it according to different needs, e.g. offline and online processing steps, storage, distributed computing, web services.
 
@@ -34,7 +34,7 @@ We strive for a high level of interoperability in terms of data formats and repr
 Finally, we are working towards the sustainability of the developed tools, services and interfaces: in close collaboration with our partners, we establish a roadmap towards the consolidation, preservation and maintenance of *impresso* as a historical media platform for institutions, researchers and contributing developers. This includes considerations of the questions of governance, distributed maintenance and growth, and the provision of digitised media and derivative results as research data that can be persistently queried, cited and retrieved.
 
 
-### Open science
+### Open Science
 
 We adopt open science practices based on the [FAIR principles](https://www.go-fair.org/fair-principles/) and ensure open access to project results through publication of software, datasets and articles, as well as the reproducibility of research results through publication of notebooks and code on versioned repositories.
 
