@@ -5,6 +5,7 @@ layout: page
 {% assign posts=site.posts | where: "authors", page.slug | where: "status", "published" | sort: "date" | reverse %}
 
 {{ content }}
+{% if posts.size > 0 %}
 <div class="container-fluid g-0 d-flex flex-column mt-3 mt-lg-5 ">
   <div
     class="row g-0 position-sticky top-0"
@@ -20,6 +21,7 @@ layout: page
         <hr class="flex-grow-1" />
       </div>
   </div>
+  
   <div class="row g-0">
     
         {% for post in posts %}
@@ -27,3 +29,4 @@ layout: page
         {% endfor %}
   </div>
 </div>
+{% endif %}
