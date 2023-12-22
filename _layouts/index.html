@@ -30,10 +30,11 @@ layout: default
       </section>
     </div>
     <div class="col-md-9 offset-md-3 col-lg-3 offset-lg-0 g-0 pt-3 pt-lg-5">
-      <section class="pb-3 ps-3 pe-3 pe-lg-5" style="min-height: 50%">
+      {% if showReleases %}<section class="pb-3 ps-3 pe-3 pe-lg-5" style="min-height: 50%">
         <h3 class="small-caps fw-bold mb-3">Releases</h3>
         {% assign release = site.releases | last %} {% include release.html %}
       </section>
+      {% endif %}
       <section class="py-3 ps-3 pe-3 pe-lg-5">
         <h3 class="small-caps fw-bold mb-3">Announcements</h3>
         {% assign announcement = site.announcements | last %} {% include

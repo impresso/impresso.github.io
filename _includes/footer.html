@@ -39,7 +39,7 @@
         <hr/>
         <h3 class="w-100 mb-0 mt-4">Funding agencies</h3>
       </div>
-      {% assign funding = site.partners | where: "category","funding"  %}
+      {% assign funding = site.partners | where: "category","funding" |  sort: "ordering" %}
       {% for partner in funding %}
       <div class="col-md-6">
         {% include partnerItem.html %}

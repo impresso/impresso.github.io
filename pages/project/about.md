@@ -10,21 +10,21 @@ Leveraging  an unprecedented corpus of newspaper and radio archives, ***impresso
 
 There are two *impresso* projects with the second building on top of the first, albeit with expanded scope and ambitions.
 
-## The first *impresso* project (2017-2020)
+## The First *impresso* Project (2017-2020)
 
 The first *impresso* project was funded by the Swiss National Science Foundation (SNSF CR- SII5_173719) as part of the Sinergia funding programme. It developed a scalable architecture for the processing of Swiss and Luxembourgish newspaper collections and created the [*impresso* web application](https://impresso-project.ch/app/)  with powerful search, filter, and discovery functionalities based on semantic enrichments which targeted the historical research community at-large. To learn more about the first *impresso* project and its outputs, visit the [previous project homepage](#).
 
-### Principal investigators of the first *impresso* project:
+### Principal Investigators of the First *impresso* Project
 
 - **Frédéric Kaplan** with **Maud Ehrmann**, Digital Humanities Laboratory, EPFL
 - **Martin Volk** with **Simon Clematide**, Department of Computational Linguistics, Zurich University
 - **Andreas Fickers** with **Marten Düring**, Centre for Contemporary and Digital History, Luxembourg University
 
-### How to cite the first *impresso* project:
+### How to Cite the First *impresso* Project
 
 > “*impresso*. Media Monitoring of the Past.” Supported by the Swiss National Science Foundation under grant CR- SII5_173719, 2019. [https://impresso-project.ch](https://impresso-project.ch).
 
-## The second *impresso* project (2023-2027)
+## The Second *impresso* Project (2023-2027)
 The second *impresso* project is funded by the Swiss National Science Foundation (SNSF 213585) and the Luxembourg National Research Fund (17498891) as part of the Sinergia / INTER funding programmes. It puts forward the vision of a comprehensive connection between media archives across modalities, time, languages, and national boundaries. Since 2023, we are working together with Western European partners to build, enrich, integrate, and analyze a corpus of historical newspaper and radio sources. To this end, the [project team](/consortium) pursues discipline-specific yet intertwined [research objectives in natural language processing](/project/linguistics/), [design](/project/design/), and [history](/project/history/).
 
 The project produces, amongst other outputs, interfaces for the exploratory and data-driven study of historical media, resources, models, and system architecture for the processing and enrichment of historical documents, and original historical research under the umbrella theme of “influences”.
@@ -38,7 +38,7 @@ We thank the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en) a
 - [Raphaëlle Ruppen Coutaz](/consortium/team/), History Department, Lausanne University
 - [Marten Düring](/consortium/team/), Centre for Contemporary and Digital History, Luxembourg University
 
-### How to Cite the Second *impresso* Project:
+### How to Cite the Second *impresso* Project
 
 “*impresso* - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio” (“*impresso*”) funded by the Swiss National Science Foundation (SNSF 213585) and the Luxembourg National Research Fund (17498891), [impresso-project.ch](https://impresso-project.ch).
 
