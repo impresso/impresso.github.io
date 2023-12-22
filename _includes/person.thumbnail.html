@@ -1,8 +1,14 @@
-<a href="{{person.url}}" class="PersonThumbnail {{include.classname}}">
-  <div class="picture" >
-    <div class="cover" style="background-image:url({% if person.picture %}{{person.picture | relative_url }}{%else %}http://www.vintageavatars.com/images/Abstract%20Art/100x100/abstractart{{forloop.index}}.jpg{% endif %})"></div>
-  </div>
-  <h4>
-    <span>{{person.title}}</span>
-  </h4>
-</a>
+<div class="{{include.classname}} px-3">
+  <a href="{{person.url}}" class="PersonThumbnail">
+    <div class="picture">
+      <div class="strips">{% include icons/strips.svg %}</div>
+      <div
+        class="cover"
+        style="background-image:url({% if person.picture %}{{person.picture | relative_url }}{%else %}http://www.vintageavatars.com/images/Abstract%20Art/100x100/abstractart{{forloop.index}}.jpg{% endif %})"
+      ></div>
+    </div>
+
+    <h4>{{person.title}}</h4>
+  </a>
+  <span>{{person.subheading}}</span>
+</div>

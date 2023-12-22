@@ -104,13 +104,6 @@ svg:not(:root) {
   height: 33px !important;
 }
 
-// .nav-item.force-open{
-//   .v-bar {
-//     top: -6px;
-//     height: 14px;
-//   }
-// }
-
 .nav-item.open,
 .nav-item.active {
   .Nav__dropdownToggler {
@@ -125,17 +118,66 @@ svg:not(:root) {
   width: 100%;
   padding-bottom: 100%;
   overflow: hidden;
+  border: 2px solid var(--bs-dark);
+  border-radius: 16px;
+  transition: 0.2s all ease-in-out;
+  overflow: hidden;
 }
+.PersonThumbnail .strips {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  right: 0;
+  width: 100%;
+  text-align: right;
+}
+
+a.PersonThumbnail {
+  text-decoration: none;
+  &:hover {
+    color: var(--bs-dark);
+  }
+}
+
+a.PersonThumbnail h4 {
+  position: relative;
+}
+
+a.PersonThumbnail h4::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  display: block;
+  width: 100%;
+  height: 6px;
+  background-color: var(--bs-primary);
+  transform: scaleX(0);
+  transition: 0.3s transform ease-in-out;
+  transform-origin: left;
+}
+
+a.PersonThumbnail:hover h4::after {
+  transform: scaleX(1);
+}
+
 .PersonThumbnail .picture .cover {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 1.5rem;
-  border-radius: 5px;
+  right: 0;
   background-size: cover;
-  border: 2px solid var(--bs-dark);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  filter: grayscale(100%);
+  transition: 0.3s all ease-in-out;
+}
+
+.PersonThumbnail .picture:hover {
+  border: 2px solid var(--bs-primary);
+  .cover {
+    transform: scale(1.1);
+  }
 }
 
 .post {
@@ -307,7 +349,7 @@ svg:not(:root) {
 }
 
 #chimpSignup .btn-simple {
-  height: 36px;
+  height: auto;
   width: 100%;
   border: 2px solid var(--bs-dark);
   border-radius: 18px;
@@ -391,6 +433,10 @@ a#chimpSignup {
   stroke: var(--bs-dark-fixed) !important;
 }
 
+.btn.btn-simple:hover .x .icon > svg path {
+  fill: var(--bs-dark-fixed);
+}
+
 .btn-lg .icon-container {
   height: var(--lg-size);
   width: var(--lg-size);
@@ -456,6 +502,67 @@ body.dark {
 }
 
 #Impresso_logo {
-  width: 111.71px;
-  height: 123.92px;
+  width: 100px;
+  height: 100px;
+}
+
+//Header Patterns
+
+.Page h1:not(.main-title) {
+  width: 60%;
+}
+.Page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-pattern {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  transform: rotate(180deg);
+  margin-bottom: -3rem;
+
+  .bar-row {
+    display: flex;
+    justify-content: start;
+    transform-origin: right; /* Change the transform-origin to the right on hover */
+    animation: 0.6s barAnimation 0.6s ease-out forwards;
+    width: 0;
+    .bar {
+      height: 5px;
+      width: 50%;
+      margin: 0.3rem 1rem 0.3rem 0rem;
+      background-color: var(--bs-dark);
+    }
+    &.yellow {
+      .bar {
+        background-color: var(--bs-primary);
+      }
+    }
+    &.gray,
+    &.gray-2 {
+      opacity: 0.5;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-pattern {
+    margin-bottom: -1rem;
+    .bar {
+      height: 4px !important;
+      margin: 0.15rem 0.5rem 0.15rem 0rem !important;
+    }
+  }
+}
+
+@keyframes barAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
