@@ -94,7 +94,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
               target="_blank"
             >
               <button type="button" class="btn btn-simple" id="github">
-                <span class="icon-container"> {% include icons/x.svg %}</span>
+                <span class="icon-container x"> {% include icons/x.svg %}</span>
               </button>
             </a>
           </li>
@@ -115,7 +115,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
         </ul>
       </div>
 
-      <div class="d-grid mb-4">
+      <div class="d-grid mb-4 me-2 ms-2">
         <a
           id="chimpSignup"
           href="{{site.contacts.mailinglist.url}}"
@@ -142,7 +142,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
   const navDropdownTogglers = document.querySelectorAll(
     ".Nav__dropdownToggler"
   );
-  
+
   let openedNavItem = null;
 
   function closeNavItem(item, ul) {
@@ -157,18 +157,18 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
   }
 
   navDropdownTogglers.forEach((toggler) => {
-    if(toggler.parentElement.classList.contains("open")) {
+    if (toggler.parentElement.classList.contains("open")) {
       openedNavItem = toggler.parentElement;
     }
     toggler.addEventListener("click", (e) => {
-      const navItem = e.currentTarget.parentElement;      
+      const navItem = e.currentTarget.parentElement;
       const ul = e.currentTarget.nextElementSibling;
       const isOpen = navItem.classList.contains("open");
       console.debug("[navDropdownTogglers] isOpen:", isOpen);
       if (isOpen) {
         closeNavItem(navItem, ul);
       } else {
-        if(openedNavItem && openedNavItem != navItem) {
+        if (openedNavItem && openedNavItem != navItem) {
           closeNavItem(openedNavItem, openedNavItem.querySelector("ul"));
         }
         openedNavItem = navItem;

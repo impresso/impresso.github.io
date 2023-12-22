@@ -1,0 +1,9 @@
+<svg width="47" height="18" viewBox="0 0 47 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="35" height="4" transform="translate(12)" fill="var(--bs-primary)"/>
+<g opacity="0.7">
+<rect width="47" height="4" transform="translate(0 8)" fill="var(--bs-dark)"/>
+</g>
+<g opacity="0.7">
+<rect width="23" height="4" transform="translate(24 14)" fill="var(--bs-dark)"/>
+</g>
+</svg>
