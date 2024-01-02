@@ -20,6 +20,8 @@ layout: default
   .Page__contents section > p:last-of-type {
     margin-bottom: 0;
   }
+
+
   @media (min-width: 992px) {
     .Page__contents section:first-of-type > p:first-of-type {
       margin-top: 3rem;
@@ -68,6 +70,17 @@ layout: default
 <main class="Page container-fluid g-0 d-flex flex-column">
   <div class="row g-0">
     <div class="Page-header {{ site.theme_bootstrap_layout.main }}">
+      <button
+      onclick="toggleMenuClass()"
+      type="button"
+      class="position-fixed mt-2 me-2 btn btn-simple"
+      id="MenuToggler"
+    >
+    <span class="icon-container">
+      <span class="menu-bar"></span>
+      <span class="menu-bar"></span>
+      <span class="menu-bar"></span>
+    </button>
       <h1 class="mt-4 m-3 mt-lg-5 m-lg-5 w-60">{{page.title}}</h1>
       {% if page.subheading %}
       <h2 class="mt-3 mt-lg-5 mx-3 mx-lg-5 display-6">{{page.subheading}}</h2>

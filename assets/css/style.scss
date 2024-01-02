@@ -570,6 +570,12 @@ footer svg {
   }
 }
 
+@media (max-width: 768px) {
+  .header-pattern {
+    display: none;
+  }
+}
+
 @keyframes barAnimation {
   from {
     width: 0;

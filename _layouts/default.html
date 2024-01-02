@@ -187,7 +187,7 @@ site.data.navigation.languages.en %}
         --z-index-blogpost-sticky: 1;
         --z-index-aside: 2;
       }
-      .nav{
+      .nav {
         --bs-nav-link-font-size: 1rem;
       }
       .icon path {
@@ -458,6 +458,35 @@ site.data.navigation.languages.en %}
         .btn {
           --bs-btn-color: var(--bs-dark);
           --bs-btn-hover-color: var(--bs-primary);
+        }
+      }
+      #MenuToggler {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      @media (max-width: 768px) {
+        #MenuToggler {
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: 5;
+        }
+        #MenuToggler .menu-bar {
+          transform-origin: center;
+          transition: all 0.3s ease-in-out;
+        }
+        .Nav.mobile ~ main .icon-container > .menu-bar:nth-child(1) {
+          transform: rotate(45deg) translateY(3px) translateX(3px);
+        }
+        .Nav.mobile ~ main .icon-container > .menu-bar:nth-child(2) {
+          transform: scaleX(0);
+        }
+        .Nav.mobile ~ main .icon-container > .menu-bar:nth-child(3) {
+          transform: rotate(-45deg) translateY(-3px) translateX(3px);
         }
       }
     </style>
