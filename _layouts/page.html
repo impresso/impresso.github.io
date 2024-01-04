@@ -71,34 +71,36 @@ layout: default
   <div class="row g-0">
     <div class="Page-header {{ site.theme_bootstrap_layout.main }}">
       <button
-      onclick="toggleMenuClass()"
-      type="button"
-      class="position-fixed mt-2 me-2 btn btn-simple"
-      id="MenuToggler"
-    >
-    <span class="icon-container">
-      <span class="menu-bar"></span>
-      <span class="menu-bar"></span>
-      <span class="menu-bar"></span>
-    </button>
-      <h1 class="mt-4 m-3 mt-lg-5 m-lg-5 w-60">{{page.title}}</h1>
-      {% if page.subheading %}
-      <h2 class="mt-3 mt-lg-5 mx-3 mx-lg-5 display-6">{{page.subheading}}</h2>
-      {% endif %}
-      <div class="header-pattern w-40 mb-md-3 mb-sx-2 mb-sm-2">
-        <div class="bar-row gray-2">
-          <div class="bar w-25"></div>
-          <div class="bar w-25"></div>
+        onclick="toggleMenuClass()"
+        type="button"
+        class="position-fixed mt-2 me-2 btn btn-simple"
+        id="MenuToggler"
+      >
+        <span class="icon-container">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+      
+        <h1 class="mt-4 m-3 mt-lg-5 m-lg-5 w-60">{{page.title}}</h1>
+        {% if page.subheading %}
+        <h2 class="mt-3 mt-lg-5 mx-3 mx-lg-5 display-6">{{page.subheading}}</h2>
+        {% endif %}
+
+        <div class="header-pattern w-40 me-md-3 me-lg-5 mb-md-3 mb-sx-2 mb-sm-2">
+          <div class="bar-row gray-2">
+            <div class="bar w-25"></div>
+            <div class="bar w-25"></div>
+          </div>
+          <div class="bar-row gray mt-2">
+            <div class="bar w-50"></div>
+            <div class="bar w-25"></div>
+          </div>
+          <div class="bar-row yellow">
+            <div class="bar"></div>
+            <div class="bar d-none-"></div>
+          </div>
         </div>
-        <div class="bar-row gray mt-2">
-          <div class="bar w-50"></div>
-          <div class="bar w-25"></div>
-        </div>
-        <div class="bar-row yellow">
-          <div class="bar"></div>
-          <div class="bar d-none-"></div>
-        </div>
-      </div>
     </div>
   </div>
 
