@@ -8,10 +8,10 @@ title: scss
     font-size: 5rem;
     line-height: 1.25em;
     font-weight: 300;
-    font-variation-settings: "wght" 300;
+    font-variation-settings: 'wght' 300;
     &.text-muted {
       font-weight: 300;
-      font-variation-settings: "wght" 300;
+      font-variation-settings: 'wght' 300;
     }
   }
 
@@ -24,7 +24,7 @@ title: scss
   }
   h3 {
     font-weight: 650;
-    font-variation-settings: "wght" 650;
+    font-variation-settings: 'wght' 650;
   }
 }
 
@@ -60,7 +60,7 @@ svg:not(:root) {
   position: relative;
 }
 .Seealso a.nav-link label::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -144,7 +144,7 @@ a.PersonThumbnail h4 {
 }
 
 a.PersonThumbnail h4::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -2px;
   right: 0;
@@ -240,7 +240,7 @@ a.PersonThumbnail:hover h4::after {
 .post .hr::after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   height: 3px;
   width: 0%;
   left: 0;
@@ -285,7 +285,7 @@ a.PersonThumbnail:hover h4::after {
   --bs-btn-active-bg: var(--bs-light);
   --bs-btn-active-border-color: var(--bs-light-transparent);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-color: var(--bs-dark);
   --bs-btn-disabled-bg: var(--bs-primary);
   --bs-btn-disabled-border-color: var(--bs-primary);
 }
@@ -304,6 +304,36 @@ a.PersonThumbnail:hover h4::after {
     stroke: var(--bs-primary);
   }
 }
+.btn-primary.disabled,
+.btn-primary:disabled,
+fieldset:disabled .btn-primary {
+  text-decoration: line-through;
+  color: var(--bs-dark);
+  border-color: var(--bs-dark);
+}
+
+.btn-primary:hover .icon path {
+  stroke: var(--bs-primary);
+  text-decoration: none;
+}
+
+.btn.btn-secondary.btn-md {
+  border-radius: var(--md-cr) 25px 25px var(--md-cr);
+}
+
+.int-btn:hover button {
+  background-color: var(--bs-primary);
+}
+
+.int-btn a {
+  text-decoration: none;
+}
+
+.btn-md:hover,
+.int-btn:hover .btn-md {
+  padding: 0 1rem;
+}
+
 .btn-primary .icon path {
   stroke: var(--bs-dark);
 }
