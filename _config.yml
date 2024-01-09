@@ -1,6 +1,6 @@
 theme: empty-jekyll-theme
-excerpt_separator: "<!-- more -->"
-section_separator: "<!-- section -->"
+excerpt_separator: '<!-- more -->'
+section_separator: '<!-- section -->'
 theme_bootstrap_layout:
   main: col-lg-9 offset-lg-3 col-md-9 offset-md-3 g-0 col-xl-10  offset-xl-2
   aside: col-lg-2 col-md-3 g-0
@@ -12,12 +12,13 @@ default_author:
   url: /author/impresso-team
 title: impresso
 lang: en
-languages: ["en", "fr", "de"]
+languages: ['en', 'fr', 'de']
 timezone: Europe/Zurich
 exclude:
   - scripts
   - dep_pages
   - node_modules
+  - v1.0.0
 publisher:
   name: impresso
 
@@ -25,7 +26,7 @@ contacts:
   email: info @ impresso-project [dot] ch
   twitter:
     url: https://twitter.com/impressoproject
-    name: "@impressoproject"
+    name: '@impressoproject'
   github:
     url: https://github.com/impresso
     name: impresso
@@ -59,27 +60,27 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: ''
       type: events
     values:
       layout: event
   - scope:
-      path: ""
-      type: "glossary"
+      path: ''
+      type: 'glossary'
     values:
-      layout: "glossaryItem"
+      layout: 'glossaryItem'
   - scope:
-      path: ""
-      type: "people"
+      path: ''
+      type: 'people'
     values:
-      layout: "person"
+      layout: 'person'
   - scope:
-      path: ""
-      type: "labs"
+      path: ''
+      type: 'labs'
     values:
-      layout: "labItem"
+      layout: 'labItem'
   - scope:
-      path: ""
+      path: ''
       type: announcements
     values:
       layout: announcement
