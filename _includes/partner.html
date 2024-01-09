@@ -1,12 +1,12 @@
 <!-- special layout for single item in partners collection. Use assign to define people group.-->
 <div class='Partner me-5'>
   <div class='anchor' id='{{partner.slug}}'></div>
-  <div class="d-flex align-items-center">
+  <div class="d-md-flex align-items-center">
     <h3 class="flex-grow-1 mb-4 me-3">
       <span>{{partner.title}}</span>
     </h3>
     {% if partner.logo %}
-    <div class="flex-shrink-1">
+    <div class="flex-shrink-1" style="width: 200px">
       {% include {{ partner.logo }} %}
     </div>
     {% else %}

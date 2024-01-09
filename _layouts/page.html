@@ -5,7 +5,10 @@ layout: default
 {% assign sections = page.content | split: site.section_separator %}
 
 <style>
-  .Page__contents h2,
+  .Page__contents h2{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
   .Page__contents h3 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -48,10 +51,14 @@ layout: default
   @media (min-width: 1200px ) {
     .Page__contents h2 {
       margin-top: 3rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
+    }
+    .Page__contents h3 {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
     }
     figure{
-      margin: 1rem -1rem 0 !important;
+      margin: 1rem -1rem 0.5rem !important;
     }
     figcaption p {
       margin: 1rem;
