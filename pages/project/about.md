@@ -12,7 +12,7 @@ There are two *impresso* projects with the second building on top of the first, 
 
 ## The First *impresso* Project (2017-2020)
 
-The first *impresso* project was funded by the Swiss National Science Foundation (SNSF CR- SII5_173719) as part of the Sinergia funding programme. It developed a scalable architecture for the processing of Swiss and Luxembourgish newspaper collections and created the [*impresso* web application](https://impresso-project.ch/app/)  with powerful search, filter, and discovery functionalities based on semantic enrichments which targeted the historical research community at-large. To learn more about the first *impresso* project and its outputs, visit the [previous project homepage](#).
+The first *impresso* project was funded by the Swiss National Science Foundation (SNSF CR- SII5_173719) as part of the Sinergia funding programme. It developed a scalable architecture for the processing of Swiss and Luxembourgish newspaper collections and created the [*impresso* web application](https://impresso-project.ch/app/)  with powerful search, filter, and discovery functionalities based on semantic enrichments which targeted the historical research community at-large. To learn more about the first *impresso* project and its outputs, visit the [previous project homepage](https://impresso-project.ch/v1).
 
 ### Principal Investigators of the First *impresso* Project
 
