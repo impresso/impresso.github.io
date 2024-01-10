@@ -16,9 +16,9 @@ The first *impresso* project was funded by the Swiss National Science Foundation
 
 ### Principal investigators of the first *impresso* project
 
-- **Frédéric Kaplan** with **Maud Ehrmann**, Digital Humanities Laboratory, EPFL
-- **Martin Volk** with **Simon Clematide**, Department of Computational Linguistics, Zurich University
-- **Andreas Fickers** with **Marten Düring**, Centre for Contemporary and Digital History, Luxembourg University
+- [Frédéric Kaplan](/people/frederic-kaplan/) with [Maud Ehrmann](/people/maud-ehrmann/), Digital Humanities Laboratory, EPFL
+- [Martin Volk](/people/martin-volk/) with [Simon Clematide](/people/simon-clematide/), Department of Computational Linguistics, Zurich University
+- [Andreas Fickers](/people/andreas-fickers/) with [Marten Düring](/people/marten-duering/), Centre for Contemporary and Digital History, Luxembourg University
 
 ### How to cite the first *impresso* project
 
@@ -34,10 +34,10 @@ We thank the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en) a
 
 ### Principal investigators of the second *impresso* project
 
-- [Maud Ehrmann](/consortium/team/), Digital Humanities Laboratory, EPFL
-- [Simon Clematide](/consortium/team/), Department of Computational Linguistics, Zurich University
-- [Raphaëlle Ruppen Coutaz](/consortium/team/), History Department, Lausanne University
-- [Marten Düring](/consortium/team/), Centre for Contemporary and Digital History, Luxembourg University
+- [Maud Ehrmann](/people/maud-ehrmann/), Digital Humanities Laboratory, EPFL
+- [Simon Clematide](/people/simon-clematide/), Department of Computational Linguistics, Zurich University
+- [Raphaëlle Ruppen Coutaz](/people/raphaelleruppen), History Department, Lausanne University
+- [Marten Düring](/people/marten-duering/), Centre for Contemporary and Digital History, Luxembourg University
 
 ### How to cite the second *impresso* project
 
