@@ -80,6 +80,18 @@ svg:not(:root) {
   transform: scaleX(1);
 }
 
+.nav-pills {
+  --bs-nav-pills-border-radius: 0.375rem;
+  --bs-nav-pills-link-active-color: var(--bs-dark);
+  --bs-nav-pills-link-active-bg: var(--bs-primary);
+}
+.nav-pills .nav-link{
+  border: 2px solid transparent;
+}
+.nav-pills .nav-link.active{
+  border: 2px solid var(--bs-dark);
+}
+
 .nav-item {
   .icon {
     display: flex;

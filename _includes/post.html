@@ -21,6 +21,11 @@
           {% for author in post.authors %}{% include author.html %}{% if post.authors.size > 1 %}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
         </div>
         {% endif %}
+        {% if post.categories %}
+        <div>
+          {% for category in post.categories %}{% include category.html %}{% if post.categories.size > 1 %}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+        </div>
+        {% endif %}
         <div class="anchor" id="{{post.slug}}"></div>
       </div>
     </div>

@@ -3,8 +3,10 @@ layout: post
 status: published
 title: Named entity processing in a nutshell
 lang: en
-date:   2018-06-12
-categories: news
+date: 2018-06-12
+categories:
+  - news
+  - NLP
 authors:
   - maud-ehrmann
 thumbnail:
@@ -14,7 +16,7 @@ figure:
   - src: posts/ne-jdg-1943-01-11.png
     caption: False negative for the query ‘Maréchal Montgomery’ [JDG-1943-01-11](http://www.letempsarchives.ch/page/JDG_1943_01_11/6/article/7041514/Montgomery)
   - src: posts/ne-jdg-1944-06-15.png
-    caption:  Example of name variant [JDG-1944-06-15](http://www.letempsarchives.ch/page/JDG_1944_06_15/8/article/7193667/Montgomery)
+    caption: Example of name variant [JDG-1944-06-15](http://www.letempsarchives.ch/page/JDG_1944_06_15/8/article/7193667/Montgomery)
   - src: posts/ne-jdg-1947-02-28.png
     caption: Example of name variant [JDG-1943-01-11](http://www.letempsarchives.ch/page/JDG_1947_02_28/2/article/7475231/Montgomery)
   - src: posts/ne-jdg-1968-05-09.png
@@ -39,7 +41,6 @@ To put it very briefly, named entity processing corresponds to the tasks of:
 
 For example, if someone is interested in studying the coverage and the commemoration of the battle of Arnhem in european newspapers, one starting point would be to identify articles mentioning the British army officer Bernard Montgomery. Naturally, running the query ‘Montgomery’ on a text search engine and filtering the results by date would already support the constitution of a potentially relevant sub-corpus, composed of articles containing ‘Montgomery’ and published at the time of or after the battle. However, if this query is already a giant step towards efficient search within large corpus of historical newspapers, the retrieved sub-corpus is still hardly usable because of, firstly, its size (e.g. the query [Montgomery apres:1939] on letempsarchives.ch returns 13,899 results) and, secondly, its inadequacy w.r.t the entity looked up, with fal se positive articles mentioning the place in Alabama, a american swimmer, a company in Zurich, a TV actor, a guitarist, etc.
 
-
 Below are examples of false positives for the query ‘Montgomery’:
 
 {% assign figure=page.figure[4] %}
@@ -59,9 +60,7 @@ A way to filter such false positives would be to query the string “Maréchal M
 {% assign figure=page.figure[1] %}
 {% include figure.html %}
 
-
 With the recognition, classification and linking (or disambiguation) of entities, the user could not only look for a entity of type Person containing the string ‘Montgomery’ (filtering out all Montgomery places), but also directly spot articles where the mentioned entity was linked to the unique identifier of the field marshal (e.g. https://en.wikipedia.org/wiki/Bernard_Montgomery), therefore retrieving all articles mentioning this person, regardless of the lexicalisation (e.g. Maréchal Montgoméry, Montgomery, le général Montgoméry, le feld-maréchal Montgomery) and, potentially, of the OCR mistakes.
-
 
 {% assign figure=page.figure[2] %}
 {% include figure.html %}
@@ -71,4 +70,4 @@ With the recognition, classification and linking (or disambiguation) of entities
 
 Concretely speaking, the impresso interface will allow search on entities (i.e. by referent) and on mentions (i.e. words which we know are names of entities), will offer entity network visualization and exploration capacities (e.g. to allow the selection of articles where Montgomery - referring to the marechal - and Arnhem - referring to the battle - are co-mentioned), and provide newspaper collection statistical profiles.
 
-The technologies to perform such entity-related tasks perform well for general domain, contemporary English text, with ca. 90/95 entities out of 100  being correctly recognized, and 80/85 correctly disambiguated. The whole challenge here is to reach acceptable performance (meaning useful for historical research) on noisy historical text and to devise workflows which make the most of them.
+The technologies to perform such entity-related tasks perform well for general domain, contemporary English text, with ca. 90/95 entities out of 100 being correctly recognized, and 80/85 correctly disambiguated. The whole challenge here is to reach acceptable performance (meaning useful for historical research) on noisy historical text and to devise workflows which make the most of them.
