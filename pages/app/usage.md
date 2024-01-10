@@ -1,20 +1,16 @@
 ---
 permalink: /app/usage/
 parentUrl: /app/
-title: "Usage and Tutorials"
+title: 'Usage and Tutorials'
 ---
 
-_The app was designed taking special account of the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions._
-
-_We therefore compiled a range of didactic materials which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface._
+The app was designed taking special account of the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions. We therefore compiled a range of didactic materials which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface.
 
 ## About Digitised Newspapers in General
 
 ### RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age
 
-
 A lesson prepared for academic teachers (and those willing to self-teach) on on how digitised newspapers change the way historians use newspapers as historical sources, and on how to perform source criticism in the digital age. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
-
 
 <figure class='respect-margin'>
       <img class='cover' src='/assets/images/FZ_ranke2.png'>
@@ -23,7 +19,7 @@ A lesson prepared for academic teachers (and those willing to self-teach) on on 
       </figcaption>
     </figure>
 
-<!-- 
+<!--
 <a class="d-block image-link"
   style="max-width:400px;"
   href='https://ranke2.uni.lu/u/exploring-historical-newspapers/'
@@ -32,11 +28,9 @@ A lesson prepared for academic teachers (and those willing to self-teach) on on 
   &rarr; RANKE2 - From the shelf to the web
 </a> -->
 
-
 ### PARTHENOS MODULE - Collections of Digitised Newspapers as Historical Sources
 
 A training module for scholars which provides background knowledge on newspaper digitisation technologies, with a special focus on their impact on both digital sources and the practice of historical research.
-
 
 <!-- <a class="d-block image-link"
   style="max-width:400px;"
@@ -52,15 +46,13 @@ A training module for scholars which provides background knowledge on newspaper 
       </figcaption>
     </figure>
 
-
 ## About the _impresso_ App
-
 
 ### _impresso_ challenges - How to Become an _impresso_ Power User
 
 Based on concrete examples, the _impresso_ challenges offer a step-by-step and hands-on guidance through the application. The first challenge introduces the interface features, to make the most of the search tools offered by the application: how to read the frequency lines, how to use topics and named entities as filters, and how to explore the _impresso_ corpus. The second challenge introduces some digital source criticism elements to help you understand the limits inherent to such a digital corpus and its automatically extracted information. Finally, the third challenge proposes to explore the _impresso_ corpus with a more abstract perspective, to illustrate the operationalisation of research questions via the interface features.
 
-<!-- 
+<!--
 <a class="d-block image-link"
   style="max-width:400px;"
   href='https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf'
@@ -75,24 +67,25 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
       </figcaption>
     </figure>
 
-
 [Download PDF](https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf)
-
 
 ### _impresso_ Interface Walkthroughs
 
 _impresso_ project overview and app presentation made at the Digital Humanities 2020 conference.
 
+<figure>
 <div style="position:relative;padding-bottom:56.25%;">
 <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/mfiSBcl2EA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+</figure>
 
 Impresso app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
 
+<figure>
 <div style="position:relative;padding-bottom:56.25%;">
-<iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube.com/watch?v=y6Dfj49XWu8&list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
- 
+</figure>
 
 ### Frequently Asked Questions
 
@@ -111,7 +104,6 @@ FAQs are accessible via the info buttons distributed across the interface, and o
           <p><a href='https://impresso-project.ch/app/faq' title='_impresso_ App FAQ Page'>_impresso_ App FAQ Page</a></p>
       </figcaption>
     </figure>
-
 
 ## Diving Deeper into Natural Language Processing
 
@@ -140,7 +132,8 @@ To put it very briefly, named entity processing corresponds to the tasks of:
 ---
 
 This blog post explains, how we have made use of named entities in the impresso project:
-<!-- 
+
+<!--
 <a class="d-block image-link"
   style="max-width:400px;"
   href='https://impresso-project.ch/news/2018/06/12/tradingzone-ner.html'
@@ -158,7 +151,8 @@ This blog post explains, how we have made use of named entities in the impresso 
 ---
 
 Members of the impresso team organised a workshop at the DH2020 conference on the recognition of historical named entities. You can find all materials here:
-<!-- 
+
+<!--
 <a class="d-block image-link"
   style="max-width:400px;"
   href='https://impresso.github.io/named-entity-tutorial-dh2019/'
@@ -180,7 +174,7 @@ Members of the impresso team organised a workshop at the DH2020 conference on th
 
 To document how we have integrated topic modeling within the impresso project and how they can become part of an explorative workflow we have prepared the following blog posts:
 
-<!-- 
+<!--
 <a class="d-block image-link"
   style="max-width:400px;"
   href='https://impresso-project.ch/news/2019/03/05/Explore_TM.html'
@@ -190,11 +184,11 @@ To document how we have integrated topic modeling within the impresso project an
 </a> -->
 
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/posts/Topic_exploration_home_Screenshot 2019-03-05 16.24.04.png'>
-      <figcaption class="wrapper">
-          <p><a href='https://impresso-project.ch/news/2019/03/05/Explore_TM.html' title='Explore the list of topics on the impresso interface'>Explore the list of topics on the impresso interface</a></p>
-      </figcaption>
-    </figure>
+  <img class='cover' src='/assets/images/posts/Topic_exploration_home_Screenshot 2019-03-05 16.24.04.png'>
+  <figcaption class="wrapper">
+      <p><a href='https://impresso-project.ch/news/2019/03/05/Explore_TM.html' title='Explore the list of topics on the impresso interface'>Explore the list of topics on the impresso interface</a></p>
+  </figcaption>
+</figure>
 <!-- 
 <a class="d-block image-link"
   style="max-width:400px;"
@@ -205,18 +199,17 @@ To document how we have integrated topic modeling within the impresso project an
 </a> -->
 
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/posts/lda-geometric-interpretation.png'>
-      <figcaption class="wrapper">
-          <p><a href='https://impresso-project.ch/news/2018/09/07/tradingzone-tm.html' title='About Topic Modeling on historical newspapers'>About Topic Modeling on historical newspapers</a></p>
-      </figcaption>
-    </figure>
-
+  <img class='cover' src='/assets/images/posts/lda-geometric-interpretation.png'>
+  <figcaption class="wrapper">
+      <p><a href='https://impresso-project.ch/news/2018/09/07/tradingzone-tm.html' title='About Topic Modeling on historical newspapers'>About Topic Modeling on historical newspapers</a></p>
+  </figcaption>
+</figure>
 
 ## Text Reuse
 
 Text reuse allows the detection of similar text passages across a corpus. To learn more about this method we have co-authored a forthcoming lesson on the detection of text reuse using passim for the Programming historian platform
 
-<!-- 
+<!--
 <a class="d-block image-link"
   style="max-width:400px;"
   href='https://programminghistorian.org/en/lessons/'
