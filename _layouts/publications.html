@@ -36,8 +36,10 @@ layout: page
           lang: 'en-US',
         })
         if(d.csljson.DOI) {
-          const doi = `<a href="https://doi.org/${d.csljson.DOI}" target="_blank">&rarr; DOI: ${d.csljson.DOI}</a>`
-          return [bib, doi].join('')
+          const url = `<a href="https://doi.org/${d.csljson.DOI}" target="_blank">&rarr; link</a>`
+          return [bib, url].join('')
+          // const doi = `<a href="https://doi.org/${d.csljson.DOI}" target="_blank">&rarr; DOI: ${d.csljson.DOI}</a>`
+          // return [bib, doi].join('')
         } else if(d.csljson.URL) {
           const url = `<a href="${d.csljson.URL}" target="_blank">&rarr; link</a>`
           return [bib, url].join('')
