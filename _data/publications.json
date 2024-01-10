@@ -1,5 +1,204 @@
 [
   {
+    "key": "6QQJ7BWG",
+    "version": 7135,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/6QQJ7BWG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/6QQJ7BWG",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/1486708/items/VDQWW8IH",
+        "type": "application/json"
+      },
+      "enclosure": {
+        "type": "application/pdf",
+        "href": "https://api.zotero.org/groups/1486708/items/6QQJ7BWG/file/view",
+        "title": "Düring et al. - 2023 - impresso Text Reuse at Scale Evaluation Form.pdf",
+        "length": 1507714
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/6QQJ7BWG",
+      "type": "article",
+      "title": "Zenodo Full Text PDF",
+      "URL": "https://zenodo.org/records/8009613/files/Evaluation%20of%20the%20Text%20Reuse%20at%20Scale%20Explorer.pdf",
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            20
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "I9QPQZ6T",
+    "version": 7134,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/I9QPQZ6T",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/I9QPQZ6T",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/1486708/items/VDQWW8IH",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/I9QPQZ6T",
+      "type": "article",
+      "title": "Funding by Swiss National Science Foundation ROR 00yjd3n13."
+    }
+  },
+  {
+    "key": "VDQWW8IH",
+    "version": 7134,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/VDQWW8IH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/VDQWW8IH",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/6QQJ7BWG",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1507714
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2023-06-06",
+      "numChildren": 2
+    },
+    "csljson": {
+      "id": "4709830/VDQWW8IH",
+      "type": "article-journal",
+      "title": "impresso Text Reuse at Scale Evaluation Form",
+      "abstract": "Evaluation form designed to inform reviewers of theoretical underpinings of prototype sofware, to provide task-based instructions and usage examples and to collect feedback on individual tasks and an overall assessment. Originally presented as an interactive Google form.",
+      "URL": "https://zenodo.org/records/8009613",
+      "note": "Publisher: Zenodo",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            20
+          ]
+        ]
+      }
+    }
+  },
+  {
     "key": "C8IVELGG",
     "version": 7105,
     "library": {
@@ -61,81 +260,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "C8IVELGG",
-      "version": 7105,
-      "itemType": "journalArticle",
-      "title": "Explorer la presse numérisée: le projet Impresso",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        }
-      ],
-      "abstractNote": "« Impresso – Media Monitoring of the Past » est un projet de recherche interdisciplinaire dans lequel une équipe d’historiens, de linguistes informaticiens et de designers collabore à la mise en données d’un corpus d’archives de presse numérisées. Les principaux objectifs du projet sont d’améliorer les outils d’extraction d’information pour les textes historiques, d’indexer sémantiquement des journaux historiques, et d’intégrer les enrichissements obtenus dans les pratiques de recherche des historiens au moyen d’une interface nouvellement développée",
-      "publicationTitle": "Revue Historique Vaudoise",
-      "volume": "",
-      "issue": "",
-      "pages": "159-173",
-      "date": "2021",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "RHV",
-      "language": "",
-      "DOI": "",
-      "ISSN": "",
-      "shortTitle": "Explorer la presse numérisée",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Infoscience",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "analyse de documents historiques",
-          "type": 1
-        },
-        {
-          "tag": "extraction d’information",
-          "type": 1
-        },
-        {
-          "tag": "histoire",
-          "type": 1
-        },
-        {
-          "tag": "humanités numériques",
-          "type": 1
-        },
-        {
-          "tag": "interdisciplinarité",
-          "type": 1
-        },
-        {
-          "tag": "journaux historiques",
-          "type": 1
-        },
-        {
-          "tag": "presse numérisée",
-          "type": 1
-        },
-        {
-          "tag": "traitement automatique du langage",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-14T10:11:14Z",
-      "dateModified": "2023-12-14T10:11:32Z"
     }
   },
   {
@@ -200,26 +324,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "C4GRYNSU",
-      "version": 7018,
-      "parentItem": "ZXT4K3MW",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Full Text PDF",
-      "accessDate": "2023-12-05T16:59:45Z",
-      "url": "https://zenodo.org/records/6045662/files/HIPE2022-ParticipationGuidelines-v1.0.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "HIPE 2022 Shared Task Participation Guidelines.pdf",
-      "md5": "d014bac3eb9f4b0b72f853b2e51b1cdf",
-      "mtime": 1701795585000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:59:45Z",
-      "dateModified": "2023-12-05T16:59:45Z"
     }
   },
   {
@@ -281,26 +385,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "3KC3E6ZW",
-      "version": 7011,
-      "parentItem": "Q8ERSCYD",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Datasets and Models for Historical Newspaper Article Segmentation",
-      "accessDate": "2023-12-05T16:54:39Z",
-      "url": "https://zenodo.org/records/3706863",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "3706863.html",
-      "md5": "9913afbfa52fa20804d0f45406e52796",
-      "mtime": 1701795279000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:54:39Z",
-      "dateModified": "2023-12-05T16:54:39Z"
     }
   },
   {
@@ -360,30 +444,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "Q8ERSCYD",
-      "version": 7005,
-      "itemType": "webpage",
-      "title": "Datasets and Models for Historical Newspaper Article Segmentation",
-      "creators": [],
-      "abstractNote": "",
-      "websiteTitle": "",
-      "websiteType": "",
-      "date": "",
-      "shortTitle": "",
-      "url": "https://zenodo.org/records/3706863",
-      "accessDate": "2023-12-05T16:54:31Z",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:54:31Z",
-      "dateModified": "2023-12-05T16:54:31Z"
     }
   },
   {
@@ -448,26 +508,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "IFRTXBH3",
-      "version": 7026,
-      "parentItem": "BWQ7VR8R",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Makarov and Clematide - 2020 - Semi-supervised Contextual Historical Text Normali.pdf",
-      "accessDate": "2023-12-05T16:53:19Z",
-      "url": "https://aclanthology.org/2020.acl-main.650.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Makarov and Clematide - 2020 - Semi-supervised Contextual Historical Text Normali.pdf",
-      "md5": "345ac2c38c0910cd45871859b98a078e",
-      "mtime": 1701795199000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:53:19Z",
-      "dateModified": "2023-12-05T16:53:24Z"
     }
   },
   {
@@ -574,72 +614,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "BWQ7VR8R",
-      "version": 7005,
-      "itemType": "conferencePaper",
-      "title": "Semi-supervised Contextual Historical Text Normalization",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Peter",
-          "lastName": "Makarov"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Dan",
-          "lastName": "Jurafsky"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Joyce",
-          "lastName": "Chai"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Natalie",
-          "lastName": "Schluter"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Joel",
-          "lastName": "Tetreault"
-        }
-      ],
-      "abstractNote": "Historical text normalization, the task of mapping historical word forms to their modern counterparts, has recently attracted a lot of interest (Bollmann, 2019; Tang et al., 2018; Lusetti et al., 2018; Bollmann et al., 2018;Robertson and Goldwater, 2018; Bollmannet al., 2017; Korchagina, 2017). Yet, virtually all approaches suffer from the two limitations: 1) They consider a fully supervised setup, often with impractically large manually normalized datasets; 2) Normalization happens on words in isolation. By utilizing a simple generative normalization model and obtaining powerful contextualization from the target-side language model, we train accurate models with unlabeled historical data. In realistic training scenarios, our approach often leads to reduction in manually normalized data at the same accuracy levels.",
-      "date": "2020-07",
-      "proceedingsTitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-      "conferenceName": "ACL 2020",
-      "place": "Online",
-      "publisher": "Association for Computational Linguistics",
-      "volume": "",
-      "pages": "7284–7295",
-      "series": "",
-      "language": "",
-      "DOI": "10.18653/v1/2020.acl-main.650",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "https://aclanthology.org/2020.acl-main.650",
-      "accessDate": "2023-12-05T16:53:17Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "ACLWeb",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:53:17Z",
-      "dateModified": "2023-12-05T16:53:17Z"
     }
   },
   {
@@ -704,26 +678,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "KA58Z7IN",
-      "version": 7027,
-      "parentItem": "5F2H5CCW",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Bunout - 2019 - Les stratégies de légitimation de la présence de l.pdf",
-      "accessDate": "2023-12-05T16:52:23Z",
-      "url": "https://www.cairn.info/load_pdf.php?ID_ARTICLE=GMCC_275_0031&download=1",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Bunout - 2019 - Les stratégies de légitimation de la présence de l.pdf",
-      "md5": "73726b141cd2ceb6aefd03f665e4d3de",
-      "mtime": 1701795143000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:52:23Z",
-      "dateModified": "2023-12-05T16:52:39Z"
     }
   },
   {
@@ -808,48 +762,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "5F2H5CCW",
-      "version": 7005,
-      "itemType": "journalArticle",
-      "title": "Les stratégies de légitimation de la présence de l’Allemagne et de la Pologne en Europe Orientale (1939-1945)",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "En Allemagne et en Pologne, l’Est fait l’objet d’une lutte idéologique pour asseoir la possession polonaise ou réviser la dépossession allemande avant 1939. La guerre réactualise cet enjeu. Dans le contexte d’une hégémonie allemande en Europe, l’Est tient une fonction d’exploitation, tandis que du point de vue polonais, le rétablissement des frontières orientales est un élément existentiel de la politique du gouvernement en exil. Le discours expert nous informe, par les éléments mis en avant pour servir leurs régimes respectifs, des conceptions sociales sous-jacentes de l’Est qui expliquent le regard asymétrique sur cette région. Les parcours d’Olgierd Górka et de Gotthold Rhode, éclairent l’évolution des regards allemands et polonais sur l’Est durant la guerre.",
-      "publicationTitle": "Guerres mondiales et conflits contemporains",
-      "volume": "275",
-      "issue": "3",
-      "pages": "31-42",
-      "date": "2019",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Guerres mondiales et conflits contemporains",
-      "language": "fr",
-      "DOI": "10.3917/gmcc.275.0031",
-      "ISSN": "0984-2292",
-      "shortTitle": "",
-      "url": "https://www.cairn.info/revue-guerres-mondiales-et-conflits-contemporains-2019-3-page-31.htm",
-      "accessDate": "2023-12-05T16:52:22Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Cairn.info",
-      "callNumber": "",
-      "rights": "",
-      "extra": "Place: Paris cedex 14\nPublisher: Presses Universitaires de France",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:52:22Z",
-      "dateModified": "2023-12-05T16:52:22Z"
     }
   },
   {
@@ -914,26 +826,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "I98C7HE6",
-      "version": 7025,
-      "parentItem": "R8ZSQ7XU",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ströbel et al. - 2020 - How Much Data Do You Need About the Creation of a.pdf",
-      "accessDate": "2023-12-05T16:51:36Z",
-      "url": "https://aclanthology.org/2020.lrec-1.436.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ströbel et al. - 2020 - How Much Data Do You Need About the Creation of a.pdf",
-      "md5": "cc0ba42415827df9046311f9fef63139",
-      "mtime": 1701795096000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:51:36Z",
-      "dateModified": "2023-12-05T16:51:40Z"
     }
   },
   {
@@ -1086,127 +978,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "R8ZSQ7XU",
-      "version": 7005,
-      "itemType": "conferencePaper",
-      "title": "How Much Data Do You Need? About the Creation of a Ground Truth for Black Letter and the Effectiveness of Neural OCR",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Phillip Benjamin",
-          "lastName": "Ströbel"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Martin",
-          "lastName": "Volk"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Nicoletta",
-          "lastName": "Calzolari"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Frédéric",
-          "lastName": "Béchet"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Philippe",
-          "lastName": "Blache"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Khalid",
-          "lastName": "Choukri"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Christopher",
-          "lastName": "Cieri"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Thierry",
-          "lastName": "Declerck"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Sara",
-          "lastName": "Goggi"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Hitoshi",
-          "lastName": "Isahara"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Bente",
-          "lastName": "Maegaard"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Joseph",
-          "lastName": "Mariani"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Hélène",
-          "lastName": "Mazo"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Asuncion",
-          "lastName": "Moreno"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Jan",
-          "lastName": "Odijk"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Stelios",
-          "lastName": "Piperidis"
-        }
-      ],
-      "abstractNote": "Recent advances in Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) have led to more accurate textrecognition of historical documents. The Digital Humanities heavily profit from these developments, but they still struggle whenchoosing from the plethora of OCR systems available on the one hand and when defining workflows for their projects on the other hand. In this work, we present our approach to build a ground truth for a historical German-language newspaper published in black letter. Wealso report how we used it to systematically evaluate the performance of different OCR engines. Additionally, we used this ground truthto make an informed estimate as to how much data is necessary to achieve high-quality OCR results. The outcomes of our experimentsshow that HTR architectures can successfully recognise black letter text and that a ground truth size of 50 newspaper pages suffices toachieve good OCR accuracy. Moreover, our models perform equally well on data they have not seen during training, which means thatadditional manual correction for diverging data is superfluous.",
-      "date": "2020-05",
-      "proceedingsTitle": "Proceedings of the Twelfth Language Resources and Evaluation Conference",
-      "conferenceName": "LREC 2020",
-      "place": "Marseille, France",
-      "publisher": "European Language Resources Association",
-      "volume": "",
-      "pages": "3551–3559",
-      "series": "",
-      "language": "English",
-      "DOI": "",
-      "ISBN": "979-10-95546-34-4",
-      "shortTitle": "How Much Data Do You Need?",
-      "url": "https://aclanthology.org/2020.lrec-1.436",
-      "accessDate": "2023-12-05T16:51:34Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "ACLWeb",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:51:34Z",
-      "dateModified": "2023-12-05T16:51:34Z"
     }
   },
   {
@@ -1271,26 +1042,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "9PDLEHAE",
-      "version": 7015,
-      "parentItem": "E26U4IQX",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Full Text PDF",
-      "accessDate": "2023-12-05T16:50:12Z",
-      "url": "https://storage.googleapis.com/jnl-up-j-johd-files/journals/1/articles/37/submission/proof/37-1-748-1-10-20210917.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Bunout - 2021 - Grasping the Anti-Modern Discourse on Europe in th.pdf",
-      "md5": "8acd3f28aa3c72391ab542ed0dbb8647",
-      "mtime": 1701795012000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:50:12Z",
-      "dateModified": "2023-12-05T16:50:12Z"
     }
   },
   {
@@ -1375,48 +1126,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "E26U4IQX",
-      "version": 7004,
-      "itemType": "journalArticle",
-      "title": "Grasping the Anti-Modern Discourse on Europe in the Swiss Digitised Press, or can Text Mining Generate a Research Corpus from an Article Collection?",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "In this paper, we discuss how different types of automatic annotation of digitised newspaper articles can be integrated into the iterative questioning of the source material and the creation of research corpora out of a collection of unstructured texts (kept in a structured collection). We annotate a sizeable collection of Swiss press articles (183,270), extracted via the impresso interface1 using topic modelling (MALLET)2 as well as a naïve Bayes classifier (script by Milan van Lange).The methodological discussion we propose is to explore how text mining can help identify historical discourses that are difficult to query with keywords because of their inherent ambiguity and how to grasp them in a large corpus. We argue that the automated annotations can provide a body of corroborating evidence of the searched discourse, to be used as an intermediary and heuristic analysis step.",
-      "publicationTitle": "",
-      "volume": "7",
-      "issue": "0",
-      "pages": "21",
-      "date": "2021/09/17",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "language": "en-US",
-      "DOI": "10.5334/johd.37",
-      "ISSN": "2059-481X",
-      "shortTitle": "",
-      "url": "https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.37",
-      "accessDate": "2023-12-05T16:50:10Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "openhumanitiesdata.metajnl.com",
-      "callNumber": "",
-      "rights": "",
-      "extra": "Number: 0\nPublisher: Ubiquity Press",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:50:10Z",
-      "dateModified": "2023-12-05T16:50:10Z"
     }
   },
   {
@@ -1481,28 +1190,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "C5UEWUZQ",
-      "version": 7019,
-      "parentItem": "6CDT3YCC",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2023 - Computational Approaches to Digitised Historical N.pdf",
-      "accessDate": "2023-12-05T16:48:20Z",
-      "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume12/issue07/22292/DagRep.12.7.112/DagRep.12.7.112.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2023 - Computational Approaches to Digitised Historical N.pdf",
-      "md5": "9a26d51768c8a3536d777d0c9d35f1c8",
-      "mtime": 1701794900000,
-      "tags": [],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/XKTEIFMM"
-      },
-      "dateAdded": "2023-12-05T16:48:20Z",
-      "dateModified": "2023-12-05T16:49:32Z"
     }
   },
   {
@@ -1564,26 +1251,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "XCQURL3G",
-      "version": 7036,
-      "parentItem": "DGRHRR4Q",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2023-12-05T16:47:10Z",
-      "url": "https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "collections-of-digital-newspapers-as-historical-sources.html",
-      "md5": "f34f706924463499637ad2d64200da78",
-      "mtime": 1701794830000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:47:10Z",
-      "dateModified": "2023-12-05T16:47:10Z"
     }
   },
   {
@@ -1661,36 +1328,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "DGRHRR4Q",
-      "version": 7004,
-      "itemType": "blogPost",
-      "title": "Collections of Digitised Newspapers as Historical Sources – Parthenos training",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Vicky",
-          "lastName": "Garnett"
-        }
-      ],
-      "abstractNote": "",
-      "blogTitle": "",
-      "websiteType": "",
-      "date": "2019-05-13",
-      "url": "https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/",
-      "accessDate": "2023-12-05T16:47:04Z",
-      "language": "en-US",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:47:04Z",
-      "dateModified": "2023-12-05T16:47:04Z"
     }
   },
   {
@@ -1755,26 +1392,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "2P4UIIQU",
-      "version": 7009,
-      "parentItem": "JUFAJUJE",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Düring et al. - 2021 - Impresso Inspect and Compare. Visual Comparison of.pdf",
-      "accessDate": "2023-12-05T16:45:14Z",
-      "url": "https://www.mdpi.com/2078-2489/12/9/348/pdf?version=1630036051",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Düring et al. - 2021 - Impresso Inspect and Compare. Visual Comparison of.pdf",
-      "md5": "a779326f87d54f9a293741a2315d61fd",
-      "mtime": 1701794713000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:45:14Z",
-      "dateModified": "2023-12-05T16:45:24Z"
     }
   },
   {
@@ -1871,108 +1488,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "JUFAJUJE",
-      "version": 7004,
-      "itemType": "journalArticle",
-      "title": "Impresso Inspect and Compare. Visual Comparison of Semantically Enriched Historical Newspaper Articles",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Roman",
-          "lastName": "Kalyakin"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Daniele",
-          "lastName": "Guido"
-        }
-      ],
-      "abstractNote": "The automated enrichment of mass-digitised document collections using techniques such as text mining is becoming increasingly popular. Enriched collections offer new opportunities for interface design to allow data-driven and visualisation-based search, exploration and interpretation. Most such interfaces integrate close and distant reading and represent semantic, spatial, social or temporal relations, but often lack contrastive views. Inspect and Compare (I&C) contributes to the current state of the art in interface design for historical newspapers with highly versatile side-by-side comparisons of query results and curated article sets based on metadata and semantic enrichments. I&C takes search queries and pre-curated article sets as inputs and allows comparisons based on the distributions of newspaper titles, publication dates and automatically generated enrichments, such as language, article types, topics and named entities. Contrastive views of such data reveal patterns, help humanities scholars to improve search strategies and to facilitate a critical assessment of the overall data quality. I&C is part of the impresso interface for the exploration of digitised and semantically enriched historical newspapers.",
-      "publicationTitle": "Information",
-      "volume": "12",
-      "issue": "9",
-      "pages": "348",
-      "date": "2021/9",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "language": "en",
-      "DOI": "10.3390/info12090348",
-      "ISSN": "2078-2489",
-      "shortTitle": "",
-      "url": "https://www.mdpi.com/2078-2489/12/9/348",
-      "accessDate": "2023-12-05T16:45:13Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "www.mdpi.com",
-      "callNumber": "",
-      "rights": "http://creativecommons.org/licenses/by/3.0/",
-      "extra": "Number: 9\nPublisher: Multidisciplinary Digital Publishing Institute",
-      "tags": [
-        {
-          "tag": "comparison",
-          "type": 1
-        },
-        {
-          "tag": "data criticism",
-          "type": 1
-        },
-        {
-          "tag": "digital history",
-          "type": 1
-        },
-        {
-          "tag": "digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "diverging bar charts",
-          "type": 1
-        },
-        {
-          "tag": "historical newspapers",
-          "type": 1
-        },
-        {
-          "tag": "metadata",
-          "type": 1
-        },
-        {
-          "tag": "search",
-          "type": 1
-        },
-        {
-          "tag": "semantic enrichment",
-          "type": 1
-        },
-        {
-          "tag": "small multiples",
-          "type": 1
-        },
-        {
-          "tag": "user interface",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:45:13Z",
-      "dateModified": "2023-12-05T16:45:13Z"
     }
   },
   {
@@ -2027,100 +1542,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "2YHGHRK4",
-      "version": 7004,
-      "itemType": "report",
-      "title": "CLEF-HIPE-2020 - Shared Task Participation Guidelines",
-      "creators": [
-        {
-          "creatorType": "contributor",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Alex",
-          "lastName": "Flückiger"
-        }
-      ],
-      "abstractNote": "This document summarizes instructions for participants to the CLEF-HIPE-2020 shared task. HIPE (Identifying Historical People, Places and other Entities) is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the impresso project and run as a CLEF 2020 Evaluation Lab. More information on the website: https://impresso.github.io/CLEF-HIPE-2020",
-      "reportNumber": "",
-      "reportType": "",
-      "seriesTitle": "",
-      "place": "",
-      "institution": "",
-      "date": "2020",
-      "pages": "",
-      "language": "",
-      "shortTitle": "",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Infoscience",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "bench-marking",
-          "type": 1
-        },
-        {
-          "tag": "deep learning",
-          "type": 1
-        },
-        {
-          "tag": "digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "evaluation campaign",
-          "type": 1
-        },
-        {
-          "tag": "historical documents",
-          "type": 1
-        },
-        {
-          "tag": "historical newspapers",
-          "type": 1
-        },
-        {
-          "tag": "information extraction",
-          "type": 1
-        },
-        {
-          "tag": "machine learning",
-          "type": 1
-        },
-        {
-          "tag": "named entity processing",
-          "type": 1
-        },
-        {
-          "tag": "natural language processing",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:41:36Z",
-      "dateModified": "2023-12-05T16:42:00Z"
     }
   },
   {
@@ -2169,17 +1590,6 @@
       "id": "4709830/8WAYS4TX",
       "type": "article",
       "title": "This work was done in collaboration with the University of Zurich and in the co"
-    },
-    "data": {
-      "key": "8WAYS4TX",
-      "version": 7004,
-      "parentItem": "CPVEC597",
-      "itemType": "note",
-      "note": "This work was done in collaboration with the University of Zurich and in the context of the 'impresso - Media Monitoring od the Past' project (FNS Sinergia CRSII5_173719)",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:41:31Z",
-      "dateModified": "2023-12-05T16:41:31Z"
     }
   },
   {
@@ -2235,89 +1645,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "CPVEC597",
-      "version": 7004,
-      "itemType": "report",
-      "title": "Impresso Named Entity Annotation Guidelines (CLEF-HIPE-2020)",
-      "creators": [
-        {
-          "creatorType": "contributor",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Camille",
-          "lastName": "Watter"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Clematide",
-          "lastName": "Simon"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Alex",
-          "lastName": "Flückiger"
-        }
-      ],
-      "abstractNote": "Impresso annotation guidelines used in the context of corpus annotation for the HIPE shared task (CLEF 2020 Evaluation Lab). CLEF-HIPE-2020 shared task: https://impresso.github.io/CLEF-HIPE-2020/ Impresso project: https://impresso-project.ch",
-      "reportNumber": "",
-      "reportType": "",
-      "seriesTitle": "",
-      "place": "",
-      "institution": "",
-      "date": "2020",
-      "pages": "",
-      "language": "",
-      "shortTitle": "",
-      "url": "https://zenodo.org/records/3604227",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Infoscience",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Annotation guidelines",
-          "type": 1
-        },
-        {
-          "tag": "Digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "Historical newspapers",
-          "type": 1
-        },
-        {
-          "tag": "Information extraction",
-          "type": 1
-        },
-        {
-          "tag": "Named entity processing",
-          "type": 1
-        },
-        {
-          "tag": "Natural Language Processing",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:41:31Z",
-      "dateModified": "2023-12-05T16:44:34Z"
     }
   },
   {
@@ -2382,26 +1709,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "FVGTMEGS",
-      "version": 7021,
-      "parentItem": "DNG9P58I",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Makarov and Clematide - 2018 - Imitation Learning for Neural Morphological String.pdf",
-      "accessDate": "2023-12-05T16:40:03Z",
-      "url": "https://aclanthology.org/D18-1314.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Makarov and Clematide - 2018 - Imitation Learning for Neural Morphological String.pdf",
-      "md5": "d6e851724282ececb0d33c7fe03e27fc",
-      "mtime": 1701794403000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:40:03Z",
-      "dateModified": "2023-12-05T16:40:24Z"
     }
   },
   {
@@ -2508,72 +1815,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "DNG9P58I",
-      "version": 7003,
-      "itemType": "conferencePaper",
-      "title": "Imitation Learning for Neural Morphological String Transduction",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Peter",
-          "lastName": "Makarov"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Ellen",
-          "lastName": "Riloff"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "David",
-          "lastName": "Chiang"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Julia",
-          "lastName": "Hockenmaier"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Jun'ichi",
-          "lastName": "Tsujii"
-        }
-      ],
-      "abstractNote": "We employ imitation learning to train a neural transition-based string transducer for morphological tasks such as inflection generation and lemmatization. Previous approaches to training this type of model either rely on an external character aligner for the production of gold action sequences, which results in a suboptimal model due to the unwarranted dependence on a single gold action sequence despite spurious ambiguity, or require warm starting with an MLE model. Our approach only requires a simple expert policy, eliminating the need for a character aligner or warm start. It also addresses familiar MLE training biases and leads to strong and state-of-the-art performance on several benchmarks.",
-      "date": "2018-10",
-      "proceedingsTitle": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
-      "conferenceName": "EMNLP 2018",
-      "place": "Brussels, Belgium",
-      "publisher": "Association for Computational Linguistics",
-      "volume": "",
-      "pages": "2877–2882",
-      "series": "",
-      "language": "",
-      "DOI": "10.18653/v1/D18-1314",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "https://aclanthology.org/D18-1314",
-      "accessDate": "2023-12-05T16:40:02Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "ACLWeb",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:40:02Z",
-      "dateModified": "2023-12-05T16:40:02Z"
     }
   },
   {
@@ -2638,26 +1879,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "DI8BVLTG",
-      "version": 7023,
-      "parentItem": "3R2K3V7A",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2023 - Named Entity Recognition and Classification in His.pdf",
-      "accessDate": "2023-12-05T16:39:12Z",
-      "url": "https://dl.acm.org/doi/pdf/10.1145/3604931",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2023 - Named Entity Recognition and Classification in His.pdf",
-      "md5": "58bf4243f1d5f9abb93f086d68192bca",
-      "mtime": 1701794351000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:39:12Z",
-      "dateModified": "2023-12-05T16:39:47Z"
     }
   },
   {
@@ -2759,85 +1980,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "3R2K3V7A",
-      "version": 7003,
-      "itemType": "journalArticle",
-      "title": "Named Entity Recognition and Classification in Historical Documents: A Survey",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Ahmed",
-          "lastName": "Hamdi"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Elvys Linhares",
-          "lastName": "Pontes"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Antoine",
-          "lastName": "Doucet"
-        }
-      ],
-      "abstractNote": "After decades of massive digitisation, an unprecedented number of historical documents are available in digital format, along with their machine-readable texts. While this represents a major step forward with respect to preservation and accessibility, it also opens up new opportunities in terms of content mining and the next fundamental challenge is to develop appropriate technologies to efficiently search, retrieve, and explore information from this ‘big data of the past’. Among semantic indexing opportunities, the recognition and classification of named entities are in great demand among humanities scholars. Yet, named entity recognition (NER) systems are heavily challenged with diverse, historical, and noisy inputs. In this survey, we present the array of challenges posed by historical documents to NER, inventory existing resources, describe the main approaches deployed so far, and identify key priorities for future developments.",
-      "publicationTitle": "ACM Computing Surveys",
-      "volume": "56",
-      "issue": "2",
-      "pages": "27:1–27:47",
-      "date": "September 14, 2023",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "ACM Comput. Surv.",
-      "language": "",
-      "DOI": "10.1145/3604931",
-      "ISSN": "0360-0300",
-      "shortTitle": "Named Entity Recognition and Classification in Historical Documents",
-      "url": "https://dl.acm.org/doi/10.1145/3604931",
-      "accessDate": "2023-12-05T16:39:08Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "ACM Digital Library",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Named entity recognition and classification",
-          "type": 1
-        },
-        {
-          "tag": "digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "historical documents",
-          "type": 1
-        },
-        {
-          "tag": "natural language processing",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:39:08Z",
-      "dateModified": "2023-12-05T16:39:08Z"
     }
   },
   {
@@ -2892,26 +2034,6 @@
       "id": "4709830/L7SUU32Y",
       "type": "article",
       "title": "Romanello et al. - 2020 - The impresso system architecture in a nutshell.pdf"
-    },
-    "data": {
-      "key": "L7SUU32Y",
-      "version": 7029,
-      "parentItem": "AGG8AQIJ",
-      "itemType": "attachment",
-      "linkMode": "imported_file",
-      "title": "Romanello et al. - 2020 - The impresso system architecture in a nutshell.pdf",
-      "accessDate": "",
-      "url": "",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Romanello et al. - 2020 - The impresso system architecture in a nutshell.pdf",
-      "md5": "0b7b792bca239ce4edb8b3d2bbed0ed2",
-      "mtime": 1701794279000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:37:59Z",
-      "dateModified": "2023-12-05T16:37:59Z"
     }
   },
   {
@@ -2976,28 +2098,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "5DAKJKCE",
-      "version": 7014,
-      "parentItem": "BDZBZD2L",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Makarov and Clematide - 2018 - UZH at CoNLL–SIGMORPHON 2018 Shared Task on Univer.pdf",
-      "accessDate": "2023-12-05T16:34:17Z",
-      "url": "https://aclanthology.org/K18-3008.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Makarov and Clematide - 2018 - UZH at CoNLL–SIGMORPHON 2018 Shared Task on Univer.pdf",
-      "md5": "ae47e0db4594d694c90fd7f1ab50cf94",
-      "mtime": 1701794057000,
-      "tags": [],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/R9Z4AYIA"
-      },
-      "dateAdded": "2023-12-05T16:34:17Z",
-      "dateModified": "2023-12-05T16:34:54Z"
     }
   },
   {
@@ -3062,26 +2162,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "W66IGVXV",
-      "version": 7032,
-      "parentItem": "X3FN3JZV",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2022 - Overview of HIPE-2022 Named Entity Recognition an.pdf",
-      "accessDate": "2023-12-05T16:33:27Z",
-      "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-031-13643-6_26.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2022 - Overview of HIPE-2022 Named Entity Recognition an.pdf",
-      "md5": "5979b75221841d0135b756d49ce59f57",
-      "mtime": 1701794007000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:33:27Z",
-      "dateModified": "2023-12-05T16:33:33Z"
     }
   },
   {
@@ -3216,142 +2296,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "X3FN3JZV",
-      "version": 7003,
-      "itemType": "conferencePaper",
-      "title": "Overview of HIPE-2022: Named Entity Recognition and Linking in Multilingual Historical Documents",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Sven",
-          "lastName": "Najem-Meyer"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Antoine",
-          "lastName": "Doucet"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Alberto",
-          "lastName": "Barrón-Cedeño"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Giovanni",
-          "lastName": "Da San Martino"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Mirko",
-          "lastName": "Degli Esposti"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Fabrizio",
-          "lastName": "Sebastiani"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Craig",
-          "lastName": "Macdonald"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Gabriella",
-          "lastName": "Pasi"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Allan",
-          "lastName": "Hanbury"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Martin",
-          "lastName": "Potthast"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Guglielmo",
-          "lastName": "Faggioli"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Nicola",
-          "lastName": "Ferro"
-        }
-      ],
-      "abstractNote": "This paper presents an overview of the second edition of HIPE (Identifying Historical People, Places and other Entities), a shared task on named entity recognition and linking in multilingual historical documents. Following the success of the first CLEF-HIPE-2020 evaluation lab, HIPE-2022 confronts systems with the challenges of dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets. This shared task is part of the ongoing efforts of the natural language processing and digital humanities communities to adapt and develop appropriate technologies to efficiently retrieve and explore information from historical texts. On such material, however, named entity processing techniques face the challenges of domain heterogeneity, input noisiness, dynamics of language, and lack of resources. In this context, the main objective of HIPE-2022, run as an evaluation lab of the CLEF 2022 conference, is to gain new insights into the transferability of named entity processing approaches across languages, time periods, document types, and annotation tag sets. Tasks, corpora, and results of participating teams are presented.",
-      "date": "2022",
-      "proceedingsTitle": "Experimental IR Meets Multilinguality, Multimodality, and Interaction",
-      "conferenceName": "",
-      "place": "Cham",
-      "publisher": "Springer International Publishing",
-      "volume": "",
-      "pages": "423-446",
-      "series": "Lecture Notes in Computer Science",
-      "language": "en",
-      "DOI": "10.1007/978-3-031-13643-6_26",
-      "ISBN": "978-3-031-13643-6",
-      "shortTitle": "Overview of HIPE-2022",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Springer Link",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "Digitised newspapers",
-          "type": 1
-        },
-        {
-          "tag": "Entity linking",
-          "type": 1
-        },
-        {
-          "tag": "Historical texts",
-          "type": 1
-        },
-        {
-          "tag": "Information extraction",
-          "type": 1
-        },
-        {
-          "tag": "Named entity recognition and classification",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:33:26Z",
-      "dateModified": "2023-12-05T16:33:26Z"
     }
   },
   {
@@ -3416,28 +2360,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "GYRD94H9",
-      "version": 7022,
-      "parentItem": "XMS6HQST",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2020 - Overview of CLEF HIPE 2020 Named Entity Recogniti.pdf",
-      "accessDate": "2023-12-05T16:31:56Z",
-      "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-58219-7_21.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2020 - Overview of CLEF HIPE 2020 Named Entity Recogniti.pdf",
-      "md5": "0fb2be86265644972bae5d616f2e51d6",
-      "mtime": 1701793916000,
-      "tags": [],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/HEPVGSUA"
-      },
-      "dateAdded": "2023-12-05T16:31:56Z",
-      "dateModified": "2023-12-05T16:32:58Z"
     }
   },
   {
@@ -3502,26 +2424,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "MREL7IWK",
-      "version": 7030,
-      "parentItem": "SGG3E4TM",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2020 - Extended Overview of CLEF HIPE 2020 Named Entity .pdf",
-      "accessDate": "2023-12-05T16:30:13Z",
-      "url": "https://pdfs.semanticscholar.org/75a2/4bc9155887c80318f7f58e1dacdba6c2c958.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2020 - Extended Overview of CLEF HIPE 2020 Named Entity .pdf",
-      "md5": "958afa9140b87cb03620c6f2a609c77e",
-      "mtime": 1701793813000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:30:13Z",
-      "dateModified": "2023-12-05T16:31:14Z"
     }
   },
   {
@@ -3586,26 +2488,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "2VC4TMPA",
-      "version": 7008,
-      "parentItem": "96MDGC4G",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2022 - Introducing the HIPE 2022 Shared Task Named Entit.pdf",
-      "accessDate": "2023-12-05T16:29:34Z",
-      "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-99739-7_44.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2022 - Introducing the HIPE 2022 Shared Task Named Entit.pdf",
-      "md5": "01180ee1f1960155b07ecdf3741d2c41",
-      "mtime": 1701793774000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:29:34Z",
-      "dateModified": "2023-12-05T16:29:51Z"
     }
   },
   {
@@ -3724,118 +2606,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "96MDGC4G",
-      "version": 7002,
-      "itemType": "conferencePaper",
-      "title": "Introducing the HIPE 2022 Shared Task: Named Entity Recognition and Linking in Multilingual Historical Documents",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Antoine",
-          "lastName": "Doucet"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Matthias",
-          "lastName": "Hagen"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Suzan",
-          "lastName": "Verberne"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Craig",
-          "lastName": "Macdonald"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Christin",
-          "lastName": "Seifert"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Krisztian",
-          "lastName": "Balog"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Kjetil",
-          "lastName": "Nørvåg"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Vinay",
-          "lastName": "Setty"
-        }
-      ],
-      "abstractNote": "We present the HIPE-2022 shared task on named entity processing in multilingual historical documents. Following the success of the first CLEF-HIPE-2020 evaluation lab, this edition confronts systems with the challenges of dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets. HIPE-2022 is part of the ongoing efforts of the natural language processing and digital humanities communities to adapt and develop appropriate technologies to efficiently retrieve and explore information from historical texts. On such material, however, named entity processing techniques face the challenges of domain heterogeneity, input noisiness, dynamics of language, and lack of resources. In this context, the main objective of the evaluation lab is to gain new insights into the transferability of named entity processing approaches across languages, time periods, document types, and annotation tag sets.",
-      "date": "2022",
-      "proceedingsTitle": "Advances in Information Retrieval",
-      "conferenceName": "",
-      "place": "Cham",
-      "publisher": "Springer International Publishing",
-      "volume": "",
-      "pages": "347-354",
-      "series": "Lecture Notes in Computer Science",
-      "language": "en",
-      "DOI": "10.1007/978-3-030-99739-7_44",
-      "ISBN": "978-3-030-99739-7",
-      "shortTitle": "Introducing the HIPE 2022 Shared Task",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Springer Link",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "Historical documents",
-          "type": 1
-        },
-        {
-          "tag": "Information extraction",
-          "type": 1
-        },
-        {
-          "tag": "Named entity processing",
-          "type": 1
-        },
-        {
-          "tag": "Text understanding",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:29:33Z",
-      "dateModified": "2023-12-05T16:29:33Z"
     }
   },
   {
@@ -3900,26 +2670,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "4CHKHKIV",
-      "version": 7012,
-      "parentItem": "EEPH655W",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2020 - Language Resources for Historical Newspapers the .pdf",
-      "accessDate": "2023-12-05T16:28:45Z",
-      "url": "https://aclanthology.org/2020.lrec-1.121.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2020 - Language Resources for Historical Newspapers the .pdf",
-      "md5": "38b89f72507cd62d02c71b3dacca0132",
-      "mtime": 1701793725000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:28:45Z",
-      "dateModified": "2023-12-05T16:29:02Z"
     }
   },
   {
@@ -4080,137 +2830,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "EEPH655W",
-      "version": 7002,
-      "itemType": "conferencePaper",
-      "title": "Language Resources for Historical Newspapers: the Impresso Collection",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Phillip Benjamin",
-          "lastName": "Ströbel"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Raphaël",
-          "lastName": "Barman"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Nicoletta",
-          "lastName": "Calzolari"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Frédéric",
-          "lastName": "Béchet"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Philippe",
-          "lastName": "Blache"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Khalid",
-          "lastName": "Choukri"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Christopher",
-          "lastName": "Cieri"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Thierry",
-          "lastName": "Declerck"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Sara",
-          "lastName": "Goggi"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Hitoshi",
-          "lastName": "Isahara"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Bente",
-          "lastName": "Maegaard"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Joseph",
-          "lastName": "Mariani"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Hélène",
-          "lastName": "Mazo"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Asuncion",
-          "lastName": "Moreno"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Jan",
-          "lastName": "Odijk"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Stelios",
-          "lastName": "Piperidis"
-        }
-      ],
-      "abstractNote": "Following decades of massive digitization, an unprecedented amount of historical document facsimiles can now be retrieved and accessed via cultural heritage online portals. If this represents a huge step forward in terms of preservation and accessibility, the next fundamental challenge– and real promise of digitization– is to exploit the contents of these digital assets, and therefore to adapt and develop appropriate language technologies to search and retrieve information from this `Big Data of the Past'. Yet, the application of text processing tools on historical documents in general, and historical newspapers in particular, poses new challenges, and crucially requires appropriate language resources. In this context, this paper presents a collection of historical newspaper data sets composed of text and image resources, curated and published within the context of the `impresso - Media Monitoring of the Past' project. With corpora, benchmarks, semantic annotations and language models in French, German and Luxembourgish covering ca. 200 years, the objective of the impresso resource collection is to contribute to historical language resources, and thereby strengthen the robustness of approaches to non-standard inputs and foster efficient processing of historical documents.",
-      "date": "2020-05",
-      "proceedingsTitle": "Proceedings of the Twelfth Language Resources and Evaluation Conference",
-      "conferenceName": "LREC 2020",
-      "place": "Marseille, France",
-      "publisher": "European Language Resources Association",
-      "volume": "",
-      "pages": "958–968",
-      "series": "",
-      "language": "English",
-      "DOI": "",
-      "ISBN": "979-10-95546-34-4",
-      "shortTitle": "Language Resources for Historical Newspapers",
-      "url": "https://aclanthology.org/2020.lrec-1.121",
-      "accessDate": "2023-12-05T16:28:43Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "ACLWeb",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:28:43Z",
-      "dateModified": "2023-12-05T16:28:43Z"
     }
   },
   {
@@ -4275,26 +2894,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "XDFESVWM",
-      "version": 7035,
-      "parentItem": "473HYAPF",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Bunout et al. - 2022 - Digitized Newspapers - A New Eldorado for Historia.pdf",
-      "accessDate": "2023-12-05T16:09:52Z",
-      "url": "https://www.degruyter.com/document/doi/10.1515/9783110729214-fm/pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Bunout et al. - 2022 - Digitized Newspapers - A New Eldorado for Historia.pdf",
-      "md5": "1a783c162d4d373f12c3b89bfe615669",
-      "mtime": 1701792745000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:09:52Z",
-      "dateModified": "2023-12-05T16:14:21Z"
     }
   },
   {
@@ -4359,26 +2958,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "BMDB636R",
-      "version": 7017,
-      "parentItem": "4YEN9AK5",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Barman et al. - 2021 - Combining Visual and Textual Features for Semantic.pdf",
-      "accessDate": "2023-12-05T16:08:26Z",
-      "url": "https://www.zora.uzh.ch/id/eprint/200811/1/BarmanEhrmann2021.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Barman et al. - 2021 - Combining Visual and Textual Features for Semantic.pdf",
-      "md5": "6938872c5a022273a5e19b492ae7d08d",
-      "mtime": 1701792506000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:08:26Z",
-      "dateModified": "2023-12-05T16:08:37Z"
     }
   },
   {
@@ -4478,68 +3057,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "4YEN9AK5",
-      "version": 7001,
-      "itemType": "journalArticle",
-      "title": "Combining Visual and Textual Features for Semantic Segmentation of Historical Newspapers",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Raphaël",
-          "lastName": "Barman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Sofia Ares",
-          "lastName": "Oliveira"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Frédéric",
-          "lastName": "Kaplan"
-        }
-      ],
-      "abstractNote": "The massive amounts of digitized historical documents acquired over the last decades naturally lend themselves to automatic processing and exploration. Research work seeking to automatically process facsimiles and extract information thereby are multiplying with, as a first essential step, document layout analysis. If the identification and categorization of segments of interest in document images have seen significant progress over the last years thanks to deep learning techniques, many challenges remain with, among others, the use of finer-grained segmentation typologies and the consideration of complex, heterogeneous documents such as historical newspapers. Besides, most approaches consider visual features only, ignoring textual signal. In this context, we introduce a multimodal approach for the semantic segmentation of historical newspapers that combines visual and textual features. Based on a series of experiments on diachronic Swiss and Luxembourgish newspapers, we investigate, among others, the predictive power of visual and textual features and their capacity to generalize across time and sources. Results show consistent improvement of multimodal models in comparison to a strong visual baseline, as well as better robustness to high material variance.",
-      "publicationTitle": "ArXiv.org",
-      "volume": "",
-      "issue": "06144v4",
-      "pages": "",
-      "date": "2021/01/19",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "language": "eng",
-      "DOI": "10.5281/zenodo.3706863",
-      "ISSN": "2331-8422",
-      "shortTitle": "",
-      "url": "https://arxiv.org/abs/2002.06144",
-      "accessDate": "2023-12-05T16:08:24Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "www.zora.uzh.ch",
-      "callNumber": "",
-      "rights": "info:eu-repo/semantics/openAccess",
-      "extra": "Number: 06144v4\nPublisher: Cornell University",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:08:24Z",
-      "dateModified": "2023-12-05T16:08:24Z"
     }
   },
   {
@@ -4604,26 +3121,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "XBU68RIV",
-      "version": 7034,
-      "parentItem": "N25S5SFC",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2022 - Digitised Historical Newspapers A Changing Resear.pdf",
-      "accessDate": "2023-12-05T16:06:52Z",
-      "url": "https://www.degruyter.com/document/doi/10.1515/9783110729214-001/pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2022 - Digitised Historical Newspapers A Changing Resear.pdf",
-      "md5": "c68e4f1db221c91ce2a03afae6806577",
-      "mtime": 1701792412000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:06:52Z",
-      "dateModified": "2023-12-05T16:07:32Z"
     }
   },
   {
@@ -4717,58 +3214,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "N25S5SFC",
-      "version": 7001,
-      "itemType": "bookSection",
-      "title": "Digitised Historical Newspapers: A Changing Research Landscape (Introduction chapter)",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Frédéric",
-          "lastName": "Clavert"
-        }
-      ],
-      "abstractNote": "Digitised Historical Newspapers: A Changing Research Landscape was published in Digitised Newspapers – A New Eldorado for Historians? on page 1.",
-      "bookTitle": "Digitised Historical Newspapers: A Changing Research Landscape",
-      "series": "",
-      "seriesNumber": "",
-      "volume": "",
-      "numberOfVolumes": "",
-      "edition": "",
-      "place": "",
-      "publisher": "De Gruyter Oldenbourg",
-      "date": "2022-12-31",
-      "pages": "1-22",
-      "language": "en",
-      "ISBN": "978-3-11-072921-4",
-      "shortTitle": "Digitised Historical Newspapers",
-      "url": "https://www.degruyter.com/document/doi/10.1515/9783110729214-001/html",
-      "accessDate": "2023-12-05T16:06:51Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "www.degruyter.com",
-      "callNumber": "",
-      "rights": "De Gruyter expressly reserves the right to use all content for commercial text and data mining within the meaning of Section 44b of the German Copyright Act.",
-      "extra": "DOI: 10.1515/9783110729214-001",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T16:06:51Z",
-      "dateModified": "2023-12-05T16:07:22Z"
     }
   },
   {
@@ -4833,26 +3278,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "Q3LG7Q75",
-      "version": 7031,
-      "parentItem": "G9MHFGC7",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Makarov and Clematide - 2018 - Neural Transition-based String Transduction for Li.pdf",
-      "accessDate": "2023-12-05T14:56:26Z",
-      "url": "https://aclanthology.org/C18-1008.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Makarov and Clematide - 2018 - Neural Transition-based String Transduction for Li.pdf",
-      "md5": "63ce36cdd8cd52cd15ff3dcdfa8d72f1",
-      "mtime": 1701788186000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:56:26Z",
-      "dateModified": "2023-12-05T14:56:41Z"
     }
   },
   {
@@ -4954,67 +3379,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "G9MHFGC7",
-      "version": 7001,
-      "itemType": "conferencePaper",
-      "title": "Neural Transition-based String Transduction for Limited-Resource Setting in Morphology",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Peter",
-          "lastName": "Makarov"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Emily M.",
-          "lastName": "Bender"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Leon",
-          "lastName": "Derczynski"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Pierre",
-          "lastName": "Isabelle"
-        }
-      ],
-      "abstractNote": "We present a neural transition-based model that uses a simple set of edit actions (copy, delete, insert) for morphological transduction tasks such as inflection generation, lemmatization, and reinflection. In a large-scale evaluation on four datasets and dozens of languages, our approach consistently outperforms state-of-the-art systems on low and medium training-set sizes and is competitive in the high-resource setting. Learning to apply a generic copy action enables our approach to generalize quickly from a few data points. We successfully leverage minimum risk training to compensate for the weaknesses of MLE parameter learning and neutralize the negative effects of training a pipeline with a separate character aligner.",
-      "date": "2018-08",
-      "proceedingsTitle": "Proceedings of the 27th International Conference on Computational Linguistics",
-      "conferenceName": "COLING 2018",
-      "place": "Santa Fe, New Mexico, USA",
-      "publisher": "Association for Computational Linguistics",
-      "volume": "",
-      "pages": "83–93",
-      "series": "",
-      "language": "",
-      "DOI": "",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "https://aclanthology.org/C18-1008",
-      "accessDate": "2023-12-05T14:56:24Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "ACLWeb",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:56:24Z",
-      "dateModified": "2023-12-05T14:56:24Z"
     }
   },
   {
@@ -5146,139 +3510,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "XMS6HQST",
-      "version": 7001,
-      "itemType": "conferencePaper",
-      "title": "Overview of CLEF HIPE 2020: Named Entity Recognition and Linking on Historical Newspapers",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Alex",
-          "lastName": "Flückiger"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Avi",
-          "lastName": "Arampatzis"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Evangelos",
-          "lastName": "Kanoulas"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Theodora",
-          "lastName": "Tsikrika"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Stefanos",
-          "lastName": "Vrochidis"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Hideo",
-          "lastName": "Joho"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Christina",
-          "lastName": "Lioma"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Carsten",
-          "lastName": "Eickhoff"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Aurélie",
-          "lastName": "Névéol"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Linda",
-          "lastName": "Cappellato"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Nicola",
-          "lastName": "Ferro"
-        }
-      ],
-      "abstractNote": "This paper presents an overview of the first edition of HIPE (Identifying Historical People, Places and other Entities), a pioneering shared task dedicated to the evaluation of named entity processing on historical newspapers in French, German and English. Since its introduction some twenty years ago, named entity (NE) processing has become an essential component of virtually any text mining application and has undergone major changes. Recently, two main trends characterise its developments: the adoption of deep learning architectures and the consideration of textual material originating from historical and cultural heritage collections. While the former opens up new opportunities, the latter introduces new challenges with heterogeneous, historical and noisy inputs. In this context, the objective of HIPE, run as part of the CLEF 2020 conference, is threefold: strengthening the robustness of existing approaches on non-standard inputs, enabling performance comparison of NE processing on historical texts, and, in the long run, fostering efficient semantic indexing of historical documents. Tasks, corpora, and results of 13 participating teams are presented.",
-      "date": "2020",
-      "proceedingsTitle": "Experimental IR Meets Multilinguality, Multimodality, and Interaction",
-      "conferenceName": "",
-      "place": "Cham",
-      "publisher": "Springer International Publishing",
-      "volume": "",
-      "pages": "288-310",
-      "series": "Lecture Notes in Computer Science",
-      "language": "en",
-      "DOI": "10.1007/978-3-030-58219-7_21",
-      "ISBN": "978-3-030-58219-7",
-      "shortTitle": "Overview of CLEF HIPE 2020",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Springer Link",
-      "callNumber": "",
-      "rights": "",
-      "extra": "tex.ids= ehrmann_overview_2020a\nISBN: 9783030582197\nmeetingName: 11th International Conference of the CLEF Association - CLEF 2020\nnumPages: 25\nplace: Cham\npublisher: Springer\nseriesNumber: 12260",
-      "tags": [
-        {
-          "tag": "Digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "Digitized newspapers",
-          "type": 1
-        },
-        {
-          "tag": "Entity linking",
-          "type": 1
-        },
-        {
-          "tag": "Historical texts",
-          "type": 1
-        },
-        {
-          "tag": "Information extraction",
-          "type": 1
-        },
-        {
-          "tag": "Named entity recognition and classification",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/ZHY96FLU"
-      },
-      "dateAdded": "2023-12-05T14:53:26Z",
-      "dateModified": "2023-12-05T16:32:45Z"
     }
   },
   {
@@ -5333,26 +3564,6 @@
       "id": "4709830/9XM4YIQ3",
       "type": "article",
       "title": "Ehrmann et al. - 2022 - Extended Overview of HIPE-2022 Named Entity Recog.pdf"
-    },
-    "data": {
-      "key": "9XM4YIQ3",
-      "version": 7016,
-      "parentItem": "BWL4R376",
-      "itemType": "attachment",
-      "linkMode": "imported_file",
-      "title": "Ehrmann et al. - 2022 - Extended Overview of HIPE-2022 Named Entity Recog.pdf",
-      "accessDate": "",
-      "url": "",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2022 - Extended Overview of HIPE-2022 Named Entity Recog.pdf",
-      "md5": "e9c142c17169df0a443b570c13f67d16",
-      "mtime": 1701787490000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:44:50Z",
-      "dateModified": "2023-12-05T14:44:50Z"
     }
   },
   {
@@ -5439,100 +3650,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "BWL4R376",
-      "version": 7000,
-      "itemType": "conferencePaper",
-      "title": "Extended Overview of HIPE-2022: Named Entity Recognition and Linking in Multilingual Historical Documents",
-      "creators": [
-        {
-          "creatorType": "editor",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Sven",
-          "lastName": "Najem-Meyer"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Antoine",
-          "lastName": "Doucet"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        }
-      ],
-      "abstractNote": "This paper presents an overview of the second edition of HIPE (Identifying Historical People, Places and other Entities), a shared task on named entity recognition and linking in multilingual historical documents. Following the success of the first CLEF-HIPE-2020 evaluation lab, HIPE-2022 confronts systems with the challenges of dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets. This shared task is part of the ongoing efforts of the natural language processing and digital humanities communities to adapt and develop appropriate technologies to efficiently retrieve and explore information from historical texts. On such material, however, named entity processing techniques face the challenges of domain heterogeneity, input noisiness, dynamics of language, and lack of resources. In this context, the main objective of HIPE-2022, run as an evaluation lab of the CLEF 2022 conference, is to gain new insights into the <em>transferability</em> of named entity processing approaches across languages, time periods, document types, and annotation tag sets. Tasks, corpora, and results of participating teams are presented. Compared to the condensed overview, this paper contains more refined statistics on the datasets, a break down of the results per type of entity, and a discussion of the 'challenges' proposed in the shared task",
-      "date": "2022",
-      "proceedingsTitle": "Proceedings of the Working Notes of CLEF 2022 - Conference and Labs of the Evaluation Forum",
-      "conferenceName": "",
-      "place": "",
-      "publisher": "",
-      "volume": "",
-      "pages": "",
-      "series": "",
-      "language": "",
-      "DOI": "10.5281/zenodo.6979577",
-      "ISBN": "",
-      "shortTitle": "Extended Overview of HIPE-2022",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Infoscience",
-      "callNumber": "",
-      "rights": "",
-      "extra": "ISBN: 9783031136429\nMeeting Name: 13th Conference and Labs of the Evaluation Forum (CLEF 2022)\nNum Pages: 26\nPublisher: CEUR-WS",
-      "tags": [
-        {
-          "tag": "Classical commentaries",
-          "type": 1
-        },
-        {
-          "tag": "Digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "Digitised newspapers",
-          "type": 1
-        },
-        {
-          "tag": "Entity linking",
-          "type": 1
-        },
-        {
-          "tag": "Evaluation",
-          "type": 1
-        },
-        {
-          "tag": "Historical texts",
-          "type": 1
-        },
-        {
-          "tag": "Information extraction",
-          "type": 1
-        },
-        {
-          "tag": "Named entity recognition and classification",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:43:21Z",
-      "dateModified": "2023-12-05T14:43:51Z"
     }
   },
   {
@@ -5597,26 +3714,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "3VLSCP68",
-      "version": 7010,
-      "parentItem": "H42ZPLRT",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Düring et al. - 2023 - impresso Text Reuse at Scale. An interface for the.pdf",
-      "accessDate": "2023-12-05T14:36:05Z",
-      "url": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1249469/pdf?isPublishedV2=False",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Düring et al. - 2023 - impresso Text Reuse at Scale. An interface for the.pdf",
-      "md5": "c59c57a7674f7bbb24ac22c9759990d6",
-      "mtime": 1701786965000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:36:05Z",
-      "dateModified": "2023-12-05T14:36:32Z"
     }
   },
   {
@@ -5727,88 +3824,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "H42ZPLRT",
-      "version": 7000,
-      "itemType": "journalArticle",
-      "title": "impresso Text Reuse at Scale. An interface for the exploration of text reuse data in semantically enriched historical newspapers",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Kaspar",
-          "lastName": "Beelen"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Daniele",
-          "lastName": "Guido"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Brecht",
-          "lastName": "Deseure"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Jana",
-          "lastName": "Keck"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Petros",
-          "lastName": "Apostolopoulos"
-        }
-      ],
-      "abstractNote": "Text Reuse reveals meaningful reiterations of text in large corpora. Humanities researchers use text reuse to study, e.g., the posterior reception of influential texts or to reveal evolving publication practices of historical media. This research is often supported by interactive visualizations which highlight relations and differences between text segments. In this paper, we build on earlier work in this domain. We present impresso Text Reuse at Scale, the to our knowledge first interface which integrates text reuse data with other forms of semantic enrichment to enable a versatile and scalable exploration of intertextual relations in historical newspaper corpora. The Text Reuse at Scale interface was developed as part of the impresso project and combines powerful search and filter operations with close and distant reading perspectives. We integrate text reuse data with enrichments derived from topic modeling, named entity recognition and classification, language and document type detection as well as a rich set of newspaper metadata. We report on historical research objectives and common user tasks for the analysis of historical text reuse data and present the prototype interface together with the results of a user evaluation.",
-      "publicationTitle": "Frontiers in Big Data",
-      "volume": "6",
-      "issue": "",
-      "pages": "",
-      "date": "2023",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "language": "",
-      "DOI": "",
-      "ISSN": "2624-909X",
-      "shortTitle": "",
-      "url": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1249469",
-      "accessDate": "2023-12-05T14:36:00Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Frontiers",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:36:01Z",
-      "dateModified": "2023-12-05T14:36:01Z"
     }
   },
   {
@@ -5857,17 +3872,6 @@
       "id": "4709830/8PW8G8J2",
       "type": "article",
       "title": "MA thesis supervised by M. Ehrmann and S. Clematide"
-    },
-    "data": {
-      "key": "8PW8G8J2",
-      "version": 7000,
-      "parentItem": "37YSMTTH",
-      "itemType": "note",
-      "note": "MA thesis supervised by M. Ehrmann and S. Clematide",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:31:09Z",
-      "dateModified": "2023-12-05T14:31:09Z"
     }
   },
   {
@@ -5947,62 +3951,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "D2WFMZUE",
-      "version": 7000,
-      "itemType": "conferencePaper",
-      "title": "ECCE: Entity-centric Corpus Exploration Using Contextual Implicit Networks",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Julian",
-          "lastName": "Schelb"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Andreas",
-          "lastName": "Spitz"
-        }
-      ],
-      "abstractNote": "",
-      "date": "2022",
-      "proceedingsTitle": "The Web Conference (WWW'22)",
-      "conferenceName": "",
-      "place": "Lyon, France",
-      "publisher": "ACM Digital Library",
-      "volume": "",
-      "pages": "",
-      "series": "",
-      "language": "",
-      "DOI": "doi.org/10.1145/3487553.3524237",
-      "ISBN": "978-1-4503-9130-6",
-      "shortTitle": "",
-      "url": "https://dl.acm.org/doi/10.1145/3487553.3524237",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "Citation Key: schelb_ecce_2022",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:31:09Z",
-      "dateModified": "2023-12-05T16:16:42Z"
     }
   },
   {
@@ -6061,42 +4009,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "37YSMTTH",
-      "version": 7000,
-      "itemType": "thesis",
-      "title": "Automatic table detection and classification in large-scale newspaper archives",
-      "creators": [
-        {
-          "creatorType": "contributor",
-          "firstName": "Arthur",
-          "lastName": "Vernet"
-        }
-      ],
-      "abstractNote": "",
-      "thesisType": "phd",
-      "university": "EPFL",
-      "place": "Lausanne, Switzerland",
-      "date": "2022",
-      "numPages": "",
-      "language": "",
-      "shortTitle": "",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "Citation Key: vernet_automatic_2022",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:31:09Z",
-      "dateModified": "2023-12-05T14:31:09Z"
     }
   },
   {
@@ -6187,68 +4099,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "AGG8AQIJ",
-      "version": 6999,
-      "itemType": "conferencePaper",
-      "title": "The impresso system architecture in a nutshell",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Daniele",
-          "lastName": "Guido"
-        }
-      ],
-      "abstractNote": "The decades-long efforts of libraries and transnational bodies to digitize historical newspapers holdings has yielded large-scale, machine readable collections of digitized newspapers at regional, national and international levels [1,2]. If the value of historical newspapers as sources for research in both academic and non-academic contexts was recognized long before, this “digital turn” has contributed to a new momentum on several fronts, from automatic content processing to exploration interfaces and critical framework for digital newspaper scholarship [3]. Beside the multiplication of individual works, hackathons and evaluation campaigns, several large consortia projects proposing to apply computational methods to digitized newspapers at scale have recently emerged (e.g. Oceanic Exchanges, NewsEye, Living with Machines).",
-      "date": "2020",
-      "proceedingsTitle": "EuropeanaTech insights",
-      "conferenceName": "",
-      "place": "",
-      "publisher": "",
-      "volume": "",
-      "pages": "",
-      "series": "",
-      "language": "",
-      "DOI": "",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "https://pro.europeana.eu/page/issue-16-newspapers#the-impresso-system-architecture-in-a-nutshell",
-      "accessDate": "2021-03-05",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "https://www.semanticscholar.org/paper/The-impresso-system-architecture-in-a-nutshell-Romanello-Ehrmann/28bfc855527a1cb6dcaade90f7aac50772f00667",
-      "tags": [
-        {
-          "tag": "cited"
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/8LIQ94XJ"
-      },
-      "dateAdded": "2023-12-05T14:31:09Z",
-      "dateModified": "2023-12-05T16:37:10Z"
     }
   },
   {
@@ -6340,79 +4190,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "473HYAPF",
-      "version": 7061,
-      "itemType": "book",
-      "title": "Digitized Newspapers - A New Eldorado for Historians? Reflections on tools, methods and epistemology",
-      "creators": [
-        {
-          "creatorType": "editor",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Frédéric",
-          "lastName": "Clavert"
-        }
-      ],
-      "abstractNote": "The application of digital technologies to historical newspapers has changed the research landscape historians were used to. An Eldorado? Despite undeniable advantages, the new digital affordance of historical newspapers also transforms research practices and confronts historians with new challenges. Drawing on a growing community of practices, the impresso project invited scholars experienced with digitised newspaper collections with the aim of encouraging a discussion on heuristics, source criticism and interpretation of digitized newspapers.\n\nThis volume provides a snapshot of current research on the subject and offers three perspectives: how digitisation is transforming access to and exploration of historical newspaper collections; how automatic content processing allows for the creation of new layers of information; and, finally, what analyses this enhanced material opens up.\n\n‘impresso - Media Monitoring of the Past’ is an interdisciplinary research project that applies text mining tools to digitised historical newspapers and integrates the resulting data into historical research workflows by means of a newly developed user interface. The question of how best to adapt text mining tools and their use by humanities researchers is at the heart of the impresso enterprise.",
-      "series": "Studies in Digital History and Hermeneutics",
-      "seriesNumber": "",
-      "volume": "",
-      "numberOfVolumes": "",
-      "edition": "",
-      "place": "Berlin, Germany",
-      "publisher": "De Gruyter Oldenbourg",
-      "date": "2023",
-      "numPages": "439",
-      "language": "",
-      "ISBN": "978-3-11-072921-4",
-      "shortTitle": "",
-      "url": "https://doi.org/10.1515/9783110729214",
-      "accessDate": "2023-12-05",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "Open Access (free)",
-      "extra": "tex.ids= _digitised_2022, bunout_digitized_2022\nDOI: doi:10.1515/9783110729214",
-      "tags": [
-        {
-          "tag": "digital history",
-          "type": 1
-        },
-        {
-          "tag": "digital source criticism",
-          "type": 1
-        },
-        {
-          "tag": "digitized newspapers",
-          "type": 1
-        },
-        {
-          "tag": "history research practices",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {
-        "dc:replaces": [
-          "http://zotero.org/groups/1486708/items/UC6KLBWB",
-          "http://zotero.org/groups/1486708/items/UUXRYBNX"
-        ]
-      },
-      "dateAdded": "2023-12-05T14:31:08Z",
-      "dateModified": "2023-12-09T10:30:46Z"
     }
   },
   {
@@ -6508,88 +4285,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "SGG3E4TM",
-      "version": 7002,
-      "itemType": "conferencePaper",
-      "title": "Extended Overview of CLEF HIPE 2020: Named Entity Processing on Historical Newspapers",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "name": "Flückiger"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "",
-          "lastName": "Clematide"
-        }
-      ],
-      "abstractNote": "This paper presents an extended overview of the first edition of HIPE (Identifying Historical People, Places and other Entities), a pioneering shared task dedicated to the evaluation of named entity processing on historical newspapers in French, German and English. Since its introduction some twenty years ago, named entity (NE) processing has become an essential component of virtually any text mining application and has undergone major changes. Recently, two main trends characterise its developments: the adoption of deep learning architectures and the consideration of textual material originating from historical and cultural heritage collections. While the former opens up new opportunities, the latter introduces new challenges with heterogeneous, historical and noisy inputs. In this context, the objective of HIPE, run as part of the CLEF 2020 conference, is threefold: strengthening the robustness of existing approaches on non-standard inputs, enabling performance comparison of NE processing on historical texts, and, in the long run, fostering efficient semantic indexing of historical documents. Tasks, corpora, and results of 13 participating teams are presented.<br> Compared to the condensed overview [31], this paper includes further details about data generation and statistics, additional information on participating systems, and the presentation of complementary results.",
-      "date": "2020-10-22",
-      "proceedingsTitle": "",
-      "conferenceName": "",
-      "place": "",
-      "publisher": "Zenodo",
-      "volume": "",
-      "pages": "",
-      "series": "",
-      "language": "en",
-      "DOI": "10.5281/ZENODO.4117566",
-      "ISBN": "",
-      "shortTitle": "Extended Overview of CLEF HIPE 2020",
-      "url": "https://zenodo.org/record/4117566",
-      "accessDate": "2023-12-05T16:30:10Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Semantic Scholar",
-      "callNumber": "",
-      "rights": "Creative Commons Attribution 4.0 International, Open Access",
-      "extra": "tex.ids= ehrmann_extended_2020",
-      "tags": [
-        {
-          "tag": "Digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "Digitized newspapers",
-          "type": 1
-        },
-        {
-          "tag": "Entity linking",
-          "type": 1
-        },
-        {
-          "tag": "Historical texts",
-          "type": 1
-        },
-        {
-          "tag": "Information extraction",
-          "type": 1
-        },
-        {
-          "tag": "Named entity recognition and classification",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/Z7IFKNQ7"
-      },
-      "dateAdded": "2023-12-05T14:31:08Z",
-      "dateModified": "2023-12-05T16:30:57Z"
     }
   },
   {
@@ -6664,59 +4359,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "IBDR5WXP",
-      "version": 6998,
-      "itemType": "report",
-      "title": "HIPE 2022 Shared Task Participation Guidelines",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Alex",
-          "lastName": "Fluckiger"
-        }
-      ],
-      "abstractNote": "",
-      "reportNumber": "",
-      "reportType": "Manual",
-      "seriesTitle": "",
-      "place": "",
-      "institution": "",
-      "date": "2020",
-      "pages": "",
-      "language": "",
-      "shortTitle": "",
-      "url": "https://zenodo.org/records/6045662",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "Citation Key: ehrmann_hipe_2020\nDOI: 10.5281/zenodo.3677171",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:31:08Z",
-      "dateModified": "2023-12-05T17:05:40Z"
     }
   },
   {
@@ -6790,62 +4432,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "AVEPXMPI",
-      "version": 6998,
-      "itemType": "book",
-      "title": "CLEF 2020 Working Notes -  HIPE 2020 Workshop - Identifying Historical People, Places and other Entities",
-      "creators": [
-        {
-          "creatorType": "editor",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Alex",
-          "lastName": "Flückiger"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        }
-      ],
-      "abstractNote": "",
-      "series": "",
-      "seriesNumber": "",
-      "volume": "",
-      "numberOfVolumes": "",
-      "edition": "",
-      "place": "",
-      "publisher": "",
-      "date": "2020",
-      "numPages": "",
-      "language": "",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "https://ceur-ws.org/Vol-2696/",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "tex.referencetype: proceedings",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:31:08Z",
-      "dateModified": "2023-12-05T16:28:03Z"
     }
   },
   {
@@ -6938,83 +4524,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "VUHKIN82",
-      "version": 6997,
-      "itemType": "bookSection",
-      "title": "Introduction: la presse illustrée à l'ère des humanités numériques - état des lieux et problématiques de recherche",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Clémence",
-          "lastName": "Andréys"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Claire",
-          "lastName": "Aslangul"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Julien",
-          "lastName": "Auboussier"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Adrien",
-          "lastName": "Barbaresi"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Anne",
-          "lastName": "Deffarges"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Sofiane",
-          "lastName": "Taouchitet"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Bérénice",
-          "lastName": "Zunino"
-        }
-      ],
-      "abstractNote": "",
-      "bookTitle": "La presse et ses images - die presse un ihre bilder. Sources, réseaux, imaginaires, méthodes",
-      "series": "",
-      "seriesNumber": "",
-      "volume": "",
-      "numberOfVolumes": "",
-      "edition": "",
-      "place": "Berlin, Germany",
-      "publisher": "Peter Lang Verlag",
-      "date": "2022",
-      "pages": "",
-      "language": "",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "Citation Key: andreys_introduction_2021",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-12-05T14:31:08Z",
-      "dateModified": "2023-12-05T16:04:38Z"
     }
   },
   {
@@ -7082,67 +4591,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "DQ7K4B2I",
-      "version": 6858,
-      "itemType": "thesis",
-      "title": "Where Did the News Come From? Detection of News Agency Releases in Historical Newspapers",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Lea",
-          "lastName": "Marxen"
-        }
-      ],
-      "abstractNote": "Since their beginnings in the 1830s and 1840s, news agencies have played an important role in the national and international news market, aiming to deliver news as fast and as reliable as possible. While we know that newspapers have been using agency content for a long time to produce their stories, the amount to which the agencies shape our news often remains unclear. Although researchers have already addressed this question, recently by using computational methods to assess the influence of news agencies at present, large-scale studies on the role of news agencies in the past continue to be rare. This thesis aims to bridge this gap by detecting news agencies in a large corpus of Swiss and Luxembourgish newspaper articles (the impresso corpus) for the years 1840-2000 using deep learning methods. For this, we first build and annotate a multilingual dataset with news agency mentions, which we then use to train and evaluate several BERT-based agency detection and classification models. Based on these experiments, we choose two models (for French and German) for the inference on the impresso corpus. Results show that ca. 10% of the articles explicitly reference news agencies, with the greatest share of agency content after 1940, although systematic citation of agencies already started slowly in the 1910s. Differences in the usage of agency content across time, countries and languages as well as between newspapers reveal a complex network of news flows, whose exploration provides many opportunities for future work",
-      "thesisType": "MA thesis",
-      "university": "École Polytechnique Fédérale de Lausanne",
-      "place": "Lausanne",
-      "date": "2023",
-      "numPages": "114",
-      "language": "",
-      "shortTitle": "Where Did the News Come From?",
-      "url": "https://infoscience.epfl.ch/record/305129",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Infoscience",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Digital Humanities",
-          "type": 1
-        },
-        {
-          "tag": "Historical Documents",
-          "type": 1
-        },
-        {
-          "tag": "Information Extraction",
-          "type": 1
-        },
-        {
-          "tag": "Machine Learning",
-          "type": 1
-        },
-        {
-          "tag": "Media History",
-          "type": 1
-        },
-        {
-          "tag": "Natural Language Processing",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-09-25T12:20:55Z",
-      "dateModified": "2023-09-25T12:25:42Z"
     }
   },
   {
@@ -7235,90 +4683,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "6CDT3YCC",
-      "version": 6996,
-      "itemType": "journalArticle",
-      "title": "Computational Approaches to Digitised Historical Newspapers (Dagstuhl Seminar 22292)",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Clemens",
-          "lastName": "Neudecker"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Antoine",
-          "lastName": "Doucet"
-        }
-      ],
-      "abstractNote": "Historical newspapers are mirrors of past societies, keeping track of the small and great history and reflecting the political, moral, and economic environments in which they were produced. Highly valued as primary sources by historians and humanities scholars, newspaper archives have been massively digitised in libraries, resulting in large collections of machine-readable documents and, over the past half-decade, in numerous academic research initiatives on their automatic processing. The Dagstuhl Seminar 22292 \"Computational Approaches to Digitised Historical Newspaper\" gathered researchers and practitioners with backgrounds in natural language processing, computer vision, digital history and digital library involved in computational approaches to historical newspapers with the objectives to share experiences, analyse successes and shortcomings, deepen our understanding of the interplay between computational aspects and digital scholarship, and discuss future challenges. This report documents the program and the outcomes of the seminar.",
-      "publicationTitle": "DROPS-IDN/v2/document/10.4230/DagRep.12.7.112",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "date": "2023",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "language": "en",
-      "DOI": "10.4230/DagRep.12.7.112",
-      "ISSN": "",
-      "shortTitle": "",
-      "url": "https://drops.dagstuhl.de/entities/document/10.4230/DagRep.12.7.112",
-      "accessDate": "2023-12-05T16:48:15Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "drops.dagstuhl.de",
-      "callNumber": "",
-      "rights": "https://creativecommons.org/licenses/by/4.0/legalcode",
-      "extra": "tex.ids= ehrmann_computational_2023\nplace: Dagstuhl, Germany\npublisher: Schloss-Dagstuhl - Leibniz Zentrum für Informatik",
-      "tags": [
-        {
-          "tag": "digital history",
-          "type": 1
-        },
-        {
-          "tag": "digital scholarship",
-          "type": 1
-        },
-        {
-          "tag": "document structure and layout analysis",
-          "type": 1
-        },
-        {
-          "tag": "historical document processing",
-          "type": 1
-        },
-        {
-          "tag": "information extraction",
-          "type": 1
-        },
-        {
-          "tag": "natural language processing",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/2EQLI7CL"
-      },
-      "dateAdded": "2023-07-19T04:27:24Z",
-      "dateModified": "2023-12-05T16:49:27Z"
     }
   },
   {
@@ -7383,26 +4747,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "BEIR2HBF",
-      "version": 6795,
-      "parentItem": "CR58EVYF",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "HAL PDF Full Text",
-      "accessDate": "2023-07-19T03:46:32Z",
-      "url": "https://hal.science/hal-04151808v1/file/Preprint-Text-Reuse-at-Scale.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Düring et al. - 2023 - impresso Text Reuse at Scale.pdf",
-      "md5": "12aee50dede4c0831dca436e33cbe73b",
-      "mtime": 1689738392000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-07-19T03:46:32Z",
-      "dateModified": "2023-07-19T03:46:32Z"
     }
   },
   {
@@ -7451,17 +4795,6 @@
       "id": "4709830/CA6RGDXW",
       "type": "article",
       "title": "working paper or preprint"
-    },
-    "data": {
-      "key": "CA6RGDXW",
-      "version": 6794,
-      "parentItem": "CR58EVYF",
-      "itemType": "note",
-      "note": "<p>working paper or preprint</p>",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-07-19T03:46:29Z",
-      "dateModified": "2023-07-19T03:46:29Z"
     }
   },
   {
@@ -7526,26 +4859,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "SMJQ6S4V",
-      "version": 6796,
-      "parentItem": "BAWRK9PX",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "HAL PDF Full Text",
-      "accessDate": "2023-07-19T03:46:23Z",
-      "url": "https://hal.science/hal-04154431v1/file/interface-paper-preprint.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Düring et al. - 2022 - Transparent Generosity.pdf",
-      "md5": "bda150995c18032153e2a4731e1418d7",
-      "mtime": 1689738383000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-07-19T03:46:23Z",
-      "dateModified": "2023-07-19T03:46:23Z"
     }
   },
   {
@@ -7631,72 +4944,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "BAWRK9PX",
-      "version": 6799,
-      "itemType": "manuscript",
-      "title": "Transparent Generosity. Introducing the impresso interface for the exploration of semantically enriched historical newspapers",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Daniele",
-          "lastName": "Guido"
-        }
-      ],
-      "abstractNote": "Transparent Generosity. Introducing the impresso interface for the exploration of semantically enriched historical newspapers Semantically enriched historical newspapers offer a multitude of opportunities for data-driven analysis. In this paper we introduce the impresso interface which integrates several types of semantic enrichments and data visualisation and thereby supports new exploratory workflows and the critical assessment of largescale digitised source collections. The interface targets historians and integrates search, filtering, comparison, and recommendation based on automatically detected topics, linked named entities, text reuse, n-grams, image similarity, language, and OCR quality. We introduce the theoretical principles which guided interface development and reflect on the user requirements gathering process together with a case-study driven exemplification of novel workflows facilitated by the interface. We conclude with an overview of accompanying educational materials and discuss a user evaluation and usage statistics.",
-      "manuscriptType": "",
-      "place": "",
-      "date": "2022-10",
-      "numPages": "",
-      "language": "",
-      "shortTitle": "",
-      "url": "https://hal.science/hal-04154431",
-      "accessDate": "2023-07-19T03:46:20Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "HAL Archives Ouvertes",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Digital literacy",
-          "type": 1
-        },
-        {
-          "tag": "Historical newspapers",
-          "type": 1
-        },
-        {
-          "tag": "Natural Language Processing",
-          "type": 1
-        },
-        {
-          "tag": "Transparency",
-          "type": 1
-        },
-        {
-          "tag": "Visualisation",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2023-07-19T03:46:20Z",
-      "dateModified": "2023-07-19T04:09:18Z"
     }
   },
   {
@@ -7745,17 +4992,6 @@
       "id": "4709830/YWDLIVV3",
       "type": "article",
       "title": "working paper or preprint"
-    },
-    "data": {
-      "key": "YWDLIVV3",
-      "version": 6793,
-      "parentItem": "BAWRK9PX",
-      "itemType": "note",
-      "note": "<p>working paper or preprint</p>",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2023-07-19T03:46:20Z",
-      "dateModified": "2023-07-19T03:46:20Z"
     }
   },
   {
@@ -7814,28 +5050,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "T6C4ZP7X",
-      "version": 4738,
-      "parentItem": "YZ5L654J",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Submitted Version",
-      "accessDate": "2020-11-12T10:07:07Z",
-      "url": "https://infoscience.epfl.ch/record/280047/files/HIPE_LNCS_CondensedLabOverview_postprint.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2020 - Overview of CLEF HIPE 2020 Named Entity Recogniti.pdf",
-      "md5": null,
-      "mtime": null,
-      "tags": [],
-      "relations": {
-        "owl:sameAs": "http://zotero.org/groups/2473918/items/SWJVB2I6"
-      },
-      "dateAdded": "2021-10-24T09:40:40Z",
-      "dateModified": "2021-10-24T09:40:40Z"
     }
   },
   {
@@ -7908,26 +5122,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "RYAST2RP",
-      "version": 4324,
-      "parentItem": "HN9H64G2",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2021-05-17T06:38:10Z",
-      "url": "https://programminghistorian.org/en/lessons/detecting-text-reuse-with-passim",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "detecting-text-reuse-with-passim.html",
-      "md5": "cf55056909e551bfca3079c2f4a46593",
-      "mtime": 1621233490000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2021-05-17T06:38:10Z",
-      "dateModified": "2021-06-10T14:22:28Z"
     }
   },
   {
@@ -8010,60 +5204,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "HN9H64G2",
-      "version": 6470,
-      "itemType": "journalArticle",
-      "title": "Detecting Text Reuse with Passim",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Hengchen"
-        }
-      ],
-      "abstractNote": "",
-      "publicationTitle": "The Programming Historian",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "date": "2020",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "language": "",
-      "DOI": "10.46430/phen0092",
-      "ISSN": "",
-      "shortTitle": "",
-      "url": "https://doi.org/10.46430/phen0092",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "_Text Reuse"
-        }
-      ],
-      "collections": [
-        "SJCRRE9J",
-        "SPFKFKMN"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/AZSU4MX6"
-      },
-      "dateAdded": "2020-10-06T12:30:34Z",
-      "dateModified": "2023-03-06T14:12:56Z"
     }
   },
   {
@@ -8139,26 +5279,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "7CJGWPKB",
-      "version": 6995,
-      "parentItem": "9K6RPD2K",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann et al. - 2020 - Introducing the CLEF 2020 HIPE Shared Task Named .pdf",
-      "accessDate": "2020-04-14T13:40:53Z",
-      "url": "https://link.springer.com/content/pdf/10.1007%252F978-3-030-45442-5_68.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann et al. - 2020 - Introducing the CLEF 2020 HIPE Shared Task Named .pdf",
-      "md5": "f984f3ad44f192b8558c9ed6ae2b27a4",
-      "mtime": 1586871653000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2020-04-14T13:40:53Z",
-      "dateModified": "2023-12-05T14:58:05Z"
     }
   },
   {
@@ -8289,124 +5409,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "9K6RPD2K",
-      "version": 6246,
-      "itemType": "conferencePaper",
-      "title": "Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Stefan",
-          "lastName": "Bircher"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Joemon M.",
-          "lastName": "Jose"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Emine",
-          "lastName": "Yilmaz"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "João",
-          "lastName": "Magalhães"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Pablo",
-          "lastName": "Castells"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Nicola",
-          "lastName": "Ferro"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Mário J.",
-          "lastName": "Silva"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Flávio",
-          "lastName": "Martins"
-        }
-      ],
-      "abstractNote": "Since its introduction some twenty years ago, named entity (NE) processing has become an essential component of virtually any text mining application and has undergone major changes. Recently, two main trends characterise its developments: the adoption of deep learning architectures and the consideration of textual material originating from historical and cultural heritage collections. While the former opens up new opportunities, the latter introduces new challenges with heterogeneous, historical and noisy inputs. If NE processing tools are increasingly being used in the context of historical documents, performance values are below the ones on contemporary data and are hardly comparable. In this context, this paper introduces the CLEF 2020 Evaluation Lab HIPE (Identifying Historical People, Places and other Entities) on named entity recognition and linking on diachronic historical newspaper material in French, German and English. Our objective is threefold: strengthening the robustness of existing approaches on non-standard inputs, enabling performance comparison of NE processing on historical texts, and, in the long run, fostering efficient semantic indexing of historical documents in order to support scholarship on digital cultural heritage collections.",
-      "date": "2020",
-      "proceedingsTitle": "Advances in Information Retrieval",
-      "conferenceName": "",
-      "place": "Cham",
-      "publisher": "Springer International Publishing",
-      "volume": "",
-      "pages": "524-532",
-      "series": "Lecture Notes in Computer Science",
-      "language": "en",
-      "DOI": "10.1007/978-3-030-45442-5_68",
-      "ISBN": "978-3-030-45442-5",
-      "shortTitle": "Introducing the CLEF 2020 HIPE Shared Task",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Springer Link",
-      "callNumber": "",
-      "rights": "",
-      "extra": "tex.ids: 10.1007/978-3-030-45442-5_68",
-      "tags": [
-        {
-          "tag": "Digital Humanities",
-          "type": 1
-        },
-        {
-          "tag": "Historical newspapers",
-          "type": 1
-        },
-        {
-          "tag": "Information extraction",
-          "type": 1
-        },
-        {
-          "tag": "Named entity processing",
-          "type": 1
-        },
-        {
-          "tag": "Text understanding",
-          "type": 1
-        },
-        {
-          "tag": "_MediaHistory"
-        }
-      ],
-      "collections": [
-        "SPFKFKMN",
-        "47KNELSU"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/GNG6LL7B"
-      },
-      "dateAdded": "2020-04-14T13:40:52Z",
-      "dateModified": "2023-03-06T12:18:16Z"
     }
   },
   {
@@ -8468,26 +5470,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "WLC2H9A5",
-      "version": 3147,
-      "parentItem": "9AULC5I9",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2020-01-27T09:18:13Z",
-      "url": "https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "collections-of-digital-newspapers-as-historical-sources.html",
-      "md5": "82f4d4218ba3b3da719e0feb47946bfe",
-      "mtime": 1580116693000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2020-01-27T09:18:13Z",
-      "dateModified": "2020-01-27T09:18:13Z"
     }
   },
   {
@@ -8549,26 +5531,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "UUI2VLPS",
-      "version": 3091,
-      "parentItem": "5IRH5LMY",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-09-17T14:45:24Z",
-      "url": "https://impresso-project.ch/news/2018/06/11/tradingzone-umbrella.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "tradingzone-umbrella.html",
-      "md5": "76f25e5bce429c27536b62c6f6fcc19e",
-      "mtime": 1568731524000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-09-17T14:45:24Z",
-      "dateModified": "2019-09-17T14:45:24Z"
     }
   },
   {
@@ -8666,64 +5628,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "BDZBZD2L",
-      "version": 7061,
-      "itemType": "conferencePaper",
-      "title": "UZH at CoNLL–SIGMORPHON 2018 Shared Task on Universal Morphological Reinflection",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Peter",
-          "lastName": "Makarov"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Mans",
-          "lastName": "Hulden"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Ryan",
-          "lastName": "Cotterell"
-        }
-      ],
-      "abstractNote": "",
-      "date": "2018-10",
-      "proceedingsTitle": "Proceedings of the CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection",
-      "conferenceName": "CoNLL 2018",
-      "place": "Brussels",
-      "publisher": "Association for Computational Linguistics",
-      "volume": "",
-      "pages": "69–75",
-      "series": "",
-      "language": "",
-      "DOI": "10.18653/v1/K18-3008",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "https://aclanthology.org/K18-3008",
-      "accessDate": "2023-12-05T16:34:16Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "ACLWeb",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/IAD6KTI9"
-      },
-      "dateAdded": "2019-08-27T14:17:20Z",
-      "dateModified": "2023-12-09T10:30:40Z"
     }
   },
   {
@@ -8788,26 +5692,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "YK4XW5TH",
-      "version": 3104,
-      "parentItem": "T8N4T3WJ",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Full Text PDF",
-      "accessDate": "2019-08-27T14:17:05Z",
-      "url": "https://pdfs.semanticscholar.org/2161/b72c977ccdf7f4c5f2d424e095e9e9183129.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Makarov and Clematide - 2018 - Imitation Learning for Neural Morphological String.pdf",
-      "md5": "4bdf6e00b5e04f6d17d98e87344bc209",
-      "mtime": 1566915425000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:17:05Z",
-      "dateModified": "2019-08-27T14:17:05Z"
     }
   },
   {
@@ -8865,23 +5749,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "82722CZX",
-      "version": 2706,
-      "parentItem": "T8N4T3WJ",
-      "itemType": "attachment",
-      "linkMode": "linked_url",
-      "title": "Semantic Scholar Link",
-      "accessDate": "2019-08-27T14:17:03Z",
-      "url": "https://www.semanticscholar.org/paper/Imitation-Learning-for-Neural-Morphological-String-Makarov-Clematide/52bf3cd23f7271b0b1f82a3f1deaf71f3fe69c66",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:17:03Z",
-      "dateModified": "2019-08-27T14:17:03Z"
     }
   },
   {
@@ -8943,26 +5810,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "UQASLUMH",
-      "version": 3089,
-      "parentItem": "8SBZNU2D",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-08-27T14:16:35Z",
-      "url": "https://www.aclweb.org/anthology/C18-1008/",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "C18-1008.html",
-      "md5": "3d4f18777387bd407c946a85278112f2",
-      "mtime": 1566915395000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:16:35Z",
-      "dateModified": "2019-08-27T14:16:35Z"
     }
   },
   {
@@ -9027,26 +5874,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "F62ATBB3",
-      "version": 3029,
-      "parentItem": "8SBZNU2D",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Full Text PDF",
-      "accessDate": "2019-08-27T14:16:33Z",
-      "url": "https://www.aclweb.org/anthology/C18-1008",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Makarov and Clematide - 2018 - Neural Transition-based String Transduction for Li.pdf",
-      "md5": "63ce36cdd8cd52cd15ff3dcdfa8d72f1",
-      "mtime": 1566915393000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:16:33Z",
-      "dateModified": "2019-08-27T14:16:33Z"
     }
   },
   {
@@ -9138,58 +5965,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "NGB38SGY",
-      "version": 3936,
-      "itemType": "journalArticle",
-      "title": "Crowdsourcing the OCR Ground Truth of a German and French Cultural Heritage Corpus",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Lenz",
-          "lastName": "Furrer"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Martin",
-          "lastName": "Volk"
-        }
-      ],
-      "abstractNote": "Crowdsourcing approaches for post-correction of OCR output (Optical Character Recognition) have been successfully applied to several historical text collections. We report on our crowd-correction platform Kokos, which we built to improve the OCR quality of the digitized yearbooks of the Swiss Alpine Club (SAC) from the 19th century. This multilingual heritage corpus consists of Alpine texts mainly written in German and French, all typeset in Antiqua font. Finding and engaging volunteers for correcting large amounts of pages into high quality text requires a carefully designed user interface, an easy-to-use workﬂow, and continuous eﬀorts for keeping the participants motivated. More than 180,000 characters on about 21,000 pages were corrected by volunteers in about 7 months, achieving an OCR ground truth with a systematically evaluated accuracy of 99.7 % on the word level. The crowdsourced OCR ground truth and the corresponding original OCR recognition results from Abbyy FineReader for each page are available as a resource for machine learning and evaluation. Additionally, the scanned images (300 dpi) of all pages are included to enable tests with other OCR software.",
-      "publicationTitle": "Journal for Language Technology and Computational Linguistics (JLCL)",
-      "volume": "33",
-      "issue": "1",
-      "pages": "25 - 47",
-      "date": "2018",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "JLCL",
-      "language": "en",
-      "DOI": "",
-      "ISSN": "0175-1336",
-      "shortTitle": "",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Zotero",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:16:08Z",
-      "dateModified": "2020-07-02T13:36:09Z"
     }
   },
   {
@@ -9254,26 +6029,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "3C2A2FEL",
-      "version": 2901,
-      "parentItem": "NGB38SGY",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Clematide et al. - 2018 - Crowdsourcing the OCR Ground Truth of a German and.pdf",
-      "accessDate": "2019-08-27T14:16:07Z",
-      "url": "https://jlcl.org/content/2-allissues/1-heft1-2018/jlcl_2018-1_2.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Clematide et al. - 2018 - Crowdsourcing the OCR Ground Truth of a German and.pdf",
-      "md5": "8dec34d6fdd06b63aa2dd741b3082172",
-      "mtime": 1566915368000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:16:07Z",
-      "dateModified": "2019-08-27T14:16:08Z"
     }
   },
   {
@@ -9362,66 +6117,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "WQ7IA2HI",
-      "version": 6458,
-      "itemType": "journalArticle",
-      "title": "Supervised OCR Error Detection and Correction Using Statistical and Neural Machine Translation Methods",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Chantal",
-          "lastName": "Amrhein"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        }
-      ],
-      "abstractNote": "For indexing the content of digitized historical texts, optical character recognition (OCR) errors are a hampering problem. To explore the eﬀectivity of new strategies for OCR post-correction, this article focuses on methods of character-based machine translation, speciﬁcally neural machine translation and statistical machine translation. Using the ICDAR 2017 data set on OCR post-correction for English and French, we experiment with diﬀerent strategies for error detection and error correction. We analyze how OCR post-correction with NMT can proﬁt from using additional information and show that SMT and NMT can beneﬁt from each other for these tasks. An ensemble of our models reached best performance in ICDAR’s 2017 error correction subtask and performed competitively in error detection.",
-      "publicationTitle": "Journal for Language Technology and Computational Linguistics (JLCL)",
-      "volume": "33",
-      "issue": "1",
-      "pages": "49 - 76",
-      "date": "2018",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "JLCL",
-      "language": "en",
-      "DOI": "",
-      "ISSN": "0175-1336",
-      "shortTitle": "",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Zotero",
-      "callNumber": "",
-      "rights": "",
-      "extra": "tex.ids= amrhein_supervised_2018\ntex.date-added: 2019-01-21 10:23:05 +0100\ntex.date-modified: 2019-01-21 10:28:49 +0100",
-      "tags": [
-        {
-          "tag": "Machine Learning"
-        },
-        {
-          "tag": "OCR post-correction"
-        },
-        {
-          "tag": "_OCR (Post-)Correction"
-        }
-      ],
-      "collections": [
-        "7FKT8USC",
-        "SPFKFKMN"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/XM7ZFGJ6"
-      },
-      "dateAdded": "2019-08-27T14:15:48Z",
-      "dateModified": "2023-03-06T14:11:35Z"
     }
   },
   {
@@ -9486,26 +6181,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "FVJYKJWN",
-      "version": 3031,
-      "parentItem": "WQ7IA2HI",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Amrhein and Clematide - 2018 - Supervised OCR Error Detection and Correction Usin.pdf",
-      "accessDate": "2019-08-27T14:15:47Z",
-      "url": "https://jlcl.org/content/2-allissues/1-heft1-2018/jlcl_2018-1_3.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Amrhein and Clematide - 2018 - Supervised OCR Error Detection and Correction Usin.pdf",
-      "md5": "c74350c10e6ef0365e2606a327330260",
-      "mtime": 1566915348000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:15:47Z",
-      "dateModified": "2019-08-27T14:15:48Z"
     }
   },
   {
@@ -9599,57 +6274,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "2CU386W4",
-      "version": 7133,
-      "itemType": "conferencePaper",
-      "title": "Historical Newspaper User Interfaces: A Review",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Marten",
-          "lastName": "During"
-        }
-      ],
-      "abstractNote": "After decades of large-scale digitization, many historical newspaper collections are just one click away via online portals developed and supported by various public or private stakeholders. Initially offering access to full text search and facsimiles visualization only, historic newspaper user interfaces are increasingly integrating advanced exploration features based on the application of text mining tools to digitized sources. As gateways to enriched material, such interfaces are however not neutral and play a fundamental role in how users perceive historical sources, understand potential biases of upstream processes and benefit from the opportunities of datafication. What features can be found in current interfaces, and to what degree do interfaces adopt novel technologies? This paper presents a survey of interfaces for digitized historical newspapers with the aim of mapping the current state of the art and identifying recent trends with regard to content presentation, enrichment and user interaction. We devised 6 interface assessment criteria and reviewed twenty-four interfaces based on ca. 140 predefined features.",
-      "date": "02.09.2019",
-      "proceedingsTitle": "",
-      "conferenceName": "IFLA WLIC 2019  - Libraries: dialogue for change",
-      "place": "Athens, Greece",
-      "publisher": "IFLA",
-      "volume": "",
-      "pages": "",
-      "series": "",
-      "language": "en",
-      "DOI": "",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "http://library.ifla.org/2578/",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "Zotero",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T08:19:44Z",
-      "dateModified": "2023-12-14T12:54:19Z"
     }
   },
   {
@@ -9714,26 +6338,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "M633QDCH",
-      "version": 3052,
-      "parentItem": "2CU386W4",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Ehrmann - Historical Newspaper User Interfaces A Review.pdf",
-      "accessDate": "2019-08-27T08:19:42Z",
-      "url": "http://library.ifla.org/2578/1/085-ehrmann-en.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ehrmann - Historical Newspaper User Interfaces A Review.pdf",
-      "md5": "424f7ffe5a8a7e0aff2904d340936779",
-      "mtime": 1566893984000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T08:19:42Z",
-      "dateModified": "2019-08-27T08:19:44Z"
     }
   },
   {
@@ -9795,26 +6399,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "ZBM4GWRZ",
-      "version": 2151,
-      "parentItem": "G4TK26AY",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "From the archival to the digital turn · Ranke.2",
-      "accessDate": "2019-01-09T15:01:44Z",
-      "url": "https://ranke2.uni.lu/u/archival-digital-turn/",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "archival-digital-turn.html",
-      "md5": "cbd950c51770431de5b42e717182522b",
-      "mtime": 1547046104000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T15:01:44Z",
-      "dateModified": "2019-01-09T15:01:44Z"
     }
   },
   {
@@ -9897,53 +6481,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "G4TK26AY",
-      "version": 3912,
-      "itemType": "bookSection",
-      "title": "The digitisation of newspapers: how to turn a page",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "",
-      "bookTitle": "From the archival to the digital turn · Ranke.2",
-      "series": "",
-      "seriesNumber": "",
-      "volume": "",
-      "numberOfVolumes": "",
-      "edition": "",
-      "place": "",
-      "publisher": "",
-      "date": "",
-      "pages": "",
-      "language": "",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "https://ranke2.uni.lu/u/archival-digital-turn/",
-      "accessDate": "2019-01-09T15:01:43Z",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T15:01:43Z",
-      "dateModified": "2020-07-02T13:36:50Z"
     }
   },
   {
@@ -10039,41 +6576,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "W5EB2SZQ",
-      "version": 3912,
-      "itemType": "webpage",
-      "title": "Sunny and promising kick-off meeting",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "On 24-25th of October 2017, the impresso consortium had its first workshop and kick-off meeting, hosted by DHLAB on the beautiful EPFL campus.",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2017-10-28",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2017/10/28/kick-off.html",
-      "accessDate": "2019-01-09T14:54:34Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:54:34Z",
-      "dateModified": "2020-07-02T13:36:50Z"
     }
   },
   {
@@ -10135,26 +6637,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "ACJCP2RL",
-      "version": 2144,
-      "parentItem": "W5EB2SZQ",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:54:34Z",
-      "url": "https://impresso-project.ch/news/2017/10/28/kick-off.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "kick-off.html",
-      "md5": "2391c78df1f2723347656238c3690a61",
-      "mtime": 1547045674000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:54:34Z",
-      "dateModified": "2019-01-09T14:54:34Z"
     }
   },
   {
@@ -10216,26 +6698,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "CDI7ETL3",
-      "version": 2142,
-      "parentItem": "FHKRX2R9",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:54:28Z",
-      "url": "https://impresso-project.ch/news/2018/02/08/buttercup.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "buttercup.html",
-      "md5": "e361ea8e28edc63e7fdd810a7c2cb210",
-      "mtime": 1547045668000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:54:28Z",
-      "dateModified": "2019-01-09T14:54:28Z"
     }
   },
   {
@@ -10331,41 +6793,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "FHKRX2R9",
-      "version": 3912,
-      "itemType": "webpage",
-      "title": "Understanding the historians needs in their use of digitised newspapers",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "On the morning of 8 February, a group of historians using newspapers for their research at the C2DH were invited to attend a second impresso user workshop.",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-02-08",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/02/08/buttercup.html",
-      "accessDate": "2019-01-09T14:54:27Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:54:27Z",
-      "dateModified": "2020-07-02T13:36:51Z"
     }
   },
   {
@@ -10427,26 +6854,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "UVYPANSE",
-      "version": 2140,
-      "parentItem": "B9FDTKJD",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:54:17Z",
-      "url": "https://impresso-project.ch/news/2018/02/24/edelweis.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "edelweis.html",
-      "md5": "66f6d056212e4639ec01b7e135585bfe",
-      "mtime": 1547045657000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:54:17Z",
-      "dateModified": "2019-01-09T14:54:17Z"
     }
   },
   {
@@ -10542,41 +6949,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "B9FDTKJD",
-      "version": 3912,
-      "itemType": "webpage",
-      "title": "Materialising the co-design with a consortium meeting in Basel",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "On 22 and 23 February, the impresso consortium held a workshop at the Swiss Economic Archives in Basel, Switzerland, hosted by Irene Amstutz and Elias Kreyenbühl whom we warmly thank for their welcome.",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-02-24",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/02/24/edelweis.html",
-      "accessDate": "2019-01-09T14:54:16Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:54:16Z",
-      "dateModified": "2020-07-02T13:36:51Z"
     }
   },
   {
@@ -10668,36 +7040,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "BXKL55DV",
-      "version": 3912,
-      "itemType": "webpage",
-      "title": "State of impresso newspaper collection - April 2018",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        }
-      ],
-      "abstractNote": "State of impresso newspaper collection - April 2018",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-04-17",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/04/17/state-collection-april18.html",
-      "accessDate": "2019-01-09T14:54:05Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:54:05Z",
-      "dateModified": "2020-07-02T13:36:51Z"
     }
   },
   {
@@ -10759,26 +7101,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "8KDXZ3ZG",
-      "version": 2138,
-      "parentItem": "BXKL55DV",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:54:05Z",
-      "url": "https://impresso-project.ch/news/2018/04/17/state-collection-april18.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "state-collection-april18.html",
-      "md5": "acfadd4fc7bf37b5ea786570887fecaa",
-      "mtime": 1547045645000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:54:05Z",
-      "dateModified": "2019-01-09T14:54:05Z"
     }
   },
   {
@@ -10851,26 +7173,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "9WM4W43G",
-      "version": 4147,
-      "parentItem": "5IRH5LMY",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:53:58Z",
-      "url": "https://impresso-project.ch/news/2018/06/11/tradingzone-umbrella.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "tradingzone-umbrella.html",
-      "md5": "30d3a5eddd12a31e11f706ce33733f94",
-      "mtime": 1547045638000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:58Z",
-      "dateModified": "2021-03-20T19:33:48Z"
     }
   },
   {
@@ -10963,39 +7265,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "5IRH5LMY",
-      "version": 4635,
-      "itemType": "webpage",
-      "title": "Trading zone between NLP and History - a post series",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        }
-      ],
-      "abstractNote": "Stepping in the NLP / History trading zone: a series of posts",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-06-11",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/06/11/tradingzone-umbrella.html",
-      "accessDate": "2019-09-17T14:45:23Z",
-      "language": "en",
-      "rights": "",
-      "extra": "tex.ids= ehrmann_trading_2018a",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN",
-        "W2I7T8TG"
-      ],
-      "relations": {
-        "dc:replaces": "http://zotero.org/groups/1486708/items/FIFCYUJL"
-      },
-      "dateAdded": "2019-01-09T14:53:57Z",
-      "dateModified": "2021-03-20T19:33:48Z"
     }
   },
   {
@@ -11057,26 +7326,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "9F9K6RPX",
-      "version": 2134,
-      "parentItem": "HF4NW6RF",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:53:49Z",
-      "url": "https://impresso-project.ch/news/2018/06/12/tradingzone-ner.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "tradingzone-ner.html",
-      "md5": "b1a7ba3f6addffe9e5460c3bf10ef22d",
-      "mtime": 1547045629000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:49Z",
-      "dateModified": "2019-01-09T14:53:49Z"
     }
   },
   {
@@ -11168,36 +7417,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "HF4NW6RF",
-      "version": 3913,
-      "itemType": "webpage",
-      "title": "Named entity processing in a nutshell",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        }
-      ],
-      "abstractNote": "Trading zone part 1: Named Entity Processing. This blog post is part of Stepping in the NLP / History trading zone: a series of posts.",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-06-12",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/06/12/tradingzone-ner.html",
-      "accessDate": "2019-01-09T14:53:48Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:48Z",
-      "dateModified": "2020-07-02T13:36:51Z"
     }
   },
   {
@@ -11289,36 +7508,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "V8U89HP8",
-      "version": 3913,
-      "itemType": "webpage",
-      "title": "Text re-use detection in a nutshell",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        }
-      ],
-      "abstractNote": "Trading zone part 3: Text Re-use Detection. This blog post is the last part of Stepping in the NLP / History trading zone: a series of posts.",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-06-12",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/06/12/tradingzone-tr.html",
-      "accessDate": "2019-01-09T14:53:39Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:39Z",
-      "dateModified": "2020-07-02T13:36:51Z"
     }
   },
   {
@@ -11380,26 +7569,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "UQ4HJMVT",
-      "version": 2132,
-      "parentItem": "V8U89HP8",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:53:39Z",
-      "url": "https://impresso-project.ch/news/2018/06/12/tradingzone-tr.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "tradingzone-tr.html",
-      "md5": "3a3a781202fe99c1ffc030d368f2db39",
-      "mtime": 1547045619000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:39Z",
-      "dateModified": "2019-01-09T14:53:39Z"
     }
   },
   {
@@ -11461,26 +7630,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "EREXI2JY",
-      "version": 2130,
-      "parentItem": "MKHSX98A",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:53:32Z",
-      "url": "https://impresso-project.ch/news/2018/07/06/laurel.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "laurel.html",
-      "md5": "3d579ba9854b984e0648b6d5b021021a",
-      "mtime": 1547045612000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:32Z",
-      "dateModified": "2019-01-09T14:53:32Z"
     }
   },
   {
@@ -11572,36 +7721,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "MKHSX98A",
-      "version": 3912,
-      "itemType": "webpage",
-      "title": "Moving beyond digital filters. How to integrate the digitised press into the historian’s workflow",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "impresso Laurel workshop, École polytechnique fédérale de Lausanne (EPFL)",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-07-06",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/07/06/laurel.html",
-      "accessDate": "2019-01-09T14:53:31Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:31Z",
-      "dateModified": "2020-07-02T13:36:52Z"
     }
   },
   {
@@ -11663,26 +7782,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "W3XCNEWB",
-      "version": 2128,
-      "parentItem": "NSDPY79L",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:53:21Z",
-      "url": "https://impresso-project.ch/news/2018/07/11/lavender.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "lavender.html",
-      "md5": "463c6fa17d490d2b5f697e590315064d",
-      "mtime": 1547045601000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:21Z",
-      "dateModified": "2019-01-09T14:53:21Z"
     }
   },
   {
@@ -11778,41 +7877,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "NSDPY79L",
-      "version": 3912,
-      "itemType": "webpage",
-      "title": "A second round of co-design session in Belval. Designers and historians discussing the first interface prototype",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Julien",
-          "lastName": "Nguyen Dang"
-        }
-      ],
-      "abstractNote": "impresso Lavender workshop, Université du Luxembourg (Campus de Belval)",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-07-11",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/07/11/lavender.html",
-      "accessDate": "2019-01-09T14:53:20Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:20Z",
-      "dateModified": "2020-07-02T13:36:52Z"
     }
   },
   {
@@ -11874,26 +7938,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "FEAGVWUH",
-      "version": 2127,
-      "parentItem": "S7BBQTA8",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-01-09T14:53:04Z",
-      "url": "https://impresso-project.ch/news/2018/09/07/tradingzone-tm.html",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "tradingzone-tm.html",
-      "md5": "1728449f83b92a77913885a10946a539",
-      "mtime": 1547045584000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:04Z",
-      "dateModified": "2019-01-09T14:53:04Z"
     }
   },
   {
@@ -11989,42 +8033,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "S7BBQTA8",
-      "version": 4669,
-      "itemType": "webpage",
-      "title": "About Topic Modeling on historical newspapers ...",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Phillip",
-          "lastName": "Ströbel"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        }
-      ],
-      "abstractNote": "Trading zone part 4: Topic modeling. This blog post is the last part of Stepping in the NLP / History trading zone: a series of posts.",
-      "websiteTitle": "impresso",
-      "websiteType": "Blogpost",
-      "date": "2018-09-07",
-      "shortTitle": "",
-      "url": "https://impresso-project.ch/news/2018/09/07/tradingzone-tm.html",
-      "accessDate": "2019-01-09T14:53:03Z",
-      "language": "en",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "SPFKFKMN",
-        "W2I7T8TG"
-      ],
-      "relations": {},
-      "dateAdded": "2019-01-09T14:53:02Z",
-      "dateModified": "2020-07-02T13:36:52Z"
     }
   }
 ]
