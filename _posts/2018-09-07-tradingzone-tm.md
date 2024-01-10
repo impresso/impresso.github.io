@@ -3,13 +3,16 @@ layout: post
 status: published
 title: About Topic Modeling on historical newspapers ...
 lang: en
-date:   2018-09-07
+date: 2018-09-07
+tags:
+  - NLP
 categories: news
 authors:
   - phillip-stroebel
 figure:
   - src: posts/lda-geometric-interpretation.png
 ---
+
 Trading zone part 4: Topic modeling. This blog post is the last part of [Stepping in the NLP / History trading zone: a series of posts](/news/2018/06/11/tradingzone-umbrella.html).
 
 <!-- more -->
