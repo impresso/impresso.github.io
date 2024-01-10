@@ -56,7 +56,8 @@ const get_zotero_collection_items = async (
     start: 0,
     limit: 25,
     sort: 'dateAdded',
-    include: 'data,csljson',
+    include: 'csljson',
+    v: 3,
     ...opts,
   }
 
