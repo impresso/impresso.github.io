@@ -7,7 +7,9 @@ layout: default
 <style>
   .Page__contents h2{
     margin-top: 1rem;
+    padding-top: 1rem;
     margin-bottom: 0.5rem;
+    position: relative;
   }
   .Page__contents h3 {
     margin-top: 1rem;
@@ -24,6 +26,15 @@ layout: default
     margin-bottom: 0;
   }
 
+  .Page__contents h2::before {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--bs-dark);
+    content: "";
+  }
 
   @media (min-width: 992px) {
     .Page__contents section:first-of-type > p:first-of-type {
@@ -51,14 +62,16 @@ layout: default
   @media (min-width: 1200px ) {
     .Page__contents h2 {
       margin-top: 3rem;
+      padding-top:3rem;
       margin-bottom: 1rem;
     }
     .Page__contents h3 {
-      margin-top: 2.5rem;
+      margin-top: 3rem;
       margin-bottom: 1rem;
     }
     figure{
       margin: 1rem -1rem 0.5rem !important;
+      max-width: 50%;
     }
     figcaption p {
       margin: 1rem;
@@ -72,6 +85,9 @@ layout: default
     border-top-right-radius: 4.5px;
     border-top-left-radius: 4.5px;
     border: 1px solid var(--bs-dark);
+  }
+  figcaption a{
+    color: inherit;
   }
 </style>
 <main class="Page container-fluid g-0 d-flex flex-column">
