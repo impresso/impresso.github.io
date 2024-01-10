@@ -2,43 +2,34 @@
 layout: page
 ---
 
-{{ content }}
-{% assign thumbnail_classnames = "col-md-4 col-lg-3 col-xl-2 col-6 my-5" %}
+{{ content }} {% assign thumbnail_classnames = "col-md-4 col-lg-3 col-xl-2 col-6
+my-5" %}
 <div class="container-fluid g-0">
-  
   <div class="row g-0">
-    {% include separator.html label="team" classname="col-12" %}
-  
-    {% assign contact_points = site.people | where: "group", "contact-point" %}
-    {% for person in contact_points %}
-    {% include person.thumbnail.html classname=thumbnail_classnames %} 
-    {% endfor %}
+    {% include separator.html label="Principal Investigators" classname="col-12"
+    %} {% assign contact_points = site.people | where: "group", "contact-point"
+    | sort: "ordering" %} {% for person in contact_points %} {% include
+    person.thumbnail.html classname=thumbnail_classnames %} {% endfor %}
 
-    {% assign collaborators = site.people | where: "group", "collaborator" %}
-  
-    {% for person in collaborators %}
-    {% include person.thumbnail.html classname=thumbnail_classnames %} 
-    {% endfor %}
-    
-  </div>
-  <div class="row g-0">
+    <div class="row g-0">
+      {% include separator.html label="team" classname="col-12" %} {% assign
+      collaborators = site.people | where: "group", "collaborator" %} {% for
+      person in collaborators %} {% include person.thumbnail.html
+      classname=thumbnail_classnames %} {% endfor %}
+    </div>
+    <div class="row g-0">
+      {% include separator.html label="advisors" classname="col-12" %} {% assign
+      advisors = site.people | where: "group", "advisor" %} {% for person in
+      advisors %} {% include person.thumbnail.html
+      classname=thumbnail_classnames %} {% endfor %}
+    </div>
 
-    {% include separator.html label="advisors"  classname="col-12" %}
-    {% assign advisors = site.people | where: "group", "advisor" %}
-  
-    {% for person in advisors %}
-    {% include person.thumbnail.html classname=thumbnail_classnames %} 
-    {% endfor %}
-    
-  </div>
-
-  <div class="row g-0">
-    {% include separator.html label="former collaborators"  classname="col-12" %}
-    {% assign former_collaborators = site.people | where: "group", "former-collaborator" %}
-  
-    {% for person in former_collaborators %}
-    {% include person.thumbnail.html classname=thumbnail_classnames %} 
-    {% endfor %}
-    
+    <div class="row g-0">
+      {% include separator.html label="former collaborators" classname="col-12"
+      %} {% assign former_collaborators = site.people | where: "group",
+      "former-collaborator" %} {% for person in former_collaborators %} {%
+      include person.thumbnail.html classname=thumbnail_classnames %} {% endfor
+      %}
+    </div>
   </div>
 </div>
