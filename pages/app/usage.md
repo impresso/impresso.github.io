@@ -4,14 +4,11 @@ parentUrl: /app/
 title: "Usage and Tutorials"
 ---
 
-_The app was designed taking special account of the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions._
+The app was designed taking special account of the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions. We therefore compiled a range of didactic materials which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface.
 
-_We therefore compiled a range of didactic materials which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface._
-
-## About Digitised Newspapers in General
+## About digitised newspapers in general
 
 ### RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age
-
 
 A lesson prepared for academic teachers (and those willing to self-teach) on on how digitised newspapers change the way historians use newspapers as historical sources, and on how to perform source criticism in the digital age. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
 
@@ -33,7 +30,7 @@ A lesson prepared for academic teachers (and those willing to self-teach) on on 
 </a> -->
 
 
-### PARTHENOS MODULE - Collections of Digitised Newspapers as Historical Sources
+### PARTHENOS MODULE - Collections of digitised newspapers as historical sources
 
 A training module for scholars which provides background knowledge on newspaper digitisation technologies, with a special focus on their impact on both digital sources and the practice of historical research.
 
@@ -53,10 +50,10 @@ A training module for scholars which provides background knowledge on newspaper 
     </figure>
 
 
-## About the _impresso_ App
+## About the _impresso_ app
 
 
-### _impresso_ challenges - How to Become an _impresso_ Power User
+### _impresso_ challenges - How to become an _impresso_ power user
 
 Based on concrete examples, the _impresso_ challenges offer a step-by-step and hands-on guidance through the application. The first challenge introduces the interface features, to make the most of the search tools offered by the application: how to read the frequency lines, how to use topics and named entities as filters, and how to explore the _impresso_ corpus. The second challenge introduces some digital source criticism elements to help you understand the limits inherent to such a digital corpus and its automatically extracted information. Finally, the third challenge proposes to explore the _impresso_ corpus with a more abstract perspective, to illustrate the operationalisation of research questions via the interface features.
 
@@ -79,7 +76,7 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
 [Download PDF](https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf)
 
 
-### _impresso_ Interface Walkthroughs
+### _impresso_ interface walkthroughs
 
 _impresso_ project overview and app presentation made at the Digital Humanities 2020 conference.
 
@@ -87,14 +84,14 @@ _impresso_ project overview and app presentation made at the Digital Humanities 
 <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/mfiSBcl2EA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Impresso app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
+_impresso_  app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
 
 <div style="position:relative;padding-bottom:56.25%;">
 <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
  
 
-### Frequently Asked Questions
+### Frequently asked questions
 
 FAQs are accessible via the info buttons distributed across the interface, and on the [FAQ page](https://impresso-project.ch/app/faq). They provide short explanations about text processing, of the interface features and the underlying processes, as well as the terms of use explanations on the copyright status of the _impresso_ materials (images, OCR text, semantic annotations).
 
@@ -113,7 +110,7 @@ FAQs are accessible via the info buttons distributed across the interface, and o
     </figure>
 
 
-## Diving Deeper into Natural Language Processing
+## Diving deeper into Natural Language Processing
 
 <!-- more -->
 
