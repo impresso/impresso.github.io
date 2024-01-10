@@ -38,6 +38,8 @@ languages:
         links:
           - title: 'Publications'
             url: /outputs/
+          - title: 'Code overview'
+            url: /outputs/code-overview/
           - title: 'Presentations'
             url: /outputs/presentations/
           - title: 'Datasets'
