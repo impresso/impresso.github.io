@@ -227,9 +227,13 @@ site.data.navigation.languages.en %}
 
       hr {
         display: block;
+        border: none;
         width: 100%;
         height: 2px;
         background-color: var(--bs-dark);
+      }
+      .h-1px {
+        height: 1px !important;
       }
       /* MD breakpoint*/
       @media (max-width: 768px) {
@@ -413,7 +417,7 @@ site.data.navigation.languages.en %}
           --bs-dark-transparent: #edf1d099;
           --bs-text-color: #edf1d0;
           --bs-body-color: #edf1d0;
-          --bs-dark-rgb: 250, 250, 250;
+          --bs-dark-rgb: 237, 241, 208;
           --bs-light-rgb: 33, 37, 41;
           --bs-primary: #ffe587;
           --bs-link-color: #edf1d0;
@@ -425,6 +429,12 @@ site.data.navigation.languages.en %}
         .nav {
           --bs-nav-link-color: #edf1d0;
           --bs-nav-link-hover-color: var(--bs-primary);
+        }
+        .nav-pills{
+          --bs-nav-pills-link-active-color: var(--bs-light);
+        }
+        .nav-pills .nav-link.active {
+          border: 2px solid var(--bs-light);
         }
         .border-dark {
           --bs-border-opacity: 0.5;
