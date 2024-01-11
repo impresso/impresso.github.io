@@ -60,37 +60,6 @@
         ],
         "season": "24.11"
       }
-    },
-    "data": {
-      "key": "9ITBAK5X",
-      "version": 6971,
-      "itemType": "presentation",
-      "title": "impresso Text Reuse at Scale. A Prototype Interface for the Exploration of Text Reuse Data in Semantically Enriched Historical Newspapers",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "23-24.11.2023",
-      "place": "Helsinki",
-      "meetingName": "Quantitative analysis of text reuse. Towards a methodology",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2023-10-19T15:48:33Z",
-      "dateModified": "2023-10-19T15:50:49Z"
     }
   },
   {
@@ -156,37 +125,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "5YDZLYXM",
-      "version": 6965,
-      "itemType": "presentation",
-      "title": "Impresso Text Reuse at Scale",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Seminar session",
-      "date": "15.11.2023",
-      "place": "Marburg",
-      "meetingName": "Seminar \"Netzwerkforschung in den Geistes- und Kulturwissenschaften – Theorien, Konzepte und Anwendungen\"",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2023-10-19T15:45:45Z",
-      "dateModified": "2023-10-19T15:48:29Z"
     }
   },
   {
@@ -252,37 +190,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "4ANTZTIK",
-      "version": 6958,
-      "itemType": "presentation",
-      "title": "Historische Medien und Maschinelles Lernen. Vom Zusammenspiel von Infrastrukturen, Methoden und Akteuren Université du Luxembourg",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Lecture",
-      "date": "15.11.2023",
-      "place": "Marburg",
-      "meetingName": "Lecture series \"Vernetzte Kulturen\"",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2023-10-19T15:43:38Z",
-      "dateModified": "2023-10-19T15:45:39Z"
     }
   },
   {
@@ -348,37 +255,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "9EY84D7F",
-      "version": 6951,
-      "itemType": "presentation",
-      "title": "impresso - Media Monitoring of the Past I+II Beyond Borders: Connecting Historical Newspapers and Radio",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "Lecture",
-      "presentationType": "",
-      "date": "12.10.2023",
-      "place": "Berlin / online",
-      "meetingName": "Workshop – Modelling Knowledge and Evolution of Science",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2023-10-19T15:41:09Z",
-      "dateModified": "2023-10-19T15:43:12Z"
     }
   },
   {
@@ -444,37 +320,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "4RQ4D5Z9",
-      "version": 6952,
-      "itemType": "presentation",
-      "title": "Impresso. Media Monitoring of the Past",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "Lecture",
-      "presentationType": "",
-      "date": "16.11.2023",
-      "place": "Luxembourg",
-      "meetingName": "Workshop on “AI in the Archives”",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2023-10-19T15:39:41Z",
-      "dateModified": "2023-10-19T15:43:23Z"
     }
   },
   {
@@ -540,37 +385,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "5FBD675E",
-      "version": 6953,
-      "itemType": "presentation",
-      "title": "The Impresso project: overview and demo",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Workshop",
-      "date": "18.10.2023",
-      "place": "Lund",
-      "meetingName": "EUROPAST: Researchers & Managers Lab",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2023-10-19T15:37:51Z",
-      "dateModified": "2023-10-19T15:43:30Z"
     }
   },
   {
@@ -641,42 +455,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "7R5DKMFA",
-      "version": 6933,
-      "itemType": "presentation",
-      "title": "Impresso - Media Monitoring of the Past",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Keynote Lecture",
-      "date": "4.9.2023",
-      "place": "Brussels",
-      "meetingName": "Belgian print media in the age of digitization. Current challenges of research into the history of media and journalism in Belgium",
-      "url": "https://lapij.ulb.ac.be/un-colloque-consacre-a-la-presse-imprimee-et-la-numerisation-a-lulb/",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2023-10-19T15:34:40Z",
-      "dateModified": "2023-10-19T15:37:33Z"
     }
   },
   {
@@ -761,47 +539,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "G8YIYG6S",
-      "version": 3949,
-      "itemType": "presentation",
-      "title": "Shared Task on Named Entity Recognition and Linking on Historical Newspapers",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "9.9.2019",
-      "place": "Lugano",
-      "meetingName": "CLEF",
-      "url": "http://clef2019.clef-initiative.eu/",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2020-01-27T09:42:48Z",
-      "dateModified": "2020-07-02T13:35:11Z"
     }
   },
   {
@@ -877,118 +614,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "KYYQ5G32",
-      "version": 3949,
-      "itemType": "presentation",
-      "title": "Historical Newspaper User Interfaces: A Review",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "24.08.2019",
-      "place": "Athens, Greece",
-      "meetingName": "World Library and Information Congress",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2020-01-27T09:41:20Z",
-      "dateModified": "2020-07-02T13:35:11Z"
-    }
-  },
-  {
-    "key": "DS29E7UY",
-    "version": 3170,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/DS29E7UY",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/DS29E7UY",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/AHM25RMZ",
-        "type": "application/json"
-      },
-      "enclosure": {
-        "type": "text/html",
-        "href": "https://api.zotero.org/groups/1486708/items/DS29E7UY/file/view"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 586650,
-        "username": "bunoute",
-        "name": "Estelle Bunout",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/bunoute",
-            "type": "text/html"
-          }
-        }
-      }
-    },
-    "csljson": {
-      "id": "4709830/DS29E7UY",
-      "type": "article",
-      "title": "Snapshot",
-      "URL": "https://www.c2dh.uni.lu/events/grasping-anti-modern-how-identify-anti-modern-discourses-europe-digitized-newspaper",
-      "accessed": {
-        "date-parts": [
-          [
-            2020,
-            1,
-            27
-          ]
-        ]
-      }
-    },
-    "data": {
-      "key": "DS29E7UY",
-      "version": 3170,
-      "parentItem": "AHM25RMZ",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2020-01-27T09:35:02Z",
-      "url": "https://www.c2dh.uni.lu/events/grasping-anti-modern-how-identify-anti-modern-discourses-europe-digitized-newspaper",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "grasping-anti-modern-how-identify-anti-modern-discourses-europe-digitized-newspaper.html",
-      "md5": "0bc85d93378862277cf2529810e38d90",
-      "mtime": 1580117702000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2020-01-27T09:35:02Z",
-      "dateModified": "2020-01-27T09:35:02Z"
     }
   },
   {
@@ -1079,170 +704,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "AHM25RMZ",
-      "version": 3949,
-      "itemType": "presentation",
-      "title": "Grasping the anti-modern: how to identify anti-modern discourses on Europe in a digitized newspaper collection (using a naïve bayes classifier and topic modelling)",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "C2DH Research Seminar",
-      "date": "2019-10-23",
-      "place": "",
-      "meetingName": "",
-      "url": "https://www.c2dh.uni.lu/events/grasping-anti-modern-how-identify-anti-modern-discourses-europe-digitized-newspaper",
-      "accessDate": "2020-01-27T09:35:01Z",
-      "language": "en",
-      "shortTitle": "Grasping the anti-modern",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2020-01-27T09:35:01Z",
-      "dateModified": "2020-07-02T13:35:12Z"
-    }
-  },
-  {
-    "key": "6CG7TE39",
-    "version": 4736,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/6CG7TE39",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/6CG7TE39",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/2AZ5KLJV",
-        "type": "application/json"
-      },
-      "enclosure": {
-        "type": "application/pdf",
-        "href": "https://api.zotero.org/groups/1486708/items/6CG7TE39/file/view",
-        "title": "Ridge et al. - 2019 - The Past, Present and Future of Digital Scholarshi.pdf",
-        "length": 94629
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
-        "name": "",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "csljson": {
-      "id": "4709830/6CG7TE39",
-      "type": "article",
-      "title": "Ridge et al. - 2019 - The Past, Present and Future of Digital Scholarshi.pdf"
-    },
-    "data": {
-      "key": "6CG7TE39",
-      "version": 4736,
-      "parentItem": "2AZ5KLJV",
-      "itemType": "attachment",
-      "linkMode": "imported_file",
-      "title": "Ridge et al. - 2019 - The Past, Present and Future of Digital Scholarshi.pdf",
-      "accessDate": "",
-      "url": "",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Ridge et al. - 2019 - The Past, Present and Future of Digital Scholarshi.pdf",
-      "md5": "cbc52c33256d3f720953f96daf626779",
-      "mtime": 1571668900000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-10-21T14:41:40Z",
-      "dateModified": "2021-10-24T09:49:09Z"
-    }
-  },
-  {
-    "key": "ACWYWRM8",
-    "version": 4736,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/ACWYWRM8",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/ACWYWRM8",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/2AZ5KLJV",
-        "type": "application/json"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
-        "name": "",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "csljson": {
-      "id": "4709830/ACWYWRM8",
-      "type": "article",
-      "title": "Multi-paper panel presented at the 2019 Digital Humanities Conference, Utrecht,"
-    },
-    "data": {
-      "key": "ACWYWRM8",
-      "version": 4736,
-      "parentItem": "2AZ5KLJV",
-      "itemType": "note",
-      "note": "<p>Multi-paper panel presented at the 2019 Digital Humanities Conference, Utrecht, July 2019</p>",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-10-21T14:40:55Z",
-      "dateModified": "2021-10-24T09:49:09Z"
     }
   },
   {
@@ -1336,101 +797,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "2AZ5KLJV",
-      "version": 4685,
-      "itemType": "conferencePaper",
-      "title": "The past, present and future of digital scholarship with newspaper collections",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Mia",
-          "lastName": "Ridge"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Giovanni",
-          "lastName": "Colavizza"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Laurel",
-          "lastName": "Brake"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Jean-Phillipe",
-          "lastName": "Moreux"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Andrew",
-          "lastName": "Prescott"
-        }
-      ],
-      "abstractNote": "",
-      "date": "2019",
-      "proceedingsTitle": "DH 2019 book of abstracts",
-      "conferenceName": "Digital Humanities Conference",
-      "place": "Utrecht, The Netherlands",
-      "publisher": "",
-      "volume": "",
-      "pages": "1-9",
-      "series": "",
-      "language": "English",
-      "DOI": "",
-      "ISBN": "",
-      "shortTitle": "",
-      "url": "http://infoscience.epfl.ch/record/271329",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "tex.ids= ridge_present_2019",
-      "tags": [
-        {
-          "tag": "cited"
-        },
-        {
-          "tag": "data sciences",
-          "type": 1
-        },
-        {
-          "tag": "digital history",
-          "type": 1
-        },
-        {
-          "tag": "digital humanities",
-          "type": 1
-        },
-        {
-          "tag": "digital scholarship",
-          "type": 1
-        },
-        {
-          "tag": "historical newspapers",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "VKIS8ENW",
-        "8PHTET8E",
-        "FIJRVW9P"
-      ],
-      "relations": {
-        "owl:sameAs": "http://zotero.org/groups/2473918/items/4HSTI62H",
-        "dc:replaces": "http://zotero.org/groups/1486708/items/LG3HBSLI"
-      },
-      "dateAdded": "2019-10-21T14:40:55Z",
-      "dateModified": "2021-10-24T09:49:09Z"
     }
   },
   {
@@ -1511,42 +877,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "4V2UZAYP",
-      "version": 3934,
-      "itemType": "presentation",
-      "title": "Historical Media Monitoring with impresso",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Phillip",
-          "lastName": "Ströbel"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Demo",
-      "date": "19.06.2019",
-      "place": "Winterthur",
-      "meetingName": "Swiss Text Analytics Conference",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:12:52Z",
-      "dateModified": "2020-07-02T13:36:03Z"
     }
   },
   {
@@ -1636,123 +966,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "LS8IDMPU",
-      "version": 3934,
-      "itemType": "presentation",
-      "title": "Complexities in the Use, Analysis, and Representation of Historical Digital Periodicals",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "During"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "12.07.2019",
-      "place": "Utrecht",
-      "meetingName": "Digital Humanities 2019 : Complexities",
-      "url": "https://www.conftool.pro/dh2019/index.php?page=brows%20eSessions&path=adminSessions&print=export&ismobile=%20false&form_session=527&presentations=show",
-      "accessDate": "2019-08-27T15:01:12Z",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:08:42Z",
-      "dateModified": "2020-07-02T13:36:03Z"
-    }
-  },
-  {
-    "key": "QI37J9NT",
-    "version": 3072,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/QI37J9NT",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/QI37J9NT",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/QD3F9FB5",
-        "type": "application/json"
-      },
-      "enclosure": {
-        "type": "text/html",
-        "href": "https://api.zotero.org/groups/1486708/items/QI37J9NT/file/view"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 586650,
-        "username": "bunoute",
-        "name": "Estelle Bunout",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/bunoute",
-            "type": "text/html"
-          }
-        }
-      }
-    },
-    "csljson": {
-      "id": "4709830/QI37J9NT",
-      "type": "article",
-      "title": "TOE 2019 - ConfTool Pro - BrowseSessions",
-      "URL": "https://www.conftool.org/toe2019/index.php?page=browseSessions&form_session=8#paperID155",
-      "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
-      }
-    },
-    "data": {
-      "key": "QI37J9NT",
-      "version": 3072,
-      "parentItem": "QD3F9FB5",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "TOE 2019 - ConfTool Pro - BrowseSessions",
-      "accessDate": "2019-08-27T15:02:39Z",
-      "url": "https://www.conftool.org/toe2019/index.php?page=browseSessions&form_session=8#paperID155",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "index.html",
-      "md5": "396ed16eef882f09fd1c10078a13e8de",
-      "mtime": 1566918159000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:02:39Z",
-      "dateModified": "2019-08-27T15:02:39Z"
     }
   },
   {
@@ -1836,112 +1049,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "QD3F9FB5",
-      "version": 3934,
-      "itemType": "presentation",
-      "title": "Can the digitised newspapers enable the reconstruction of the European debates in Switzerland and Luxembourg, from 1918-1945?",
-      "creators": [],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "27.06.2019",
-      "place": "Belval",
-      "meetingName": "Tensions of Europe Conference: Decoding Europe  Technological Pasts in the Digital Age",
-      "url": "https://www.conftool.org/toe2019/index.php?page=browseSessions&form_session=8#paperID155",
-      "accessDate": "2019-08-27T15:02:38Z",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:02:38Z",
-      "dateModified": "2020-07-02T13:36:04Z"
-    }
-  },
-  {
-    "key": "U6P2K6VA",
-    "version": 3086,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/U6P2K6VA",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/U6P2K6VA",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/853QZ8J5",
-        "type": "application/json"
-      },
-      "enclosure": {
-        "type": "text/html",
-        "href": "https://api.zotero.org/groups/1486708/items/U6P2K6VA/file/view"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 586650,
-        "username": "bunoute",
-        "name": "Estelle Bunout",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/bunoute",
-            "type": "text/html"
-          }
-        }
-      }
-    },
-    "csljson": {
-      "id": "4709830/U6P2K6VA",
-      "type": "article",
-      "title": "Snapshot",
-      "URL": "https://impresso.github.io/named-entity-tutorial-dh2019/",
-      "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
-      }
-    },
-    "data": {
-      "key": "U6P2K6VA",
-      "version": 3086,
-      "parentItem": "853QZ8J5",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Snapshot",
-      "accessDate": "2019-08-27T15:02:00Z",
-      "url": "https://impresso.github.io/named-entity-tutorial-dh2019/",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "named-entity-tutorial-dh2019.html",
-      "md5": "2321076a329bd2ba2d6490622b047b6b",
-      "mtime": 1566918120000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:02:00Z",
-      "dateModified": "2019-08-27T15:02:00Z"
     }
   },
   {
@@ -2029,128 +1136,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "853QZ8J5",
-      "version": 3934,
-      "itemType": "presentation",
-      "title": "Named Entity Processing for Digital Humanities",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Simon",
-          "lastName": "Clematide"
-        }
-      ],
-      "abstractNote": "at Digital Humanities 2019 conference (Utrecht).",
-      "presentationType": "",
-      "date": "",
-      "place": "",
-      "meetingName": "",
-      "url": "https://impresso.github.io/named-entity-tutorial-dh2019/",
-      "accessDate": "2019-08-27T15:01:59Z",
-      "language": "en-US",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:01:59Z",
-      "dateModified": "2020-07-02T13:36:04Z"
-    }
-  },
-  {
-    "key": "5WXIPD78",
-    "version": 2910,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/5WXIPD78",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/5WXIPD78",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/V85LVALF",
-        "type": "application/json"
-      },
-      "enclosure": {
-        "type": "text/html",
-        "href": "https://api.zotero.org/groups/1486708/items/5WXIPD78/file/view"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 586650,
-        "username": "bunoute",
-        "name": "Estelle Bunout",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/bunoute",
-            "type": "text/html"
-          }
-        }
-      }
-    },
-    "csljson": {
-      "id": "4709830/5WXIPD78",
-      "type": "article",
-      "title": "DH2019 - ConfTool Pro - BrowseSessions",
-      "URL": "https://www.conftool.pro/dh2019/index.php?page=brows%20eSessions&path=adminSessions&print=export&ismobile=%20false&form_session=481&presentations=show",
-      "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
-      }
-    },
-    "data": {
-      "key": "5WXIPD78",
-      "version": 2910,
-      "parentItem": "V85LVALF",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "DH2019 - ConfTool Pro - BrowseSessions",
-      "accessDate": "2019-08-27T15:01:13Z",
-      "url": "https://www.conftool.pro/dh2019/index.php?page=brows%20eSessions&path=adminSessions&print=export&ismobile=%20false&form_session=481&presentations=show",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "index.html",
-      "md5": "cb355f500ee4e99b0c142ce58b44ba4e",
-      "mtime": 1566918073000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:01:13Z",
-      "dateModified": "2019-08-27T15:01:13Z"
     }
   },
   {
@@ -2241,118 +1226,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "V85LVALF",
-      "version": 3934,
-      "itemType": "presentation",
-      "title": "Improving OCR of Black Letter in Historical Newspapers: The Unreasonable Effectiveness of HTR Models on Low-Resolution Images",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Phillip",
-          "lastName": "Ströbel"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "12.07.2019",
-      "place": "Utrecht",
-      "meetingName": "Digital Humanities 2019 : Complexities",
-      "url": "https://www.conftool.pro/dh2019/index.php?page=brows%20eSessions&path=adminSessions&print=export&ismobile=%20false&form_session=481&presentations=show",
-      "accessDate": "2019-08-27T15:01:12Z",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:01:12Z",
-      "dateModified": "2020-07-02T13:36:04Z"
-    }
-  },
-  {
-    "key": "CTDNAU22",
-    "version": 3026,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/CTDNAU22",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/CTDNAU22",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/7J4HBMRV",
-        "type": "application/json"
-      },
-      "enclosure": {
-        "type": "text/html",
-        "href": "https://api.zotero.org/groups/1486708/items/CTDNAU22/file/view"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 586650,
-        "username": "bunoute",
-        "name": "Estelle Bunout",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/bunoute",
-            "type": "text/html"
-          }
-        }
-      }
-    },
-    "csljson": {
-      "id": "4709830/CTDNAU22",
-      "type": "article",
-      "title": "DHN 2019 - Copenhagen",
-      "URL": "https://cst.dk/DHN2019/DHN2019.html#invitedspeakers",
-      "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
-      }
-    },
-    "data": {
-      "key": "CTDNAU22",
-      "version": 3026,
-      "parentItem": "7J4HBMRV",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "DHN 2019 - Copenhagen",
-      "accessDate": "2019-08-27T15:00:00Z",
-      "url": "https://cst.dk/DHN2019/DHN2019.html#invitedspeakers",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "DHN2019.html",
-      "md5": "305efdc27dad3be3adc5ddbde4a4a927",
-      "mtime": 1566918000000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T15:00:00Z",
-      "dateModified": "2019-08-27T15:00:00Z"
     }
   },
   {
@@ -2443,37 +1316,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "7J4HBMRV",
-      "version": 3934,
-      "itemType": "presentation",
-      "title": "Beyond Keyword Search - Semantic Indexing and Exploration of Large Collections of Historical Newspapers",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "06.03.2019",
-      "place": "Copenhaguen",
-      "meetingName": "DHN 2019 - Copenhagen",
-      "url": "https://cst.dk/DHN2019/DHN2019.html#invitedspeakers",
-      "accessDate": "2019-08-27T14:59:59Z",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:59:59Z",
-      "dateModified": "2020-07-02T13:36:04Z"
     }
   },
   {
@@ -2565,202 +1407,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "RDELMC2T",
-      "version": 3935,
-      "itemType": "presentation",
-      "title": "Le projet impresso «Media Monitoring of the Past  -  Fouiller\t deux siècles de journaux historiques»",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Maud",
-          "lastName": "Ehrmann"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "20.06.2019",
-      "place": "Nîmes",
-      "meetingName": "Journée d'étude annuelle du projet Numapresse",
-      "url": "http://www.numapresse.org/wp-content/uploads/2019/06/numapresse-20-juin-2019-diffusion-officielle.pdf",
-      "accessDate": "2019-08-27T14:58:14Z",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:58:56Z",
-      "dateModified": "2020-07-02T13:36:05Z"
-    }
-  },
-  {
-    "key": "Q4VYS4HS",
-    "version": 3069,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/Q4VYS4HS",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/Q4VYS4HS",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/RDELMC2T",
-        "type": "application/json"
-      },
-      "enclosure": {
-        "type": "application/pdf",
-        "href": "https://api.zotero.org/groups/1486708/items/Q4VYS4HS/file/view",
-        "title": "numapresse-20-juin-2019-diffusion-officielle.pdf",
-        "length": 77926
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 586650,
-        "username": "bunoute",
-        "name": "Estelle Bunout",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/bunoute",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "csljson": {
-      "id": "4709830/Q4VYS4HS",
-      "type": "article",
-      "title": "numapresse-20-juin-2019-diffusion-officielle.pdf",
-      "URL": "http://www.numapresse.org/wp-content/uploads/2019/06/numapresse-20-juin-2019-diffusion-officielle.pdf",
-      "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
-      }
-    },
-    "data": {
-      "key": "Q4VYS4HS",
-      "version": 3069,
-      "parentItem": "RDELMC2T",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "numapresse-20-juin-2019-diffusion-officielle.pdf",
-      "accessDate": "2019-08-27T14:58:14Z",
-      "url": "http://www.numapresse.org/wp-content/uploads/2019/06/numapresse-20-juin-2019-diffusion-officielle.pdf",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "numapresse-20-juin-2019-diffusion-officielle.pdf",
-      "md5": "2348ddcee0153f84858c11c46ff0cf60",
-      "mtime": 1566917894000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:58:14Z",
-      "dateModified": "2019-08-27T14:58:56Z"
-    }
-  },
-  {
-    "key": "K9FIC953",
-    "version": 3049,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/K9FIC953",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/K9FIC953",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/1486708/items/WL2KPU5N",
-        "type": "application/json"
-      },
-      "enclosure": {
-        "type": "text/html",
-        "href": "https://api.zotero.org/groups/1486708/items/K9FIC953/file/view"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 586650,
-        "username": "bunoute",
-        "name": "Estelle Bunout",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/bunoute",
-            "type": "text/html"
-          }
-        }
-      }
-    },
-    "csljson": {
-      "id": "4709830/K9FIC953",
-      "type": "article",
-      "title": "Stronger Multilateralism through Knowledge Heritage and Culture | 100 Years of Multilateralism in Geneva",
-      "URL": "https://multilateralism100.unog.ch/node/108",
-      "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
-      }
-    },
-    "data": {
-      "key": "K9FIC953",
-      "version": 3049,
-      "parentItem": "WL2KPU5N",
-      "itemType": "attachment",
-      "linkMode": "imported_url",
-      "title": "Stronger Multilateralism through Knowledge Heritage and Culture | 100 Years of Multilateralism in Geneva",
-      "accessDate": "2019-08-27T14:57:01Z",
-      "url": "https://multilateralism100.unog.ch/node/108",
-      "note": "",
-      "contentType": "text/html",
-      "charset": "utf-8",
-      "filename": "108.html",
-      "md5": "0ef2ae4594c0b6dd001d3b4f41e0fb38",
-      "mtime": 1566917821000,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:57:01Z",
-      "dateModified": "2019-08-27T14:57:01Z"
     }
   },
   {
@@ -2842,31 +1488,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "WL2KPU5N",
-      "version": 3935,
-      "itemType": "presentation",
-      "title": "Stronger Multilateralism through Knowledge Heritage and Culture",
-      "creators": [],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "17.06.2019",
-      "place": "",
-      "meetingName": "100 Years of Multilateralism in Geneva",
-      "url": "https://multilateralism100.unog.ch/node/108",
-      "accessDate": "2019-08-27T14:57:00Z",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2019-08-27T14:57:00Z",
-      "dateModified": "2020-07-02T13:36:05Z"
     }
   },
   {
@@ -2930,36 +1551,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "INBFB3AI",
-      "version": 3909,
-      "itemType": "presentation",
-      "title": "Spotlight presentation of impresso project",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "name": "Maud Ehrmann"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "31.10.2018",
-      "place": "",
-      "meetingName": "Time Machine Conference",
-      "url": "",
-      "accessDate": "",
-      "language": "en",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-11-11T12:26:55Z",
-      "dateModified": "2020-07-02T13:36:58Z"
     }
   },
   {
@@ -3036,37 +1627,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "BURNYMNZ",
-      "version": 3904,
-      "itemType": "presentation",
-      "title": "Regards croisés d’experts sur la place de l’Europe orientale dans les imaginaires collectifs allemands et polonais (1939-1945) : une asymétrie évolutive ?",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "8.12.2018",
-      "place": "Moscow",
-      "meetingName": "Europe in the 20th century – An Asymmetric Europe: Ideologies during the Second World War",
-      "url": "",
-      "accessDate": "",
-      "language": "FR",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T11:54:40Z",
-      "dateModified": "2020-07-02T13:37:08Z"
     }
   },
   {
@@ -3167,67 +1727,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "JB2QWUNF",
-      "version": 3904,
-      "itemType": "presentation",
-      "title": "Corpus creation and digitised newspapers:  perspectives from research and libraries",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Sally",
-          "lastName": "Chambers"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Steven",
-          "lastName": "Claeyssens"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Clemens",
-          "lastName": "Neudecker"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Jaap",
-          "lastName": "Verheul"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Pim",
-          "lastName": "Huijnen"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "8.6.2018",
-      "place": "Amsterdam",
-      "meetingName": "DH Benelux 2018",
-      "url": "http://2018.dhbenelux.org/",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T11:29:29Z",
-      "dateModified": "2020-07-02T13:37:08Z"
     }
   },
   {
@@ -3303,37 +1802,6 @@
         ],
         "season": "6-3"
       }
-    },
-    "data": {
-      "key": "3EYBZMNN",
-      "version": 3905,
-      "itemType": "presentation",
-      "title": "Detecting Text Reuse in Newspapers Data with Passim",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "5. - 6-3-2018",
-      "place": "Helsinki",
-      "meetingName": "Hacking the News Workshop in conjunction with DHN 2018",
-      "url": "http://dig-hum-nord.eu/",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T10:34:15Z",
-      "dateModified": "2020-07-02T13:37:08Z"
     }
   },
   {
@@ -3410,37 +1878,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "533CKHNX",
-      "version": 3904,
-      "itemType": "presentation",
-      "title": "Une recherche plus fouillée dans un corpus imparfait?  L’étude de la question européenne dans la presse numérisée suisse et  luxembourgeoise (1848-1945)",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "4.7.2018",
-      "place": "Lausanne",
-      "meetingName": "Journée d’étude - L’histoire contemporaine à l’ère numérique : sources, méthodologies, critiques",
-      "url": "https://agenda.unil.ch/display?id=1523877987757",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T10:31:04Z",
-      "dateModified": "2020-07-02T13:37:09Z"
     }
   },
   {
@@ -3519,42 +1956,6 @@
         ],
         "season": "26.10"
       }
-    },
-    "data": {
-      "key": "42Q5UVQB",
-      "version": 3905,
-      "itemType": "presentation",
-      "title": "Implementing Transparency",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "25-26.10.2018",
-      "place": "Esch-sur-Alzette",
-      "meetingName": "Digital Hermeneutics in History: Theory and Practice",
-      "url": "",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T10:27:30Z",
-      "dateModified": "2020-07-02T13:37:09Z"
     }
   },
   {
@@ -3630,37 +2031,6 @@
         ],
         "season": "13.3"
       }
-    },
-    "data": {
-      "key": "K8RNZCB8",
-      "version": 3904,
-      "itemType": "presentation",
-      "title": "Annotating Named Entities in Historical Newspapers and Scholarly Publications",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Matteo",
-          "lastName": "Romanello"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "12-13.3.2018",
-      "place": "Darmstadt",
-      "meetingName": "INCEpTION Workshop",
-      "url": "http://www.fif.tu-darmstadt.de/fif_formats_structure/fif_workshops_structure/2018_4/inception/inception.de.jsp",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T10:26:03Z",
-      "dateModified": "2020-07-02T13:37:10Z"
     }
   },
   {
@@ -3737,37 +2107,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "IIB4X9YE",
-      "version": 3904,
-      "itemType": "presentation",
-      "title": "Computerlinguistische Methoden für bessere Zugänglichkeit von historischen Zeitungsberichten. Die NZZ im Wandel der Zeit",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Phillip",
-          "lastName": "Ströbel"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "25.4.2018",
-      "place": "Vienna",
-      "meetingName": "Vom DIARIUM zum DIGITARIUM",
-      "url": "https://www.oeaw.ac.at/de/acdh/events/event-series/event-detail/article/vom-diarium-zum-digitarium/",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T10:24:51Z",
-      "dateModified": "2020-07-02T13:37:10Z"
     }
   },
   {
@@ -3848,42 +2187,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "EQNP3QB7",
-      "version": 3904,
-      "itemType": "presentation",
-      "title": "impresso",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Paul",
-          "lastName": "Schroeder"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "24.4.2018",
-      "place": "Esch-sur-Alzette",
-      "meetingName": "C2DH/LCSB Data Visualisation Workshop",
-      "url": "https://www.c2dh.uni.lu/events/data-visualisation-workshop",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T10:22:13Z",
-      "dateModified": "2020-07-02T13:37:10Z"
     }
   },
   {
@@ -3984,67 +2287,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "7IC2DJP8",
-      "version": 3904,
-      "itemType": "presentation",
-      "title": "Transparency as a prerequisite  for Digital Source Criticism  of Digitized Newspapers",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Sally",
-          "lastName": "Chambers"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Steven",
-          "lastName": "Claeyssens"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Estelle",
-          "lastName": "Bunout"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Marten",
-          "lastName": "Düring"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Clemens",
-          "lastName": "Neudecker"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Jaap",
-          "lastName": "Verheul"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Pim",
-          "lastName": "Huijnen"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "8.6.2018",
-      "place": "Amsterdam",
-      "meetingName": "DH Benelux 2018",
-      "url": "http://2018.dhbenelux.org/",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T10:19:18Z",
-      "dateModified": "2020-07-02T13:37:11Z"
     }
   },
   {
@@ -4121,37 +2363,6 @@
           ]
         ]
       }
-    },
-    "data": {
-      "key": "UWVIXX8J",
-      "version": 3904,
-      "itemType": "presentation",
-      "title": "Bridging Literature and Information Science",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Phillip",
-          "lastName": "Ströbel"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "",
-      "date": "12.6.2018",
-      "place": "Innsbruck",
-      "meetingName": "Digital Humanities Austria",
-      "url": "https://www.uibk.ac.at/congress/dha2017/programme/index.html.en",
-      "accessDate": "",
-      "language": "",
-      "shortTitle": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
-      "relations": {},
-      "dateAdded": "2018-08-16T09:56:55Z",
-      "dateModified": "2020-07-02T13:37:11Z"
     }
   }
 ]

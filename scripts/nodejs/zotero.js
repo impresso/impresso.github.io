@@ -67,7 +67,7 @@ const get_zotero_collection_items = async (
   if (headers.token) {
     console.log(` - token:*** (using token=YES)`)
   }
-  const url = `https://api.zotero.org/groups/${gid}/collections/${cid}/items`
+  const url = `https://api.zotero.org/groups/${gid}/collections/${cid}/items/top`
   try {
     const res = await axios.get(url, {
       params,
