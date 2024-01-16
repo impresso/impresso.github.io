@@ -37,8 +37,6 @@ Historical media reflect the times during which they were created and offer rich
 Millions of facsimiles and digital broadcast records, along with their machine-readable content, are now available for research. Existing tools for the exploration of digitized newspapers and radio broadcasts nevertheless remain in a fragmented landscape, where automatic processing and computational approaches are typically restricted to one language and one media type. These limitations severely hamper historical research, which is driven by the discovery of relations between their objects of study through iterative processes characterised by comparing, contrasting and associating sources and information.
 
 *impresso* establishes the legal and technical prerequisites to build a corpus of historical newspaper and radio collections from our [partners](/consortium/partners/). These are newspaper collections from Switzerland, Austria, Belgium, France, Germany, Luxembourg, the Netherlands and the UK spanning the time period of the 19th and the 20th centuries, and radio broadcasts from Switzerland, Austria, France, Germany, the Netherlands and the UK from the 1930s on. For newspapers this includes the collection of page scans, text in METS/ALTO and other XML formats and accompanying bibliographic metadata. For radio, this includes e.g. speaker typescripts, transcribed speech, audio content, radio programmes and accompanying metadata.
- 
-**See also:** [Natural Language Processing Objectives](/project/linguistics)
 
 
 ## Media processing: enriching & connecting
