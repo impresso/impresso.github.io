@@ -25,16 +25,18 @@ layout: default
       <section class="m-3 m-lg-5 display-6">{{content}}</section>
 
       <section class="m-3 m-lg-5 d-flex flex-wrap">
-        <a
-          href="/app"
-          class="btn btn-primary btn-lg small-caps d-flex align-items-center my-2"
+        <button
+          type="button"
+          class="btn btn-primary btn-lg small-caps my-2"
           style="min-width: 273px"
         >
-          <span>go to <em>impresso</em> <b>app</b></span>
-          <span class="ms-2 icon-container">
-            {% include icons/arrow-right.svg %}</span
-          >
-        </a>
+          <a href="/app">
+            <span>go to <em>impresso</em> <b>app</b></span>
+            <span class="ms-2 icon-container">
+              {% include icons/arrow-right.svg %}</span
+            >
+          </a>
+        </button>
         &nbsp;
         <div>
           <button

@@ -193,7 +193,8 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
       background-color: var(--bs-dark);
     }
 
-    #MenuToggler:hover .menu-bar{
+    #MenuToggler:hover .menu-bar,
+    #MenuToggler:focus .menu-bar{
       background-color: var(--bs-dark-fixed);
     }
 
