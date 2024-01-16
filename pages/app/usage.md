@@ -105,7 +105,7 @@ FAQs are accessible via the info buttons distributed across the interface, and o
 <figure class='respect-margin'>
       <img class='cover' src='/assets/images/application/impresso-app-faq.png'>
       <figcaption class="wrapper">
-          <p><a href='https://impresso-project.ch/app/faq' title='_impresso_ App FAQ Page'>_impresso_ App FAQ Page</a></p>
+          <p><a href='https://impresso-project.ch/app/faq' title='_impresso_ App FAQ Page'><em>impresso</em> App FAQ Page</a></p>
       </figcaption>
     </figure>
 
