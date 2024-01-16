@@ -79,7 +79,9 @@ svg:not(:root) {
 .Seealso a.nav-link:hover label::after {
   transform: scaleX(1);
 }
-
+.nav{
+  --bs-nav-link-padding-y: 0.3rem;
+}
 .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
   --bs-nav-pills-link-active-color: var(--bs-dark);

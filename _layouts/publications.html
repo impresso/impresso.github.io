@@ -29,7 +29,19 @@ layout: page
       log('loaaded' + templateName)
       config.templates.add(templateName, template)
       log('')
-      document.getElementById('bibliography').innerHTML = '<p>' + items.map(d => {
+      const sortedItems = items.sort((a, b) => {
+        if(!a.meta.parsedDate) {
+          return 1
+        }
+        if(!b.meta.parsedDate) {
+          return -1
+        }
+        const dateA = a.meta.parsedDate;
+        const dateB = b.meta.parsedDate;
+        // compare strings
+        return dateB.localeCompare(dateA);
+      });
+      document.getElementById('bibliography').innerHTML = '<p>' + sortedItems.map(d => {
         const bib = new Cite(d.csljson).format('bibliography', {
           format: 'html',
           template: templateName,
