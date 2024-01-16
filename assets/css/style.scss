@@ -8,10 +8,10 @@ title: scss
     font-size: 5rem;
     line-height: 1.25em;
     font-weight: 300;
-    font-variation-settings: 'wght' 300;
+    font-variation-settings: "wght" 300;
     &.text-muted {
       font-weight: 300;
-      font-variation-settings: 'wght' 300;
+      font-variation-settings: "wght" 300;
     }
   }
 
@@ -24,11 +24,11 @@ title: scss
   }
   h3 {
     font-weight: 650;
-    font-variation-settings: 'wght' 650;
+    font-variation-settings: "wght" 650;
   }
   section h3 {
     font-weight: 400;
-    font-variation-settings: 'wght' 400;
+    font-variation-settings: "wght" 400;
   }
 }
 
@@ -64,7 +64,7 @@ svg:not(:root) {
   position: relative;
 }
 .Seealso a.nav-link label::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -76,10 +76,11 @@ svg:not(:root) {
   transition: transform 0.3s ease-in-out;
 }
 
-.Seealso a.nav-link:hover label::after {
+.Seealso a.nav-link:hover label::after,
+.Seealso a.nav-link:focus label::after {
   transform: scaleX(1);
 }
-.nav{
+.nav {
   --bs-nav-link-padding-y: 0.3rem;
 }
 .nav-pills {
@@ -152,7 +153,8 @@ svg:not(:root) {
 
 a.PersonThumbnail {
   text-decoration: none;
-  &:hover {
+  &:hover,
+  &:focus {
     color: var(--bs-dark);
   }
 }
@@ -162,7 +164,7 @@ a.PersonThumbnail h4 {
 }
 
 a.PersonThumbnail h4::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   right: 0;
@@ -175,7 +177,8 @@ a.PersonThumbnail h4::after {
   transform-origin: left;
 }
 
-a.PersonThumbnail:hover h4::after {
+a.PersonThumbnail:hover h4::after,
+a.PersonThumbnail:focus h4::after {
   transform: scaleX(1);
 }
 
@@ -191,7 +194,8 @@ a.PersonThumbnail:hover h4::after {
   transition: 0.3s all ease-in-out;
 }
 
-.PersonThumbnail .picture:hover {
+.PersonThumbnail .picture:hover,
+.PersonThumbnail .picture:focus {
   border: 2px solid var(--bs-primary);
   .cover {
     transform: scale(1.1);
@@ -258,7 +262,7 @@ a.PersonThumbnail:hover h4::after {
 .post .hr::after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   height: 3px;
   width: 0%;
   left: 0;
@@ -268,7 +272,8 @@ a.PersonThumbnail:hover h4::after {
   transition: width 0.2s ease-in-out;
 }
 
-.post:hover .hr::after {
+.post:hover .hr::after,
+.post:focus .hr::after {
   width: 100%;
 }
 
@@ -311,12 +316,14 @@ a.PersonThumbnail:hover h4::after {
   background-color: var(--bs-primary);
 }
 
-.btn.btn-primary:hover .icon-container {
+.btn.btn-primary:hover .icon-container,
+.btn.btn-primary:focus .icon-container {
   background-color: var(--bs-dark);
   border-color: var(--bs-primary);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
   border-color: var(--bs-primary);
   .btn-primary .icon path {
     stroke: var(--bs-primary);
@@ -330,7 +337,8 @@ fieldset:disabled .btn-primary {
   border-color: var(--bs-dark);
 }
 
-.btn-primary:hover .icon path {
+.btn-primary:hover .icon path,
+.btn-primary:focus .icon path {
   stroke: var(--bs-primary);
   text-decoration: none;
 }
@@ -339,7 +347,8 @@ fieldset:disabled .btn-primary {
   border-radius: var(--md-cr) 25px 25px var(--md-cr);
 }
 
-.int-btn:hover button {
+.int-btn:hover button,
+.int-btn:focus button {
   background-color: var(--bs-primary);
 }
 
@@ -348,14 +357,17 @@ fieldset:disabled .btn-primary {
 }
 
 .btn-md:hover,
-.int-btn:hover .btn-md {
+.int-btn:hover .btn-md,
+.btn-md:focus,
+.int-btn:focus .btn-md {
   padding: 0 1rem;
 }
 
 .btn-primary .icon path {
   stroke: var(--bs-dark);
 }
-.btn-primary:hover .icon path {
+.btn-primary:hover .icon path,
+.btn-primary:focus .icon path {
   stroke: var(--bs-primary);
 }
 
@@ -363,7 +375,8 @@ fieldset:disabled .btn-primary {
   border-radius: var(--md-cr) 25px 25px var(--md-cr);
 }
 
-.int-btn:hover button {
+.int-btn:hover button,
+.int-btn:focus button {
   background-color: var(--bs-primary);
 }
 
@@ -372,7 +385,9 @@ fieldset:disabled .btn-primary {
 }
 
 .btn-md:hover,
-.int-btn:hover .btn-md {
+.int-btn:hover .btn-md,
+.btn-md:focus,
+.int-btn:focus .btn-md {
   padding: 0 1rem;
   span:not(.icon-container) {
     animation: expandWidth 0.5s ease forwards;
@@ -406,21 +421,24 @@ fieldset:disabled .btn-primary {
 a#chimpSignup {
   text-decoration: none;
   color: var(--bs-dark-fixed);
-  .btn-simple:hover {
+  .btn-simple:hover,
+  .btn-simple:focus {
     color: var(--bs-dark-fixed);
     border-color: var(--bs-dark-fixed);
     background-color: var(--bs-primary);
   }
 }
 
-.btn-simple:hover .icon-container {
+.btn-simple:hover .icon-container,
+.btn-simple:focus .icon-container {
   cursor: pointer;
   background-color: var(--bs-primary);
   transition: all 0.2s ease-in-out;
 }
 
 @media (prefers-color-scheme: dark) {
-  .btn.btn-primary:hover .icon-container {
+  .btn.btn-primary:hover .icon-container,
+  .btn.btn-primary:focus .icon-container {
     background-color: var(--bs-dark-fixed);
   }
   .btn-primary {
@@ -429,14 +447,31 @@ a#chimpSignup {
   .btn.btn-primary .icon-container {
     border-color: var(--bs-dark-fixed);
   }
-  .btn.btn-secondary:hover {
+  .btn.btn-secondary:hover,
+  .btn.btn-secondary:focus {
     border-color: var(--bs-dark-fixed);
   }
-  .btn-simple:hover .icon path {
+  .btn-simple:hover .icon path,
+  .btn-simple:focus .icon path {
     stroke: var(--bs-dark-fixed);
   }
-  .btn-simple:hover .icon-container {
+  .btn-simple:hover .icon-container,
+  .btn-simple:focus .icon-container {
     border-color: var(--bs-dark-fixed);
+  }
+  .btn-primary.disabled,
+  .btn-primary:disabled,
+  fieldset:disabled .btn-primary {
+    color: var(--bs-dark-fixed);
+    border-color: var(--bs-dark-fixed);
+  }
+  .btn.btn-primary a {
+    color: var(--bs-dark-fixed);
+    text-decoration: none;
+  }
+  .btn.btn-primary:hover a,
+  .btn.btn-primary:focus a {
+    color: var(--bs-primary);
   }
 }
 
@@ -471,17 +506,22 @@ a#chimpSignup {
 }
 
 .btn.btn-secondary:hover .icon-container,
-.int-btn:hover .btn.btn-secondary .icon-container {
+.btn.btn-secondary:focus .icon-container,
+.int-btn:hover .btn.btn-secondary .icon-container,
+.int-btn:focus .btn.btn-secondary .icon-container {
   background-color: var(--bs-primary);
   border: 2px solid var(--bs-dark-fixed);
 }
 
 .btn.btn-secondary:hover .icon > svg path,
-.int-btn:hover .btn.btn-secondary .icon > svg path {
+.btn.btn-secondary:focus .icon > svg path,
+.int-btn:hover .btn.btn-secondary .icon > svg path,
+.int-btn:focus .btn.btn-secondary .icon > svg path {
   stroke: var(--bs-dark-fixed) !important;
 }
 
-.btn.btn-simple:hover .x .icon > svg path {
+.btn.btn-simple:hover .x .icon > svg path,
+.btn.btn-simple:focus .x .icon > svg path {
   fill: var(--bs-dark-fixed);
 }
 
@@ -530,7 +570,6 @@ a#chimpSignup {
   }
 
   .nav {
-    --bs-nav-link-color: #fafbf2;
     --bs-nav-link-hover-color: gold;
   }
   .border-dark {
