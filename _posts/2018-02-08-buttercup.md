@@ -4,7 +4,7 @@ status: published
 title: Understanding the historians needs in their use of digitised newspapers
 lang: en
 date:   2018-02-08
-categories: news
+categories: events
 author:
 thumbnail:
 figure:

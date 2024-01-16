@@ -4,7 +4,7 @@ status: published
 title: Call for Associated Researchers
 lang: en
 date:   2018-04-16
-categories: news
+categories: calls
 author:
 figure:
   - src: posts/letemps.jpg

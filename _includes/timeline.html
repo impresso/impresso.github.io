@@ -49,7 +49,7 @@
   )
 
   let timelineBoundingClientRect = timelineElement.getBoundingClientRect()
-
+  let closestItem = null
   // TODO: get these constants from config
   const timelineStartDate = new Date('2023-08-01')
   const timelineEndDate = new Date('2027-09-01')
@@ -61,6 +61,7 @@
   ).map((item) => {
     item.startDate = new Date(item.startDate)
     item.endDate = new Date(item.endDate)
+    item.disabled = item.endDate > new Date()
     return item
   })
 
@@ -96,17 +97,20 @@
       timelinePointer.style.transform = `translate(${mouseX}px, 0)`
       // use en GB locale for dates in the format "Fri, 1 Jan 2021"
 
-      timelinePointerDate.innerHTML = '<span>' + date.toLocaleDateString('en-GB', {
-        weekday: 'short',
-        day: 'numeric',
-        month: 'short',
-        year: 'numeric',
-      }) + '</span>'
+      timelinePointerDate.innerHTML =
+        '<span>' +
+        date.toLocaleDateString('en-GB', {
+          weekday: 'short',
+          day: 'numeric',
+          month: 'short',
+          year: 'numeric',
+        }) +
+        '</span>'
     } else {
       timelinePointer.style.opacity = 0
     }
     // get closest item
-    const closestItem = items.reduce((prev, curr) => {
+    closestItem = items.reduce((prev, curr) => {
       const prevDiff = Math.abs(prev.startDate - date)
       const currDiff = Math.abs(curr.startDate - date)
       return prevDiff < currDiff ? prev : curr
@@ -120,11 +124,17 @@
     const idx = event.target.getAttribute('data-idx')
     if (!isNaN(idx)) {
       const item = items[idx]
+      if (item.disabled) return
       window.location.href = item.url
     }
   })
   timelineElement.addEventListener('mouseleave', (event) => {
     timelinePointer.style.opacity = 0
+  })
+  timelineElement.addEventListener('click', (event) => {
+    if (closestItem && !closestItem.disabled) {
+      window.location.href = closestItem.url
+    }
   })
   window.addEventListener('resize', () => {
     timelineBoundingClientRect = timelineElement.getBoundingClientRect()
@@ -140,14 +150,19 @@
     `
     const itemStartPx = MsToPx(item.startDate - timelineStartDate)
     const itemEndPx = MsToPx(timelineEndDate - item.endDate)
-    const xTooltip = Math.min(timelineBoundingClientRect.width - 200, itemStartPx - 3)
+    const xTooltip = Math.min(
+      timelineBoundingClientRect.width - 200,
+      itemStartPx - 3
+    )
 
     timelineTooltip.style.opacity = 1
     timelineTooltip.style.transform = `translate(${xTooltip}px, 0)`
 
     timelineTooltipMarker.style.opacity = 1
     timelineTooltipMarker.style.transform = `translate(${itemStartPx - 3}px, 0)`
-    timelineTooltipMarker.style.width = `${timelineBoundingClientRect.width - itemStartPx - itemEndPx + 3}px`
+    timelineTooltipMarker.style.width = `${
+      timelineBoundingClientRect.width - itemStartPx - itemEndPx + 3
+    }px`
   }
 
   function drawAxis() {
@@ -178,12 +193,15 @@
     const now = new Date()
     const nowPx = MsToPx(now - timelineStartDate)
     timelineNow.style.left = nowPx + 'px'
-    timelineNowDate.innerHTML = '<span>' + now.toLocaleDateString('en-GB', {
-      weekday: 'short',
-      day: 'numeric',
-      month: 'short',
-      year: 'numeric',
-    }) + '</span>'
+    timelineNowDate.innerHTML =
+      '<span>' +
+      now.toLocaleDateString('en-GB', {
+        weekday: 'short',
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric',
+      }) +
+      '</span>'
 
     // draw past rectangle
     timelinePast.style.left = 0
@@ -197,6 +215,9 @@
     items.forEach((item, i) => {
       const itemEl = document.createElement('div')
       itemEl.classList.add('Timeline__item')
+      if (item.disabled) {
+        itemEl.classList.add('disabled')
+      }
       itemEl.setAttribute('data-idx', i)
       itemEl.style.left = MsToPx(item.startDate - timelineStartDate) + 'px'
       itemEl.style.right = MsToPx(timelineEndDate - item.endDate) + 'px'
@@ -267,7 +288,7 @@
   }
   #Timeline__pointerDate {
     position: absolute;
-    
+
     left: 0;
     text-align: center;
 
@@ -306,10 +327,9 @@
     color: var(--bs-dark);
     font-size: inherit;
     font-weight: bold;
-    padding:0;
+    padding: 0;
   }
-  #Timeline__nowDate  > span{
-
+  #Timeline__nowDate > span {
     border-bottom: 2px solid var(--bs-dark);
   }
   @keyframes blinker {
@@ -332,7 +352,8 @@
     top: -87px;
     left: 0;
     will-change: transform, opacity;
-    transition: transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955), opacity 0.2s ease-out;
+    transition: transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955),
+      opacity 0.2s ease-out;
     transform: translate(0, 0);
     max-width: 250px;
     background: var(--bs-light);
@@ -356,7 +377,7 @@
     border-radius: 2px;
     pointer-events: none;
   }
-  .Timeline__tooltip__title{
+  .Timeline__tooltip__title {
     font-weight: bold;
   }
   .Timeline__item {
@@ -368,6 +389,11 @@
     border-radius: 2px;
     border: 1px solid var(--bs-dark-transparent);
     cursor: pointer;
+  }
+  .Timeline__item.disabled {
+    background-color: var(--bs-dark-transparent);
+    border-color: var(--bs-dark-transparent);
+    cursor: not-allowed;
   }
   .Timeline__item:hover {
     background-color: var(--bs-dark);

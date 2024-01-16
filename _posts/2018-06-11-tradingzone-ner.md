@@ -7,6 +7,7 @@ date: 2018-06-12
 categories:
   - news
   - NLP
+  - documentation
 authors:
   - maud-ehrmann
 thumbnail:
