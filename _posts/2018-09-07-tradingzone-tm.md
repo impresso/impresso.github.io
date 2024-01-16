@@ -6,7 +6,9 @@ lang: en
 date: 2018-09-07
 tags:
   - NLP
-categories: news
+categories: 
+  - documentation
+  - NLP
 authors:
   - phillip-stroebel
 figure:

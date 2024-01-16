@@ -4,7 +4,7 @@ status: published
 title: Explore the list of topics on the impresso interface
 lang: en
 date:   2019-03-05
-categories: news
+categories: documentation
 author:
 thumbnail:
 figure:

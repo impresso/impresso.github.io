@@ -4,7 +4,7 @@ status: published
 title: Digital Humanities - a Challenging Research Field
 lang: en
 date:   2018-08-24
-categories: news
+categories: history
 author: Julien Nguyễn Đăng
 figure:
   - src: posts/et.jpg

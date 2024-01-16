@@ -4,7 +4,10 @@ status: published
 title: Trading zone between NLP and History - a post series
 lang: en
 date:   2018-06-11
-categories: news
+categories: 
+  - documentation
+  - NLP
+  - history
 authors:
   - maud-ehrmann
 figure:
