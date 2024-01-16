@@ -66,7 +66,7 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
 <figure class='respect-margin'>
       <img class='cover' src='/assets/images/application/impresso-challenges.png'>
       <figcaption class="wrapper">
-          <p><a href='https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf' title='Download the _impresso_ Challenges'>_impresso_ Challenges</a></p>
+          <p><a href='https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf' title='Download the _impresso_ Challenges'><em>impresso</em> Challenges</a></p>
       </figcaption>
     </figure>
 
