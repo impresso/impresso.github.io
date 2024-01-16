@@ -85,10 +85,10 @@ svg:not(:root) {
   --bs-nav-pills-link-active-color: var(--bs-dark);
   --bs-nav-pills-link-active-bg: var(--bs-primary);
 }
-.nav-pills .nav-link{
+.nav-pills .nav-link {
   border: 2px solid transparent;
 }
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
   border: 2px solid var(--bs-dark);
 }
 
@@ -323,7 +323,7 @@ a.PersonThumbnail:hover h4::after {
 .btn-primary.disabled,
 .btn-primary:disabled,
 fieldset:disabled .btn-primary {
-  text-decoration: line-through;
+  // text-decoration: line-through;
   color: var(--bs-dark);
   border-color: var(--bs-dark);
 }
