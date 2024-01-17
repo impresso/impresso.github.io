@@ -24,19 +24,20 @@ layout: default
       </h1>
       <section class="m-3 m-lg-5 display-6">{{content}}</section>
 
-      <section class="m-3 m-lg-5 d-flex flex-wrap">
-        <button
-          type="button"
-          class="btn btn-primary btn-lg small-caps my-2"
-          style="min-width: 273px"
+      <section
+        class="m-3 m-lg-5 d-flex flex-wrap"
+        role="navigation"
+        aria-label="the two highlighted impresso apps"
+      >
+        <a
+          href="/app"
+          class="btn btn-primary btn-lg small-caps d-flex align-items-center my-2"
         >
-          <a href="/app">
-            <span>go to <em>impresso</em> <b>app</b></span>
-            <span class="ms-2 icon-container">
-              {% include icons/arrow-right.svg %}</span
-            >
-          </a>
-        </button>
+          <span>go to <em>impresso</em> <b>app</b></span>
+          <span class="ms-2 icon-container">
+            {% include icons/arrow-right.svg %}</span
+          >
+        </a>
         &nbsp;
         <div>
           <button
