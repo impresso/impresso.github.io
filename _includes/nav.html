@@ -6,6 +6,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
 <aside
   id="Nav" class="Nav container-fluid h-100 position-fixed d-md-block g-0"
   style="z-index: var(--z-index-aside)"
+  aria-label="website menu"
 >
   <div class="row g-0 h-100">
     <div class="col-sm-12 col-md-3 col-lg-3 col-xl-2 col-xxl-2 d-flex flex-column h-100 g-0">
@@ -13,8 +14,8 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
         <li
           class="nav-item squared position-relative"
         >
-          <a href="/" class="position-absolute start-0 mt-2 ms-2 top-0">
-            <button type="button" class="btn btn-simple">
+          <a href="/" class="position-absolute start-0 mt-2 ms-2 top-0" >
+            <button type="button" class="btn btn-simple" aria-label="go to home page">
               <span class="icon-container">
                 {% include icons/home-simple-door.html %}</span
               >
@@ -22,6 +23,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
           </a>
           <button
             type="button"
+            aria-label="toggle dark mode"
             class="position-absolute end-0 top-0 mt-2 me-2 btn btn-simple"
             id="Nav__darkModeToggler"
           >
@@ -44,12 +46,13 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
         <li
           class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open open active {% endif %}{% if item.url == page.url %} active {% endif %}"
         >
-          <a class="nav-link small-caps" href="{{ item.url }}"
+          <a class="nav-link small-caps" href="{{ item.url }}" tabindex="0"
             ><span>{{ item.title }}</span></a
           >
           {% if item.links %}
           <button
             class="btn btn-transparent Nav__dropdownToggler position-absolute"
+            aria-label="toggle sub-menu"
           >
             {% include icons/plus.html %}
           </button>
@@ -58,7 +61,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
             <li
               class="nav-item {% if subitem.url == page.url %} active {% endif %} {% if item.url == parentUrl %} open {% endif %}"
             >
-              <a class="nav-link" href="{{ subitem.url }}"
+              <a class="nav-link" href="{{ subitem.url }}" tabindex="0"
                 ><span>{{ subitem.title }}</span></a
               >
             </li>
