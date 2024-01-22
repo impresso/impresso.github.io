@@ -18,7 +18,6 @@ layout: page
   const items = {{ bib_json_items | jsonify }};
 
   const Cite = require('citation-js')
-  const data = new Cite('Q30000000')
   const config = Cite.plugins.config.get('@csl')
 
   log('cls_style to load' + cls_style_url)
@@ -41,23 +40,27 @@ layout: page
         // compare strings
         return dateB.localeCompare(dateA);
       });
-      document.getElementById('bibliography').innerHTML = '<p>' + sortedItems.map(d => {
+
+      document.getElementById('bibliography').innerHTML = '<div class="mb-3">' + sortedItems.map(d => {
         const bib = new Cite(d.csljson).format('bibliography', {
           format: 'html',
           template: templateName,
           lang: 'en-US',
+          prepend: (d) => {
+            return `<b>${d.title}</b><br/>`
+          },
+          append: (d) => {
+            if(d.DOI) {
+              const url = `<br/><a href="https://doi.org/${d.DOI}" target="_blank">&rarr; link</a>`
+              return url
+            } else if(d.URL) {
+              const url = `<br/><a href="${d.URL}" target="_blank">&rarr; link</a>`
+              return url
+            }
+            return ''
+          }
         })
-        if(d.csljson.DOI) {
-          const url = `<a href="https://doi.org/${d.csljson.DOI}" target="_blank">&rarr; link</a>`
-          return [bib, url].join('')
-          // const doi = `<a href="https://doi.org/${d.csljson.DOI}" target="_blank">&rarr; DOI: ${d.csljson.DOI}</a>`
-          // return [bib, doi].join('')
-        } else if(d.csljson.URL) {
-          const url = `<a href="${d.csljson.URL}" target="_blank">&rarr; link</a>`
-          return [bib, url].join('')
-        }
-        // return bib
         return bib
-      }).join('</p><p>') + '</p>'
+      }).join('</div><div class="mb-3">') + '</div>'
     })
 </script>
