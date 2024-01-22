@@ -4,6 +4,12 @@ layout: page
 
 {% assign posts=site.posts | where: "authors", page.slug | where: "status", "published" | sort: "date" | reverse %}
 
+{% if page.picture %}
+<div
+  class="Person__cover float-left me-3 mb-3"
+  style="background-image:url({{ page.picture | relative_url }})"
+></div>
+{% endif %}
 {{ content }}
 {% if posts.size > 0 %}
 <div class="container-fluid g-0 d-flex flex-column mt-3 mt-lg-5 ">
@@ -30,3 +36,23 @@ layout: page
   </div>
 </div>
 {% endif %}
+<style>
+  @media screen and (min-width: 992px){
+    .Person__cover {
+      width: 200px;
+      height: 200px;
+      float: left;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      border: 2px solid var(--bs-dark);
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  filter: grayscale(100%);
+    }
+    .Page__contents section:first-of-type > p:first-of-type {
+      margin-left: 220px;
+      margin-top: 0rem;
+    }
+  }
+  
+</style>
