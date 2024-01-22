@@ -26,12 +26,9 @@ The [*impresso* web app](https://impresso-project.ch/app/) offers a graphical us
 The forthcoming *impresso* data lab is an infrastructure for data access and annotation services via APIs, along with their integration in executable Jupyter notebooks. The data lab will provide researchers with examples based on experiments with data-driven analyses of the *impresso* corpus. Annotation services offer access to semantic indexing models and the ability to relate external data to the corpus.
 
 <figure class='respect-margin'>
-      <img class='cover' src=''>
+      <img class='cover' src='{{ site.url }}/assets/screenshots/datalab.png'>
       <figcaption class="wrapper">
-          <p>[Image of the data lab is "forthcoming" and to be replaced]</p>
+          <p>Forthcoming <i>impresso</i> data lab</p>
       </figcaption>
     </figure>
-
-
-See also: [Overall Objectives](/project/objectives/) and [Objectives Design](/project/design/)
 
