@@ -114,7 +114,7 @@ FAQs are accessible via the info buttons distributed across the interface, and o
 
 <!-- more -->
 
-The title of this post paraphrases our colleague [Max Kemman](http://www.maxkemman.nl/2015/06/digital-history-as-trading-zone/) and relates to the ‘negotiation of practices’ that (should) inevitably happen within interdisciplinary frameworks. Within _impresso_, we tackle this challenge by, among others, by adopting [co-design](/project/design/) as one of our core working principles.
+The title of this post paraphrases our colleague Max Kemman and relates to the ‘negotiation of practices’ that (should) inevitably happen within interdisciplinary frameworks. Within _impresso_, we tackle this challenge by, among others, by adopting [co-design](/project/design/) as one of our core working principles.
 
 Beyond the realisation of an exploration interface capable of answering the needs of its users, our intention is to foster the dialogue between our academic fields (computational linguistics and history), as well as to reflect on changes affecting research environment in the humanities (more on co-design in a soon-to-come glossary entry).
 
