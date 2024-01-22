@@ -25,7 +25,9 @@
       <!-- {{partner.title}} -->
       <div class="col-md-6">
         <div class="my-3">
-          {{ partner.title}}
+          <a href="{{ partner.remoteUrl }}" target="_blank" title="{{ partner.title }}" style="text-decoration: none; color: inherit;">
+            {{ partner.title }}
+          </a>
         </div>
       </div>
       {% endfor %}
