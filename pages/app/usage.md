@@ -118,7 +118,7 @@ Concretely speaking, _impresso_ co-design is put into practice with an early-sta
 
 With this blog post series and tutorials, computational linguists would like to step in the trading zone, and to translate what ‘named entity processing’, ‘topic modeling’, ‘text reuse’ and more mean in practical terms when it comes to searching and exploring a historical newspaper collection. The intention is to sketch possibilities so as to help historians potentially interested in our future interface to plan their research and start operationalizing their questions. We would like to emphasize that the following descriptions are rather concise and will be further explained and illustrated as our work proceeds.
 
-## Named Entity Processing
+## Named entity processing
 
 To put it very briefly, named entity processing corresponds to the tasks of:
 
@@ -163,7 +163,7 @@ Members of the impresso team organised a workshop at the DH2020 conference on th
 </figure>
 
 
-## Topic Modeling
+## Topic modeling
 
 To document how we have integrated topic modeling within the impresso project and how they can become part of an explorative workflow we have prepared the following blog posts:
 
@@ -198,7 +198,7 @@ To document how we have integrated topic modeling within the impresso project an
   </figcaption>
 </figure>
 
-## Text Reuse
+## Text reuse
 
 Text reuse allows the detection of similar text passages across a corpus. To learn more about this method we have co-authored a [lesson on the detection of text reuse using passim](https://programminghistorian.org/en/lessons/detecting-text-reuse-with-passim) for the [Programming historian](https://programminghistorian.org) platform.
 
