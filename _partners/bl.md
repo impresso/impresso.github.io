@@ -4,4 +4,5 @@ title: The British Library (BL)
 ordering: 05-bl
 logo: logos/The_British_Library_logo.svg
 picture: /assets/images/bl-logo.png
+url: https://www.bl.uk/
 ---
