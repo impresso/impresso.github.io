@@ -4,18 +4,18 @@ parentUrl: /app/
 title: 'Usage and Tutorials'
 ---
 
-The app was designed taking special account of the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions. We therefore compiled a range of didactic materials which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface.
+The app was designed taking special account of the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions. We therefore compiled a __range of didactic materials__ which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface.
 
 ## About digitised newspapers in general
 
 ### RANKE2 - From the shelf to the web, exploring historical newspapers in the digital age
 
-A lesson prepared for academic teachers (and those willing to self-teach) on on how digitised newspapers change the way historians use newspapers as historical sources, and on how to perform source criticism in the digital age. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
+A [lesson](https://ranke2.uni.lu/u/exploring-historical-newspapers/) on the [Ranke2 website](https://ranke2.uni.lu) prepared for academic teachers (and those willing to self-teach) on on how digitised newspapers change the way historians use newspapers as historical sources, and on how to perform source criticism in the digital age.
 
 <figure class='respect-margin'>
       <img class='cover' src='/assets/images/FZ_ranke2.png'>
       <figcaption class="wrapper">
-          <p><a href='https://ranke2.uni.lu/u/exploring-historical-newspapers/' title='RANKE2 - From the shelf to the web'> RANKE2 - From the shelf to the web</a></p>
+          <p><a href='https://ranke2.uni.lu/u/exploring-historical-newspapers/' target="_blank" title='RANKE2 - From the shelf to the web'> RANKE2 - From the shelf to the web</a></p>
       </figcaption>
     </figure>
 
@@ -31,7 +31,7 @@ A lesson prepared for academic teachers (and those willing to self-teach) on on 
 
 ### PARTHENOS MODULE - Collections of digitised newspapers as historical sources
 
-A training module for scholars which provides background knowledge on newspaper digitisation technologies, with a special focus on their impact on both digital sources and the practice of historical research.
+A [training module](https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/) for scholars which provides background knowledge on newspaper digitisation technologies, with a special focus on their impact on both digital sources and the practice of historical research.
 
 <!-- <a class="d-block image-link"
   style="max-width:400px;"
@@ -43,7 +43,7 @@ A training module for scholars which provides background knowledge on newspaper 
 <figure class='respect-margin'>
       <img class='cover' src='/assets/images/FZ_parthenos.png'>
       <figcaption class="wrapper">
-          <p><a href='https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/' title='PARTHENOS MODULE'>PARTHENOS MODULE</a></p>
+          <p><a target="_blank"  href='https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/' title='PARTHENOS MODULE'>PARTHENOS MODULE</a></p>
       </figcaption>
     </figure>
 
@@ -66,7 +66,7 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
 <figure class='respect-margin'>
       <img class='cover' src='/assets/images/application/impresso-challenges.png'>
       <figcaption class="wrapper">
-          <p><a href='https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf' title='Download the _impresso_ Challenges'><em>impresso</em> Challenges</a></p>
+          <p><a href='https://v1.impresso-project.ch/assets/impresso-challenges-1.2.3.pdf' title='Download the _impresso_ Challenges'><em>impresso</em> Challenges</a></p>
       </figcaption>
     </figure>
 
@@ -75,19 +75,11 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
 
 ### _impresso_ interface walkthroughs
 
-_impresso_ project overview and app presentation made at the Digital Humanities 2020 conference.
+_impresso_ project overview and app presentation made at the Digital Humanities 2020 conference on our [Youtube channel](https://www.youtube.com/@impressoproject978)
 
 <figure>
 <div style="position:relative;padding-bottom:56.25%;">
 <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/mfiSBcl2EA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</figure>
-
-_impresso_  app presentation made at the 2020 ForumZ event “[Reading yesterday's news in the digital age](https://www.c2dh.uni.lu/forum-z/forum-z-goes-online-digitised-newspapers-edition)”
-
-<figure>
-<div style="position:relative;padding-bottom:56.25%;">
-<iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" width="100%" height="100%" src="https://www.youtube.com/watch?v=y6Dfj49XWu8&list=PLB45F159nVx9CwVvXx1vYEBN--BWHurnn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </figure>
 
@@ -134,8 +126,6 @@ To put it very briefly, named entity processing corresponds to the tasks of:
 - linking these mentions to unique identifiers in order to deal with homographic names (“John Smith”) referring to different entities and name variants referring to the same entity. This process is also called named entity disambiguation
 - identifying relations between entities such as born_in between a person and a location entity, colleague_of between two persons, alma_mater between a person and an organisation (in this case could be of subtype ‘Educational’), etc.
 
----
-
 This blog post explains, how we have made use of named entities in the impresso project:
 
 <!--
@@ -153,7 +143,6 @@ This blog post explains, how we have made use of named entities in the impresso 
       </figcaption>
     </figure>
 
----
 
 Members of the impresso team organised a workshop at the DH2020 conference on the recognition of historical named entities. You can find all materials here:
 
@@ -167,13 +156,12 @@ Members of the impresso team organised a workshop at the DH2020 conference on th
 </a> -->
 
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/application/nep.png'>
-      <figcaption class="wrapper">
-          <p><a href='https://impresso.github.io/named-entity-tutorial-dh2019/' title='Named Entity Processing for Digital Humanities'>Named Entity Processing for Digital Humanities</a></p>
-      </figcaption>
-    </figure>
+  <img class='cover' src='/assets/images/application/nep.png'>
+  <figcaption class="wrapper">
+      <p><a href='https://impresso.github.io/named-entity-tutorial-dh2019/' title='Named Entity Processing for Digital Humanities'>Named Entity Processing for Digital Humanities</a></p>
+  </figcaption>
+</figure>
 
----
 
 ## Topic Modeling
 
@@ -212,7 +200,7 @@ To document how we have integrated topic modeling within the impresso project an
 
 ## Text Reuse
 
-Text reuse allows the detection of similar text passages across a corpus. To learn more about this method we have co-authored a forthcoming lesson on the detection of text reuse using passim for the Programming historian platform
+Text reuse allows the detection of similar text passages across a corpus. To learn more about this method we have co-authored a [lesson on the detection of text reuse using passim](https://programminghistorian.org/en/lessons/detecting-text-reuse-with-passim) for the [Programming historian](https://programminghistorian.org) platform.
 
 <!--
 <a class="d-block image-link"
@@ -224,8 +212,8 @@ Text reuse allows the detection of similar text passages across a corpus. To lea
 </a> -->
 
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/application/text-reuse.png'>
-      <figcaption class="wrapper">
-          <p><a href='https://programminghistorian.org/en/lessons/' title='detection of text reuse using passim'>Detection of text reuse using passim</a></p>
-      </figcaption>
-    </figure>
+  <img class='cover' src='/assets/images/application/text-reuse.png'>
+  <figcaption class="wrapper">
+      <p><a href='https://programminghistorian.org/en/lessons/detecting-text-reuse-with-passim/' title='detection of text reuse using passim'>Detection of text reuse using passim</a></p>
+  </figcaption>
+</figure>
