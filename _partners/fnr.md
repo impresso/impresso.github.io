@@ -1,5 +1,5 @@
 ---
-url: https://www.fnr.lu/
+remoteUrl: https://www.fnr.lu/
 logo: logos/FNR.svg
 name: Luxembourg National Research Fund (FNR)
 category: funding

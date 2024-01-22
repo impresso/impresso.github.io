@@ -4,5 +4,5 @@ title: Radio Television Suisse (French speaking part of the Schweizerische Radio
 ordering: 10-rts
 logo: logos/RTS_logo.svg
 picture: /assets/images/rts-logo.jpg
-url: https://www.rts.ch/
+remoteUrl: https://www.rts.ch/
 ---

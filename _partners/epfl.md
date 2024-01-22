@@ -5,7 +5,7 @@ title: Digital Humanities Laboratory, EPFL.
 picture: /assets/images/EPFL-Logo-GREY.png
 logo: logos/EPFL.svg
 description: Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland
-url: https://www.epfl.ch/labs/dhlab/
+remoteUrl: https://www.epfl.ch/labs/dhlab/
 ---
 
 Founded in 2012, the DHLAB focuses on computational approaches for processing, accessing and studying large cultural heritage objects. Its research explores a variety of fields including linguistics, literature, history, art history and architecture, supported by methods from computer science, computer vision,natural language processing, geographic information science and web development. The DHLAB develops methods and softwares for information extraction and mining of historical texts, for transcribing and processing ancient documents and for reconstructing and visualising geographical spaces.

@@ -1,5 +1,5 @@
 ---
-url: https://www.nb.admin.ch/snl/de/home.html
+remoteUrl: https://www.nb.admin.ch/snl/de/home.html
 logo: logos/Schweizerische.svg
 name: Swiss National Science Foundation (SNSF)
 category: funding

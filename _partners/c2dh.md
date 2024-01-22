@@ -5,7 +5,7 @@ title: Luxembourg Center for Contemporary and Digital History, University of Lux
 picture: /assets/images/C2DH-logo.png
 logo: logos/Uni_C2DH.svg
 description: Center for Contemporary and Digital History (C²DH) University of Luxembourg, Luxembourg
-url: https://www.c2dh.uni.lu/
+remoteUrl: https://www.c2dh.uni.lu/
 ---
 
 Founded in 2016,the C²DH focuses on the study of digital history, contemporary European and Luxembourgish history and public history. The centre promotes interdisciplinary research with a particular emphasis on developing and critically reflecting on new digital methods and tools, and embraces digital methods in its research, teaching and publications (e.g. the Journal of Digital History). C²DH has unique expertise in participatory design and development of methodologically reflected research software like impresso, histograph and DHARPA as well as widespread asset management tools (Zotero, Tropy).
