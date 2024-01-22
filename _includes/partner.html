@@ -1,6 +1,6 @@
 <!-- special layout for single item in partners collection. Use assign to define people group.-->
-<div class='Partner me-5'>
-  <div class='anchor' id='{{partner.slug}}'></div>
+<div class="Partner me-5">
+  <div class="anchor" id="{{partner.slug}}"></div>
   <div class="d-md-flex align-items-center">
     <h3 class="flex-grow-1 mb-4 me-3">
       <span>{{partner.title}}</span>
@@ -10,7 +10,12 @@
       {% include {{ partner.logo }} %}
     </div>
     {% else %}
-    <img class="flex-shrink-1" alt="{{partner.description}}" style="max-width:200px; max-height:120px;" src="{{ partner.picture | relative_url }}"></th>
+    <img
+      class="flex-shrink-1"
+      alt="{{partner.description}}"
+      style="max-width: 200px; max-height: 120px"
+      src="{{ partner.picture | relative_url }}"
+    />
     {% endif %}
   </div>
 
