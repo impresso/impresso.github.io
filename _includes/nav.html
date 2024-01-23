@@ -135,35 +135,37 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
   // read current dark mode from localStorage
   const darkMode = localStorage.getItem("darkMode")
     // Check if the user prefers dark mode
-  const isPreferredColorSchemeDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-
+  const isPreferredColorSchemeDark = window.matchMedia?.('(prefers-color-scheme: dark)')?.matches;
+  // add initial class based on localStorage
   if (darkMode) {
-    if(darkMode === 'dark' && isPreferredColorSchemeDark ) {
-      // unset dark class mode
-      htmlBodyElement.classList.remove("dark");
-    } else if(darkMode === 'light' && !isPreferredColorSchemeDark ) {
-      // unset light class mode
-      htmlBodyElement.classList.remove("light");
-    } else {
-      // set dark class mode
-      htmlBodyElement.classList.add(darkMode);
-    }
+    htmlBodyElement.classList.add(darkMode);
+  } else if (isPreferredColorSchemeDark) {
+    htmlBodyElement.classList.add("dark");
+  } else {
+    htmlBodyElement.classList.add("light");
   }
+  
   console.info("[nav] darkMode:", darkMode, 'isPreferredColorSchemeDark:', isPreferredColorSchemeDark);
   // onclick, toggle dark mode
   navDarkModeToggler.addEventListener("click", () => {
-    const isDark = !!htmlBodyElement.classList.contains("dark");
-    const isLight = !!htmlBodyElement.classList.contains("light");
+    const isDark = htmlBodyElement.classList.contains("dark")
+    const isLight = htmlBodyElement.classList.contains("light")
     if (isDark) {
       htmlBodyElement.classList.remove("dark");
       htmlBodyElement.classList.add("light");
     } else if (isLight) {
       htmlBodyElement.classList.remove("light");
       htmlBodyElement.classList.add("dark");
-    } else {
-      htmlBodyElement.classList.add("dark");
     }
-    localStorage.setItem("darkMode", isDark ? "light" : "dark");
+    const currentDarkMode = isDark ? "light" : "dark";
+    // store current dark mode in localStorage only if differs from preferred color scheme
+    if ((currentDarkMode ==="light" && isPreferredColorSchemeDark) || (currentDarkMode ==="dark" && !isPreferredColorSchemeDark)) {
+      console.info("[nav] @click store in localStorage \n - darkMode:", currentDarkMode,'\n - isPreferredColorSchemeDark:', isPreferredColorSchemeDark)
+      localStorage.setItem("darkMode", currentDarkMode);
+    } else {
+      console.info("[nav] @click remove from localStorage \n - darkMode:", currentDarkMode,'\n - isPreferredColorSchemeDark:', isPreferredColorSchemeDark)
+      localStorage.removeItem("darkMode");
+    }
   });
 
   // on click on the nav, open the <ul>
