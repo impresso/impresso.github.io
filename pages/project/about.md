@@ -12,7 +12,7 @@ There are two _impresso_ projects with the second building on top of the first, 
 
 ## The first *impresso* project (2017-2020)
 
-The first *impresso* project was funded by the Swiss National Science Foundation (SNSF CR- SII5_173719) as part of the Sinergia funding programme. It developed a scalable architecture for the processing of Swiss and Luxembourgish newspaper collections and created the [*impresso* web application](https://impresso-project.ch/app/)  with powerful search, filter, and discovery functionalities based on semantic enrichments which targeted the historical research community at-large. To learn more about the first *impresso* project and its outputs, visit the [previous project homepage](https://impresso-project.ch/v1).
+The first *impresso* project was funded by the Swiss National Science Foundation (SNSF CR- SII5_173719) as part of the Sinergia funding programme. It developed a scalable architecture for the processing of Swiss and Luxembourgish newspaper collections and created the [*impresso* web application](https://impresso-project.ch/app/)  with powerful search, filter, and discovery functionalities based on semantic enrichments which targeted the historical research community at-large. To learn more about the first *impresso* project and its outputs, visit the [previous project homepage](https://v1.impresso-project.ch).
 
 ### Principal investigators of the first *impresso* project
 
@@ -22,7 +22,7 @@ The first *impresso* project was funded by the Swiss National Science Foundation
 
 ### How to cite the first *impresso* project
 
-> “*impresso*. Media Monitoring of the Past.” Supported by the Swiss National Science Foundation under grant CR- SII5_173719, 2019. [https://impresso-project.ch/v1](https://impresso-project.ch/v1).
+> “*impresso*. Media Monitoring of the Past.” Supported by the Swiss National Science Foundation under grant CR- SII5_173719, 2019. [https://impresso-project.ch/v1](https://v1.impresso-project.ch).
 
 ## The second *impresso* project (2023-2027)
 
