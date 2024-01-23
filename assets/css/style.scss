@@ -411,18 +411,15 @@ fieldset:disabled .btn-primary {
   right: 0;
 }
 
-#chimpSignup .btn-simple {
+#chimpSignup {
   height: auto;
-  width: 100%;
+  width: auto;
   border: 2px solid var(--bs-dark);
   border-radius: 18px;
-}
-
-a#chimpSignup {
   text-decoration: none;
-  color: var(--bs-dark-fixed);
-  .btn-simple:hover,
-  .btn-simple:focus {
+  color: var(--bs-dark);
+  &:hover,
+  &:focus {
     color: var(--bs-dark-fixed);
     border-color: var(--bs-dark-fixed);
     background-color: var(--bs-primary);
