@@ -138,6 +138,7 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
   const isPreferredColorSchemeDark = window.matchMedia?.('(prefers-color-scheme: dark)')?.matches;
   // add initial class based on localStorage
   if (darkMode) {
+    navDarkModeToggler.classList.add("active");
     htmlBodyElement.classList.add(darkMode);
   } else if (isPreferredColorSchemeDark) {
     htmlBodyElement.classList.add("dark");
@@ -162,9 +163,13 @@ parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
     if ((currentDarkMode ==="light" && isPreferredColorSchemeDark) || (currentDarkMode ==="dark" && !isPreferredColorSchemeDark)) {
       console.info("[nav] @click store in localStorage \n - darkMode:", currentDarkMode,'\n - isPreferredColorSchemeDark:', isPreferredColorSchemeDark)
       localStorage.setItem("darkMode", currentDarkMode);
+      // is active
+      navDarkModeToggler.classList.add("active");
     } else {
       console.info("[nav] @click remove from localStorage \n - darkMode:", currentDarkMode,'\n - isPreferredColorSchemeDark:', isPreferredColorSchemeDark)
       localStorage.removeItem("darkMode");
+      // is not active
+      navDarkModeToggler.classList.remove("active");
     }
   });
 
