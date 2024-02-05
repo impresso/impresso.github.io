@@ -21,7 +21,7 @@ We are happy to announce our first release since the launch of _impresso_ 2 - or
 
 ## _impresso_ 2 in a nutshell 
 
-The first _impresso_ project (2017-2020) compiled and semantically enriched a corpus of digitised Swiss and Luxembourg newspapers and designed a system architecture and user interface, which together form the impresso app.
+The first _impresso_ project (2017-2020) compiled and semantically enriched a corpus of digitised Swiss and Luxembourg newspapers and designed a system architecture and user interface, which together form the _impresso_ app.
 
 _impresso_ 2 continues these efforts and proposes to overcome language and media barriers and, for the first time, to enable joint exploration of newspaper and radio archive content across time, language and national borders. Leveraging an unprecedented corpus of transnational print and broadcast media, this second project aims to enrich and connect these sources into a common vector space, and to design appropriate, meaningful and transparent exploration graphical and API-based interfaces for historical research from a transmedia and transnational perspective. These efforts will be guided by original research on historical media ecosystems, which will explore these newly available data from the perspectives of (media) history and by using data-driven research methods.
 
@@ -29,7 +29,7 @@ We are honoured and excited to collaborate with Western European (old and new) [
 
 Since the official launch of the project in September 2023, we have been busy preparing the contractual foundations of the project, setting up data collection from our partners and, most importantly, assembling the new team.
 
-We are also pleased to announce a new project homepage,  and a new component for exploring text reuse data, as well as other updates to the impresso web app. Have a look!
+We are also pleased to announce a new project homepage, a new component for exploring text reuse data, as well as other updates to the _impresso_ web app. Have a look!
 
 ## New project home page
 
@@ -59,16 +59,16 @@ If you would like to know more about our work with Text Reuse, take a look at th
 
 ## _impresso_ widgets
 
-The _impresso_ widget allows you to embed public domain impresso content as iframes outside the web app.
+The _impresso_ widget allows you to embed public domain _impresso_ content as iframes outside the web app.
 
 {% assign figure=page.figure[2] %}
 {% include figure.html %}
 
-In discussions with journalists, the idea emerged to allow authors to include impresso content in publications. A classic example is press articles that refer to events in the past. Rather than simply providing a screenshot of a historical newspaper article, we wanted to give journalists the ability to embed the article in an iframe, allowing readers to not only read the article itself, but also to access additional  context via links to the page and the the entire issue. For copyright reasons, this feature is currently limited to public domain material.
+In discussions with journalists, the idea emerged to allow authors to include _impresso_ content in publications. A classic example is press articles that refer to events in the past. Rather than simply providing a screenshot of a historical newspaper article, we wanted to give journalists the ability to embed the article in an iframe, allowing readers to not only read the article itself, but also to access additional  context via links to the page and the the entire issue. For copyright reasons, this feature is currently limited to public domain material.
 
-## Where to meet the impresso team
+## Where to meet the _impresso_ team
 
-We are happy to hear from you, so please do not hesitate to contact us with any feedback or ideas you have for _impresso_. You can always reach us at info@impresso-project.ch, via the impresso user Slack group and at the following events - based on what we have confirmed at this stage:
+We are happy to hear from you, so please do not hesitate to contact us with any feedback or ideas you have for _impresso_. You can always reach us at info@impresso-project.ch, via the _impresso_ user Slack group and at the following events - based on what we have confirmed at this stage:
 
 ### DhD - Digital Humanities im deutschsprachigen Raum 2024 
 
@@ -76,12 +76,12 @@ Marten Düring offers a workshop titled [“Machine Learning to Read Yesterday�
 
 Planned for the 27th February from 9-12.30 in room WiWi SR 027.
 
-### Invited talk on impresso at LaTeCH-CLfL 2024			
+### Invited talk on _impresso_ at LaTeCH-CLfL 2024			
 
-Maud Ehrmann and Marten Düring will give an invited talk on impresso at the [8th Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature](https://sighum.wordpress.com/events/latech-clfl-2024/) (LaTeCH-CLfL 2024) collocated with the EACL 2024 conference on March 22nd in Malta.
+Maud Ehrmann and Marten Düring will give an invited talk on _impresso_ at the [8th Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature](https://sighum.wordpress.com/events/latech-clfl-2024/) (LaTeCH-CLfL 2024) collocated with the EACL 2024 conference on March 22nd in Malta.
 
 At the same workshop, Emanuela Boros will present an exploratory study on historical transcript post-correction with a large language model. 
 
 ### Participation to a track at AMLD 2024
 
-Maud Ehrmann will participate in a panel on “Natural language processing for GLAM collections" at the Applied Machine Learning Days on March 25th in Lausanne.
+Maud Ehrmann will participate in a panel on “Natural language processing for GLAM collections" at the [Applied Machine Learning Days](https://2024.appliedmldays.org/) on March 25th in Lausanne.
