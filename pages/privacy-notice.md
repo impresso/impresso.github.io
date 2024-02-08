@@ -7,7 +7,7 @@ parentUrl: /terms-of-use/
 
 This Privacy Notice explains how the _impresso_ project may process your personal data and the rights you are entitled to.
 
-## 1. About
+### 1. About
 
 **About this notice.** This Privacy Notice provides general information that applies in various situations, e.g.:
 
@@ -22,7 +22,7 @@ _Impresso_ aims to enable the joint exploration of newspaper and radio archive c
 
 _Impresso_ receives high-quality media archive collections from partner cultural heritage institutions (national libraries, archives, media institutions or newspapers) across Europe. Together, these collections form the _impresso_ corpus.
 
-## 2. Who is responsible for the processing of your personal data?
+### 2. Who is responsible for the processing of your personal data?
 
 The _impresso_ project is carried out by a consortium of four universities:
 
@@ -33,11 +33,11 @@ The _impresso_ project is carried out by a consortium of four universities:
 
 These partners are joint data controllers and processors of the personal data that is collected in the context of the activities of the _impresso_ project.
 
-## 3. Legal basis for data processing
+### 3. Legal basis for data processing
 
 The _impresso_ project collects and processes your personal data in accordance with the Regulation (EU) 2016/679 of the European parliament and of the Council of 27 April 2016 on the protection of natural persons with regards to the processing of personal data and on the free movement of such data (General Data Protection Regulation, hereinafter “GDPR”) and/or the Federal Act on Data Privacy of 25 September 2020 (“_Loi fédérale sur la protection des données_” (LDP), RS 235.1), as the case may be.
 
-## 4. Which personal data do we collect and for which purpose?
+### 4. Which personal data do we collect and for which purpose?
 
 The processing of your personal data is based on your consent. By registering for one of the situations listed below, you consent to the processing of the data necessary for the organisation and execution of that situation.
 
@@ -66,7 +66,7 @@ The processing of your personal data is based on your consent. By registering fo
 
   We automatically extract person names from the _impresso_ corpus using machine learning techniques and enriched them with additional information (e.g. life dates, images) derived from publicly accessible repositories such as Wikidata and VIAF. The aim is to enable historical research.
 
-## 5. Who accesses your data and to whom is it disclosed?
+### 5. Who accesses your data and to whom is it disclosed?
 
 With the exception of the Mailchimp newsletter (case 3 above), access to your data is only granted to project’s staff involved in the operation of the interface and API, communication activities and organisation of events. We will never sell your personal data for marketing purposes.
 
@@ -74,46 +74,46 @@ User data submitted to Mailchimp will also be accessible to Mailchimp in accorda
 
 In the case of event organisation, the _impresso_ project may use a ticketing and registration platform such as EventBrite, in which case your personal data will also be accessible to the platform, according to their [privacy notice](https://www.eventbrite.com/help/en-us/articles/460838/eventbrite-privacy-policy/).
 
-## 6. What are the data security measures?
+### 6. What are the data security measures?
 
 A number of technical and organisational measures have been put in place to protect your personal data. Technical measures include appropriate measures to address online security, risk of data loss, alteration or unauthorised access, taking into account the risk presented by the processing and the nature of the data being processed. Organisational measures include restricting access to data to authorised persons with a legitimate need to know for the purposes of this processing operation.
 
-## 7. Where is your data kept?
+### 7. Where is your data kept?
 
 With the exception of Mailchimp (Case 3 above), your personal data is mostly processed and stored within the European Union and Switzerland.
 
 The transfer of your contact details to Mailchimp, based in the United States, is ruled by the standard contractual clauses of the European Union as stated by Mailchimp (cf. [MailChimp Privacy Policy](https://www.intuit.com/privacy/statement/)). The same applies to EventBrite (cf. [EventBrite Privacy Policy](https://www.eventbrite.com/help/en-us/articles/460838/eventbrite-privacy-policy/)).
 
-## 8. How long do we keep your data?
+### 8. How long do we keep your data?
 
 - **Case 1**: Anonymised IP addresses are kept for the duration of the project months.
 - **Case 2**: The personal data of registered users will be kept for as long as the interface and API are maintained. This will be the case until the official end date of the project (28/02/2027), and beyond if the consortium continues to operate.
 - **Case 3**: The personal data collected by MailChimp is kept as long as the user keeps an account.
 - **Case 4**: The personal data collected in the context of events is kept until the end date of the project (28.02.2027). The purpose is follow-up actions to the event/conference. Data necessary for logistics purposes (refund of expenses, transport, etc.) are kept according to the rules set in the[ ETH Act](https://www.fedlex.admin.ch/eli/cc/1993/1945_1945_1945/fr) and in the[ EPFL financial regulation](https://www.epfl.ch/about/overview/wp-content/uploads/2021/01/LEX-5.1.1_FR.pdf).
 
-## 10. How do I unsubscribe from the _impresso_ interface?
+### 10. How do I unsubscribe from the _impresso_ interface?
 
 This procedure is not yet automated. To unsubscribe please send us an email to [info@impresso-project.ch](mailto:info@impresso-project.ch).
 
-## 11. Data protection rights
+### 11. Data protection rights
 
 You have the right to receive a copy of your personal data and you may request the correction of any personal data which is inaccurate or incomplete. You also have the right to object to the processing of your personal data for legitimate reasons as well as a right to object to the use of that data for prospecting in accordance with applicable laws. When the processing is based on your consent, you have the right to withdraw your consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal.
 
 The _impresso project_ reserves the right to refuse any abusive request or one which is contrary to applicable laws. Finally, you have the right to lodge a complaint with the relevant supervisory authority.
 
-## 12. How can you lodge a complaint?
+### 12. How can you lodge a complaint?
 
 If you consider that the Processing of personal data relating to you infringes the GDPR, you will have the right – without prejudice to any other administrative or judicial remedy – to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence, place of work or place of the alleged infringement.
 
 Further information on your rights from [University of Luxembourg](https://www.uni.lu/en/about/organisation/administration/data-protection/your-rights/); [EPFL](https://www.epfl.ch/about/presidency/presidents-team/legal-affairs/epfl-privacy-policy/); [UNIL](https://www.unil.ch/privacy/en/home/legalinformation.html) and [UZH](https://www.uzh.ch/en/privacy.html#12._Right_to_Information).
 
-## 13. Applicable law – jurisdiction
+### 13. Applicable law – jurisdiction
 
 The present Notice shall be governed and construed in accordance with Swiss law.
 
 Any dispute concerning the existence, interpretation or performance of this Notice which cannot be settle amicably, shall fall within the jurisdiction of the Courts of Switzerland, without prejudice to the rights of the Data Subjects to bring the matters before the court where he or she has her place of residence as well as its right to lodge a complaint with the supervisory authority.
 
-## 14. Contact
+### 14. Contact
 
 For any information concerning this Privacy Policy, please contact the impresso project at the following mailing address: [info@impresso-project.ch](mailto:info@impresso-project.ch). \
  \
