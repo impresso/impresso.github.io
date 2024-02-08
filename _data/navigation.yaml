@@ -53,5 +53,12 @@ languages:
             url: /consortium/partners/
           - title: 'Associated partners'
             url: /consortium/associated-partners/
+      - title: 'Legal'
+        url: /terms-of-use/
+        links:
+          - title: 'Terms of Use'
+            url: /terms-of-use/
+          - title: 'Privacy Notice'
+            url: /privacy-notice/
           # - title: 'Contributors'
           #   url: /consortium/contributors/
