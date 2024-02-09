@@ -61,7 +61,7 @@ human_date: Second or third week of January 2027
 ---
 ```
 
-If there is a blogpost associated with the event, add the link to the `blogpost` field in the front matter using the relative path to the blogpost. For example, if the blogpost is located at `/blog/2027-01-01-new-event/`, add the following line to the front matter:
+If there is a blogpost associated with the event, add the link to the `blogpost` field in the front matter using the relative path to the blogpost. For example, if the blogpost _md file_ is located at `_posts/2027-01-01-new-event.md`, add the proper url to the front matter, following the `permalink: /:categories/:year/:month/:day/:title:output_ext` pattern. For example, the front matter would look like this:
 
 ```diff
 ---
@@ -70,7 +70,19 @@ date: 2023-11-29
 start_date: 2027-01-01
 end_date: 2027-30-01
 human_date: Second or third week of January 2027
-+blogpost: /blog/2027-01-01-new-event/
++blogpost: /news/2027/01/01/new-event.html
+---
+```
+
+## How to add an announcement and link to a blogpost
+
+Announceents are displayed on the homepage. To add a new announcement, create a new Markdown file in the `_announcements` directory with a filename following the format `YYYY-MM-DD-short-slug.md`. For example, `2027-01-01-new-announcement.md`. Use the date of the announcement in the filename, as it is just being used to sort filenames in the directory. _Note: Jekyll would not render the file if the date in the filename is in the future, so you can safely create the file even if the announcement is not scheduled yet_.
+If you want to link the announcement irectly with a blogpost, use the `blogpost` field in the front matter using the relative path to the blogpost. For example, if the blogpost _md file_ is located at `_posts/2027-01-01-new-event.md`, add the proper url to the front matter, following the `permalink: /:categories/:year/:month/:day/:title:output_ext` pattern. For example, the front matter would look like this:
+
+```yaml
+---
+title: New announcement
+blogpost: /news/2027/01/01/new-event.html
 ---
 ```
 

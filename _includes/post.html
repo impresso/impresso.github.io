@@ -1,5 +1,4 @@
 <div class="post int-btn pb-4 {{ include.classname}}">
-  
   <div>
     <div class="image-date-title">
       {% if post.thumbnail %}{% assign thumbnail=post.thumbnail %}{% else %}{%
@@ -18,12 +17,15 @@
         <h3 class="mt-2"><a href="{{post.url}}">{{post.title}}</a></h3>
         {% if post.authors %}
         <div>
-          {% for author in post.authors %}{% include author.html %}{% if post.authors.size > 1 %}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+          {% for author in post.authors %}{% include author.html %}{% if
+          post.authors.size > 1 %}{% unless forloop.last %},{% endunless %}{%
+          endif %}{% endfor %}
         </div>
-        {% endif %}
-        {% if post.categories %}
+        {% endif %} {% if post.categories %}
         <div>
-          {% for category in post.categories %}{% include category.html %}{% if post.categories.size > 1 %}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+          {% for category in post.categories %}{% include category.html %}{% if
+          post.categories.size > 1 %}{% unless forloop.last %},{% endunless %}{%
+          endif %}{% endfor %}
         </div>
         {% endif %}
         <div class="anchor" id="{{post.slug}}"></div>
@@ -32,14 +34,16 @@
     <div class="mt-lg-4 mt-3 me-4">{{post.excerpt}}</div>
   </div>
   <div>
-    <button
-      type="button"
-      class="btn btn-secondary btn-md small-caps d-flex align-items-center"
-    >
-      <span class="small-caps fw-bold">read more</span>
-      <span class="ms-2 icon-container">
-        {% include icons/arrow-right.svg size=18 %}</span
+    <a href="{{ post.url }}">
+      <button
+        type="button"
+        class="btn btn-secondary btn-md small-caps d-inline-flex align-items-center"
       >
-    </button>
+        <span class="small-caps fw-bold">read more</span>
+        <span class="ms-2 icon-container">
+          {% include icons/arrow-right.svg size=18 %}</span
+        >
+      </button>
+    </a>
   </div>
 </div>

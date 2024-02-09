@@ -1,16 +1,10 @@
+{% if announcement.blogpost %} {% assign externalurl=announcement.blogpost %} {%
+else %} {% assign externalurl=announcement.url %} {% endif %}
 <div class="Announcement int-btn">
   <h4 class="pb-2">{{announcement.title}}</h4>
   <div class="">{{announcement.content}}</div>
-  <!-- <div class="text-end border-bottom border-dark position-relative">
-    <a
-      href="{{ announcement.url }}"
-      class="btn btn-transparent position-absolute bottom-0"
-      style="right: -12px"
-      >{% include icons/arrow-right.svg %}</a
-    >
-  </div> -->
   <div>
-    <a href="{{ announcement.url }}">
+    <a href="{{ externalurl }}">
       <button
         type="button"
         class="btn btn-secondary btn-md small-caps d-flex align-items-center"
