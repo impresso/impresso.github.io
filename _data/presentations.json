@@ -1,5 +1,747 @@
 [
   {
+    "key": "V8CJ55IW",
+    "version": 7226,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/V8CJ55IW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/V8CJ55IW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-07-02",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/V8CJ55IW",
+      "type": "speech",
+      "title": "impresso - Media Monitoring of the Past I+II  Beyond Borders: Connecting Historical Newspapers and Radio",
+      "publisher-place": "Online",
+      "event": "Entangled Media Histories Lunch Seminars / Digital History Seminar",
+      "event-place": "Online",
+      "shortTitle": "impresso - Media Monitoring of the Past I+II  Beyond Borders: Connecting Historical Newspapers and Radio",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            2
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "2LM7VBT8",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/2LM7VBT8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/2LM7VBT8",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/2PDNPFVT",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2018-11-15",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/2LM7VBT8",
+      "type": "speech",
+      "title": "impresso. Mining 200 years of historical newspapers",
+      "publisher-place": "Amsterdam",
+      "event": "De (verborgen) wereld achter vindbare oorlogsbronnen",
+      "event-place": "Amsterdam",
+      "URL": "https://www.oorlogsbronnen.nl/nieuws/de-verborgen-wereld-achter-vindbare-oorlogsbronnen",
+      "language": "nl",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            11,
+            15
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            14
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "QWSKUI26",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/QWSKUI26",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/QWSKUI26",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2023-05-30",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/QWSKUI26",
+      "type": "speech",
+      "title": "Machine Learning to Read Yesterday’s News",
+      "publisher-place": "TU Darmstadt",
+      "genre": "Presentation",
+      "event": "Humanities Data Science and Methodology Lecture Series",
+      "event-place": "TU Darmstadt",
+      "abstract": "Newspapers count among the most attractive sources for historical research. Following mass digitisation efforts over the past decades, researchers now face the problem of overabundance of materials which can no longer be managed with keyword search and basic content filtering techniques alone even though only a fraction of the overall archival record has actually been made available. This poses challenges for the contextualisation and critical assessment of these sources which can be effectively addressed using semantic enrichments based on natural language processing techniques. In this lecture we will discuss epistemological challenges in data exploration and interface design as well as opportunities in terms of source criticism and content exploration, based on the impresso interface.",
+      "URL": "https://hdsm.hypotheses.org/639",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            30
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "63V57ZR2",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/63V57ZR2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/63V57ZR2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2023-12-10",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/63V57ZR2",
+      "type": "speech",
+      "title": "impresso - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio",
+      "publisher-place": "Berlin",
+      "genre": "Presentation",
+      "event": "ModelSEN Workshop \"Modelling Knowledge and Evolution of Science\"",
+      "event-place": "Berlin",
+      "abstract": "impresso. Media Monitoring of the Past is an interdisciplinary research project in which a team of computational linguists, designers and historians collaborate on the datafication of a multilingual corpus of  historical media. The primary goals of the project are to improve text mining tools for historical text, to enrich historical documents with (semi-) automatically generated data and to integrate such data into historical research workflows by means of newly developed user interfaces.\n \nIn a first phase (2017-2020), impresso enriched a corpus of 76 newspapers from Luxembourg and Switzerland using text mining techniques which included, for example, named entity recognition, topic modeling, content type and text reuse detection as well as image similarity detection. In parallel, impresso developed a research platform for the exploration and critical study of this enriched data which is freely available at https://impresso-project.ch/app/. \n \nIn a second phase (2023-2027) impresso will expand its corpus to include newspapers and radio collections from 20 Western European libraries, archives and private partners. Among the objectives is the creation of a dense vector space which will enable new comparative views of such document collections across time, languages and media types. In addition, impresso will develop new interfaces for the computational analysis of this data by means of user-facing APIs and executable notebooks.\n \nThe presentation will reflect on usages of the existing application, its added value for historians and the challenges we have observed over the past years. Finally, we will give an outlook on work planned in the coming years.",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            10
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "AD398KYT",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/AD398KYT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/AD398KYT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2023-07-12",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/AD398KYT",
+      "type": "speech",
+      "title": "impresso - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio",
+      "publisher-place": "Esch-sur-Alzette",
+      "genre": "Lecture",
+      "event": "Centre of Competence for Data Science and Simulation (DSS) Data Science Lunch Discussion Series",
+      "event-place": "Esch-sur-Alzette",
+      "abstract": "impresso. Media Monitoring of the Past is an interdisciplinary research project in which a team of computational linguists, designers and historians collaborate on the datafication of a multilingual corpus of  historical media. The primary goals of the project are to improve text mining tools for historical text, to enrich historical documents with (semi-) automatically generated data and to integrate such data into historical research workflows by means of newly developed user interfaces.\n\nIn a first phase (2017-2020), impresso enriched a corpus of 76 newspapers from Luxembourg and Switzerland using text mining techniques which included, for example, named entity recognition, topic modeling, content type and text reuse detection as well as image similarity detection. In parallel, impresso developed a research platform for the exploration and critical study of this enriched data which is freely available at https://impresso-project.ch/app/.\n\nIn a second phase (2023-2027) impresso will expand its corpus to include newspapers and radio collections from 20 Western European libraries, archives and private partners. Among the objectives is the creation of a dense vector space which will enable new comparative views of such document collections across time, languages and media types. In addition, impresso will develop new interfaces for the computational analysis of this data by means of user-facing APIs and executable notebooks.\n\nThe lecture will cover the main challenges the project faced, its modus operandi to enable interdisciplinarity, include a short demo of the interface as well as an outlook on work planned in the coming years.",
+      "URL": "https://www.liser.lu/?type=module&id=286&tmp=3120",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            12
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "YRPPJLK2",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/YRPPJLK2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/YRPPJLK2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2023-09-14",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/YRPPJLK2",
+      "type": "speech",
+      "title": "impresso. Media Monitoring of the Past",
+      "publisher-place": "Esch-sur-Alzette",
+      "genre": "Presentation",
+      "event": "DIFEM 2023 – Doctoriales internationales francophones en études des médias – A history of online virality",
+      "event-place": "Esch-sur-Alzette",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            14
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "FINRZXGU",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/FINRZXGU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/FINRZXGU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2023-10-18",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/FINRZXGU",
+      "type": "speech",
+      "title": "impresso - Media Monitoring of the Past Machine Learning to Read Yesterday’s News. How semantic enrichments enhance the study of digitised historical newspapers",
+      "publisher-place": "Lund University",
+      "genre": "Workshop",
+      "event": "EUROPAST Workshop",
+      "event-place": "Lund University",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            18
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "3D3Y5SA2",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/3D3Y5SA2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/3D3Y5SA2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2023-11-15",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/3D3Y5SA2",
+      "type": "speech",
+      "title": "Historische Medien und Maschinelles Lernen. Vom Zusammenspiel von Infrastrukturen, Methoden und Akteuren",
+      "publisher-place": "University Library Marburg",
+      "genre": "Lecture",
+      "event": "Studium Generale \"Vernetzte Welt(Kultur)\"",
+      "event-place": "University Library Marburg",
+      "abstract": "Historische Medien spiegeln die Werte- und Wissenshorizonte vergangener Zeiten wider. Für ihre Erforschung werden auch zunehmend Methoden des maschinellen Lernens genutzt. In den letzten Jahren sind neben Volltextsuchen weitere Methoden hinzugekommen: Topic modeling, Bildähnlichkeitsanalysen, Text Reuse Detection, Spracherkennung, oder Word Embeddings eröffnen jeweils neue Zugänge zu großen Textsammlungen. Realisiert werden solche semantischen Anreicherungen von zumeist interdisziplinär besetzten Teams, die in enger Abstimmung an technischen Infrastrukturen, Methoden, Bedarfsanalysen und den Interaktionsmöglichkeiten mit den angereicherten Daten arbeiten.\n \nDer Vortrag thematisiert unterschiedlichen Dimensionen von Vernetzungen innerhalb des seit 20217 bestehenden Projekts „impresso. Media Monitoring of the Past“.\nAuf der Ebene einer Forschungsinfrastruktur (impresso-project.ch/app) vernetzt es historische Zeitungs- und Radioquellen über Sprach- und Ländergrenzen hinweg und auf Basis semantischer Anreicherungen. Auf der Ebene interdisziplinärer Forschung schafft es einen Zwischenraum der zustande kommt durch sich wechselseitig inspirierende Inputs aus Informatik, Design und Geschichtsforschung. Auf der Ebene historischer Forschung interagieren NutzerInnen innerhalb der zugehörigen Anwendung mit einer Vielzahl von maschinell generierten Verknüpfungen mit dem Ziel, neue Perspektiven auf historische Medien zu erlangen.",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            15
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "SVKRRVY6",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/SVKRRVY6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/SVKRRVY6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2023-11-16",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/SVKRRVY6",
+      "type": "speech",
+      "title": "impresso. Media Monitoring of the Past",
+      "publisher-place": "European Parliament",
+      "genre": "Presentation",
+      "event": "Workshop \"Artificial Intelligence in Archives\"",
+      "event-place": "European Parliament",
+      "abstract": "In the impresso project, a team of computational linguists, historians and designers strive to enable data-driven analyses of historical media across time, institutional silos, media types and languages. To this end we compile a corpus of historical newspaper and radio collections with the help of Western European partners, enrich it using text mining techniques and develop user interfaces for their exploration and computational analysis.",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            16
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "RC9V96Q5",
+    "version": 7159,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/RC9V96Q5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/RC9V96Q5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2023-11-24",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/RC9V96Q5",
+      "type": "speech",
+      "title": "impresso Text Reuse at Scale",
+      "publisher-place": "University of Helsinki",
+      "genre": "Presentation",
+      "event": "Quantitative analysis of text reuse. Towards a methodology",
+      "event-place": "University of Helsinki",
+      "URL": "https://blogs.helsinki.fi/quantitative-text-reuse-2023/",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            24
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "SPA995XH",
+    "version": 7158,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/SPA995XH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/SPA995XH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann and Düring",
+      "parsedDate": "2023",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/SPA995XH",
+      "type": "speech",
+      "title": "impresso. Media Monitoring of the Past",
+      "publisher-place": "London",
+      "genre": "Presentation",
+      "event": "Workshop \"AI and Historical Newspapers\"",
+      "event-place": "London",
+      "URL": "https://livingwithmachines.ac.uk/event/workshop-ai-and-historical-newspapers/",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2023"
+          ]
+        ],
+        "season": "11.5"
+      }
+    }
+  },
+  {
     "key": "9ITBAK5X",
     "version": 6971,
     "library": {
@@ -187,201 +929,6 @@
             2023,
             11,
             15
-          ]
-        ]
-      }
-    }
-  },
-  {
-    "key": "9EY84D7F",
-    "version": 6951,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/9EY84D7F",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/9EY84D7F",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 1368619,
-        "username": "mduering",
-        "name": "",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/mduering",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Düring",
-      "parsedDate": "2023-12-10",
-      "numChildren": 0
-    },
-    "csljson": {
-      "id": "4709830/9EY84D7F",
-      "type": "speech",
-      "title": "impresso - Media Monitoring of the Past I+II Beyond Borders: Connecting Historical Newspapers and Radio",
-      "publisher-place": "Berlin / online",
-      "event": "Workshop – Modelling Knowledge and Evolution of Science",
-      "event-place": "Berlin / online",
-      "abstract": "Lecture",
-      "author": [
-        {
-          "family": "Düring",
-          "given": "Marten"
-        }
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2023,
-            12,
-            10
-          ]
-        ]
-      }
-    }
-  },
-  {
-    "key": "4RQ4D5Z9",
-    "version": 6952,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/4RQ4D5Z9",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/4RQ4D5Z9",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 1368619,
-        "username": "mduering",
-        "name": "",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/mduering",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Düring",
-      "parsedDate": "2023-11-16",
-      "numChildren": 0
-    },
-    "csljson": {
-      "id": "4709830/4RQ4D5Z9",
-      "type": "speech",
-      "title": "Impresso. Media Monitoring of the Past",
-      "publisher-place": "Luxembourg",
-      "event": "Workshop on “AI in the Archives”",
-      "event-place": "Luxembourg",
-      "abstract": "Lecture",
-      "author": [
-        {
-          "family": "Düring",
-          "given": "Marten"
-        }
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            16
-          ]
-        ]
-      }
-    }
-  },
-  {
-    "key": "5FBD675E",
-    "version": 6953,
-    "library": {
-      "type": "group",
-      "id": 1486708,
-      "name": "impresso",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/1486708",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/5FBD675E",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/5FBD675E",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 1368619,
-        "username": "mduering",
-        "name": "",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/mduering",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Düring",
-      "parsedDate": "2023-10-18",
-      "numChildren": 0
-    },
-    "csljson": {
-      "id": "4709830/5FBD675E",
-      "type": "speech",
-      "title": "The Impresso project: overview and demo",
-      "publisher-place": "Lund",
-      "genre": "Workshop",
-      "event": "EUROPAST: Researchers & Managers Lab",
-      "event-place": "Lund",
-      "author": [
-        {
-          "family": "Düring",
-          "given": "Marten"
-        }
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2023,
-            10,
-            18
           ]
         ]
       }

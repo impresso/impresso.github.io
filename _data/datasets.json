@@ -245,7 +245,7 @@
   },
   {
     "key": "G5F23MMS",
-    "version": 7005,
+    "version": 7191,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -279,6 +279,17 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Barman et al.",
       "parsedDate": "2021-01",
       "numChildren": 0
@@ -291,7 +302,6 @@
       "version": "0.1",
       "URL": "https://doi.org/10.5281/zenodo.3706863",
       "DOI": "10.5281/zenodo.3706863",
-      "note": "Citation Key: barman_2021_3706863",
       "author": [
         {
           "family": "Barman",
