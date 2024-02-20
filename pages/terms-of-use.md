@@ -9,19 +9,19 @@ In the GUI, the ToU are displayed at multiple instances and are accessible from 
 
 - ToU are displayed to anyone accessing the GUI in a new browser session. Users must agree to the ToU in order to continue their exploration.
 - ToU are displayed when a GUI or API user account is created. The user must agree to and sign the ToU (clickwrap). His/her consent is recorded.
-- ToU are visible at a dedicated URL ([https://impresso-project.ch/app/terms-of-use](https://impresso-project.ch/app/terms-of-use)[^1]).
+- ToU are visible at a dedicated URL ([https://impresso-project.ch/app/terms-of-use](https://impresso-project.ch/app/terms-of-use)).
 
 - Elements of the ToU are included in the FAQ page ([https://impresso-project.ch/app/faq](https://impresso-project.ch/app/faq)), which contains information about what users can and cannot do.
 
-The Terms of Use are shown below. If changes are required to these ToU, the* impresso* Project will request approval from the institution(s) via email.
+The Terms of Use are shown below. If changes are required to these ToU, the* impresso* Project will request approval from the institution(s) via email. Please note that URLs may change during the project.
 
 **Signature.** The User's acceptance to the ToU will be by means of a clickwrap in which the User agrees to and accepts the ToU. This acceptance is recorded when a GUI or API user account is created and is considered an original signature.
 
-**LAST UPDATE: **[date]
+**LAST UPDATE: ** 20 Feb 2024
 
-## 1. About
+## 1. About Impresso Project.
 
-**Impresso Project. **“_impresso_ - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio” (“_impresso_”) is a research project funded by the Swiss National Science Foundation (SNSF 213585) and the Luxembourg National Research Fund (FNR).
+“_impresso_ - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio” (“_impresso_”) is a research project funded by the Swiss National Science Foundation (SNSF 213585) and the Luxembourg National Research Fund (FNR).
 
 _Impresso_ aims to enable the joint exploration of newspaper and radio archive contents across time, language and national borders by co-designing and developing an open and generic technological framework for the seamless exploration of semantically connected media archives across languages. The project develops natural language processing techniques to enrich the media archives with semantic annotations and to advance digital history research and methods. _Impresso_ designs, implements and provides access to a Graphical User Interface (“interface”) and an Application Programming Interface (API) to explore, visualise and compare vast amounts of historical print and audio collections.
 
@@ -35,21 +35,21 @@ _Impresso_ reserves the right to modify the ToU at any time in order to adapt th
 
 There are three types of Data available through the _impresso_ interface and API:
 
-### 1. Media Archives\*\*, that is:
+### 1. Media Archives, that is:
 
 - fac-similes (images) of newspapers or radio magazines;
 - audio records of radio programmes;
 - text transcriptions of fac-similes and audio record recognised via optical character recognition (OCR) or automatic speech to text (ASR) techniques.
 
-### 2. Newspaper and Radio Collection Metadata\*\* (“Metadata”)
+### 2. Newspaper and Radio Collection Metadata (“Metadata”)
 
 that is descriptive (e.g. title, dates, place of publication), structural (issue, page, content items), and administrative (file timestamps, file creator, preservation metadata) metadata. The metadata is provided by cultural institutions and in most cases completed by the _impresso_ team (either technical or descriptive metadata).
 
-### 3. Semantic Annotations \*\*correspond to various types of structured information and computational representations extracted or computed from the collections by the Impresso project.
+### 3. Semantic Annotations correspond to various types of structured information and computational representations extracted or computed from the collections by the Impresso project.
 
 Semantic annotations include, for example, the output of linguistic pre-processing, word embeddings, OCR quality assessment, n-grams, named entity mentions and entities, topics and topic models, text re-use clusters and passage and image visual signatures.
 
-## 3. SERVICES PROVIDED BY THE IMPRESSO INTERFACE AND API.\*\*
+## 3. SERVICES PROVIDED BY THE IMPRESSO INTERFACE AND API.
 
 The _impresso_ interface and API allow Users to search, browse, explore and compare the content of Media Archives, their Metadata and Semantic Annotations free of charge.
 
@@ -77,7 +77,7 @@ Media Archives, Metadata and Semantic Annotations are subject to various copyrig
 
 **Media Archives. **With respect to Media Archives**,** _impresso_ has received permission from cultural heritage institutions and rights holders to put their works on the internet via an interface and an API, provided that you, as a User, adhere to these terms of use.
 
-There are two Categories of Access and Use\*\* \*\*associated with the Media Archives accessible through the _impresso_ interface and API:
+There are two Categories of Access and Use associated with the Media Archives accessible through the _impresso_ interface and API:
 
 1. **Public Domain**: for all Media Archive data that is in the public domain, no restrictions apply. For the avoidance of doubt, Public Domain Media Archive data refers to data that is ineligible for copyright protection or whose copyright has expired and is therefore freely available to everyone. Within the _impresso_ interface and API, this data is labelled as “Public Domain”. Users shall respect best academic and scientific citation practices as specified in Section 6.
 2. **Academic Use**: for all Media Archive data that is still under copyright and not in the public domain, only academic, educational and personal use is permitted. Academic Use include the following:
@@ -95,7 +95,7 @@ The Category of Access and Use of Media Archive data item(s) is indicated at the
 
 If uncertain about the Category of Access and Use of Media Archive data item(s) or if there is no clear indication of this, the User must treat the item(s) as if it were of “Academic Use” and discuss any questions he/she has with a representative of the _impresso_ project.
 
-**Newspaper and radio collection metadata** Except mentioned otherwise, all newspaper metadata material is free of use, under a CC BY 4.0 licence.
+**Newspaper and radio collection metadata**: Except mentioned otherwise, all newspaper metadata material is free of use, under a CC BY 4.0 licence.
 
 **Semantic annotations** are visible through the _impresso_ interface and used as facets mainly. They are also part of the content that users can export as CSV or access via the API. Furthermore, they will also be released at the end of the project as datasets. In all their forms and if not specified otherwise, semantic annotations are under a CC-BY-SA 4.0 licence.
 
@@ -126,15 +126,3 @@ _Impresso_ project and its associated cultural heritage partners assumes no liab
 **9. CONTACT.**
 
 For any other questions please contact info[at]impresso-project[.]ch
-
-**Clickwrap: **
-
-```
-I have read and I agree to the Terms of Use.
-```
-
-<!-- Footnotes themselves at the bottom. -->
-
-## Notes
-
-[^1]: URLs may change during the project.
