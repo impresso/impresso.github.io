@@ -19,6 +19,7 @@ exclude:
   - dep_pages
   - node_modules
   - v1.0.0
+  - vendor/bundle
 publisher:
   name: impresso
 
@@ -31,7 +32,7 @@ contacts:
     url: https://github.com/impresso
     name: impresso
   mailinglist:
-    url: https://mailchi.mp/1a05f946a602/w826p8gjtz 
+    url: https://mailchi.mp/1a05f946a602/w826p8gjtz
     name: impresso-project
 
 collections:
