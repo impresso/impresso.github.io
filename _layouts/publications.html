@@ -1,0 +1,66 @@
+---
+layout: page
+---
+
+{% assign bib_json_items = site.data[page.bib_json_name] %} {{ content }}
+<div id="loading" class="mt-5">Loading...</div>
+<div id="bibliography" class="mt-5"></div>
+
+<script></script>
+<script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
+
+<script async>
+  function log (msg) {
+    document.getElementById('loading').innerHTML = msg
+  }
+  const templateName = 'chicago-fullnote-bibliography'
+  const cls_style_url =  '{{ '/assets/cls/styles/' | relative_url }}/chicago-fullnote-bibliography.csl'
+  const items = {{ bib_json_items | jsonify }};
+
+  const Cite = require('citation-js')
+  const config = Cite.plugins.config.get('@csl')
+
+  log('cls_style to load' + cls_style_url)
+  // load XML cls style from assets xml
+  fetch(cls_style_url)
+    .then(response => response.text())
+    .then(template => {
+      log('loaaded' + templateName)
+      config.templates.add(templateName, template)
+      log('')
+      const sortedItems = items.sort((a, b) => {
+        if(!a.meta.parsedDate) {
+          return 1
+        }
+        if(!b.meta.parsedDate) {
+          return -1
+        }
+        const dateA = a.meta.parsedDate;
+        const dateB = b.meta.parsedDate;
+        // compare strings
+        return dateB.localeCompare(dateA);
+      });
+
+      document.getElementById('bibliography').innerHTML = '<div class="mb-3">' + sortedItems.map(d => {
+        const bib = new Cite(d.csljson).format('bibliography', {
+          format: 'html',
+          template: templateName,
+          lang: 'en-US',
+          prepend: (d) => {
+            return `<b>${d.title}</b><br/>`
+          },
+          append: (d) => {
+            if(d.DOI) {
+              const url = `<br/><a href="https://doi.org/${d.DOI}" target="_blank">&rarr; link</a>`
+              return url
+            } else if(d.URL) {
+              const url = `<br/><a href="${d.URL}" target="_blank">&rarr; link</a>`
+              return url
+            }
+            return ''
+          }
+        })
+        return bib
+      }).join('</div><div class="mb-3">') + '</div>'
+    })
+</script>

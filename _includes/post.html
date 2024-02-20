@@ -1,16 +1,49 @@
-<div class='item respect-margin' >
-  <div class='anchor' id='{{post.slug}}'></div>
-  <div class="blogExcerpt">
-    <h2><a href='{{post.url}}'>{{post.title}}</a></h2>  
-    <div class='incipit'>{{post.date | date: "%a, %d.%m %Y"}}&nbsp;&mdash;&nbsp;</div>
-    {{post.excerpt}}
-    <a href="{{post.url}}">read more</a>
+<div class="post int-btn pb-4 {{ include.classname}}">
+  <div>
+    <div class="image-date-title">
+      {% if post.thumbnail %}{% assign thumbnail=post.thumbnail %}{% else %}{%
+      assign thumbnail=post.figure[0] %}{% endif %} {% if thumbnail != nil %}
+      <div class="image-mask mt-3 me-4">
+        <img class='blogThumb border-top border-dark' src='{{ '/assets/images/'
+        | relative_url }}{{thumbnail.src}}' alt='{{ thumbnail.caption }}' />
+      </div>
+      {% endif %}
+
+      <div class="date-title mt-3 me-4">
+        <div class="incipit">
+          <span>{{post.date | date: "%a, %d.%m %Y"}}</span>
+          <div class="hr"></div>
+        </div>
+        <h3 class="mt-2"><a href="{{post.url}}">{{post.title}}</a></h3>
+        {% if post.authors %}
+        <div>
+          {% for author in post.authors %}{% include author.html %}{% if
+          post.authors.size > 1 %}{% unless forloop.last %},{% endunless %}{%
+          endif %}{% endfor %}
+        </div>
+        {% endif %} {% if post.categories %}
+        <div>
+          {% for category in post.categories %}{% include category.html %}{% if
+          post.categories.size > 1 %}{% unless forloop.last %},{% endunless %}{%
+          endif %}{% endfor %}
+        </div>
+        {% endif %}
+        <div class="anchor" id="{{post.slug}}"></div>
+      </div>
+    </div>
+    <div class="mt-lg-4 mt-3 me-4">{{post.excerpt}}</div>
   </div>
-  
-  {% if post.thumbnail %}{% assign thumbnail=post.thumbnail %}{% else %}{% assign thumbnail=post.figure[0] %}{% endif %} 
-  {% if thumbnail != nil %}
-  <img class='blogThumb' src='{{ '/assets/images/' | relative_url }}{{thumbnail.src}}' alt='{{ thumbnail.caption }}' />
-  {% endif %}
-  
-  <div class="clear"></div>
+  <div>
+    <a href="{{ post.url }}">
+      <button
+        type="button"
+        class="btn btn-secondary btn-md small-caps d-inline-flex align-items-center"
+      >
+        <span class="small-caps fw-bold">read more</span>
+        <span class="ms-2 icon-container">
+          {% include icons/arrow-right.svg size=18 %}</span
+        >
+      </button>
+    </a>
+  </div>
 </div>

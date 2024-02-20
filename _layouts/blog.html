@@ -1,22 +1,37 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="page blog">
+{% if page.category %}
+  {% assign posts=site.posts | where: "categories", page.category | where: "status", "published" | sort: "date" | reverse %} 
+{% else %}
+  {% assign posts=site.posts | where: "status", "published" | sort: "date" | reverse %} 
+{% endif %}
 
-  <div class="wrapper">
-    <h1 class="page-title">{{page.title}}</a></h1>
+{% assign categories = "NLP,history,design,calls,documentation,events" | split: "," %}
+
+<ul class="nav nav-pills">
+  <li class="nav-item ">
+    <a class="nav-link {% unless page.category %} active {% endunless %}" href="/blog">all blog posts 
+      <span class="badge rounded-pill {% if page.category %}  text-bg-light {% else %}  text-bg-dark {% endif %}">{{ site.posts | size}}</span>
+    </a>
+  </li>
+  {% for category in categories %}
+    {% assign category_url = "/blog/" | append: category %}
+    {% assign category_posts = site.posts | where: "categories", category %}
+    {% if category_posts.size == 0 %}{% continue %}{% endif %}
+    <li class="nav-item ">
+      <a class="nav-link {% if page.url == category_url %} active {% endif %}" href="{{ category_url | absolute_url }}">
+        {{ category }}
+        <span class="badge rounded-pill {% if page.url == category_url %} text-bg-dark {% else %} text-bg-light {% endif %}">{{ category_posts | size}}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<main class="container-fluid g-0">
+  <div class="row g-0">
+    {% for post in posts %}
+    <div class="col-lg-6 py-3">{% include post.html classname="h-100"%}</div> {% endfor %}
   </div>
-
-  <section class='last'>
-  <div class="wrapper">
-    <div class="headline"></div>
-    <blockquote class='summary respect-margin'>{{page.content}}</blockquote>
-    {% assign published = site.posts | where: "status", "published" %}
-    {% for post in published %}
-    {% include post.html %}
-    {% endfor %}
-  </div>
-</section>
-
-</div>
+</main>

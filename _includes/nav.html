@@ -1,48 +1,266 @@
-<ul>
-          {% for item in nav.links %}
-          {% if item.url != '/application/' %}
-          <li {% if page.url == item.url %} class="active" {% else %} {% if item.url == page.parenturl %} class="active" {% endif %} {% endif %}>
+{% assign nav = site.data.navigation.languages[lang] | default:
+site.data.navigation.languages.en %} {% assign url_parts = page.url | split: '/'
+%} {% assign parentUrl = page.parentUrl %} {% unless parentUrl %} {% assign
+parentUrl = url_parts | slice: 0, 2 | join: "/" | append: "/" %} {% endunless %}
 
-            {% if item.links %}
-            <div class='collapsible-toggler {% if item.url == page.parenturl %} force-active active {% endif %}'>{{item.title}} {% include plus.html %}</div>
-            <div class='collapsible {% if item.url == page.parenturl %} force-active active {% endif %}'>
-              <ul>
-                {% for subitem in item.links %}
-                <li {% if page.url == subitem.url %} class="active" {% endif %} >
+<aside
+  id="Nav" class="Nav container-fluid h-100 position-fixed d-md-block g-0"
+  style="z-index: var(--z-index-aside)"
+  aria-label="website menu"
+>
+  <div class="row g-0 h-100">
+    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-2 col-xxl-2 d-flex flex-column h-100 g-0">
+      <ul class="nav flex-column flex-grow-1 mb-3">
+        <li
+          class="nav-item squared position-relative"
+        >
+          <a href="/" class="position-absolute start-0 mt-2 ms-2 top-0" >
+            <button type="button" class="btn btn-simple" aria-label="go to home page">
+              <span class="icon-container">
+                {% include icons/home-simple-door.html %}</span
+              >
+            </button>
+          </a>
+          <button
+            type="button"
+            aria-label="toggle dark mode"
+            class="position-absolute end-0 top-0 mt-2 me-2 btn btn-simple"
+            id="Nav__darkModeToggler"
+          >
+            <span class="icon-container">
+              {% include icons/dark-mode.html %}</span
+            >
+          </button>
 
-                  <a href="{{subitem.url | relative_url}}">{{subitem.title}}</a>
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% else %}
-            <a href="{{item.url | relative_url }}">{{item.title}}</a>
-
-            {% endif %}
-          </li>
+          <div
+            class="position-absolute top-0 start-0 end-0 bottom-0 d-flex align-items-center justify-content-center"
+          >
+            {% comment %} logo {% endcomment %}
+            <a class="nav-link" href="{{site.baseurl}}/">
+              <div>{% include logos/Impresso_logo.svg %}</div>
+            </a>
+          </div>
+        </li>
+        <!-- <li>{{ parentUrl }}</li> -->
+        {% for item in nav.links %}
+        <li
+          class="nav-item ms-5 position-relative {% if item.links %} with-links {% endif %}{% if item.url == parentUrl %} force-open open active {% endif %}{% if item.url == page.url %} active {% endif %}"
+        >
+          <a class="nav-link small-caps" href="{{ item.url }}" tabindex="0"
+            ><span>{{ item.title }}</span></a
+          >
+          {% if item.links %}
+          <button
+            class="btn btn-transparent Nav__dropdownToggler position-absolute"
+            aria-label="toggle sub-menu"
+          >
+            {% include icons/plus.html %}
+          </button>
+          <ul>
+            {% for subitem in item.links %}
+            <li
+              class="nav-item {% if subitem.url == page.url %} active {% endif %} {% if item.url == parentUrl %} open {% endif %}"
+            >
+              <a class="nav-link" href="{{ subitem.url }}" tabindex="0"
+                ><span>{{ subitem.title }}</span></a
+              >
+            </li>
+            {% endfor %}
+          </ul>
           {% endif %}
-          {% endfor %}
-
-          <li>
-            <table style='height: 40px;'>
-              <tr>
-                <th>
-                  <a href='#' title='email' onclick="almostObfuscatedEmail(this)"><span class='icon icon-envelope-letter'></span></a>
-                </th>
-                <th>
-                  <a href='{{site.contacts.twitter.url}}' title='our twitter account' target='_blank'><span class='icon icon-social-twitter'></span></a>
-                </th>
-                <th>
-                  <a href='{{site.contacts.github.url}}' title='our github account' target='_blank'><span class='icon icon-social-github'></span></a>
-                </th>
-              </tr>
-            </table>
-          </li>
-          <li>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="side-menu-footer flex-shrink-1">
+        <ul class="d-flex w-100 justify-content-between">
+          <li class="nav-item ms-2">
             <a
-              class="button" id="chimpSignup"
-              href="https://mailchi.mp/1059270fc024/impresso-project"
-              target="_blank">Join our mailing list
+              class="nav-link"
+              href="mailto:info@impresso-project.ch"
+              title="email"
+              target="_blank"
+            >
+              <button type="button" class="btn btn-simple">
+                <span class="icon-container">
+                  {% include icons/email.svg %}</span
+                >
+              </button>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="{{site.contacts.twitter.url}}"
+              title="our twitter account"
+              target="_blank"
+            >
+              <button type="button" class="btn btn-simple">
+                <span class="icon-container x"> {% include icons/x.svg %}</span>
+              </button>
+            </a>
+          </li>
+          <li class="nav-item me-2">
+            <a
+              class="nav-link"
+              href="{{site.contacts.github.url}}"
+              title="our github account"
+              target="_blank"
+            >
+              <button type="button" class="btn btn-simple">
+                <span class="icon-container">
+                  {% include icons/github.svg %}</span
+                >
+              </button>
             </a>
           </li>
         </ul>
+
+        <a
+          id="chimpSignup"
+          href="{{site.contacts.mailinglist.url}}"
+          target="_blank" class="btn btn-simple small-caps mb-4 me-2 ms-2 d-block">
+            Join our mailing list
+        </a>
+    </div>
+  </div>
+</aside>
+<script>
+  const navDarkModeToggler = document.querySelector("#Nav__darkModeToggler");
+  const htmlBodyElement = document.querySelector("body");
+  // read current dark mode from localStorage
+  const darkMode = localStorage.getItem("darkMode")
+    // Check if the user prefers dark mode
+  const isPreferredColorSchemeDark = window.matchMedia?.('(prefers-color-scheme: dark)')?.matches;
+  // add initial class based on localStorage
+  if (darkMode) {
+    navDarkModeToggler.classList.add("active");
+    htmlBodyElement.classList.add(darkMode);
+  } else if (isPreferredColorSchemeDark) {
+    htmlBodyElement.classList.add("dark");
+  } else {
+    htmlBodyElement.classList.add("light");
+  }
+  
+  console.info("[nav] darkMode:", darkMode, 'isPreferredColorSchemeDark:', isPreferredColorSchemeDark);
+  // onclick, toggle dark mode
+  navDarkModeToggler.addEventListener("click", () => {
+    const isDark = htmlBodyElement.classList.contains("dark")
+    const isLight = htmlBodyElement.classList.contains("light")
+    if (isDark) {
+      htmlBodyElement.classList.remove("dark");
+      htmlBodyElement.classList.add("light");
+    } else if (isLight) {
+      htmlBodyElement.classList.remove("light");
+      htmlBodyElement.classList.add("dark");
+    }
+    const currentDarkMode = isDark ? "light" : "dark";
+    // store current dark mode in localStorage only if differs from preferred color scheme
+    if ((currentDarkMode ==="light" && isPreferredColorSchemeDark) || (currentDarkMode ==="dark" && !isPreferredColorSchemeDark)) {
+      console.info("[nav] @click store in localStorage \n - darkMode:", currentDarkMode,'\n - isPreferredColorSchemeDark:', isPreferredColorSchemeDark)
+      localStorage.setItem("darkMode", currentDarkMode);
+      // is active
+      navDarkModeToggler.classList.add("active");
+    } else {
+      console.info("[nav] @click remove from localStorage \n - darkMode:", currentDarkMode,'\n - isPreferredColorSchemeDark:', isPreferredColorSchemeDark)
+      localStorage.removeItem("darkMode");
+      // is not active
+      navDarkModeToggler.classList.remove("active");
+    }
+  });
+
+  // on click on the nav, open the <ul>
+  const navDropdownTogglers = document.querySelectorAll(
+    ".Nav__dropdownToggler"
+  );
+
+  let openedNavItem = null;
+
+  function closeNavItem(item, ul) {
+    item.classList.remove("open");
+    ul.style.height = 0;
+  }
+
+  function openNavItem(item, ul) {
+    item.classList.add("open");
+    const hiddenHeight = ul.scrollHeight;
+    ul.style.height = hiddenHeight + "px";
+  }
+
+  navDropdownTogglers.forEach((toggler) => {
+    if (toggler.parentElement.classList.contains("open")) {
+      openedNavItem = toggler.parentElement;
+    }
+    toggler.addEventListener("click", (e) => {
+      const navItem = e.currentTarget.parentElement;
+      const ul = e.currentTarget.nextElementSibling;
+      const isOpen = navItem.classList.contains("open");
+      console.debug("[navDropdownTogglers] isOpen:", isOpen);
+      if (isOpen) {
+        closeNavItem(navItem, ul);
+      } else {
+        if (openedNavItem && openedNavItem != navItem) {
+          closeNavItem(openedNavItem, openedNavItem.querySelector("ul"));
+        }
+        openedNavItem = navItem;
+        openNavItem(navItem, ul);
+      }
+    });
+  });
+</script>
+<style>
+    .Nav li.nav-item.squared {
+      padding-top: 250px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    #MenuToggler .icon-container{
+      flex-direction: column;
+    }
+
+    #MenuToggler .menu-bar{
+      display: block;
+      width: 16px;
+      margin: 1px auto;
+      height: 2px;
+      background-color: var(--bs-dark);
+    }
+
+    #MenuToggler:hover .menu-bar,
+    #MenuToggler:focus .menu-bar{
+      background-color: var(--bs-dark-fixed);
+    }
+
+  @media (max-width: 768px) {
+    .Nav.mobile {
+      position: fixed !important;
+      display: block !important;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100% !important;
+      height: 100% !important;
+      background-color: var(--bs-light);
+      transform: translateX(0%);
+    }
+    #Nav__darkModeToggler {
+      right: calc(50% - 26px)  !important;
+    }
+    .Nav.mobile li.nav-item.squared {
+      padding-top: 210px;
+    }
+    .Nav {
+      background-color: var(--bs-light);
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+</style>
+
+<script>
+  function toggleMenuClass() {
+    var myParagraph = document.getElementById('Nav');
+    myParagraph.classList.toggle('mobile');
+  }
+</script>

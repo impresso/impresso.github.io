@@ -1,42 +1,89 @@
+{% assign paragraphs = page.content | split: site.excerpt_separator %} {% assign
+description = paragraphs[0] | strip_html | strip | replace:'"', '"' %} {% assign
+nav = site.data.navigation.languages[lang] | default:
+site.data.navigation.languages.en %}
+
 <!DOCTYPE html>
-<html lang='{{ page.lang | default: site.lang }}'>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ebee42" />
     <title>{% if page.title %}{{page.title}} · {% endif %}{{site.title}}</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
 
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <meta property="og:image" content="/screen.png" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/impresso-favicon32x32.png' }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/favicon/impresso-favicon96x96.png' }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/impresso-favicon16x16.png' }}">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/Satoshi-Variable.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/Satoshi-Variable.woff"
+      as="font"
+      type="font/woff"
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/Satoshi-Variable.ttf"
+      as="font"
+      type="font/ttf"
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/Satoshi-VariableItalic.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/Satoshi-VariableItalic.woff"
+      as="font"
+      type="font/woff"
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/Satoshi-VariableItalic.ttf"
+      as="font"
+      type="font/ttf"
+    />
 
     <!-- dublin core zotero metadata -->
-    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
-    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
     {% if page.title %}
-    <meta name="DC.title" content="{{page.title}}">
+    <meta name="DC.title" content="{{page.title}}" />
+    {% endif %} {% if page.layout == "post" %}
+    <meta name="DC.type" content="Blogpost" />
+
+    {% endif %} {% if page.authors %} {% for authorid in page.authors %} {%
+    assign author= site.people | where: "slug", authorid | first %}
+    <meta
+      name="DC.creator"
+      content="{{author.lastname}}, {{author.firstname}}"
+    />
+    {% endfor %} {% else %}
+    <meta name="DC.creator" content="{{ site.publisher.name }}" />
     {% endif %}
-    {% if page.layout == "post" %}
-    <meta name="DC.type" content="Blogpost">
-    {% endif %}
-    {% if page.authors %}
-      {% for authorid in page.authors %}
-      {% assign author= site.people | where: "slug", authorid | first %}
-    <meta name="DC.creator" content="{{author.lastname}}, {{author.firstname}}">
-      {% endfor %}
-    {% else %}
-    <meta name="DC.creator" content="{{ site.publisher.name }}">
-    {% endif %}
-    <meta name="DCTERMS.issued" content="{{page.date | date: '%Y-%m-%d'}}">
-    <meta name="DCTERMS.publisher" content="{{ site.publisher.name }}">
+    <meta name="DCTERMS.issued" content="{{page.date | date: '%Y-%m-%d'}}" />
+    <meta name="DCTERMS.publisher" content="{{ site.publisher.name }}" />
     <!-- eof dublin core zotero metadata -->
 
     <!-- Open Graph metadata -->
@@ -44,246 +91,589 @@
     <meta property="og:site_name" content="{{site.title}}" />
 
     <meta property="og:type" content="article" />
-    <meta property="og:article:published_time" content="{{page.date | date: '%Y-%m-%d'}}" />
+    <meta
+      property="og:article:published_time"
+      content="{{page.date | date: '%Y-%m-%d'}}"
+    />
+    <meta property="description" content="{{ description }}" />
+    <meta property="og:description" content="{{ description }}" />
 
-    {% assign paragraphs = page.content | split: site.excerpt_separator %}
-    <meta property="og:description" content="{{ paragraphs[0] | strip_html | strip | replace:'"', '”' }}" />
-
-    {% if page.figure[0] %}{% assign thumb = page.figure[0].src %}{% endif %}
-    {% if thumbnail %}{% assign thumb = thumbnail.src %}{% endif %}
-
-    {% unless thumb %}{% assign thumb = 'logo.png' %}{% endunless %}
-    {% assign thumb_abs = site.base | append: '/assets/images/' | append: thumb %}
+    {% if page.figure[0] %}{% assign thumb = page.figure[0].src %}{% endif %} {%
+    if thumbnail %}{% assign thumb = thumbnail.src %}{% endif %} {% unless thumb
+    %}{% assign thumb = 'logo.png' %}{% endunless %} {% assign thumb_abs =
+    site.base | append: '/assets/images/' | append: thumb %}
     <meta property="og:image" content="{{ thumb_abs }}" />
     <!-- eof Open Graph -->
 
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <style>
+      @font-face {
+        font-family: 'Satoshi-Variable';
+        src: url('/assets/fonts/Satoshi-Variable.woff2') format('woff2'),
+          url('/assets/fonts/Satoshi-Variable.woff') format('woff'),
+          url('/assets/fonts/Satoshi-Variable.ttf') format('truetype');
+        font-weight: 300 900;
+        font-display: swap;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Sentient-Variable';
+        src: url('/assets/fonts/Sentient-Variable.woff2') format('woff2'),
+          url('/assets/fonts/Sentient-Variable.woff') format('woff'),
+          url('/assets/fonts/Sentient-Variable.ttf') format('truetype');
+        font-weight: 200 700;
+        font-display: swap;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Satoshi-VariableItalic';
+        src: url('/assets/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+          url('/assets/fonts/Satoshi-VariableItalic.woff') format('woff'),
+          url('/assets/fonts/Satoshi-VariableItalic.ttf') format('truetype');
+        font-weight: 300 900;
+        font-display: swap;
+        font-style: italic;
+      }
+
+      html {
+        height: 100%;
+      }
+      /* color palette: https://coolors.co/212529-fafbf2-fe938c-ad91a3-ffe587 */
+      :root {
+        --bs-font-sans-serif: 'Satoshi-Variable', -apple-system,
+          BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+          'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        --bs-font-serif: 'Sentient-Variable', 'Georgia', 'Times New Roman',
+          serif;
+        --bs-body-color-transparent: #21252999;
+        --bs-font-sans-serif-italic: 'Satoshi-VariableItalic', -apple-system,
+          BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+          'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        --bs-gutter-x: 0;
+        --bs-border-width: 1px;
+        --bs-link-color: #212529ff;
+
+        --bs-body-font-size: 1rem;
+        --bs-primary: #ffe587;
+        --bs-primary-transparent: #ffe58777;
+        --bs-accent: #56eef4;
+        --bs-accent-transparent: #56eef477;
+        --bs-dark: #212529ff;
+        --bs-dark-fixed: #212529ff;
+        --bs-dark-transparent: #21252999;
+        --bs-light: #fafbf2;
+        --bs-light-rgb: 250, 251, 242;
+        --bs-light-transparent: #fafbf2bb;
+        --bs-logo-gray: #696467;
+
+        --footer-logo-size: 200;
+
+        --image-border-radius: 0.5rem;
+        --image-border: 2px solid var(--bs-dark);
+        --stroke-width: 2px;
+
+        --icon-size: 18px !important;
+
+        /* Button variables */
+        --lg-size: 48px;
+        --lg-cr: calc(var(--lg-size) / 2);
+        --md-size: 38px;
+        --md-cr: calc(var(--lg-size) / 2);
+        --z-index-blogpost-sticky: 1;
+        --z-index-aside: 2;
+      }
+      .nav {
+        --bs-nav-link-font-size: 1rem;
+        --bs-nav-link-hover-color: var(--bs-dark);
+      }
+      .icon path {
+        will-change: color;
+        transition: color 0.2s ease-out;
+      }
+      .btn {
+        --bs-btn-border-width: 1.5px;
+      }
+
+      .btn-outline-primary {
+        --bs-btn-color: var(--bs-primary);
+        --bs-btn-border-color: var(--bs-primary);
+      }
+
+      .btn-primary {
+        --bs-btn-color: var(--bs-dark);
+        --bs-btn-bg: var(--bs-primary);
+        --bs-btn-border-color: var(--bs-primary);
+        --bs-btn-hover-color: var(--bs-primary);
+        --bs-btn-hover-bg: var(--bs-dark);
+        --bs-btn-hover-border-color: var(--bs-dark);
+        --bs-btn-focus-shadow-rgb: 49, 132, 253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: var(--bs-dark);
+        --bs-btn-active-border-color: var(--bs-dark-transparent);
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: var(--bs-primary);
+        --bs-btn-disabled-border-color: var(--bs-primary);
+      }
+
+      .btn-primary:hover .icon path,
+      .btn-primary:focus .icon path {
+        stroke: var(--bs-primary);
+      }
+
+      hr {
+        display: block;
+        border: none;
+        width: 100%;
+        height: 2px;
+        background-color: var(--bs-dark);
+      }
+      .h-1px {
+        height: 1px !important;
+      }
+      /* MD breakpoint*/
+      @media (max-width: 768px) {
+        /* CUSTOM WIDTHS */
+        .w-md-100 {
+          width: 100% !important;
+        }
+      }
+
+      .display-6 {
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        font-weight: 400;
+        font-variation-settings: 'wght' 400;
+      }
+
+      @media (min-width: 1200px) {
+        .display-6 {
+          font-size: 1.5rem;
+          line-height: 1.5em;
+        }
+      }
+
+      /* Dark style */
+      body.dark {
+        --bs-light: #212529ff;
+
+        --bs-dark: #edf1d0;
+        --bs-dark-fixed: #212529ff;
+        --bs-text-color: var(--bs-dark);
+        --bs-body-color: var(--bs-dark);
+        --bs-dark-rgb: 250, 250, 250;
+        --bs-primary: #ffe587;
+        --bs-link-color: var(--bs-dark);
+        --bs-link-hover-color: var(--bs-dark);
+      }
+
+      body.dark .btn.btn-primary:hover .icon-container,
+      body.dark .btn.btn-primary:focus .icon-container {
+        background-color: var(--bs-dark-fixed);
+        border-color: var(--bs-primary);
+      }
+      body.dark .btn-primary {
+        color: var(--bs-dark-fixed);
+      }
+      body.dark .btn.btn-primary .icon-container {
+        border-color: var(--bs-dark-fixed);
+      }
+      body.dark .btn.btn-secondary:hover,
+      body.dark .btn.btn-secondary:focus,
+      body.dark .btn.btn-secondary {
+        border-color: var(--bs-dark-fixed);
+      }
+      body.dark .btn-simple:hover .icon path,
+      body.dark .btn-simple:focus .icon path {
+        stroke: var(--bs-light);
+      }
+      body.dark .btn-simple:hover .icon-container,
+      body.dark .btn-simple:focus .icon-container {
+        border-color: var(--bs-light);
+        background-color: var(--bs-primary);
+      }
+
+      body.dark #Nav__darkModeToggler.active .icon-container {
+        border-color: var(--bs-primary);
+        background-color: var(--bs-primary);
+      }
+      body.dark #Nav__darkModeToggler.active .icon path {
+        stroke: var(--bs-dark-fixed);
+      }
+
+      body.dark .nav {
+        --bs-nav-link-hover-color: gold;
+      }
+      body.dark .border-dark {
+        --bs-border-opacity: 0.5;
+      }
+      body.dark .badge {
+        --bs-badge-color: #212529ff;
+      }
+      body.dark .btn.btn-primary a {
+        color: var(--bs-dark-fixed);
+        text-decoration: none;
+      }
+      body.dark .btn.btn-primary:hover a,
+      body.dark .btn.btn-primary:focus a {
+        color: var(--bs-primary);
+      }
+      body.dark .bg-light {
+        background-color: var(--bs-dark-fixed) !important;
+      }
+      body.dark .bg-dark {
+        background-color: var(--bs-dark) !important;
+      }
+      body.dark .text-light {
+        color: var(--bs-dark-fixed) !important;
+      }
+      body.dark .nav-pills {
+        --bs-nav-pills-link-active-color: var(--bs-dark-fixed);
+      }
+      body.dark .nav-pills .nav-link.active {
+        border: 2px solid var(--bs-dark-fixed);
+      }
+
+      body.dark .btn-primary .icon path {
+        stroke: var(--bs-dark-fixed);
+      }
+
+      /* End of Dark style */
+
+      /* Light style */
+      body.light {
+        --bs-light: #fafbf2;
+        --bs-dark: #212529ff;
+        --bs-dark-fixed: #212529ff;
+        --bs-text-color: var(--bs-dark);
+        --bs-body-color: var(--bs-dark);
+        --bs-dark-rgb: 250, 250, 250;
+        --bs-primary: #ffe587;
+        --bs-link-color: var(--bs-dark);
+        --bs-link-hover-color: var(--bs-dark);
+      }
+
+      body.light .btn.btn-primary:hover .icon-container,
+      body.light .btn.btn-primary:focus .icon-container {
+        background-color: var(--bs-dark-fixed);
+        border-color: var(--bs-primary);
+      }
+      body.light .btn-primary {
+        color: var(--bs-dark-fixed);
+      }
+      body.light .btn-primary:hover {
+        border-color: var(--bs-dark-fixed);
+        color: var(--bs-primary);
+      }
+      body.light .btn-primary:hover .icon path {
+        stroke: var(--bs-primary);
+      }
+      body.light .btn.btn-primary .icon-container {
+        border-color: var(--bs-dark-fixed);
+      }
+      body.light .btn.btn-secondary:hover,
+      body.light .btn.btn-secondary:focus,
+      body.light .btn.btn-secondary {
+        border-color: var(--bs-dark-fixed);
+      }
+      body.light .btn-simple:hover .icon path,
+      body.light .btn-simple:focus .icon path,
+      body.light .btn-simple#Nav__darkModeToggler .icon path {
+        stroke: var(--bs-dark-fixed);
+      }
+      body.light .btn-simple:hover .icon-container,
+      body.light .btn-simple:focus .icon-container,
+      body.light .btn-simple#Nav__darkModeToggler .icon-container {
+        border-color: var(--bs-dark-fixed);
+      }
+      body.light .btn-simple#Nav__darkModeToggler.active .icon-container {
+        background-color: var(--bs-primary);
+      }
+      body.light .nav {
+        --bs-nav-link-hover-color: black;
+        --bs-nav-link-color: var(--bs-dark-fixed);
+      }
+      body.light .border-dark {
+        --bs-border-opacity: 0.5;
+      }
+      body.light .badge {
+        --bs-badge-color: #212529ff;
+      }
+      body.light .btn.btn-primary a {
+        color: var(--bs-dark-fixed);
+        text-decoration: none;
+      }
+      body.light .btn.btn-primary:hover a,
+      body.light .btn.btn-primary:focus a {
+        color: var(--bs-primary);
+      }
+      body.light .bg-light {
+        background-color: var(--bs-light) !important;
+      }
+      body.light .bg-dark {
+        background-color: var(--bs-dark) !important;
+      }
+      body.light .text-light {
+        color: var(--bs-light) !important;
+      }
+      body.light .nav-pills {
+        --bs-nav-pills-link-active-color: var(--bs-dark-fixed);
+      }
+      body.light .nav-pills .nav-link.active {
+        border: 2px solid var(--bs-dark-fixed);
+      }
+      body.light .nav-pills .nav-link:hover {
+        text-decoration: underline;
+      }
+
+      body.light .btn-primary .icon path {
+        stroke: var(--bs-dark-fixed);
+      }
+
+      body {
+        min-height: 100%;
+        height: 100%;
+        background-color: var(--bs-light);
+      }
+      hr {
+        color: var(--bs-dark);
+        opacity: 1;
+        border-width: 2px;
+      }
+      .serif {
+        font-family: var(--bs-font-serif);
+      }
+      b {
+        font-weight: 700;
+
+        font-variation-settings: 'wght' 700;
+      }
+      i,
+      em {
+        font-style: normal;
+        font-family: 'Satoshi-VariableItalic', sans-serif;
+      }
+
+      aside.Nav {
+        z-index: 1;
+        height: 100%;
+        pointer-events: none;
+      }
+
+      aside.Nav .nav,
+      aside.Nav button,
+      aside.Nav a {
+        pointer-events: auto;
+      }
+      aside.Nav .nav-item {
+        position: relative;
+      }
+
+      aside.Nav .nav-item.active > .nav-link > span {
+        /* background-color: var(--bs-primary); */
+        position: relative;
+        color: black;
+        display: inline-block;
+      }
+      aside.Nav .nav-item:not(.squared)::after {
+        background-color: var(--bs-dark);
+        content: '';
+        position: absolute;
+        top: 48px;
+        bottom: 10px;
+        left: -12px;
+        width: 2px;
+        opacity: 0;
+      }
+
+      aside.Nav .nav-item:hover::after,
+      aside.Nav .nav-item:focus::after,
+      aside.Nav .nav-item.open::after,
+      aside.Nav .nav-item.force-open::after {
+        opacity: 1;
+      }
+
+      aside.Nav .nav-item.active > .nav-link > span::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -4px;
+        right: -4px;
+        background-color: var(--bs-primary);
+        z-index: -1;
+
+        height: 100%;
+      }
+
+      aside.Nav .Nav__dropdownToggler {
+        border: none;
+        opacity: 0.5;
+        will-change: opacity;
+        background: transparent;
+        color: var(--bs-primary);
+        font-size: 1.5rem;
+        left: -30px;
+        top: 7px;
+      }
+      aside.Nav .Nav__dropdownToggler:hover,
+      aside.Nav .Nav__dropdownToggler:focus,
+      aside.Nav .nav-item.open .Nav__dropdownToggler {
+        opacity: 1;
+      }
+
+      aside.Nav li ul {
+        will-change: height;
+        transition: height 0.2s ease-out;
+        overflow: hidden;
+        height: 0;
+      }
+      aside.Nav li.active ul {
+        height: auto;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      h3 {
+        font-weight: normal;
+      }
+
+      .small-caps {
+        font-size: 0.8em;
+        text-transform: uppercase;
+        font-weight: 550;
+        font-variation-settings: 'wght' 550;
+        letter-spacing: 0.75px;
+      }
+
+      .small-caps b,
+      b.small-caps,
+      .small-caps.fw-bold {
+        font-weight: 700;
+        font-variation-settings: 'wght' 700;
+      }
+
+      .Release h4,
+      .Announcement h4 {
+        font-weight: 350;
+        font-variation-settings: 'wght' 350;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bs-light: #212529ff;
+          --bs-dark: #edf1d0;
+          --bs-dark-transparent: #edf1d099;
+          --bs-text-color: #edf1d0;
+          --bs-body-color: #edf1d0;
+          --bs-dark-rgb: 237, 241, 208;
+          --bs-light-rgb: 33, 37, 41;
+          --bs-primary: #ffe587;
+          --bs-link-color: #edf1d0;
+          --bs-link-hover-color: #fafbf2;
+          --bs-logo-gray: #edf1d0;
+        }
+
+        .nav {
+          --bs-nav-link-color: #edf1d0;
+          --bs-nav-link-hover-color: var(--bs-primary);
+        }
+        .nav-pills {
+          --bs-nav-pills-link-active-color: var(--bs-light);
+        }
+        .nav-pills .nav-link.active {
+          border: 2px solid var(--bs-light);
+        }
+        .border-dark {
+          --bs-border-opacity: 0.5;
+        }
+        .badge {
+          --bs-badge-color: #212529ff;
+        }
+        .btn-primary {
+          --bs-btn-color: var(--bs-light);
+          --bs-btn-bg: var(--bs-primary);
+          --bs-btn-border-color: var(--bs-primary);
+          --bs-btn-hover-color: var(--bs-primary);
+          --bs-btn-hover-bg: var(--bs-light);
+          --bs-btn-hover-border-color: var(--bs-light);
+          --bs-btn-focus-shadow-rgb: 49, 132, 253;
+          --bs-btn-active-color: #fff;
+          --bs-btn-active-bg: var(--bs-light);
+          --bs-btn-active-border-color: var(--bs-light-transparent);
+          --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          --bs-btn-disabled-color: #fff;
+          --bs-btn-disabled-bg: var(--bs-primary);
+          --bs-btn-disabled-border-color: var(--bs-primary);
+        }
+        .btn-primary:hover,
+        .btn-primary:focus {
+          border-color: var(--bs-primary);
+        }
+        .btn-primary .icon path {
+          stroke: var(--bs-light);
+        }
+        .btn-primary:hover .icon path,
+        .btn-primary:focus .icon path {
+          stroke: var(--bs-primary);
+        }
+
+        .btn {
+          --bs-btn-color: var(--bs-dark);
+          --bs-btn-hover-color: var(--bs-primary);
+        }
+      }
+      #MenuToggler {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      @media (max-width: 768px) {
+        .Nav {
+          overflow-y: auto;
+        }
+
+        #MenuToggler {
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: 5;
+        }
+        #MenuToggler .menu-bar {
+          transform-origin: center;
+          transition: all 0.3s ease-in-out;
+        }
+        .Nav.mobile ~ main .icon-container > .menu-bar:nth-child(1) {
+          transform: rotate(45deg) translateY(3px) translateX(3px);
+        }
+        .Nav.mobile ~ main .icon-container > .menu-bar:nth-child(2) {
+          transform: scaleX(0);
+        }
+        .Nav.mobile ~ main .icon-container > .menu-bar:nth-child(3) {
+          transform: rotate(-45deg) translateY(-3px) translateX(3px);
+        }
+      }
+    </style>
   </head>
   <body>
+    {% include nav.html %} {{ content }}
 
-    {% assign lang = page.lang | default: site.lang %}
-    {% assign nav = site.data.navigation.languages[lang] | default: site.data.navigation.languages.en %}
-
-
-    <div id='wrapper'>
-
-      <div id='mobile-header' >
-        <div class='inner'>{% include nav.html %}</div>
-        <a  {% if page.lang != "en" %} href="/{{page.lang}}" {% else %} href="/"{% endif %}><img class='brand' src="{{ '/assets/images/logo-mobile.png' | relative_url }}"></a>
-        <div id='mobile-header-toggler' >
-          menu
-          <div>
-            <span class='a'></span>
-            <span class='b'></span>
-            <span class='c'></span>
-            <span class='d'></span>
-
-          </div>
+    <footer class="Page container-fluid g-0 d-flex flex-column">
+      <div class="row g-0">
+        <div class="{{ site.theme_bootstrap_layout.main }}">
+          {% include footer.html %}
         </div>
-
       </div>
-
-
-        <aside id="main" class='fixed'>
-
-        <div class="inner">
-          <a id="logo" {% if page.lang != "en" %} href="/{{page.lang}}" {% else %} href="/"{% endif %}>
-        <img src="{{ '/assets/images/logo.png' | relative_url }}" >
-          </a>
-        <section>
-
-        <!-- @todo: relate to the page siblings (available languages page based) -->
-        <!-- <ul id="language-switcher">
-
-          {% for language in site.languages %}
-
-          <li {% if lang==language %} class="active" {% endif %}>
-            <a {% if language==site.lang %} href='{{page.nolang}}' {% else %} href='/{{language}}{{page.nolang}}' {% endif %}>{{language}}</a>
-          </li>
-          {% endfor %}
-        </ul> -->
-
-        {% include nav.html %}
-
-        </section>
-
-
-        <!-- <section>
-          <label {% if currentpath == '.agenda' or current[1] == 'agenda' %} class="active" {% endif %}><a href="/agenda">Agenda</a></label>
-          <div class="line"></div>
-          <ul style="margin-top: 40px">
-            {% for post in site.agenda limit:1 %}
-              <li>
-              <article>
-                <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
-                <blockquote>
-                  <div class="date">{{post.date | date: "%a<br/> %d.%m %Y"}}</div>
-                  {{post.excerpt}}
-                </blockquote>
-              </article>
-              </li>
-            {% endfor %}
-          </ul>
-        </section> -->
-
-
-
-
-        </div>
-        </aside>
-
-        <div id="contents">
-          {{content}}
-        </div>
-
-
-        {% include timeline.html %}
-    </div>
-
-
-    <div id='floating-line'></div>
-    {% include footer.html %}
-    {% include ribbon.html %}
-
-    <!-- scripts -->
-    <script type='text/javascript' src='https://d3js.org/d3.v4.min.js'></script>
-    <script>
-      var _floating_line,
-          isBelowFloatingLine = false,
-          _body,
-          _window = d3.select(window),
-          _contents,
-          _menu,
-
-          _mobileHeader,
-          isMobileHeaderActive = false,
-
-          menuHeight,
-          contentsHeight;
-
-      function evaluateFloatingLine() {
-        var bottom = window.scrollY + window.innerHeight;
-        console.log('evaluateFloatingLine\n scrolly:', window.scrollY, '\n floating:', _floating_line.offsetTop, '\n contentsheight:', contentsHeight, '\n bottom:', bottom, isBelowFloatingLine)
-
-        if(window.scrollY == 0){
-          if(isBelowFloatingLine) {
-            isBelowFloatingLine = false;
-            _body.classed('below-floating', false);
-          }
-        } else if(isBelowFloatingLine && _floating_line.offsetTop > bottom) {
-          // floating line is not visible yet
-          // we put sidebar on fixed;
-          isBelowFloatingLine = false;
-          _body.classed('below-floating', false);
-        } else if(!isBelowFloatingLine && window.scrollY > 0 && _floating_line.offsetTop <= bottom){
-          // activate
-          isBelowFloatingLine = true;
-          _body.classed('below-floating', true);
-          // set correctly
-        }
-        // console.log('isBelowFloatingLine:', isBelowFloatingLine, _floating_line.offsetTop, bottom);
-      }
-
-
-      // onclick
-      function almostObfuscatedEmail(el){
-        el.href = 'mailto:' + '{{site.contacts.email}}'.replace(/\s+@\s+/, '@').replace(/\s+\[dot\]\s+/,'.');
-
-      }
-
-
-
-      // get all the a on document loadedd.
-      document.addEventListener("DOMContentLoaded", function(e) {
-        console.log('@DOMContentLoaded');
-        // on window scroll, mimic the sticky position
-        // When floating-line is visible, the `position` css value of sidebar (timeline and menu)
-        // change from fixed to absolute, bottom aligned.
-        // same thing should happen when the window is resized.
-        _floating_line = document.getElementById('floating-line');
-        _body          = d3.select('body');
-
-
-        // collapsible menu maximum height
-        _menu             = d3.select('#main'), // .style('height', (window.innerHeight - 100)+'px'),
-        _contents         = d3.select('#contents'),
-
-        menuHeight        = _menu.node().getBoundingClientRect().height;
-        contentsHeight    = _contents.node().getBoundingClientRect().height;
-
-        _mobileHeader     = d3.select('#mobile-header');
-
-        console.log('[menu] height before being hiddden:', menuHeight, contentsHeight)
-
-        // define behaviour for collapsible menu, then calculate the menu desired height based on inner menus.
-        d3.selectAll('.collapsible-toggler').each(function(){
-          console.log('collapsible-toggler', this.className)
-          menuHeight = menuHeight
-            + this.nextElementSibling.firstElementChild.scrollHeight;
-        }).on('click', function(){
-          var s  = this.nextElementSibling,
-              c  = s.firstElementChild,
-              h  = c.scrollHeight,
-              _s = d3.select(s),
-
-              is_active  = _s.classed('active'),
-              is_locked = _s.classed('force-active');
-
-          if(is_locked){
-            // do nothing...
-            return;
-          }
-          // debugger
-          console.log('.collapsible-toggler@click height:', h, is_active)
-
-          d3.select(this).classed('active', !is_active);
-
-          _s
-            .classed('active', !is_active)
-            .style('height', (is_active? 0:h)+'px');
-          // this.classname
-          // this.nextElementSibling.style.height = h + "px"
-        });
-
-        console.log('[menu] height:', menuHeight)
-
-        // resize the height so that it works
-
-
-
-        d3.select('#mobile-header-toggler')
-          .on("click", function(){
-            isMobileHeaderActive = !isMobileHeaderActive;
-            _mobileHeader.classed('active', isMobileHeaderActive)
-          })
-
-        // add window listeners.
-        _window
-          .on("scroll.scroller", evaluateFloatingLine)
-          .on("resize", evaluateFloatingLine);
-
-        // do first evaluation.
-        evaluateFloatingLine();
-      });
-    </script>
-
-    {% include timeline.runtime.html %}
-
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115750203-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-115750203-1');
-    </script>
-
-
+    </footer>
   </body>
 </html>

@@ -1,17 +1,15 @@
 ---
 category: team
-group: supervisor
-ordering: 03-wieneke
+group: advisor
+ordering: 05-wieneke
 picture: /assets/images/lars-wieneke.jpg
 subheading: Head of digital research infrastructure, C2DH
 title: Lars Wieneke, PhD
 status: publish
 ---
 
-Lars Wieneke holds a PhD in Engineering from the Bauhaus-Universität Weimar, Germany, and is Head of the Digital Research Infrastructure at the C2DH in Luxembourg.
+Lars Wieneke holds a PhD in Engineering from the Bauhaus-Universität Weimar, Germany, and is Head of the Digital Research Infrastructure group at the C2DH in Luxembourg. In 2023 he worked as an interim application program director in the Culture & Creativity program of the EIT to bootstrap the new knowledge and innovation community. Lars is deeply engaged with the DH community and serves as the secretary of DHd, the Association for Digital Humanities in the German Speaking Areas.
 
-He is also co-head of the Europeana User-Generated Content Thematic Task Force and co-head of the Working Group on Visualisation and Interactivity in DARIAH.
-
-Within *impresso*, Lars is supervising interface design and development as well as visualisation.
+Within *impresso*, Lars is advising on interface design and development as well as visualisation.
 
 [C2DH profile](https://www.c2dh.uni.lu/people/lars-wieneke)

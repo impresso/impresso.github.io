@@ -1,4 +1,4 @@
----
+<!---
 category: contributor
 ordering: 
 picture: /assets/images/sozarch-vek_gr_rot.svg

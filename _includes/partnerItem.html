@@ -1,0 +1,22 @@
+<!-- item in a list of Partners -->
+
+<div class="PartnerItem my-3 me-3">
+  <a
+    class="mb-3 d-block"
+    style="height: 50px; text-decoration: none; color: inherit;"
+    href="{{ partner.remoteUrl }}"
+    target="_blank"
+    title="{{ partner.title }}"
+  >
+    {% if partner.logo %}
+      {% include {{ partner.logo }} %}
+    {% else %}
+      <img
+        alt="{{partner.description}}"
+        style="max-height: 50px;" 
+        src="{{ partner.picture | relative_url }}"
+      />
+    {% endif %}
+  </a>
+  <small class="text-muted"> {{ partner.description }} </small>
+</div>

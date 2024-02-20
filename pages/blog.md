@@ -1,9 +1,10 @@
 ---
-title: "Blog"
+title: 'Blog'
 layout: blog
 permalink: /blog/
-nolang: /blog/
 lang: en
 ---
 
-News and more
+Our blog posts are listed in chronological order. For more information, please contact the authors.
+
+

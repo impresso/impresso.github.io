@@ -1,0 +1,8 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}

@@ -1,14 +1,13 @@
 ---
 category: core-partner
-ordering: 03-c2dh
-title: Luxembourg Center for Contemporary and Digital History, Luxembourg University.
-picture: /assets/images/c2dh-logo.png
+ordering: 04-C²DH
+title: Luxembourg Center for Contemporary and Digital History, University of Luxembourg.
+picture: /assets/images/C2DH-logo.png
+logo: logos/Uni_C2DH.svg
+description: Center for Contemporary and Digital History (C²DH) University of Luxembourg, Luxembourg
+remoteUrl: https://www.c2dh.uni.lu/
 ---
 
+Founded in 2016,the C²DH focuses on the study of digital history, contemporary European and Luxembourgish history and public history. The centre promotes interdisciplinary research with a particular emphasis on developing and critically reflecting on new digital methods and tools, and embraces digital methods in its research, teaching and publications (e.g. the Journal of Digital History). C²DH has unique expertise in participatory design and development of methodologically reflected research software like impresso, histograph and DHARPA as well as widespread asset management tools (Zotero, Tropy).
 
-[c2dh.uni.lu](https://www.c2dh.uni.lu/) &mdash; Founded in 2016, the Luxembourg Centre for Contemporary and Digital History is dedicated to the study of digital history, contemporary Luxembourgish history and modern European history.
-It promotes an interdisciplinary approach to the field of contemporary history with a particular focus on new digital methods and tools for historical research and teaching. The centre strives to act as an international hub for reflection on the methodological and epistemological challenges of doing history in the digital age. It particularly focuses on the use and development of digital methods and tools for innovative historical research, and serves as a catalyst for creative scholarship and hands-on approaches to new forms of public dissemination and societal engagement with history in Luxembourg. Members of the centre have diverse backgrounds in historical disciplines, social sciences, information science, design and application development. The centre’s staff have extensive experience in user-centred design, co-design and the development of interfaces and visualisations with humanities scholars and social scientists.
-
-**Role**: The C2DH is responsible for visualisation (WP5), digital history methodology and investigations (WP6) and dissemination and exploitation (WP7).
-
-**Participants**: Andreas Fickers (co-PI), Marten Düring, Estelle Bunout, Daniele Guido, Lars Wieneke.
+C²DH has accumulated extensive experience in the design and development of methodologically reflected research software for the exploration and analysis of historical data. Within the project, C²DH is responsible for the participatory design and development of user interfaces, several case studies in digital history research and the coordination of dissemination activities.

@@ -1,16 +1,16 @@
 ---
 category: team
-group: supervisor
-ordering: 03-kaplan
+group: advisor
+ordering: 02-kaplan
 picture: /assets/images/frederic-kaplan.jpg
 subheading: Head of EPFL-DHLAB
 title: Frédéric Kaplan, Prof.
 status: publish
 ---
 
-Prof. Frederic Kaplan holds the Digital Humanities Chair at the Ecole Polytechnique Fédérale de Lausanne (EPFL) and directs the EPFL Digital Humanities Lab. He conducts research projects combining archive digitisation, information modelling and museographic design.
+Frédéric Kaplan is Associate Professor at the Swiss Federal Institute of Technology in Lausanne (EPFL), where he holds the Digital Humanities Chair, directs the Digital Humanities Laboratory (DHLAB) and  the College of Humanities (CDH). He conducts research projects combining archive digitisation, information modelling and museographic design.
 
-Within *impresso*, Frédéric steers overall project activities and supervises the contributions of the DHLAB.
+Frédéric was one of the principal investigators of the first impresso project and serves as an advisor to the second project.
 
 [EPFL profile](https://people.epfl.ch/frederic.kaplan/bio?lang=en&cvlang=en) [Twitter](https://twitter.com/frederickaplan?lang=en)
 

@@ -1,13 +1,13 @@
 ---
 category: team
-group: collaborator
+group: former-collaborator
 ordering: 02-beek
 picture: /assets/images/thijs-van-beek.jpg
 subheading: Developer, C2DH
 title: Thijs van Beek
-status: draft
+status: publish
 ---
 
-Thijs is a web designer and developer, specialising in user centered design, iterative prototyping, user interface and interaction. He has experience in and outside academia, working for a broad range of clients, from e-commerce, to enterprise and historical institutions.
+Thijs is a full stack developer. Within the first _impresso_ project, Thijs worked with Daniele and Paul on the middle layer and frontend design of the impresso application.
 
-Within the first <i>impresso</i> project, Thijs was working together with the other members across the board to develop and integrate different aspects of the interface and implement interactive visualisations of the historical material.
+[LinkedIn](https://www.linkedin.com/in/thijs-van-beek-6156b4131)

@@ -1,4 +1,4 @@
----
+<!---
 category: contributor
 ordering: 
 picture: /assets/images/rero-logo.svg

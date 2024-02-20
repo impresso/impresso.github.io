@@ -1,16 +1,16 @@
 ---
-category: contributor
-group: historian
-ordering: 01-ruppen
+category: team
+group: contact-point
+ordering: 03-ruppen
 picture: /assets/images/raphaelle-ruppen-coutaz.jpg
-subheading: Assistant professor, University of Lausanne
+subheading: Senior Researcher, UNIL History Department
 title: Raphaëlle Ruppen Coutaz, PhD
 status: publish
 ---
 
-Doctor in contemporary history, Raphaëlle Ruppen-Coutaz is assistant professor in the history section of the University of Lausanne. Specialist in the history of international cultural relations and media history, she is currently conducting research on the cultural and social history of European construction as a visiting researcher in the Department of History and Civilization of the European University Institute of Florence and Labex EHNE Write a New History of Europe.
+Raphaëlle Ruppen Coutaz holds a PhD in Contemporary History from the University of Lausanne and is currently a Senior Researcher at the UNIL History Department. Raphaëlle’s research focuses on media history, international cultural relations history and European construction history.
+Within impresso, Raphaëlle contributes to project management, coordinates historical research and contributes to community building and project dissemination.
 
-Within *impresso*, she provides scientific supervision and feedback from the historical perspective on the epistemological issues.
+Within _impresso_, Raphaëlle contributes to project management, coordinates historical research and contributes to community building and project dissemination.
 
-
-[Unil profile](https://www.unil.ch/hist/fr/home/menuinst/collaborateurrices/collaborateurrices/histoire-contemporaine-1/ruppen-coutaz-raphaelle.html)
+[Unil profile](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=47312&LanCode=37&menu=coord)

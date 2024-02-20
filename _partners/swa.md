@@ -1,4 +1,4 @@
----
+<!---
 category: associated-partner
 ordering: 04-swa
 picture: /assets/images/unibasel-logo.jpg

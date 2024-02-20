@@ -3,82 +3,76 @@
 
   _menu d3 is required, and declared in default.html
 */
-window.ImpressoTimeline = function(options) {
+window.ImpressoTimeline = function (options) {
   var data = options.data;
   // const
   const TIMELINE_VERTICAL_PADDING = 200;
   // DOM elements
-  var _timeline      = d3.select("#timeline"),
-      _browser       = d3.select("#timeline-browser .info"),
-      _browser_date  = d3.select("#timeline-browser .date"),
-      _browser_close = d3.select("#timeline-browser .close"),
-      _slides        = d3.select("#timeline .slides"),
-      _lines         = d3.select("#timeline .lines"),
-
-      // append pulsing now circle, see stylesheet for infinite pulsations
-      _now           = _lines.select('#timeline-now'),
-
-
-      // append next big event
-      _next          = _timeline.select('#timeline-next-event'),
-      _next_text     = _next.append('label')
-                          .text('upcoming event'),
-      _next_date     = _next.append('div')
-                          .classed('date', true),
-
-      // append line
-      _pointer       = d3.select('#timeline-pointer'),
-      _pointer_text  = _pointer.select('span.date'),
-      _pointer_item  = _pointer.select('div.item')
-                        .on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-                          _pointer_item.classed('flipInX', false)
-                        }),
-      // closest item pointer
-      _closest       = _lines.select('#timeline-closest'),
-
-      // timeline items container
-      _values        = _lines.select('div.values');
+  var _timeline = d3.select("#timeline"),
+    _browser = d3.select("#timeline-browser .info"),
+    _browser_date = d3.select("#timeline-browser .date"),
+    _browser_close = d3.select("#timeline-browser .close"),
+    _slides = d3.select("#timeline .slides"),
+    _lines = d3.select("#timeline .lines"),
+    // append pulsing now circle, see stylesheet for infinite pulsations
+    _now = _lines.select("#timeline-now"),
+    // append next big event
+    _next = _timeline.select("#timeline-next-event"),
+    _next_text = _next.append("label").text("upcoming event"),
+    _next_date = _next.append("div").classed("date", true),
+    // append line
+    _pointer = d3.select("#timeline-pointer"),
+    _pointer_text = _pointer.select("span.date"),
+    _pointer_item = _pointer
+      .select("div.item")
+      .on(
+        "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend",
+        function () {
+          _pointer_item.classed("flipInX", false);
+        }
+      ),
+    // closest item pointer
+    _closest = _lines.select("#timeline-closest"),
+    // timeline items container
+    _values = _lines.select("div.values");
 
   // measures Those are normally set in this.render().
-  var timelineRect   = _lines.node().getBoundingClientRect();
-      timelineHeight = -1;
+  var timelineRect = _lines.node().getBoundingClientRect();
+  timelineHeight = -1;
 
   // d3 scale function and formatters. Set in init, range updated in this.render();
-  var now            = new Date(),
-      timeScale      = d3.scaleTime(),
-      timeFormatter  = d3.timeFormat("%d.%m %Y");
-
+  var now = new Date(),
+    timeScale = d3.scaleTime(),
+    timeFormatter = d3.timeFormat("%d.%m %Y");
 
   // timers
   var timerHideTimelineBrowser,
-      timerHidePointer,
-
-      previousClosestIndex = -1,
-
-      isPointerItemAboveTheFold   = true,
-      _is_next_index = -1;
+    timerHidePointer,
+    previousClosestIndex = -1,
+    isPointerItemAboveTheFold = true,
+    _is_next_index = -1;
 
   var _self = this;
 
-
   this.isBrowsing = false;
 
-  this.init = function() {
-    log('init', [d3.isoParse(data.start_date), d3.isoParse(data.end_date)]);
+  this.init = function () {
+    log("init", [d3.isoParse(data.start_date), d3.isoParse(data.end_date)]);
 
     // set timescale domain
-    timeScale = timeScale.domain([d3.isoParse(data.start_date), d3.isoParse(data.end_date)]);
+    timeScale = timeScale.domain([
+      d3.isoParse(data.start_date),
+      d3.isoParse(data.end_date),
+    ]);
 
     // enable listeners
-    _timeline
-      .on("mouseleave", this.delayHidePointer)
-
+    _timeline.on("mouseleave", this.delayHidePointer);
 
     _lines
       .on("click", this.showTimelineBrowser)
       .on("mouseenter", this.showPointer)
       .on("mousemove", this.movePointer)
-      .on("mouseleave", this.delayHidePointer)
+      .on("mouseleave", this.delayHidePointer);
 
     // _pointer_item
     // // .on("click", this.showTimelineBrowser)
@@ -93,216 +87,178 @@ window.ImpressoTimeline = function(options) {
     //     console.log('it leaves!!!!')
     //   })
 
-//       clearTimeout(timerHidePointer)
+    //       clearTimeout(timerHidePointer)
 
-//
-//     })
+    //
+    //     })
 
     // close browser when needed
-    _browser_close
-      .on("click", this.hideTimelineBrowser);
+    _browser_close.on("click", this.hideTimelineBrowser);
 
     // call render
     this._render();
   };
 
   //
-  this.hideTimelineBrowser = function() {
-    _menu
-      .classed('put-aside', false);
-    _timeline
-      .classed('active', false)
+  this.hideTimelineBrowser = function () {
+    _menu.classed("put-aside", false);
+    _timeline.classed("active", false);
     _self.isBrowsing = false;
     _self.hidePointer();
-  }
+  };
 
   // Activate the event browser
-  this.showTimelineBrowser = function(idx) {
-    _menu
-      .classed('put-aside', true);
-    _timeline
-      .classed('active', true);
+  this.showTimelineBrowser = function (idx) {
+    _menu.classed("put-aside", true);
+    _timeline.classed("active", true);
 
     _self.isBrowsing = true;
 
     // showTimelineBrowser can receive an Event isntead of a NUmber.
-    log('showTimelineBrowser at index!!!', idx, typeof idx)
+    log("showTimelineBrowser at index!!!", idx, typeof idx);
 
-
-    if(typeof idx == 'number'){
+    if (typeof idx == "number") {
       _self.viewItem(idx);
     } else {
       var pos = d3.mouse(this),
-          closest = _self.closestDateToPosition(pos[1]);
+        closest = _self.closestDateToPosition(pos[1]);
 
-      _closest
-      .style('transform', 'translate(0px,'+closest._top+'px)');
+      _closest.style("transform", "translate(0px," + closest._top + "px)");
       _self.viewItem(closest._index);
     }
 
-    _pointer
-      .classed("active", false)
-
+    _pointer.classed("active", false);
   };
 
-  this.delayHidePointer = function() {
-    if(timerHidePointer)
-      clearTimeout(timerHidePointer)
+  this.delayHidePointer = function () {
+    if (timerHidePointer) clearTimeout(timerHidePointer);
     timerHidePointer = setTimeout(_self.hidePointer, 1000);
-    log('delayCloseTimelineLines')
-  }
-
-  this.hidePointer = function() {
-    _pointer
-      .classed("active", false)
-
-    _closest
-      .classed("active", true)
-
-    _lines
-      .classed("active", false)
-
-
+    log("delayCloseTimelineLines");
   };
 
-  this.showPointer = function(idx) {
-    if(_self.isBrowsing){
+  this.hidePointer = function () {
+    _pointer.classed("active", false);
+
+    _closest.classed("active", true);
+
+    _lines.classed("active", false);
+  };
+
+  this.showPointer = function (idx) {
+    if (_self.isBrowsing) {
       _self.hideTimelineBrowser();
     }
-    if(timerHidePointer)
-      clearTimeout(timerHidePointer)
+    if (timerHidePointer) clearTimeout(timerHidePointer);
 
-    _pointer
-      .classed("active", true)
+    _pointer.classed("active", true);
 
-    _closest
-      .classed("active", false)
+    _closest.classed("active", false);
 
-    _lines
-      .classed("active", true)
-
-
+    _lines.classed("active", true);
 
     _self.movePointer(0);
   };
 
-
-  this.movePointer = function(idx) {
-    if(_self.isBrowsing){
+  this.movePointer = function (idx) {
+    if (_self.isBrowsing) {
       return;
     }
     // d3.mouse is normally bound to the event handler.
-    var pos = typeof idx == 'number'? [0, 0]: d3.mouse(this),
-        // get text from y
-        date = timeScale.invert(pos[1]);
+    var pos = typeof idx == "number" ? [0, 0] : d3.mouse(this),
+      // get text from y
+      date = timeScale.invert(pos[1]);
 
     // move pointer towards mouse Y on _lines
-    _pointer
-      .style('transform', 'translate(0px,'+pos[1]+'px)');
+    _pointer.style("transform", "translate(0px," + pos[1] + "px)");
 
     // check if mouse y it is after the half of the timeline height.
-    if(isPointerItemAboveTheFold && pos[1]/timelineHeight >= 0.55) {
-      _pointer_item.classed('below-the-fold', true)
-    } else if(!isPointerItemAboveTheFold && pos[1]/timelineHeight < 0.55){
-      _pointer_item.classed('below-the-fold', false)
+    if (isPointerItemAboveTheFold && pos[1] / timelineHeight >= 0.55) {
+      _pointer_item.classed("below-the-fold", true);
+    } else if (!isPointerItemAboveTheFold && pos[1] / timelineHeight < 0.55) {
+      _pointer_item.classed("below-the-fold", false);
     }
-    isPointerItemAboveTheFold = pos[1]/timelineHeight < 0.55;
+    isPointerItemAboveTheFold = pos[1] / timelineHeight < 0.55;
 
     // add date to DOM element
-    _pointer_text
-      .text(timeFormatter(date));
+    _pointer_text.text(timeFormatter(date));
 
     // calculate closest date to pointer position
     closestIndex = _self.closestDateToPosition(pos[1]);
-    if(previousClosestIndex != closestIndex._index) {
+    if (previousClosestIndex != closestIndex._index) {
       _self.changePreview(data.values[closestIndex._index]);
     }
     previousClosestIndex = closestIndex._index;
   };
 
+  this.viewItem = function (idx) {
+    var item = data.values[idx < 0 ? 0 : idx];
+    log("viewItem", idx);
+    _browser.select("h1").text(item.label);
 
+    _browser_date.text(
+      item._start_date != item._end_date
+        ? item._start_date + " → " + item._end_date
+        : item._start_date
+    );
 
-  this.viewItem = function(idx) {
-    var item = data.values[idx < 0? 0:idx];
-    log('viewItem', idx)
-    _browser
-      .select('h1')
-        .text(item.label);
-
-
-    _browser_date
-        .text(item._start_date != item._end_date? item._start_date + ' → ' + item._end_date: item._start_date);
-
-    _browser
-      .select('blockquote')
-        .text(item.content);
+    _browser.select("blockquote").text(item.content);
 
     var slidedata = _slides
-                      .selectAll('div.slide')
-                        .data(item.items, function(d) { return d._id; });
+      .selectAll("div.slide")
+      .data(item.items, function (d) {
+        return d._id;
+      });
 
+    var _slideset = slidedata.enter().append("div").classed("slide", true);
 
-
-
-    var _slideset = slidedata
-                      .enter()
-                        .append('div')
-                          .classed('slide', true)
-
-
-
+    _slideset.append("blockquote").html(function (d) {
+      return (d.author.length ? "<b>" + d.author + "</b> - " : "") + d.content;
+    });
     _slideset
-      .append('blockquote')
-        .html(function(d){
-          return (d.author.length? '<b>' + d.author + "</b> - ":'') + d.content
-        })
-    _slideset
-      .append('a')
-        .classed("permalink", true)
-        .attr('href', function(d){
-          return d.permalink
-        })
-        .attr('target', '_blank')
-        .text(function(d){
-          return d.permalink
-        })
+      .append("a")
+      .classed("permalink", true)
+      .attr("href", function (d) {
+        return d.permalink;
+      })
+      .attr("target", "_blank")
+      .text(function (d) {
+        return d.permalink;
+      });
 
     slidedata.exit().remove();
   };
 
-  this.changePreview = function(item) {
-    log('changePreview', item.start_date, item.type);
+  this.changePreview = function (item) {
+    log("changePreview", item.start_date, item.type);
     _closest
-      .classed('active', true)
-      .style('transform', 'translate(0px,'+ item._top +'px)' )
+      .classed("active", true)
+      .style("transform", "translate(0px," + item._top + "px)");
 
-    _pointer_item
-      .select('label')
-        .text(item.label);
+    _pointer_item.select("label").text(item.label);
 
-    _pointer_item.classed('flipInX', true)
+    _pointer_item.classed("flipInX", true);
 
-    if(item.type == 'milestone'){
-      _pointer_item
-        .select('.category')
-          .text(item.type);
+    if (item.type == "milestone") {
+      _pointer_item.select(".category").text(item.type);
     } else {
-      _pointer_item
-        .select('.category')
-          .text('')
+      _pointer_item.select(".category").text("");
     }
 
     _pointer_item
-      .select('.date')
-        .text(item._start_date != item._end_date? item._start_date + ' → ' + item._end_date: item._start_date);
+      .select(".date")
+      .text(
+        item._start_date != item._end_date
+          ? item._start_date + " → " + item._end_date
+          : item._start_date
+      );
   };
 
-  this.closestDateToPosition = function(pos) {
+  this.closestDateToPosition = function (pos) {
     var d = Infinity,
-        closest=[];
-    for(var i =0,l=data._positions.length;i<l;i++) {
-      var d1 = Math.abs(data._positions[i]._top - pos)
-      if(d1 < d){
+      closest = [];
+    for (var i = 0, l = data._positions.length; i < l; i++) {
+      var d1 = Math.abs(data._positions[i]._top - pos);
+      if (d1 < d) {
         d = d1;
         closest = i;
       }
@@ -310,30 +266,29 @@ window.ImpressoTimeline = function(options) {
     return data._positions[closest];
   };
 
-
   // call this function whenever data need to be updated
-  this.updateData = function() {
+  this.updateData = function () {
     // reset data positions values
-    data._positions = []
+    data._positions = [];
     data._is_next_index = -1;
     // store timeScale in data values
-    data.values = data.values.map(function(d, k) {
+    data.values = data.values.map(function (d, k) {
       var sd = d3.isoParse(d.start_date),
-          ed = d3.isoParse(d.end_date);
+        ed = d3.isoParse(d.end_date);
 
-      d._top        = timeScale(sd);
-      d._height     = timeScale(ed) - d._top;
+      d._top = timeScale(sd);
+      d._height = timeScale(ed) - d._top;
       d._start_date = timeFormatter(sd);
-      d._end_date   = timeFormatter(ed);
+      d._end_date = timeFormatter(ed);
 
       // add to position array, so that we can quickly get the closest position to a Y coord.
       data._positions.push({
         _index: k,
-        _top: d._top
+        _top: d._top,
       });
 
       // check if the datum "is next"
-      if(data._is_next_index < 0 && now < sd) {
+      if (data._is_next_index < 0 && now < sd) {
         d._is_next = true;
         data._is_next_index = k;
       }
@@ -341,83 +296,68 @@ window.ImpressoTimeline = function(options) {
     });
 
     // reorder positions, if needed.
-    data._positions.sort(function(a, b) {
-      return (a._top > b._top) - (a._top < b._top)
-    })
+    data._positions.sort(function (a, b) {
+      return (a._top > b._top) - (a._top < b._top);
+    });
 
-    log('updateData', '- n. positions:',data._positions.length);
+    log("updateData", "- n. positions:", data._positions.length);
 
-    var group = _values
-                  .selectAll("div.group")
-                    .data(data.values);
+    var group = _values.selectAll("div.group").data(data.values);
 
     // EXIT old elements not present in new data.
-    group.exit().remove()
+    group.exit().remove();
 
     // UPDATE old elements present in new data.
-    group
-      .style('transform', function(d){
-        return 'translateY('+ d._top +'px)'
-      })
+    group.style("transform", function (d) {
+      return "translateY(" + d._top + "px)";
+    });
 
     // ENTER new elements present in new data.
-    var newgroup = group.enter()
-                  .append('div')
-                    .classed('group', true)
+    var newgroup = group.enter().append("div").classed("group", true);
 
-    newgroup
-      .append('div')
-        .attr('class', function(d) {
-          var classes = ['line','left'];
-          if(d.type == 'milestone')
-            classes.push('milestone')
-          return classes.join(' ')
-        });
+    newgroup.append("div").attr("class", function (d) {
+      var classes = ["line", "left"];
+      if (d.type == "milestone") classes.push("milestone");
+      return classes.join(" ");
+    });
 
-    newgroup
-      .append('div')
-        .attr('class', function(d) {
-          var classes = ['line','right'];
-          if(d.type == 'milestone')
-            classes.push('milestone')
-          if(d._is_next)
-            classes.push('next')
-          return classes.join(' ')
-        });
+    newgroup.append("div").attr("class", function (d) {
+      var classes = ["line", "right"];
+      if (d.type == "milestone") classes.push("milestone");
+      if (d._is_next) classes.push("next");
+      return classes.join(" ");
+    });
 
-    newgroup
-      .style('transform', function(d){
-        return 'translateY('+ d._top +'px)'
-      })
-
+    newgroup.style("transform", function (d) {
+      return "translateY(" + d._top + "px)";
+    });
 
     if (now < d3.isoParse(data.end_date)) {
-
       // move now indicator
-      _now
-        .style('transform', 'translate(0px,'+timeScale(now)+'px)')
+      _now.style("transform", "translate(0px," + timeScale(now) + "px)");
 
       // move next event indicator
-      if(data._is_next_index > -1){
+      if (data._is_next_index > -1) {
         _next
-          .classed('active', true)
-          .style('transform', 'translate(0px,'+ data.values[data._is_next_index]._top +'px)' )
+          .classed("active", true)
+          .style(
+            "transform",
+            "translate(0px," + data.values[data._is_next_index]._top + "px)"
+          );
 
         _next_date.text(data.values[data._is_next_index]._start_date);
       }
+    } else {
+      // now > end_date
 
-    } else { // now > end_date
-
-      _now.style('display', 'none');
-      _next.style('display', 'none');
-
+      _now.style("display", "none");
+      _next.style("display", "none");
     }
+  };
 
-  }
-
-  this._render = function() {
+  this._render = function () {
     // if render is really necessary
-    if(timelineHeight == window.innerHeight - TIMELINE_VERTICAL_PADDING) {
+    if (timelineHeight == window.innerHeight - TIMELINE_VERTICAL_PADDING) {
       return;
     }
 
@@ -427,20 +367,18 @@ window.ImpressoTimeline = function(options) {
     timelineRect = _lines.node().getBoundingClientRect();
 
     // set/reset timescale range
-    timeScale = timeScale.range([0, timelineHeight])
-
+    timeScale = timeScale.range([0, timelineHeight]);
 
     // transform options.data (after timeScale!!!)
     _self.updateData();
 
     // draw/update d3 nodes
-    _timeline.style('height', timelineHeight + 'px')
+    _timeline.style("height", timelineHeight + "px");
 
-    log('render', '- height:', timelineHeight);
-  }
+    log("render", "- height:", timelineHeight);
+  };
 
   this.render = debounce(this._render, 500);
-
 
   function log() {
     var args = Array.prototype.slice.call(arguments);
@@ -449,11 +387,11 @@ window.ImpressoTimeline = function(options) {
   }
 
   function debounce(fn, delay) {
-
     var timer = null;
     return function () {
       // log('debounce!');
-      var context = this, args = arguments;
+      var context = this,
+        args = arguments;
       clearTimeout(timer);
       timer = setTimeout(function () {
         fn.apply(context, args);
@@ -462,49 +400,32 @@ window.ImpressoTimeline = function(options) {
   }
 
   function throttle(func, limit) {
-    var inThrottle,
-      lastFunc,
-      lastRan;
-    return function() {
+    var inThrottle, lastFunc, lastRan;
+    return function () {
       var context = this,
         args = arguments;
       if (!inThrottle) {
         func.apply(context, args);
-        lastRan = Date.now()
+        lastRan = Date.now();
         inThrottle = true;
       } else {
-        clearTimeout(lastFunc)
-        lastFunc = setTimeout(function() {
-          if ((Date.now() - lastRan) >= limit) {
-            func.apply(context, args)
-            lastRan = Date.now()
+        clearTimeout(lastFunc);
+        lastFunc = setTimeout(function () {
+          if (Date.now() - lastRan >= limit) {
+            func.apply(context, args);
+            lastRan = Date.now();
           }
-        }, limit - (Date.now() - lastRan))
+        }, limit - (Date.now() - lastRan));
       }
     };
-  };
+  }
 
   this.init();
-}
-
-
-
-
-
-
-
-
+};
 
 //   d3.select("#timeline-browser .close").on('click', hideTimelineBrowser)
 
-
-
-
-
-
 //
-
-
 
 //   // Delay deactivate the event browser
 //   function delayhideTimelineBrowser() {
@@ -512,7 +433,6 @@ window.ImpressoTimeline = function(options) {
 //       clearTimeout(timerHideTimelineBrowser)
 //     timerHideTimelineBrowser = setTimeout(hideTimelineBrowser, 1500);
 //   }
-
 
 //   // Deactivate the timeline (lines)
 //   function closeTimelineLines() {
@@ -533,9 +453,6 @@ window.ImpressoTimeline = function(options) {
 //     console.log('delaying closeTimelineLines')
 //   }
 
-
-
-
 //   // activate events.
 //   _timeline
 //     .on("mouseenter", function() {
@@ -549,8 +466,6 @@ window.ImpressoTimeline = function(options) {
 
 //       delayhideTimelineBrowser();
 //     });
-
-
 
 //   _lines
 //
@@ -581,8 +496,6 @@ window.ImpressoTimeline = function(options) {
 //   //     // }
 //   //     // timeline_height = window.innerHeight - 200;
 
-
 //   //   });
-
 
 //

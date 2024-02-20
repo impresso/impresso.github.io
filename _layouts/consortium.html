@@ -1,14 +1,11 @@
 ---
-layout: default
+layout: page
 ---
 
 {% assign sections = site.pages | where: 'parenturl','/consortium/' | where: 'lang', page.lang | sort: 'ordering' %}
 
 
 <div class="page">
-  <div class="wrapper">
-    <h1 class="page-title">{{ page.title }}</h1>
-  </div>
 
 
   {% for section in sections %}
@@ -44,9 +41,9 @@ layout: default
 
 
 
-        {% assign group = site.people | where: 'group','supervisor' | sort: 'ordering' %}
+        {% assign group = site.people | where: 'group','advisor' | sort: 'ordering' %}
         <div class='thumbnails respect-margin'>
-          <h3><span class='tag'>supervisors</span></h3>
+          <h3><span class='tag'>advisors</span></h3>
           {% for person in group %}
           {% include person.thumbnail.html %}
           {% endfor %}
@@ -61,7 +58,14 @@ layout: default
           {% endfor %}
         </div>
 
-
+        {% assign group = site.people | where: 'group','former-collaborator' | sort: 'ordering' %}
+        <div class='thumbnails respect-margin'>
+          <h3><span class='tag'>{% assign key="former contributors" %}{% include t.html %}</span></h3>
+          {% for person in group %}
+          {% include person.thumbnail.html %}
+          {% endfor %}
+        </div>
+        
         {% assign team = site.people | where: 'category','team' | sort: 'ordering' %}
         <div class="respect-margin">
         <!-- <div class="container-fluid "> -->

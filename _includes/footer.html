@@ -1,87 +1,134 @@
-<div class='footer'>
-  <div class="inner">
-
-    <div class="fluid-container">
-
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="logo">
-            <a href='https://dhlab.epfl.ch/' target='_blank' title='Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland'><img src="{{ '/assets/images/EPFL-Logo-BLACK.png' | relative_url }}"></a>
-            <p>Digital Humanities Laboratory (DHLAB) Ecole Polytechnique Federale de Lausanne, Switzerland</p>
-          </div>
-
-        </div>
-        <div class="col-sm-4">
-          <div class="logo">
-          <a href='http://www.cl.uzh.ch/en.html' target='_blank' title='Institute for Computational Linguistics Zurich University, Switzerland'>
-            <img src="{{ '/assets/images/uzh-logo.jpg' | relative_url }}"></a>
-          </a>
-          <p>Institute of Computational Linguistics Zurich University, Switzerland</p>
-          </div>
-
-        </div>
-        <div class="col-sm-4">
-          <div class="logo">
-            <a href='https://www.c2dh.uni.lu' target='_blank' title='Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.'>
-              <img src="{{ '/assets/images/c2dh-logo.png' | relative_url }}"></a>
-            </a>
-            <p>Centre for Contemporary and Digital History (C2DH) Luxembourg University, Luxembourg.</p>
-          </div>
-        </div>
+<div class="Footer m-3 m-lg-5">
+  <div class="container-fluid w-100 g-0">
+    <div class="row g-0">
+      <div class="col-12">
+        <hr/>
+        <h3 class="w-100 mb-0 mt-4">Partners</h3>
       </div>
-
-      <div class='line double'></div>
-      <div class="row" >
-        <div class="col-sm-4">
-          <h3>connect with us</h3>
-          {{site.contacts.email}}<br/>
-          github: <a href='{{site.contacts.github.url}}'> <b>{{site.contacts.github.name}}</b></a><br/>
-          twitter: <a href='{{site.contacts.twitter.url}}'> <b>{{site.contacts.twitter.name}}</b></a>
-        </div>
-        <div class="col-sm-4">
-          <h3>other relevant links</h3>
-          project <a href='/project/overview/'> overview</a><br/>
-          project <a href='/consortium#people'> team</a>
-        </div>
-        <div class="col-sm-4">
-          <h3>stay in the loop</h3>
-          <p>
-            <a
-              class="button" id="chimpSignup"
-              style="padding: 6px 10px; font-size:90%; letter-spacing:1px"
-              href="https://mailchi.mp/1059270fc024/impresso-project"
-              target="_blank">Join our mailing list
-            </a>
-          </p>
-        </div>
+      {% assign core_partners = site.partners | where: "category","core-partner" | sort: "ordering" %}
+      {% for partner in core_partners %}
+      <div class="col-md-6">
+        {% include partnerItem.html %}
       </div>
-      <div class='line '></div>
-
-      <div class="row text-center">
-        <div class="col-sm-12">
-          <a href='http://www.snf.ch/en/Pages/default.aspx' target='_blank' title="Swiss National Science Foundation"><img src="{{ '/assets/images/snf-rgb-e-logo.png' | relative_url }}"></a>
-        </div>
-      </div>
-
-      <div class='line'></div>
-
-      <div class="row text-center">
-        {% assign partners = site.partners | where: 'category','associated-partner' | sort: 'ordering' %}
-        {% for partner in partners %}
-        <div class="col-sm-3">
-        <div class="logo smaller">
-          <a href='/consortium/#{{partner.slug}}' title='{{ partner.title }}'>
-              <img src="{{ partner.picture | relative_url }}"></a>
-            </a>
-          <p>{{partner.title}}</p>
-        </div>
-      </div>
-        {% endfor %}
-      </div>
-
+      {% endfor %}
     </div>
 
+    {% if page.show_associated_partners %}
+    <!-- associated partners -->
+    <div class="row mt-2">
+      <div class="col-12">
+        <hr/>
+        <h3 class="w-100 mb-0 mt-4">Associated Partners</h3>
+      </div>
+      {% assign associated_partners = site.partners | where: "category","associated-partner"| sort: "ordering"  %}
+      {% for partner in associated_partners %}
+      <!-- {{partner.title}} -->
+      <div class="col-md-6">
+        <div class="my-3">
+          <a href="{{ partner.remoteUrl }}" target="_blank" title="{{ partner.title }}" style="text-decoration: none; color: inherit;">
+            {{ partner.title }}
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- end of associated partners -->
+    {% endif %}
+
+    <!-- funding agencies -->
+    <div class="row mt-2">
+      <div class="col-12 ">
+        <hr/>
+        <h3 class="w-100 mb-0 mt-4">Funding agencies</h3>
+      </div>
+      {% assign funding = site.partners | where: "category","funding" |  sort: "ordering" %}
+      {% for partner in funding %}
+      <div class="col-md-6">
+        {% include partnerItem.html %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>  
+  <div class="copyright">Copyright © Université du Luxembourg 2023. All rights reserved</div>
+</div>
 
 
-  </div>
+  <style>
+    .Footer {
+      --footer-logo-size: 200;
+    }
+    
+    .Footer .logo {
+      display: flex;
+      align-items: center;
+      max-width: 600px;
+      margin: 1rem 1.5rem 1rem 0rem;
+      flex-wrap: wrap;
+      flex-grow: 1;
+      min-height: 4rem;
+    }
+    .Footer .logo > p {
+      margin: 0rem 0rem 1rem 0rem;
+      max-width: 360px;
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+    .Footer .logo > a {
+      margin: 0rem 1.5rem 1rem 0rem ;
+    }
+    .footer .footer-section {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      width: 50%;
+    }
+    .footer .footer-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .partners, .associated-partners {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .copyright {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      font-size: 0.7rem;
+      margin-top: 2rem;
+    }
+ 
+
+    .footer svg {
+      max-height: 50px;
+    }
+
+  
+    @media (max-width: 800px) {
+      .Footer {
+        --footer-logo-size: 60
+      }
+      .Footer .footer-wrapper {
+        flex-direction: column;
+      }
+      .Footer .footer-section {
+        width: 100%;
+      }
+      .Footer .logo > a {
+        margin: 0rem 1rem 0rem 0rem ;
+        max-width: 120px;
+      }
+      .Footer .logo {
+        margin: 0.5rem 1rem 0.5rem 0rem;
+      }
+      .Footer .logo > p {
+        max-width: 300px;
+        font-size: 0.7rem;
+        padding: 0.5rem 0;
+        margin: 0rem;
+        line-height: 0.8rem;
+      }
+    }
+  </style>
 </div>

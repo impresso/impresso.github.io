@@ -1,0 +1,4734 @@
+[
+  {
+    "key": "X25U8IK8",
+    "version": 7318,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/X25U8IK8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/X25U8IK8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Boros et al.",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/X25U8IK8",
+      "type": "paper-conference",
+      "title": "Post-correction of Historical Text Transcripts with Large Language Models: An Exploratory Study",
+      "container-title": "LaTeCH-CLfL 2024",
+      "publisher": "The Association for Computational Linguistics",
+      "page": "133-159",
+      "event": "The 8th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature, St Julian's, Malta, March 22, 2024",
+      "abstract": "The quality of automatic transcription of heritage documents, whether from printed, manuscripts or audio sources, has a decisive impact on the ability to search and process historical texts. Although significant progress has been made in text recognition (OCR, HTR, ASR), textual materials derived from library and archive collections remain largely erroneous and noisy. Effective post-transcription correction methods are therefore necessary and have been intensively researched for many years. As large language models (LLMs) have recently shown exceptional performances in a variety of text-related tasks, we investigate their ability to amend poor historical transcriptions. We evaluate fourteen foundation language models against various post-correction benchmarks comprising different languages, time periods and document types, as well as different transcription quality and origins. We compare the performance of different model sizes and different prompts of increasing complexity in zero and few-shot settings. Our evaluation shows that LLMs are anything but efficient at this task. Quantitative and qualitative analyses of results allow us to share valuable insights for future work on post-correcting historical texts with LLMs",
+      "ISBN": "979-8-89176-069-1",
+      "note": "ISBN: 9798891760691\nMeeting Name: The 8th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature\nPublisher: The Association for Computational Linguistics",
+      "shortTitle": "Post-correction of Historical Text Transcripts with Large Language Models",
+      "editor": [
+        {
+          "family": "Boros",
+          "given": "Emanuela"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Najem-Meyer",
+          "given": "Sven"
+        },
+        {
+          "family": "Kaplan",
+          "given": "Frédéric"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "VDQWW8IH",
+    "version": 7134,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/VDQWW8IH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/VDQWW8IH",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/6QQJ7BWG",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1507714
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2023-06-06",
+      "numChildren": 2
+    },
+    "csljson": {
+      "id": "4709830/VDQWW8IH",
+      "type": "article-journal",
+      "title": "impresso Text Reuse at Scale Evaluation Form",
+      "abstract": "Evaluation form designed to inform reviewers of theoretical underpinings of prototype sofware, to provide task-based instructions and usage examples and to collect feedback on individual tasks and an overall assessment. Originally presented as an interactive Google form.",
+      "URL": "https://zenodo.org/records/8009613",
+      "note": "Publisher: Zenodo",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            20
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C8IVELGG",
+    "version": 7105,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/C8IVELGG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/C8IVELGG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/C8IVELGG",
+      "type": "article-journal",
+      "title": "Explorer la presse numérisée: le projet Impresso",
+      "container-title": "Revue Historique Vaudoise",
+      "page": "159-173",
+      "abstract": "« Impresso – Media Monitoring of the Past » est un projet de recherche interdisciplinaire dans lequel une équipe d’historiens, de linguistes informaticiens et de designers collabore à la mise en données d’un corpus d’archives de presse numérisées. Les principaux objectifs du projet sont d’améliorer les outils d’extraction d’information pour les textes historiques, d’indexer sémantiquement des journaux historiques, et d’intégrer les enrichissements obtenus dans les pratiques de recherche des historiens au moyen d’une interface nouvellement développée",
+      "shortTitle": "Explorer la presse numérisée",
+      "journalAbbreviation": "RHV",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "Q8ERSCYD",
+    "version": 7005,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/Q8ERSCYD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/Q8ERSCYD",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/3KC3E6ZW",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/Q8ERSCYD",
+      "type": "webpage",
+      "title": "Datasets and Models for Historical Newspaper Article Segmentation",
+      "URL": "https://zenodo.org/records/3706863",
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "BWQ7VR8R",
+    "version": 7005,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/BWQ7VR8R",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/BWQ7VR8R",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/IFRTXBH3",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1794281
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Makarov and Clematide",
+      "parsedDate": "2020-07",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/BWQ7VR8R",
+      "type": "paper-conference",
+      "title": "Semi-supervised Contextual Historical Text Normalization",
+      "container-title": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Online",
+      "page": "7284–7295",
+      "event": "ACL 2020",
+      "event-place": "Online",
+      "abstract": "Historical text normalization, the task of mapping historical word forms to their modern counterparts, has recently attracted a lot of interest (Bollmann, 2019; Tang et al., 2018; Lusetti et al., 2018; Bollmann et al., 2018;Robertson and Goldwater, 2018; Bollmannet al., 2017; Korchagina, 2017). Yet, virtually all approaches suffer from the two limitations: 1) They consider a fully supervised setup, often with impractically large manually normalized datasets; 2) Normalization happens on words in isolation. By utilizing a simple generative normalization model and obtaining powerful contextualization from the target-side language model, we train accurate models with unlabeled historical data. In realistic training scenarios, our approach often leads to reduction in manually normalized data at the same accuracy levels.",
+      "URL": "https://aclanthology.org/2020.acl-main.650",
+      "DOI": "10.18653/v1/2020.acl-main.650",
+      "author": [
+        {
+          "family": "Makarov",
+          "given": "Peter"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Jurafsky",
+          "given": "Dan"
+        },
+        {
+          "family": "Chai",
+          "given": "Joyce"
+        },
+        {
+          "family": "Schluter",
+          "given": "Natalie"
+        },
+        {
+          "family": "Tetreault",
+          "given": "Joel"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            7
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "5F2H5CCW",
+    "version": 7005,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/5F2H5CCW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/5F2H5CCW",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/KA58Z7IN",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 148406
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout",
+      "parsedDate": "2019",
+      "numChildren": 2
+    },
+    "csljson": {
+      "id": "4709830/5F2H5CCW",
+      "type": "article-journal",
+      "title": "Les stratégies de légitimation de la présence de l’Allemagne et de la Pologne en Europe Orientale (1939-1945)",
+      "container-title": "Guerres mondiales et conflits contemporains",
+      "page": "31-42",
+      "volume": "275",
+      "issue": "3",
+      "abstract": "En Allemagne et en Pologne, l’Est fait l’objet d’une lutte idéologique pour asseoir la possession polonaise ou réviser la dépossession allemande avant 1939. La guerre réactualise cet enjeu. Dans le contexte d’une hégémonie allemande en Europe, l’Est tient une fonction d’exploitation, tandis que du point de vue polonais, le rétablissement des frontières orientales est un élément existentiel de la politique du gouvernement en exil. Le discours expert nous informe, par les éléments mis en avant pour servir leurs régimes respectifs, des conceptions sociales sous-jacentes de l’Est qui expliquent le regard asymétrique sur cette région. Les parcours d’Olgierd Górka et de Gotthold Rhode, éclairent l’évolution des regards allemands et polonais sur l’Est durant la guerre.",
+      "URL": "https://www.cairn.info/revue-guerres-mondiales-et-conflits-contemporains-2019-3-page-31.htm",
+      "DOI": "10.3917/gmcc.275.0031",
+      "note": "Place: Paris cedex 14\nPublisher: Presses Universitaires de France",
+      "journalAbbreviation": "Guerres mondiales et conflits contemporains",
+      "language": "fr",
+      "author": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "R8ZSQ7XU",
+    "version": 7005,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/R8ZSQ7XU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/R8ZSQ7XU",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/I98C7HE6",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1664538
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ströbel et al.",
+      "parsedDate": "2020-05",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/R8ZSQ7XU",
+      "type": "paper-conference",
+      "title": "How Much Data Do You Need? About the Creation of a Ground Truth for Black Letter and the Effectiveness of Neural OCR",
+      "container-title": "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+      "publisher": "European Language Resources Association",
+      "publisher-place": "Marseille, France",
+      "page": "3551–3559",
+      "event": "LREC 2020",
+      "event-place": "Marseille, France",
+      "abstract": "Recent advances in Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) have led to more accurate textrecognition of historical documents. The Digital Humanities heavily profit from these developments, but they still struggle whenchoosing from the plethora of OCR systems available on the one hand and when defining workflows for their projects on the other hand. In this work, we present our approach to build a ground truth for a historical German-language newspaper published in black letter. Wealso report how we used it to systematically evaluate the performance of different OCR engines. Additionally, we used this ground truthto make an informed estimate as to how much data is necessary to achieve high-quality OCR results. The outcomes of our experimentsshow that HTR architectures can successfully recognise black letter text and that a ground truth size of 50 newspaper pages suffices toachieve good OCR accuracy. Moreover, our models perform equally well on data they have not seen during training, which means thatadditional manual correction for diverging data is superfluous.",
+      "URL": "https://aclanthology.org/2020.lrec-1.436",
+      "ISBN": "979-10-95546-34-4",
+      "shortTitle": "How Much Data Do You Need?",
+      "language": "English",
+      "author": [
+        {
+          "family": "Ströbel",
+          "given": "Phillip Benjamin"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        },
+        {
+          "family": "Volk",
+          "given": "Martin"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Calzolari",
+          "given": "Nicoletta"
+        },
+        {
+          "family": "Béchet",
+          "given": "Frédéric"
+        },
+        {
+          "family": "Blache",
+          "given": "Philippe"
+        },
+        {
+          "family": "Choukri",
+          "given": "Khalid"
+        },
+        {
+          "family": "Cieri",
+          "given": "Christopher"
+        },
+        {
+          "family": "Declerck",
+          "given": "Thierry"
+        },
+        {
+          "family": "Goggi",
+          "given": "Sara"
+        },
+        {
+          "family": "Isahara",
+          "given": "Hitoshi"
+        },
+        {
+          "family": "Maegaard",
+          "given": "Bente"
+        },
+        {
+          "family": "Mariani",
+          "given": "Joseph"
+        },
+        {
+          "family": "Mazo",
+          "given": "Hélène"
+        },
+        {
+          "family": "Moreno",
+          "given": "Asuncion"
+        },
+        {
+          "family": "Odijk",
+          "given": "Jan"
+        },
+        {
+          "family": "Piperidis",
+          "given": "Stelios"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            5
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "E26U4IQX",
+    "version": 7004,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/E26U4IQX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/E26U4IQX",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/9PDLEHAE",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1069321
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout",
+      "parsedDate": "2021-09-17",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/E26U4IQX",
+      "type": "article-journal",
+      "title": "Grasping the Anti-Modern Discourse on Europe in the Swiss Digitised Press, or can Text Mining Generate a Research Corpus from an Article Collection?",
+      "page": "21",
+      "volume": "7",
+      "issue": "0",
+      "abstract": "In this paper, we discuss how different types of automatic annotation of digitised newspaper articles can be integrated into the iterative questioning of the source material and the creation of research corpora out of a collection of unstructured texts (kept in a structured collection). We annotate a sizeable collection of Swiss press articles (183,270), extracted via the impresso interface1 using topic modelling (MALLET)2 as well as a naïve Bayes classifier (script by Milan van Lange).The methodological discussion we propose is to explore how text mining can help identify historical discourses that are difficult to query with keywords because of their inherent ambiguity and how to grasp them in a large corpus. We argue that the automated annotations can provide a body of corroborating evidence of the searched discourse, to be used as an intermediary and heuristic analysis step.",
+      "URL": "https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.37",
+      "DOI": "10.5334/johd.37",
+      "note": "Number: 0\nPublisher: Ubiquity Press",
+      "language": "en-US",
+      "author": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            17
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "DGRHRR4Q",
+    "version": 7004,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/DGRHRR4Q",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/DGRHRR4Q",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/XCQURL3G",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Garnett",
+      "parsedDate": "2019-05-13",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/DGRHRR4Q",
+      "type": "post-weblog",
+      "title": "Collections of Digitised Newspapers as Historical Sources – Parthenos training",
+      "URL": "https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/",
+      "language": "en-US",
+      "author": [
+        {
+          "family": "Garnett",
+          "given": "Vicky"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            13
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "JUFAJUJE",
+    "version": 7229,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/JUFAJUJE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/JUFAJUJE",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/2P4UIIQU",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 3063381
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2021-09",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/JUFAJUJE",
+      "type": "article-journal",
+      "title": "Impresso Inspect and Compare. Visual Comparison of Semantically Enriched Historical Newspaper Articles",
+      "container-title": "Information",
+      "page": "348",
+      "volume": "12",
+      "issue": "9",
+      "abstract": "The automated enrichment of mass-digitised document collections using techniques such as text mining is becoming increasingly popular. Enriched collections offer new opportunities for interface design to allow data-driven and visualisation-based search, exploration and interpretation. Most such interfaces integrate close and distant reading and represent semantic, spatial, social or temporal relations, but often lack contrastive views. Inspect and Compare (I&C) contributes to the current state of the art in interface design for historical newspapers with highly versatile side-by-side comparisons of query results and curated article sets based on metadata and semantic enrichments. I&C takes search queries and pre-curated article sets as inputs and allows comparisons based on the distributions of newspaper titles, publication dates and automatically generated enrichments, such as language, article types, topics and named entities. Contrastive views of such data reveal patterns, help humanities scholars to improve search strategies and to facilitate a critical assessment of the overall data quality. I&C is part of the impresso interface for the exploration of digitised and semantically enriched historical newspapers.",
+      "URL": "https://www.mdpi.com/2078-2489/12/9/348",
+      "DOI": "10.3390/info12090348",
+      "note": "Number: 9\nPublisher: Multidisciplinary Digital Publishing Institute",
+      "language": "en",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Kalyakin",
+          "given": "Roman"
+        },
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            9
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "2YHGHRK4",
+    "version": 7004,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/2YHGHRK4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/2YHGHRK4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2020",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/2YHGHRK4",
+      "type": "report",
+      "title": "CLEF-HIPE-2020 - Shared Task Participation Guidelines",
+      "abstract": "This document summarizes instructions for participants to the CLEF-HIPE-2020 shared task. HIPE (Identifying Historical People, Places and other Entities) is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the impresso project and run as a CLEF 2020 Evaluation Lab. More information on the website: https://impresso.github.io/CLEF-HIPE-2020",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "CPVEC597",
+    "version": 7004,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/CPVEC597",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/CPVEC597",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2020",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/CPVEC597",
+      "type": "report",
+      "title": "Impresso Named Entity Annotation Guidelines (CLEF-HIPE-2020)",
+      "abstract": "Impresso annotation guidelines used in the context of corpus annotation for the HIPE shared task (CLEF 2020 Evaluation Lab). CLEF-HIPE-2020 shared task: https://impresso.github.io/CLEF-HIPE-2020/ Impresso project: https://impresso-project.ch",
+      "URL": "https://zenodo.org/records/3604227",
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "DNG9P58I",
+    "version": 7003,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/DNG9P58I",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/DNG9P58I",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/FVGTMEGS",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 490045
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Makarov and Clematide",
+      "parsedDate": "2018-10",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/DNG9P58I",
+      "type": "paper-conference",
+      "title": "Imitation Learning for Neural Morphological String Transduction",
+      "container-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Brussels, Belgium",
+      "page": "2877–2882",
+      "event": "EMNLP 2018",
+      "event-place": "Brussels, Belgium",
+      "abstract": "We employ imitation learning to train a neural transition-based string transducer for morphological tasks such as inflection generation and lemmatization. Previous approaches to training this type of model either rely on an external character aligner for the production of gold action sequences, which results in a suboptimal model due to the unwarranted dependence on a single gold action sequence despite spurious ambiguity, or require warm starting with an MLE model. Our approach only requires a simple expert policy, eliminating the need for a character aligner or warm start. It also addresses familiar MLE training biases and leads to strong and state-of-the-art performance on several benchmarks.",
+      "URL": "https://aclanthology.org/D18-1314",
+      "DOI": "10.18653/v1/D18-1314",
+      "author": [
+        {
+          "family": "Makarov",
+          "given": "Peter"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Riloff",
+          "given": "Ellen"
+        },
+        {
+          "family": "Chiang",
+          "given": "David"
+        },
+        {
+          "family": "Hockenmaier",
+          "given": "Julia"
+        },
+        {
+          "family": "Tsujii",
+          "given": "Jun'ichi"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            10
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "3R2K3V7A",
+    "version": 7229,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/3R2K3V7A",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/3R2K3V7A",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/DI8BVLTG",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1642652
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2023-09-14",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/3R2K3V7A",
+      "type": "article-journal",
+      "title": "Named Entity Recognition and Classification in Historical Documents: A Survey",
+      "container-title": "ACM Computing Surveys",
+      "page": "27:1–27:47",
+      "volume": "56",
+      "issue": "2",
+      "abstract": "After decades of massive digitisation, an unprecedented number of historical documents are available in digital format, along with their machine-readable texts. While this represents a major step forward with respect to preservation and accessibility, it also opens up new opportunities in terms of content mining and the next fundamental challenge is to develop appropriate technologies to efficiently search, retrieve, and explore information from this ‘big data of the past’. Among semantic indexing opportunities, the recognition and classification of named entities are in great demand among humanities scholars. Yet, named entity recognition (NER) systems are heavily challenged with diverse, historical, and noisy inputs. In this survey, we present the array of challenges posed by historical documents to NER, inventory existing resources, describe the main approaches deployed so far, and identify key priorities for future developments.",
+      "URL": "https://dl.acm.org/doi/10.1145/3604931",
+      "DOI": "10.1145/3604931",
+      "shortTitle": "Named Entity Recognition and Classification in Historical Documents",
+      "journalAbbreviation": "ACM Comput. Surv.",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Hamdi",
+          "given": "Ahmed"
+        },
+        {
+          "family": "Pontes",
+          "given": "Elvys Linhares"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Doucet",
+          "given": "Antoine"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2023",
+            9,
+            14
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "X3FN3JZV",
+    "version": 7003,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/X3FN3JZV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/X3FN3JZV",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/W66IGVXV",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 801080
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2022",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/X3FN3JZV",
+      "type": "paper-conference",
+      "title": "Overview of HIPE-2022: Named Entity Recognition and Linking in Multilingual Historical Documents",
+      "container-title": "Experimental IR Meets Multilinguality, Multimodality, and Interaction",
+      "collection-title": "Lecture Notes in Computer Science",
+      "publisher": "Springer International Publishing",
+      "publisher-place": "Cham",
+      "page": "423-446",
+      "event-place": "Cham",
+      "abstract": "This paper presents an overview of the second edition of HIPE (Identifying Historical People, Places and other Entities), a shared task on named entity recognition and linking in multilingual historical documents. Following the success of the first CLEF-HIPE-2020 evaluation lab, HIPE-2022 confronts systems with the challenges of dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets. This shared task is part of the ongoing efforts of the natural language processing and digital humanities communities to adapt and develop appropriate technologies to efficiently retrieve and explore information from historical texts. On such material, however, named entity processing techniques face the challenges of domain heterogeneity, input noisiness, dynamics of language, and lack of resources. In this context, the main objective of HIPE-2022, run as an evaluation lab of the CLEF 2022 conference, is to gain new insights into the transferability of named entity processing approaches across languages, time periods, document types, and annotation tag sets. Tasks, corpora, and results of participating teams are presented.",
+      "DOI": "10.1007/978-3-031-13643-6_26",
+      "ISBN": "978-3-031-13643-6",
+      "shortTitle": "Overview of HIPE-2022",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Najem-Meyer",
+          "given": "Sven"
+        },
+        {
+          "family": "Doucet",
+          "given": "Antoine"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Barrón-Cedeño",
+          "given": "Alberto"
+        },
+        {
+          "family": "Da San Martino",
+          "given": "Giovanni"
+        },
+        {
+          "family": "Degli Esposti",
+          "given": "Mirko"
+        },
+        {
+          "family": "Sebastiani",
+          "given": "Fabrizio"
+        },
+        {
+          "family": "Macdonald",
+          "given": "Craig"
+        },
+        {
+          "family": "Pasi",
+          "given": "Gabriella"
+        },
+        {
+          "family": "Hanbury",
+          "given": "Allan"
+        },
+        {
+          "family": "Potthast",
+          "given": "Martin"
+        },
+        {
+          "family": "Faggioli",
+          "given": "Guglielmo"
+        },
+        {
+          "family": "Ferro",
+          "given": "Nicola"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "96MDGC4G",
+    "version": 7002,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/96MDGC4G",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/96MDGC4G",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/2VC4TMPA",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 188600
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2022",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/96MDGC4G",
+      "type": "paper-conference",
+      "title": "Introducing the HIPE 2022 Shared Task: Named Entity Recognition and Linking in Multilingual Historical Documents",
+      "container-title": "Advances in Information Retrieval",
+      "collection-title": "Lecture Notes in Computer Science",
+      "publisher": "Springer International Publishing",
+      "publisher-place": "Cham",
+      "page": "347-354",
+      "event-place": "Cham",
+      "abstract": "We present the HIPE-2022 shared task on named entity processing in multilingual historical documents. Following the success of the first CLEF-HIPE-2020 evaluation lab, this edition confronts systems with the challenges of dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets. HIPE-2022 is part of the ongoing efforts of the natural language processing and digital humanities communities to adapt and develop appropriate technologies to efficiently retrieve and explore information from historical texts. On such material, however, named entity processing techniques face the challenges of domain heterogeneity, input noisiness, dynamics of language, and lack of resources. In this context, the main objective of the evaluation lab is to gain new insights into the transferability of named entity processing approaches across languages, time periods, document types, and annotation tag sets.",
+      "DOI": "10.1007/978-3-030-99739-7_44",
+      "ISBN": "978-3-030-99739-7",
+      "shortTitle": "Introducing the HIPE 2022 Shared Task",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Doucet",
+          "given": "Antoine"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Hagen",
+          "given": "Matthias"
+        },
+        {
+          "family": "Verberne",
+          "given": "Suzan"
+        },
+        {
+          "family": "Macdonald",
+          "given": "Craig"
+        },
+        {
+          "family": "Seifert",
+          "given": "Christin"
+        },
+        {
+          "family": "Balog",
+          "given": "Krisztian"
+        },
+        {
+          "family": "Nørvåg",
+          "given": "Kjetil"
+        },
+        {
+          "family": "Setty",
+          "given": "Vinay"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "EEPH655W",
+    "version": 7229,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/EEPH655W",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/EEPH655W",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/4CHKHKIV",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 813357
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2020-05",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/EEPH655W",
+      "type": "paper-conference",
+      "title": "Language Resources for Historical Newspapers: the Impresso Collection",
+      "container-title": "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+      "publisher": "European Language Resources Association",
+      "publisher-place": "Marseille, France",
+      "page": "958–968",
+      "event": "LREC 2020",
+      "event-place": "Marseille, France",
+      "abstract": "Following decades of massive digitization, an unprecedented amount of historical document facsimiles can now be retrieved and accessed via cultural heritage online portals. If this represents a huge step forward in terms of preservation and accessibility, the next fundamental challenge– and real promise of digitization– is to exploit the contents of these digital assets, and therefore to adapt and develop appropriate language technologies to search and retrieve information from this `Big Data of the Past'. Yet, the application of text processing tools on historical documents in general, and historical newspapers in particular, poses new challenges, and crucially requires appropriate language resources. In this context, this paper presents a collection of historical newspaper data sets composed of text and image resources, curated and published within the context of the `impresso - Media Monitoring of the Past' project. With corpora, benchmarks, semantic annotations and language models in French, German and Luxembourgish covering ca. 200 years, the objective of the impresso resource collection is to contribute to historical language resources, and thereby strengthen the robustness of approaches to non-standard inputs and foster efficient processing of historical documents.",
+      "URL": "https://aclanthology.org/2020.lrec-1.121",
+      "ISBN": "979-10-95546-34-4",
+      "shortTitle": "Language Resources for Historical Newspapers",
+      "language": "English",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        },
+        {
+          "family": "Ströbel",
+          "given": "Phillip Benjamin"
+        },
+        {
+          "family": "Barman",
+          "given": "Raphaël"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Calzolari",
+          "given": "Nicoletta"
+        },
+        {
+          "family": "Béchet",
+          "given": "Frédéric"
+        },
+        {
+          "family": "Blache",
+          "given": "Philippe"
+        },
+        {
+          "family": "Choukri",
+          "given": "Khalid"
+        },
+        {
+          "family": "Cieri",
+          "given": "Christopher"
+        },
+        {
+          "family": "Declerck",
+          "given": "Thierry"
+        },
+        {
+          "family": "Goggi",
+          "given": "Sara"
+        },
+        {
+          "family": "Isahara",
+          "given": "Hitoshi"
+        },
+        {
+          "family": "Maegaard",
+          "given": "Bente"
+        },
+        {
+          "family": "Mariani",
+          "given": "Joseph"
+        },
+        {
+          "family": "Mazo",
+          "given": "Hélène"
+        },
+        {
+          "family": "Moreno",
+          "given": "Asuncion"
+        },
+        {
+          "family": "Odijk",
+          "given": "Jan"
+        },
+        {
+          "family": "Piperidis",
+          "given": "Stelios"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            5
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "4YEN9AK5",
+    "version": 7001,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/4YEN9AK5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/4YEN9AK5",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/BMDB636R",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 5565397
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Barman et al.",
+      "parsedDate": "2021-01-19",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/4YEN9AK5",
+      "type": "article-journal",
+      "title": "Combining Visual and Textual Features for Semantic Segmentation of Historical Newspapers",
+      "container-title": "ArXiv.org",
+      "issue": "06144v4",
+      "abstract": "The massive amounts of digitized historical documents acquired over the last decades naturally lend themselves to automatic processing and exploration. Research work seeking to automatically process facsimiles and extract information thereby are multiplying with, as a first essential step, document layout analysis. If the identification and categorization of segments of interest in document images have seen significant progress over the last years thanks to deep learning techniques, many challenges remain with, among others, the use of finer-grained segmentation typologies and the consideration of complex, heterogeneous documents such as historical newspapers. Besides, most approaches consider visual features only, ignoring textual signal. In this context, we introduce a multimodal approach for the semantic segmentation of historical newspapers that combines visual and textual features. Based on a series of experiments on diachronic Swiss and Luxembourgish newspapers, we investigate, among others, the predictive power of visual and textual features and their capacity to generalize across time and sources. Results show consistent improvement of multimodal models in comparison to a strong visual baseline, as well as better robustness to high material variance.",
+      "URL": "https://arxiv.org/abs/2002.06144",
+      "DOI": "10.5281/zenodo.3706863",
+      "note": "Number: 06144v4\nPublisher: Cornell University",
+      "language": "eng",
+      "author": [
+        {
+          "family": "Barman",
+          "given": "Raphaël"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        },
+        {
+          "family": "Oliveira",
+          "given": "Sofia Ares"
+        },
+        {
+          "family": "Kaplan",
+          "given": "Frédéric"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            19
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "N25S5SFC",
+    "version": 7001,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/N25S5SFC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/N25S5SFC",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/XBU68RIV",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 153098
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2022-12-31",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/N25S5SFC",
+      "type": "chapter",
+      "title": "Digitised Historical Newspapers: A Changing Research Landscape (Introduction chapter)",
+      "container-title": "Digitised Historical Newspapers: A Changing Research Landscape",
+      "publisher": "De Gruyter Oldenbourg",
+      "page": "1-22",
+      "abstract": "Digitised Historical Newspapers: A Changing Research Landscape was published in Digitised Newspapers – A New Eldorado for Historians? on page 1.",
+      "URL": "https://www.degruyter.com/document/doi/10.1515/9783110729214-001/html",
+      "ISBN": "978-3-11-072921-4",
+      "note": "DOI: 10.1515/9783110729214-001",
+      "shortTitle": "Digitised Historical Newspapers",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Clavert",
+          "given": "Frédéric"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            31
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "G9MHFGC7",
+    "version": 7001,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/G9MHFGC7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/G9MHFGC7",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/Q3LG7Q75",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 817764
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Makarov and Clematide",
+      "parsedDate": "2018-08",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/G9MHFGC7",
+      "type": "paper-conference",
+      "title": "Neural Transition-based String Transduction for Limited-Resource Setting in Morphology",
+      "container-title": "Proceedings of the 27th International Conference on Computational Linguistics",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Santa Fe, New Mexico, USA",
+      "page": "83–93",
+      "event": "COLING 2018",
+      "event-place": "Santa Fe, New Mexico, USA",
+      "abstract": "We present a neural transition-based model that uses a simple set of edit actions (copy, delete, insert) for morphological transduction tasks such as inflection generation, lemmatization, and reinflection. In a large-scale evaluation on four datasets and dozens of languages, our approach consistently outperforms state-of-the-art systems on low and medium training-set sizes and is competitive in the high-resource setting. Learning to apply a generic copy action enables our approach to generalize quickly from a few data points. We successfully leverage minimum risk training to compensate for the weaknesses of MLE parameter learning and neutralize the negative effects of training a pipeline with a separate character aligner.",
+      "URL": "https://aclanthology.org/C18-1008",
+      "author": [
+        {
+          "family": "Makarov",
+          "given": "Peter"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Bender",
+          "given": "Emily M."
+        },
+        {
+          "family": "Derczynski",
+          "given": "Leon"
+        },
+        {
+          "family": "Isabelle",
+          "given": "Pierre"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            8
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "XMS6HQST",
+    "version": 7001,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/XMS6HQST",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/XMS6HQST",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/GYRD94H9",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1235020
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2020",
+      "numChildren": 2
+    },
+    "csljson": {
+      "id": "4709830/XMS6HQST",
+      "type": "paper-conference",
+      "title": "Overview of CLEF HIPE 2020: Named Entity Recognition and Linking on Historical Newspapers",
+      "container-title": "Experimental IR Meets Multilinguality, Multimodality, and Interaction",
+      "collection-title": "Lecture Notes in Computer Science",
+      "publisher": "Springer International Publishing",
+      "publisher-place": "Cham",
+      "page": "288-310",
+      "event-place": "Cham",
+      "abstract": "This paper presents an overview of the first edition of HIPE (Identifying Historical People, Places and other Entities), a pioneering shared task dedicated to the evaluation of named entity processing on historical newspapers in French, German and English. Since its introduction some twenty years ago, named entity (NE) processing has become an essential component of virtually any text mining application and has undergone major changes. Recently, two main trends characterise its developments: the adoption of deep learning architectures and the consideration of textual material originating from historical and cultural heritage collections. While the former opens up new opportunities, the latter introduces new challenges with heterogeneous, historical and noisy inputs. In this context, the objective of HIPE, run as part of the CLEF 2020 conference, is threefold: strengthening the robustness of existing approaches on non-standard inputs, enabling performance comparison of NE processing on historical texts, and, in the long run, fostering efficient semantic indexing of historical documents. Tasks, corpora, and results of 13 participating teams are presented.",
+      "DOI": "10.1007/978-3-030-58219-7_21",
+      "ISBN": "978-3-030-58219-7",
+      "note": "tex.ids= ehrmann_overview_2020a\nISBN: 9783030582197\nmeetingName: 11th International Conference of the CLEF Association - CLEF 2020\nnumPages: 25\nplace: Cham\npublisher: Springer\nseriesNumber: 12260",
+      "shortTitle": "Overview of CLEF HIPE 2020",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Flückiger",
+          "given": "Alex"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Arampatzis",
+          "given": "Avi"
+        },
+        {
+          "family": "Kanoulas",
+          "given": "Evangelos"
+        },
+        {
+          "family": "Tsikrika",
+          "given": "Theodora"
+        },
+        {
+          "family": "Vrochidis",
+          "given": "Stefanos"
+        },
+        {
+          "family": "Joho",
+          "given": "Hideo"
+        },
+        {
+          "family": "Lioma",
+          "given": "Christina"
+        },
+        {
+          "family": "Eickhoff",
+          "given": "Carsten"
+        },
+        {
+          "family": "Névéol",
+          "given": "Aurélie"
+        },
+        {
+          "family": "Cappellato",
+          "given": "Linda"
+        },
+        {
+          "family": "Ferro",
+          "given": "Nicola"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "BWL4R376",
+    "version": 7229,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/BWL4R376",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/BWL4R376",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/9XM4YIQ3",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1329572
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2022",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/BWL4R376",
+      "type": "paper-conference",
+      "title": "Extended Overview of HIPE-2022: Named Entity Recognition and Linking in Multilingual Historical Documents",
+      "container-title": "Proceedings of the Working Notes of CLEF 2022 - Conference and Labs of the Evaluation Forum",
+      "publisher": "CEUR-WS",
+      "abstract": "This paper presents an overview of the second edition of HIPE (Identifying Historical People, Places and other Entities), a shared task on named entity recognition and linking in multilingual historical documents. Following the success of the first CLEF-HIPE-2020 evaluation lab, HIPE-2022 confronts systems with the challenges of dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets. This shared task is part of the ongoing efforts of the natural language processing and digital humanities communities to adapt and develop appropriate technologies to efficiently retrieve and explore information from historical texts. On such material, however, named entity processing techniques face the challenges of domain heterogeneity, input noisiness, dynamics of language, and lack of resources. In this context, the main objective of HIPE-2022, run as an evaluation lab of the CLEF 2022 conference, is to gain new insights into the <em>transferability</em> of named entity processing approaches across languages, time periods, document types, and annotation tag sets. Tasks, corpora, and results of participating teams are presented. Compared to the condensed overview, this paper contains more refined statistics on the datasets, a break down of the results per type of entity, and a discussion of the 'challenges' proposed in the shared task",
+      "DOI": "10.5281/zenodo.6979577",
+      "ISBN": "978-3-031-13642-9",
+      "note": "Meeting Name: 13th Conference and Labs of the Evaluation Forum (CLEF 2022)\nNum Pages: 26",
+      "shortTitle": "Extended Overview of HIPE-2022",
+      "editor": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Najem-Meyer",
+          "given": "Sven"
+        },
+        {
+          "family": "Doucet",
+          "given": "Antoine"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "H42ZPLRT",
+    "version": 7229,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/H42ZPLRT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/H42ZPLRT",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/3VLSCP68",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 3830099
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2023",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/H42ZPLRT",
+      "type": "article-journal",
+      "title": "impresso Text Reuse at Scale. An interface for the exploration of text reuse data in semantically enriched historical newspapers",
+      "container-title": "Frontiers in Big Data",
+      "volume": "6",
+      "abstract": "Text Reuse reveals meaningful reiterations of text in large corpora. Humanities researchers use text reuse to study, e.g., the posterior reception of influential texts or to reveal evolving publication practices of historical media. This research is often supported by interactive visualizations which highlight relations and differences between text segments. In this paper, we build on earlier work in this domain. We present impresso Text Reuse at Scale, the to our knowledge first interface which integrates text reuse data with other forms of semantic enrichment to enable a versatile and scalable exploration of intertextual relations in historical newspaper corpora. The Text Reuse at Scale interface was developed as part of the impresso project and combines powerful search and filter operations with close and distant reading perspectives. We integrate text reuse data with enrichments derived from topic modeling, named entity recognition and classification, language and document type detection as well as a rich set of newspaper metadata. We report on historical research objectives and common user tasks for the analysis of historical text reuse data and present the prototype interface together with the results of a user evaluation.",
+      "URL": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1249469",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Beelen",
+          "given": "Kaspar"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        },
+        {
+          "family": "Deseure",
+          "given": "Brecht"
+        },
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Keck",
+          "given": "Jana"
+        },
+        {
+          "family": "Apostolopoulos",
+          "given": "Petros"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "AGG8AQIJ",
+    "version": 7228,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/AGG8AQIJ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/AGG8AQIJ",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/L7SUU32Y",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1049434
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Romanello et al.",
+      "parsedDate": "2020",
+      "numChildren": 3
+    },
+    "csljson": {
+      "id": "4709830/AGG8AQIJ",
+      "type": "paper-conference",
+      "title": "The impresso system architecture in a nutshell",
+      "container-title": "EuropeanaTech insights",
+      "abstract": "The decades-long efforts of libraries and transnational bodies to digitize historical newspapers holdings has yielded large-scale, machine readable collections of digitized newspapers at regional, national and international levels [1,2]. If the value of historical newspapers as sources for research in both academic and non-academic contexts was recognized long before, this “digital turn” has contributed to a new momentum on several fronts, from automatic content processing to exploration interfaces and critical framework for digital newspaper scholarship [3]. Beside the multiplication of individual works, hackathons and evaluation campaigns, several large consortia projects proposing to apply computational methods to digitized newspapers at scale have recently emerged (e.g. Oceanic Exchanges, NewsEye, Living with Machines).",
+      "URL": "https://pro.europeana.eu/page/issue-16-newspapers#the-impresso-system-architecture-in-a-nutshell",
+      "note": "https://www.semanticscholar.org/paper/The-impresso-system-architecture-in-a-nutshell-Romanello-Ehrmann/28bfc855527a1cb6dcaade90f7aac50772f00667",
+      "author": [
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "D2WFMZUE",
+    "version": 7000,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/D2WFMZUE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/D2WFMZUE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Schelb et al.",
+      "parsedDate": "2022",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/D2WFMZUE",
+      "type": "paper-conference",
+      "title": "ECCE: Entity-centric Corpus Exploration Using Contextual Implicit Networks",
+      "container-title": "The Web Conference (WWW'22)",
+      "publisher": "ACM Digital Library",
+      "publisher-place": "Lyon, France",
+      "event-place": "Lyon, France",
+      "URL": "https://dl.acm.org/doi/10.1145/3487553.3524237",
+      "DOI": "doi.org/10.1145/3487553.3524237",
+      "ISBN": "978-1-4503-9130-6",
+      "note": "Citation Key: schelb_ecce_2022",
+      "author": [
+        {
+          "family": "Schelb",
+          "given": "Julian"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Spitz",
+          "given": "Andreas"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "37YSMTTH",
+    "version": 7000,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/37YSMTTH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/37YSMTTH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Vernet",
+      "parsedDate": "2022",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/37YSMTTH",
+      "type": "thesis",
+      "title": "Automatic table detection and classification in large-scale newspaper archives",
+      "publisher": "EPFL",
+      "publisher-place": "Lausanne, Switzerland",
+      "genre": "phd",
+      "event-place": "Lausanne, Switzerland",
+      "note": "Citation Key: vernet_automatic_2022",
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "SGG3E4TM",
+    "version": 7229,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/SGG3E4TM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/SGG3E4TM",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/MREL7IWK",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 2617022
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2020-10-22",
+      "numChildren": 3
+    },
+    "csljson": {
+      "id": "4709830/SGG3E4TM",
+      "type": "paper-conference",
+      "title": "Extended Overview of CLEF HIPE 2020: Named Entity Processing on Historical Newspapers",
+      "publisher": "Zenodo",
+      "abstract": "This paper presents an extended overview of the first edition of HIPE (Identifying Historical People, Places and other Entities), a pioneering shared task dedicated to the evaluation of named entity processing on historical newspapers in French, German and English. Since its introduction some twenty years ago, named entity (NE) processing has become an essential component of virtually any text mining application and has undergone major changes. Recently, two main trends characterise its developments: the adoption of deep learning architectures and the consideration of textual material originating from historical and cultural heritage collections. While the former opens up new opportunities, the latter introduces new challenges with heterogeneous, historical and noisy inputs. In this context, the objective of HIPE, run as part of the CLEF 2020 conference, is threefold: strengthening the robustness of existing approaches on non-standard inputs, enabling performance comparison of NE processing on historical texts, and, in the long run, fostering efficient semantic indexing of historical documents. Tasks, corpora, and results of 13 participating teams are presented.<br> Compared to the condensed overview [31], this paper includes further details about data generation and statistics, additional information on participating systems, and the presentation of complementary results.",
+      "URL": "https://zenodo.org/record/4117566",
+      "DOI": "10.5281/ZENODO.4117566",
+      "note": "tex.ids= ehrmann_extended_2020",
+      "shortTitle": "Extended Overview of CLEF HIPE 2020",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": ""
+        },
+        {
+          "family": "Romanello",
+          "given": ""
+        },
+        {
+          "family": "Flückiger",
+          "given": ""
+        },
+        {
+          "family": "Clematide",
+          "given": ""
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            22
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "473HYAPF",
+    "version": 7229,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/473HYAPF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/473HYAPF",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/XDFESVWM",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 55214
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout et al.",
+      "parsedDate": "2023",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/473HYAPF",
+      "type": "book",
+      "title": "Digitized Newspapers - A New Eldorado for Historians? Reflections on tools, methods and epistemology",
+      "collection-title": "Studies in Digital History and Hermeneutics",
+      "publisher": "De Gruyter Oldenbourg",
+      "publisher-place": "Berlin, Germany",
+      "number-of-pages": "439",
+      "event-place": "Berlin, Germany",
+      "abstract": "The application of digital technologies to historical newspapers has changed the research landscape historians were used to. An Eldorado? Despite undeniable advantages, the new digital affordance of historical newspapers also transforms research practices and confronts historians with new challenges. Drawing on a growing community of practices, the impresso project invited scholars experienced with digitised newspaper collections with the aim of encouraging a discussion on heuristics, source criticism and interpretation of digitized newspapers.\n\nThis volume provides a snapshot of current research on the subject and offers three perspectives: how digitisation is transforming access to and exploration of historical newspaper collections; how automatic content processing allows for the creation of new layers of information; and, finally, what analyses this enhanced material opens up.\n\n‘impresso - Media Monitoring of the Past’ is an interdisciplinary research project that applies text mining tools to digitised historical newspapers and integrates the resulting data into historical research workflows by means of a newly developed user interface. The question of how best to adapt text mining tools and their use by humanities researchers is at the heart of the impresso enterprise.",
+      "URL": "https://doi.org/10.1515/9783110729214",
+      "ISBN": "978-3-11-072921-4",
+      "note": "tex.ids= _digitised_2022, bunout_digitized_2022\nDOI: doi:10.1515/9783110729214",
+      "editor": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Clavert",
+          "given": "Frédéric"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "IBDR5WXP",
+    "version": 6998,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/IBDR5WXP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/IBDR5WXP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2020",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/IBDR5WXP",
+      "type": "report",
+      "title": "HIPE 2022 Shared Task Participation Guidelines",
+      "genre": "Manual",
+      "URL": "https://zenodo.org/records/6045662",
+      "note": "Citation Key: ehrmann_hipe_2020\nDOI: 10.5281/zenodo.3677171",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        },
+        {
+          "family": "Fluckiger",
+          "given": "Alex"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "AVEPXMPI",
+    "version": 6998,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/AVEPXMPI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/AVEPXMPI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2020",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/AVEPXMPI",
+      "type": "book",
+      "title": "CLEF 2020 Working Notes -  HIPE 2020 Workshop - Identifying Historical People, Places and other Entities",
+      "URL": "https://ceur-ws.org/Vol-2696/",
+      "note": "tex.referencetype: proceedings",
+      "editor": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Flückiger",
+          "given": "Alex"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "VUHKIN82",
+    "version": 6997,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/VUHKIN82",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/VUHKIN82",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Andréys et al.",
+      "parsedDate": "2022",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/VUHKIN82",
+      "type": "chapter",
+      "title": "Introduction: la presse illustrée à l'ère des humanités numériques - état des lieux et problématiques de recherche",
+      "container-title": "La presse et ses images - die presse un ihre bilder. Sources, réseaux, imaginaires, méthodes",
+      "publisher": "Peter Lang Verlag",
+      "publisher-place": "Berlin, Germany",
+      "event-place": "Berlin, Germany",
+      "note": "Citation Key: andreys_introduction_2021",
+      "author": [
+        {
+          "family": "Andréys",
+          "given": "Clémence"
+        },
+        {
+          "family": "Aslangul",
+          "given": "Claire"
+        },
+        {
+          "family": "Auboussier",
+          "given": "Julien"
+        },
+        {
+          "family": "Barbaresi",
+          "given": "Adrien"
+        },
+        {
+          "family": "Deffarges",
+          "given": "Anne"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Taouchitet",
+          "given": "Sofiane"
+        },
+        {
+          "family": "Zunino",
+          "given": "Bérénice"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "DQ7K4B2I",
+    "version": 6858,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/DQ7K4B2I",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/DQ7K4B2I",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Marxen",
+      "parsedDate": "2023",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/DQ7K4B2I",
+      "type": "thesis",
+      "title": "Where Did the News Come From? Detection of News Agency Releases in Historical Newspapers",
+      "publisher": "École Polytechnique Fédérale de Lausanne",
+      "publisher-place": "Lausanne",
+      "number-of-pages": "114",
+      "genre": "MA thesis",
+      "event-place": "Lausanne",
+      "abstract": "Since their beginnings in the 1830s and 1840s, news agencies have played an important role in the national and international news market, aiming to deliver news as fast and as reliable as possible. While we know that newspapers have been using agency content for a long time to produce their stories, the amount to which the agencies shape our news often remains unclear. Although researchers have already addressed this question, recently by using computational methods to assess the influence of news agencies at present, large-scale studies on the role of news agencies in the past continue to be rare. This thesis aims to bridge this gap by detecting news agencies in a large corpus of Swiss and Luxembourgish newspaper articles (the impresso corpus) for the years 1840-2000 using deep learning methods. For this, we first build and annotate a multilingual dataset with news agency mentions, which we then use to train and evaluate several BERT-based agency detection and classification models. Based on these experiments, we choose two models (for French and German) for the inference on the impresso corpus. Results show that ca. 10% of the articles explicitly reference news agencies, with the greatest share of agency content after 1940, although systematic citation of agencies already started slowly in the 1910s. Differences in the usage of agency content across time, countries and languages as well as between newspapers reveal a complex network of news flows, whose exploration provides many opportunities for future work",
+      "URL": "https://infoscience.epfl.ch/record/305129",
+      "shortTitle": "Where Did the News Come From?",
+      "author": [
+        {
+          "family": "Marxen",
+          "given": "Lea"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "6CDT3YCC",
+    "version": 7229,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/6CDT3YCC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/6CDT3YCC",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/C5UEWUZQ",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 12780849
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2023",
+      "numChildren": 3
+    },
+    "csljson": {
+      "id": "4709830/6CDT3YCC",
+      "type": "article-journal",
+      "title": "Computational Approaches to Digitised Historical Newspapers (Dagstuhl Seminar 22292)",
+      "container-title": "DROPS-IDN/v2/document/10.4230/DagRep.12.7.112",
+      "abstract": "Historical newspapers are mirrors of past societies, keeping track of the small and great history and reflecting the political, moral, and economic environments in which they were produced. Highly valued as primary sources by historians and humanities scholars, newspaper archives have been massively digitised in libraries, resulting in large collections of machine-readable documents and, over the past half-decade, in numerous academic research initiatives on their automatic processing. The Dagstuhl Seminar 22292 \"Computational Approaches to Digitised Historical Newspaper\" gathered researchers and practitioners with backgrounds in natural language processing, computer vision, digital history and digital library involved in computational approaches to historical newspapers with the objectives to share experiences, analyse successes and shortcomings, deepen our understanding of the interplay between computational aspects and digital scholarship, and discuss future challenges. This report documents the program and the outcomes of the seminar.",
+      "URL": "https://drops.dagstuhl.de/entities/document/10.4230/DagRep.12.7.112",
+      "DOI": "10.4230/DagRep.12.7.112",
+      "note": "tex.ids= ehrmann_computational_2023\nplace: Dagstuhl, Germany\npublisher: Schloss-Dagstuhl - Leibniz Zentrum für Informatik",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Neudecker",
+          "given": "Clemens"
+        },
+        {
+          "family": "Doucet",
+          "given": "Antoine"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "BAWRK9PX",
+    "version": 6799,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/BAWRK9PX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/BAWRK9PX",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/SMJQ6S4V",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 2215235
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2022-10",
+      "numChildren": 2
+    },
+    "csljson": {
+      "id": "4709830/BAWRK9PX",
+      "type": "manuscript",
+      "title": "Transparent Generosity. Introducing the impresso interface for the exploration of semantically enriched historical newspapers",
+      "abstract": "Transparent Generosity. Introducing the impresso interface for the exploration of semantically enriched historical newspapers Semantically enriched historical newspapers offer a multitude of opportunities for data-driven analysis. In this paper we introduce the impresso interface which integrates several types of semantic enrichments and data visualisation and thereby supports new exploratory workflows and the critical assessment of largescale digitised source collections. The interface targets historians and integrates search, filtering, comparison, and recommendation based on automatically detected topics, linked named entities, text reuse, n-grams, image similarity, language, and OCR quality. We introduce the theoretical principles which guided interface development and reflect on the user requirements gathering process together with a case-study driven exemplification of novel workflows facilitated by the interface. We conclude with an overview of accompanying educational materials and discuss a user evaluation and usage statistics.",
+      "URL": "https://hal.science/hal-04154431",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            10
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            19
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "HN9H64G2",
+    "version": 7228,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/HN9H64G2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/HN9H64G2",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/RYAST2RP",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 17136,
+        "username": "matteo.romanello",
+        "name": "Matteo Romanello",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/matteo.romanello",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Romanello and Hengchen",
+      "parsedDate": "2020",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/HN9H64G2",
+      "type": "article-journal",
+      "title": "Detecting Text Reuse with Passim",
+      "container-title": "The Programming Historian",
+      "URL": "https://doi.org/10.46430/phen0092",
+      "DOI": "10.46430/phen0092",
+      "author": [
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Hengchen",
+          "given": "Simon"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "9K6RPD2K",
+    "version": 6246,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/9K6RPD2K",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/9K6RPD2K",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/7CJGWPKB",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 374466
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 17136,
+        "username": "matteo.romanello",
+        "name": "Matteo Romanello",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/matteo.romanello",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2020",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/9K6RPD2K",
+      "type": "paper-conference",
+      "title": "Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers",
+      "container-title": "Advances in Information Retrieval",
+      "collection-title": "Lecture Notes in Computer Science",
+      "publisher": "Springer International Publishing",
+      "publisher-place": "Cham",
+      "page": "524-532",
+      "event-place": "Cham",
+      "abstract": "Since its introduction some twenty years ago, named entity (NE) processing has become an essential component of virtually any text mining application and has undergone major changes. Recently, two main trends characterise its developments: the adoption of deep learning architectures and the consideration of textual material originating from historical and cultural heritage collections. While the former opens up new opportunities, the latter introduces new challenges with heterogeneous, historical and noisy inputs. If NE processing tools are increasingly being used in the context of historical documents, performance values are below the ones on contemporary data and are hardly comparable. In this context, this paper introduces the CLEF 2020 Evaluation Lab HIPE (Identifying Historical People, Places and other Entities) on named entity recognition and linking on diachronic historical newspaper material in French, German and English. Our objective is threefold: strengthening the robustness of existing approaches on non-standard inputs, enabling performance comparison of NE processing on historical texts, and, in the long run, fostering efficient semantic indexing of historical documents in order to support scholarship on digital cultural heritage collections.",
+      "DOI": "10.1007/978-3-030-45442-5_68",
+      "ISBN": "978-3-030-45442-5",
+      "note": "tex.ids: 10.1007/978-3-030-45442-5_68",
+      "shortTitle": "Introducing the CLEF 2020 HIPE Shared Task",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Bircher",
+          "given": "Stefan"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Jose",
+          "given": "Joemon M."
+        },
+        {
+          "family": "Yilmaz",
+          "given": "Emine"
+        },
+        {
+          "family": "Magalhães",
+          "given": "João"
+        },
+        {
+          "family": "Castells",
+          "given": "Pablo"
+        },
+        {
+          "family": "Ferro",
+          "given": "Nicola"
+        },
+        {
+          "family": "Silva",
+          "given": "Mário J."
+        },
+        {
+          "family": "Martins",
+          "given": "Flávio"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "BDZBZD2L",
+    "version": 7061,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/BDZBZD2L",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/BDZBZD2L",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/5DAKJKCE",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 216520
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Makarov and Clematide",
+      "parsedDate": "2018-10",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/BDZBZD2L",
+      "type": "paper-conference",
+      "title": "UZH at CoNLL–SIGMORPHON 2018 Shared Task on Universal Morphological Reinflection",
+      "container-title": "Proceedings of the CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Brussels",
+      "page": "69–75",
+      "event": "CoNLL 2018",
+      "event-place": "Brussels",
+      "URL": "https://aclanthology.org/K18-3008",
+      "DOI": "10.18653/v1/K18-3008",
+      "author": [
+        {
+          "family": "Makarov",
+          "given": "Peter"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Hulden",
+          "given": "Mans"
+        },
+        {
+          "family": "Cotterell",
+          "given": "Ryan"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            10
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "NGB38SGY",
+    "version": 3936,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/NGB38SGY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/NGB38SGY",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/3C2A2FEL",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 619955
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 586650,
+        "username": "bunoute",
+        "name": "Estelle Bunout",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/bunoute",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Clematide et al.",
+      "parsedDate": "2018",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/NGB38SGY",
+      "type": "article-journal",
+      "title": "Crowdsourcing the OCR Ground Truth of a German and French Cultural Heritage Corpus",
+      "container-title": "Journal for Language Technology and Computational Linguistics (JLCL)",
+      "page": "25 - 47",
+      "volume": "33",
+      "issue": "1",
+      "abstract": "Crowdsourcing approaches for post-correction of OCR output (Optical Character Recognition) have been successfully applied to several historical text collections. We report on our crowd-correction platform Kokos, which we built to improve the OCR quality of the digitized yearbooks of the Swiss Alpine Club (SAC) from the 19th century. This multilingual heritage corpus consists of Alpine texts mainly written in German and French, all typeset in Antiqua font. Finding and engaging volunteers for correcting large amounts of pages into high quality text requires a carefully designed user interface, an easy-to-use workﬂow, and continuous eﬀorts for keeping the participants motivated. More than 180,000 characters on about 21,000 pages were corrected by volunteers in about 7 months, achieving an OCR ground truth with a systematically evaluated accuracy of 99.7 % on the word level. The crowdsourced OCR ground truth and the corresponding original OCR recognition results from Abbyy FineReader for each page are available as a resource for machine learning and evaluation. Additionally, the scanned images (300 dpi) of all pages are included to enable tests with other OCR software.",
+      "journalAbbreviation": "JLCL",
+      "language": "en",
+      "author": [
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        },
+        {
+          "family": "Furrer",
+          "given": "Lenz"
+        },
+        {
+          "family": "Volk",
+          "given": "Martin"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "WQ7IA2HI",
+    "version": 6458,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/WQ7IA2HI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/WQ7IA2HI",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/FVJYKJWN",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1090943
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 586650,
+        "username": "bunoute",
+        "name": "Estelle Bunout",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/bunoute",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Amrhein and Clematide",
+      "parsedDate": "2018",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/WQ7IA2HI",
+      "type": "article-journal",
+      "title": "Supervised OCR Error Detection and Correction Using Statistical and Neural Machine Translation Methods",
+      "container-title": "Journal for Language Technology and Computational Linguistics (JLCL)",
+      "page": "49 - 76",
+      "volume": "33",
+      "issue": "1",
+      "abstract": "For indexing the content of digitized historical texts, optical character recognition (OCR) errors are a hampering problem. To explore the eﬀectivity of new strategies for OCR post-correction, this article focuses on methods of character-based machine translation, speciﬁcally neural machine translation and statistical machine translation. Using the ICDAR 2017 data set on OCR post-correction for English and French, we experiment with diﬀerent strategies for error detection and error correction. We analyze how OCR post-correction with NMT can proﬁt from using additional information and show that SMT and NMT can beneﬁt from each other for these tasks. An ensemble of our models reached best performance in ICDAR’s 2017 error correction subtask and performed competitively in error detection.",
+      "note": "tex.ids= amrhein_supervised_2018\ntex.date-added: 2019-01-21 10:23:05 +0100\ntex.date-modified: 2019-01-21 10:28:49 +0100",
+      "journalAbbreviation": "JLCL",
+      "language": "en",
+      "author": [
+        {
+          "family": "Amrhein",
+          "given": "Chantal"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "2CU386W4",
+    "version": 7228,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/2CU386W4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/2CU386W4",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/M633QDCH",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1404021
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 586650,
+        "username": "bunoute",
+        "name": "Estelle Bunout",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/bunoute",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2019-02-09",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/2CU386W4",
+      "type": "paper-conference",
+      "title": "Historical Newspaper User Interfaces: A Review",
+      "publisher": "IFLA",
+      "publisher-place": "Athens, Greece",
+      "event": "IFLA WLIC 2019  - Libraries: dialogue for change",
+      "event-place": "Athens, Greece",
+      "abstract": "After decades of large-scale digitization, many historical newspaper collections are just one click away via online portals developed and supported by various public or private stakeholders. Initially offering access to full text search and facsimiles visualization only, historic newspaper user interfaces are increasingly integrating advanced exploration features based on the application of text mining tools to digitized sources. As gateways to enriched material, such interfaces are however not neutral and play a fundamental role in how users perceive historical sources, understand potential biases of upstream processes and benefit from the opportunities of datafication. What features can be found in current interfaces, and to what degree do interfaces adopt novel technologies? This paper presents a survey of interfaces for digitized historical newspapers with the aim of mapping the current state of the art and identifying recent trends with regard to content presentation, enrichment and user interaction. We devised 6 interface assessment criteria and reviewed twenty-four interfaces based on ca. 140 predefined features.",
+      "URL": "http://library.ifla.org/2578/",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "During",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            2,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "G4TK26AY",
+    "version": 3912,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/G4TK26AY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/G4TK26AY",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/ZBM4GWRZ",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout and Düring",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/G4TK26AY",
+      "type": "chapter",
+      "title": "The digitisation of newspapers: how to turn a page",
+      "container-title": "From the archival to the digital turn · Ranke.2",
+      "URL": "https://ranke2.uni.lu/u/archival-digital-turn/",
+      "author": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "W5EB2SZQ",
+    "version": 3912,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/W5EB2SZQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/W5EB2SZQ",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/ACJCP2RL",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout and Düring",
+      "parsedDate": "2017-10-28",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/W5EB2SZQ",
+      "type": "webpage",
+      "title": "Sunny and promising kick-off meeting",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "On 24-25th of October 2017, the impresso consortium had its first workshop and kick-off meeting, hosted by DHLAB on the beautiful EPFL campus.",
+      "URL": "https://impresso-project.ch/news/2017/10/28/kick-off.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            28
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "FHKRX2R9",
+    "version": 3912,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/FHKRX2R9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/FHKRX2R9",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/CDI7ETL3",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout and Düring",
+      "parsedDate": "2018-02-08",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/FHKRX2R9",
+      "type": "webpage",
+      "title": "Understanding the historians needs in their use of digitised newspapers",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "On the morning of 8 February, a group of historians using newspapers for their research at the C2DH were invited to attend a second impresso user workshop.",
+      "URL": "https://impresso-project.ch/news/2018/02/08/buttercup.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            8
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "B9FDTKJD",
+    "version": 3912,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/B9FDTKJD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/B9FDTKJD",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/UVYPANSE",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann and Bunout",
+      "parsedDate": "2018-02-24",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/B9FDTKJD",
+      "type": "webpage",
+      "title": "Materialising the co-design with a consortium meeting in Basel",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "On 22 and 23 February, the impresso consortium held a workshop at the Swiss Economic Archives in Basel, Switzerland, hosted by Irene Amstutz and Elias Kreyenbühl whom we warmly thank for their welcome.",
+      "URL": "https://impresso-project.ch/news/2018/02/24/edelweis.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            24
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "BXKL55DV",
+    "version": 3912,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/BXKL55DV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/BXKL55DV",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/8KDXZ3ZG",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2018-04-17",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/BXKL55DV",
+      "type": "webpage",
+      "title": "State of impresso newspaper collection - April 2018",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "State of impresso newspaper collection - April 2018",
+      "URL": "https://impresso-project.ch/news/2018/04/17/state-collection-april18.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            4,
+            17
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "5IRH5LMY",
+    "version": 4635,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/5IRH5LMY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/5IRH5LMY",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/9WM4W43G",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 586650,
+        "username": "bunoute",
+        "name": "Estelle Bunout",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/bunoute",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2018-06-11",
+      "numChildren": 2
+    },
+    "csljson": {
+      "id": "4709830/5IRH5LMY",
+      "type": "webpage",
+      "title": "Trading zone between NLP and History - a post series",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "Stepping in the NLP / History trading zone: a series of posts",
+      "URL": "https://impresso-project.ch/news/2018/06/11/tradingzone-umbrella.html",
+      "note": "tex.ids= ehrmann_trading_2018a",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            11
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            17
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "HF4NW6RF",
+    "version": 3913,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/HF4NW6RF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/HF4NW6RF",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/9F9K6RPX",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2018-06-12",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/HF4NW6RF",
+      "type": "webpage",
+      "title": "Named entity processing in a nutshell",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "Trading zone part 1: Named Entity Processing. This blog post is part of Stepping in the NLP / History trading zone: a series of posts.",
+      "URL": "https://impresso-project.ch/news/2018/06/12/tradingzone-ner.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            12
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "V8U89HP8",
+    "version": 3913,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/V8U89HP8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/V8U89HP8",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/UQ4HJMVT",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Romanello",
+      "parsedDate": "2018-06-12",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/V8U89HP8",
+      "type": "webpage",
+      "title": "Text re-use detection in a nutshell",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "Trading zone part 3: Text Re-use Detection. This blog post is the last part of Stepping in the NLP / History trading zone: a series of posts.",
+      "URL": "https://impresso-project.ch/news/2018/06/12/tradingzone-tr.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            12
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "MKHSX98A",
+    "version": 3912,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/MKHSX98A",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/MKHSX98A",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/EREXI2JY",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout",
+      "parsedDate": "2018-07-06",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/MKHSX98A",
+      "type": "webpage",
+      "title": "Moving beyond digital filters. How to integrate the digitised press into the historian’s workflow",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "impresso Laurel workshop, École polytechnique fédérale de Lausanne (EPFL)",
+      "URL": "https://impresso-project.ch/news/2018/07/06/laurel.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            6
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "NSDPY79L",
+    "version": 3912,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/NSDPY79L",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/NSDPY79L",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/W3XCNEWB",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout and Nguyen Dang",
+      "parsedDate": "2018-07-11",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/NSDPY79L",
+      "type": "webpage",
+      "title": "A second round of co-design session in Belval. Designers and historians discussing the first interface prototype",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "impresso Lavender workshop, Université du Luxembourg (Campus de Belval)",
+      "URL": "https://impresso-project.ch/news/2018/07/11/lavender.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Nguyen Dang",
+          "given": "Julien"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            11
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "S7BBQTA8",
+    "version": 4669,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/S7BBQTA8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/S7BBQTA8",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/FEAGVWUH",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ströbel and Clematide",
+      "parsedDate": "2018-09-07",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/S7BBQTA8",
+      "type": "webpage",
+      "title": "About Topic Modeling on historical newspapers ...",
+      "container-title": "impresso",
+      "genre": "Blogpost",
+      "abstract": "Trading zone part 4: Topic modeling. This blog post is the last part of Stepping in the NLP / History trading zone: a series of posts.",
+      "URL": "https://impresso-project.ch/news/2018/09/07/tradingzone-tm.html",
+      "language": "en",
+      "author": [
+        {
+          "family": "Ströbel",
+          "given": "Phillip"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            9,
+            7
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
+      }
+    }
+  }
+]

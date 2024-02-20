@@ -1,12 +1,24 @@
-theme: jekyll-theme-tactile
+theme: empty-jekyll-theme
 excerpt_separator: '<!-- more -->'
-base: http://impresso-project.ch
+section_separator: '<!-- section -->'
+theme_bootstrap_layout:
+  main: col-lg-9 offset-lg-3 col-md-9 offset-md-3 g-0 col-xl-10  offset-xl-2
+  aside: col-lg-2 col-md-3 g-0
+keep_files: [pagefind]
+base: https://impresso-project.ch
+default_author:
+  title: impresso team
+  slug: impresso-team
+  url: /author/impresso-team
 title: impresso
 lang: en
-languages: ["en", "fr", "de"]
+languages: ['en', 'fr', 'de']
 timezone: Europe/Zurich
-
-
+exclude:
+  - scripts
+  - dep_pages
+  - node_modules
+  - v1.0.0
 publisher:
   name: impresso
 
@@ -14,16 +26,15 @@ contacts:
   email: info @ impresso-project [dot] ch
   twitter:
     url: https://twitter.com/impressoproject
-    name: "@impressoproject"
+    name: '@impressoproject'
   github:
     url: https://github.com/impresso
     name: impresso
-
+  mailinglist:
+    url: https://mailchi.mp/1a05f946a602/w826p8gjtz 
+    name: impresso-project
 
 collections:
-  agenda:
-    output: true
-    permalink: /:collection/:path/
   people:
     output: true
     permalink: /:collection/:path/
@@ -36,20 +47,40 @@ collections:
   labs:
     output: true
     permalink: /:collection/:path/
+  events:
+    output: true
+    future: true
+    permalink: /:collection/:path/
+  releases:
+    output: true
+    permalink: /:collection/:path/
+  announcements:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
-      path: ""
-      type: "agenda"
+      path: ''
+      type: events
     values:
-      layout: "agenda"
+      layout: event
   - scope:
-      path: ""
-      type: "glossary"
+      path: ''
+      type: 'glossary'
     values:
-      layout: "glossaryItem"
+      layout: 'glossaryItem'
   - scope:
-      path: ""
-      type: "labs"
+      path: ''
+      type: 'people'
     values:
-      layout: "labItem"
+      layout: 'person'
+  - scope:
+      path: ''
+      type: 'labs'
+    values:
+      layout: 'labItem'
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement

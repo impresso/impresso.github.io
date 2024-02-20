@@ -2,62 +2,158 @@
 layout: default
 ---
 
-<div class="page">
-  <div class="wrapper">
-    <h1 class="page-title">{{ page.title }}</h1>
-    {{ content }}
+{% assign sections = page.content | split: site.section_separator %}
 
+<style>
+  .Page__contents h2{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .Page__contents h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .Page__contents li {
+    margin-bottom: 1rem;
+  }
+  .Page__contents section:first-of-type > p:first-of-type {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .Page__contents section > p:last-of-type {
+    margin-bottom: 0;
+  }
 
+  .Page__contents h2::before {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--bs-dark);
+    content: "";
+  }
 
+  @media (min-width: 992px) {
+    .Page__contents section:first-of-type > p:first-of-type {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    figure {
+      background: var(--bs-dark);
+      padding: 1px;
+    border-radius: 5px;
+      overflow: hidden;
+      margin: 0.5rem -0.5rem 0 !important;
+      color: var(--bs-light);
+    }
+
+    figcaption {
+      font-size: 0.8em;
+      color: var(--bs-light);
+    }
+    figcaption p {
+      margin: 0.5rem;
+    }
+  }
+  /* xl bootstrap */
+  @media (min-width: 1200px ) {
+    .Page__contents h2 {
+      margin-top: 3rem;
+      padding-top:3rem;
+      margin-bottom: 1rem;
+    }
+    .Page__contents h3 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+    figure{
+      margin: 1rem 0rem 0.5rem !important;
+      max-width: 50%;
+    }
+    figcaption p {
+      margin: 1rem;
+    }
+  }
+
+  .Page__contents section ul{
+    list-style: initial;
+    padding-left: 1rem;
+  }
+  .Page__contents section ul.nav{
+    list-style: none;
+    padding-left: 0;
+  }
+  figure {
+    margin: 0 0;
+  }
+  figure img {
+    border-top-right-radius: 4.5px;
+    border-top-left-radius: 4.5px;
+    border: 1px solid var(--bs-dark);
+  }
+  figcaption a{
+    color: inherit;
+  }
+</style>
+<main class="Page container-fluid g-0 d-flex flex-column">
+  <div class="row g-0">
+    <div class="Page-header {{ site.theme_bootstrap_layout.main }}">
+      <button
+        onclick="toggleMenuClass()"
+        type="button"
+        class="position-fixed mt-2 me-2 btn btn-simple"
+        id="MenuToggler"
+      >
+        <span class="icon-container">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+      
+        <h1 class="mt-4 m-3 mt-lg-5 m-lg-5 w-60">{{page.title}}</h1>
+        {% if page.subheading %}
+        <h2 class="mt-3 mt-lg-5 mx-3 mx-lg-5 display-6">{{page.subheading}}</h2>
+        {% endif %}
+
+        <div class="header-pattern w-40 me-md-3 me-lg-5 mb-md-3 mb-sx-2 mb-sm-2">
+          <div class="bar-row gray-2">
+            <div class="bar w-25"></div>
+            <div class="bar w-25"></div>
+          </div>
+          <div class="bar-row gray mt-2">
+            <div class="bar w-50"></div>
+            <div class="bar w-25"></div>
+          </div>
+          <div class="bar-row yellow">
+            <div class="bar"></div>
+            <div class="bar d-none-"></div>
+          </div>
+        </div>
+    </div>
   </div>
 
-  {% if page.nolang == '/consortium/people/' %}
-  <section>
-    <div class="wrapper">
-      <div class="headline">
-        <h2><span>{{ page.title }}</span></h2>
-      </div>
-      <blockquote class='summary respect-margin'>{{page.content | markdownify}}</blockquote>
+  <div class="Page__contents row g-0 flex-grow-1">
+    <div class="{{ site.theme_bootstrap_layout.main }}">
+      {% if sections.size > 1 %} {% for section in sections %} {% if
+      forloop.first == true %}
+      <section class="px-3 px-lg-5 pt-3 pt-lg-5 Page__subheading">
+        {{ section }}
+      </section>
+      {% else %}
+      <section class="px-3 px-lg-5 pt-3 pt-lg-5">
+        {% assign section_heading = section | markdownify | split: "/h2&gt;" |
+        first %} {% assign section_content = section | remove_first:
+        section_heading %}
 
-        {% assign group = site.people | where: 'group','contact-point' | sort: 'ordering' %}
-        <div class='thumbnails respect-margin'>
-          <h3 ><span class='tag'>contact points</span></h3>
-          {% for person in group %}
-           {% include person.thumbnail.html %}
-          {% endfor %}
-        </div>
-
-        {% assign group = site.people | where: 'group','collaborator' | sort: 'ordering' %}
-        <div class='thumbnails respect-margin'>
-          <h3><span class='tag'>collaborators</span></h3>
-          {% for person in group %}
-          {% include person.thumbnail.html %}
-          {% endfor %}
-        </div>
-
-        
-
-        {% assign group = site.people | where: 'group','supervisor' | sort: 'ordering' %}
-        <div class='thumbnails respect-margin'>
-          <h3><span class='tag'>supervisors</span></h3>
-          {% for person in group %}
-          {% include person.thumbnail.html %}
-          {% endfor %}
-        </div>
-
-
-        {% assign team = site.people | where: 'category','team' | sort: 'ordering' %}
-        <div class="respect-margin">
-        <!-- <div class="container-fluid "> -->
-          <!-- <div class='row'> -->
-            {% for person in team %}
-            <!-- <div class='col-lg-6'> -->
-              {% include person.html %}
-            <!-- </div> -->
-            {% endfor %}
-          <!-- </div> -->
-        </div>
-      </div>
-    </section>
-  {% endif %}
-</div>
+        <pre>{{section_heading | inspect}}</pre>
+      </section>
+      {% endif %} {% endfor %} {% else %}
+      <section class="px-3 px-lg-5 pt-3 pt-lg-5">{{ content }}</section>
+      {% endif %}
+    </div>
+  </div>
+  {% include seealso.html %}
+</main>
