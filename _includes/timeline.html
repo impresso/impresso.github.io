@@ -61,7 +61,7 @@
   ).map((item) => {
     item.startDate = new Date(item.startDate)
     item.endDate = new Date(item.endDate)
-    item.disabled = item.endDate > new Date()
+    item.disabled = true // item.endDate > new Date()
     return item
   })
 
