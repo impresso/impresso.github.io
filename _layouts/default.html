@@ -111,30 +111,30 @@ site.data.navigation.languages.en %}
 
     <style>
       @font-face {
-        font-family: "Satoshi-Variable";
-        src: url("/assets/fonts/Satoshi-Variable.woff2") format("woff2"),
-          url("/assets/fonts/Satoshi-Variable.woff") format("woff"),
-          url("/assets/fonts/Satoshi-Variable.ttf") format("truetype");
+        font-family: 'Satoshi-Variable';
+        src: url('/assets/fonts/Satoshi-Variable.woff2') format('woff2'),
+          url('/assets/fonts/Satoshi-Variable.woff') format('woff'),
+          url('/assets/fonts/Satoshi-Variable.ttf') format('truetype');
         font-weight: 300 900;
         font-display: swap;
         font-style: normal;
       }
 
       @font-face {
-        font-family: "Sentient-Variable";
-        src: url("/assets/fonts/Sentient-Variable.woff2") format("woff2"),
-          url("/assets/fonts/Sentient-Variable.woff") format("woff"),
-          url("/assets/fonts/Sentient-Variable.ttf") format("truetype");
+        font-family: 'Sentient-Variable';
+        src: url('/assets/fonts/Sentient-Variable.woff2') format('woff2'),
+          url('/assets/fonts/Sentient-Variable.woff') format('woff'),
+          url('/assets/fonts/Sentient-Variable.ttf') format('truetype');
         font-weight: 200 700;
         font-display: swap;
         font-style: normal;
       }
 
       @font-face {
-        font-family: "Satoshi-VariableItalic";
-        src: url("/assets/fonts/Satoshi-VariableItalic.woff2") format("woff2"),
-          url("/assets/fonts/Satoshi-VariableItalic.woff") format("woff"),
-          url("/assets/fonts/Satoshi-VariableItalic.ttf") format("truetype");
+        font-family: 'Satoshi-VariableItalic';
+        src: url('/assets/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+          url('/assets/fonts/Satoshi-VariableItalic.woff') format('woff'),
+          url('/assets/fonts/Satoshi-VariableItalic.ttf') format('truetype');
         font-weight: 300 900;
         font-display: swap;
         font-style: italic;
@@ -145,15 +145,15 @@ site.data.navigation.languages.en %}
       }
       /* color palette: https://coolors.co/212529-fafbf2-fe938c-ad91a3-ffe587 */
       :root {
-        --bs-font-sans-serif: "Satoshi-Variable", -apple-system,
-          BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-          "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-        --bs-font-serif: "Sentient-Variable", "Georgia", "Times New Roman",
+        --bs-font-sans-serif: 'Satoshi-Variable', -apple-system,
+          BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+          'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        --bs-font-serif: 'Sentient-Variable', 'Georgia', 'Times New Roman',
           serif;
         --bs-body-color-transparent: #21252999;
-        --bs-font-sans-serif-italic: "Satoshi-VariableItalic", -apple-system,
-          BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-          "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        --bs-font-sans-serif-italic: 'Satoshi-VariableItalic', -apple-system,
+          BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+          'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
         --bs-gutter-x: 0;
         --bs-border-width: 1px;
         --bs-link-color: #212529ff;
@@ -248,7 +248,7 @@ site.data.navigation.languages.en %}
         font-size: 1.5rem;
         line-height: 1.5em;
         font-weight: 400;
-        font-variation-settings: "wght" 400;
+        font-variation-settings: 'wght' 400;
       }
 
       @media (min-width: 1200px) {
@@ -289,12 +289,11 @@ site.data.navigation.languages.en %}
         border-color: var(--bs-dark-fixed);
       }
       body.dark .btn-simple:hover .icon path,
-      body.dark .btn-simple:focus .icon path{
+      body.dark .btn-simple:focus .icon path {
         stroke: var(--bs-light);
       }
       body.dark .btn-simple:hover .icon-container,
-      body.dark .btn-simple:focus .icon-container
-      {
+      body.dark .btn-simple:focus .icon-container {
         border-color: var(--bs-light);
         background-color: var(--bs-primary);
       }
@@ -303,7 +302,7 @@ site.data.navigation.languages.en %}
         border-color: var(--bs-primary);
         background-color: var(--bs-primary);
       }
-      body.dark #Nav__darkModeToggler.active .icon path{
+      body.dark #Nav__darkModeToggler.active .icon path {
         stroke: var(--bs-dark-fixed);
       }
 
@@ -367,6 +366,10 @@ site.data.navigation.languages.en %}
       body.light .btn-primary {
         color: var(--bs-dark-fixed);
       }
+      body.light .btn-primary :hover {
+        border-color: var(--bs-dark-fixed);
+        color: var(--bs-primary);
+      }
       body.light .btn.btn-primary .icon-container {
         border-color: var(--bs-dark-fixed);
       }
@@ -417,7 +420,6 @@ site.data.navigation.languages.en %}
       }
       body.light .nav-pills {
         --bs-nav-pills-link-active-color: var(--bs-dark-fixed);
-       
       }
       body.light .nav-pills .nav-link.active {
         border: 2px solid var(--bs-dark-fixed);
@@ -429,8 +431,6 @@ site.data.navigation.languages.en %}
       body.light .btn-primary .icon path {
         stroke: var(--bs-dark-fixed);
       }
-
-      
 
       body {
         min-height: 100%;
@@ -448,12 +448,12 @@ site.data.navigation.languages.en %}
       b {
         font-weight: 700;
 
-        font-variation-settings: "wght" 700;
+        font-variation-settings: 'wght' 700;
       }
       i,
       em {
         font-style: normal;
-        font-family: "Satoshi-VariableItalic", sans-serif;
+        font-family: 'Satoshi-VariableItalic', sans-serif;
       }
 
       aside.Nav {
@@ -479,7 +479,7 @@ site.data.navigation.languages.en %}
       }
       aside.Nav .nav-item:not(.squared)::after {
         background-color: var(--bs-dark);
-        content: "";
+        content: '';
         position: absolute;
         top: 48px;
         bottom: 10px;
@@ -496,7 +496,7 @@ site.data.navigation.languages.en %}
       }
 
       aside.Nav .nav-item.active > .nav-link > span::after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         bottom: 0;
@@ -546,7 +546,7 @@ site.data.navigation.languages.en %}
         font-size: 0.8em;
         text-transform: uppercase;
         font-weight: 550;
-        font-variation-settings: "wght" 550;
+        font-variation-settings: 'wght' 550;
         letter-spacing: 0.75px;
       }
 
@@ -554,13 +554,13 @@ site.data.navigation.languages.en %}
       b.small-caps,
       .small-caps.fw-bold {
         font-weight: 700;
-        font-variation-settings: "wght" 700;
+        font-variation-settings: 'wght' 700;
       }
 
       .Release h4,
       .Announcement h4 {
         font-weight: 350;
-        font-variation-settings: "wght" 350;
+        font-variation-settings: 'wght' 350;
       }
 
       @media (prefers-color-scheme: dark) {
