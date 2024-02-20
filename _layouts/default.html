@@ -366,9 +366,12 @@ site.data.navigation.languages.en %}
       body.light .btn-primary {
         color: var(--bs-dark-fixed);
       }
-      body.light .btn-primary :hover {
+      body.light .btn-primary:hover {
         border-color: var(--bs-dark-fixed);
         color: var(--bs-primary);
+      }
+      body.light .btn-primary:hover .icon path {
+        stroke: var(--bs-primary);
       }
       body.light .btn.btn-primary .icon-container {
         border-color: var(--bs-dark-fixed);
