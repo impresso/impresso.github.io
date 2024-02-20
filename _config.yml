@@ -1,4 +1,5 @@
 theme: empty-jekyll-theme
+repository: impresso/impresso.github.io
 excerpt_separator: '<!-- more -->'
 section_separator: '<!-- section -->'
 theme_bootstrap_layout:
