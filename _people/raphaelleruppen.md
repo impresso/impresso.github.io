@@ -9,7 +9,6 @@ status: publish
 ---
 
 Raphaëlle Ruppen Coutaz holds a PhD in Contemporary History from the University of Lausanne and is currently a Senior Researcher at the UNIL History Department. Raphaëlle’s research focuses on media history, international cultural relations history and European construction history.
-Within impresso, Raphaëlle contributes to project management, coordinates historical research and contributes to community building and project dissemination.
 
 Within _impresso_, Raphaëlle contributes to project management, coordinates historical research and contributes to community building and project dissemination.
 
