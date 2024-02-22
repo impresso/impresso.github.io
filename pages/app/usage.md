@@ -1,10 +1,10 @@
 ---
-permalink: /app/usage/
-parentUrl: /app/
+permalink: /apps/usage/
+parentUrl: /apps/
 title: 'Usage and Tutorials'
 ---
 
-The app was designed taking special account of the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions. We therefore compiled a __range of didactic materials__ which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface.
+The app was designed taking special account of the needs of historians but - like any software - requires some skill and background knowledge before it can lead to reasonable conclusions. We therefore compiled a **range of didactic materials** which seek to clarify the idiosyncrasies of digitised historical newspapers, of their semantic enrichment produced via natural language processing, and of the exploratory components of our interface.
 
 ## About digitised newspapers in general
 
@@ -13,7 +13,7 @@ The app was designed taking special account of the needs of historians but - lik
 A [lesson](https://ranke2.uni.lu/u/exploring-historical-newspapers/) on the [Ranke2 website](https://ranke2.uni.lu) prepared for academic teachers (and those willing to self-teach) on on how digitised newspapers change the way historians use newspapers as historical sources, and on how to perform source criticism in the digital age.
 
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/FZ_ranke2.png'>
+      <img class='cover' src='{{'/assets/images/FZ_ranke2.png' | relative_url }}'>
       <figcaption class="wrapper">
           <p><a href='https://ranke2.uni.lu/u/exploring-historical-newspapers/' target="_blank" title='RANKE2 - From the shelf to the web'> RANKE2 - From the shelf to the web</a></p>
       </figcaption>
@@ -28,7 +28,6 @@ A [lesson](https://ranke2.uni.lu/u/exploring-historical-newspapers/) on the [Ran
   &rarr; RANKE2 - From the shelf to the web
 </a> -->
 
-
 ### PARTHENOS MODULE - Collections of digitised newspapers as historical sources
 
 A [training module](https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/) for scholars which provides background knowledge on newspaper digitisation technologies, with a special focus on their impact on both digital sources and the practice of historical research.
@@ -41,15 +40,13 @@ A [training module](https://training.parthenos-project.eu/sample-page/digital-hu
   &rarr; PARTHENOS MODULE
 </a> -->
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/FZ_parthenos.png'>
+      <img class='cover' src='{{'/assets/images/FZ_parthenos.png' | relative_url }}'>
       <figcaption class="wrapper">
           <p><a target="_blank"  href='https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/' title='PARTHENOS MODULE'>PARTHENOS MODULE</a></p>
       </figcaption>
     </figure>
 
-
 ## About the _impresso_ app
-
 
 ### _impresso_ challenges - How to become an _impresso_ power user
 
@@ -64,14 +61,13 @@ Based on concrete examples, the _impresso_ challenges offer a step-by-step and h
   &rarr; _impresso_ Challenges
 </a> -->
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/application/impresso-challenges.png'>
+      <img class='cover' src='{{'/assets/images/application/impresso-challenges.png' | relative_url }}'>
       <figcaption class="wrapper">
           <p><a href='https://v1.impresso-project.ch/assets/impresso-challenges-1.2.3.pdf' title='Download the _impresso_ Challenges'><em>impresso</em> Challenges</a></p>
       </figcaption>
     </figure>
 
 [Download PDF](https://impresso-project.ch/assets/impresso-challenges-1.2.3.pdf)
-
 
 ### _impresso_ interface walkthroughs
 
@@ -95,12 +91,11 @@ FAQs are accessible via the info buttons distributed across the interface, and o
   &rarr; _impresso_ App FAQ Page
 </a> -->
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/application/impresso-app-faq.png'>
+      <img class='cover' src='{{'/assets/images/application/impresso-app-faq.png' | relative_url }}'>
       <figcaption class="wrapper">
           <p><a href='https://impresso-project.ch/app/faq' title='_impresso_ App FAQ Page'><em>impresso</em> App FAQ Page</a></p>
       </figcaption>
     </figure>
-
 
 ## Diving deeper into Natural Language Processing
 
@@ -137,12 +132,11 @@ This blog post explains, how we have made use of named entities in the impresso 
   &rarr; Named entity processing in a nutshell
 </a> -->
 <figure class='respect-margin'>
-      <img class='cover' src='/assets/images/posts/ne-jdg-1969-08-28.png'>
+      <img class='cover' src='{{'/assets/images/posts/ne-jdg-1969-08-28.png' | relative_url }}'>
       <figcaption class="wrapper">
           <p><a href='https://impresso-project.ch/news/2018/06/12/tradingzone-ner.html' title='Named entity processing in a nutshell'>Named entity processing in a nutshell</a></p>
       </figcaption>
     </figure>
-
 
 Members of the impresso team organised a workshop at the DH2020 conference on the recognition of historical named entities. You can find all materials here:
 
@@ -156,12 +150,11 @@ Members of the impresso team organised a workshop at the DH2020 conference on th
 </a> -->
 
 <figure class='respect-margin'>
-  <img class='cover' src='/assets/images/application/nep.png'>
+  <img class='cover' src='{{'/assets/images/application/nep.png' | relative_url }}'>
   <figcaption class="wrapper">
       <p><a href='https://impresso.github.io/named-entity-tutorial-dh2019/' title='Named Entity Processing for Digital Humanities'>Named Entity Processing for Digital Humanities</a></p>
   </figcaption>
 </figure>
-
 
 ## Topic modeling
 
@@ -177,7 +170,7 @@ To document how we have integrated topic modeling within the impresso project an
 </a> -->
 
 <figure class='respect-margin'>
-  <img class='cover' src='/assets/images/posts/Topic_exploration_home_Screenshot 2019-03-05 16.24.04.png'>
+  <img class='cover' src='{{'/assets/images/posts/Topic_exploration_home_Screenshot 2019-03-05 16.24.04.png' | relative_url }}'>
   <figcaption class="wrapper">
       <p><a href='https://impresso-project.ch/news/2019/03/05/Explore_TM.html' title='Explore the list of topics on the impresso interface'>Explore the list of topics on the impresso interface</a></p>
   </figcaption>
@@ -192,7 +185,7 @@ To document how we have integrated topic modeling within the impresso project an
 </a> -->
 
 <figure class='respect-margin'>
-  <img class='cover' src='/assets/images/posts/lda-geometric-interpretation.png'>
+  <img class='cover' src='{{'/assets/images/posts/lda-geometric-interpretation.png' | relative_url }}'>
   <figcaption class="wrapper">
       <p><a href='https://impresso-project.ch/news/2018/09/07/tradingzone-tm.html' title='About Topic Modeling on historical newspapers'>About Topic Modeling on historical newspapers</a></p>
   </figcaption>
@@ -212,7 +205,7 @@ Text reuse allows the detection of similar text passages across a corpus. To lea
 </a> -->
 
 <figure class='respect-margin'>
-  <img class='cover' src='/assets/images/application/text-reuse.png'>
+  <img class='cover' src='{{'/assets/images/application/text-reuse.png' | relative_url }}'>
   <figcaption class="wrapper">
       <p><a href='https://programminghistorian.org/en/lessons/detecting-text-reuse-with-passim/' title='detection of text reuse using passim'>Detection of text reuse using passim</a></p>
   </figcaption>
