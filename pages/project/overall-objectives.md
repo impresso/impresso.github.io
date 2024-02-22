@@ -23,7 +23,7 @@ Our work represents not merely an expansion in volume, but a fundamental shift i
 <!-- more -->
 
 <figure class='respect-margin'>
-      <img class='cover' src='{{ '/assets/images/doppio-schema.png' | relative_url }}>
+      <img class='cover' src='{{ '/assets/images/doppio-schema.png' | relative_url }}'>
       <figcaption class="wrapper">
           <p>Project schema</p>
       </figcaption>
