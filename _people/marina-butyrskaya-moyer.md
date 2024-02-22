@@ -4,7 +4,7 @@ group: collaborator
 ordering: 06-moyer
 picture: /assets/images/marina-moyer.jpg
 subheading: Project Admin Assistant, EPFL
-title: Marina Butyrskaya Moyer, MA
+title: Marina Butyrskaya Moyer, M.A.
 status: publish
 ---
 
