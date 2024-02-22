@@ -21,12 +21,12 @@ languages:
       # - title: 'Labs'
       #   url: /labs/
       - title: 'Application'
-        url: /apps/
+        url: /the-app/
         links:
           - title: 'Web App & Data Lab'
-            url: /apps/
+            url: /the-app/
           - title: 'Tutorials'
-            url: /apps/usage/
+            url: /the-app/usage/
       - title: 'HIPE'
         url: /hipe/
       - title: 'Blog'

@@ -1,7 +1,7 @@
 ---
 title: 'Web App and Data Lab'
 layout: page
-permalink: /apps/
+permalink: /the-app/
 lang: en
 seealso:
   - /project/objectives/

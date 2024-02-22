@@ -1,6 +1,6 @@
 ---
-permalink: /apps/usage/
-parentUrl: /apps/
+permalink: /the-app/usage/
+parentUrl: /the-app/
 title: 'Usage and Tutorials'
 ---
 
