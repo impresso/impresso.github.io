@@ -54,13 +54,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2024,
-            7,
-            2
-          ]
-        ]
+        "date-parts": [[2024, 7, 2]]
       }
     }
   },
@@ -125,22 +119,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            11,
-            15
-          ]
-        ]
+        "date-parts": [[2018, 11, 15]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            1,
-            14
-          ]
-        ]
+        "date-parts": [[2019, 1, 14]]
       }
     }
   },
@@ -192,7 +174,7 @@
       "genre": "Presentation",
       "event": "Humanities Data Science and Methodology Lecture Series",
       "event-place": "TU Darmstadt",
-      "abstract": "Newspapers count among the most attractive sources for historical research. Following mass digitisation efforts over the past decades, researchers now face the problem of overabundance of materials which can no longer be managed with keyword search and basic content filtering techniques alone even though only a fraction of the overall archival record has actually been made available. This poses challenges for the contextualisation and critical assessment of these sources which can be effectively addressed using semantic enrichments based on natural language processing techniques. In this lecture we will discuss epistemological challenges in data exploration and interface design as well as opportunities in terms of source criticism and content exploration, based on the impresso interface.",
+      "abstract": "Newspapers count among the most attractive sources for historical research. Following mass digitisation efforts over the past decades, researchers now face the problem of overabundance of materials which can no longer be managed with keyword search and basic content filtering techniques alone even though only a fraction of the overall archival record has actually been made available. This poses challenges for the contextualisation and critical assessment of these sources which can be effectively addressed using semantic enrichments based on natural language processing techniques. In this lecture we will discuss epistemological challenges in data exploration and interface design as well as opportunities in terms of source criticism and content exploration, based on the Impresso interface.",
       "URL": "https://hdsm.hypotheses.org/639",
       "author": [
         {
@@ -201,13 +183,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            5,
-            30
-          ]
-        ]
+        "date-parts": [[2023, 5, 30]]
       }
     }
   },
@@ -267,13 +243,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            12,
-            10
-          ]
-        ]
+        "date-parts": [[2023, 12, 10]]
       }
     }
   },
@@ -334,13 +304,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            7,
-            12
-          ]
-        ]
+        "date-parts": [[2023, 7, 12]]
       }
     }
   },
@@ -399,13 +363,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            9,
-            14
-          ]
-        ]
+        "date-parts": [[2023, 9, 14]]
       }
     }
   },
@@ -464,13 +422,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            10,
-            18
-          ]
-        ]
+        "date-parts": [[2023, 10, 18]]
       }
     }
   },
@@ -530,13 +482,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            15
-          ]
-        ]
+        "date-parts": [[2023, 11, 15]]
       }
     }
   },
@@ -588,7 +534,7 @@
       "genre": "Presentation",
       "event": "Workshop \"Artificial Intelligence in Archives\"",
       "event-place": "European Parliament",
-      "abstract": "In the impresso project, a team of computational linguists, historians and designers strive to enable data-driven analyses of historical media across time, institutional silos, media types and languages. To this end we compile a corpus of historical newspaper and radio collections with the help of Western European partners, enrich it using text mining techniques and develop user interfaces for their exploration and computational analysis.",
+      "abstract": "In the Impresso project, a team of computational linguists, historians and designers strive to enable data-driven analyses of historical media across time, institutional silos, media types and languages. To this end we compile a corpus of historical newspaper and radio collections with the help of Western European partners, enrich it using text mining techniques and develop user interfaces for their exploration and computational analysis.",
       "author": [
         {
           "family": "Düring",
@@ -596,13 +542,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            16
-          ]
-        ]
+        "date-parts": [[2023, 11, 16]]
       }
     }
   },
@@ -662,13 +602,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            24
-          ]
-        ]
+        "date-parts": [[2023, 11, 24]]
       }
     }
   },
@@ -732,11 +666,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2023"
-          ]
-        ],
+        "date-parts": [["2023"]],
         "season": "11.5"
       }
     }
@@ -795,11 +725,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2023"
-          ]
-        ],
+        "date-parts": [["2023"]],
         "season": "24.11"
       }
     }
@@ -859,13 +785,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            15
-          ]
-        ]
+        "date-parts": [[2023, 11, 15]]
       }
     }
   },
@@ -924,13 +844,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            15
-          ]
-        ]
+        "date-parts": [[2023, 11, 15]]
       }
     }
   },
@@ -994,13 +908,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            4,
-            9
-          ]
-        ]
+        "date-parts": [[2023, 4, 9]]
       }
     }
   },
@@ -1078,13 +986,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            9,
-            9
-          ]
-        ]
+        "date-parts": [[2019, 9, 9]]
       }
     }
   },
@@ -1153,13 +1055,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            24
-          ]
-        ]
+        "date-parts": [[2019, 8, 24]]
       }
     }
   },
@@ -1234,22 +1130,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            10,
-            23
-          ]
-        ]
+        "date-parts": [[2019, 10, 23]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2020,
-            1,
-            27
-          ]
-        ]
+        "date-parts": [[2020, 1, 27]]
       }
     }
   },
@@ -1338,11 +1222,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
+        "date-parts": [[2019]]
       }
     }
   },
@@ -1416,13 +1296,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            19
-          ]
-        ]
+        "date-parts": [[2019, 6, 19]]
       }
     }
   },
@@ -1496,22 +1370,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            12,
-            7
-          ]
-        ]
+        "date-parts": [[2019, 12, 7]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     }
   },
@@ -1579,22 +1441,10 @@
       "event-place": "Belval",
       "URL": "https://www.conftool.org/toe2019/index.php?page=browseSessions&form_session=8#paperID155",
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 6, 27]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     }
   },
@@ -1675,13 +1525,7 @@
         }
       ],
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     }
   },
@@ -1756,22 +1600,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            12,
-            7
-          ]
-        ]
+        "date-parts": [[2019, 12, 7]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     }
   },
@@ -1846,22 +1678,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            3
-          ]
-        ]
+        "date-parts": [[2019, 6, 3]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     }
   },
@@ -1937,22 +1757,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            20
-          ]
-        ]
+        "date-parts": [[2019, 6, 20]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     }
   },
@@ -2018,22 +1826,10 @@
       "event": "100 Years of Multilateralism in Geneva",
       "URL": "https://multilateralism100.unog.ch/node/108",
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            17
-          ]
-        ]
+        "date-parts": [[2019, 6, 17]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     }
   },
@@ -2080,7 +1876,7 @@
     "csljson": {
       "id": "4709830/INBFB3AI",
       "type": "speech",
-      "title": "Spotlight presentation of impresso project",
+      "title": "Spotlight presentation of Impresso project",
       "event": "Time Machine Conference",
       "language": "en",
       "author": [
@@ -2090,13 +1886,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            10,
-            31
-          ]
-        ]
+        "date-parts": [[2018, 10, 31]]
       }
     }
   },
@@ -2166,13 +1956,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            8,
-            12
-          ]
-        ]
+        "date-parts": [[2018, 8, 12]]
       }
     }
   },
@@ -2266,13 +2050,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            8,
-            6
-          ]
-        ]
+        "date-parts": [[2018, 8, 6]]
       }
     }
   },
@@ -2342,11 +2120,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2018"
-          ]
-        ],
+        "date-parts": [["2018"]],
         "season": "6-3"
       }
     }
@@ -2417,13 +2191,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            4,
-            7
-          ]
-        ]
+        "date-parts": [[2018, 4, 7]]
       }
     }
   },
@@ -2496,11 +2264,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2018"
-          ]
-        ],
+        "date-parts": [["2018"]],
         "season": "26.10"
       }
     }
@@ -2571,11 +2335,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2018"
-          ]
-        ],
+        "date-parts": [["2018"]],
         "season": "13.3"
       }
     }
@@ -2646,13 +2406,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            4,
-            25
-          ]
-        ]
+        "date-parts": [[2018, 4, 25]]
       }
     }
   },
@@ -2726,13 +2480,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            4,
-            24
-          ]
-        ]
+        "date-parts": [[2018, 4, 24]]
       }
     }
   },
@@ -2826,13 +2574,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            8,
-            6
-          ]
-        ]
+        "date-parts": [[2018, 8, 6]]
       }
     }
   },
@@ -2902,13 +2644,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            12,
-            6
-          ]
-        ]
+        "date-parts": [[2018, 12, 6]]
       }
     }
   }

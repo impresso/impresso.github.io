@@ -1,18 +1,17 @@
 ---
-title: "Newspaper corpus"
+title: 'Newspaper corpus'
 permalink: /theapp/corpus/
 nolang: /theapp/corpus/
 lang: en
 parenturl: /theapp/
 figure:
   - src: posts/pr-corpus-stats-plot1.png
-  - caption: "To learn more about impresso corpus details, read our [ blog post on the latest corpus release (https://impresso-project.ch/news/2020/01/23/state-corpus-january2020.html)"
+  - caption: 'To learn more about impresso corpus details, read our [ blog post on the latest corpus release (https://impresso-project.ch/news/2020/01/23/state-corpus-january2020.html)'
 ---
 
-*Impresso* newspaper digitized materials were provided by our associated partners, namely: the Bibliothèque nationale de Luxembourg, the Swiss National Library, the Valais Media Library and State Archives, and the newspapers *Neue Zürcher Zeitung* and *Le Temps* (Ringier group). Further Swiss institutions also participates to impresso endeavour with their sources, that is to say: the newspapers *La Liberté*, *Freiburger Nachrichten*, *L'Essor*, *Le Confédéré*, *Bote vom Untersee*, the group *ArcInfo* in collaboration of the Bibliothèque de la Chaux-de-Fonds, the Bibliothèque cantonale et universitaire de Fribourg, and the Swiss Social Archives in collaboration with UNIA. Physical acquisition of the material would not have been possible without the contribution of RERO, the Library Network of Western Switzerland. 
+Impresso newspaper digitized materials were provided by our associated partners, namely: the Bibliothèque nationale de Luxembourg, the Swiss National Library, the Valais Media Library and State Archives, and the newspapers _Neue Zürcher Zeitung_ and _Le Temps_ (Ringier group). Further Swiss institutions also participates to impresso endeavour with their sources, that is to say: the newspapers _La Liberté_, _Freiburger Nachrichten_, _L'Essor_, _Le Confédéré_, _Bote vom Untersee_, the group _ArcInfo_ in collaboration of the Bibliothèque de la Chaux-de-Fonds, the Bibliothèque cantonale et universitaire de Fribourg, and the Swiss Social Archives in collaboration with UNIA. Physical acquisition of the material would not have been possible without the contribution of RERO, the Library Network of Western Switzerland.
 
   <!--In the final stages of the project we have added smaller subsets of collections of new partners such as the National Library of France, the British Library and the Chronicling America project. We take the opportunity here to thank all these partners for their support and contributions.-->
-
 
 {% assign figure=page.figure[0] %}
 {% include figure.html %}
@@ -30,7 +29,7 @@ All these considerations moved us further away from the ideal of a representativ
 {% assign figure=page.figure[1] %}
 {% include figure.html %}
 
-The impresso project had very limited capacities to conduct OCR and article layout recognition but worked with the materials it received from its partners. This required the development of importers for different flavours of the METS/ALTO and Olive standards but also revealed the imperfections which are inherent in any large-scale collection: There were errors which occurred during filing of the hard copies, their digitisation and processing or during the transfer to our servers which caused problems: not all the articles our metadata suggests are there, are in fact accessible. Not all newspaper titles underwent the same digitisation pipeline; there are significant variations in OCR quality and the degree to which institutions added additional metadata to their collections.
+The Impresso project had very limited capacities to conduct OCR and article layout recognition but worked with the materials it received from its partners. This required the development of importers for different flavours of the METS/ALTO and Olive standards but also revealed the imperfections which are inherent in any large-scale collection: There were errors which occurred during filing of the hard copies, their digitisation and processing or during the transfer to our servers which caused problems: not all the articles our metadata suggests are there, are in fact accessible. Not all newspaper titles underwent the same digitisation pipeline; there are significant variations in OCR quality and the degree to which institutions added additional metadata to their collections.
 
 We therefore chose to carefully normalise and complement existing metadata across all institutions and to automatically add information e.g. on language use or OCR quality.
 

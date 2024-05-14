@@ -1,19 +1,18 @@
 ---
-title: "RESOURCES"
+title: 'RESOURCES'
 type: section
 lang: en
 group: project.overview
 layout: page
 permalink: /project/overview/resources
 figure:
-  - src: forum_z_impresso_web_online_smaller.png
+  - src: forum_zImpressoweb_online_smaller.png
     caption:
 ---
 
-To help you make the most of the available collections of digitised newspapers, you are invited to check out some pedagogical material the impresso project has produced.
+To help you make the most of the available collections of digitised newspapers, you are invited to check out some pedagogical material the Impresso project has produced.
 
 <!-- more -->
-
 
 ### IMPRESSO Challenges
 
@@ -40,6 +39,7 @@ Get a better understanding of this interfaces’ features and how they can inter
 A lesson about how digitised newspapers that are available online are changing the way historians use newspapers as historical sources, and ask new skills for applying source criticism. More [here](https://ranke2.uni.lu/u/exploring-historical-newspapers/)
 
 ### PARTHENOS MODULE - Collections of digitised newspapers as historical sources
+
 <figure class='respect-margin'>
       <img class='cover' src='{{ site.url }}/assets/images/FZ_parthenos.png'>
       <figcaption class="wrapper">

@@ -9,4 +9,4 @@ figure:
 show_associated_partners: true
 ---
 
-Leveraging an unprecedented corpus of newspaper and radio archives, _impresso_ - Media Monitoring of the Past is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.
+Leveraging an unprecedented corpus of newspaper and radio archives, **Impresso - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration, and study of historical media across modalities, time, languages, and national borders.

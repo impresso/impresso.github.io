@@ -69,6 +69,6 @@ With the recognition, classification and linking (or disambiguation) of entities
 {% assign figure=page.figure[3] %}
 {% include figure.html %}
 
-Concretely speaking, the impresso interface will allow search on entities (i.e. by referent) and on mentions (i.e. words which we know are names of entities), will offer entity network visualization and exploration capacities (e.g. to allow the selection of articles where Montgomery - referring to the marechal - and Arnhem - referring to the battle - are co-mentioned), and provide newspaper collection statistical profiles.
+Concretely speaking, the Impresso interface will allow search on entities (i.e. by referent) and on mentions (i.e. words which we know are names of entities), will offer entity network visualization and exploration capacities (e.g. to allow the selection of articles where Montgomery - referring to the marechal - and Arnhem - referring to the battle - are co-mentioned), and provide newspaper collection statistical profiles.
 
 The technologies to perform such entity-related tasks perform well for general domain, contemporary English text, with ca. 90/95 entities out of 100 being correctly recognized, and 80/85 correctly disambiguated. The whole challenge here is to reach acceptable performance (meaning useful for historical research) on noisy historical text and to devise workflows which make the most of them.

@@ -53,11 +53,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2023"
-          ]
-        ],
+        "date-parts": [["2023"]],
         "season": "24.11"
       }
     },
@@ -85,9 +81,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2023-10-19T15:48:33Z",
       "dateModified": "2023-10-19T15:50:49Z"
@@ -148,13 +142,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            15
-          ]
-        ]
+        "date-parts": [[2023, 11, 15]]
       }
     },
     "data": {
@@ -181,9 +169,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2023-10-19T15:45:45Z",
       "dateModified": "2023-10-19T15:48:29Z"
@@ -244,13 +230,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            15
-          ]
-        ]
+        "date-parts": [[2023, 11, 15]]
       }
     },
     "data": {
@@ -277,9 +257,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2023-10-19T15:43:38Z",
       "dateModified": "2023-10-19T15:45:39Z"
@@ -340,13 +318,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            12,
-            10
-          ]
-        ]
+        "date-parts": [[2023, 12, 10]]
       }
     },
     "data": {
@@ -373,9 +345,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2023-10-19T15:41:09Z",
       "dateModified": "2023-10-19T15:43:12Z"
@@ -436,13 +406,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            16
-          ]
-        ]
+        "date-parts": [[2023, 11, 16]]
       }
     },
     "data": {
@@ -469,9 +433,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2023-10-19T15:39:41Z",
       "dateModified": "2023-10-19T15:43:23Z"
@@ -532,13 +494,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            10,
-            18
-          ]
-        ]
+        "date-parts": [[2023, 10, 18]]
       }
     },
     "data": {
@@ -565,9 +521,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2023-10-19T15:37:51Z",
       "dateModified": "2023-10-19T15:43:30Z"
@@ -633,13 +587,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2023,
-            4,
-            9
-          ]
-        ]
+        "date-parts": [[2023, 4, 9]]
       }
     },
     "data": {
@@ -671,9 +619,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2023-10-19T15:34:40Z",
       "dateModified": "2023-10-19T15:37:33Z"
@@ -753,13 +699,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            9,
-            9
-          ]
-        ]
+        "date-parts": [[2019, 9, 9]]
       }
     },
     "data": {
@@ -796,9 +736,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2020-01-27T09:42:48Z",
       "dateModified": "2020-07-02T13:35:11Z"
@@ -869,13 +807,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            24
-          ]
-        ]
+        "date-parts": [[2019, 8, 24]]
       }
     },
     "data": {
@@ -902,9 +834,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2020-01-27T09:41:20Z",
       "dateModified": "2020-07-02T13:35:11Z"
@@ -961,13 +891,7 @@
       "title": "Snapshot",
       "URL": "https://www.c2dh.uni.lu/events/grasping-anti-modern-how-identify-anti-modern-discourses-europe-digitized-newspaper",
       "accessed": {
-        "date-parts": [
-          [
-            2020,
-            1,
-            27
-          ]
-        ]
+        "date-parts": [[2020, 1, 27]]
       }
     },
     "data": {
@@ -1062,22 +986,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            10,
-            23
-          ]
-        ]
+        "date-parts": [[2019, 10, 23]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2020,
-            1,
-            27
-          ]
-        ]
+        "date-parts": [[2020, 1, 27]]
       }
     },
     "data": {
@@ -1104,9 +1016,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2020-01-27T09:35:01Z",
       "dateModified": "2020-07-02T13:35:12Z"
@@ -1330,11 +1240,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
+        "date-parts": [[2019]]
       }
     },
     "data": {
@@ -1420,11 +1326,7 @@
           "type": 1
         }
       ],
-      "collections": [
-        "VKIS8ENW",
-        "8PHTET8E",
-        "FIJRVW9P"
-      ],
+      "collections": ["VKIS8ENW", "8PHTET8E", "FIJRVW9P"],
       "relations": {
         "owl:sameAs": "http://zotero.org/groups/2473918/items/4HSTI62H",
         "dc:replaces": "http://zotero.org/groups/1486708/items/LG3HBSLI"
@@ -1503,13 +1405,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            19
-          ]
-        ]
+        "date-parts": [[2019, 6, 19]]
       }
     },
     "data": {
@@ -1541,9 +1437,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2019-08-27T15:12:52Z",
       "dateModified": "2020-07-02T13:36:03Z"
@@ -1619,22 +1513,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            12,
-            7
-          ]
-        ]
+        "date-parts": [[2019, 12, 7]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -1666,9 +1548,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2019-08-27T15:08:42Z",
       "dateModified": "2020-07-02T13:36:03Z"
@@ -1725,13 +1605,7 @@
       "title": "TOE 2019 - ConfTool Pro - BrowseSessions",
       "URL": "https://www.conftool.org/toe2019/index.php?page=browseSessions&form_session=8#paperID155",
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -1819,22 +1693,10 @@
       "event-place": "Belval",
       "URL": "https://www.conftool.org/toe2019/index.php?page=browseSessions&form_session=8#paperID155",
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 6, 27]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -1855,9 +1717,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2019-08-27T15:02:38Z",
       "dateModified": "2020-07-02T13:36:04Z"
@@ -1914,13 +1774,7 @@
       "title": "Snapshot",
       "URL": "https://impresso.github.io/named-entity-tutorial-dh2019/",
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2021,13 +1875,7 @@
         }
       ],
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2064,9 +1912,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2019-08-27T15:01:59Z",
       "dateModified": "2020-07-02T13:36:04Z"
@@ -2123,13 +1969,7 @@
       "title": "DH2019 - ConfTool Pro - BrowseSessions",
       "URL": "https://www.conftool.pro/dh2019/index.php?page=brows%20eSessions&path=adminSessions&print=export&ismobile=%20false&form_session=481&presentations=show",
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2224,22 +2064,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            12,
-            7
-          ]
-        ]
+        "date-parts": [[2019, 12, 7]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2266,9 +2094,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2019-08-27T15:01:12Z",
       "dateModified": "2020-07-02T13:36:04Z"
@@ -2325,13 +2151,7 @@
       "title": "DHN 2019 - Copenhagen",
       "URL": "https://cst.dk/DHN2019/DHN2019.html#invitedspeakers",
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2426,22 +2246,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            3
-          ]
-        ]
+        "date-parts": [[2019, 6, 3]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2468,9 +2276,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2019-08-27T14:59:59Z",
       "dateModified": "2020-07-02T13:36:04Z"
@@ -2548,22 +2354,10 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            20
-          ]
-        ]
+        "date-parts": [[2019, 6, 20]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2590,9 +2384,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2019-08-27T14:58:56Z",
       "dateModified": "2020-07-02T13:36:05Z"
@@ -2652,13 +2444,7 @@
       "title": "numapresse-20-juin-2019-diffusion-officielle.pdf",
       "URL": "http://www.numapresse.org/wp-content/uploads/2019/06/numapresse-20-juin-2019-diffusion-officielle.pdf",
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2733,13 +2519,7 @@
       "title": "Stronger Multilateralism through Knowledge Heritage and Culture | 100 Years of Multilateralism in Geneva",
       "URL": "https://multilateralism100.unog.ch/node/108",
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2825,22 +2605,10 @@
       "event": "100 Years of Multilateralism in Geneva",
       "URL": "https://multilateralism100.unog.ch/node/108",
       "issued": {
-        "date-parts": [
-          [
-            2019,
-            6,
-            17
-          ]
-        ]
+        "date-parts": [[2019, 6, 17]]
       },
       "accessed": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            27
-          ]
-        ]
+        "date-parts": [[2019, 8, 27]]
       }
     },
     "data": {
@@ -2861,9 +2629,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2019-08-27T14:57:00Z",
       "dateModified": "2020-07-02T13:36:05Z"
@@ -2912,7 +2678,7 @@
     "csljson": {
       "id": "4709830/INBFB3AI",
       "type": "speech",
-      "title": "Spotlight presentation of impresso project",
+      "title": "Spotlight presentation of Impresso project",
       "event": "Time Machine Conference",
       "language": "en",
       "author": [
@@ -2922,20 +2688,14 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            10,
-            31
-          ]
-        ]
+        "date-parts": [[2018, 10, 31]]
       }
     },
     "data": {
       "key": "INBFB3AI",
       "version": 3909,
       "itemType": "presentation",
-      "title": "Spotlight presentation of impresso project",
+      "title": "Spotlight presentation of Impresso project",
       "creators": [
         {
           "creatorType": "presenter",
@@ -2954,9 +2714,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-11-11T12:26:55Z",
       "dateModified": "2020-07-02T13:36:58Z"
@@ -3028,13 +2786,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            8,
-            12
-          ]
-        ]
+        "date-parts": [[2018, 8, 12]]
       }
     },
     "data": {
@@ -3061,9 +2813,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T11:54:40Z",
       "dateModified": "2020-07-02T13:37:08Z"
@@ -3159,13 +2909,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            8,
-            6
-          ]
-        ]
+        "date-parts": [[2018, 8, 6]]
       }
     },
     "data": {
@@ -3222,9 +2966,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T11:29:29Z",
       "dateModified": "2020-07-02T13:37:08Z"
@@ -3296,11 +3038,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2018"
-          ]
-        ],
+        "date-parts": [["2018"]],
         "season": "6-3"
       }
     },
@@ -3328,9 +3066,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T10:34:15Z",
       "dateModified": "2020-07-02T13:37:08Z"
@@ -3402,13 +3138,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            4,
-            7
-          ]
-        ]
+        "date-parts": [[2018, 4, 7]]
       }
     },
     "data": {
@@ -3435,9 +3165,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T10:31:04Z",
       "dateModified": "2020-07-02T13:37:09Z"
@@ -3512,11 +3240,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2018"
-          ]
-        ],
+        "date-parts": [["2018"]],
         "season": "26.10"
       }
     },
@@ -3549,9 +3273,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T10:27:30Z",
       "dateModified": "2020-07-02T13:37:09Z"
@@ -3623,11 +3345,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            "2018"
-          ]
-        ],
+        "date-parts": [["2018"]],
         "season": "13.3"
       }
     },
@@ -3655,9 +3373,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T10:26:03Z",
       "dateModified": "2020-07-02T13:37:10Z"
@@ -3729,13 +3445,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            4,
-            25
-          ]
-        ]
+        "date-parts": [[2018, 4, 25]]
       }
     },
     "data": {
@@ -3762,9 +3472,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T10:24:51Z",
       "dateModified": "2020-07-02T13:37:10Z"
@@ -3840,13 +3548,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            4,
-            24
-          ]
-        ]
+        "date-parts": [[2018, 4, 24]]
       }
     },
     "data": {
@@ -3878,9 +3580,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T10:22:13Z",
       "dateModified": "2020-07-02T13:37:10Z"
@@ -3976,13 +3676,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            8,
-            6
-          ]
-        ]
+        "date-parts": [[2018, 8, 6]]
       }
     },
     "data": {
@@ -4039,9 +3733,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T10:19:18Z",
       "dateModified": "2020-07-02T13:37:11Z"
@@ -4113,13 +3805,7 @@
         }
       ],
       "issued": {
-        "date-parts": [
-          [
-            2018,
-            12,
-            6
-          ]
-        ]
+        "date-parts": [[2018, 12, 6]]
       }
     },
     "data": {
@@ -4146,9 +3832,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "8PHTET8E"
-      ],
+      "collections": ["8PHTET8E"],
       "relations": {},
       "dateAdded": "2018-08-16T09:56:55Z",
       "dateModified": "2020-07-02T13:37:11Z"

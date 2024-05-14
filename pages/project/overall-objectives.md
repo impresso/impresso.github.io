@@ -9,11 +9,11 @@ group: project.objectives
 excerpt: 'The *impresso* project aims to overcome language and media barriers and to enable, for the first time, the joint exploration of an unprecedented corpus of newspaper and radio archive contents across modalities, time, languages, and national borders.'
 ---
 
-Leveraging an unprecedented corpus of newspaper and radio archives, **_impresso_ - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration and study of historical media across modalities, time, languages, and national borders.
+Leveraging an unprecedented corpus of newspaper and radio archives, **Impresso - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration and study of historical media across modalities, time, languages, and national borders.
 
 ## Media monitoring of the past across modalities, time, languages, and national borders
 
-_impresso_ seeks to transcend language and media barriers to enable, for the first time, the joint exploration of a vast corpus comprising both newspaper and radio archives. This initiative spans different modalities, time periods, languages, and national boundaries. Our objective extends beyond simply aggregating collections and enabling full-text search capabilities. We aim to enhance and interconnect these sources by implementing multiple layers of advanced semantic enrichments, all represented within a unified, multilingual vector space. Additionally, our goal is to develop robust, meaningful, and transparent exploration tools specifically tailored for historical research.
+Impresso seeks to transcend language and media barriers to enable, for the first time, the joint exploration of a vast corpus comprising both newspaper and radio archives. This initiative spans different modalities, time periods, languages, and national boundaries. Our objective extends beyond simply aggregating collections and enabling full-text search capabilities. We aim to enhance and interconnect these sources by implementing multiple layers of advanced semantic enrichments, all represented within a unified, multilingual vector space. Additionally, our goal is to develop robust, meaningful, and transparent exploration tools specifically tailored for historical research.
 Our work represents not merely an expansion in volume, but a fundamental shift in the approach to processing, representing, and studying sources from a transmedia and transnational perspective. This project is collaboratively designing and developing an open, versatile technological framework to enable seamless exploration of semantically interconnected media archives. Our focus areas include:
 
 1.  Advancing multilingual natural language processing techniques to convert diverse, unstructured, and noisy historical media sources into semantically enriched data, ultimately interconnected within a shared vector space.
@@ -35,7 +35,7 @@ Historical media reflect the times during which they were created and offer rich
 
 Millions of facsimiles and digital broadcast records, along with their machine-readable content, are now available for research. Existing tools for the exploration of digitized newspapers and radio broadcasts nevertheless remain in a fragmented landscape, where automatic processing and computational approaches are typically restricted to one language and one media type. These limitations severely hamper historical research, which is driven by the discovery of relations between their objects of study through iterative processes characterised by comparing, contrasting and associating sources and information.
 
-_impresso_ establishes the legal and technical prerequisites to build a corpus of historical newspaper and radio collections from our [partners](/consortium/partners/). These are newspaper collections from Switzerland, Austria, Belgium, France, Germany, Luxembourg, the Netherlands and the UK spanning the time period of the 19th and the 20th centuries, and radio broadcasts from Switzerland, Austria, France, Germany, the Netherlands and the UK from the 1930s on. For newspapers this includes the collection of page scans, text in METS/ALTO and other XML formats and accompanying bibliographic metadata. For radio, this includes e.g. speaker typescripts, transcribed speech, audio content, radio programmes and accompanying metadata.
+Impresso establishes the legal and technical prerequisites to build a corpus of historical newspaper and radio collections from our [partners](/consortium/partners/). These are newspaper collections from Switzerland, Austria, Belgium, France, Germany, Luxembourg, the Netherlands and the UK spanning the time period of the 19th and the 20th centuries, and radio broadcasts from Switzerland, Austria, France, Germany, the Netherlands and the UK from the 1930s on. For newspapers this includes the collection of page scans, text in METS/ALTO and other XML formats and accompanying bibliographic metadata. For radio, this includes e.g. speaker typescripts, transcribed speech, audio content, radio programmes and accompanying metadata.
 
 ## Media processing: enriching & connecting
 
@@ -63,11 +63,11 @@ The methodologically reflected analysis of semantically enriched media collectio
 
 ### _The impresso web app_
 
-The _impresso_ web app we developed during the first _impresso_ project will be expanded, refined, and scaled up to integrate and adequately represent different types of historical documents (e.g., typescripts or audio alongside newspapers).
+The Impresso web app we developed during the first Impresso project will be expanded, refined, and scaled up to integrate and adequately represent different types of historical documents (e.g., typescripts or audio alongside newspapers).
 
 ### _The impresso data lab_
 
-The newly developed _impresso_ data lab will offer researchers an API for direct data access, enabling computational analyses beyond the interface's capabilities. Interactive notebooks make such work more transparent and reusable for research and teaching purposes. Finally, we foresee the ability to link external documents on the grounds of semantic enrichments such as named entities. This with the ambition to allow users to link relevant data to the _impresso_ corpus whilst also avoiding potential copyright infringement.
+The newly developed Impresso data lab will offer researchers an API for direct data access, enabling computational analyses beyond the interface's capabilities. Interactive notebooks make such work more transparent and reusable for research and teaching purposes. Finally, we foresee the ability to link external documents on the grounds of semantic enrichments such as named entities. This with the ambition to allow users to link relevant data to the Impresso corpus whilst also avoiding potential copyright infringement.
 
 In addition to offering a unique gateway to media sources and enrichments, both interfaces will support versatile, transparent and data-driven research workflows that enable methodological reflexivity in the critical analysis of sources, tools and data.
 
@@ -91,7 +91,7 @@ We conduct original research on historical media ecosystems under the umbrella t
 
 ### _Research community to promote data-driven research in (Media) History_
 
-We develop _impresso_’s corpus and interfaces with the historical research community at-large in mind. To foster usage of our resources, we are building a community of researchers around our tools and methodological framework. We cooperate with existing research groups in media history and computational humanities and provide opportunities for scholarly exchange and constant feedback.
+We develop Impresso’s corpus and interfaces with the historical research community at-large in mind. To foster usage of our resources, we are building a community of researchers around our tools and methodological framework. We cooperate with existing research groups in media history and computational humanities and provide opportunities for scholarly exchange and constant feedback.
 
 Overall, historical research explores the opportunities offered by enriched sources using case studies, determines how best to interact with the data, assesses their value for research based on comparative analysis, and fosters a collaborative research community for data-driven and collaborative historical research.
 

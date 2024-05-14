@@ -1,5 +1,5 @@
 ---
-title: "HIPE"
+title: 'HIPE'
 permalink: /activities/hipe/
 nolang: /activities/hipe/
 lang: en
@@ -10,7 +10,7 @@ group: activities.hipe
 
 ## HIPE (Identifying Historical People, Places and other Entities)
 
-[HIPE (Identifying Historical People, Places and other Entities)](https://impresso.github.io/CLEF-HIPE-2020/) is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the impresso project and run as a CLEF 2020 Evaluation Lab.
+[HIPE (Identifying Historical People, Places and other Entities)](https://impresso.github.io/CLEF-HIPE-2020/) is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the Impresso project and run as a CLEF 2020 Evaluation Lab.
 
 <figure class='respect-margin' style="max-width:400px">
       <img class='cover' src='https://impresso.github.io/CLEF-HIPE-2020/images/pages/project-schema.jpg'>
