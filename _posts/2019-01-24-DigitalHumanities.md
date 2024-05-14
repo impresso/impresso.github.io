@@ -3,7 +3,7 @@ layout: post
 status: published
 title: Digital Humanities - a Challenging Research Field
 lang: en
-date:   2018-08-24
+date: 2018-08-24
 categories: history
 author: Julien Nguyễn Đăng
 figure:
@@ -11,7 +11,7 @@ figure:
     caption: <a href="https://pixabay.com/photos/et-extraterrestrial-creature-figure-2006631/">Image</a> by <a href="https://pixabay.com/users/Couleur-1195798/">Couleur</a> on Pixabay
 ---
 
-Julien Nguyễn Đăng, intern to the _impresso_ project in the summer 2018, prepared a feedback on his experience, reflecting on the challenges it poses for research and teaching.
+Julien Nguyễn Đăng, intern to the Impresso project in the summer 2018, prepared a feedback on his experience, reflecting on the challenges it poses for research and teaching.
 
 <!-- more -->
 
@@ -51,7 +51,7 @@ Furthermore, it is important to implement personalisation functions within these
 The Laurel and Lavender impresso user workshops, which gave researchers the opportunity to test some functions of the engine, both effectively illustrated this point: historians asked for multiple citation possibilities, one-click functions – particularly for multiple downloading – and personalised work spaces: these observations will undoubtedly help designers enhance the experience of future users.
 As digital humanities finds itself at the crossroads of computer science and humanities, it remains an “objet-frontière”(“border object”, 14) located in a “trading zone”(15) where specialists do not speak the same language and therefore have to find ways of understanding one another.
 “Co-design” – a collaborative effort to create a relevant design led by designers, computer scientists and users/researchers at the same time – is certainly an effective way of associating all available skills with researchers’ requests.
-It is a guideline which the impresso team intends to follow, as emphasised at the aforementioned workshops.
+It is a guideline which the Impresso team intends to follow, as emphasised at the aforementioned workshops.
 
 Co-design centres on the development of tools. However, considering that these tools are used by all historians – not only those who might have participated in their design –, both generosity and transparency may not be sufficient.
 To my mind, learning is central. As I myself have experienced, although positive developments have been observed in the past few years, (16) teaching in digital humanities still has to be included more systematically within curricula (17) and clearly acknowledged as a requirement, not just an “option” that is sometimes ignored.
@@ -65,7 +65,7 @@ One solution might involve providing user support through online or live tutoria
 Another solution is transparency itself: we need to inform all users of what our tools can and cannot do, pending further progress in computer science. However, we should not consider transparency as a magical solution: in this respect, we might need to be aware of our own “black box”, since transparency does not always imply understanding, nor is it necessarily a realistic enterprise (19).
 But we should also open the black box of historians by encouraging transparency and embracing the idea of “openness”, of collaboration, that is so dear to developers (20), in order to make bridges within this dual identity of digital humanities.
 
-*Notes*:
+_Notes_:
 
 1. “La sociologie est née à la fin du XIXe siècle, en développant la critique d’une autre forme de réification, inscrite celle-ci dans le langage, qui consiste à envisager les entités collectives (l’entreprise, l’État, l’Église, etc.) comme s’il s’agissait de personnes réelles. L’objet de la sociologie est de déconstruire ces entités pour retrouver les individus et les relations qu’ils entretiennent entre eux (ce qu’on appelle le “lien social”). La sociohistoire poursuit le même objectif, mais elle met l’accent sur l’étude des relations à distance. Grâce à l’invention de l’écriture et de la monnaie, grâce aux progrès techniques, les hommes ont pu nouer entre eux des liens dépassant largement la sphère des échanges directs, fondés sur l’interconnaissance. Des “fils invisibles” relient aujourd’hui des millions de personnes qui ne se connaissent pas. Le but de la socio-histoire est d’étudier ces formes d’interdépendance et de montrer comment elles affectent les relations de face-à-face.” Gérard Noiriel, Introduction à la socio-histoire. Paris, La Découverte, “Repères”, 2008, p. 3.
 
@@ -87,4 +87,4 @@ But we should also open the black box of historians by encouraging transparency 
 17. “Si l’histoire n’est pas une science exacte, compter, comparer, classer, modéliser restent des moyens utiles pour mesurer notre degré de doute ou de certitude, pour expliciter nos hypothèses ou évaluer le poids d’un phénomène. Paradoxe : alors même que tout étudiant a à sa disposition des capacités de calcul dont rêvaient les chercheurs des années 1970, grâce aux développements de la micro-informatique notamment, les chemins d’apprentissage restent encore ardus. Les historiens continuent à recevoir une formation strictement littéraire et éprouvent parfois des sentiments ambivalents à l’égard du chiffre.” Claire Lemercier, Claire Zalc, Méthodes quantitatives pour l'historien. Paris, La Découverte, “Repères”, 2008, p. 7.
 18. Martin Grandjean, “Il n’y aura pas de bonnes formations en humanités numériques tant qu’il n’y aura pas de bonnes recherches !”, 13 November 2017. URL: http://www.martingrandjean.ch/formations-humanites-numeriques-recherches/
 19. Hubert Guilaud, “La transparence ne suffira pas”, internetactu.net, 13 January 2017. URL: http://www.internetactu.net/2017/01/13/la-transparence-ne-suffira-pas/
-(20. Ian Milligan, “Illusionary Order: Online Databases, Optical Character Recognition, and Canadian History, 1997-2010”, The Canadian Historical Review, Vol. 94, No. 4, December 2013, pp. 540-569.
+    (20. Ian Milligan, “Illusionary Order: Online Databases, Optical Character Recognition, and Canadian History, 1997-2010”, The Canadian Historical Review, Vol. 94, No. 4, December 2013, pp. 540-569.

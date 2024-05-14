@@ -15,15 +15,15 @@ figure:
   - src: posts/pr-corpus-stats-plot2.png
 ---
 
-On the occasion of the first public release of the _impresso_ interface, we wish to take stock of our newspaper corpus. More than a year has passed since the last corpus update...
+On the occasion of the first public release of the Impresso interface, we wish to take stock of our newspaper corpus. More than a year has passed since the last corpus update...
 
 <!-- more -->
 
-On the occasion of the first public release of the _impresso_ interface, we wish to take stock of our newspaper corpus. More than a year has passed since the [last corpus update](https://impresso-project.ch/news/2018/04/17/state-collection-april18.html) and a lot has happened in _impresso_ ever since!
+On the occasion of the first public release of the Impresso interface, we wish to take stock of our newspaper corpus. More than a year has passed since the [last corpus update](https://impresso-project.ch/news/2018/04/17/state-collection-april18.html) and a lot has happened in Impresso ever since!
 
-## _Impresso_ in numbers
+## Impresso in numbers
 
-So far our data acquisition strategy has been focussing on Swiss and Luxembourgish newspapers and, as of January 2020, the _impresso_ corpus consists of **76 newspapers** (50 Swiss and 26 Luxembourgish), whose material breaks down as follow:
+So far our data acquisition strategy has been focussing on Swiss and Luxembourgish newspapers and, as of January 2020, the Impresso corpus consists of **76 newspapers** (50 Swiss and 26 Luxembourgish), whose material breaks down as follow:
 
 - number of newspaper issues: 604,769
 - number of pages: 5,445,822
@@ -33,13 +33,13 @@ So far our data acquisition strategy has been focussing on Swiss and Luxembourgi
 
 A word about terminology: _content item_ is the term we use to refer to newspaper contents _below_ the page level. Typically, pages image are segmented and classified into finer-grained content units such as articles, advertisements, images, tables, weather forecasts, obituaries, etc. -- this is precisely what is referred to by _content items_. This segmentation process is also known as [document layout analysis](https://impresso-project.ch/glossary/olr/).
 
-_Impresso_ newspaper digitized materials were provided by our associated partners, namely: the Bibliothèque nationale de Luxembourg, the Swiss National Library, the Valais Media Library and State Archives, and the newspapers _Neue Zürcher Zeitung_ and _Le Temps_ (Ringier group). Further Swiss institutions also participates to _impresso_ endeavour with their sources, that is to say: the newspapers _La Liberté_, _Freiburger Nachrichten_, _L'Essor_, _Le Confédéré_, _Bote vom Untersee_, the group _ArcInfo_ in collaboration of the Bibliothèque de la Chaux-de-Fonds, the Bibliothèque cantonale et universitaire de Fribourg, and the Swiss Social Archives in collaboration with UNIA. Physical acquisition of the material would not have been possible without the contribution of RERO, the Library Network of Western Switzerland. We take the opportunity here to thank all these partners for their support and contributions.
+Impresso newspaper digitized materials were provided by our associated partners, namely: the Bibliothèque nationale de Luxembourg, the Swiss National Library, the Valais Media Library and State Archives, and the newspapers _Neue Zürcher Zeitung_ and _Le Temps_ (Ringier group). Further Swiss institutions also participates to Impresso endeavour with their sources, that is to say: the newspapers _La Liberté_, _Freiburger Nachrichten_, _L'Essor_, _Le Confédéré_, _Bote vom Untersee_, the group _ArcInfo_ in collaboration of the Bibliothèque de la Chaux-de-Fonds, the Bibliothèque cantonale et universitaire de Fribourg, and the Swiss Social Archives in collaboration with UNIA. Physical acquisition of the material would not have been possible without the contribution of RERO, the Library Network of Western Switzerland. We take the opportunity here to thank all these partners for their support and contributions.
 
-## Open data in _impresso_
+## Open data in Impresso
 
-While in _impresso_ we strive for open data, _impresso_ titles are subject to **different right statement regimens** depending on their copyright situations.
+While in Impresso we strive for open data, Impresso titles are subject to **different right statement regimens** depending on their copyright situations.
 
-Some contents are freely available for personal and academic use (‘Personal and Academic use’), while others are no longer in copyright and may be used without restrictions (‘Public’). The former are the contents to which _impresso_ users are granted access upon acceptance and signature of the [Terms of Use](https://impresso-project.ch/app/terms-of-use), while the latter are visible and usable without restriction not the need for login (to know more about how to get access visit the [impresso interface](https://impresso-project.ch/app/) or drop us a line at `info[at]impresso-project[dot]ch`).
+Some contents are freely available for personal and academic use (‘Personal and Academic use’), while others are no longer in copyright and may be used without restrictions (‘Public’). The former are the contents to which Impresso users are granted access upon acceptance and signature of the [Terms of Use](https://impresso-project.ch/app/terms-of-use), while the latter are visible and usable without restriction not the need for login (to know more about how to get access visit the [Impresso interface](https://impresso-project.ch/app/) or drop us a line at `info[at]impresso-project[dot]ch`).
 
 At the time of writing, the **public subset** of our corpus amounts to:
 
@@ -66,11 +66,11 @@ Our corpus is continously evolving and growing, and here come the main perspecti
 
 _On the short term_, two titles (_Schweizer Arbeitgeber_ and the _Schweizerische Handels-Zeitung_) from our partner the **Swiss Economic Archives** (SWA), as well as the _Bundesblatt_ ([Federal Gazette](https://www.admin.ch/gov/de/start/bundesrecht/bundesblatt/erlaeuterungen-zum-bundesblatt.html)), will soon be ingested. The _Bundesblatt_ is a weekly publication of the Swiss Government in French, German and Italian which includes various official documents. Digital material is available from 1848 on in German and French, and from 1971 on for Italian. Periodical publications originating from different bodies (the government in the case of _Bundesblatt_, and unions in the case of SWA titles) will allow for comparative analyses of discourses.
 
-_On the long term_, we aim at expanding the _impresso_ corpus beyond the Swiss and Luxembourgish borders. To this end, we are actively collaborating with further national libraries and partners and, depending on time resources, more material in English and French will join the _impresso_ corpus.
+_On the long term_, we aim at expanding the Impresso corpus beyond the Swiss and Luxembourgish borders. To this end, we are actively collaborating with further national libraries and partners and, depending on time resources, more material in English and French will join the Impresso corpus.
 
 ## Corpus statistics
 
-The table below lists aggregate statistics about the corpus at the level of newspaper title. If you want to further explore these contents, simply head to the [_Newspapers_ section](https://impresso-project.ch/app/newspapers/) of the _impresso_ interface and start browsing.
+The table below lists aggregate statistics about the corpus at the level of newspaper title. If you want to further explore these contents, simply head to the [_Newspapers_ section](https://impresso-project.ch/app/newspapers/) of the Impresso interface and start browsing.
 
 | newspaper id   | newspaper title                                                              | start year | end year | n. issues | n. pages |  n. tokens | n. images |
 | :------------- | :--------------------------------------------------------------------------- | ---------: | -------: | --------: | -------: | ---------: | --------: |

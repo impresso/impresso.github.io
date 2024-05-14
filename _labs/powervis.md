@@ -9,7 +9,7 @@ figure:
   - src: labs/powervis3.png
 ---
 
-Extract from the database underlying the impresso interface, visualise the metadata, named entities and topics, that are used as filters in the impresso application.
+Extract from the database underlying the Impresso interface, visualise the metadata, named entities and topics, that are used as filters in the impresso application.
 
 <!-- more -->
 
@@ -20,7 +20,7 @@ These visualisations can help you understand the distribution over time of the l
 {% assign figure=page.figure[1] %}
 {% include figure.html %}
 
-Please note that for the visualisation of topics or named entities, only the top 10 results are displayed. This means that in the following visualisation, we can see the top 10 topics present in the whole collection, and their presence per year, if they belong to the top 10 topics per year. In the  example below, both green and red topics belong to the top 10 topics of the impresso collection, but are not part of the top 10 for each year.
+Please note that for the visualisation of topics or named entities, only the top 10 results are displayed. This means that in the following visualisation, we can see the top 10 topics present in the whole collection, and their presence per year, if they belong to the top 10 topics per year. In the example below, both green and red topics belong to the top 10 topics of the impresso collection, but are not part of the top 10 for each year.
 
 {% assign figure=page.figure[2] %}
 {% include figure.html %}
