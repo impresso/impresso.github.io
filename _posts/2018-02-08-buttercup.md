@@ -16,11 +16,11 @@ figure:
     caption: Towards a diversification of search options
 ---
 
-On the morning of 8 February, a group of historians using newspapers for their research at the C2DH were invited to attend a second _impresso_ user workshop.
+On the morning of 8 February, a group of historians using newspapers for their research at the C2DH were invited to attend a second Impresso user workshop.
 
 <!-- more -->
 
-This second _impresso_ workshop aimed at discussing the ongoing research of the C2DH researchers with digitised newspapers and to identify overlaps with the _impresso_ project. After a short presentation from the _impresso_ team on the aims of the project, Chris Morse invited participants to “look to the future” with a selection of interface functions illustrated by science-fiction scenes. Each participant was asked to give a short overview of his or her experience in using newspapers for historical research, with an emphasis on their methods.
+This second Impresso workshop aimed at discussing the ongoing research of the C2DH researchers with digitised newspapers and to identify overlaps with the Impresso project. After a short presentation from the Impresso team on the aims of the project, Chris Morse invited participants to “look to the future” with a selection of interface functions illustrated by science-fiction scenes. Each participant was asked to give a short overview of his or her experience in using newspapers for historical research, with an emphasis on their methods.
 
 {% assign figure=page.figure[0] %}
 {% include figure.html %}
@@ -74,14 +74,14 @@ The participants were invited to base their project presentations around these s
 
 The discussions were very fruitful, with the wide variety of research topics and methodologies once again emphasising the richness of newspapers as historical sources and the complexity of epistemological implications. Research topics ranged from issues related to migration, finance and cultural history to biographical information and visual sources, in several languages and often from a multilingual perspective. This round table discussion helped to raise a series of questions at the crossroads of technical and epistemological issues, which the Impresso project, with its co-design approach, will aim to address. For instance, how can we deal with spelling variations for a given name in different languages? How can we find the spelling of a French name in a Flemish newspaper? How can we circumvent censorship, or the euphemisms used for instance for the Spanish flu epidemic?
 
-After the round table, the participants were split into three groups of four, each led by two members of the _impresso_ team. In each group, the participants were invited to discuss their research question in the context of digitised newspapers: how would they translate their research question into queries submitted to a given interface? To start with, the research scenarios were discussed collectively in the context of the planned _impresso_ interface and its NLP and CP tools, then these questions were applied to existing interfaces.
-This gave the participating historians a closer insight into the _impresso_ project, and they were very enthusiastic about the project’s potential. They showed interest in participating in subsequent workshops and forthcoming prototypes of the _impresso_ project.
+After the round table, the participants were split into three groups of four, each led by two members of the Impresso team. In each group, the participants were invited to discuss their research question in the context of digitised newspapers: how would they translate their research question into queries submitted to a given interface? To start with, the research scenarios were discussed collectively in the context of the planned Impresso interface and its NLP and CP tools, then these questions were applied to existing interfaces.
+This gave the participating historians a closer insight into the Impresso project, and they were very enthusiastic about the project’s potential. They showed interest in participating in subsequent workshops and forthcoming prototypes of the Impresso project.
 
 The final wrap-up of each group confirmed that this form of discussion had helped identify tools to explore vast collections of digitised newspapers, either for searches targeting very specific questions, as in biographical research, or for organising the results of research on broader phenomena. The Impresso team gathered direct feedback from the historians to feed the internal reflections outlined in the white papers on current interfaces of digitised newspapers and user requirements.
 
 The main needs gathered from the dialogue with the historians are the ability to build a search-based corpus and to select given objects within a newspaper such as advertisements. In order to exploit the results within the interface, they expressed the need to be able to store and compare search results, for instance highlighting differences or overlapping articles for two (or more) queries. More generally concerning automated searches in newspapers, the historians were keen for support in differentiating between segments of a newspaper, such as the difference between fiction and reports or identifying certain journalistic styles to categorise newspaper titles according to given criteria.
 
-The (Luxembourgish branch of the) _impresso_ team was very happy with the attendance and fruitful discussions with the C2DH historians and PhD students and looks forward to welcoming them again at the next _impresso_ workshop, with the presentation of the first prototype of the interface and tools in July 2018 in Lausanne.
+The (Luxembourgish branch of the) Impresso team was very happy with the attendance and fruitful discussions with the C2DH historians and PhD students and looks forward to welcoming them again at the next Impresso workshop, with the presentation of the first prototype of the interface and tools in July 2018 in Lausanne.
 
 {% assign figure=page.figure[2] %}
 {% include figure.html %}
