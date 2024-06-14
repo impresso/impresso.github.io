@@ -1,7 +1,7 @@
 [
   {
-    "key": "X25U8IK8",
-    "version": 7318,
+    "key": "ACV4SR4F",
+    "version": 8022,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -15,12 +15,18 @@
     },
     "links": {
       "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/X25U8IK8",
+        "href": "https://api.zotero.org/groups/1486708/items/ACV4SR4F",
         "type": "application/json"
       },
       "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/X25U8IK8",
+        "href": "https://www.zotero.org/groups/1486708/items/ACV4SR4F",
         "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/H7KHN8ME",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 4531481
       }
     },
     "meta": {
@@ -35,23 +41,112 @@
           }
         }
       },
-      "creatorSummary": "Boros et al.",
-      "parsedDate": "2024",
-      "numChildren": 0
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2024-06-14",
+      "numChildren": 1
     },
     "csljson": {
-      "id": "4709830/X25U8IK8",
+      "id": "4709830/ACV4SR4F",
+      "type": "article-journal",
+      "title": "Transparent generosity. Introducing the impresso interface for the exploration of semantically enriched historical newspapers",
+      "container-title": "Historical Methods: A Journal of Quantitative and Interdisciplinary History",
+      "page": "35-55",
+      "URL": "https://www.tandfonline.com/doi/full/10.1080/01615440.2024.2344004",
+      "DOI": "10.1080/01615440.2024.2344004",
+      "note": "Publisher: Routledge",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            14
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            14
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "BKGD2LIX",
+    "version": 7824,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/BKGD2LIX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/BKGD2LIX",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/PASLKEBU",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 3958558
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Boros et al.",
+      "parsedDate": "2024-03",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/BKGD2LIX",
       "type": "paper-conference",
-      "title": "Post-correction of Historical Text Transcripts with Large Language Models: An Exploratory Study",
-      "container-title": "LaTeCH-CLfL 2024",
-      "publisher": "The Association for Computational Linguistics",
-      "page": "133-159",
-      "event": "The 8th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature, St Julian's, Malta, March 22, 2024",
-      "abstract": "The quality of automatic transcription of heritage documents, whether from printed, manuscripts or audio sources, has a decisive impact on the ability to search and process historical texts. Although significant progress has been made in text recognition (OCR, HTR, ASR), textual materials derived from library and archive collections remain largely erroneous and noisy. Effective post-transcription correction methods are therefore necessary and have been intensively researched for many years. As large language models (LLMs) have recently shown exceptional performances in a variety of text-related tasks, we investigate their ability to amend poor historical transcriptions. We evaluate fourteen foundation language models against various post-correction benchmarks comprising different languages, time periods and document types, as well as different transcription quality and origins. We compare the performance of different model sizes and different prompts of increasing complexity in zero and few-shot settings. Our evaluation shows that LLMs are anything but efficient at this task. Quantitative and qualitative analyses of results allow us to share valuable insights for future work on post-correcting historical texts with LLMs",
-      "ISBN": "979-8-89176-069-1",
-      "note": "ISBN: 9798891760691\nMeeting Name: The 8th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature\nPublisher: The Association for Computational Linguistics",
-      "shortTitle": "Post-correction of Historical Text Transcripts with Large Language Models",
-      "editor": [
+      "title": "Post-Correction of Historical Text Transcripts with Large Language Models: An Exploratory Study",
+      "container-title": "Proceedings of the 8th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2024)",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "St. Julians, Malta",
+      "page": "133–159",
+      "event-place": "St. Julians, Malta",
+      "abstract": "The quality of automatic transcription of heritage documents, whether from printed, manuscripts or audio sources, has a decisive impact on the ability to search and process historical texts. Although significant progress has been made in text recognition (OCR, HTR, ASR), textual materials derived from library and archive collections remain largely erroneous and noisy. Effective post-transcription correction methods are therefore necessary and have been intensively researched for many years. As large language models (LLMs) have recently shown exceptional performances in a variety of text-related tasks, we investigate their ability to amend poor historical transcriptions. We evaluate fourteen foundation language models against various post-correction benchmarks comprising different languages, time periods and document types, as well as different transcription quality and origins. We compare the performance of different model sizes and different prompts of increasing complexity in zero and few-shot settings. Our evaluation shows that LLMs are anything but efficient at this task. Quantitative and qualitative analyses of results allow us to share valuable insights for future work on post-correcting historical texts with LLMs.",
+      "URL": "https://aclanthology.org/2024.latechclfl-1.14",
+      "shortTitle": "Post-Correction of Historical Text Transcripts with Large Language Models",
+      "author": [
         {
           "family": "Boros",
           "given": "Emanuela"
@@ -73,8 +168,144 @@
           "given": "Frédéric"
         }
       ],
+      "editor": [
+        {
+          "family": "Bizzoni",
+          "given": "Yuri"
+        },
+        {
+          "family": "Degaetano-Ortlieb",
+          "given": "Stefania"
+        },
+        {
+          "family": "Kazantseva",
+          "given": "Anna"
+        },
+        {
+          "family": "Szpakowicz",
+          "given": "Stan"
+        }
+      ],
       "issued": {
-        "date-parts": [[2024]]
+        "date-parts": [
+          [
+            2024,
+            3
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            28
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "3G6HNWEI",
+    "version": 7617,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/3G6HNWEI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/3G6HNWEI",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/6BAH2I84",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 22516029
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bunout et al.",
+      "parsedDate": "2024-02-21",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/3G6HNWEI",
+      "type": "speech",
+      "title": "Quo vadis digitised newspapers and radio? Next steps for the integration of western European collections via impresso II.",
+      "abstract": "Over the past few years, interdisciplinary research projects such as Oceanic Exchanges, Living with Machines, Numapresse or NewsEye, all worked towards the semantic enrichment, integration and computational analysis of historical newspaper collections across institutional, national and linguistic boundaries. Against this background, we propose to present a new project: \"impresso - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio\" which builds on the first impresso project that compiled and semantically enriched a corpus of Swiss and Luxembourgish newspapers. The second project will expand the corpus to a Western European scale, and bring together sources from various collections and languages. It aims at creating support for the research community by offering relevant data and interfaces for the exploration of its collections. We hope to reach out to researchers interested in contributing to the paradigm shift in the processing, representation and analysis of historical document collections.",
+      "URL": "https://zenodo.org/records/10706029",
+      "note": "DOI: 10.5281/zenodo.10706029",
+      "shortTitle": "Quo vadis digitised newspapers and radio?",
+      "author": [
+        {
+          "family": "Bunout",
+          "given": "Estelle"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        },
+        {
+          "family": "Ruppen Coutaz",
+          "given": "Rapahëlle"
+        },
+        {
+          "family": "Beelen",
+          "given": "Kaspar"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            28
+          ]
+        ]
       }
     }
   },
@@ -146,10 +377,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2023, 6, 6]]
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 20]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            20
+          ]
+        ]
       }
     }
   },
@@ -209,7 +452,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2021]]
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
       }
     }
   },
@@ -262,7 +509,13 @@
       "title": "Datasets and Models for Historical Newspaper Article Segmentation",
       "URL": "https://zenodo.org/records/3706863",
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -354,10 +607,21 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020, 7]]
+        "date-parts": [
+          [
+            2020,
+            7
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -428,10 +692,20 @@
         }
       ],
       "issued": {
-        "date-parts": [[2019]]
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -569,10 +843,21 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020, 5]]
+        "date-parts": [
+          [
+            2020,
+            5
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -629,7 +914,7 @@
       "page": "21",
       "volume": "7",
       "issue": "0",
-      "abstract": "In this paper, we discuss how different types of automatic annotation of digitised newspaper articles can be integrated into the iterative questioning of the source material and the creation of research corpora out of a collection of unstructured texts (kept in a structured collection). We annotate a sizeable collection of Swiss press articles (183,270), extracted via the Impresso interface1 using topic modelling (MALLET)2 as well as a naïve Bayes classifier (script by Milan van Lange).The methodological discussion we propose is to explore how text mining can help identify historical discourses that are difficult to query with keywords because of their inherent ambiguity and how to grasp them in a large corpus. We argue that the automated annotations can provide a body of corroborating evidence of the searched discourse, to be used as an intermediary and heuristic analysis step.",
+      "abstract": "In this paper, we discuss how different types of automatic annotation of digitised newspaper articles can be integrated into the iterative questioning of the source material and the creation of research corpora out of a collection of unstructured texts (kept in a structured collection). We annotate a sizeable collection of Swiss press articles (183,270), extracted via the impresso interface1 using topic modelling (MALLET)2 as well as a naïve Bayes classifier (script by Milan van Lange).The methodological discussion we propose is to explore how text mining can help identify historical discourses that are difficult to query with keywords because of their inherent ambiguity and how to grasp them in a large corpus. We argue that the automated annotations can provide a body of corroborating evidence of the searched discourse, to be used as an intermediary and heuristic analysis step.",
       "URL": "https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.37",
       "DOI": "10.5334/johd.37",
       "note": "Number: 0\nPublisher: Ubiquity Press",
@@ -641,10 +926,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2021, 9, 17]]
+        "date-parts": [
+          [
+            2021,
+            9,
+            17
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -706,10 +1003,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2019, 5, 13]]
+        "date-parts": [
+          [
+            2019,
+            5,
+            13
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -767,7 +1076,7 @@
       "page": "348",
       "volume": "12",
       "issue": "9",
-      "abstract": "The automated enrichment of mass-digitised document collections using techniques such as text mining is becoming increasingly popular. Enriched collections offer new opportunities for interface design to allow data-driven and visualisation-based search, exploration and interpretation. Most such interfaces integrate close and distant reading and represent semantic, spatial, social or temporal relations, but often lack contrastive views. Inspect and Compare (I&C) contributes to the current state of the art in interface design for historical newspapers with highly versatile side-by-side comparisons of query results and curated article sets based on metadata and semantic enrichments. I&C takes search queries and pre-curated article sets as inputs and allows comparisons based on the distributions of newspaper titles, publication dates and automatically generated enrichments, such as language, article types, topics and named entities. Contrastive views of such data reveal patterns, help humanities scholars to improve search strategies and to facilitate a critical assessment of the overall data quality. I&C is part of the Impresso interface for the exploration of digitised and semantically enriched historical newspapers.",
+      "abstract": "The automated enrichment of mass-digitised document collections using techniques such as text mining is becoming increasingly popular. Enriched collections offer new opportunities for interface design to allow data-driven and visualisation-based search, exploration and interpretation. Most such interfaces integrate close and distant reading and represent semantic, spatial, social or temporal relations, but often lack contrastive views. Inspect and Compare (I&C) contributes to the current state of the art in interface design for historical newspapers with highly versatile side-by-side comparisons of query results and curated article sets based on metadata and semantic enrichments. I&C takes search queries and pre-curated article sets as inputs and allows comparisons based on the distributions of newspaper titles, publication dates and automatically generated enrichments, such as language, article types, topics and named entities. Contrastive views of such data reveal patterns, help humanities scholars to improve search strategies and to facilitate a critical assessment of the overall data quality. I&C is part of the impresso interface for the exploration of digitised and semantically enriched historical newspapers.",
       "URL": "https://www.mdpi.com/2078-2489/12/9/348",
       "DOI": "10.3390/info12090348",
       "note": "Number: 9\nPublisher: Multidisciplinary Digital Publishing Institute",
@@ -791,10 +1100,21 @@
         }
       ],
       "issued": {
-        "date-parts": [[2021, 9]]
+        "date-parts": [
+          [
+            2021,
+            9
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -842,9 +1162,13 @@
       "id": "4709830/2YHGHRK4",
       "type": "report",
       "title": "CLEF-HIPE-2020 - Shared Task Participation Guidelines",
-      "abstract": "This document summarizes instructions for participants to the CLEF-HIPE-2020 shared task. HIPE (Identifying Historical People, Places and other Entities) is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the Impresso project and run as a CLEF 2020 Evaluation Lab. More information on the website: https://impresso.github.io/CLEF-HIPE-2020",
+      "abstract": "This document summarizes instructions for participants to the CLEF-HIPE-2020 shared task. HIPE (Identifying Historical People, Places and other Entities) is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the impresso project and run as a CLEF 2020 Evaluation Lab. More information on the website: https://impresso.github.io/CLEF-HIPE-2020",
       "issued": {
-        "date-parts": [[2020]]
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       }
     }
   },
@@ -895,7 +1219,11 @@
       "abstract": "Impresso annotation guidelines used in the context of corpus annotation for the HIPE shared task (CLEF 2020 Evaluation Lab). CLEF-HIPE-2020 shared task: https://impresso.github.io/CLEF-HIPE-2020/ Impresso project: https://impresso-project.ch",
       "URL": "https://zenodo.org/records/3604227",
       "issued": {
-        "date-parts": [[2020]]
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       }
     }
   },
@@ -987,10 +1315,21 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 10]]
+        "date-parts": [
+          [
+            2018,
+            10
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -1076,10 +1415,22 @@
         }
       ],
       "issued": {
-        "date-parts": [["2023", 9, 14]]
+        "date-parts": [
+          [
+            "2023",
+            9,
+            14
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -1209,7 +1560,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2022]]
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
       }
     }
   },
@@ -1323,7 +1678,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2022]]
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
       }
     }
   },
@@ -1469,10 +1828,21 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020, 5]]
+        "date-parts": [
+          [
+            2020,
+            5
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -1556,10 +1926,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2021, 1, 19]]
+        "date-parts": [
+          [
+            2021,
+            1,
+            19
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -1637,10 +2019,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2022, 12, 31]]
+        "date-parts": [
+          [
+            2022,
+            12,
+            31
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -1727,10 +2121,21 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 8]]
+        "date-parts": [
+          [
+            2018,
+            8
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -1857,7 +2262,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020]]
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       }
     }
   },
@@ -1941,7 +2350,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2022]]
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
       }
     }
   },
@@ -1997,7 +2410,7 @@
       "title": "impresso Text Reuse at Scale. An interface for the exploration of text reuse data in semantically enriched historical newspapers",
       "container-title": "Frontiers in Big Data",
       "volume": "6",
-      "abstract": "Text Reuse reveals meaningful reiterations of text in large corpora. Humanities researchers use text reuse to study, e.g., the posterior reception of influential texts or to reveal evolving publication practices of historical media. This research is often supported by interactive visualizations which highlight relations and differences between text segments. In this paper, we build on earlier work in this domain. We present impresso Text Reuse at Scale, the to our knowledge first interface which integrates text reuse data with other forms of semantic enrichment to enable a versatile and scalable exploration of intertextual relations in historical newspaper corpora. The Text Reuse at Scale interface was developed as part of the Impresso project and combines powerful search and filter operations with close and distant reading perspectives. We integrate text reuse data with enrichments derived from topic modeling, named entity recognition and classification, language and document type detection as well as a rich set of newspaper metadata. We report on historical research objectives and common user tasks for the analysis of historical text reuse data and present the prototype interface together with the results of a user evaluation.",
+      "abstract": "Text Reuse reveals meaningful reiterations of text in large corpora. Humanities researchers use text reuse to study, e.g., the posterior reception of influential texts or to reveal evolving publication practices of historical media. This research is often supported by interactive visualizations which highlight relations and differences between text segments. In this paper, we build on earlier work in this domain. We present impresso Text Reuse at Scale, the to our knowledge first interface which integrates text reuse data with other forms of semantic enrichment to enable a versatile and scalable exploration of intertextual relations in historical newspaper corpora. The Text Reuse at Scale interface was developed as part of the impresso project and combines powerful search and filter operations with close and distant reading perspectives. We integrate text reuse data with enrichments derived from topic modeling, named entity recognition and classification, language and document type detection as well as a rich set of newspaper metadata. We report on historical research objectives and common user tasks for the analysis of historical text reuse data and present the prototype interface together with the results of a user evaluation.",
       "URL": "https://www.frontiersin.org/articles/10.3389/fdata.2023.1249469",
       "author": [
         {
@@ -2038,10 +2451,20 @@
         }
       ],
       "issued": {
-        "date-parts": [[2023]]
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -2118,10 +2541,20 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020]]
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2021, 3, 5]]
+        "date-parts": [
+          [
+            2021,
+            3,
+            5
+          ]
+        ]
       }
     }
   },
@@ -2196,7 +2629,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2022]]
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
       }
     }
   },
@@ -2250,7 +2687,11 @@
       "event-place": "Lausanne, Switzerland",
       "note": "Citation Key: vernet_automatic_2022",
       "issued": {
-        "date-parts": [[2022]]
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
       }
     }
   },
@@ -2330,10 +2771,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020, 10, 22]]
+        "date-parts": [
+          [
+            2020,
+            10,
+            22
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -2392,7 +2845,7 @@
       "publisher-place": "Berlin, Germany",
       "number-of-pages": "439",
       "event-place": "Berlin, Germany",
-      "abstract": "The application of digital technologies to historical newspapers has changed the research landscape historians were used to. An Eldorado? Despite undeniable advantages, the new digital affordance of historical newspapers also transforms research practices and confronts historians with new challenges. Drawing on a growing community of practices, the Impresso project invited scholars experienced with digitised newspaper collections with the aim of encouraging a discussion on heuristics, source criticism and interpretation of digitized newspapers.\n\nThis volume provides a snapshot of current research on the subject and offers three perspectives: how digitisation is transforming access to and exploration of historical newspaper collections; how automatic content processing allows for the creation of new layers of information; and, finally, what analyses this enhanced material opens up.\n\n‘impresso - Media Monitoring of the Past’ is an interdisciplinary research project that applies text mining tools to digitised historical newspapers and integrates the resulting data into historical research workflows by means of a newly developed user interface. The question of how best to adapt text mining tools and their use by humanities researchers is at the heart of the impresso enterprise.",
+      "abstract": "The application of digital technologies to historical newspapers has changed the research landscape historians were used to. An Eldorado? Despite undeniable advantages, the new digital affordance of historical newspapers also transforms research practices and confronts historians with new challenges. Drawing on a growing community of practices, the impresso project invited scholars experienced with digitised newspaper collections with the aim of encouraging a discussion on heuristics, source criticism and interpretation of digitized newspapers.\n\nThis volume provides a snapshot of current research on the subject and offers three perspectives: how digitisation is transforming access to and exploration of historical newspaper collections; how automatic content processing allows for the creation of new layers of information; and, finally, what analyses this enhanced material opens up.\n\n‘impresso - Media Monitoring of the Past’ is an interdisciplinary research project that applies text mining tools to digitised historical newspapers and integrates the resulting data into historical research workflows by means of a newly developed user interface. The question of how best to adapt text mining tools and their use by humanities researchers is at the heart of the impresso enterprise.",
       "URL": "https://doi.org/10.1515/9783110729214",
       "ISBN": "978-3-11-072921-4",
       "note": "tex.ids= _digitised_2022, bunout_digitized_2022\nDOI: doi:10.1515/9783110729214",
@@ -2411,10 +2864,20 @@
         }
       ],
       "issued": {
-        "date-parts": [[2023]]
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -2484,7 +2947,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020]]
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       }
     }
   },
@@ -2553,7 +3020,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020]]
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       }
     }
   },
@@ -2641,7 +3112,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2022]]
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
       }
     }
   },
@@ -2704,7 +3179,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2023]]
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
       }
     }
   },
@@ -2783,10 +3262,20 @@
         }
       ],
       "issued": {
-        "date-parts": [[2023]]
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -2839,8 +3328,8 @@
     "csljson": {
       "id": "4709830/BAWRK9PX",
       "type": "manuscript",
-      "title": "Transparent Generosity. Introducing the Impresso interface for the exploration of semantically enriched historical newspapers",
-      "abstract": "Transparent Generosity. Introducing the Impresso interface for the exploration of semantically enriched historical newspapers Semantically enriched historical newspapers offer a multitude of opportunities for data-driven analysis. In this paper we introduce the Impresso interface which integrates several types of semantic enrichments and data visualisation and thereby supports new exploratory workflows and the critical assessment of largescale digitised source collections. The interface targets historians and integrates search, filtering, comparison, and recommendation based on automatically detected topics, linked named entities, text reuse, n-grams, image similarity, language, and OCR quality. We introduce the theoretical principles which guided interface development and reflect on the user requirements gathering process together with a case-study driven exemplification of novel workflows facilitated by the interface. We conclude with an overview of accompanying educational materials and discuss a user evaluation and usage statistics.",
+      "title": "Transparent Generosity. Introducing the impresso interface for the exploration of semantically enriched historical newspapers",
+      "abstract": "Transparent Generosity. Introducing the impresso interface for the exploration of semantically enriched historical newspapers Semantically enriched historical newspapers offer a multitude of opportunities for data-driven analysis. In this paper we introduce the impresso interface which integrates several types of semantic enrichments and data visualisation and thereby supports new exploratory workflows and the critical assessment of largescale digitised source collections. The interface targets historians and integrates search, filtering, comparison, and recommendation based on automatically detected topics, linked named entities, text reuse, n-grams, image similarity, language, and OCR quality. We introduce the theoretical principles which guided interface development and reflect on the user requirements gathering process together with a case-study driven exemplification of novel workflows facilitated by the interface. We conclude with an overview of accompanying educational materials and discuss a user evaluation and usage statistics.",
       "URL": "https://hal.science/hal-04154431",
       "author": [
         {
@@ -2857,10 +3346,21 @@
         }
       ],
       "issued": {
-        "date-parts": [[2022, 10]]
+        "date-parts": [
+          [
+            2022,
+            10
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 7, 19]]
+        "date-parts": [
+          [
+            2023,
+            7,
+            19
+          ]
+        ]
       }
     }
   },
@@ -2938,7 +3438,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020]]
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       }
     }
   },
@@ -3064,7 +3568,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2020]]
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       }
     }
   },
@@ -3147,10 +3655,21 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 10]]
+        "date-parts": [
+          [
+            2018,
+            10
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2023, 12, 5]]
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
       }
     }
   },
@@ -3237,7 +3756,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018]]
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
       }
     }
   },
@@ -3321,7 +3844,11 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018]]
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
       }
     }
   },
@@ -3408,7 +3935,13 @@
         }
       ],
       "issued": {
-        "date-parts": [[2019, 2, 9]]
+        "date-parts": [
+          [
+            2019,
+            2,
+            9
+          ]
+        ]
       }
     }
   },
@@ -3484,7 +4017,13 @@
         }
       ],
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -3564,10 +4103,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2017, 10, 28]]
+        "date-parts": [
+          [
+            2017,
+            10,
+            28
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -3647,10 +4198,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 2, 8]]
+        "date-parts": [
+          [
+            2018,
+            2,
+            8
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -3730,10 +4293,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 2, 24]]
+        "date-parts": [
+          [
+            2018,
+            2,
+            24
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -3809,10 +4384,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 4, 17]]
+        "date-parts": [
+          [
+            2018,
+            4,
+            17
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -3889,10 +4476,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 6, 11]]
+        "date-parts": [
+          [
+            2018,
+            6,
+            11
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 9, 17]]
+        "date-parts": [
+          [
+            2019,
+            9,
+            17
+          ]
+        ]
       }
     }
   },
@@ -3968,10 +4567,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 6, 12]]
+        "date-parts": [
+          [
+            2018,
+            6,
+            12
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -4047,10 +4658,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 6, 12]]
+        "date-parts": [
+          [
+            2018,
+            6,
+            12
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -4126,10 +4749,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 7, 6]]
+        "date-parts": [
+          [
+            2018,
+            7,
+            6
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -4209,10 +4844,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 7, 11]]
+        "date-parts": [
+          [
+            2018,
+            7,
+            11
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   },
@@ -4292,10 +4939,22 @@
         }
       ],
       "issued": {
-        "date-parts": [[2018, 9, 7]]
+        "date-parts": [
+          [
+            2018,
+            9,
+            7
+          ]
+        ]
       },
       "accessed": {
-        "date-parts": [[2019, 1, 9]]
+        "date-parts": [
+          [
+            2019,
+            1,
+            9
+          ]
+        ]
       }
     }
   }
