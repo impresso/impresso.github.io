@@ -22,19 +22,19 @@ jobs:
 
       - name: Download Zotero BIBJSON for Presentations
         working-directory: ./scripts/nodejs
-        run: node zotero.js download-collection 1486708 8PHTET8E _data/presentations.json
+        run: 'node zotero.js download-collection 1486708 8PHTET8E ${{ github.workspace }}/_data/presentations.json'
         env:
           ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
 
       - name: Download Zotero BIBJSON for Publications
         working-directory: ./scripts/nodejs
-        run: node zotero.js download-collection 1486708 SPFKFKMN _data/publications.json
+        run: 'node zotero.js download-collection 1486708 SPFKFKMN ${{ github.workspace }}/_data/publications.json'
         env:
           ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
 
       - name: Download Zotero BIBJSON for Datasets
         working-directory: ./scripts/nodejs
-        run: node zotero.js download-collection 1486708 UK7WNFH7 _data/datasets.json
+        run: 'node zotero.js download-collection 1486708 UK7WNFH7 ${{ github.workspace }}/_data/datasets.json'
         env:
           ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
 
