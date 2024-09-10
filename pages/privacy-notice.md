@@ -12,7 +12,7 @@ This Privacy Notice explains how the Impresso project may process your personal 
 **About this notice.** This Privacy Notice provides general information that applies in various situations, e.g.:
 
 - whether you register as a user of the Impresso interface or API;
-- when you participate to an event organised by the \_impresso \_project;
+- when you participate to an event organised by the Impresso project;
 - when you register to the Impresso mailing list;
 - when you participate in a survey conducted by the Impresso project.
 
@@ -89,7 +89,7 @@ The transfer of your contact details to Mailchimp, based in the United States, i
 - **Case 1**: Anonymised IP addresses are kept for the duration of the project months.
 - **Case 2**: The personal data of registered users will be kept for as long as the interface and API are maintained. This will be the case until the official end date of the project (28/02/2027), and beyond if the consortium continues to operate.
 - **Case 3**: The personal data collected by MailChimp is kept as long as the user keeps an account.
-- **Case 4**: The personal data collected in the context of events is kept until the end date of the project (28.02.2027). The purpose is follow-up actions to the event/conference. Data necessary for logistics purposes (refund of expenses, transport, etc.) are kept according to the rules set in the[ ETH Act](https://www.fedlex.admin.ch/eli/cc/1993/1945_1945_1945/fr) and in the[ EPFL financial regulation](https://www.epfl.ch/about/overview/wp-content/uploads/2021/01/LEX-5.1.1_FR.pdf).
+- **Case 4**: The personal data collected in the context of events is kept until the end date of the project (28.02.2027). The purpose is follow-up actions to the event/conference. Data necessary for logistics purposes (refund of expenses, transport, etc.) are kept according to the rules set in the [ETH Act](https://www.fedlex.admin.ch/eli/cc/1993/1945_1945_1945/fr) and in the [EPFL financial regulation](https://www.epfl.ch/about/overview/wp-content/uploads/2021/01/LEX-5.1.1_FR.pdf).
 
 ### 10. How do I unsubscribe from the Impresso interface?
 
@@ -99,7 +99,7 @@ This procedure is not yet automated. To unsubscribe please send us an email to [
 
 You have the right to receive a copy of your personal data and you may request the correction of any personal data which is inaccurate or incomplete. You also have the right to object to the processing of your personal data for legitimate reasons as well as a right to object to the use of that data for prospecting in accordance with applicable laws. When the processing is based on your consent, you have the right to withdraw your consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal.
 
-The _Impresso project_ reserves the right to refuse any abusive request or one which is contrary to applicable laws. Finally, you have the right to lodge a complaint with the relevant supervisory authority.
+The Impresso project reserves the right to refuse any abusive request or one which is contrary to applicable laws. Finally, you have the right to lodge a complaint with the relevant supervisory authority.
 
 ### 12. How can you lodge a complaint?
 
