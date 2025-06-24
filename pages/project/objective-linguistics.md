@@ -7,7 +7,7 @@ title: 'Natural Language Processing'
 excerpt: 'Text mining techniques are of critical importance to realise impresso’s overall mission to enrich and integrate historical media collections.'
 ---
 
-Text mining techniques are of critical importance to realise *impresso*’s overall mission to enrich and integrate historical media collections. Below we outline the main steps required to achieve this:
+Text mining techniques are of critical importance to realise Impresso’s overall mission to enrich and integrate historical media collections. Below we outline the main steps required to achieve this:
 
 <!-- more -->
 
@@ -25,20 +25,20 @@ To enable meaningful comparisons across languages, we will create a shared multi
 
 ## Performance assessment: ensuring reliable results
 
-Evaluating source consolidation enrichment, and linking is key. From a user perspective, it is a precondition for an informed and transparent use of data. Users will benefit from confidence scores associated with semantic annotations, allowing them to gauge data quality. From an NLP perspective, understanding the strengths and weaknesses of our system will guide future improvements. Evaluation will include traditional comparisons with manually created ground truths and collaboration with historians to ensure the tools meet real-world needs. Our commitment to ongoing evaluation extends to organising international evaluation shared tasks on article classification and NE processing, following up the two HIPE campaigns in [2020](https://impresso.github.io/CLEF-HIPE-2020/) and [2022](https://hipe-eval.github.io/HIPE-2022/) (https://github.com/hipe-eval).  
+Evaluating source consolidation enrichment, and linking is key. From a user perspective, it is a precondition for an informed and transparent use of data. Users will benefit from confidence scores associated with semantic annotations, allowing them to gauge data quality. From an NLP perspective, understanding the strengths and weaknesses of our system will guide future improvements. Evaluation will include traditional comparisons with manually created ground truths and collaboration with historians to ensure the tools meet real-world needs. Our commitment to ongoing evaluation extends to organising international evaluation shared tasks on article classification and NE processing, following up the two HIPE campaigns in [2020](https://impresso.github.io/CLEF-HIPE-2020/) and [2022](https://hipe-eval.github.io/HIPE-2022/) (https://github.com/hipe-eval).
 
 ## Key concepts: our approach in 5 steps
 
 To achieve our goals, we are guided by five key concepts:
 
-   1. **Vectorization:** Creating numeric embeddings for linguistic and visual content to facilitate semantic representations.
+1.  **Vectorization:** Creating numeric embeddings for linguistic and visual content to facilitate semantic representations.
 
-   2. **Cross-lingual alignment:** Ensuring comparable semantic representations for different languages and media types.
+2.  **Cross-lingual alignment:** Ensuring comparable semantic representations for different languages and media types.
 
-   3. **Contextualization:** Enhancing linguistic content with contextualised embeddings and linking out to external resources for richer context.
+3.  **Contextualization:** Enhancing linguistic content with contextualised embeddings and linking out to external resources for richer context.
 
-   4. **Aggregation and abstraction:** Applying hierarchical clustering to provide meaningful grouping for exploration and visualization.
+4.  **Aggregation and abstraction:** Applying hierarchical clustering to provide meaningful grouping for exploration and visualization.
 
-   5. **Relevance assessment:** Computing scores for the centrality of entities and concepts to determine their importance in historical documents.
+5.  **Relevance assessment:** Computing scores for the centrality of entities and concepts to determine their importance in historical documents.
 
 Through these concepts, we aim to provide accessible and powerful tools for historians and researchers, enriching the exploration of historical data and fostering new insights.

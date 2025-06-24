@@ -3,7 +3,7 @@ category: team
 group: collaborator
 ordering: 01-mello
 picture: /assets/images/caio-mello.jpg
-subheading: Postdoctoral Researcher, C2DH
+subheading: Postdoctoral Researcher, C²DH
 title: Caio Mello, PhD
 status: publish
 ---
@@ -12,4 +12,4 @@ Caio Mello holds a PhD in Digital Humanities from the School of Advanced Study, 
 
 Within Impresso, Caio provides one of the case studies, contributes to the co-design of the Impresso web app and data lab as well as to the project’s dissemination efforts.
 
-[C2DH profile](https://www.c2dh.uni.lu/people/caio-mello) [Personal website](https://www.caiomello.info/) [Bluesky](https://bsky.app/profile/caiomellodh.bsky.social) 
+[C²DH profile](https://www.c2dh.uni.lu/people/caio-mello) [Personal website](https://www.caiomello.info/) [Bluesky](https://bsky.app/profile/caiomellodh.bsky.social)

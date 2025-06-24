@@ -3,7 +3,7 @@ category: team
 group: former-collaborator
 ordering: 02-beek
 picture: /assets/images/thijs-van-beek.jpg
-subheading: Developer, C2DH
+subheading: Developer, C²DH
 title: Thijs van Beek
 status: publish
 ---

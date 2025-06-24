@@ -3,7 +3,7 @@ category: team
 group: collaborator
 ordering: 01-kalyakin
 picture: /assets/images/roman-kalyakin.png
-subheading: Full-Stack Engineer, C2DH
+subheading: Full-Stack Engineer, C²DH
 title: Roman Kalyakin, M.Sc.
 status: publish
 ---

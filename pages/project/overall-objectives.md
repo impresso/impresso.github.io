@@ -6,7 +6,7 @@ lang: en
 parentUrl: /project/
 layout: page
 group: project.objectives
-excerpt: 'The *impresso* project aims to overcome language and media barriers and to enable, for the first time, the joint exploration of an unprecedented corpus of newspaper and radio archive contents across modalities, time, languages, and national borders.'
+excerpt: 'The Impresso project aims to overcome language and media barriers and to enable, for the first time, the joint exploration of an unprecedented corpus of newspaper and radio archive contents across modalities, time, languages, and national borders.'
 ---
 
 Leveraging an unprecedented corpus of newspaper and radio archives, **Impresso - Media Monitoring of the Past** is an interdisciplinary research project that uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration and study of historical media across modalities, time, languages, and national borders.

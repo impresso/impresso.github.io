@@ -12,4 +12,4 @@ Andreas Fickers is the Director of the Luxembourg Centre for Contemporary and Di
 
 Andreas was one of the principal investigators of the first Impresso project and serves as an advisor to the second project.
 
-[C2DH profile](https://www.c2dh.uni.lu/people/andreas-fickers)
+[C²DH profile](https://www.c2dh.uni.lu/people/andreas-fickers)

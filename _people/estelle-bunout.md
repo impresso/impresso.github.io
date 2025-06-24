@@ -3,7 +3,7 @@ category: team
 group: collaborator
 ordering: 04-bunout
 picture: /assets/images/estelle-bunout.jpg
-subheading: Postdoctoral Researcher, C2DH
+subheading: Postdoctoral Researcher, C²DH
 title: Estelle Bunout, PhD
 status: publish
 ---
@@ -12,4 +12,4 @@ Estelle Bunout holds a PhD in contemporary history from the University of Lorrai
 
 Within Impresso, Estelle provides one of the historical case studies, contributes to the co-design of the Impresso web app and data lab as well as to the project’s dissemination efforts.
 
-[C2DH profile](https://www.c2dh.uni.lu/people/estelle-bunout) [Mastodon](https://fedihum.org/@estelleszmidt)
+[C²DH profile](https://www.c2dh.uni.lu/people/estelle-bunout) [Mastodon](https://fedihum.org/@estelleszmidt)

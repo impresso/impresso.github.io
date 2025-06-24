@@ -20,7 +20,7 @@
       "end_date": "2017-10-25",
       "label": "Kick-off Meeting and First Workshop",
       "type": "milestone",
-      "content": "We will hold our first consortium meeting and have our first workshop, dedicated to the identification of suitable newspapers and of feasible requirements with regard to Natural Language Processing (NLP) and interface design. Duration: 1 day, Place: Lausanne, Organisation: DHLAB, UZH, C2DH.",
+      "content": "We will hold our first consortium meeting and have our first workshop, dedicated to the identification of suitable newspapers and of feasible requirements with regard to Natural Language Processing (NLP) and interface design. Duration: 1 day, Place: Lausanne, Organisation: DHLAB, UZH, C²DH.",
       "permalink": "",
       "items": []
     },
@@ -29,7 +29,7 @@
       "end_date": "2018-02-08",
       "label": "Additional Workshop ('Buttercup'): Historical scenarios and user requirements",
       "type": "milestone",
-      "content": "During this extra workshop, C2DH team will invite historians colleagues from Luxembourg University and collaboratively work on historical research scenarios, in the same spirit as the first workshop. Duration: 1 day, Place: Campus Belval (Luxemboury), Organisation: C2DH",
+      "content": "During this extra workshop, C²DH team will invite historians colleagues from Luxembourg University and collaboratively work on historical research scenarios, in the same spirit as the first workshop. Duration: 1 day, Place: Campus Belval (Luxemboury), Organisation: C2DH",
       "permalink": "",
       "items": []
     },
@@ -59,7 +59,7 @@
       ]
     },
 
-        {
+    {
       "start_date": "2018-07-11",
       "end_date": "2018-07-11",
       "label": "Additional Workshop ('Lavender'): Co-Design, Integrating Digitized Press in Historians’ Workflow",
@@ -78,7 +78,7 @@
       "permalink": "",
       "items": []
     },
-     {
+    {
       "start_date": "2019-07-01",
       "end_date": "2019-07-01",
       "label": "Fourth Workshop: NLP Shared Task",
@@ -87,7 +87,7 @@
       "permalink": "",
       "items": []
     },
-     {
+    {
       "start_date": "2020-03-15",
       "end_date": "2020-03-16",
       "label": "Final Evaluation of NLP systems and Interface",
