@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="favicon" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="#fff"/>
+  <path id="black" d="M118.91,93.88v15.03h-61.5v-15.03h61.5ZM9.09,100.32c0-10.06,8.15-18.21,18.21-18.21s18.21,8.15,18.21,18.21-8.15,18.21-18.21,18.21-18.21-8.15-18.21-18.21ZM118.68,9.09H9.09v15.03h109.59v-15.03Z" fill="#212529"/>
+  <path id="yellow" d="M9.09,43.98v30.05h109.82v-30.05H9.09Z" fill="#f9d564"/>
+</svg>
