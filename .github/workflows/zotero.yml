@@ -18,23 +18,65 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./scripts/nodejs
-        run: yarn install
+        run: npm install
 
-      - name: Download Zotero BIBJSON for Presentations
+      - name: Download Zotero BIBJSON for Scientific-Publications
         working-directory: ./scripts/nodejs
-        run: 'node zotero.js download-collection 1486708 8PHTET8E ${{ github.workspace }}/_data/presentations.json'
+        run: 'node zotero.js download-collection 1486708 SPFKFKMN ${{ github.workspace }}/_data/scientificPublications.json'
         env:
           ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
 
-      - name: Download Zotero BIBJSON for Publications
+      - name: Download Zotero BIBJSON for Blogposts-webpages
         working-directory: ./scripts/nodejs
-        run: 'node zotero.js download-collection 1486708 SPFKFKMN ${{ github.workspace }}/_data/publications.json'
+        run: 'node zotero.js download-collection 1486708 C7S6LPL3 ${{ github.workspace }}/_data/blogpostsWebpages.json'
         env:
           ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
 
       - name: Download Zotero BIBJSON for Datasets
         working-directory: ./scripts/nodejs
         run: 'node zotero.js download-collection 1486708 UK7WNFH7 ${{ github.workspace }}/_data/datasets.json'
+        env:
+          ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
+
+      - name: Download Zotero BIBJSON for Code
+        working-directory: ./scripts/nodejs
+        run: 'node zotero.js download-collection 1486708 RVP6XIZH ${{ github.workspace }}/_data/code.json'
+        env:
+          ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
+
+      - name: Download Zotero BIBJSON for Models
+        working-directory: ./scripts/nodejs
+        run: 'node zotero.js download-collection 1486708 3J5A5AW4 ${{ github.workspace }}/_data/models.json'
+        env:
+          ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
+
+      - name: Download Zotero BIBJSON for Academic Presentations
+        working-directory: ./scripts/nodejs
+        run: 'node zotero.js download-collection 1486708 8PHTET8E ${{ github.workspace }}/_data/academicPresentations.json'
+        env:
+          ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
+
+      - name: Download Zotero BIBJSON for Public Outreach
+        working-directory: ./scripts/nodejs
+        run: 'node zotero.js download-collection 1486708 YUWRM6DD ${{ github.workspace }}/_data/publicOutreach.json'
+        env:
+          ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
+
+      - name: Download Zotero BIBJSON for Teaching
+        working-directory: ./scripts/nodejs
+        run: 'node zotero.js download-collection 1486708 AB2KZVJ6 ${{ github.workspace }}/_data/teaching.json'
+        env:
+          ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
+
+      - name: Download Zotero BIBJSON for Impresso Events
+        working-directory: ./scripts/nodejs
+        run: 'node zotero.js download-collection 1486708 VFAQE25Y ${{ github.workspace }}/_data/impressoEvents.json'
+        env:
+          ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
+
+      - name: Download Zotero BIBJSON for Media Coverage
+        working-directory: ./scripts/nodejs
+        run: 'node zotero.js download-collection 1486708 WXFHF9MM ${{ github.workspace }}/_data/mediaCoverage.json'
         env:
           ZOTERO_TOKEN: ${{ secrets.ZOTERO_TOKEN }}
 
