@@ -36,14 +36,26 @@ languages:
       - title: 'Outputs'
         url: /outputs/
         links:
-          - title: 'Publications'
+          - title: 'Scientific Publications'
             url: /outputs/
-          - title: 'Code overview'
-            url: /outputs/code-overview/
-          - title: 'Presentations'
-            url: /outputs/presentations/
+          - title: 'Blogposts & Webpages'
+            url: /outputs/blogposts-webpages/
           - title: 'Datasets'
             url: /outputs/datasets/
+          - title: 'Code'
+            url: /outputs/code-overview/
+          - title: 'Models'
+            url: /outputs/models/
+          - title: 'Academic Presentations'
+            url: /outputs/presentations/
+          - title: 'Public Outreach'
+            url: /outputs/public-outreach/
+          - title: 'Teaching'
+            url: /outputs/teaching/
+          - title: 'Events'
+            url: /outputs/events/
+          - title: 'Media Coverage'
+            url: /outputs/media-coverage/
       - title: 'Consortium'
         url: '/consortium/team/'
         links:

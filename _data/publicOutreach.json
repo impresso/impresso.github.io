@@ -1,0 +1,191 @@
+[
+  {
+    "key": "8ECE8FXY",
+    "version": 9702,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/8ECE8FXY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/8ECE8FXY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2025-05-06",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/8ECE8FXY",
+      "type": "speech",
+      "title": "Explorer les archives de presse et de radio au-delà des frontières",
+      "publisher-place": "Geneva, Switzerland",
+      "event": "16-18 des Humanités Numériques, Geneva Library",
+      "event-place": "Geneva, Switzerland",
+      "language": "French",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            6
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "5AY644ES",
+    "version": 9685,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/5AY644ES",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/5AY644ES",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Michelet",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/5AY644ES",
+      "type": "speech",
+      "title": "Edition d’un Jupyter notebook assisté par ChatGPT",
+      "publisher-place": "Université de Lausanne",
+      "event": "Rendez-vous de l'innovation en Lettres 2025",
+      "event-place": "Université de Lausanne",
+      "author": [
+        {
+          "family": "Michelet",
+          "given": "Arthur"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            2
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "2QA3V68K",
+    "version": 8979,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/2QA3V68K",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/2QA3V68K",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann, Maud",
+      "parsedDate": "2019-04-15",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/2QA3V68K",
+      "type": "speech",
+      "title": "Presentation at BCUF \"Soirées de la Rotonde\"",
+      "author": [
+        {
+          "family": "Ehrmann, Maud",
+          "given": ""
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            15
+          ]
+        ]
+      }
+    }
+  }
+]

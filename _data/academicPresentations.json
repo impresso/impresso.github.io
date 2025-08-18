@@ -1,11 +1,1545 @@
 [
   {
-    "key": "XRE29MGA",
-    "version": 7693,
+    "key": "U5D88A4A",
+    "version": 9859,
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/U5D88A4A",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/U5D88A4A",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 359502,
+        "username": "Martin Grandjean",
+        "name": "Martin Grandjean",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/martin_grandjean",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Grandjean",
+      "parsedDate": "2025-05-05",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/U5D88A4A",
+      "type": "speech",
+      "title": "Extraire des réseaux de personnes de documents historiques, pour répondre à quelle question?",
+      "publisher-place": "Lausanne",
+      "event": "Séminaire de recherche en histoire contemporaine",
+      "event-place": "Lausanne",
+      "author": [
+        {
+          "family": "Grandjean",
+          "given": "Martin"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "RBGZJQ78",
+    "version": 9804,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/RBGZJQ78",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/RBGZJQ78",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 13411274,
+        "username": "gl383",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/gl383",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Opitz",
+      "parsedDate": "2025-06-30",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/RBGZJQ78",
+      "type": "speech",
+      "title": "Abstract Meaning Representation — Tales from a PhD journey, and beyond",
+      "publisher-place": "Marseille",
+      "event": "Atelier sur les Avancées en AMR et en Analyse Sémantiques",
+      "event-place": "Marseille",
+      "URL": "https://team.inria.fr/semagramme/fr/atelier-4-as/",
+      "author": [
+        {
+          "family": "Opitz",
+          "given": "Juri"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "5FNZC9VU",
+    "version": 9796,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/5FNZC9VU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/5FNZC9VU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 13411274,
+        "username": "gl383",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/gl383",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Opitz",
+      "parsedDate": "2025-10-03",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/5FNZC9VU",
+      "type": "speech",
+      "title": "Structuring & Mining News Media (And: How multi-modal is this task?)",
+      "publisher-place": "Amsterdam",
+      "event": "The First Workshop on Structure & Generalization in Multimodal Language Understanding (SAGE-MLU)",
+      "event-place": "Amsterdam",
+      "URL": "https://sites.google.com/view/sage-mlu-2025/home",
+      "author": [
+        {
+          "family": "Opitz",
+          "given": "Juri"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            3
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "TNRWV24K",
+    "version": 9767,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/TNRWV24K",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/TNRWV24K",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/Z88YHP5M",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 111055914
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5874663,
+        "username": "caiocastromello",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/caiocastromello",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2025-03-03",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/TNRWV24K",
+      "type": "speech",
+      "title": "Towards interoperability: Introducing the Impresso data lab for the enrichment and analysis of historical media",
+      "publisher-place": "Bielefeld, Germany",
+      "genre": "Workshop",
+      "event": "Digital Humanities im deutschsprachigen Raum",
+      "event-place": "Bielefeld, Germany",
+      "abstract": "This half-day workshop invites DH scholars and librarians to explore the intersection between four fast-paced developments which have the potential to improve the interoperability between static infrastructures and dynamic research needs.",
+      "URL": "https://zenodo.org/records/15269143",
+      "language": "German",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Mello",
+          "given": "Caio"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        },
+        {
+          "family": "Kalyakin",
+          "given": "Roman"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            3
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "Z4RDE222",
+    "version": 9747,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/Z4RDE222",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/Z4RDE222",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/UCSQF8U2",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 243684
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5874663,
+        "username": "caiocastromello",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/caiocastromello",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2025-06-03",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/Z4RDE222",
+      "type": "speech",
+      "title": "Impresso Datalab Workshop: Programmatic Access and Annotation Services for Multilingual and Multimodal Historical Media Collections",
+      "publisher-place": "Amsterdam, Netherlands",
+      "genre": "Workshop",
+      "event": "DH Benelux 2025",
+      "event-place": "Amsterdam, Netherlands",
+      "abstract": "This workshop/hackathon is organised by the interdisciplinary research project Impresso Media Monitoring of the Past — Beyond Borders which leverages an unprecedented corpus of newspaper and radio archives and uses machine learning to pursue a paradigm shift in the processing, semantic enrichment, representation, exploration and study of historical media across modalities, time, languages, and national borders.",
+      "URL": "https://zenodo.org/records/15437478",
+      "language": "English",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Beelen",
+          "given": "Kaspar"
+        },
+        {
+          "family": "Mello",
+          "given": "Caio"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            3
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "A5JFQDIM",
+    "version": 9728,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/A5JFQDIM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/A5JFQDIM",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-12-20",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/A5JFQDIM",
+      "type": "speech",
+      "title": "Impresso. Media Monitoring of the Past",
+      "publisher-place": "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden",
+      "genre": "Remote presentation",
+      "event": "Informationen zum Arbeitstreffen Digitales Börsenblatt",
+      "event-place": "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            20
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "P2SZDGP6",
+    "version": 9720,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/P2SZDGP6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/P2SZDGP6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-11-29",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/P2SZDGP6",
+      "type": "speech",
+      "title": "Impresso2 : Machine Learning to Link Historical Media Collections",
+      "publisher-place": "University Saabrücken",
+      "genre": "Presentation",
+      "event": "Lecture Series of the Interdisciplinary Institute for Societal Computing",
+      "event-place": "University Saabrücken",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            29
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "FURRZ9H7",
+    "version": 9729,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/FURRZ9H7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/FURRZ9H7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2025-01-17",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/FURRZ9H7",
+      "type": "speech",
+      "title": "Machine learning to read historical media. How the Impresso project links data, people and disciplines",
+      "publisher-place": "University Metz",
+      "event": "Séminaire Lab5",
+      "event-place": "University Metz",
+      "URL": "https://www.crulh.univ-lorraine.fr/sites/default/files/2024-12/Marten%20D%C3%BCring.pdf",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            17
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "272CKRWB",
+    "version": 9671,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/272CKRWB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/272CKRWB",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann and Ruppen Coutaz",
+      "parsedDate": "2024-09",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/272CKRWB",
+      "type": "speech",
+      "title": "Connecting Historical Newspapers and Radio",
+      "event": "Digital History Switzerland",
+      "URL": "https://digihistch24.github.io/submissions/443/",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Ruppen Coutaz",
+          "given": "Raphaëlle"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "737TBHIR",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/737TBHIR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/737TBHIR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2025-03-04",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/737TBHIR",
+      "type": "interview",
+      "title": "Qu’est-ce que s’informer à l’ère de l’IA? Episode de l'Heure H - EPFL-CDH",
+      "URL": "https://www.epfl.ch/schools/cdh/fr/quest-ce-que-sinformer-a-lere-de-lia/",
+      "language": "French",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            4
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "7NLMESZR",
+    "version": 9669,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/7NLMESZR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/7NLMESZR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2024-09-27",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/7NLMESZR",
+      "type": "speech",
+      "title": "Media Archives beyond Borders - The Impresso project(s)",
+      "publisher-place": "Ljubljana, Slovenia",
+      "genre": "Keynote",
+      "event": "International Conference on Theory and Practice of Digital Libraries (TPDL 2024)",
+      "event-place": "Ljubljana, Slovenia",
+      "URL": "https://tpdl2024.nuk.si/index.html#team2-bo",
+      "language": "English",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            27
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "G48SMJUY",
+    "version": 9668,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/G48SMJUY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/G48SMJUY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2024-03-25",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/G48SMJUY",
+      "type": "speech",
+      "title": "Towards Reliable Indexing (Panel Natural Language Processing for GLAM)",
+      "publisher-place": "Lausanne, Switzerland",
+      "genre": "Invited talk",
+      "event": "Applied Machine Learning Days in Lausanne (AMLD 2024)",
+      "event-place": "Lausanne, Switzerland",
+      "URL": "https://www.youtube.com/playlist?app=desktop&list=PLQLsY14zlfeYOOqHAm6lh3iFpqNke6-PA",
+      "language": "English",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            25
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "XTD8GPWY",
+    "version": 9567,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/XTD8GPWY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/XTD8GPWY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-12-20",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/XTD8GPWY",
+      "type": "speech",
+      "title": "Impresso. Media Monitoring of the Past",
+      "publisher-place": "Dresden (remote)",
+      "genre": "Presentation",
+      "event": "Arbeitstreffen Digitales Börsenblatt",
+      "event-place": "Dresden (remote)",
+      "language": "German",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            20
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "NMWU4QGA",
+    "version": 9142,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/NMWU4QGA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/NMWU4QGA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-11-29",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/NMWU4QGA",
+      "type": "speech",
+      "title": "Impresso2 : Machine Learning to Link Historical Media Collections",
+      "publisher-place": "Saabrücken",
+      "genre": "Presentation",
+      "event": "Interdisciplinary Institute for Societal Computing",
+      "event-place": "Saabrücken",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            29
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "FGMQFCSG",
+    "version": 9667,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/FGMQFCSG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/FGMQFCSG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann and Düring",
+      "parsedDate": "2024-11-25",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/FGMQFCSG",
+      "type": "speech",
+      "title": "Impresso – Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio",
+      "publisher-place": "Vienna",
+      "genre": "Presentation",
+      "event": "ÖNB Labs Symposium 2024",
+      "event-place": "Vienna",
+      "URL": "https://labs.onb.ac.at/de/topic/symposium-2024/",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            25
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "U6RGJ373",
+    "version": 9129,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/U6RGJ373",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/U6RGJ373",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-04-10",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/U6RGJ373",
+      "type": "speech",
+      "title": "Impresso2 : Machine Learning to Link Historical Media Collections",
+      "publisher-place": "Online",
+      "genre": "Presentation",
+      "event": "\"Digital Humanities and Heritage Collections\" seminar of the Henri-Poincaré Archives (Nancy, France)",
+      "event-place": "Online",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            10
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "QUP5CHZ7",
+    "version": 9667,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/QUP5CHZ7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/QUP5CHZ7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-09-23",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/QUP5CHZ7",
+      "type": "speech",
+      "title": "Machine Learning to Read Historical Media",
+      "publisher-place": "Trier",
+      "genre": "Keynote",
+      "event": "Hochschule Trier - International PhD Week 2024",
+      "event-place": "Trier",
+      "URL": "https://www.hochschule-trier.de/",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            23
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "T7CK8AT3",
+    "version": 9116,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/T7CK8AT3",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/T7CK8AT3",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-08-27",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/T7CK8AT3",
+      "type": "speech",
+      "title": "Impresso. Media Monitoring of the Past",
+      "publisher-place": "Online",
+      "genre": "Presentation",
+      "event": "Exchange with the Divergent Discourses Project",
+      "event-place": "Online",
+      "URL": "https://research.uni-leipzig.de/diverge/",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            27
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "B7WUQL4A",
+    "version": 9108,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/B7WUQL4A",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/B7WUQL4A",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-06-19",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/B7WUQL4A",
+      "type": "speech",
+      "title": "Historische Medien und Maschinelles Lernen. Vom Zusammenspiel von Infrastrukturen, Methoden und Akteuren",
+      "publisher-place": "Online",
+      "genre": "Presentation",
+      "event": "„Digital History“-Forschungskolloquium",
+      "event-place": "Online",
+      "URL": "https://dhistory.hypotheses.org/7745",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            19
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "K642X7UA",
+    "version": 9104,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/K642X7UA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/K642X7UA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Birdsall et al.",
+      "parsedDate": "2024-06-06",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/K642X7UA",
+      "type": "speech",
+      "title": "DH Research with Audio Data: Challenges and Opportuni9es for Breaking Silos",
+      "publisher-place": "Leuven",
+      "genre": "Panel session",
+      "event": "DH Benelux 2024",
+      "event-place": "Leuven",
+      "URL": "https://2024.dhbenelux.org/wp-content/uploads/2024/06/program_detailed-overview.pdf",
+      "author": [
+        {
+          "family": "Birdsall",
+          "given": "Carolyn"
+        },
+        {
+          "family": "Hansell-Clark",
+          "given": "Emily"
+        },
+        {
+          "family": "Verreyen",
+          "given": "Loren"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            6
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "LTZDSAGU",
+    "version": 9668,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/LTZDSAGU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/LTZDSAGU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring",
+      "parsedDate": "2024-03-22",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/LTZDSAGU",
+      "type": "speech",
+      "title": "The Impresso Project’s Approach to Historical Media Analysis",
+      "publisher-place": "Malta",
+      "genre": "Invited talk",
+      "event": "ACL Special Interest Group on Language Technologies for the Socio-Economic Sciences and Humanities",
+      "event-place": "Malta",
+      "URL": "https://sighum.wordpress.com/",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            22
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "T4MBYTAM",
+    "version": 8939,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/T4MBYTAM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/T4MBYTAM",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Beelen et al.",
+      "parsedDate": "2024-05",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/T4MBYTAM",
+      "type": "speech",
+      "title": "Surveying cultural heritage data labs",
+      "publisher-place": "Reykjavík, Iceland",
+      "event": "Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2024)",
+      "event-place": "Reykjavík, Iceland",
+      "abstract": "The “Always already computational. Collections as data” paradigm coined by a research project of the same name has since 2016 received a strong resonance among libraries, archives and other GLAM institutions worldwide. Many of them strive to offer access to their data and are experimenting with public APIs, dedicated data labs, data dumps, and even closed computing environments. In parallel, the decidedly computational analysis of cultural heritage data has emerged as a vibrant subfield which so far produced a dedicated journal, a conference series, workshops and monographs. We define the subfield “computational humanities” as a distinct user group of computer-savy humanists who wish to analyze cultural (heritage) data at scale harnessing advanced methods from data science and machine learning.\n\nThis short paper addresses the question to which extent GLAM institutions succeed in meeting the needs of the research community. It is motivated by our ongoing work to create a data lab for the impresso project. impresso aims to break down national and institutional data silos, providing unified access to newspaper and radio archives in Western Europe. The forthcoming impresso data lab strives to facilitate access to such a complex, multilingual and multimodal collection, especially focussing on the “programming historians” as a distinct user group.\n\nThe presentation will include an overview of the current state of the art in commercially and publicly funded cultural heritage data labs, present user requirements and researcher personas as well as transparency requirements. More specifically, this entails:\n\n    A survey of data labs for computational humanities research: the first part of our analysis comprises a survey of existing data labs in the fields of cultural heritage and digital humanities. To determine the shape of the impresso data lab, we need to gather ideas and best-practices. We investigate how data labs provide access to collections, e.g. via APIs, data dumps or other means, what type of information they make available (metadata, text, image) and also to what extent these labs achieve to integrate heterogeneous data (or provide access in parallel). Besides access, we inspect whether labs provide computational infrastructure to support the analysis and exploration of their data, for example by allowing users spin-up dedicated VMs, or less costly, Google Colab notebooks or binder environments. We especially focus on the role of notebooks as a bridge between infrastructure and research applications. (Melgar-Estrada, et al. 2019)\n\n    User requirements and researcher personas: after establishing what exists (in terms of data labs), we elicit user requirements from researchers interested in working with historical media archives at scale. Building an infrastructure, doesn’t automatically mean it will be used by the community (Zundert, 2012). Therefore, in the second part of the presentation, we report on interviews conducted with researchers in the computational humanities. More generally, we will discuss how we envisage to create communities around the tools and models we develop as part of the data lab, and ensure longer-term support and use (Arnold et al., 2019).\n\n    Requirements for transparency and data-criticism: transparency has been a key value of the impresso project since its inception. The quality of digital research does depend on being able to understand (and control) the process through which data was collected, processed and analyzed. We assess how a data lab can maximize both transparency and utility (allow users to look under the hood and be in charge of the research, without this becoming a burden or hindrance). We discuss various methods to enhance transparency, for example through collecting paradata on the collections by documenting archival knowledge; releasing the models used in processing data; ensuring users can recreate and repurpose data pipelines; facilitating data-criticism through overviews of both present and missing data etc (Beelen et al. 2023).\n\nThe computational analysis of cultural heritage data has been embraced by both data providers and the digital humanities community. It is, however, not obvious how exactly institutions can effectively and efficiently support research practices. This short presentation will report on the lessons we learned during the survey, interviews, and our own design process.",
+      "URL": "https://www.conftool.org/dhnb2024/index.php?page=browseSessions&presentations=show&search=during",
+      "author": [
+        {
+          "family": "Beelen",
+          "given": "Kaspar"
+        },
+        {
+          "family": "During",
+          "given": "Marten"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2024",
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "XRE29MGA",
+    "version": 9667,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -41,6 +1575,17 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Bunout et al.",
       "parsedDate": "2024-02-21",
       "numChildren": 1
@@ -55,7 +1600,7 @@
       "event-place": "Passau",
       "abstract": "Over the past few years, interdisciplinary research projects such as Oceanic Exchanges, Living with Machines, Numapresse or NewsEye, all worked towards the semantic enrichment, integration and computational analysis of historical newspaper collections across institutional, national and linguistic boundaries. Against this background, we propose to present a new project: \"impresso - Media Monitoring of the Past II. Beyond Borders: Connecting Historical Newspapers and Radio\" which builds on the first impresso project that compiled and semantically enriched a corpus of Swiss and Luxembourgish newspapers. The second project will expand the corpus to a Western European scale, and bring together sources from various collections and languages. It aims at creating support for the research community by offering relevant data and interfaces for the exploration of its collections. We hope to reach out to researchers interested in contributing to the paradigm shift in the processing, representation and analysis of historical document collections.",
       "URL": "https://zenodo.org/records/10706029",
-      "note": "DOI: 10.5281/zenodo.10706029",
+      "note": "tex.ids= bunout_quo_2024a\nDOI: 10.5281/zenodo.10706029",
       "shortTitle": "Quo vadis digitised newspapers and radio?",
       "author": [
         {
@@ -113,7 +1658,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -178,7 +1723,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -258,7 +1803,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -325,7 +1870,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -391,7 +1936,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -458,7 +2003,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -523,7 +2068,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -588,7 +2133,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -654,7 +2199,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -720,7 +2265,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -786,7 +2331,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -855,7 +2400,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -918,7 +2463,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -983,7 +2528,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1044,11 +2589,11 @@
   },
   {
     "key": "7R5DKMFA",
-    "version": 6933,
+    "version": 9666,
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1074,6 +2619,17 @@
         "links": {
           "alternate": {
             "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
             "type": "text/html"
           }
         }
@@ -1118,7 +2674,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1202,7 +2758,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1277,7 +2833,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1363,11 +2919,11 @@
   },
   {
     "key": "2AZ5KLJV",
-    "version": 4685,
+    "version": 8983,
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1460,7 +3016,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1540,7 +3096,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1629,7 +3185,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1708,11 +3264,11 @@
   },
   {
     "key": "853QZ8J5",
-    "version": 3934,
+    "version": 8983,
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1764,7 +3320,7 @@
     "csljson": {
       "id": "4709830/853QZ8J5",
       "type": "speech",
-      "title": "Named Entity Processing for Digital Humanities",
+      "title": "Tutorial on Named Entity Processing for Digital Humanities",
       "abstract": "at Digital Humanities 2019 conference (Utrecht).",
       "URL": "https://impresso.github.io/named-entity-tutorial-dh2019/",
       "language": "en-US",
@@ -1799,7 +3355,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1889,7 +3445,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -1979,7 +3535,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2070,7 +3626,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2151,7 +3707,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2214,7 +3770,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2290,7 +3846,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2390,7 +3946,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2465,7 +4021,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2541,7 +4097,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2619,7 +4175,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2694,7 +4250,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2770,7 +4326,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2850,7 +4406,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -2950,7 +4506,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",

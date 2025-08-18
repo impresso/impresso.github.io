@@ -7,3 +7,5 @@ node_modules/
 vendor
 *.code-workspace
 .DS_Store
+*.env.local
+*.env.development.local
