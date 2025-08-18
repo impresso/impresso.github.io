@@ -1,0 +1,1124 @@
+[
+  {
+    "key": "IA4BUUX6",
+    "version": 9880,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/IA4BUUX6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/IA4BUUX6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 359502,
+        "username": "Martin Grandjean",
+        "name": "Martin Grandjean",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/martin_grandjean",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ruppen Coutaz et al.",
+      "parsedDate": "2025",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/IA4BUUX6",
+      "type": "speech",
+      "title": "Presse et histoire numérique I",
+      "publisher-place": "EPFL, Lausanne",
+      "genre": "MA Course (1 semester)",
+      "event-place": "EPFL, Lausanne",
+      "author": [
+        {
+          "family": "Ruppen Coutaz",
+          "given": "Rapahëlle"
+        },
+        {
+          "family": "Grandjean",
+          "given": "Martin"
+        },
+        {
+          "family": "Valsangiacomo",
+          "given": "Nelly"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2025"
+          ]
+        ],
+        "season": "Autumn"
+      }
+    }
+  },
+  {
+    "key": "37582YIQ",
+    "version": 9870,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/37582YIQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/37582YIQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 359502,
+        "username": "Martin Grandjean",
+        "name": "Martin Grandjean",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/martin_grandjean",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Grandjean",
+      "parsedDate": "2025",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/37582YIQ",
+      "type": "speech",
+      "title": "La presse numérisée pour l'histoire suisse",
+      "publisher-place": "Unidistance",
+      "genre": "MA Course (1 semester)",
+      "event-place": "Unidistance",
+      "author": [
+        {
+          "family": "Grandjean",
+          "given": "Martin"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2025"
+          ]
+        ],
+        "season": "Autumn"
+      }
+    }
+  },
+  {
+    "key": "IDPEVLHY",
+    "version": 9867,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/IDPEVLHY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/IDPEVLHY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 359502,
+        "username": "Martin Grandjean",
+        "name": "Martin Grandjean",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/martin_grandjean",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Grandjean",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/IDPEVLHY",
+      "type": "speech",
+      "title": "La presse numérisée pour l'histoire suisse",
+      "publisher-place": "Unidistance",
+      "genre": "MA Course (1 semester)",
+      "event-place": "Unidistance",
+      "author": [
+        {
+          "family": "Grandjean",
+          "given": "Martin"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2024"
+          ]
+        ],
+        "season": "Autumn"
+      }
+    }
+  },
+  {
+    "key": "26LQWPUW",
+    "version": 9868,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/26LQWPUW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/26LQWPUW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 359502,
+        "username": "Martin Grandjean",
+        "name": "Martin Grandjean",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/martin_grandjean",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Grandjean",
+      "parsedDate": "2025",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/26LQWPUW",
+      "type": "speech",
+      "title": "La presse numérisée pour l'histoire suisse",
+      "publisher-place": "Unidistance",
+      "genre": "MA Course (1 semester)",
+      "event-place": "Unidistance",
+      "author": [
+        {
+          "family": "Grandjean",
+          "given": "Martin"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2025"
+          ]
+        ],
+        "season": "Spring"
+      }
+    }
+  },
+  {
+    "key": "85R43E46",
+    "version": 9779,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/85R43E46",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/85R43E46",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4133113,
+        "username": "simonclematide",
+        "name": "Simon Clematide",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/simonclematide",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Clematide",
+      "parsedDate": "2024-11-09",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/85R43E46",
+      "type": "speech",
+      "title": "Historische Medienanalyse mit Impresso",
+      "publisher-place": "Central Library Zürich",
+      "genre": "Summer school",
+      "event": "Summer School: Digitale Methoden der Zeitungsanalyse",
+      "event-place": "Central Library Zürich",
+      "abstract": "In dieser Unterrichtseinheit erfahren die Teilnehmenden Hintergrundinformationen zur technischen Aufbereitung von Volltexten für Information Retrieval (IR) und erlernen die Anwendung von IR-Techniken zur Bearbeitung von Forschungsfragen am Beispiel des Impresso-Projekts. Zu Beginn demonstrieren wir in der Impresso Web-App Techniken für Suchanfragen, auch unter spezialisierter Anwendung von Filtern aus Metadaten und Text-Mining-Resultaten. Anschließend verschaffen wir uns einen Überblick über Methoden, die derzeit für die Named Entity Erkennung und und das Named Entity Linking angewendet werden (Personen, Toponyme), und diskutieren die damit verbundenen Möglichkeiten und Herausforderungen. Es folgt eine Hands-On-Session, in der wir thematische Textsammlungen extrahieren/erstellen, mithilfe von maschineller und menschlicher Intelligenz. Danach möchten wir uns über die gesammelten Erfahrungen austauschen, zum Beispiel indem wir Resultate teilen und Fehler, bzw. Fehlerquellen, besprechen und analysieren. Die Einheit endet mit einer allgemeinen Reflektion zu datenbasierten Methoden und der Verwendung von maschineller Inhaltsanalyse von Texten.",
+      "URL": "https://www.zb.uzh.ch/en/events/summer-school-digitale-methoden-der-zeitungsanalyse",
+      "language": "German",
+      "author": [
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "VWI4HTGX",
+    "version": 9697,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/VWI4HTGX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/VWI4HTGX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Michelet",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/VWI4HTGX",
+      "type": "speech",
+      "title": "Archives de presse numérisées",
+      "publisher-place": "Université de Lausanne",
+      "genre": "BA and MA classes",
+      "event": "Séminaires MA et BA en histoire contemporaine",
+      "event-place": "Université de Lausanne",
+      "author": [
+        {
+          "family": "Michelet",
+          "given": "Arthur"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            10
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "NWXG9U85",
+    "version": 9699,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/NWXG9U85",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/NWXG9U85",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Michelet",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/NWXG9U85",
+      "type": "speech",
+      "title": "Text Mining",
+      "publisher-place": "Université de Lausanne",
+      "genre": "BA class",
+      "event": "Cours propédeutique en histoire contemporaine",
+      "event-place": "Université de Lausanne",
+      "author": [
+        {
+          "family": "Michelet",
+          "given": "Arthur"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "VTHCV8ZR",
+    "version": 9698,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/VTHCV8ZR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/VTHCV8ZR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Michelet",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/VTHCV8ZR",
+      "type": "speech",
+      "title": "Les archives de presse numérisées comme source en Histoire",
+      "publisher-place": "Université de Lausanne",
+      "genre": "BA class",
+      "event": "Séminaire propédeutique en histoire contemporaine",
+      "event-place": "Université de Lausanne",
+      "author": [
+        {
+          "family": "Michelet",
+          "given": "Arthur"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            26
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C4U27K6V",
+    "version": 9671,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/C4U27K6V",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/C4U27K6V",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann, Maud",
+      "parsedDate": "2024-02-27",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/C4U27K6V",
+      "type": "speech",
+      "title": "Explorer la presse numérisée",
+      "publisher-place": "Fribourg, Switzerland",
+      "genre": "Guest Lecture",
+      "event": "Atelier MA Histoire Contemporaine",
+      "event-place": "Fribourg, Switzerland",
+      "author": [
+        {
+          "family": "Ehrmann, Maud",
+          "given": ""
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            27
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "CRRVWAKJ",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/CRRVWAKJ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/CRRVWAKJ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2023-12-15",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/CRRVWAKJ",
+      "type": "speech",
+      "title": "Explorer la presse numérisée",
+      "publisher-place": "Bern, Switizerland",
+      "genre": "Guest Lecture",
+      "event": "Master Of Advanced Studies In Archival, Library And Information Science (MAS Alis)",
+      "event-place": "Bern, Switizerland",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            15
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "MRN4I55W",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/MRN4I55W",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/MRN4I55W",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2024-11-18",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/MRN4I55W",
+      "type": "speech",
+      "title": "Exploiter les archives de medias numérisées",
+      "publisher-place": "Universtié de Neuchâtel",
+      "genre": "Guest Lecture, Académie du Journalisme et des Médias (AJM)",
+      "event-place": "Universtié de Neuchâtel",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            18
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "DSBBJMW6",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/DSBBJMW6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/DSBBJMW6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2021-02-17",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/DSBBJMW6",
+      "type": "speech",
+      "title": "Humanités numériques Introduction théorique et application pratique",
+      "publisher-place": "Online",
+      "genre": "Formation Continue UNIL-EPFL",
+      "event-place": "Online",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Piotrowski, Michael",
+          "given": ""
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            17
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "IK9NP7TZ",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/IK9NP7TZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/IK9NP7TZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann et al.",
+      "parsedDate": "2024-05-02",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/IK9NP7TZ",
+      "type": "speech",
+      "title": "Histoire : perspectives et analyses numériques",
+      "publisher-place": "Lausanne, Switzerland",
+      "genre": "Continued Training",
+      "event": "Formation Continue UNIL-EPFL",
+      "event-place": "Lausanne, Switzerland",
+      "language": "french",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        },
+        {
+          "family": "Piotrowski",
+          "given": "Michael"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            2
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "8REXYSXD",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/8REXYSXD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/8REXYSXD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann and Romanello",
+      "parsedDate": "2025-03-04",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/8REXYSXD",
+      "type": "speech",
+      "title": "Atelier disciplinaire : Histoire - Impresso Interface",
+      "publisher-place": "Lausanne, Switzerland",
+      "genre": "Continued training for secondary school teachers (HEP Vaud)",
+      "event": "EduNum 2025",
+      "event-place": "Lausanne, Switzerland",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Romanello",
+          "given": "Matteo"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            4
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "ENVR9LCP",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/ENVR9LCP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/ENVR9LCP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 586650,
+        "username": "bunoute",
+        "name": "Estelle Bunout",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/bunoute",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/ENVR9LCP",
+      "type": "speech",
+      "title": "The digitisation of newspapers: how to turn a page",
+      "event": "Ranke 2"
+    }
+  },
+  {
+    "key": "4BJYG2RG",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/4BJYG2RG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/4BJYG2RG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann, Maud and Romanello, Matteo",
+      "parsedDate": "2018-03-10",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/4BJYG2RG",
+      "type": "speech",
+      "title": "Data preparation and guest lecture for EPFL SHS Master class on Digital History, with Martin Grandjean and Sandra Bott",
+      "publisher-place": "EPFL, Lausanne",
+      "event-place": "EPFL, Lausanne",
+      "author": [
+        {
+          "family": "Ehrmann, Maud",
+          "given": ""
+        },
+        {
+          "family": "Romanello, Matteo",
+          "given": ""
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            3,
+            10
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "YBS89Y9S",
+    "version": 9670,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/YBS89Y9S",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/YBS89Y9S",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann, Maud and Stroëbel, Phillip",
+      "parsedDate": "2018-10-23",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/YBS89Y9S",
+      "type": "speech",
+      "title": "Guest lecture for the seminar \"History in a Digitized World\" of Prof. Martin Dusinberre and Dr. Tobias Hodel, Zurich History department.",
+      "publisher-place": "Zurich",
+      "genre": "Guest Lecture",
+      "event-place": "Zurich",
+      "abstract": "Quick presentation of impresso project, presentation of data management and system architecture, presentation of HTR experiments on NZZ.",
+      "URL": "https://drive.google.com/drive/folders/1t_ewhUyI2GTHuXag3QgDtvVSZ6K-2EIW?ogsrc=32",
+      "author": [
+        {
+          "family": "Ehrmann, Maud",
+          "given": ""
+        },
+        {
+          "family": "Stroëbel, Phillip",
+          "given": ""
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            10,
+            23
+          ]
+        ]
+      }
+    }
+  }
+]

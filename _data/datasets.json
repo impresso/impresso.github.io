@@ -5,7 +5,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -89,7 +89,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -173,7 +173,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -249,7 +249,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -331,12 +331,103 @@
     }
   },
   {
+    "key": "Q8ERSCYD",
+    "version": 9667,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/Q8ERSCYD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/Q8ERSCYD",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/3KC3E6ZW",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Barman et al.",
+      "parsedDate": "2021-01",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/Q8ERSCYD",
+      "type": "article",
+      "title": "Datasets and Models for Historical Newspaper Article Segmentation",
+      "publisher": "Zenodo",
+      "publisher-place": "https://zenodo.org/records/3706863",
+      "event-place": "https://zenodo.org/records/3706863",
+      "URL": "https://zenodo.org/records/3706863",
+      "DOI": "10.5281/zenodo.3706863",
+      "author": [
+        {
+          "family": "Barman",
+          "given": "Raphaël"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Clematide",
+          "given": "Simon"
+        },
+        {
+          "family": "Oliveira",
+          "given": "Sofia Ares"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2021",
+            1
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
     "key": "TQHLH8EM",
     "version": 6995,
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
@@ -426,7 +517,7 @@
     "library": {
       "type": "group",
       "id": 1486708,
-      "name": "impresso",
+      "name": "Impresso",
       "links": {
         "alternate": {
           "href": "https://www.zotero.org/groups/1486708",
