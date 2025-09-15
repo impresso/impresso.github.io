@@ -5,11 +5,11 @@ category:
   - news
   - history
 figure:
-  - src: posts/radio_and_newspapers_conference_2026
+  - src: posts/radio_and_newspapers_conference_2026.jpg
    
 ---
 
-We are pleased to announce a call for papers for the international conference organissed by the Impresso project and the History Department of the University of Lausanne, to be held on June 30 and July 1 2026 on the theme '*Radio and Newspapers: What Intersections for Media History?*'.
+We are pleased to announce a call for papers for the international conference organissed by the Impresso project and the History Department of the University of Lausanne, to be held on June 30 and July 1, 2026 on the theme '*Radio and Newspapers: What Intersections for Media History?*'.
 
 {% assign figure=page.figure[0] %}
 {% include figure.html %}
