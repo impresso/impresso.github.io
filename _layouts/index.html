@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign showReleases = false %}
+{% assign showAnnoucements =  true %}
 
 <main class="Page container-fluid g-0 d-flex flex-column">
   <button
@@ -62,11 +64,13 @@ layout: default
         {% assign release = site.releases | last %} {% include release.html %}
       </section>
       {% endif %}
+      {% if showAnnoucements %}
       <section class="py-3 ps-3 pe-3 pe-lg-5">
         <h3 class="small-caps fw-bold mb-3">Announcements</h3>
         {% assign announcement = site.announcements | last %} {% include
         announcement.html %}
       </section>
+      {% endif %}
     </div>
   </div>
   <div class="row g-0 d-none d-md-flex">
