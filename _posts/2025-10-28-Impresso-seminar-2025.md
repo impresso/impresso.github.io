@@ -49,56 +49,47 @@ To maintain an informal atmosphere, we organize these sessions during the lunch 
 Please provide us with your email address so that we can send you a reminder with the Zoom link a few days before each session.
 
 <style>
-#mc_embed_signup label {
-  display:block;
-  margin-top:10px;
-  font-weight:600;
-}
-#mc_embed_signup input[type="email"],
-#mc_embed_signup input[type="text"] {
-  width:100%;
-  padding:6px;
-  margin-top:4px;
-}
-#mc_embed_signup .consent {
-  font-weight:400;
-  margin-top:12px;
-}
-#mc_embed_signup button {
-  margin-top:16px;
-  padding:8px 14px;
-}
+/* local styles; adblockers target MC classnames, so use neutral ones */
+#seminar-optin label { display:block; margin-top:10px; font-weight:600; }
+#seminar-optin input[type="email"],
+#seminar-optin input[type="text"] { width:100%; padding:6px; margin-top:4px; }
+#seminar-optin .consent { font-weight:400; margin-top:12px; }
+#seminar-optin button { margin-top:16px; padding:8px 14px; }
 </style>
 
 {% raw %}
-<div id="mc_embed_signup">
+<div id="seminar-optin">
   <form action="https://impresso-project.us20.list-manage.com/subscribe/post?u=8a51f0fb15d487266d8538fb5&amp;id=cef2d41e90&amp;v_id=4813&amp;f_id=005c20eff0"
-        method="post" id="mc-embedded-subscribe-form" target="_self" novalidate>
+        method="post" id="seminar-form" target="_self" novalidate>
 
-    <label for="mce-EMAIL">Email address *</label>
-    <input type="email" name="EMAIL" id="mce-EMAIL" required placeholder="you@example.org">
+    <label for="sf-email">Email address *</label>
+    <input type="email" name="EMAIL" id="sf-email" required placeholder="you@example.org">
 
-    <label for="mce-MMERGE1">First name</label>
-    <input type="text" name="MMERGE1" id="mce-MMERGE1" placeholder="Optional">
+    <label for="sf-fname">First name</label>
+    <input type="text" name="MMERGE1" id="sf-fname" placeholder="Optional">
 
-    <label for="mce-MMERGE2">Last name</label>
-    <input type="text" name="MMERGE2" id="mce-MMERGE2" placeholder="Optional">
+    <label for="sf-lname">Last name</label>
+    <input type="text" name="MMERGE2" id="sf-lname" placeholder="Optional">
 
     <label class="consent">
-      <input type="checkbox" name="gdpr[7671]" id="gdpr_7671" value="Y" required>
+      <input type="checkbox" name="gdpr[7671]" id="sf-gdpr" value="Y" required>
       I agree to receive seminar reminders and Zoom links by email.
     </label>
 
     <input type="hidden" name="tags" value="4247252">
 
+    <!-- honeypot -->
     <div style="position:absolute; left:-5000px;" aria-hidden="true">
       <input type="text" name="b_8a51f0fb15d487266d8538fb5_cef2d41e90" tabindex="-1" value="">
     </div>
 
-    <button type="submit" id="mc-embedded-subscribe">Subscribe to Impresso Seminar</button>
+    <button type="submit" id="sf-submit">Get the Zoom link</button>
   </form>
 </div>
 {% endraw %}
+
+<noscript>Email form requires JavaScript. If you use an ad blocker and the form is missing, please whitelist this page.</noscript>
+
 
 
 
