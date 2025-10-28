@@ -88,7 +88,7 @@ Please provide us with your email address so that we can send you a reminder wit
 </div>
 {% endraw %}
 
-<noscript>Email form requires JavaScript. If you use an ad blocker and the form is missing, please whitelist this page.</noscript>
+*If the signup form does not appear, please disable your ad-blocker for this page.*
 
 
 
