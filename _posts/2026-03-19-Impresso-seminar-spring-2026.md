@@ -6,7 +6,7 @@ category:
   - history
 figure:
   - src: posts/impresso_seminar2.jpg
-    caption: Scenes of everyday life in Athens, Greece: a man reading a newspaper at a café terrace (28.05.1979), Jean-Louis Debaize, Audiovisual Service of the European Commission, Wikimedia Commons.
+    caption: Scenes of everyday life in Athens, Greece. A man reading a newspaper at a café terrace (28.05.1979), Jean-Louis Debaize, Audiovisual Service of the European Commission, Wikimedia Commons.
    
 ---
 
