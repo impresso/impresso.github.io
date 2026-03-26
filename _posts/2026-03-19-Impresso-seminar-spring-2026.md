@@ -48,8 +48,6 @@ To maintain an informal atmosphere, we organize these sessions during the lunch 
 
 Please provide us with your email address so that we can send you a reminder with the Teams link a few days before each session.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8A9oVcNonnu-eDiSKMj-66FrzZxAX1cKEWHi_k-8vdn8ZNQ/viewform?embedded=true" width="640" height="609" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
 <style>
 /* local styles; adblockers target MC classnames, so use neutral ones */
 #seminar-optin label { display:block; margin-top:10px; font-weight:600; }
