@@ -20,7 +20,7 @@ We are pleased to announce that the [program](https://impresso.github.io/radio-a
 The conference will take place in Lausanne on June 30 and July 1st, 2026, and will bring together specialists in media history and digital humanities. It will consist of some twenty-three peer-reviewed conference papers, and will feature a keynote lecture by Siân Nicholas (Aberystwyth University) entitled "Intermediality in Wartime: Towards an Integrated History of the British Press and the BBC in WW2"
 
 The conference is free of charge, but registration is required. The conference takes place in person
-in Lausanne. For those unable to attend, it will be possible to follow the conference online, but not to interact with participants on site. [Registration](https://impresso.github.io/radio-and-newspapers-conference/registration) is open until January 20 here: [https://impresso.github.io/transmedia/registration](https://impresso.github.io/radio-and-newspapers-conference/registration)
+in Lausanne. For those unable to attend, it will be possible to follow the conference online, but not to interact with participants on site. [Registration](https://impresso.github.io/radio-and-newspapers-conference/registration) is open until June 15 here: [[https://impresso.github.io/transmedia/registration](https://impresso.github.io/radio-and-newspapers-conference/registration)
 
 ## Program
 
