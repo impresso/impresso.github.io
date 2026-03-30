@@ -59,7 +59,7 @@ Please provide us with your email address so that we can send you a reminder wit
 
 {% raw %}
 <div id="seminar-optin">
-  <form action="https://impresso-project.us20.list-manage.com/subscribe/post?u=8a51f0fb15d487266d8538fb5&amp;id=cef2d41e90&amp;v_id=4813&amp;f_id=005c20eff0"
+  <form action="https://impresso-project.us20.list-manage.com/subscribe/post?u=8a51f0fb15d487266d8538fb5&amp;id=cef2d41e90&amp;f_id=00b021eff0"
         method="post" id="seminar-form" target="_self" novalidate>
 
     <label for="sf-email">Email address *</label>
@@ -76,7 +76,7 @@ Please provide us with your email address so that we can send you a reminder wit
       I agree to receive seminar reminders and Teams links by email.
     </label>
 
-    <input type="hidden" name="tags" value="4247252">
+    <input type="hidden" name="tags" value="4247776">
 
     <!-- honeypot -->
     <div style="position:absolute; left:-5000px;" aria-hidden="true">
@@ -88,8 +88,5 @@ Please provide us with your email address so that we can send you a reminder wit
 </div>
 {% endraw %}
 
+
 *If the signup form does not appear, please disable your ad-blocker for this page.*
-
-
-
-
