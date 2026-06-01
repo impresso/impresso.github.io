@@ -55,6 +55,7 @@ For any open questions, please contact [Marten Düring](mailto:marten.during@uni
 </div>
 {% endraw %}
 
+<br>
 
 The [University of Luxembourg](https://www.uni.lu/en/) is an international research university with a distinctly multilingual and interdisciplinary character. The University was founded in 2003 and counts more than 6,700 students and more than 2,000 employees from around the world. The University’s faculties and interdisciplinary centres focus on research in the areas of Computer Science and ICT Security, Materials Science, European and International Law, Finance and Financial Innovation, Education, Contemporary and Digital History. In addition, the University focuses on cross-disciplinary research in the areas of Data Modelling and Simulation as well as Health and System Biomedicine. Times Higher Education ranks the University of Luxembourg #3 worldwide for its “international outlook,” #20 in the Young University Ranking 2021 and among the top 250 universities worldwide.
 
