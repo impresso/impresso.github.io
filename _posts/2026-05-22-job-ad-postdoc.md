@@ -43,9 +43,34 @@ This 6-month full-time position offers the opportunity to contribute to Impresso
 - 6 months full time (40h/week) fixed term contract
 - Application deadline is 1 July 2026
 - Planned start date is 1 September 2026
-- Applications must include a Curriculum Vitae, a Cover letter, PhD diploma or a letter/information indicating the expected defense date, a transcript of all modules and results from university-level courses taken, and a list of publications. These must be submitted via [University of Luxembourg’s recruitment portal.](https://uniluxembourg.recruitmentplatform.com/apply.html?jobId=QMUFK026203F3VBQB7V7VV4S8-163403&langCode=en_GB). 
+- Applications must include a Curriculum Vitae, a Cover letter, PhD diploma or a letter/information indicating the expected defense date, a transcript of all modules and results from university-level courses taken, and a list of publications. These must be submitted via [University of Luxembourg’s recruitment portal.](https://uniluxembourg.recruitmentplatform.com/apply.html?jobId=QMUFK026203F3VBQB7V7VV4S8-163403&langCode=en_GB)
 
 For any open questions, please contact [Marten Düring](mailto:marten.during@uni.lu). 
+
+<a href="https://uniluxembourg.recruitmentplatform.com/apply.html?jobId=QMUFK026203F3VBQB7V7VV4S8-163403&langCode=en_GB" class="job-apply-button" target="_blank" rel="noopener">
+  Apply here
+</a>
+
+
+<style>
+.job-apply-button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 16px;
+  background-color: #0055a4;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.job-apply-button:hover {
+  background-color: #003f7a;
+  color: #ffffff;
+  text-decoration: none;
+}
+</style>
+
 
 
 The [University of Luxembourg](https://www.uni.lu/en/) is an international research university with a distinctly multilingual and interdisciplinary character. The University was founded in 2003 and counts more than 6,700 students and more than 2,000 employees from around the world. The University’s faculties and interdisciplinary centres focus on research in the areas of Computer Science and ICT Security, Materials Science, European and International Law, Finance and Financial Innovation, Education, Contemporary and Digital History. In addition, the University focuses on cross-disciplinary research in the areas of Data Modelling and Simulation as well as Health and System Biomedicine. Times Higher Education ranks the University of Luxembourg #3 worldwide for its “international outlook,” #20 in the Young University Ranking 2021 and among the top 250 universities worldwide.
