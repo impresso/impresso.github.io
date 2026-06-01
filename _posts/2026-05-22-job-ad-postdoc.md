@@ -47,30 +47,13 @@ This 6-month full-time position offers the opportunity to contribute to Impresso
 
 For any open questions, please contact [Marten Düring](mailto:marten.during@uni.lu). 
 
-<a href="https://uniluxembourg.recruitmentplatform.com/apply.html?jobId=QMUFK026203F3VBQB7V7VV4S8-163403&langCode=en_GB" class="job-apply-button" target="_blank" rel="noopener">
-  Apply here
-</a>
-
-
-<style>
-.job-apply-button {
-  display: inline-block;
-  margin-top: 16px;
-  padding: 10px 16px;
-  background-color: #0055a4;
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: 600;
-}
-
-.job-apply-button:hover {
-  background-color: #003f7a;
-  color: #ffffff;
-  text-decoration: none;
-}
-</style>
-
+{% raw %}
+<div id="job-application">
+  <button type="button" onclick="window.location.href='https://uniluxembourg.recruitmentplatform.com/apply.html?jobId=QMUFK026203F3VBQB7V7VV4S8-163403&langCode=en_GB';">
+    Apply here
+  </button>
+</div>
+{% endraw %}
 
 
 The [University of Luxembourg](https://www.uni.lu/en/) is an international research university with a distinctly multilingual and interdisciplinary character. The University was founded in 2003 and counts more than 6,700 students and more than 2,000 employees from around the world. The University’s faculties and interdisciplinary centres focus on research in the areas of Computer Science and ICT Security, Materials Science, European and International Law, Finance and Financial Innovation, Education, Contemporary and Digital History. In addition, the University focuses on cross-disciplinary research in the areas of Data Modelling and Simulation as well as Health and System Biomedicine. Times Higher Education ranks the University of Luxembourg #3 worldwide for its “international outlook,” #20 in the Young University Ranking 2021 and among the top 250 universities worldwide.
