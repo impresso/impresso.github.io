@@ -1,7 +1,82 @@
 [
   {
+    "key": "J4U8P6MT",
+    "version": 11126,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/J4U8P6MT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/J4U8P6MT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7085289,
+        "username": "rruppen",
+        "name": "Ruppen Coutaz Raphaëlle",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/rruppen",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Parker",
+      "parsedDate": "2025-08-29",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/J4U8P6MT",
+      "type": "post-weblog",
+      "citation-key": "Parker2025",
+      "container-title": "Actualités Collège des humanités | CDH",
+      "title": "Un cours EPFL-UNIL qui retrace l'histoire de la presse",
+      "URL": "https://actu.epfl.ch/news/un-cours-epfl-unil-qui-retrace-l-histoire-de-la-pr/",
+      "author": [
+        {
+          "family": "Parker",
+          "given": "Stephanie"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            29
+          ]
+        ]
+      }
+    }
+  },
+  {
     "key": "8WAZF3BP",
-    "version": 9885,
+    "version": 11121,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -35,6 +110,17 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Natale",
       "parsedDate": "2024-04-29",
       "numChildren": 0
@@ -42,8 +128,9 @@
     "csljson": {
       "id": "4709830/8WAZF3BP",
       "type": "post-weblog",
-      "title": "Vous prendrez bien un Impresso Doppio ?",
+      "citation-key": "Natale2024",
       "container-title": "Infoclio",
+      "title": "Vous prendrez bien un Impresso Doppio ?",
       "URL": "https://www.infoclio.ch/en/vous-prendrez-bien-un-impresso-doppio",
       "author": [
         {
@@ -64,7 +151,7 @@
   },
   {
     "key": "Y8AA8KLK",
-    "version": 8016,
+    "version": 11069,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -103,15 +190,27 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "numChildren": 1
     },
     "csljson": {
       "id": "4709830/Y8AA8KLK",
       "type": "webpage",
-      "title": "Magazine H",
+      "citation-key": "zotero-10117",
       "container-title": "EPFL",
-      "URL": "https://www.epfl.ch/schools/cdh/fr/magazine-h-2/",
       "language": "fr-FR",
+      "title": "Magazine H",
+      "URL": "https://www.epfl.ch/schools/cdh/fr/magazine-h-2/",
       "accessed": {
         "date-parts": [
           [
@@ -125,7 +224,7 @@
   },
   {
     "key": "9NJURG23",
-    "version": 7845,
+    "version": 11066,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -164,18 +263,31 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Natale",
       "numChildren": 1
     },
     "csljson": {
       "id": "4709830/9NJURG23",
       "type": "webpage",
-      "title": "Vous prendrez bien un Impresso Doppio ?",
-      "container-title": "infoclio.ch",
       "abstract": "Impresso Media Monitoring of the Past - Beyond Borders: Connecting Historical Newspapers and Radio - Impresso Doppio pour les intimes - est le second volet d’un projet interdisciplinaire financé par le FNS visant constituer, enrichir, et donner accès à un important corpus de journaux et d’archives radiophoniques numérisés.",
-      "URL": "https://www.infoclio.ch/en/vous-prendrez-bien-un-impresso-doppio",
-      "shortTitle": "Vous prendrez bien un Impresso Doppio ?",
+      "citation-key": "Natale",
+      "container-title": "infoclio.ch",
       "language": "en",
+      "shortTitle": "Vous prendrez bien un Impresso Doppio ?",
+      "title": "Vous prendrez bien un Impresso Doppio ?",
+      "title-short": "Vous prendrez bien un Impresso Doppio ?",
+      "URL": "https://www.infoclio.ch/en/vous-prendrez-bien-un-impresso-doppio",
       "author": [
         {
           "family": "Natale",
@@ -195,7 +307,7 @@
   },
   {
     "key": "CTG4FBAX",
-    "version": 3847,
+    "version": 10893,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -235,12 +347,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -251,9 +363,10 @@
     "csljson": {
       "id": "4709830/CTG4FBAX",
       "type": "webpage",
-      "title": "C2DH Collaborative Project Looks at 200 Years of International Newspapers",
-      "container-title": "Chronicle.lu",
       "abstract": "The Luxembourg Centre for Contemporary and Digital History (C2DH) has announced a collaborative project with other institutions “Impresso: Media monit...",
+      "citation-key": "chronicle.luC2DHCollaborativeProject",
+      "container-title": "Chronicle.lu",
+      "title": "C2DH Collaborative Project Looks at 200 Years of International Newspapers",
       "URL": "http://5.35.247.232/categorieslivingeducationresearch1/item/22535-c2dh-collaborative-project-looks-at-200-years-of-international-newspapers",
       "author": [
         {
@@ -274,7 +387,7 @@
   },
   {
     "key": "FDWK8BQR",
-    "version": 3847,
+    "version": 10893,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -314,12 +427,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -329,14 +442,15 @@
     "csljson": {
       "id": "4709830/FDWK8BQR",
       "type": "webpage",
-      "title": "Text mining in 200 years old historic newspapers from Luxembourg, Germany, France and Switzerland",
       "abstract": "The project will develop \"deep learning\" method, a subfield of machine learning, in order to correct errors in text recognition, improving the identification of people, institutions and places, and enhancing this entity recognition using external data repositories.",
+      "citation-key": "TextMining200",
+      "title": "Text mining in 200 years old historic newspapers from Luxembourg, Germany, France and Switzerland",
       "URL": "http://www.innovation.public.lu/en/actualites/2017/07/text-mining/index.html"
     }
   },
   {
     "key": "TA4YUAM2",
-    "version": 3847,
+    "version": 10894,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -376,12 +490,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -391,14 +505,15 @@
     "csljson": {
       "id": "4709830/TA4YUAM2",
       "type": "webpage",
-      "title": "Analyse critique de 200 ans de journaux historiques luxembourgeois, suisses, français et allemands",
       "abstract": "Le projet permettra de développer de nouvelles méthodes de \"deep learning\" (apprentissage machine) pour la correction d’erreurs dans la reconnaissance de texte, de travailler à une meilleure identification des noms de personnes, des institutions et des lieux ainsi qu’à l’enrichissement de ces noms propres à l’aide de référentiels de données externes.",
+      "citation-key": "AnalyseCritique200",
+      "title": "Analyse critique de 200 ans de journaux historiques luxembourgeois, suisses, français et allemands",
       "URL": "http://www.innovation.public.lu/fr/actualites/2017/07/text-mining/index.html"
     }
   },
   {
     "key": "2WZIWWHS",
-    "version": 3848,
+    "version": 10893,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -438,12 +553,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -454,19 +569,11 @@
     "csljson": {
       "id": "4709830/2WZIWWHS",
       "type": "broadcast",
-      "title": "Café Scientifique",
-      "container-title": "radio 100,7",
       "abstract": "Am C2DH geet et ëm d'Lëtzebuerger Zäitgeschicht an nei innovativ Weeër an der Fuerschung.",
+      "citation-key": "CafeScientifique2017",
+      "container-title": "radio 100,7",
+      "title": "Café Scientifique",
       "URL": "https://www.100komma7.lu/program/episode/157786/201707070915-201707070925",
-      "issued": {
-        "date-parts": [
-          [
-            2017,
-            7,
-            7
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -475,12 +582,21 @@
             10
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            7
+          ]
+        ]
       }
     }
   },
   {
     "key": "RM2T56BN",
-    "version": 3849,
+    "version": 10893,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -515,12 +631,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -531,8 +647,9 @@
     "csljson": {
       "id": "4709830/RM2T56BN",
       "type": "article-newspaper",
-      "title": "Neue Auswertungsmethoden entwickeln. Forschungsprojekt: \"Textmining\" von historischen Zeitungen aus vier Ländern",
+      "citation-key": "NeueAuswertungsmethodenEntwickeln2017",
       "container-title": "Lëtzebuerger Journal",
+      "title": "Neue Auswertungsmethoden entwickeln. Forschungsprojekt: \"Textmining\" von historischen Zeitungen aus vier Ländern",
       "issued": {
         "date-parts": [
           [
@@ -546,7 +663,7 @@
   },
   {
     "key": "4IT78BZF",
-    "version": 3849,
+    "version": 10893,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -586,12 +703,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -603,9 +720,10 @@
     "csljson": {
       "id": "4709830/4IT78BZF",
       "type": "article-newspaper",
-      "title": "Mit einem Klick durch 200 Jahre Zeitung",
-      "container-title": "Tageblatt.lu",
       "abstract": "Zeitungen werden seit ihrem Entstehen von den Meinungen und Geschehnissen geprägt, denen ihre Leser in ihrer jeweiligen Zeit ausgesetzt sind. Artikel aus alten Zeitungen können so zu Zeitfenstern für Forscher und Interessierte werden. Doch die",
+      "citation-key": "oeMitKlickDurch2017",
+      "container-title": "Tageblatt.lu",
+      "title": "Mit einem Klick durch 200 Jahre Zeitung",
       "URL": "http://www.tageblatt.lu/headlines/mit-einem-klick-durch-200-jahre-zeitung/",
       "author": [
         {
@@ -613,15 +731,6 @@
           "given": "Jessica"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2017,
-            7,
-            4
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -630,12 +739,21 @@
             10
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            4
+          ]
+        ]
       }
     }
   },
   {
     "key": "FKNGJJJC",
-    "version": 3848,
+    "version": 10893,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -675,12 +793,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -690,9 +808,10 @@
     "csljson": {
       "id": "4709830/FKNGJJJC",
       "type": "article-newspaper",
-      "title": "Critical text mining in historical newspapers from Luxembourg, Germany, France and Sw",
-      "container-title": "EurekAlert!",
       "abstract": "The aim of the project 'Impresso: Media monitoring of the past. Mining 200 years of historical newspapers' is to link digitized corpora of newspapers from Switzerland, Luxembourg, France and Germany and to develop new methods to analyse them. The project will develop 'deep learning' method, a subfield of machine learning.",
+      "citation-key": "CriticalTextMining",
+      "container-title": "EurekAlert!",
+      "title": "Critical text mining in historical newspapers from Luxembourg, Germany, France and Sw",
       "URL": "https://eurekalert.org/pub_releases/2017-07/uol-ctm070617.php",
       "accessed": {
         "date-parts": [

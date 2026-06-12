@@ -1,7 +1,363 @@
 [
   {
+    "key": "YJQB464F",
+    "version": 12606,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/YJQB464F",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/YJQB464F",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Düring et al.",
+      "parsedDate": "2025-10",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/YJQB464F",
+      "type": "speech",
+      "citation-key": "Düring2025",
+      "container-title": "Multimodal Embeddings Workshop - Impresso",
+      "note": "Type: Workshop",
+      "publisher-place": "Luxembourg",
+      "title": "Impresso Workshop #4: Multimodal Embeddings Workshop",
+      "author": [
+        {
+          "family": "Düring",
+          "given": "Marten"
+        },
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        },
+        {
+          "family": "Mello",
+          "given": "Caio"
+        },
+        {
+          "family": "Cao",
+          "given": "Vy"
+        },
+        {
+          "family": "Beelen",
+          "given": "Kaspar"
+        },
+        {
+          "family": "Opitz",
+          "given": "Juri"
+        },
+        {
+          "family": "Guido",
+          "given": "Daniele"
+        },
+        {
+          "family": "Kalyakin",
+          "given": "Roman"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "GPTMBYXT",
+    "version": 11129,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/GPTMBYXT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/GPTMBYXT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 1368619,
+        "username": "mduering",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/mduering",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Impresso team",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/GPTMBYXT",
+      "type": "speech",
+      "citation-key": "Impressoteam29",
+      "genre": "Workshop",
+      "publisher-place": "Belval",
+      "title": "Impresso Workshop #2: Beyond Boundaries. Data Labs for Historical Media Archives",
+      "author": [
+        {
+          "family": "Impresso team",
+          "given": ""
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2024"
+          ]
+        ],
+        "season": "30.10"
+      }
+    }
+  },
+  {
+    "key": "DVHTI7FB",
+    "version": 11126,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/DVHTI7FB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/DVHTI7FB",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 359502,
+        "username": "Martin Grandjean",
+        "name": "Martin Grandjean",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/martin_grandjean",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ruppen Coutaz et al.",
+      "parsedDate": "2026",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/DVHTI7FB",
+      "type": "paper-conference",
+      "citation-key": "RuppenCoutaz2026",
+      "container-title": "Radio and Newspapers: What Intersections for Media History?",
+      "publisher-place": "Lausanne",
+      "title": "Impresso Conference #2: Radio and Newspapers: What Intersections for Media History?",
+      "URL": "https://impresso.github.io/radio-and-newspapers-conference/",
+      "author": [
+        {
+          "family": "Ruppen Coutaz",
+          "given": "Raphaëlle"
+        },
+        {
+          "family": "Grandjean",
+          "given": "Martin"
+        },
+        {
+          "family": "Michelet",
+          "given": "Arthur"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "MLBHPWU2",
+    "version": 11120,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/MLBHPWU2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/MLBHPWU2",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/1486708/items/VJ6JWYAL",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 267082
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 359502,
+        "username": "Martin Grandjean",
+        "name": "Martin Grandjean",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/martin_grandjean",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ruppen Coutaz et al.",
+      "parsedDate": "2025",
+      "numChildren": 1
+    },
+    "csljson": {
+      "id": "4709830/MLBHPWU2",
+      "type": "paper-conference",
+      "citation-key": "RuppenCoutaz27",
+      "container-title": "Transmedia History: Circulations, Reconfigurations and New Methodologies",
+      "DOI": "https://impresso.github.io/transmedia/",
+      "publisher-place": "Lausanne",
+      "title": "Impresso Conference #1: Transmedia History: Circulations, Reconfigurations and New Methodologies",
+      "author": [
+        {
+          "family": "Ruppen Coutaz",
+          "given": "Raphaëlle"
+        },
+        {
+          "family": "Vallotton",
+          "given": "François"
+        },
+        {
+          "family": "Grandjean",
+          "given": "Martin"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2025"
+          ]
+        ],
+        "season": "28.01"
+      }
+    }
+  },
+  {
     "key": "FRLR9QEK",
-    "version": 9715,
+    "version": 11119,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -35,14 +391,26 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "parsedDate": "2025-12-11",
       "numChildren": 0
     },
     "csljson": {
       "id": "4709830/FRLR9QEK",
       "type": "speech",
-      "title": "Impresso Datalab: Virtual event with partners",
+      "citation-key": "2025a",
       "genre": "Online Meeting",
+      "title": "Impresso Datalab: Virtual event with partners",
       "issued": {
         "date-parts": [
           [
@@ -56,7 +424,7 @@
   },
   {
     "key": "Z5BKY2NU",
-    "version": 3949,
+    "version": 10901,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -91,12 +459,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -108,10 +476,10 @@
     "csljson": {
       "id": "4709830/Z5BKY2NU",
       "type": "speech",
-      "title": "impresso Talk #8: Visualization for newspapers corpus exploration across time and space",
+      "citation-key": "keckImpressoTalkVisualization2019",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Belval",
-      "event": "impresso Talks Series",
-      "event-place": "Belval",
+      "title": "impresso Talk #8: Visualization for newspapers corpus exploration across time and space",
       "URL": "https://www.c2dh.uni.lu/events/visualization-newspapers-corpus-exploration-across-time-and-space",
       "author": [
         {
@@ -136,7 +504,7 @@
   },
   {
     "key": "D7DMUUJ5",
-    "version": 3949,
+    "version": 10901,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -171,12 +539,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -188,10 +556,10 @@
     "csljson": {
       "id": "4709830/D7DMUUJ5",
       "type": "speech",
-      "title": "impresso Talk #9: Talking about Europe: in La Stampa, Le Monde, Die Zeit and Der Spiegel, 1940s - 2010s",
+      "citation-key": "bergaminiImpressoTalkTalking2019",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Belval",
-      "event": "impresso Talks Series",
-      "event-place": "Belval",
+      "title": "impresso Talk #9: Talking about Europe: in La Stampa, Le Monde, Die Zeit and Der Spiegel, 1940s - 2010s",
       "URL": "https://www.c2dh.uni.lu/events/talking-about-europe-la-stampa-le-monde-die-zeit-and-der-spiegel-1940s-2010s",
       "author": [
         {
@@ -216,7 +584,7 @@
   },
   {
     "key": "S9TKV5ZI",
-    "version": 3949,
+    "version": 12472,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -256,12 +624,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -273,27 +641,20 @@
     "csljson": {
       "id": "4709830/S9TKV5ZI",
       "type": "speech",
-      "title": "Digillu-Workshop: Zusammenstellung und Erschließung von Korpusdaten",
-      "genre": "Workshop",
       "abstract": "Beschreibung Methoden zur Zusammenstellung und Erschließung von Texten werden nicht nur in der Linguistik, sondern allgemein in den Geisteswissenschaften und jenseits von fachlichen Grenzen vielseitig eingesetzt, nicht zuletzt seit dem empirical turn. Ohne maschinell gestützte Herangehensweisen sind manche Textsammlungen nicht mehr produktiv für die Forschung zu greifen, zu überprüfen oder zu durchleuchten. Es wird nicht … Digillu-Workshop: Zusammenstellung und Erschließung von Korpusdaten weiterlesen →",
-      "URL": "https://sprache.hypotheses.org/digillu-workshop",
-      "shortTitle": "Digillu-Workshop",
+      "citation-key": "Ehrmann2019c",
+      "genre": "Workshop",
       "language": "de-DE",
+      "shortTitle": "Digillu-Workshop",
+      "title": "Digillu-Workshop: Zusammenstellung und Erschließung von Korpusdaten",
+      "title-short": "Digillu-Workshop",
+      "URL": "https://sprache.hypotheses.org/digillu-workshop",
       "author": [
         {
           "family": "Ehrmann",
           "given": "Maud"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2019,
-            11,
-            25
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -302,12 +663,21 @@
             27
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            25
+          ]
+        ]
       }
     }
   },
   {
     "key": "R6KA72UF",
-    "version": 3933,
+    "version": 10891,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -342,12 +712,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -359,10 +729,10 @@
     "csljson": {
       "id": "4709830/R6KA72UF",
       "type": "speech",
-      "title": "impresso Talk #3: A data-driven approach to exploring and analyzing digitized newspapers",
+      "citation-key": "weversImpressoTalkDatadriven2019",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Belval",
-      "event": "impresso Talks Series",
-      "event-place": "Belval",
+      "title": "impresso Talk #3: A data-driven approach to exploring and analyzing digitized newspapers",
       "URL": "https://www.c2dh.uni.lu/events/data-driven-approach-exploring-and-analyzing-digitized-newspapers",
       "author": [
         {
@@ -383,7 +753,7 @@
   },
   {
     "key": "XJABHHWP",
-    "version": 3933,
+    "version": 10891,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -418,12 +788,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -435,10 +805,10 @@
     "csljson": {
       "id": "4709830/XJABHHWP",
       "type": "speech",
-      "title": "impresso Talk #4: German Antisemitism and the Press during the Weimar Republic (1918-1933)",
+      "citation-key": "seulImpressoTalkGerman2019",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Belval",
-      "event": "impresso Talks Series",
-      "event-place": "Belval",
+      "title": "impresso Talk #4: German Antisemitism and the Press during the Weimar Republic (1918-1933)",
       "URL": "https://www.c2dh.uni.lu/events/german-antisemitism-and-press-during-weimar-republic-1918-1933",
       "author": [
         {
@@ -459,7 +829,7 @@
   },
   {
     "key": "DXPAGEEM",
-    "version": 3933,
+    "version": 10891,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -494,12 +864,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -511,10 +881,10 @@
     "csljson": {
       "id": "4709830/DXPAGEEM",
       "type": "speech",
-      "title": "impresso Talk #5: Beyond the tantrum: Questioning shared intuitions in historiography with emotion mining",
+      "citation-key": "vanlangeImpressoTalkTantrum2019",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Belval",
-      "event": "impresso Talks Series",
-      "event-place": "Belval",
+      "title": "impresso Talk #5: Beyond the tantrum: Questioning shared intuitions in historiography with emotion mining",
       "URL": "https://www.c2dh.uni.lu/events/beyond-tantrum-questioning-shared-intuitions-historiography-emotion-mining",
       "author": [
         {
@@ -535,7 +905,7 @@
   },
   {
     "key": "NZALY3QE",
-    "version": 3933,
+    "version": 10891,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -570,12 +940,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -587,10 +957,10 @@
     "csljson": {
       "id": "4709830/NZALY3QE",
       "type": "speech",
-      "title": "impresso Talk #6: Thus Spoke the People: Public Discourse in Belgrade's Politika on the Eve of Yugoslav Wars",
+      "citation-key": "glaurdicImpressoTalkThus2019",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Belval",
-      "event": "impresso Talks Series",
-      "event-place": "Belval",
+      "title": "impresso Talk #6: Thus Spoke the People: Public Discourse in Belgrade's Politika on the Eve of Yugoslav Wars",
       "URL": "https://www.c2dh.uni.lu/events/thus-spoke-people-public-discourse-belgrades-politika-eve-yugoslav-wars",
       "author": [
         {
@@ -615,7 +985,7 @@
   },
   {
     "key": "LZ9WWBD5",
-    "version": 3933,
+    "version": 10891,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -650,12 +1020,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -667,10 +1037,10 @@
     "csljson": {
       "id": "4709830/LZ9WWBD5",
       "type": "speech",
-      "title": "impresso Talk #7: Development of a new digital document viewer at the Luxembourg National Library",
+      "citation-key": "marschallImpressoTalkDevelopment2019",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Belval",
-      "event": "impresso Talks Series",
-      "event-place": "Belval",
+      "title": "impresso Talk #7: Development of a new digital document viewer at the Luxembourg National Library",
       "URL": "https://www.c2dh.uni.lu/events/development-new-digital-document-viewer-luxembourg-national-library",
       "author": [
         {
@@ -691,7 +1061,7 @@
   },
   {
     "key": "VDHT3RKW",
-    "version": 3935,
+    "version": 10890,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -726,12 +1096,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -743,10 +1113,10 @@
     "csljson": {
       "id": "4709830/VDHT3RKW",
       "type": "speech",
-      "title": "impresso workshop #1 - Kick-off workshop and 1st consortium meeting",
-      "publisher-place": "Lausanne",
+      "citation-key": "impressoteamImpressoWorkshopKickoff2017",
       "genre": "Workshop",
-      "event-place": "Lausanne",
+      "publisher-place": "Lausanne",
+      "title": "impresso workshop #1 - Kick-off workshop and 1st consortium meeting",
       "URL": "https://impresso-project.ch/news/2017/10/28/kick-off.html",
       "author": [
         {
@@ -767,7 +1137,7 @@
   },
   {
     "key": "MVBHJAMK",
-    "version": 3935,
+    "version": 10889,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -802,12 +1172,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -819,28 +1189,19 @@
     "csljson": {
       "id": "4709830/MVBHJAMK",
       "type": "speech",
-      "title": "impresso workshop #2 'Lavender' - Co-design, integrating digitized press in historians' workflow",
-      "publisher-place": "Beval",
-      "genre": "Workshop",
-      "event-place": "Beval",
       "abstract": "impresso Laurel workshop, École polytechnique fédérale de Lausanne (EPFL)",
-      "URL": "https://impresso-project.ch/news/2018/07/11/lavender.html",
+      "citation-key": "impressoteamImpressoWorkshopLavender2018",
+      "genre": "Workshop",
       "language": "en",
+      "publisher-place": "Beval",
+      "title": "impresso workshop #2 'Lavender' - Co-design, integrating digitized press in historians' workflow",
+      "URL": "https://impresso-project.ch/news/2018/07/11/lavender.html",
       "author": [
         {
           "family": "impresso team",
           "given": ""
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            11,
-            7
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -849,12 +1210,21 @@
             27
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            11,
+            7
+          ]
+        ]
       }
     }
   },
   {
     "key": "UI2ZFQNV",
-    "version": 3935,
+    "version": 10889,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -894,12 +1264,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -911,28 +1281,19 @@
     "csljson": {
       "id": "4709830/UI2ZFQNV",
       "type": "speech",
-      "title": "impresso workshop #2 'Laurel' - Co-design, integrating digitized press in historians' workflow",
-      "publisher-place": "Lausanne",
-      "genre": "Workshop",
-      "event-place": "Lausanne",
       "abstract": "impresso Laurel workshop, École polytechnique fédérale de Lausanne (EPFL)",
-      "URL": "https://impresso-project.ch/news/2018/07/06/laurel.html",
+      "citation-key": "impressoteamImpressoWorkshopLaurel2018",
+      "genre": "Workshop",
       "language": "en",
+      "publisher-place": "Lausanne",
+      "title": "impresso workshop #2 'Laurel' - Co-design, integrating digitized press in historians' workflow",
+      "URL": "https://impresso-project.ch/news/2018/07/06/laurel.html",
       "author": [
         {
           "family": "impresso team",
           "given": ""
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            5,
-            7
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -941,12 +1302,21 @@
             27
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            7
+          ]
+        ]
       }
     }
   },
   {
     "key": "CQC5PYLL",
-    "version": 3935,
+    "version": 10889,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -981,12 +1351,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -998,10 +1368,10 @@
     "csljson": {
       "id": "4709830/CQC5PYLL",
       "type": "speech",
-      "title": "Topic modelling applied to the European Commission digitised Archives",
-      "publisher-place": "Beval",
+      "citation-key": "hengchenTopicModellingApplied2018",
       "genre": "Workshop",
-      "event-place": "Beval",
+      "publisher-place": "Beval",
+      "title": "Topic modelling applied to the European Commission digitised Archives",
       "author": [
         {
           "family": "Hengchen",
@@ -1021,7 +1391,7 @@
   },
   {
     "key": "YK58C72R",
-    "version": 3935,
+    "version": 10889,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1061,12 +1431,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1078,28 +1448,19 @@
     "csljson": {
       "id": "4709830/YK58C72R",
       "type": "speech",
-      "title": "impresso workshop #1ter 'Buttercup' Interface co-design",
-      "publisher-place": "Belval",
-      "genre": "Workshop",
-      "event-place": "Belval",
       "abstract": "On the morning of 8 February, a group of historians using newspapers for their research at the C2DH were invited to attend a second impresso user workshop.",
-      "URL": "https://impresso-project.ch/news/2018/02/08/buttercup.html",
+      "citation-key": "impressoteamImpressoWorkshop1ter2018",
+      "genre": "Workshop",
       "language": "en",
+      "publisher-place": "Belval",
+      "title": "impresso workshop #1ter 'Buttercup' Interface co-design",
+      "URL": "https://impresso-project.ch/news/2018/02/08/buttercup.html",
       "author": [
         {
           "family": "impresso team",
           "given": ""
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            8,
-            2
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -1108,12 +1469,21 @@
             27
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            2
+          ]
+        ]
       }
     }
   },
   {
     "key": "A3G49URE",
-    "version": 3935,
+    "version": 10889,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1148,12 +1518,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1165,11 +1535,11 @@
     "csljson": {
       "id": "4709830/A3G49URE",
       "type": "speech",
-      "title": "impresso workshop #1bis 'Edelweiss': Interface co-design",
-      "publisher-place": "Basel",
+      "citation-key": "impressoteamImpressoWorkshop1bis2018",
+      "event-title": "Edelweiss",
       "genre": "Workshop",
-      "event": "Edelweiss",
-      "event-place": "Basel",
+      "publisher-place": "Basel",
+      "title": "impresso workshop #1bis 'Edelweiss': Interface co-design",
       "URL": "https://impresso-project.ch/news/2018/02/24/edelweis.html",
       "author": [
         {
@@ -1190,7 +1560,7 @@
   },
   {
     "key": "7J8QHLQP",
-    "version": 3933,
+    "version": 10889,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1225,12 +1595,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1242,10 +1612,10 @@
     "csljson": {
       "id": "4709830/7J8QHLQP",
       "type": "speech",
-      "title": "impresso Talk #1: Sequential pattern mining for robust event detection, Switzerland, Lausanne",
+      "citation-key": "doucetImpressoTalkSequential2018",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Lausanne",
-      "event": "impresso Talks Series",
-      "event-place": "Lausanne",
+      "title": "impresso Talk #1: Sequential pattern mining for robust event detection, Switzerland, Lausanne",
       "URL": "https://actu.epfl.ch/news/talk-sequential-pattern-mining-for-robust-event-de/",
       "author": [
         {
@@ -1266,7 +1636,7 @@
   },
   {
     "key": "MMHGDPHA",
-    "version": 3935,
+    "version": 10889,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1301,12 +1671,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1318,10 +1688,10 @@
     "csljson": {
       "id": "4709830/MMHGDPHA",
       "type": "speech",
-      "title": "impresso Talk #2: The Omnipresence of the Nation: Preliminary Remarks in Studying Nationhood through Digitized Newspapers",
+      "citation-key": "marjanenImpressoTalkOmnipresence2018",
+      "event-title": "impresso Talks Series",
       "publisher-place": "Belval",
-      "event": "impresso Talks Series",
-      "event-place": "Belval",
+      "title": "impresso Talk #2: The Omnipresence of the Nation: Preliminary Remarks in Studying Nationhood through Digitized Newspapers",
       "URL": "https://www.c2dh.uni.lu/projects/impresso-media-monitoring-past",
       "author": [
         {
@@ -1346,7 +1716,7 @@
   },
   {
     "key": "LLVAH6TG",
-    "version": 3935,
+    "version": 10889,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1381,12 +1751,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1398,10 +1768,10 @@
     "csljson": {
       "id": "4709830/LLVAH6TG",
       "type": "speech",
-      "title": "Community call #2: Topic Modeling in the impresso web application",
+      "citation-key": "strobelCommunityCallTopic2019",
+      "event-title": "impresso Community Call",
       "publisher-place": "Zurich",
-      "event": "impresso Community Call",
-      "event-place": "Zurich",
+      "title": "Community call #2: Topic Modeling in the impresso web application",
       "author": [
         {
           "family": "Ströbel",
@@ -1425,7 +1795,7 @@
   },
   {
     "key": "3WCED92V",
-    "version": 3936,
+    "version": 10888,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1460,12 +1830,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1477,10 +1847,10 @@
     "csljson": {
       "id": "4709830/3WCED92V",
       "type": "speech",
-      "title": "Community Call #1: Introducing the impresso Interface",
+      "citation-key": "guidoCommunityCallIntroducing2018",
+      "event-title": "impresso Community Call",
       "publisher-place": "Belval",
-      "event": "impresso Community Call",
-      "event-place": "Belval",
+      "title": "Community Call #1: Introducing the impresso Interface",
       "author": [
         {
           "family": "Guido",
@@ -1504,7 +1874,7 @@
   },
   {
     "key": "9W4CJSF4",
-    "version": 3936,
+    "version": 12457,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1544,12 +1914,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1561,33 +1931,33 @@
     "csljson": {
       "id": "4709830/9W4CJSF4",
       "type": "speech",
-      "title": "Les magazines illustrés de la première moitié du 20e siècle à l’ère des humanités numériques – Allemagne / France en regard et acteurs en dialogue",
-      "publisher-place": "Paris",
-      "event-place": "Paris",
       "abstract": "Prochaine manifestation Colloque, 29-30 Novembre 2018, Paris Les magazines illustrés de la première moitié du 20e siècle à l’ère des humanités numériques  – Allemagne / France en regard et acteurs en dialogue Die Illustrierten aus der ersten Hälfte des 20. Jahrhunderts in der Zeit der Digital Humanities – Deutschland / Frankreich im Vergleich – Akteure … Continuer la lecture de « Accueil »",
-      "URL": "https://digillu.hypotheses.org/",
+      "citation-key": "Ehrmann2018d",
       "language": "fr-FR",
+      "publisher-place": "Paris",
+      "title": "Les magazines illustrés de la première moitié du 20e siècle à l’ère des humanités numériques – Allemagne / France en regard et acteurs en dialogue",
+      "URL": "https://digillu.hypotheses.org/",
       "author": [
         {
           "family": "Ehrmann",
           "given": "Maud"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            11,
-            29
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
             2019,
             8,
             27
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            11,
+            29
           ]
         ]
       }

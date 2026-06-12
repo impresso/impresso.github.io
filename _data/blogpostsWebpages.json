@@ -1,7 +1,7 @@
 [
   {
     "key": "DGRHRR4Q",
-    "version": 9667,
+    "version": 11045,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -40,6 +40,17 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Garnett",
       "parsedDate": "2019-05-13",
       "numChildren": 1
@@ -47,24 +58,16 @@
     "csljson": {
       "id": "4709830/DGRHRR4Q",
       "type": "post-weblog",
+      "citation-key": "Garnett2019",
+      "language": "en-US",
       "title": "Collections of Digitised Newspapers as Historical Sources – Parthenos training",
       "URL": "https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/",
-      "language": "en-US",
       "author": [
         {
           "family": "Garnett",
           "given": "Vicky"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2019,
-            5,
-            13
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -73,12 +76,21 @@
             5
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            13
+          ]
+        ]
       }
     }
   },
   {
     "key": "MHKNZKRM",
-    "version": 8979,
+    "version": 10943,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -112,6 +124,17 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Bunout and Düring",
       "parsedDate": "2019",
       "numChildren": 2
@@ -119,9 +142,10 @@
     "csljson": {
       "id": "4709830/MHKNZKRM",
       "type": "post-weblog",
+      "citation-key": "Bunout2019a",
+      "language": "en-US",
       "title": "Collections of Digitised Newspapers as Historical Sources – Parthenos training",
       "URL": "https://training.parthenos-project.eu/sample-page/digital-humanities-research-questions-and-methods/collections-of-digital-newspapers-as-historical-sources/",
-      "language": "en-US",
       "author": [
         {
           "family": "Bunout",
@@ -132,13 +156,6 @@
           "given": "Marten"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -147,12 +164,19 @@
             2
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
       }
     }
   },
   {
     "key": "VV4UYKUG",
-    "version": 8979,
+    "version": 12475,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -191,6 +215,17 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Romanello and Ehrmann",
       "parsedDate": "2020-01-23",
       "numChildren": 1
@@ -198,13 +233,14 @@
     "csljson": {
       "id": "4709830/VV4UYKUG",
       "type": "post-weblog",
-      "title": "What's in our corpus?",
+      "abstract": "On the occasion of the first public release of the impresso interface, we wish to take stock of our newspaper corpus. More than a year has passed since the last corpus update…",
+      "citation-key": "Romanello2020b",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "On the occasion of the first public release of the impresso interface, we wish to take stock of our newspaper corpus. More than a year has passed since the last corpus update…",
-      "URL": "https://impresso-project.ch/news/2020/01/23/state-corpus-january2020.html",
-      "note": "Publisher: impresso",
       "language": "en",
+      "note": "Publisher: impresso",
+      "title": "What's in our corpus?",
+      "URL": "https://impresso-project.ch/news/2020/01/23/state-corpus-january2020.html",
       "author": [
         {
           "family": "Romanello",
@@ -215,15 +251,6 @@
           "given": "Maud"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2020,
-            1,
-            23
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -232,12 +259,21 @@
             23
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            23
+          ]
+        ]
       }
     }
   },
   {
     "key": "W5EB2SZQ",
-    "version": 9665,
+    "version": 10899,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -277,12 +313,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -294,12 +330,13 @@
     "csljson": {
       "id": "4709830/W5EB2SZQ",
       "type": "webpage",
-      "title": "Sunny and promising kick-off meeting",
+      "abstract": "On 24-25th of October 2017, the impresso consortium had its first workshop and kick-off meeting, hosted by DHLAB on the beautiful EPFL campus.",
+      "citation-key": "Bunout2017",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "On 24-25th of October 2017, the impresso consortium had its first workshop and kick-off meeting, hosted by DHLAB on the beautiful EPFL campus.",
-      "URL": "https://impresso-project.ch/news/2017/10/28/kick-off.html",
       "language": "en",
+      "title": "Sunny and promising kick-off meeting",
+      "URL": "https://impresso-project.ch/news/2017/10/28/kick-off.html",
       "author": [
         {
           "family": "Bunout",
@@ -310,15 +347,6 @@
           "given": "Marten"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2017,
-            10,
-            28
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -327,12 +355,21 @@
             9
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            28
+          ]
+        ]
       }
     }
   },
   {
     "key": "FHKRX2R9",
-    "version": 9665,
+    "version": 10899,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -372,12 +409,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -389,12 +426,13 @@
     "csljson": {
       "id": "4709830/FHKRX2R9",
       "type": "webpage",
-      "title": "Understanding the historians needs in their use of digitised newspapers",
+      "abstract": "On the morning of 8 February, a group of historians using newspapers for their research at the C2DH were invited to attend a second impresso user workshop.",
+      "citation-key": "Bunout2018b",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "On the morning of 8 February, a group of historians using newspapers for their research at the C2DH were invited to attend a second impresso user workshop.",
-      "URL": "https://impresso-project.ch/news/2018/02/08/buttercup.html",
       "language": "en",
+      "title": "Understanding the historians needs in their use of digitised newspapers",
+      "URL": "https://impresso-project.ch/news/2018/02/08/buttercup.html",
       "author": [
         {
           "family": "Bunout",
@@ -405,15 +443,6 @@
           "given": "Marten"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            2,
-            8
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -422,12 +451,21 @@
             9
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            8
+          ]
+        ]
       }
     }
   },
   {
     "key": "B9FDTKJD",
-    "version": 9665,
+    "version": 12471,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -467,12 +505,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -484,12 +522,13 @@
     "csljson": {
       "id": "4709830/B9FDTKJD",
       "type": "webpage",
-      "title": "Materialising the co-design with a consortium meeting in Basel",
+      "abstract": "On 22 and 23 February, the impresso consortium held a workshop at the Swiss Economic Archives in Basel, Switzerland, hosted by Irene Amstutz and Elias Kreyenbühl whom we warmly thank for their welcome.",
+      "citation-key": "Ehrmann2018c",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "On 22 and 23 February, the impresso consortium held a workshop at the Swiss Economic Archives in Basel, Switzerland, hosted by Irene Amstutz and Elias Kreyenbühl whom we warmly thank for their welcome.",
-      "URL": "https://impresso-project.ch/news/2018/02/24/edelweis.html",
       "language": "en",
+      "title": "Materialising the co-design with a consortium meeting in Basel",
+      "URL": "https://impresso-project.ch/news/2018/02/24/edelweis.html",
       "author": [
         {
           "family": "Ehrmann",
@@ -500,15 +539,6 @@
           "given": "Estelle"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            2,
-            24
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -517,12 +547,21 @@
             9
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            24
+          ]
+        ]
       }
     }
   },
   {
     "key": "BXKL55DV",
-    "version": 9665,
+    "version": 12470,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -562,12 +601,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -579,27 +618,19 @@
     "csljson": {
       "id": "4709830/BXKL55DV",
       "type": "webpage",
-      "title": "State of impresso newspaper collection - April 2018",
+      "abstract": "State of impresso newspaper collection - April 2018",
+      "citation-key": "Ehrmann2018a",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "State of impresso newspaper collection - April 2018",
-      "URL": "https://impresso-project.ch/news/2018/04/17/state-collection-april18.html",
       "language": "en",
+      "title": "State of impresso newspaper collection - April 2018",
+      "URL": "https://impresso-project.ch/news/2018/04/17/state-collection-april18.html",
       "author": [
         {
           "family": "Ehrmann",
           "given": "Maud"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            4,
-            17
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -608,12 +639,21 @@
             9
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            4,
+            17
+          ]
+        ]
       }
     }
   },
   {
     "key": "5IRH5LMY",
-    "version": 9666,
+    "version": 12476,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -653,12 +693,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -670,28 +710,20 @@
     "csljson": {
       "id": "4709830/5IRH5LMY",
       "type": "webpage",
-      "title": "Trading zone between NLP and History - a post series",
+      "abstract": "Stepping in the NLP / History trading zone: a series of posts",
+      "citation-key": "Ehrmann2018",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "Stepping in the NLP / History trading zone: a series of posts",
-      "URL": "https://impresso-project.ch/news/2018/06/11/tradingzone-umbrella.html",
-      "note": "tex.ids= ehrmann_trading_2018a",
       "language": "en",
+      "note": "tex.ids= ehrmann_trading_2018a",
+      "title": "Trading zone between NLP and History - a post series",
+      "URL": "https://impresso-project.ch/news/2018/06/11/tradingzone-umbrella.html",
       "author": [
         {
           "family": "Ehrmann",
           "given": "Maud"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            6,
-            11
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -700,12 +732,21 @@
             17
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            11
+          ]
+        ]
       }
     }
   },
   {
     "key": "HF4NW6RF",
-    "version": 9665,
+    "version": 12469,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -745,12 +786,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -762,27 +803,19 @@
     "csljson": {
       "id": "4709830/HF4NW6RF",
       "type": "webpage",
-      "title": "Named entity processing in a nutshell",
+      "abstract": "Trading zone part 1: Named Entity Processing. This blog post is part of Stepping in the NLP / History trading zone: a series of posts.",
+      "citation-key": "Ehrmann2018b",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "Trading zone part 1: Named Entity Processing. This blog post is part of Stepping in the NLP / History trading zone: a series of posts.",
-      "URL": "https://impresso-project.ch/news/2018/06/12/tradingzone-ner.html",
       "language": "en",
+      "title": "Named entity processing in a nutshell",
+      "URL": "https://impresso-project.ch/news/2018/06/12/tradingzone-ner.html",
       "author": [
         {
           "family": "Ehrmann",
           "given": "Maud"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            6,
-            12
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -791,12 +824,21 @@
             9
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            12
+          ]
+        ]
       }
     }
   },
   {
     "key": "V8U89HP8",
-    "version": 9665,
+    "version": 10899,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -836,12 +878,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -853,27 +895,19 @@
     "csljson": {
       "id": "4709830/V8U89HP8",
       "type": "webpage",
-      "title": "Text re-use detection in a nutshell",
+      "abstract": "Trading zone part 3: Text Re-use Detection. This blog post is the last part of Stepping in the NLP / History trading zone: a series of posts.",
+      "citation-key": "Romanello2018",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "Trading zone part 3: Text Re-use Detection. This blog post is the last part of Stepping in the NLP / History trading zone: a series of posts.",
-      "URL": "https://impresso-project.ch/news/2018/06/12/tradingzone-tr.html",
       "language": "en",
+      "title": "Text re-use detection in a nutshell",
+      "URL": "https://impresso-project.ch/news/2018/06/12/tradingzone-tr.html",
       "author": [
         {
           "family": "Romanello",
           "given": "Matteo"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            6,
-            12
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -882,12 +916,21 @@
             9
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            12
+          ]
+        ]
       }
     }
   },
   {
     "key": "MKHSX98A",
-    "version": 9665,
+    "version": 10899,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -927,12 +970,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -944,27 +987,19 @@
     "csljson": {
       "id": "4709830/MKHSX98A",
       "type": "webpage",
-      "title": "Moving beyond digital filters. How to integrate the digitised press into the historian’s workflow",
+      "abstract": "impresso Laurel workshop, École polytechnique fédérale de Lausanne (EPFL)",
+      "citation-key": "Bunout2018",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "impresso Laurel workshop, École polytechnique fédérale de Lausanne (EPFL)",
-      "URL": "https://impresso-project.ch/news/2018/07/06/laurel.html",
       "language": "en",
+      "title": "Moving beyond digital filters. How to integrate the digitised press into the historian’s workflow",
+      "URL": "https://impresso-project.ch/news/2018/07/06/laurel.html",
       "author": [
         {
           "family": "Bunout",
           "given": "Estelle"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            7,
-            6
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -973,12 +1008,21 @@
             9
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            6
+          ]
+        ]
       }
     }
   },
   {
     "key": "NSDPY79L",
-    "version": 9665,
+    "version": 10899,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1018,12 +1062,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1035,12 +1079,13 @@
     "csljson": {
       "id": "4709830/NSDPY79L",
       "type": "webpage",
-      "title": "A second round of co-design session in Belval. Designers and historians discussing the first interface prototype",
+      "abstract": "impresso Lavender workshop, Université du Luxembourg (Campus de Belval)",
+      "citation-key": "Bunout2018a",
       "container-title": "impresso",
       "genre": "Blogpost",
-      "abstract": "impresso Lavender workshop, Université du Luxembourg (Campus de Belval)",
-      "URL": "https://impresso-project.ch/news/2018/07/11/lavender.html",
       "language": "en",
+      "title": "A second round of co-design session in Belval. Designers and historians discussing the first interface prototype",
+      "URL": "https://impresso-project.ch/news/2018/07/11/lavender.html",
       "author": [
         {
           "family": "Bunout",
@@ -1051,15 +1096,6 @@
           "given": "Julien"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2018,
-            7,
-            11
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -1068,12 +1104,21 @@
             9
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            11
+          ]
+        ]
       }
     }
   },
   {
     "key": "A78VGQ79",
-    "version": 8979,
+    "version": 10896,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -1113,12 +1158,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -1129,8 +1174,9 @@
     "csljson": {
       "id": "4709830/A78VGQ79",
       "type": "post-weblog",
-      "title": "1st Workshop at EPFL",
       "abstract": "Or shaping the future of newspaper archive digitisation   I admit this is a rather promising title which raises many expectations. But this...",
+      "citation-key": "Stroebel",
+      "title": "1st Workshop at EPFL",
       "URL": "http://lifeofacomputationallinguist.blogspot.com/2017/10/1st-workshop-at-epfl.html",
       "author": [
         {

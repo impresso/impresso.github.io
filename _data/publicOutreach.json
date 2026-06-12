@@ -1,7 +1,7 @@
 [
   {
-    "key": "8ECE8FXY",
-    "version": 9702,
+    "key": "AQYK95WD",
+    "version": 11141,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -15,50 +15,72 @@
     },
     "links": {
       "self": {
-        "href": "https://api.zotero.org/groups/1486708/items/8ECE8FXY",
+        "href": "https://api.zotero.org/groups/1486708/items/AQYK95WD",
         "type": "application/json"
       },
       "alternate": {
-        "href": "https://www.zotero.org/groups/1486708/items/8ECE8FXY",
+        "href": "https://www.zotero.org/groups/1486708/items/AQYK95WD",
         "type": "text/html"
       }
     },
     "meta": {
       "createdByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 1368619,
+        "username": "mduering",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/mduering",
             "type": "text/html"
           }
         }
       },
-      "creatorSummary": "Ehrmann",
-      "parsedDate": "2025-05-06",
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Affan et al.",
+      "parsedDate": "2025-10",
       "numChildren": 0
     },
     "csljson": {
-      "id": "4709830/8ECE8FXY",
+      "id": "4709830/AQYK95WD",
       "type": "speech",
-      "title": "Explorer les archives de presse et de radio au-delà des frontières",
-      "publisher-place": "Geneva, Switzerland",
-      "event": "16-18 des Humanités Numériques, Geneva Library",
-      "event-place": "Geneva, Switzerland",
-      "language": "French",
+      "citation-key": "Affan2025a",
+      "container-title": "HISTOFEST. History on Full Blast",
+      "genre": "Presentation",
+      "publisher-place": "Esch-sur-Alzette, Luxembourg",
+      "title": "Impresso. Media Monitoring of the Past",
       "author": [
         {
-          "family": "Ehrmann",
-          "given": "Maud"
+          "family": "Affan",
+          "given": "Ferdaous"
+        },
+        {
+          "family": "Cao",
+          "given": "Vy"
+        },
+        {
+          "family": "Mello",
+          "given": "Caio"
+        },
+        {
+          "family": "Düring",
+          "given": "Marten"
         }
       ],
       "issued": {
         "date-parts": [
           [
             2025,
-            5,
-            6
+            10
           ]
         ]
       }
@@ -66,7 +88,7 @@
   },
   {
     "key": "5AY644ES",
-    "version": 9685,
+    "version": 11118,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -106,10 +128,11 @@
     "csljson": {
       "id": "4709830/5AY644ES",
       "type": "speech",
-      "title": "Edition d’un Jupyter notebook assisté par ChatGPT",
+      "citation-key": "Michelet2025",
+      "event-title": "Rendez-vous de l'innovation en Lettres 2025",
       "publisher-place": "Université de Lausanne",
-      "event": "Rendez-vous de l'innovation en Lettres 2025",
-      "event-place": "Université de Lausanne",
+      "title": "Edition d’un Jupyter notebook assisté par ChatGPT",
+      "URL": "https://www.unil.ch/news/1739868672208",
       "author": [
         {
           "family": "Michelet",
@@ -128,8 +151,83 @@
     }
   },
   {
+    "key": "737TBHIR",
+    "version": 12590,
+    "library": {
+      "type": "group",
+      "id": 1486708,
+      "name": "Impresso",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/1486708",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/1486708/items/737TBHIR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/1486708/items/737TBHIR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 4214855,
+        "username": "maudehrmann",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/maudehrmann",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ehrmann",
+      "parsedDate": "2025-03-04",
+      "numChildren": 0
+    },
+    "csljson": {
+      "id": "4709830/737TBHIR",
+      "type": "interview",
+      "citation-key": "Ehrmann2025a",
+      "language": "French",
+      "title": "Qu’est-ce que s’informer à l’ère de l’IA? Episode de l'Heure H - EPFL-CDH",
+      "URL": "https://www.epfl.ch/schools/cdh/fr/quest-ce-que-sinformer-a-lere-de-lia/",
+      "author": [
+        {
+          "family": "Ehrmann",
+          "given": "Maud"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            4
+          ]
+        ]
+      }
+    }
+  },
+  {
     "key": "2QA3V68K",
-    "version": 8979,
+    "version": 12468,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -163,6 +261,17 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Ehrmann, Maud",
       "parsedDate": "2019-04-15",
       "numChildren": 0
@@ -170,6 +279,7 @@
     "csljson": {
       "id": "4709830/2QA3V68K",
       "type": "speech",
+      "citation-key": "EhrmannMaud2019",
       "title": "Presentation at BCUF \"Soirées de la Rotonde\"",
       "author": [
         {

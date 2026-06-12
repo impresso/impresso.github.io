@@ -1,7 +1,7 @@
 [
   {
     "key": "55UMBZ63",
-    "version": 7006,
+    "version": 12539,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -35,18 +35,31 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Ehrmann et al.",
       "parsedDate": "2020",
       "numChildren": 1
     },
     "csljson": {
       "id": "4709830/55UMBZ63",
-      "type": "article",
-      "title": "CLEF-HIPE-2020 Shared Task Named Entity Datasets",
+      "type": "dataset",
       "abstract": "CLEF-HIPE-2020 (Identifying Historical People, Places and other Entities) is a evaluation campaign on named entity processing on historical newspapers in French, German and English, which was organized in the context of the impresso project and run as a CLEF 2020 Evaluation Lab. Data consists of manually annotated historical newspapers in French, German and English. For more information, please refer to: the CLEF-HIPE-2020 website; the CLEF-HIPE-2020-eval repository, for the necessary material to replicate the results of the shared task; the CLEF-HIPE-2020 poster presented at CLEF 2019 in Lugano, Switzerland; the CLEF-HIPE-2020 participation guidelines (v1.1); the impresso Named Entity Annotation Guidelines (v2.2.0); the CLEF-HIPE-2020 Extended Overview paper (bibtex below); the participant team CEUR working note papers; the workshop presentation video records; A second edition of HIPE is organised in 2022: https://hipe-eval.github.io/HIPE-2022/ Please cite this paper if you are using the datasets or find the shared task results relevant to your research: @inproceedings{ehrmann_extended_2020, title = {Extended {Overview} of {CLEF HIPE} 2020: {Named Entity Processing} on {Historical Newspapers}}, booktitle = {{CLEF 2020 Working Notes}. {Working Notes} of {CLEF} 2020 - {Conference} and {Labs} of the {Evaluation Forum}}, author = {Ehrmann, Maud and Romanello, Matteo and Fl{\\\"u}ckiger, Alex and Clematide, Simon}, editor = {Cappellato, Linda and Eickhoff, Carsten and Ferro, Nicola and N{\\'e}v{\\'e}ol, Aur{\\'e}lie}, year = {2020}, volume = {2696}, pages = {38}, publisher = {{CEUR-WS}}, address = {{Thessaloniki, Greece}}, doi = {10.5281/zenodo.4117566}, url = {https://infoscience.epfl.ch/record/281054}, }",
-      "URL": "https://zenodo.org/records/6046853",
+      "citation-key": "Ehrmann2020",
       "DOI": "10.5281/zenodo.6046853",
       "language": "en",
+      "source": "zenodo.org",
+      "title": "CLEF-HIPE-2020 Shared Task Named Entity Datasets",
+      "URL": "https://zenodo.org/records/6046853",
       "author": [
         {
           "family": "Ehrmann",
@@ -65,13 +78,6 @@
           "given": "Alex"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2020
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -80,12 +86,19 @@
             5
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
       }
     }
   },
   {
     "key": "3TZH9BT7",
-    "version": 7006,
+    "version": 12538,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -119,18 +132,31 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Ehrmann et al.",
       "parsedDate": "2022",
       "numChildren": 1
     },
     "csljson": {
       "id": "4709830/3TZH9BT7",
-      "type": "article",
-      "title": "HIPE-2022 Shared Task Named Entity Datasets",
+      "type": "dataset",
       "abstract": "HIPE-2022 datasets used for the HIPE 2022 shared task on named entity recognition and classification (NERC) and entity linking (EL) in multilingual historical documents.  HIPE-2022 datasets are based on six primary datasets assembled and prepared for the shared task. Primary datasets are composed of historical newspapers and classic commentaries covering ca. 200 years, feature several languages and different entity tag sets and annotation schemes. They originate from several European cultural heritage projects, from HIPE organizers’ previous research project, and from the previous HIPE-2020 campaign. Some are already published, others are released for the first time for HIPE-2022. The HIPE-2022 shared task assembles and prepares these primary datasets in HIPE-2022 release(s), which correspond to a single package composed of neatly structured and homogeneously formatted files. Primary datasets undergo the following preparation steps: conversion to the HIPE format (with correction of data inconsistencies and metadata consolidation); rearrangement or composition of train and dev splits. Please also refer to: HIPE-2022 shared task website: https://hipe-eval.github.io/HIPE-2022/ HIPE-2022 data repository: https://github.com/hipe-eval/HIPE-2022-data Here is an overview of the primary datasets: Dataset alias Readme Document type Languages Suitable for Project hipe2020 link historical newspapers de, fr, en NERC-Coarse, NERC-Fine, EL CLEF-HIPE-2020 newseye link historical newspapers de, fi, fr, sv NERC-Coarse, NERC-Fine, EL NewsEye sonar link historical newspapers de NERC-Coarse, EL SoNAR letemps link historical newspapers fr NERC-Coarse, NERC-Fine LeTemps topres19th link historical newspapers en NERC-Coarse, EL Living with Machines ajmc link classical commentaries de, fr, en NERC-Coarse, NERC-Fine, EL AjMC   The HIPE-2022 team expresses her greatest appreciation to the partnering projects, namely AJMC, impresso, HIPE-2020, Living with Machines, NewsEye, and SoNAR, for contributing their NE-annotated datasets (and hiding a part thereof for the time of the evaluation campaign).",
-      "URL": "https://zenodo.org/records/6375600",
+      "citation-key": "Ehrmann2022",
       "DOI": "10.5281/zenodo.6375600",
       "language": "en",
+      "source": "zenodo.org",
+      "title": "HIPE-2022 Shared Task Named Entity Datasets",
+      "URL": "https://zenodo.org/records/6375600",
       "author": [
         {
           "family": "Ehrmann",
@@ -149,13 +175,6 @@
           "given": "Simon"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2022
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -164,12 +183,19 @@
             5
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
       }
     }
   },
   {
     "key": "37LNC8PC",
-    "version": 7006,
+    "version": 11044,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -203,18 +229,31 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Fluckiger and Clematide",
       "parsedDate": "2021",
       "numChildren": 1
     },
     "csljson": {
       "id": "4709830/37LNC8PC",
-      "type": "article",
-      "title": "German-French Parallel Corpus of the Swiss Federal Gazette (19c.-20c.)",
+      "type": "dataset",
       "abstract": "The Federal Gazette is a journal published by the Swiss Government. The journal is a political newsletter concerned with resolutions and laws of the Swiss Confederation. First published in 1849, briefly after the foundation of the Swiss Federal State, it is provided in the following official languages: German (\"Bundesblatt\"), French (\"Feuille fédérale\"), and Italian (\"Foglio federale\"). The present parallel corpus covers the period between 1849 and 2017 for French and German. The alignment of articles across languages was done using an improved version of an UZH-ICL in-house script written by Chantal Amrhein, which leverages the Bleualign for sentences to the level of documents. For more information, please refer to explanations (https://github.com/impresso/federal-gazette#aligning-documents) and related code (https://github.com/impresso/federal-gazette).",
-      "URL": "https://zenodo.org/records/4748988",
+      "citation-key": "Fluckiger2021",
       "DOI": "10.5281/zenodo.4748988",
       "language": "en",
+      "source": "zenodo.org",
+      "title": "German-French Parallel Corpus of the Swiss Federal Gazette (19c.-20c.)",
+      "URL": "https://zenodo.org/records/4748988",
       "author": [
         {
           "family": "Fluckiger",
@@ -225,13 +264,6 @@
           "given": "Simon"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2021
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -240,12 +272,19 @@
             5
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
       }
     }
   },
   {
     "key": "G5F23MMS",
-    "version": 7191,
+    "version": 12540,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -280,12 +319,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 1368619,
-        "username": "mduering",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/mduering",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -296,12 +335,13 @@
     },
     "csljson": {
       "id": "4709830/G5F23MMS",
-      "type": "article",
-      "title": "Datasets and models for historical newspaper article segmentation",
-      "publisher": "Zenodo",
-      "version": "0.1",
-      "URL": "https://doi.org/10.5281/zenodo.3706863",
+      "type": "dataset",
+      "citation-key": "Barman2021a",
       "DOI": "10.5281/zenodo.3706863",
+      "publisher": "Zenodo",
+      "title": "Datasets and models for historical newspaper article segmentation",
+      "URL": "https://doi.org/10.5281/zenodo.3706863",
+      "version": "0.1",
       "author": [
         {
           "family": "Barman",
@@ -332,7 +372,7 @@
   },
   {
     "key": "Q8ERSCYD",
-    "version": 9667,
+    "version": 12541,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -371,19 +411,30 @@
           }
         }
       },
+      "lastModifiedByUser": {
+        "id": 7205131,
+        "username": "itsarturito",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/itsarturito",
+            "type": "text/html"
+          }
+        }
+      },
       "creatorSummary": "Barman et al.",
       "parsedDate": "2021-01",
       "numChildren": 1
     },
     "csljson": {
       "id": "4709830/Q8ERSCYD",
-      "type": "article",
-      "title": "Datasets and Models for Historical Newspaper Article Segmentation",
+      "type": "dataset",
+      "citation-key": "Barman2021b",
+      "DOI": "10.5281/zenodo.3706863",
       "publisher": "Zenodo",
       "publisher-place": "https://zenodo.org/records/3706863",
-      "event-place": "https://zenodo.org/records/3706863",
+      "title": "Datasets and Models for Historical Newspaper Article Segmentation",
       "URL": "https://zenodo.org/records/3706863",
-      "DOI": "10.5281/zenodo.3706863",
       "author": [
         {
           "family": "Barman",
@@ -402,14 +453,6 @@
           "given": "Sofia Ares"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            "2021",
-            1
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -418,12 +461,20 @@
             5
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            "2021",
+            1
+          ]
+        ]
       }
     }
   },
   {
     "key": "TQHLH8EM",
-    "version": 6995,
+    "version": 12463,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -458,12 +509,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -474,13 +525,15 @@
     },
     "csljson": {
       "id": "4709830/TQHLH8EM",
-      "type": "article",
-      "title": "Ground truth for Neue Zürcher Zeitung black letter period",
-      "publisher": "Zenodo",
+      "type": "dataset",
       "abstract": "The Neue Zürcher Zeitung (NZZ) has been publishing in black letter from its very first issue in 1780 until 1947. From this time period, we randomly sampled one frontpage per year, resulting in a total of 167 pages. We chose frontpages because they typically contain highly relevant material and because we want to make sure not to sample pages containing exclusively advertisements or stock information. During certain periods, the NZZ was published several times a day, and there were supplements, too. Due to incomplete metadata, the sampling included frontpages from supplements. We then manually corrected the pages, so it can be used as a ground truth to improve the OCR of black letter in historical newspapers.",
-      "URL": "https://zenodo.org/record/3333627",
+      "citation-key": "Ströbel2019",
       "DOI": "10.5281/zenodo.3333627",
       "language": "deu",
+      "publisher": "Zenodo",
+      "source": "Zenodo",
+      "title": "Ground truth for Neue Zürcher Zeitung black letter period",
+      "URL": "https://zenodo.org/record/3333627",
       "author": [
         {
           "family": "Ströbel",
@@ -491,15 +544,6 @@
           "given": "Simon"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2019,
-            7,
-            12
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
@@ -508,12 +552,21 @@
             27
           ]
         ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            7,
+            12
+          ]
+        ]
       }
     }
   },
   {
     "key": "DMSAY842",
-    "version": 6995,
+    "version": 12462,
     "library": {
       "type": "group",
       "id": 1486708,
@@ -548,12 +601,12 @@
         }
       },
       "lastModifiedByUser": {
-        "id": 4214855,
-        "username": "maudehrmann",
+        "id": 7205131,
+        "username": "itsarturito",
         "name": "",
         "links": {
           "alternate": {
-            "href": "https://www.zotero.org/maudehrmann",
+            "href": "https://www.zotero.org/itsarturito",
             "type": "text/html"
           }
         }
@@ -564,12 +617,14 @@
     },
     "csljson": {
       "id": "4709830/DMSAY842",
-      "type": "article",
-      "title": "Survey of digitized newspaper interfaces",
-      "publisher": "Zenodo",
+      "type": "dataset",
       "abstract": "Data set related to the survey of digitized newspaper interfaces conducted in the frame of the impresso project.",
-      "URL": "https://zenodo.org/record/3369875",
+      "citation-key": "Ehrmann2019a",
       "DOI": "10.5281/zenodo.3369875",
+      "publisher": "Zenodo",
+      "source": "Zenodo",
+      "title": "Survey of digitized newspaper interfaces",
+      "URL": "https://zenodo.org/record/3369875",
       "author": [
         {
           "family": "Ehrmann",
@@ -584,21 +639,21 @@
           "given": "Marten"
         }
       ],
-      "issued": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            16
-          ]
-        ]
-      },
       "accessed": {
         "date-parts": [
           [
             2020,
             1,
             27
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            16
           ]
         ]
       }
