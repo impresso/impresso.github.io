@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<div id="loading" class="mt-5"></div>
+<div id="conferences" class="mt-5">
+  {% assign sorted_conferences = site.conferences | sort: 'start_date' | reverse
+  %} {% for conference in sorted_conferences %}
+  <div class="conference">
+    <h3>{{ conference.title }}</h3>
+    <h5>Scheduled: {{conference.human_date}}</h5>
+    <p>{{ conference.content }}</p>
+  </div>
+  {% endfor %}
+</div>
