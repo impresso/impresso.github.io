@@ -38,6 +38,8 @@ languages:
         links:
           - title: 'Scientific Publications'
             url: /outputs/
+          - title: 'Conferences'
+            url: /outputs/conferences/
           - title: 'Blogposts & Webpages'
             url: /outputs/blogposts-webpages/
           - title: 'Datasets'
