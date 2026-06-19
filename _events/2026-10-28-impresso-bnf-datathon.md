@@ -1,7 +1,8 @@
 ---
-title: 'International Conference on Digital Media History & 5th Consortium Meeting (CN-3+WS-6)'
-date: 2023-11-29
-start_date: 2026-12-01
-end_date: 2026-12-31
-human_date: December 2026
+title: 'Impresso@BnF Datathon - Historical Media Across Languages and Modalities'
+date: 2026-06-19
+start_date: 2026-10-28
+end_date: 2026-10-30
+human_date: October 2026
 ---
+
