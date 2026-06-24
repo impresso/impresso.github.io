@@ -32,7 +32,7 @@
 </noscript>
 
 <script>
-  const timelineElement = document.querySelector('#Timeline')
+    const timelineElement = document.querySelector('#Timeline')
   const timelineActiveArea = document.querySelector('#Timeline__activeArea')
   const timelineXAxis = document.querySelector('#Timeline__xAxis')
   const timelineStartDateEl = document.querySelector('#Timeline__startDate')
@@ -44,18 +44,20 @@
   const timelineNowDate = document.querySelector('#Timeline__nowDate')
   const timelinePast = document.querySelector('#Timeline__past')
   const timelineTooltip = document.querySelector('#Timeline__tooltip')
-  const timelineTooltipMarker = document.querySelector(
-    '#Timeline__tooltipMarker'
-  )
-
+  const timelineTooltipMarker = document.querySelector('#Timeline__tooltipMarker')
+ 
   let timelineBoundingClientRect = timelineElement.getBoundingClientRect()
   let closestItem = null
+ 
   // TODO: get these constants from config
   const timelineStartDate = new Date('2023-08-01')
   const timelineEndDate = new Date('2027-09-01')
   timelineStartDateEl.innerHTML = timelineStartDate.getFullYear()
   timelineEndDateEl.innerHTML = timelineEndDate.getFullYear()
-
+ 
+  // The pivot point for the sqrt scale — always "now"
+  const timelineNowDate_val = new Date()
+ 
   const items = JSON.parse(
     '[{% for item in site.events %}{ "title":"{{item.title | escape}}", "url": "{{item.url}}", "humanDate": "{{item.human_date}}", "startDate": "{{item.start_date}}", "endDate": "{{item.end_date}}"}{% unless forloop.last %},{% endunless %}{% endfor %}]'
   ).map((item) => {
@@ -64,39 +66,46 @@
     item.disabled = true // item.endDate > new Date()
     return item
   })
-
-  const pxToMs = (px) => {
-    const timelineWidth = timelineBoundingClientRect.width
-    const timelineDuration = timelineEndDate - timelineStartDate
-    const msPerPx = timelineDuration / timelineWidth
-    return px * msPerPx
+ 
+  // ---------------------------------------------------------------------------
+  // Sqrt scale helpers
+  // Dates close to "now" are spread further apart; distant dates are compressed.
+  // The scale is: signedSqrt(date - now), mapped linearly to the pixel range.
+  // ---------------------------------------------------------------------------
+ 
+  function signedSqrt(ms) {
+    return Math.sign(ms) * Math.sqrt(Math.abs(ms))
   }
-
-  const MsToPx = (ms) => {
-    const timelineWidth = timelineBoundingClientRect.width
-    const timelineDuration = timelineEndDate - timelineStartDate
-    const pxPerMs = timelineWidth / timelineDuration
-    return ms * pxPerMs
+ 
+  // Pre-compute the sqrt-space boundaries (these are constant)
+  const sqrtStart = signedSqrt(timelineStartDate - timelineNowDate_val)
+  const sqrtEnd   = signedSqrt(timelineEndDate   - timelineNowDate_val)
+  const sqrtRange = sqrtEnd - sqrtStart
+ 
+  // Convert a Date to a pixel offset from the left edge of the timeline
+  function dateToPx(date) {
+    const w  = timelineBoundingClientRect.width
+    const sq = signedSqrt(date - timelineNowDate_val)
+    return ((sq - sqrtStart) / sqrtRange) * w
   }
-
-  const pxToDate = (px) => {
-    const ms = pxToMs(px)
-    const date = new Date(timelineStartDate.getTime() + ms)
-    return date
+ 
+  // Convert a pixel offset back to a Date (used for the hover pointer label)
+  function pxToDate(px) {
+    const w  = timelineBoundingClientRect.width
+    const sq = sqrtStart + (px / w) * sqrtRange
+    const ms = Math.sign(sq) * sq * sq
+    return new Date(timelineNowDate_val.getTime() + ms)
   }
-
-  console.log(items, timelineStartDate)
-
+ 
+  // ---------------------------------------------------------------------------
+ 
   function handleMouseMove(event) {
     const mouseX = event.clientX - timelineBoundingClientRect.left
-    const mouseY = event.clientY - timelineBoundingClientRect.top
-    // console.log('Mouse coordinates:', mouseX, mouseY)
-    const date = pxToDate(mouseX)
+ 
     if (mouseX > 0 && mouseX < timelineBoundingClientRect.width) {
+      const date = pxToDate(mouseX)
       timelinePointer.style.opacity = 1
       timelinePointer.style.transform = `translate(${mouseX}px, 0)`
-      // use en GB locale for dates in the format "Fri, 1 Jan 2021"
-
       timelinePointerDate.innerHTML =
         '<span>' +
         date.toLocaleDateString('en-GB', {
@@ -109,15 +118,17 @@
     } else {
       timelinePointer.style.opacity = 0
     }
-    // get closest item
+ 
+    // get closest item by pixel distance (works correctly with the sqrt scale)
+    const mx = event.clientX - timelineBoundingClientRect.left
     closestItem = items.reduce((prev, curr) => {
-      const prevDiff = Math.abs(prev.startDate - date)
-      const currDiff = Math.abs(curr.startDate - date)
+      const prevDiff = Math.abs(dateToPx(prev.startDate) - mx)
+      const currDiff = Math.abs(dateToPx(curr.startDate) - mx)
       return prevDiff < currDiff ? prev : curr
     })
     drawTooltipAtItem(closestItem)
   }
-
+ 
   timelineActiveArea.addEventListener('mousemove', handleMouseMove)
   timelineRail.addEventListener('mousemove', handleMouseMove)
   timelineRail.addEventListener('click', (event) => {
@@ -128,10 +139,10 @@
       window.location.href = item.url
     }
   })
-  timelineElement.addEventListener('mouseleave', (event) => {
+  timelineElement.addEventListener('mouseleave', () => {
     timelinePointer.style.opacity = 0
   })
-  timelineElement.addEventListener('click', (event) => {
+  timelineElement.addEventListener('click', () => {
     if (closestItem && !closestItem.disabled) {
       window.location.href = closestItem.url
     }
@@ -141,57 +152,51 @@
     drawTimeline()
     drawAxis()
   })
-
+ 
   function drawTooltipAtItem(item) {
-    // show tooltip
     timelineTooltip.innerHTML = `
       <div class="Timeline__tooltip__title">${item.title}</div>
       <div class="Timeline__tooltip__date">${item.humanDate}</div>
     `
-    const itemStartPx = MsToPx(item.startDate - timelineStartDate)
-    const itemEndPx = MsToPx(timelineEndDate - item.endDate)
-    const xTooltip = Math.min(
+    const itemStartPx = dateToPx(item.startDate)
+    const itemEndPx   = dateToPx(item.endDate)
+    const tooltipX    = Math.min(
       timelineBoundingClientRect.width - 200,
       itemStartPx - 3
     )
-
+ 
     timelineTooltip.style.opacity = 1
-    timelineTooltip.style.transform = `translate(${xTooltip}px, 0)`
-
+    timelineTooltip.style.transform = `translate(${tooltipX}px, 0)`
+ 
     timelineTooltipMarker.style.opacity = 1
-    timelineTooltipMarker.style.transform = `translate(${itemStartPx - 3}px, 0)`
-    timelineTooltipMarker.style.width = `${
-      timelineBoundingClientRect.width - itemStartPx - itemEndPx + 3
-    }px`
+    timelineTooltipMarker.style.transform = `translate(${itemStartPx}px, 0)`
+    timelineTooltipMarker.style.width = `${Math.max(2, itemEndPx - itemStartPx)}px`
   }
-
+ 
   function drawAxis() {
-    // get years between start and end
     const years = []
     let year = timelineStartDate.getFullYear() + 1
     while (year <= timelineEndDate.getFullYear()) {
       years.push(year)
       year++
     }
-    // remove all children
     while (timelineXAxis.firstChild) {
       timelineXAxis.removeChild(timelineXAxis.firstChild)
     }
-    // draw years as divs
     years.forEach((year) => {
       const yearEl = document.createElement('div')
       yearEl.classList.add('Timeline__year')
       yearEl.innerHTML = '<span>' + year + '</span>'
-      yearEl.style.left =
-        MsToPx(new Date(year, 0, 1) - timelineStartDate) + 'px'
+      // Position each year tick using the sqrt scale
+      yearEl.style.left = dateToPx(new Date(year, 0, 1)) + 'px'
       timelineXAxis.appendChild(yearEl)
     })
   }
-
+ 
   function drawTimeline() {
-    // draw now line
-    const now = new Date()
-    const nowPx = MsToPx(now - timelineStartDate)
+    const now   = new Date()
+    const nowPx = dateToPx(now)
+ 
     timelineNow.style.left = nowPx + 'px'
     timelineNowDate.innerHTML =
       '<span>' +
@@ -202,37 +207,43 @@
         year: 'numeric',
       }) +
       '</span>'
-
-    // draw past rectangle
-    timelinePast.style.left = 0
-    timelinePast.style.right = MsToPx(timelineEndDate - now) + 'px'
-    // draw items
-    // remove all children
+ 
+    // Shade everything to the left of "now"
+    timelinePast.style.left  = '0'
+    timelinePast.style.right = (timelineBoundingClientRect.width - nowPx) + 'px'
+ 
     while (timelineRail.firstChild) {
       timelineRail.removeChild(timelineRail.firstChild)
     }
-    // draw rectangles as divs
+ 
     items.forEach((item, i) => {
+      const x1 = dateToPx(item.startDate)
+      const x2 = dateToPx(item.endDate)
       const itemEl = document.createElement('div')
       itemEl.classList.add('Timeline__item')
       if (item.disabled) {
         itemEl.classList.add('disabled')
       }
       itemEl.setAttribute('data-idx', i)
-      itemEl.style.left = MsToPx(item.startDate - timelineStartDate) + 'px'
-      itemEl.style.right = MsToPx(timelineEndDate - item.endDate) + 'px'
+      // Use left + width instead of left + right so the sqrt warping is applied
+      // to both edges independently
+      itemEl.style.left  = x1 + 'px'
+      itemEl.style.width = Math.max(2, x2 - x1) + 'px'
       timelineRail.appendChild(itemEl)
     })
   }
+ 
   drawTimeline()
   drawAxis()
-  // # get closet item at today's date
+ 
+  // Show tooltip for the event closest to today on page load
   const todayClosestItem = items.reduce((prev, curr) => {
     const prevDiff = Math.abs(prev.startDate - new Date())
     const currDiff = Math.abs(curr.startDate - new Date())
     return prevDiff < currDiff ? prev : curr
   })
   drawTooltipAtItem(todayClosestItem)
+
 </script>
 <style>
   #Timeline {
