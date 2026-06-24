@@ -2,8 +2,12 @@
   <h4>{{event.title}}</h4>
   {{event.human_date}}
   <blockquote>
-  {% if event.ics %}
-  {% include addtocalendar.html %}
-  {% endif %}
+    {% if event.ics %} {% include addtocalendar.html %} {% endif %}
+    {% if event.excerpt %}
+    <p>{{event.excerpt}}</p>
+    {% endif %}
+    {% if event.external_url %}
+    <p><a href="{{event.external_url}}" target="_blank">→ link</a></p>
+    {% endif %}
   </blockquote>
 </div>
