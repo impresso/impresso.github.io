@@ -59,11 +59,19 @@ collections:
   announcements:
     output: true
     permalink: /:collection/:path/
+  conferences:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
       path: ''
       type: events
+    values:
+      layout: event
+  - scope:
+      path: ''
+      type: conferences
     values:
       layout: event
   - scope:
