@@ -10,7 +10,7 @@ figure:
   - src: posts/cn3-thumbnail.png
 ---
 
-The Impresso project, with the support of the [History Department at the University of Lausanne](), invites submissions for *Beyond Borders: Futures of Digitised Historical Media Collections for Research and Teaching*, a hybrid conference taking place in **Lausanne** and online on **28 and 29 January 2027**.
+The Impresso project, with the support of the [History Department at the University of Lausanne](https://www.unil.ch/unil/en/home/menuinst/universite/histoire.html), invites submissions for *Beyond Borders: Futures of Digitised Historical Media Collections for Research and Teaching*, a hybrid conference taking place in **Lausanne** and online on **28 and 29 January 2027**.
 
 <!-- more -->
 
@@ -112,7 +112,7 @@ The conference will bring together researchers, teachers, developers, cultural h
 
 ## Organisers
 
-On behalf of the Impresso Project: [Marten Düring](), [Cao Vy](), [Caio Mello](), [Ferdaous Affan](), [Maud Ehrmann](), [Raphaelle Ruppen Coutaz](), [Kaspar Beelen]()
+On behalf of the Impresso Project: [Marten Düring](/people/marten-duering/), [Cao Vy](/people/cao-vy/), [Caio Mello](/people/caio-mello/), [Ferdaous Affan](/people/ferdaous-affan/), [Maud Ehrmann](/people/maud-ehrmann/), [Raphaelle Ruppen Coutaz](/people/raphaelleruppen/), [Kaspar Beelen](/people/kaspar-beelen/)
 
 
 For enquiries, please contact [info@impresso-project.ch](mailto:info@impresso-project.ch).
