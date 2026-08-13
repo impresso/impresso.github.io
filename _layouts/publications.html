@@ -6,10 +6,9 @@ layout: page
 <div id="loading" class="mt-5">Loading...</div>
 <div id="bibliography" class="mt-5"></div>
 
-<script></script>
-<script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
+<script type="module">
+  import Cite from 'https://esm.sh/citation-js@0.8.2'
 
-<script async>
   function log (msg) {
     document.getElementById('loading').innerHTML = msg
   }
@@ -17,7 +16,6 @@ layout: page
   const cls_style_url =  '{{ '/assets/cls/styles/' | relative_url }}/chicago-fullnote-bibliography.csl'
   const items = {{ bib_json_items | jsonify }};
 
-  const Cite = require('citation-js')
   const config = Cite.plugins.config.get('@csl')
 
   log('cls_style to load' + cls_style_url)
@@ -26,7 +24,7 @@ layout: page
     .then(response => response.text())
     .then(template => {
       log('loaaded' + templateName)
-      config.templates.add(templateName, template)
+      config.styles.add(templateName, template)
       log('')
       const sortedItems = items.sort((a, b) => {
         if(!a.meta.parsedDate) {
