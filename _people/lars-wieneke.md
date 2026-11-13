@@ -1,6 +1,6 @@
 ---
 category: team
-group: advisor
+group: former-collaborator
 ordering: 05-wieneke
 picture: /assets/images/lars-wieneke.jpg
 subheading: Head of digital research infrastructure, C²DH

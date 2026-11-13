@@ -1,6 +1,6 @@
 ---
 category: team
-group: collaborator
+group: former-collaborator
 ordering: 05-opitz
 picture: /assets/images/juri.jpeg
 subheading: Post-doctoral researcher, UZH-CL

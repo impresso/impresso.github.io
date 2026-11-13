@@ -12,4 +12,4 @@ Ferdaous is a PhD candidate at the Centre for Contemporary and Digital History (
 
 Within Impresso, Ferdaous provides one of the historical case studies, contributes to the co-design of the Impresso web app and data lab as well as to the project’s dissemination efforts.
 
-[C²DH profile](https://www.c2dh.uni.lu/people/ferdaous-affan) [ResearchGate](https://www.researchgate.net/profile/Ferdaous-Affan-2)
+[C²DH profile](https://www.c2dh.uni.lu/people/ferdaous-affan) [ResearchGate](https://www.researchgate.net/profile/Ferdaous-Affan-2) [Linkedin](www.linkedin.com/in/ferdaous-affan-22713b1b2)

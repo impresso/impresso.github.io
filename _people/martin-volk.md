@@ -1,6 +1,6 @@
 ---
 category: team
-group: advisor
+group: former-collaborator
 ordering: 03-volk
 picture: /assets/images/martin-volk.jpg
 title: Martin Volk, Prof.
