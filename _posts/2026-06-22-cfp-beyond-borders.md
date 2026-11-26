@@ -98,9 +98,9 @@ All submissions must include at least five academic references and must be writt
 
 Accepted long papers will be allocated 20-minute slots and short papers 15-minute slots, including discussion time. All sessions will be livestreamed, and remote presenters may speak live by video link. Recordings will be available to registered participants after the conference.
 
-Selected papers will be invited for publication in a peer-reviewed venue. Further information about the publication venue will be provided by 31 October 2026.
+Selected papers will be invited for publication in a peer-reviewed venue. Further information about the publication venue will be provided at a later date.
 
-The conference will take place on the campuses of EPFL and the University of Lausanne. Registration details and fees, including reduced rates for early-career researchers and participants with limited travel budgets, will be announced by 31 October 2026. Online participation will be available for all sessions.
+The conference will take place on the campuses of EPFL and the University of Lausanne. There is no registration fee. At present, we are unable to guarantee financial support for travel. Online participation will be available for all sessions.
 
 ## About the conference
 
@@ -112,7 +112,7 @@ The conference will bring together researchers, teachers, developers, cultural h
 
 ## Organisers
 
-On behalf of the Impresso Project: [Marten Düring](/people/marten-duering/), [Cao Vy](/people/cao-vy/), [Caio Mello](/people/caio-mello/), [Ferdaous Affan](/people/ferdaous-affan/), [Maud Ehrmann](/people/maud-ehrmann/), [Raphaelle Ruppen Coutaz](/people/raphaelleruppen/), [Kaspar Beelen](/people/kaspar-beelen/)
+On behalf of the Impresso Project: [Marten Düring](/people/marten-duering/), [Cao Vy](/people/cao-vy/), [Caio Mello](/people/caio-mello/), [Ferdaous Affan](/people/ferdaous-affan/), [Aine Poland](/people/aine-poland/), [Maud Ehrmann](/people/maud-ehrmann/), [Raphaelle Ruppen Coutaz](/people/raphaelleruppen/), [Kaspar Beelen](/people/kaspar-beelen/)
 
 
 For enquiries, please contact [info@impresso-project.ch](mailto:info@impresso-project.ch).
