@@ -8,8 +8,8 @@ title: Arthur Michelet, M.A.
 status: publish
 ---
 
-Arthur is a PhD candidate in Contemporary History at the University of Lausanne, who’s interested in the relation of banks and public spheres, as well as the development of multinational banks (MNBs). His ongoing PhD thesis focuses on collective public relations and mass-media publicity in Swiss banking (1913–1991).
+Arthur explores the relationship between media, news, and organised business interests in the twentieth century. His PhD uses qualitative archive research and applies computational techniques to digitised media sources to study the news coverage and public relations of the Swiss Bankers Association (1910–1990).
 
-In Impresso, he provides historical research and contributes to the design of the web app and the data lab.
+Within *impresso*, Arthur provides one of the historical case studies, contributes to the co-design of the web app and the data lab, and participates in the edition of public jupyter notebooks.
 
-[Unil profile](https://www.unil.ch/hist/home/menuinst/collaborateurrices/histoire-contemporaine-1/michelet-arthur.html?url_params=-v_faculte=30-v_unite=100-v_personne=1196919-v_publication=false-v_menu=coord-mode=fiche&pubsIdParam=0dfca0f32bcb4ecca87d12c0e69053a6&showFrom=auto) [LinkedIn](https://www.linkedin.com/in/arthur-michelet-aa4326248/?originalSubdomain=ch) [ResearchGate](https://www.researchgate.net/profile/Arthur-Michelet-2)
+[Webite](https://www.arthurmichelet.com) [LinkedIn](https://www.linkedin.com/in/arthur-michelet-aa4326248/?originalSubdomain=ch)
